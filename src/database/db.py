@@ -628,16 +628,46 @@ def count_clips_by_status(conn: sqlite3.Connection) -> Dict[str, int]:
     return {row["status"]: int(row["n"]) for row in rows}
 
 
+def _resume_status_for(conn: sqlite3.Connection, video_row_id: int) -> "VideoStatus":
+    """Which status a FAILED video should return to on retry.
+
+    Always resuming to DISCOVERED (the original behaviour) is correct but
+    wasteful when the video got further than that before failing: a video
+    that failed at render or publish still has CANDIDATE clips on record
+    (backups the earlier attempt never tried — RENDERED/REJECTED clips are
+    history and are deliberately never reset, see publishing/runner.py), and
+    one that failed at analysis still has its transcript. Resuming to the
+    latest status that still has unconsumed work avoids re-downloading or
+    re-transcribing for nothing. Falls all the way back to DISCOVERED only
+    when neither is true.
+    """
+    has_candidate = conn.execute(
+        "SELECT 1 FROM clips WHERE source_video_id = ? AND status = ? LIMIT 1",
+        (video_row_id, ClipStatus.CANDIDATE.value),
+    ).fetchone()
+    if has_candidate:
+        return VideoStatus.ANALYZED
+    row = conn.execute(
+        "SELECT transcript_path FROM source_videos WHERE id = ?", (video_row_id,)
+    ).fetchone()
+    if row and row["transcript_path"]:
+        return VideoStatus.TRANSCRIBED
+    return VideoStatus.DISCOVERED
+
+
 def retry_failed(
     conn: sqlite3.Connection,
     video_id: Optional[str] = None,
     reset_retry_count: bool = False,
 ) -> List[str]:
-    """Return FAILED videos to DISCOVERED so the next pass picks them up.
+    """Return FAILED videos to the next pass that can still use them.
 
     Spec section 29 ("retry failed jobs") and section 23 (every step must be
     retryable). With ``video_id`` it targets one video; without, every FAILED
-    one.
+    one. Where each video resumes depends on what is still on record for it
+    — see `_resume_status_for` — rather than unconditionally DISCOVERED, so
+    a video that only failed to publish does not pay for a fresh download,
+    transcription and analysis pass it does not need.
 
     ``reset_retry_count`` zeroes the counter, which is the only way to revive
     a video that has already exhausted its retry ceiling. Off by default:
@@ -659,11 +689,12 @@ def retry_failed(
     revived: List[str] = []
     with transaction(conn):
         for row in rows:
+            resume_status = _resume_status_for(conn, row["id"])
             conn.execute(
                 "UPDATE source_videos SET status = ?, status_detail = '', "
                 "  retry_count = CASE WHEN ? THEN 0 ELSE retry_count END "
                 "WHERE id = ?",
-                (VideoStatus.DISCOVERED.value, 1 if reset_retry_count else 0, row["id"]),
+                (resume_status.value, 1 if reset_retry_count else 0, row["id"]),
             )
             revived.append(row["youtube_video_id"])
     return revived
@@ -1053,3 +1084,156 @@ def count_publications_by_status(
         (platform,),
     ).fetchall()
     return {row["status"]: int(row["n"]) for row in rows}
+
+
+# --- phase 9: daily cap, cross-video selection, manual override -------------
+
+
+def clips_published_today(conn: sqlite3.Connection) -> int:
+    """How many distinct clips have gone PUBLISHED on any platform today.
+
+    Counts clips, not platform rows: a clip live on YouTube AND Instagram
+    spends exactly one of the day's slots, not two. Compared against
+    ``publishing.max_per_day`` to enforce spec section 12's "one clip, once
+    a day" — the real cap, not the single-run ceiling `max_videos_per_run`
+    already provided.
+    """
+    row = conn.execute(
+        "SELECT COUNT(DISTINCT clip_id) AS n FROM publications "
+        "WHERE status = ? AND date(published_at) = date('now')",
+        (PublicationStatus.PUBLISHED.value,),
+    ).fetchone()
+    return int(row["n"]) if row else 0
+
+
+def clip_has_publication_today(conn: sqlite3.Connection, clip_id: int) -> bool:
+    """Whether this clip already reached PUBLISHED on some platform today.
+
+    Used to tell a continuation (the same clip finishing a second platform
+    after a crash or an earlier partial run) from a brand-new clip: a
+    continuation does not spend another of the day's slots, since
+    `clips_published_today` already counts this clip once either way.
+    """
+    row = conn.execute(
+        "SELECT 1 FROM publications WHERE clip_id = ? AND status = ? "
+        "AND date(published_at) = date('now') LIMIT 1",
+        (clip_id, PublicationStatus.PUBLISHED.value),
+    ).fetchone()
+    return row is not None
+
+
+def videos_ready_for_publish(
+    conn: sqlite3.Connection, limit: int = 1, max_retries: int = 3
+) -> List[sqlite3.Row]:
+    """ANALYZED videos, ordered by their own best CANDIDATE clip's score.
+
+    This is the cross-video selection spec section 12 asks for: the clip
+    picked first across every eligible video is the single best-scored
+    candidate anywhere, not just the best one in whichever video happens to
+    sort first by recency (`videos_pending_render`'s ordering, kept as-is
+    for `render`'s manual-inspection role). `publish` uses this instead so
+    that the daily cap is spent on the best clip available, not the oldest
+    video.
+    """
+    return list(
+        conn.execute(
+            "SELECT sv.*, s.name AS source_name, best.score AS best_candidate_score "
+            "FROM source_videos sv "
+            "JOIN sources s ON s.id = sv.source_id "
+            "JOIN (SELECT source_video_id, MAX(score) AS score FROM clips "
+            "      WHERE status = ? GROUP BY source_video_id) best "
+            "  ON best.source_video_id = sv.id "
+            "WHERE sv.status = ? AND s.enabled = 1 AND sv.retry_count < ? "
+            "ORDER BY best.score DESC, sv.id ASC "
+            "LIMIT ?",
+            (ClipStatus.CANDIDATE.value, VideoStatus.ANALYZED.value, max_retries, limit),
+        ).fetchall()
+    )
+
+
+def approve_clip(conn: sqlite3.Connection, clip_id: int) -> bool:
+    """Force one CANDIDATE clip to be tried first for its video.
+
+    Spec section 29's manual override. Implemented as a score boost above
+    every sibling CANDIDATE rather than a separate priority flag: render
+    (`candidate_clips_for_render`) and the cross-video publish selection
+    above both already order by score, so boosting the score is the one
+    change that makes both pick it first, with no second ordering rule to
+    keep in sync. Returns False if the clip does not exist or is no longer
+    a CANDIDATE (already rendered, rejected, or published).
+    """
+    row = conn.execute(
+        "SELECT source_video_id, status FROM clips WHERE id = ?", (clip_id,)
+    ).fetchone()
+    if row is None or row["status"] != ClipStatus.CANDIDATE.value:
+        return False
+    with transaction(conn):
+        top = conn.execute(
+            "SELECT MAX(score) AS s FROM clips WHERE source_video_id = ?",
+            (row["source_video_id"],),
+        ).fetchone()
+        new_score = (top["s"] or 0.0) + 1.0
+        conn.execute(
+            "UPDATE clips SET score = ?, status_detail = ? WHERE id = ?",
+            (new_score, "manually approved by operator", clip_id),
+        )
+    return True
+
+
+def skip_clip(
+    conn: sqlite3.Connection, clip_id: int, reason: str = "manually skipped by operator"
+) -> bool:
+    """Manually reject one CANDIDATE clip (spec section 29).
+
+    Same terminal effect as `reject_clip` (render tries the next backup
+    instead), but guarded by status in the UPDATE itself rather than taking
+    any clip id unconditionally — `reject_clip` is only ever called by the
+    render pipeline on a clip it just tried, where CANDIDATE is already
+    guaranteed; a manual command has no such guarantee and must not be able
+    to overwrite a RENDERED or PUBLISHED clip's status by mistake.
+    """
+    with transaction(conn):
+        cur = conn.execute(
+            "UPDATE clips SET status = ?, status_detail = ? "
+            "WHERE id = ? AND status = ?",
+            (ClipStatus.REJECTED.value, reason, clip_id, ClipStatus.CANDIDATE.value),
+        )
+    return cur.rowcount > 0
+
+
+class ClipTimestampConflict(Exception):
+    """Raised by `override_clip_timestamps` when the requested start/end is
+    already used by another clip on record for the same video."""
+
+
+def override_clip_timestamps(
+    conn: sqlite3.Connection, clip_id: int, start_ms: int, end_ms: int
+) -> bool:
+    """Manually adjust a CANDIDATE clip's boundaries (spec section 29).
+
+    Only on CANDIDATE clips — a RENDERED/PUBLISHED one's timestamps are
+    history, not a draft. Raises ValueError for a non-positive range (the
+    schema's own CHECK constraint) and ClipTimestampConflict if another
+    clip for the same video already occupies that exact range (the schema's
+    UNIQUE constraint) — both reported clearly rather than surfacing a raw
+    sqlite3.IntegrityError to the CLI.
+    """
+    if end_ms <= start_ms:
+        raise ValueError("end_ms must be greater than start_ms")
+    row = conn.execute(
+        "SELECT status FROM clips WHERE id = ?", (clip_id,)
+    ).fetchone()
+    if row is None or row["status"] != ClipStatus.CANDIDATE.value:
+        return False
+    try:
+        with transaction(conn):
+            conn.execute(
+                "UPDATE clips SET start_ms = ?, end_ms = ? WHERE id = ?",
+                (start_ms, end_ms, clip_id),
+            )
+    except sqlite3.IntegrityError as exc:
+        raise ClipTimestampConflict(
+            "another clip for this video already has start_ms=%d end_ms=%d"
+            % (start_ms, end_ms)
+        ) from exc
+    return True

@@ -1,8 +1,22 @@
-name: publish
+name: daily_clip
 
-# Render AND upload the best candidate clip for each ANALYZED video —
-# YouTube Shorts (Phase 6) and Instagram Reels (Phase 7). TikTok (Phase 8) is
-# not implemented and is always skipped, regardless of config.
+# The real thing spec section 12 asks for: render AND upload the single BEST
+# candidate clip across every ANALYZED video, once a day — YouTube Shorts
+# (Phase 6) and Instagram Reels (Phase 7). TikTok (Phase 8) is not
+# implemented and is always skipped, regardless of config.
+#
+# Phase 9 made the cap and the cross-video selection real, enforced in the
+# database rather than by this workflow's cron cadence:
+#   - db.clips_published_today is checked against publishing.max_per_day
+#     before anything is rendered — a second run the same day (a manual
+#     dispatch, a retry, a slow cron) cannot publish past the cap.
+#   - db.videos_ready_for_publish orders ANALYZED videos by their own best
+#     CANDIDATE clip's score, so the slot is spent on the best clip
+#     anywhere, not just the one in whichever video sorts first by recency.
+# This file was named `publish.yml` before Phase 9 landed, when neither of
+# those existed yet and the cron was the only thing bounding how much this
+# workflow could post in a day — see docs/SPEC-CONFORMANCE.md section 5 for
+# that history.
 #
 # Render and publish are ONE job for the same reason download+transcribe are
 # one job in `ingest`: the rendered file only exists inside this run, so
@@ -20,14 +34,11 @@ name: publish
 
 on:
   schedule:
-    # Once a day, not every few hours like the earlier stages. There is no
-    # Phase 9 yet to pick ONE clip across every video and cap the day at it
-    # (spec section 12) — `max_videos_per_run: 1` caps a single RUN to one
-    # clip, but nothing stops a video becoming ANALYZED between runs and
-    # getting published a few hours later too. A daily cron is a blunt but
-    # honest stand-in until that selection logic exists: it bounds this to
-    # roughly one real post per platform per day without pretending to be
-    # the real thing. Revisit once Phase 9 lands.
+    # Once a day, matching this workflow's whole purpose: one clip, the
+    # best one, per day. The daily cap no longer depends on this cadence
+    # (it is enforced in the database either way), so this could run more
+    # often without risk of over-publishing — kept daily because that is
+    # literally what "daily_clip" means, not as a safety measure.
     - cron: "9 8 * * *"
   workflow_dispatch:
     inputs:
@@ -37,7 +48,7 @@ on:
         default: false
 
 concurrency:
-  group: publish
+  group: daily_clip
   cancel-in-progress: false
 
 permissions:
@@ -47,7 +58,7 @@ permissions:
   contents: write
 
 jobs:
-  publish:
+  daily_clip:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:

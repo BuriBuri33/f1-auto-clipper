@@ -105,11 +105,12 @@ Also done while firming up for Phase 3:
       (`start_ms`/`end_ms`, two config files, absent `daily_clip.yml`,
       added modules)
 
-Still open against the spec, both deferred by phase rather than overlooked:
+Still open against the spec, deferred by phase rather than overlooked:
 
 - [ ] §25 operator notification on free-tier exhaustion (currently relies on
-      GitHub's failed-workflow email) — Phase 9
-- [ ] §5 `daily_clip.yml` — Phase 5/6, when there is something for it to run
+      GitHub's failed-workflow email) — not scheduled against a phase
+- [x] §5 `daily_clip.yml` — done in Phase 9 (`publish.yml` renamed, now with
+      real database-enforced selection behind it)
 
 ## Phase 3 — Transcription ✅
 
@@ -277,9 +278,38 @@ explicit request, not a technical blocker. `publish` skips TikTok
 unconditionally regardless of `publishing.tiktok` in config, same as
 `status` already reports it as not implemented.
 
-## Phase 9 — Full automation
+## Phase 9 — Full automation ✅
 
-- [ ] `daily_clip.yml`, max 1 published clip/day enforced in the database
-- [ ] `retry` command for failed jobs; manual approve/skip/override of
-      candidates and timestamps
-- [ ] Status summary in the Actions run page for the whole pipeline
+- [x] `daily_clip.yml` — `publish.yml` renamed, now backed by real
+      enforcement rather than just a cron cadence: `db.clips_published_today`
+      vs `publishing.max_per_day`, checked before anything renders; a clip
+      already PUBLISHED on one platform today may still finish a second
+      platform past the cap (`db.clip_has_publication_today`), since that is
+      not a new clip and does not spend a second slot
+- [x] Cross-video selection: `db.videos_ready_for_publish` orders every
+      ANALYZED video by its own best CANDIDATE clip's score (spec section
+      12), so the day's slot goes to the best clip anywhere, not just the
+      best one in whichever video sorts first by recency
+- [x] `retry` command for failed jobs — now resumes each video at the
+      latest stage still on record (ANALYZED if a CANDIDATE clip remains,
+      TRANSCRIBED if only the transcript survives, DISCOVERED otherwise)
+      instead of unconditionally restarting the whole pipeline
+- [x] Manual approve/skip/override of candidates and timestamps: `clips
+      VIDEO_ID` lists a video's clips, `approve-clip CLIP_ID` forces one to
+      the front of its video's render order, `skip-clip CLIP_ID` rejects
+      one manually, `edit-clip CLIP_ID --start S --end S` retimes one —
+      all four refuse anything that is not still CANDIDATE, since a
+      RENDERED/PUBLISHED clip's record is history (LIMITS.md §9b)
+- [x] Status summary in the Actions run page for the whole pipeline — this
+      already existed (every workflow's final step runs `status`, which
+      covers every stage, not just its own); the one dishonest line
+      (`_todays_clip_state`) now reports the real cap instead of a
+      placeholder
+
+**Deliberately not done:** a title override (spec section 29 asks for
+start/end and approve/skip; title generation has no CLI override — same gap
+`docs/SPEC-CONFORMANCE.md` section 29 already tracked before this phase).
+Operator notification on free-tier exhaustion (§25) also remains on GitHub's
+own failed-workflow email, not addressed here — it was never one of this
+phase's three checklist items above, despite an earlier doc cross-reference
+suggesting otherwise (now corrected).

@@ -7,16 +7,18 @@ publish one clip per day to YouTube Shorts, Instagram Reels and TikTok.
 Designed to run entirely on free tiers (target: **₹0/month** recurring) and
 entirely in CI, so nothing depends on your computer being on.
 
-> **Status: Phases 1-7 of 9 complete** (TikTok/Phase 8 deliberately deferred)
-> — source monitoring, new-video detection, gated downloading, transcription,
-> clip candidate selection, rendering, and publishing to YouTube Shorts and
-> Instagram Reels. **YouTube and Instagram publishing are implemented and
-> unit-tested against each platform's documented protocol, but NOT yet
-> verified against a live account** — no OAuth client or Instagram
-> Professional account was available to test with. Run `python -m src.main
-> doctor` once you have credentials, before trusting this the way every
-> other phase's measurements have been earned. See [docs/LIMITS.md
-> §9](docs/LIMITS.md). See [TODO.md](TODO.md).
+> **Status: Phases 1-7 and 9 of 9 complete** (TikTok/Phase 8 deliberately
+> deferred) — source monitoring, new-video detection, gated downloading,
+> transcription, clip candidate selection, rendering, publishing to YouTube
+> Shorts and Instagram Reels, and (Phase 9) real database-enforced "one best
+> clip per day" selection, stage-aware retry, and manual per-clip override.
+> **YouTube and Instagram publishing are implemented and unit-tested
+> against each platform's documented protocol, but NOT yet verified against
+> a live account** — no OAuth client or Instagram Professional account was
+> available to test with. Run `python -m src.main doctor` once you have
+> credentials, before trusting this the way every other phase's measurements
+> have been earned. See [docs/LIMITS.md §9](docs/LIMITS.md). See
+> [TODO.md](TODO.md).
 >
 > Downloading is **verified working** end to end (12.9 MB through the real
 > code path). The earlier failure was a year-stale yt-dlp, not a blocked
@@ -44,6 +46,53 @@ entirely in CI, so nothing depends on your computer being on.
    (YouTube) and `SELF_ONLY` (TikTok), whatever your code requests. This is
    platform policy, not a bug, and it cannot be coded around. Details and
    figures in [docs/LIMITS.md](docs/LIMITS.md).
+
+## Phase 9 — Full automation
+
+Three things, all enforced in the database rather than by workflow timing
+or manual discipline:
+
+- **The 1/day cap is real.** `db.clips_published_today` counts distinct
+  clips with a PUBLISHED platform row today; `publish` checks it against
+  `publishing.max_per_day` (default 1) before rendering anything, and stops
+  cleanly once it is spent. A clip that already has one platform published
+  today can still finish a second platform past the cap — finishing it
+  costs no new slot, since it is already counted once either way.
+- **Cross-video selection.** `db.videos_ready_for_publish` orders every
+  ANALYZED video by its own best CANDIDATE clip's score, so each day's slot
+  goes to the single best clip across every video (spec section 12), not
+  the best one in whichever video happens to sort first by recency.
+  `.github/workflows/daily_clip.yml` — named `publish.yml` before this
+  phase — is what runs it, once daily.
+- **`retry` resumes at the latest stage still on record.** A video that
+  failed only at render or publish still has a transcript and, usually,
+  other CANDIDATE clips on record; resuming it all the way back to
+  DISCOVERED would re-download, re-transcribe and re-analyze for nothing.
+  `retry [VIDEO_ID] [--reset-count]` now picks the furthest status that is
+  still safe to resume from (DISCOVERED remains the fallback when neither a
+  transcript nor a candidate survives).
+
+Manual override, per clip (spec section 29):
+
+| Command | Effect |
+|---|---|
+| `clips VIDEO_ID` | List every clip on record for one video, with ids |
+| `approve-clip CLIP_ID` | Force one CANDIDATE clip to be tried first for its video |
+| `skip-clip CLIP_ID [--reason TEXT]` | Manually reject one CANDIDATE clip |
+| `edit-clip CLIP_ID --start S --end S` | Override a CANDIDATE clip's timestamps |
+
+All four refuse a clip that is not CANDIDATE — a RENDERED or PUBLISHED
+clip's record is history, never reset by a later failure (see "State and
+idempotency" below), so none of these commands can touch one.
+`approve-clip` works by boosting the clip's score above every sibling
+rather than a separate priority flag, since render and the cross-video
+selection above already order by score — one rule, not two to keep in
+sync.
+
+The whole-pipeline status summary these rely on already existed (every
+workflow's final step runs `status`, which reports every stage, not just
+its own) — this phase's only change there was making the "today's clip"
+line report the real cap instead of a placeholder.
 
 ## Publishing (Phase 6/7)
 
@@ -81,11 +130,17 @@ before either platform's setup is done.
   automatically in Actions with the same `contents: write` permission the
   workflow already has, no new secret needed there.
 
-Does not select "today's clip" across videos or enforce the spec's 1/day
-cap (both remain Phase 9) — `publish` pushes the best candidate for every
-video it considers, bounded by `publishing.max_videos_per_run`.
-`.github/workflows/publish.yml` runs once a day as a blunt stand-in for that
-cap until Phase 9's real selection logic exists.
+**Phase 9 made the 1/day cap and cross-video selection real.** Before
+rendering anything, `publish` checks `db.clips_published_today` against
+`publishing.max_per_day` (default 1) and stops cleanly once it is spent.
+Below the cap, it selects across every ANALYZED video by each one's own
+best CANDIDATE clip's score — the day's slot goes to the best clip
+anywhere, not just the best one in whichever video sorts first by recency.
+A clip that already has one platform PUBLISHED today may still finish a
+second platform past the cap (that is a continuation, not a new clip, so it
+does not spend another slot). See "Phase 9 — Full automation" below.
+`.github/workflows/daily_clip.yml` (named `publish.yml` before Phase 9)
+runs once daily.
 
 ## Rendering (Phase 5)
 
@@ -236,7 +291,7 @@ git clone <your-repo-url> && cd f1-auto-clipper
 python3.12 -m venv .venv && source .venv/bin/activate
 pip install -r requirements-dev.txt
 
-python -m pytest tests -q          # 665 tests, no network needed
+python -m pytest tests -q          # 687 tests, no network needed
 python -m src.main init-db
 python -m src.main doctor          # can this machine download?
 python -m src.main monitor --dry-run
@@ -346,8 +401,12 @@ matters because yt-dlp is the one dependency that breaks regularly.
 | `status` | Print a pipeline status report (also to the Actions summary) |
 | `sources` | List known sources with their rights and last-check state |
 | `source-enable` / `source-disable` | Manual override for one source |
-| `retry [VIDEO_ID] [--reset-count]` | Requeue failed videos |
+| `retry [VIDEO_ID] [--reset-count]` | Requeue failed videos, resuming each at the latest stage still on record |
 | `unskip VIDEO_ID` | Return one skipped video to the queue (the gate re-runs) |
+| `clips VIDEO_ID` | List every clip on record for one video, with ids |
+| `approve-clip CLIP_ID` | Force one CANDIDATE clip to be tried first for its video |
+| `skip-clip CLIP_ID [--reason TEXT]` | Manually reject one CANDIDATE clip |
+| `edit-clip CLIP_ID --start S --end S` | Override a CANDIDATE clip's timestamps |
 | `resolve-channel URL` | Find the `UC...` id behind a channel URL or handle |
 
 ## Credentials
@@ -421,17 +480,19 @@ So it exists only inside that run, and anything needing it must happen there —
 transcribing in a later workflow would mean downloading the video twice. What
 survives is the transcript (text, committed) and the database row.
 
-`.github/workflows/publish.yml` runs once a day and renders **and uploads**
-the best candidate clip for each ANALYZED video — YouTube Shorts and
-Instagram Reels; TikTok is skipped unconditionally (Phase 8, not built).
-Render and publish are one job for the same reason download and
-transcription are: the rendered file only exists inside this run. A
-platform with no credentials configured is skipped, not failed, so this
-workflow is safe to enable before either OAuth/app setup is done. Once a day
-rather than every few hours like the earlier stages — there is no Phase 9
-yet to pick the single best clip across every video and enforce "one per
-day" for real (spec section 12), so a daily cron is a blunt stand-in for
-that cap, not an implementation of it. See
+`.github/workflows/daily_clip.yml` (named `publish.yml` before Phase 9)
+runs once a day and renders **and uploads** the single best candidate clip
+across every ANALYZED video — YouTube Shorts and Instagram Reels; TikTok is
+skipped unconditionally (Phase 8, not built). Render and publish are one
+job for the same reason download and transcription are: the rendered file
+only exists inside this run. A platform with no credentials configured is
+skipped, not failed, so this workflow is safe to enable before either
+OAuth/app setup is done. The daily cadence now matches what the workflow
+actually enforces — spec section 12's "one clip, the best one, per day" is
+checked in the database (`db.clips_published_today` against
+`publishing.max_per_day`, `db.videos_ready_for_publish` for the cross-video
+best-score ordering — see "Phase 9 — Full automation" above), not just
+bounded by how often this cron fires. See
 [docs/SPEC-CONFORMANCE.md](docs/SPEC-CONFORMANCE.md) section 5.
 
 `.github/workflows/render.yml` is manual-dispatch only: render a clip
@@ -439,10 +500,6 @@ without uploading it anywhere, to inspect by hand (`render --keep`) without
 touching any publishing credentials.
 
 `.github/workflows/tests.yml` runs the test suite on push and PR.
-
-`daily_clip.yml`, the spec's own name for this stage, is intentionally
-absent — `publish.yml` is what actually runs, under a different name and
-without the real 1/day selection logic. See the note above.
 
 **Public vs private repository matters.** Standard runners are free and
 unmetered on public repos (4 vCPU, 16 GB); a private repo gets 2,000
@@ -462,7 +519,12 @@ re-run or a mid-flight timeout cannot produce a double post:
 - `UNIQUE(clip_id, platform)` — a clip is published once per platform
 
 Re-discovering a video never resets its status, so work in progress and
-already-published videos are left alone.
+already-published videos are left alone. A RENDERED or PUBLISHED clip's row
+is likewise never reset by a later failure elsewhere — if every platform
+fails to publish it, the clip stays RENDERED (a true record of what
+actually happened) and the video goes FAILED/retried instead; the manual
+override commands (`approve-clip`/`skip-clip`/`edit-clip`) enforce the same
+rule by refusing anything that is not still CANDIDATE.
 
 Media files are never committed. They are downloaded into a temp directory
 that is removed when the command exits, including on failure. What travels

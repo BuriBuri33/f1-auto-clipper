@@ -536,6 +536,28 @@ so a video that published to YouTube but failed on Instagram will, on retry,
 re-render, skip the already-done YouTube upload, and try Instagram again.
 That is the granularity "idempotent" holds at: per platform, not per byte.
 
+### 9c. The daily cap counts clips, and must let an in-flight one finish
+
+Phase 9 made spec section 12's "one clip, the best one, per day" real:
+`db.clips_published_today` (distinct clips with a PUBLISHED platform row
+dated today) is checked against `publishing.max_per_day` before `publish`
+renders anything, and `db.videos_ready_for_publish` picks across every
+ANALYZED video by its own best CANDIDATE clip's score rather than by
+whichever video sorts first by recency.
+
+The cap counts clips, not platform attempts, which matters once a clip can
+legitimately need two passes: one platform PUBLISHED, the other still
+pending (a crash between platforms, or an earlier partial run). That clip
+must still be allowed to finish once the day's quota is otherwise spent —
+finishing it spends no new slot, since `clips_published_today` already
+counts it once regardless of how many platforms it reaches.
+`db.clip_has_publication_today` is the check that tells this continuation
+apart from a brand-new clip in `run_publish`'s selection loop. A first
+draft of the cap blocked everything once `remaining <= 0`, which broke
+exactly this case
+(`test_an_already_published_platform_is_not_attempted_again`) — caught by
+that pre-existing Phase 6/7 test, not one written for this.
+
 ---
 
 ## Free-tier enforcement

@@ -232,12 +232,95 @@ def test_tiktok_is_never_attempted_even_when_enabled_in_config(conn, tmp_path, m
 
 def test_a_video_that_does_not_render_passes_through_unchanged(conn, tmp_path, monkeypatch):
     vid = seed_analyzed(conn)
-    install_render_fake(monkeypatch, clip_id=1, status="FAILED")
+    clip_id = _insert_candidate(conn, vid)
+    install_render_fake(monkeypatch, clip_id, status="FAILED")
 
     result = run(conn, tmp_path, youtube_creds=youtube_creds())
 
     assert result.outcomes[0].status == "FAILED"
     assert result.outcomes[0].platforms == []
+
+
+# --- Phase 9: daily cap and cross-video selection -------------------------
+
+
+def test_the_best_scored_video_across_all_is_published_first(conn, tmp_path, monkeypatch):
+    low_vid = seed_analyzed(conn, "LOW")
+    high_vid = seed_analyzed(conn, "HIGH")
+    _insert_candidate(conn, low_vid, score=10.0)
+    high_clip = _insert_candidate(conn, high_vid, score=99.0)
+
+    install_render_fake(monkeypatch, high_clip)
+    monkeypatch.setattr(publish_runner.youtube, "upload",
+                        lambda *a, **kw: publish_runner.youtube.UploadResult("YT1", "u", "private"))
+
+    config = make_config(instagram=False, max_videos_per_run=1)
+    result = run(conn, tmp_path, config=config, youtube_creds=youtube_creds())
+
+    assert len(result.outcomes) == 1
+    assert result.outcomes[0].video_id == "HIGH"
+
+
+def test_a_second_video_is_blocked_once_the_daily_cap_is_spent(conn, tmp_path, monkeypatch):
+    vid1 = seed_analyzed(conn, "VID1")
+    vid2 = seed_analyzed(conn, "VID2")
+    clip1 = _insert_candidate(conn, vid1, score=99.0)
+    _insert_candidate(conn, vid2, score=50.0)
+
+    install_render_fake(monkeypatch, clip1)
+    monkeypatch.setattr(publish_runner.youtube, "upload",
+                        lambda *a, **kw: publish_runner.youtube.UploadResult("YT1", "u", "private"))
+
+    config = make_config(instagram=False, max_videos_per_run=5, max_per_day=1)
+    result = run(conn, tmp_path, config=config, youtube_creds=youtube_creds())
+
+    assert len(result.outcomes) == 1
+    assert result.outcomes[0].video_id == "VID1"
+    assert db.get_video(conn, "VID2")["status"] == "ANALYZED"  # never attempted
+
+
+def test_publish_refuses_a_new_clip_once_the_cap_was_already_spent_today(conn, tmp_path, monkeypatch):
+    vid = seed_analyzed(conn)
+    other_clip = _insert_candidate(conn, vid, start_ms=0, end_ms=20000)
+    # A different clip already published today spends the one slot.
+    other_vid = seed_analyzed(conn, "OTHER")
+    unrelated_clip = _insert_candidate(conn, other_vid)
+    db.record_render(conn, unrelated_clip, "x.mp4", "t", "d", "h")
+    db.record_publication(conn, unrelated_clip, "youtube", db.PublicationStatus.PUBLISHED)
+    db.mark_clip_published(conn, unrelated_clip)
+
+    called = []
+    install_render_fake(monkeypatch, other_clip)
+    monkeypatch.setattr(publish_runner.youtube, "upload", lambda *a, **kw: called.append(1))
+
+    config = make_config(instagram=False, max_per_day=1, max_videos_per_run=5)
+    result = run(conn, tmp_path, config=config, youtube_creds=youtube_creds())
+
+    assert result.daily_cap_reached is True
+    assert called == []
+    assert result.outcomes == []
+
+
+def test_a_clip_already_published_today_on_one_platform_can_still_finish_another(
+    conn, tmp_path, monkeypatch
+):
+    """The exact scenario the cap must not block: a crash (or earlier
+    partial run) left one platform PUBLISHED and the other untried. Finishing
+    it does not spend a second slot."""
+    vid = seed_analyzed(conn)
+    clip_id = _insert_candidate(conn, vid)
+    db.record_publication(conn, clip_id, "youtube", db.PublicationStatus.PUBLISHED)
+
+    install_render_fake(monkeypatch, clip_id)
+    monkeypatch.setattr(publish_runner.instagram, "publish",
+                        lambda *a, **kw: publish_runner.instagram.PublishResult("IG1"))
+
+    config = make_config(max_per_day=1)
+    result = run(conn, tmp_path, config=config, instagram_creds=instagram_creds())
+
+    assert result.daily_cap_reached is True  # true of the day, reported honestly
+    assert len(result.outcomes) == 1          # but the continuation still ran
+    assert result.outcomes[0].status == "PUBLISHED"
 
 
 # --- environment pre-check -------------------------------------------------

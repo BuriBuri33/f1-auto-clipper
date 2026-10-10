@@ -197,7 +197,13 @@ analysis:
   max_retries: 3
 
 publishing:
-  # Phase 9's job, not enforced by `publish` — see src/publishing/runner.py.
+  # Enforced in the database (spec section 12), not just by the workflow's
+  # cron cadence: `publish` checks db.clips_published_today against this
+  # before rendering anything, and picks the best-scored CANDIDATE clip
+  # across every video, not just the oldest. See src/publishing/runner.py.
+  # A clip that already has one platform PUBLISHED today may still finish
+  # a second platform past the cap — that is not a new clip, so it does
+  # not spend another slot.
   max_per_day: 1
   youtube: true
   instagram: true

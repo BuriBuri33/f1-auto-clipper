@@ -1,7 +1,7 @@
 # Spec conformance audit
 
 Section-by-section audit of the implementation against the project
-specification. Audited **2026-10-10**, updated at the end of Phase 7.
+specification. Audited **2026-10-10**, updated at the end of Phase 9.
 
 Legend: **✅ done** · **◐ partial** · **⏳ later phase** · **⚠️ deviation**
 (implemented differently from the spec, with reasoning) · **❌ gap**
@@ -51,18 +51,25 @@ written: `src/transcription/*`, `src/analysis/*`, `src/video/*`,
 `src/publishing/*` (YouTube + Instagram; TikTok, Phase 8, deliberately not
 yet — see below).
 
-⚠️ **`daily_clip.yml` deliberately absent, still — `publish.yml` is the
-closest approximation, not the real thing.** The spec wants exactly one
-clip, selected as the best across every video, once a day (section 12);
-this project does not yet have the cross-video selection
-(`db.best_candidates_overall` is the infrastructure, unused — Phase 9).
-`publish.yml` runs once daily and caps a single run to one published clip
-per platform (`publishing.max_videos_per_run: 1`), which is a BLUNT stand-in
-for the real cap, not an implementation of it: it publishes whichever
-ANALYZED video the query happens to return first, not the best candidate
-across all of them, and nothing stops a second video slipping through on a
-day with an unlucky scheduling gap. Treat this as "approximately one
-per day", not "exactly one, the best one" until Phase 9 lands.
+✅ **`daily_clip.yml` now exists (Phase 9) — it is `publish.yml` renamed, not
+a second workflow alongside it.** The spec wants exactly one clip, selected
+as the best across every video, once a day (section 12); until Phase 9 this
+project had no cross-video selection, so the earlier file (named
+`publish.yml`) could only bound the cap by its cron cadence, which this
+document used to flag as a blunt stand-in. Phase 9 adds real, database-
+enforced selection and renames the file to match what it actually now does:
+`db.clips_published_today` is checked against `publishing.max_per_day`
+before anything is rendered, and `db.videos_ready_for_publish` orders every
+ANALYZED video by its own best CANDIDATE clip's score, so the slot spent
+each day goes to the best clip across everything, not the one in whichever
+video sorts first by recency. (A clip that already has one platform
+PUBLISHED today may still finish a second platform past the cap — see
+`db.clip_has_publication_today` — since that is not a new clip and does not
+spend a second slot.) `db.best_candidates_overall`, the original Phase
+4-era infrastructure this section used to point at, remains unused; the
+selection Phase 9 actually wired in is `videos_ready_for_publish`, which
+additionally needs the video row (for render) and the retry ceiling/enabled
+filters `best_candidates_overall` does not carry.
 
 ⚠️ **Modules added beyond the spec's tree**, each because a responsibility
 turned out to be real and separable:
@@ -150,7 +157,7 @@ that rule applied upstream.
 | 9 | Transcription behind a replaceable interface | ✅ `transcribe(media_path) -> Transcript`, two backends, spec's segment shape |
 | 10 | LLM clip selection, strict JSON | ✅ `GeminiClipSelector` — malformed/out-of-range/invented-timestamp entries rejected, never coerced |
 | 11 | F1-weighted scoring formula | ✅ `clip_scorer.final_score`, configurable weights, applied identically to both backends |
-| 12 | One clip/day, backup candidates | ⏳ Phase 9 (`db.best_candidates_overall` is the infrastructure) |
+| 12 | One clip/day, backup candidates | ✅ `db.clips_published_today` vs `publishing.max_per_day`, enforced in `run_publish` before anything renders (Phase 9); backups within a video already worked (Phase 5's try-next-candidate-on-rejection) |
 | 13 | Clip deduplication | ✅ schema constraint (exact repeat) + in-video overlap filter + cross-video Jaccard text similarity. Perceptual hashing (the spec's other suggestion, against the RENDERED video) is not implemented — the quality gate's exact-codec/resolution/duration checks were judged sufficient for a single rendering pipeline producing one file per candidate; revisit if duplicate RENDERED output is ever observed |
 | 14 | 1080x1920 H.264/AAC MP4 | ✅ `video/runner.py` — verified against a real encode, not just config |
 | 15 | Configurable vertical reframing | ✅ `center_crop` / `blur_pad`, with automatic fallback to the latter when a crop is geometrically impossible (section 15's "robust fallback over bad crops") |
@@ -170,15 +177,18 @@ repository. Confirmed against official docs; figures in LIMITS §2-3.
 
 ## 22 · Scheduling
 
-✅ `monitor.yml` every 3h, `download.yml` every 6h, `tests.yml` on push/PR.
-✅ Cron imprecision assumed, not fought: every pass is idempotent, so a
-dropped scheduled run costs latency only. ⚠️ `daily_clip.yml` deferred (§5).
+✅ `monitor.yml` every 3h, `download.yml` every 6h, `daily_clip.yml` once
+daily (named and enforced for real as of Phase 9 — see §5), `tests.yml` on
+push/PR. ✅ Cron imprecision assumed, not fought: every pass is idempotent,
+so a dropped scheduled run costs latency only, and the daily cap is
+enforced in the database rather than by the cron cadence, so a missed or
+doubled run cannot over-publish either.
 
 ## 23 · Failure handling
 
 | Requirement | State |
 |---|---|
-| Every step retryable | ✅ FAILED → retry → DOWNLOADED, with a ceiling |
+| Every step retryable | ✅ download auto-retries a FAILED video under the ceiling with no manual step; later stages need the manual `retry` command, which (Phase 9) resumes each video at the latest stage still on record rather than unconditionally back to DISCOVERED — a publish-only failure does not re-download, re-transcribe and re-analyze for nothing |
 | Exponential backoff | ✅ with jitter; 429/5xx retried, other 4xx never |
 | No duplicate posts after a timeout | ✅ `UNIQUE(clip_id, platform)` makes it structurally impossible |
 | Check before retrying a publish | ✅ `db.publication_status` checked before any upload is attempted — but see LIMITS §9b: a retry re-renders and re-publishes from scratch, since nothing keeps the file between runs; the idempotency is per-platform, not per-byte |
@@ -235,12 +245,12 @@ Big Buck Bunny, CC-BY) — which is how the download failure was found.
 
 | Requirement | State |
 |---|---|
-| Retry failed jobs | ✅ `retry [VIDEO_ID] [--reset-count]` |
-| Skip a candidate | ✅ gate SKIP, or `source-disable` |
-| Approve a candidate | ◐ `unskip VIDEO_ID` requeues one video; no per-clip CLI override exists — the ranked list from Phase 4 IS the approval queue, highest score first |
+| Retry failed jobs | ✅ `retry [VIDEO_ID] [--reset-count]` — resumes at the latest stage still on record (ANALYZED if a CANDIDATE clip remains, TRANSCRIBED if only the transcript survives, DISCOVERED otherwise), not unconditionally from scratch (Phase 9) |
+| Skip a candidate | ✅ gate SKIP, `source-disable`, or `skip-clip CLIP_ID` for one specific clip (Phase 9) |
+| Approve a candidate | ✅ `unskip VIDEO_ID` requeues one video; `approve-clip CLIP_ID` forces one specific clip to the front of its video's render order (Phase 9) — implemented as a score boost above every sibling, since render and the cross-video publish selection both already order by score |
 | Disable a source | ✅ `source-disable` / `source-enable` |
-| Change start/end timestamp | ❌ no override exists; a candidate's span comes from `analysis.candidates` only. Gap, not scheduled against a specific phase |
-| Change title | ❌ generated by `video.metadata`, no override exists. Same gap as above |
+| Change start/end timestamp | ✅ `edit-clip CLIP_ID --start S --end S`, CANDIDATE clips only (Phase 9) |
+| Change title | ❌ generated by `video.metadata`, no override exists. Gap, not scheduled against a specific phase |
 | Disable a platform | ✅ config `publishing.youtube/instagram/tiktok` |
 | Operates automatically without intervention | ✅ |
 
@@ -249,6 +259,11 @@ retry ceiling a no-op and let a permanently broken video consume a slot
 forever. `unskip` is one video at a time and never bulk — most skips are
 rights or licence failures, and a bulk un-skip is an easy way to push
 unlicensed footage in by accident. It requeues only; the gate re-runs.
+`approve-clip` / `skip-clip` / `edit-clip` all refuse a clip that is not
+CANDIDATE (already rendered, rejected, or published) — a RENDERED or
+PUBLISHED clip's record is history, not a draft (see LIMITS.md §9b and
+CLAUDE.md's "already bitten" note on the same point). `clips VIDEO_ID`
+lists a video's clips with their ids for these commands to target.
 
 ## 30 · Configuration
 
@@ -305,7 +320,7 @@ copyright/DRM bypass.
 | Transcribed | ✅ measured to 0.38s worst-case accuracy (LIMITS §4) |
 | Multiple candidates identified | ✅ |
 | Candidates scored | ✅ measured against the live API |
-| Best selected | ✅ ranked per video; cross-video "1/day" selection is Phase 9 |
+| Best selected | ✅ ranked per video, and (Phase 9) `db.videos_ready_for_publish` selects the best-scored candidate across every video, not just per-video |
 | Duplicates prevented | ✅ constraint + overlap filter + cross-video similarity |
 | 9:16 MP4 generated | ✅ verified against a real encode (LIMITS §8c) |
 | Captions burned in | ✅ FFmpeg `ass`, verified against a real encode; NOT yet confirmed the required libass/libfreetype filters are present on a GitHub runner (LIMITS §8a) |
@@ -313,8 +328,8 @@ copyright/DRM bypass.
 | YouTube Shorts publishing works | ◐ implemented + unit-tested against the documented protocol; **not verified live** (LIMITS §9) **+ audit gate** forces private regardless |
 | Instagram Reels publishing works | ◐ implemented + unit-tested against the documented protocol; **not verified live** (LIMITS §9) |
 | TikTok publishing works where permitted | ⏳ Phase 8, explicitly deferred **+ audit gate** |
-| Max one clip/day enforced | ⏳ Phase 9 (`best_candidates_overall` is the infrastructure) |
-| Failed jobs retryable | ✅ |
+| Max one clip/day enforced | ✅ `db.clips_published_today` vs `publishing.max_per_day`, checked in the database before any render (Phase 9) |
+| Failed jobs retryable | ✅ resumes at the latest stage still on record, not always from scratch (Phase 9) |
 | Publishing idempotent | ✅ structurally (constraint in place) |
 | Secrets stored securely | ✅ |
 | Actions run automatically | ✅ for implemented phases |
@@ -323,11 +338,15 @@ copyright/DRM bypass.
 | Free-tier limitations documented | ✅ `docs/LIMITS.md`, dated |
 | Copyright assumptions documented | ✅ `docs/RIGHTS.md` |
 
-**Three things stand between this and "done" that are not code:**
+**Four things stand between this and "done" that are not code:**
 
 1. Whether CI can download at all (LIMITS §7) — measure before Phase 3.
 2. The YouTube compliance audit — free, manual, no published turnaround.
 3. The TikTok audit — free, manual, reported 2-4 weeks.
+4. Minting real YouTube OAuth / Instagram Graph API credentials and running
+   `publish` for real — Phase 6/7's code is unit-tested against each
+   platform's documented protocol but has never been exercised against a
+   live account (LIMITS §9).
 
 Starting 2 and 3 early is worth more than any amount of further coding,
 because both are queues you do not control.

@@ -4,11 +4,12 @@ name: render
 # video into a publishable MP4 — WITHOUT publishing it anywhere.
 #
 # Manual dispatch only, deliberately not scheduled. As of Phase 6/7, the
-# `publish` workflow does everything this one does AND uploads the result,
-# pulling from the exact same ANALYZED queue — running both on a schedule
-# would have them race over the same videos for no benefit. This workflow
-# stays for what Phase 5 built it for: rendering a sample MP4 to inspect by
-# hand (`render --keep`) without touching any publishing credentials.
+# `daily_clip` workflow (`publish.yml` before Phase 9 renamed it) does
+# everything this one does AND uploads the result, pulling from the exact
+# same ANALYZED queue — running both on a schedule would have them race over
+# the same videos for no benefit. This workflow stays for what Phase 5 built
+# it for: rendering a sample MP4 to inspect by hand (`render --keep`)
+# without touching any publishing credentials.
 #
 # Re-downloads the source video. Media is never persisted between workflow
 # runs (see `ingest`), so by the time a video is ANALYZED its file from the

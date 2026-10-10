@@ -20,10 +20,16 @@ next time; **TikTok (Phase 8) is not implemented and is always skipped here**
 regardless of ``publishing.tiktok`` in config, same as `status` already
 reports it.
 
-Does NOT select "today's clip" across videos or enforce spec section 12's
-1/day cap — both remain Phase 9 (`db.best_candidates_overall` is the
-infrastructure). This publishes the best candidate for every video the pass
-considers, up to ``publishing.max_videos_per_run``.
+**Phase 9: the 1/day cap and cross-video selection are real, enforced
+here.** `db.clips_published_today` is checked against
+``publishing.max_per_day`` before anything is rendered or downloaded — once
+the day's quota is spent, the run stops cleanly with
+``PublishRunResult.daily_cap_reached`` set, rather than rendering a clip
+that would only be discarded. Below the cap, `db.videos_ready_for_publish`
+selects ANALYZED videos ordered by their own best CANDIDATE clip's score, so
+the clip spent on each of the day's slots is the best one available across
+every video, not just the best one in whichever video sorts first by
+recency.
 """
 
 from __future__ import annotations
@@ -68,6 +74,9 @@ class VideoPublishOutcome:
 class PublishRunResult:
     outcomes: List[VideoPublishOutcome] = field(default_factory=list)
     environment_error: Optional[str] = None
+    daily_cap_reached: bool = False
+    published_today: int = 0
+    max_per_day: int = 1
 
     @property
     def published(self) -> int:
@@ -244,7 +253,13 @@ def run_publish(
     session=None,
 ) -> PublishRunResult:
     log = log or get_logger(__name__)
-    result = PublishRunResult()
+    pub_cfg = config.section("publishing")
+    max_per_day = int(pub_cfg.get("max_per_day", 1))
+    published_today = db.clips_published_today(conn)
+    result = PublishRunResult(
+        published_today=published_today, max_per_day=max_per_day,
+        daily_cap_reached=published_today >= max_per_day,
+    )
 
     missing = video_ffmpeg.missing_required_filters()
     if missing:
@@ -256,23 +271,42 @@ def run_publish(
         log.error("publish environment check failed", fields={"missing_filters": missing})
         return result
 
-    pub_cfg = config.section("publishing")
-    limit = int(pub_cfg.get("max_videos_per_run", 1))
+    max_videos_per_run = int(pub_cfg.get("max_videos_per_run", 1))
     max_retries = int(pub_cfg.get("max_retries", 3))
+    new_slots = max(0, max_per_day - published_today)
 
-    rows = db.videos_pending_render(conn, limit=limit, max_retries=max_retries)
+    # Ordered best-candidate-first across every video (spec section 12).
+    # Not pre-trimmed to `new_slots`: a video whose best clip already has a
+    # PUBLISHED platform today (a continuation — e.g. a crash between
+    # platforms, or an earlier partial run) must still be considered even
+    # once the day's new-clip quota is spent, since finishing it costs no
+    # additional slot. See `clip_has_publication_today`.
+    rows = db.videos_ready_for_publish(conn, limit=max_videos_per_run, max_retries=max_retries)
+
+    considered = 0
     for row in rows:
-        result.outcomes.append(
-            publish_one_video(
-                conn, row, config, work_dir, log,
-                youtube_creds=youtube_creds, instagram_creds=instagram_creds,
-                github_token=github_token, ydl_factory=ydl_factory, session=session,
-            )
+        if considered >= max_videos_per_run:
+            break
+        candidates = db.candidate_clips_for_render(conn, row["id"])
+        if not candidates:
+            continue
+        is_continuation = db.clip_has_publication_today(conn, candidates[0]["id"])
+        if not is_continuation and new_slots <= 0:
+            continue  # the day's quota is spent and this would be a new clip
+        outcome = publish_one_video(
+            conn, row, config, work_dir, log,
+            youtube_creds=youtube_creds, instagram_creds=instagram_creds,
+            github_token=github_token, ydl_factory=ydl_factory, session=session,
         )
+        result.outcomes.append(outcome)
+        considered += 1
+        if not is_continuation:
+            new_slots -= 1
 
     log.info(
         "publish pass complete",
-        fields={"considered": len(rows), "published": result.published,
-               "failed": len(result.failed)},
+        fields={"considered": considered, "published": result.published,
+               "failed": len(result.failed), "published_today": published_today,
+               "max_per_day": max_per_day},
     )
     return result

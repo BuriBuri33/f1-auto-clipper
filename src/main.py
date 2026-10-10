@@ -21,8 +21,14 @@ Inspection and manual override (spec section 29):
     python -m src.main status
     python -m src.main sources
     python -m src.main source-enable NAME / source-disable NAME
-    python -m src.main retry  [VIDEO_ID] [--reset-count]
+    python -m src.main retry  [VIDEO_ID] [--reset-count]   # resumes at the
+                                 # latest stage still on record, not always
+                                 # from scratch — see db.retry_failed
     python -m src.main unskip VIDEO_ID
+    python -m src.main clips VIDEO_ID                       # list its clips
+    python -m src.main approve-clip CLIP_ID                 # try it first
+    python -m src.main skip-clip CLIP_ID [--reason TEXT]     # reject it
+    python -m src.main edit-clip CLIP_ID --start S --end S   # retime it
 
 Phases 1-2 implement discovery and download. Transcription, analysis,
 rendering and publishing arrive in later phases; their subcommands are not
@@ -444,20 +450,27 @@ def cmd_publish(args: argparse.Namespace) -> int:
     youtube_creds = _youtube_credentials()
     instagram_creds = _instagram_credentials()
 
+    max_per_day = int(pub_cfg.get("max_per_day", 1))
+    published_today = db.clips_published_today(conn)
+
     if args.dry_run:
-        pending = db.videos_pending_render(
+        print("Daily cap: %d/%d published today%s"
+              % (published_today, max_per_day,
+                 " — cap reached; only an already-started clip (a different "
+                 "platform finishing) would still be attempted" if published_today >= max_per_day else ""))
+        pending = db.videos_ready_for_publish(
             conn, limit=int(pub_cfg.get("max_videos_per_run", 1)),
             max_retries=int(pub_cfg.get("max_retries", 3)),
         )
         if not pending:
             print("DRY RUN — nothing pending publish")
             return EXIT_OK
-        print("DRY RUN — %d video(s) pending render+publish:" % len(pending))
+        print("DRY RUN — %d video(s) pending render+publish, best candidate first:" % len(pending))
         for row in pending:
             n_candidates = len(db.candidate_clips_for_render(conn, row["id"]))
-            print("  %-14s %-8s  %d candidate(s)  %s"
-                  % (row["youtube_video_id"], row["status"], n_candidates,
-                     row["title"][:50]))
+            print("  %-14s %-8s  score %5.1f  %d candidate(s)  %s"
+                  % (row["youtube_video_id"], row["status"], row["best_candidate_score"] or 0,
+                     n_candidates, row["title"][:50]))
         print("\nYouTube credentials:   %s" % ("present" if youtube_creds else "NOT set — skipped"))
         print("Instagram credentials: %s" % ("present" if instagram_creds else "NOT set — skipped"))
         missing = video_ffmpeg.missing_required_filters()
@@ -483,6 +496,12 @@ def cmd_publish(args: argparse.Namespace) -> int:
             return EXIT_PARTIAL_FAILURE
 
         lines = ["F1 AUTO-CLIPPER — PUBLISH", "-" * 26]
+        lines.append(
+            "Daily cap: %d/%d published today%s"
+            % (result.published_today, result.max_per_day,
+               " — cap reached; only a clip already started today could "
+               "still be finished" if result.daily_cap_reached else "")
+        )
         if not result.outcomes:
             lines.append("  nothing pending")
         for outcome in result.outcomes:
@@ -515,7 +534,13 @@ def cmd_retry(args: argparse.Namespace) -> int:
         target = args.video_id or "any video"
         print("nothing to retry (%s is not in FAILED state)" % target)
         return EXIT_OK
-    print("requeued %d video(s): %s" % (len(revived), ", ".join(revived)))
+    # retry_failed() already picked the stage to resume from — report it so
+    # the operator can see a publish-only failure was not sent all the way
+    # back through download/transcribe/analyze.
+    detail = ", ".join(
+        "%s (-> %s)" % (vid, db.get_video(conn, vid)["status"]) for vid in revived
+    )
+    print("requeued %d video(s): %s" % (len(revived), detail))
     if not args.reset_count:
         print(
             "retry_count was left as-is, so a video at the ceiling will not be "
@@ -539,6 +564,92 @@ def cmd_unskip(args: argparse.Namespace) -> int:
         "%s returned to DISCOVERED. The rights and licence gate runs again on "
         "the next download pass — this does not override it." % args.video_id
     )
+    return EXIT_OK
+
+
+def cmd_clips(args: argparse.Namespace) -> int:
+    """List every clip on record for one video (spec section 29)."""
+    config = load_config(args.config)
+    conn = db.connect(config.database_path)
+    db.init_db(conn)
+
+    video_row = db.get_video(conn, args.video_id)
+    if video_row is None:
+        print("no video with id %r" % args.video_id, file=sys.stderr)
+        return EXIT_CONFIG_ERROR
+
+    rows = db.clips_for_video(conn, video_row["id"])
+    if not rows:
+        print("no clips on record for %s" % args.video_id)
+        return EXIT_OK
+    print("%-6s %-10s %7s %8s %8s  %s" % ("id", "status", "score", "start_s", "end_s", "hook"))
+    for r in rows:
+        print("%-6d %-10s %7s %8.1f %8.1f  %s" % (
+            r["id"], r["status"],
+            ("%.1f" % r["score"]) if r["score"] is not None else "-",
+            r["start_ms"] / 1000.0, r["end_ms"] / 1000.0,
+            (r["hook"] or "")[:60],
+        ))
+    return EXIT_OK
+
+
+def cmd_approve_clip(args: argparse.Namespace) -> int:
+    """Force one CANDIDATE clip to be tried first for its video (spec section 29)."""
+    config = load_config(args.config)
+    conn = db.connect(config.database_path)
+    db.init_db(conn)
+
+    if not db.approve_clip(conn, args.clip_id):
+        print(
+            "clip %d does not exist or is not a CANDIDATE (already rendered, "
+            "rejected, or published)" % args.clip_id, file=sys.stderr,
+        )
+        return EXIT_CONFIG_ERROR
+    print("clip %d approved — render and publish will try it first for its video"
+          % args.clip_id)
+    return EXIT_OK
+
+
+def cmd_skip_clip(args: argparse.Namespace) -> int:
+    """Manually reject one CANDIDATE clip (spec section 29)."""
+    config = load_config(args.config)
+    conn = db.connect(config.database_path)
+    db.init_db(conn)
+
+    if not db.skip_clip(conn, args.clip_id, reason=args.reason):
+        print(
+            "clip %d does not exist or is not a CANDIDATE" % args.clip_id,
+            file=sys.stderr,
+        )
+        return EXIT_CONFIG_ERROR
+    print("clip %d rejected — render will try the next-best candidate instead"
+          % args.clip_id)
+    return EXIT_OK
+
+
+def cmd_edit_clip(args: argparse.Namespace) -> int:
+    """Override a CANDIDATE clip's start/end timestamps (spec section 29)."""
+    config = load_config(args.config)
+    conn = db.connect(config.database_path)
+    db.init_db(conn)
+
+    start_ms = int(round(args.start * 1000))
+    end_ms = int(round(args.end * 1000))
+    try:
+        ok = db.override_clip_timestamps(conn, args.clip_id, start_ms, end_ms)
+    except ValueError as exc:
+        print("invalid range: %s" % exc, file=sys.stderr)
+        return EXIT_CONFIG_ERROR
+    except db.ClipTimestampConflict as exc:
+        print("conflict: %s" % exc, file=sys.stderr)
+        return EXIT_CONFIG_ERROR
+    if not ok:
+        print(
+            "clip %d does not exist or is not a CANDIDATE" % args.clip_id,
+            file=sys.stderr,
+        )
+        return EXIT_CONFIG_ERROR
+    print("clip %d timestamps set to %.1fs - %.1fs" % (args.clip_id, args.start, args.end))
     return EXIT_OK
 
 
@@ -653,7 +764,7 @@ def cmd_status(args: argparse.Namespace) -> int:
         "New videos:        %d  (discovered in the last 24h)" % db.count_new_since(conn, 24),
         "Processing:        %d" % db.count_in_progress(conn),
         "Candidates:        %d" % clip_counts.get(db.ClipStatus.CANDIDATE.value, 0),
-        "Today's clip:      %s" % _todays_clip_state(),
+        "Today's clip:      %s" % _todays_clip_state(config, conn),
         "YouTube:           %s" % _platform_state("youtube", config, conn),
         "Instagram:         %s" % _platform_state("instagram", config, conn),
         "TikTok:            %s" % _platform_state("tiktok", config, conn),
@@ -687,16 +798,18 @@ def cmd_status(args: argparse.Namespace) -> int:
     return EXIT_OK
 
 
-def _todays_clip_state() -> str:
-    """Honest placeholder until Phase 9's daily selection exists.
+def _todays_clip_state(config, conn) -> str:
+    """The real 1/day state (spec section 12), enforced by `publish`.
 
-    `publish` can push a clip live as of Phase 6/7, but nothing yet selects
-    ONE clip across every video for the day (spec section 12) or enforces
-    the 1/day cap — both are Phase 9. A PUBLISHED clip existing is not
-    "today's clip" in the spec's sense, so this says so rather than reading
-    one off.
+    `db.clips_published_today` and `publishing.max_per_day` are the same
+    numbers `run_publish` checks before rendering anything — this line
+    reports the actual cap, not a placeholder.
     """
-    return "n/a (daily 1/day selection not implemented — Phase 9)"
+    max_per_day = int(config.section("publishing").get("max_per_day", 1))
+    published_today = db.clips_published_today(conn)
+    if published_today >= max_per_day:
+        return "%d/%d published today — cap reached" % (published_today, max_per_day)
+    return "%d/%d published today" % (published_today, max_per_day)
 
 
 _PLATFORM_PHASE = {"youtube": 6, "instagram": 7, "tiktok": 8}
@@ -928,6 +1041,34 @@ def build_parser() -> argparse.ArgumentParser:
     )
     p_unskip.add_argument("video_id")
     p_unskip.set_defaults(func=cmd_unskip)
+
+    p_clips = sub.add_parser(
+        "clips", help="list every clip on record for one video (manual override)"
+    )
+    p_clips.add_argument("video_id")
+    p_clips.set_defaults(func=cmd_clips)
+
+    p_approve = sub.add_parser(
+        "approve-clip",
+        help="force one CANDIDATE clip to be tried first for its video (manual override)",
+    )
+    p_approve.add_argument("clip_id", type=int)
+    p_approve.set_defaults(func=cmd_approve_clip)
+
+    p_skip_clip = sub.add_parser(
+        "skip-clip", help="manually reject one CANDIDATE clip (manual override)"
+    )
+    p_skip_clip.add_argument("clip_id", type=int)
+    p_skip_clip.add_argument("--reason", default="manually skipped by operator")
+    p_skip_clip.set_defaults(func=cmd_skip_clip)
+
+    p_edit_clip = sub.add_parser(
+        "edit-clip", help="override a CANDIDATE clip's start/end timestamps (manual override)"
+    )
+    p_edit_clip.add_argument("clip_id", type=int)
+    p_edit_clip.add_argument("--start", type=float, required=True, help="start, in seconds")
+    p_edit_clip.add_argument("--end", type=float, required=True, help="end, in seconds")
+    p_edit_clip.set_defaults(func=cmd_edit_clip)
 
     p_doc = sub.add_parser(
         "doctor", help="check whether this environment can download at all"

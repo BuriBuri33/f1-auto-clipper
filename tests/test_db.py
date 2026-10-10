@@ -349,3 +349,149 @@ def test_count_publications_by_status(conn):
     db.record_publication(conn, c2, "youtube", db.PublicationStatus.FAILED, error="x")
     assert db.count_publications_by_status(conn, "youtube") == {"PUBLISHED": 1, "FAILED": 1}
     assert db.count_publications_by_status(conn, "instagram") == {}
+
+
+# --- phase 9: daily cap, cross-video selection, manual override ------------
+
+
+def test_clips_published_today_counts_distinct_clips_not_platform_rows(conn):
+    vid = _analyzed_video(conn)
+    clip_id = _candidate(conn, vid, 0, 20000, 90.0)
+    assert db.clips_published_today(conn) == 0
+    db.record_publication(conn, clip_id, "youtube", db.PublicationStatus.PUBLISHED)
+    assert db.clips_published_today(conn) == 1
+    db.record_publication(conn, clip_id, "instagram", db.PublicationStatus.PUBLISHED)
+    assert db.clips_published_today(conn) == 1  # same clip, not two
+
+
+def test_clips_published_today_ignores_failed_or_pending(conn):
+    vid = _analyzed_video(conn)
+    clip_id = _candidate(conn, vid, 0, 20000, 90.0)
+    db.record_publication(conn, clip_id, "youtube", db.PublicationStatus.FAILED, error="x")
+    assert db.clips_published_today(conn) == 0
+
+
+def test_clip_has_publication_today_reflects_platform_state(conn):
+    vid = _analyzed_video(conn)
+    clip_id = _candidate(conn, vid, 0, 20000, 90.0)
+    assert db.clip_has_publication_today(conn, clip_id) is False
+    db.record_publication(conn, clip_id, "youtube", db.PublicationStatus.PUBLISHED)
+    assert db.clip_has_publication_today(conn, clip_id) is True
+
+
+def test_videos_ready_for_publish_orders_by_best_candidate_score(conn):
+    low_vid = _analyzed_video(conn, "LOW")
+    high_vid = _analyzed_video(conn, "HIGH")
+    _candidate(conn, low_vid, 0, 20000, 10.0)
+    _candidate(conn, high_vid, 0, 20000, 99.0)
+    rows = db.videos_ready_for_publish(conn, limit=10)
+    assert [r["youtube_video_id"] for r in rows] == ["HIGH", "LOW"]
+
+
+def test_videos_ready_for_publish_requires_a_candidate_clip(conn):
+    _analyzed_video(conn)  # ANALYZED, but no clip at all
+    assert db.videos_ready_for_publish(conn, limit=10) == []
+
+
+def test_videos_ready_for_publish_respects_retry_ceiling(conn):
+    vid = _analyzed_video(conn)
+    _candidate(conn, vid, 0, 20000, 90.0)
+    db.set_video_status(conn, vid, db.VideoStatus.FAILED, bump_retry=True)
+    db.set_video_status(conn, vid, db.VideoStatus.ANALYZED)
+    db.set_video_status(conn, vid, db.VideoStatus.FAILED, bump_retry=True)
+    db.set_video_status(conn, vid, db.VideoStatus.ANALYZED)
+    assert db.videos_ready_for_publish(conn, limit=10, max_retries=2) == []
+
+
+def test_approve_clip_outscores_every_sibling(conn):
+    vid = _analyzed_video(conn)
+    top = _candidate(conn, vid, 0, 20000, 90.0)
+    backup = _candidate(conn, vid, 30000, 50000, 10.0)
+    assert db.approve_clip(conn, backup) is True
+    rows = db.candidate_clips_for_render(conn, vid)
+    assert [r["id"] for r in rows] == [backup, top]
+
+
+def test_approve_clip_refuses_a_non_candidate(conn):
+    _, clip_id = _rendered_clip(conn)
+    assert db.approve_clip(conn, clip_id) is False
+
+
+def test_approve_clip_refuses_an_unknown_id(conn):
+    assert db.approve_clip(conn, 99999) is False
+
+
+def test_skip_clip_rejects_and_frees_the_next_backup(conn):
+    vid = _analyzed_video(conn)
+    best = _candidate(conn, vid, 0, 20000, 90.0)
+    backup = _candidate(conn, vid, 30000, 50000, 40.0)
+    assert db.skip_clip(conn, best, reason="bad cut") is True
+    row = db.get_clip(conn, best)
+    assert row["status"] == "REJECTED"
+    assert row["status_detail"] == "bad cut"
+    assert [r["id"] for r in db.candidate_clips_for_render(conn, vid)] == [backup]
+
+
+def test_skip_clip_refuses_a_non_candidate(conn):
+    _, clip_id = _rendered_clip(conn)
+    assert db.skip_clip(conn, clip_id) is False
+
+
+def test_override_clip_timestamps_updates_a_candidate(conn):
+    vid = _analyzed_video(conn)
+    clip_id = _candidate(conn, vid, 0, 20000, 90.0)
+    assert db.override_clip_timestamps(conn, clip_id, 5000, 25000) is True
+    row = db.get_clip(conn, clip_id)
+    assert (row["start_ms"], row["end_ms"]) == (5000, 25000)
+
+
+def test_override_clip_timestamps_refuses_a_non_candidate(conn):
+    _, clip_id = _rendered_clip(conn)
+    assert db.override_clip_timestamps(conn, clip_id, 0, 1000) is False
+
+
+def test_override_clip_timestamps_rejects_end_before_start(conn):
+    vid = _analyzed_video(conn)
+    clip_id = _candidate(conn, vid, 0, 20000, 90.0)
+    with pytest.raises(ValueError):
+        db.override_clip_timestamps(conn, clip_id, 20000, 0)
+
+
+def test_override_clip_timestamps_raises_on_a_range_collision(conn):
+    vid = _analyzed_video(conn)
+    clip_id = _candidate(conn, vid, 0, 20000, 90.0)
+    _candidate(conn, vid, 30000, 50000, 40.0)
+    with pytest.raises(db.ClipTimestampConflict):
+        db.override_clip_timestamps(conn, clip_id, 30000, 50000)
+    # The failed attempt must not have left the clip half-updated.
+    row = db.get_clip(conn, clip_id)
+    assert (row["start_ms"], row["end_ms"]) == (0, 20000)
+
+
+# --- phase 9: retry resumes at the latest stage still on record -----------
+
+
+def test_retry_resumes_at_analyzed_when_a_candidate_clip_still_exists(conn):
+    vid = _analyzed_video(conn)
+    _candidate(conn, vid, 0, 20000, 90.0)
+    db.set_video_status(conn, vid, db.VideoStatus.FAILED, "every platform failed", bump_retry=True)
+    assert db.retry_failed(conn) == ["VID1"]
+    assert db.get_video(conn, "VID1")["status"] == "ANALYZED"
+
+
+def test_retry_resumes_at_transcribed_when_only_the_transcript_survives(conn):
+    sid = db.sync_sources(conn, [src()])["s1"]
+    _, vid = db.record_discovered_video(conn, sid, "VID1", "t", "u", None)
+    db.record_transcript(conn, vid, "/tmp/t.json", "groq", "whisper-large-v3-turbo",
+                         "en", 3, 40.0, 1)
+    db.set_video_status(conn, vid, db.VideoStatus.FAILED, "scoring failed", bump_retry=True)
+    assert db.retry_failed(conn) == ["VID1"]
+    assert db.get_video(conn, "VID1")["status"] == "TRANSCRIBED"
+
+
+def test_retry_falls_back_to_discovered_with_no_transcript_or_candidates(conn):
+    sid = db.sync_sources(conn, [src()])["s1"]
+    _, vid = db.record_discovered_video(conn, sid, "VID1", "t", "u", None)
+    db.set_video_status(conn, vid, db.VideoStatus.FAILED, "download failed", bump_retry=True)
+    assert db.retry_failed(conn) == ["VID1"]
+    assert db.get_video(conn, "VID1")["status"] == "DISCOVERED"

@@ -254,3 +254,25 @@ docs/              LIMITS.md (verified figures), RIGHTS.md (boundaries)
   re-publishing from scratch. What stays idempotent is per-PLATFORM: a clip
   already PUBLISHED to one platform is never re-attempted on that platform
   when a later retry pushes it to a different one. See `docs/LIMITS.md` §9b.
+- **A clip that rendered fine but failed to publish on every platform stays
+  RENDERED — it is never reset back to CANDIDATE.** This looks like a bug
+  (the video is now stuck: no CANDIDATE clips left for render to try, and a
+  later retry must fall all the way back to re-analysis to get a fresh
+  batch) but it is deliberate and tested
+  (`test_every_platform_failing_fails_the_video_and_bumps_retry`): RENDERED
+  is a record of what actually happened, not a draft, and resetting it
+  would erase a true fact to paper over a publish-layer failure that says
+  nothing about the candidate itself. `retry`'s smart resume respects this
+  — it only jumps back to ANALYZED when a CANDIDATE clip genuinely still
+  exists for that video, never by resurrecting a consumed one.
+- **The 1/day cap counts distinct CLIPS, not platform attempts, and must
+  not block a clip already in flight today.** A clip that got YouTube
+  PUBLISHED but crashed before Instagram (or before an earlier partial run
+  finished) must still be allowed to finish the second platform even after
+  the day's quota is otherwise spent — finishing it costs no additional
+  slot, since `db.clips_published_today` already counts it once either
+  way. `db.clip_has_publication_today` is what distinguishes this
+  continuation from a brand-new clip in `run_publish`'s selection loop; an
+  earlier draft of this logic blocked everything once the cap was hit and
+  broke exactly this case, caught by
+  `test_an_already_published_platform_is_not_attempted_again`.
