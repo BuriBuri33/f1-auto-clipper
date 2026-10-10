@@ -51,11 +51,21 @@ Two backends behind one interface (`transcribe(media_path) -> Transcript`):
   problem.
 
 Word-level timestamps are on by default, and segments are rebuilt from them
-rather than trusting the backend's grouping. That is not polish — measured
-against audio with known timing, segment end times were wrong by over 4
-seconds without them, and the backend's grouping changed with the audio
-encoding while the word timings stayed correct.
-[docs/LIMITS.md §4](docs/LIMITS.md) has the measurements.
+rather than trusting the backend's grouping. That is not polish. Measured
+against audio with known timing:
+
+| Backend | worst start error | worst end error |
+|---|---|---|
+| Groq, word timings unread | 2.00s | 3.32s |
+| Groq, word timings attached | **0.08s** | **0.48s** |
+| Local `faster-whisper` (`tiny`) | 0.38s | 0.19s |
+
+Both backends return coarse, silence-stretched segments and accurate words;
+the accuracy comes entirely from using the words.
+[docs/LIMITS.md §4](docs/LIMITS.md) has the details.
+
+Check your setup with `python -m src.main doctor`, which validates the
+transcription key with a real call rather than just checking it is present.
 
 ## Architecture
 

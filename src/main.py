@@ -334,6 +334,7 @@ def cmd_doctor(args: argparse.Namespace) -> int:
     with workspace.work_dir(None, keep=False) as dest:
         report = diagnose.run_diagnostics(
             api_key=os.environ.get("YOUTUBE_API_KEY") or None,
+            transcription_api_key=os.environ.get("TRANSCRIPTION_API_KEY") or None,
             do_download=not args.no_download,
             dest_dir=dest,
         )

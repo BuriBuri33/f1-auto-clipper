@@ -153,6 +153,10 @@ docs/              LIMITS.md (verified figures), RIGHTS.md (boundaries)
   times are wrong by seconds — they stretch across following silence. And
   Whisper's segment *grouping* varies with the audio encoding, so this
   project rebuilds segments from word timings rather than trusting it.
+- **Groq puts words at the TOP LEVEL of the response, not inside each
+  segment.** Reading `segment["words"]` finds nothing and silently loses all
+  word timing; the words must be distributed into the segments. Measured
+  effect: 2.00s/3.32s worst-case error becomes 0.08s/0.48s.
 - **faster-whisper does not pin PyAV, and current PyAV breaks its decoding.**
   Audio is decoded with the FFmpeg binary and passed as a numpy array; never
   hand faster-whisper a file path.

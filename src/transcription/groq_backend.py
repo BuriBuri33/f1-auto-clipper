@@ -182,7 +182,21 @@ class GroqTranscriber:
 
 
 def parse_verbose_json(payload: Dict[str, Any]) -> List[Segment]:
-    """Turn a verbose_json body into segments.
+    """Turn a verbose_json body into segments, with word timings attached.
+
+    **Groq returns words at the TOP LEVEL, not nested inside each segment.**
+    Verified against the live API on 2026-10-10: with
+    ``timestamp_granularities[]=word`` the body gains a top-level ``words``
+    list while each segment keeps only ``start``/``end``/``text`` and some
+    model diagnostics. Looking for ``segment["words"]`` finds nothing and
+    silently yields a transcript with no word timings — which then cannot be
+    re-segmented, leaving Groq's own coarse boundaries in place.
+
+    And those boundaries are coarse: the same audio gave segments at
+    0.00-7.00, 7.00-13.00, 13.00-19.00 — rounded to whole seconds and
+    stretched across the silence between utterances, up to 3.3s out. The
+    top-level words for that audio were accurate to 0.02s. So distributing
+    the words into the segments is what makes this backend usable at all.
 
     Falls back to one whole-text segment when the response carries no
     segments. That happens for very short audio, and silently returning
@@ -202,7 +216,7 @@ def parse_verbose_json(payload: Dict[str, Any]) -> List[Segment]:
                 continue
             segments.append(Segment(start, end, text, _words_of(item)))
         if segments:
-            return segments
+            return _attach_top_level_words(segments, payload)
 
     text = str(payload.get("text", "")).strip()
     if not text:
@@ -236,3 +250,48 @@ def _words_of(item: Dict[str, Any]) -> Optional[List[Word]]:
         text = str(entry.get("word", entry.get("text", ""))).strip()
         words.append(Word(start, end, text))
     return words or None
+
+
+def _attach_top_level_words(
+    segments: List[Segment], payload: Dict[str, Any]
+) -> List[Segment]:
+    """Distribute a top-level ``words`` list into the segments that contain them.
+
+    Each word is assigned to the segment whose span holds its midpoint.
+    Words falling in no segment — the boundaries are approximate, so this
+    happens — go to the nearest segment by distance, because dropping a word
+    would silently lose speech.
+
+    Segments that already carry their own words are left alone, so a
+    provider that nests them keeps working unchanged.
+    """
+    if any(s.words for s in segments):
+        return segments
+
+    words = _words_of({"words": payload.get("words")})
+    if not words:
+        return segments
+
+    buckets: List[List[Word]] = [[] for _ in segments]
+    for word in words:
+        midpoint = (word.start + word.end) / 2.0
+        index = None
+        for position, segment in enumerate(segments):
+            if segment.start <= midpoint < segment.end:
+                index = position
+                break
+        if index is None:
+            # Nearest segment by distance to its span.
+            index = min(
+                range(len(segments)),
+                key=lambda i: min(
+                    abs(midpoint - segments[i].start),
+                    abs(midpoint - segments[i].end),
+                ),
+            )
+        buckets[index].append(word)
+
+    return [
+        Segment(segment.start, segment.end, segment.text, bucket or None)
+        for segment, bucket in zip(segments, buckets)
+    ]

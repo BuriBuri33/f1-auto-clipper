@@ -132,7 +132,32 @@ silence to meet the next utterance. With word timestamps on, the same segment
 came back as 1.62–3.74. Spec section 9 requires accurate timestamps, so word
 timestamps are on by default.
 
-A fifth, related finding shaped the design: **Whisper's segment grouping is
+**e. Groq returns word timings at the TOP LEVEL of the response, not nested
+inside each segment.** Verified against the live API. A parser that looks for
+`segment["words"]` finds nothing, silently produces a transcript with no word
+timings, and therefore cannot re-segment — leaving Groq's own boundaries in
+place. Those boundaries are coarse: the same audio gave segments at
+0.00–7.00, 7.00–13.00 and 13.00–19.00, rounded to whole seconds and stretched
+across the silence between utterances.
+
+Measured against known ground truth, before and after attaching the
+top-level words:
+
+| | worst start error | worst end error |
+|---|---|---|
+| Groq, words not attached | 2.00s | 3.32s |
+| Groq, words attached and re-segmented | **0.08s** | **0.48s** |
+| Local `faster-whisper` (`tiny`) | 0.38s | 0.19s |
+
+The individual word timings were accurate to **0.02s** throughout — so the
+information was always there, simply unread. `whisper-large-v3` (non-turbo)
+behaves the same way, and also returns coarse segments.
+
+Transcription quality note: Groq's `whisper-large-v3-turbo` transcribed "box
+this lap" correctly where local `tiny` heard "box this lab" — as expected,
+and a reason to prefer the API when a key is available.
+
+A sixth, related finding shaped the design: **Whisper's segment grouping is
 not stable.** The same speech and model gave 3 segments read from a WAV and
 one 15-second segment read from the 32 kbit/s MP3 the pipeline produces —
 with identical, correct word timings. So the pipeline ignores the backend's

@@ -1,4 +1,4 @@
-"""Environment self-test for the download stage.
+"""Environment self-test for the ingest pipeline.
 
 This exists because of a concrete failure. On 2026-10-10, from one network,
 yt-dlp could *probe* a public video (via the ``android_vr`` client) but **no
@@ -156,8 +156,86 @@ def _check_api_key(api_key: str, session=None):
     )
 
 
+def _check_transcription_key(api_key: Optional[str], ffmpeg, session=None):
+    """Validate the transcription backend. Returns (name, ok, detail)."""
+    name = "transcription backend"
+
+    if not api_key:
+        try:
+            import faster_whisper  # noqa: F401
+        except ImportError:
+            return (
+                name, False,
+                "no TRANSCRIPTION_API_KEY and faster-whisper is not installed, "
+                "so there is no way to transcribe at all.\n"
+                "  Either: get a free key at https://console.groq.com/keys\n"
+                "  Or:     pip install -r requirements-transcribe.txt",
+            )
+        return (
+            name, True,
+            "no TRANSCRIPTION_API_KEY — will use local faster-whisper. Works "
+            "with no key and no quota, but runs at roughly real time, so a "
+            "3-hour source is a 3-hour job.",
+        )
+
+    if not ffmpeg:
+        return (name, False, "cannot test the key without FFmpeg to make a sample")
+
+    # One second of silence is enough to prove the key, the endpoint and the
+    # response shape. Groq bills a 10-second minimum per request, which is
+    # negligible against ~28,800 audio seconds a day.
+    import subprocess
+    import tempfile
+
+    from ..transcription import groq_backend
+    from ..transcription.types import (
+        TranscriptionError,
+        TranscriptionQuotaExceeded,
+    )
+
+    with tempfile.TemporaryDirectory() as tmp:
+        sample = Path(tmp) / "probe.mp3"
+        made = subprocess.run(
+            ["ffmpeg", "-nostdin", "-y", "-loglevel", "error",
+             "-f", "lavfi", "-t", "1", "-i", "anullsrc=r=16000:cl=mono",
+             "-ac", "1", "-ar", "16000", "-b:a", "32k", str(sample)],
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+        )
+        if made.returncode != 0 or not sample.exists():
+            return (name, False, "could not build a sample clip with FFmpeg")
+
+        transcriber = groq_backend.GroqTranscriber(
+            api_key=api_key, session=session, max_retries=2, sleep=lambda _: None
+        )
+        try:
+            payload = transcriber.transcribe_file(sample)
+        except TranscriptionQuotaExceeded as exc:
+            return (
+                name, False,
+                "the key is valid but Groq's free daily allowance is spent. "
+                "Work stays queued and resumes after the reset; nothing is "
+                "charged.\n  %s" % str(exc)[:200],
+            )
+        except TranscriptionError as exc:
+            return (name, False, str(exc)[:400])
+
+    if not isinstance(payload, dict) or "text" not in payload:
+        return (
+            name, False,
+            "Groq accepted the key but the response was not the expected "
+            "verbose_json shape — keys: %s"
+            % sorted(payload)[:8] if isinstance(payload, dict) else type(payload),
+        )
+    return (
+        name, True,
+        "Groq key accepted, endpoint reachable, verbose_json parsed "
+        "(model %s)" % transcriber.model,
+    )
+
+
 def run_diagnostics(
     api_key: Optional[str] = None,
+    transcription_api_key: Optional[str] = None,
     do_download: bool = True,
     dest_dir: Optional[Path] = None,
     player_clients=downloader.DEFAULT_PLAYER_CLIENTS,
@@ -219,7 +297,12 @@ def run_diagnostics(
     else:
         report.add(*_check_api_key(api_key, session=session))
 
-    # 4. Can we read metadata at all?
+    # 4. The transcription key, if one is configured. Validated with a real
+    #    call, because "present" says nothing: a wrong key, a disabled
+    #    account and a spent allowance all look identical until you ask.
+    report.add(*_check_transcription_key(transcription_api_key, ffmpeg, session))
+
+    # 5. Can we read metadata at all?
     probe_result = None
     try:
         probe_result = downloader.probe(
@@ -269,7 +352,7 @@ def run_diagnostics(
 
 
 def format_report(report: Report) -> str:
-    lines = ["DOWNLOAD ENVIRONMENT CHECK", "-" * 26]
+    lines = ["PIPELINE ENVIRONMENT CHECK", "-" * 26]
     for check in report.checks:
         mark = "PASS" if check.ok else "FAIL"
         lines.append("[%s] %s" % (mark, check.name))

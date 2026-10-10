@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pytest
 import requests
 
@@ -227,3 +229,110 @@ def test_an_empty_segment_list_falls_back_to_the_whole_text():
 def test_genuinely_empty_audio_yields_no_segments():
     assert parse_verbose_json(body(segments=[], text="", duration=3.0)) == []
     assert parse_verbose_json(body(segments=None, text="x", duration=0.0)) == []
+
+
+# --- top-level words ------------------------------------------------------
+#
+# Groq returns words at the TOP LEVEL of the body, not nested inside each
+# segment. Verified against the live API 2026-10-10. Looking only inside
+# segments finds nothing, silently yields a transcript with no word timings,
+# and leaves Groq's own coarse boundaries in place — which were measured at
+# up to 3.3s out, against word timings accurate to 0.02s.
+
+from src.transcription.types import Word  # noqa: E402
+
+
+def live_shaped_body():
+    """The real response shape, from a live call."""
+    return {
+        "task": "transcribe",
+        "language": "english",
+        "duration": 19.32,
+        "text": "Lights out and away we go. Box box box.",
+        "segments": [
+            # Coarse and rounded, exactly as the API returned them.
+            {"id": 0, "start": 0.0, "end": 7.0, "text": " Lights out and away we go.",
+             "avg_logprob": -0.3, "no_speech_prob": 0.01, "tokens": [1, 2]},
+            {"id": 1, "start": 7.0, "end": 19.0, "text": " Box box box.",
+             "avg_logprob": -0.3, "no_speech_prob": 0.01, "tokens": [3, 4]},
+        ],
+        "words": [
+            {"word": "Lights", "start": 2.02, "end": 2.28},
+            {"word": "out", "start": 2.28, "end": 2.50},
+            {"word": "go.", "start": 3.10, "end": 3.30},
+            {"word": "Box", "start": 14.30, "end": 14.60},
+            {"word": "box.", "start": 14.60, "end": 15.00},
+        ],
+        "x_groq": {"id": "req_x"},
+    }
+
+
+def test_top_level_words_are_attached_to_their_containing_segment():
+    segments = parse_verbose_json(live_shaped_body())
+    assert len(segments) == 2
+    assert [w.text for w in segments[0].words] == ["Lights", "out", "go."]
+    assert [w.text for w in segments[1].words] == ["Box", "box."]
+
+
+def test_word_timings_survive_so_resegmentation_can_fix_the_boundaries():
+    """The coarse 0.00-7.00 segment carries words at 2.02-3.30, which is what
+    makes an accurate boundary recoverable."""
+    from src.transcription.types import resegment_from_words
+
+    segments = resegment_from_words(parse_verbose_json(live_shaped_body()))
+    assert segments[0].start == pytest.approx(2.02)
+    assert segments[0].end == pytest.approx(3.30)
+
+
+def test_a_word_outside_every_segment_goes_to_the_nearest_not_the_bin():
+    """Segment boundaries are approximate, so this happens — and dropping a
+    word would silently lose speech."""
+    body = live_shaped_body()
+    body["segments"] = [{"id": 0, "start": 5.0, "end": 6.0, "text": " x"}]
+    segments = parse_verbose_json(body)
+    assert len(segments[0].words) == 5
+
+
+def test_nested_words_are_still_honoured_if_a_provider_sends_them():
+    """Keeps an OpenAI-compatible provider that nests them working."""
+    body = live_shaped_body()
+    body["segments"][0]["words"] = [{"word": "nested", "start": 1.0, "end": 1.5}]
+    body["segments"][1]["words"] = [{"word": "also", "start": 8.0, "end": 8.5}]
+    segments = parse_verbose_json(body)
+    assert [w.text for w in segments[0].words] == ["nested"]
+    assert [w.text for w in segments[1].words] == ["also"]
+
+
+def test_a_body_with_no_words_still_parses_into_segments():
+    body = live_shaped_body()
+    del body["words"]
+    segments = parse_verbose_json(body)
+    assert len(segments) == 2
+    assert all(s.words is None for s in segments)
+
+
+def test_malformed_word_entries_are_skipped_not_fatal():
+    body = live_shaped_body()
+    body["words"] = [
+        {"word": "ok", "start": 2.0, "end": 2.4},
+        {"word": "nostart", "end": 3.0},
+        {"word": "bad", "start": "x", "end": 3.0},
+        {"word": "inverted", "start": 5.0, "end": 1.0},
+        "not a dict",
+    ]
+    segments = parse_verbose_json(body)
+    everything = [w.text for s in segments for w in (s.words or [])]
+    assert everything == ["ok"]
+
+
+def test_the_request_asks_for_word_granularity():
+    """Without this parameter the body carries no words at all."""
+    session = FakeSession([FakeResponse(200, live_shaped_body())])
+    import tempfile
+    with tempfile.TemporaryDirectory() as d:
+        path = Path(d) / "a.mp3"
+        path.write_bytes(b"\0" * 64)
+        make(session).transcribe_file(path)
+    sent = session.calls[0]["data"]["timestamp_granularities[]"]
+    assert "word" in sent and "segment" in sent
+

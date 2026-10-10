@@ -249,3 +249,106 @@ def test_the_report_names_both_upgrade_routes_when_too_old(tmp_path, monkeypatch
     assert "git+https://github.com/yt-dlp/yt-dlp.git" in check.detail
     assert "looks exactly like" in check.detail      # names the misdiagnosis
     assert report.ok is False
+
+
+# --- transcription backend check ------------------------------------------
+
+
+def transcription_body():
+    return {"task": "transcribe", "language": "english", "duration": 1.0,
+            "text": "", "segments": [], "x_groq": {"id": "r"}}
+
+
+class PostSession:
+    """A session that answers the Groq transcription POST."""
+
+    def __init__(self, response):
+        self.response = response
+        self.calls = 0
+
+    def post(self, *a, **kw):
+        self.calls += 1
+        if isinstance(self.response, Exception):
+            raise self.response
+        return self.response
+
+
+def diagnose_with(monkeypatch, tmp_path, transcription_key, session=None,
+                  have_whisper=True):
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    return diagnose.run_diagnostics(
+        api_key="KEY", transcription_api_key=transcription_key,
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}),
+        session=session or FakeSession([key_response()]),
+    )
+
+
+def test_no_key_but_faster_whisper_present_is_a_pass_with_the_caveat(
+    tmp_path, monkeypatch
+):
+    report = diagnose_with(monkeypatch, tmp_path, None)
+    check = names(report)["transcription backend"]
+    assert check.ok is True
+    assert "local faster-whisper" in check.detail
+    assert "real time" in check.detail      # states the cost
+
+
+def test_no_key_and_no_faster_whisper_is_a_failure_with_both_remedies(
+    tmp_path, monkeypatch
+):
+    import builtins
+
+    real_import = builtins.__import__
+
+    def blocked(name, *a, **kw):
+        if name == "faster_whisper":
+            raise ImportError("no module")
+        return real_import(name, *a, **kw)
+
+    monkeypatch.setattr(builtins, "__import__", blocked)
+    report = diagnose_with(monkeypatch, tmp_path, None)
+    check = names(report)["transcription backend"]
+    assert check.ok is False
+    assert "console.groq.com/keys" in check.detail
+    assert "requirements-transcribe.txt" in check.detail
+
+
+def test_a_bad_transcription_key_fails_the_check(tmp_path, monkeypatch):
+    class R:
+        status_code = 401
+        headers = {}
+
+        @staticmethod
+        def json():
+            return {"error": {"message": "invalid api key"}}
+
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key="BAD", do_download=False,
+        dest_dir=tmp_path, ydl_factory=factory({"default": REAL_INFO}),
+        session=PostSession(R()),
+    )
+    check = names(report)["transcription backend"]
+    assert check.ok is False
+    assert "console.groq.com/keys" in check.detail
+
+
+def test_a_spent_allowance_is_distinguished_from_a_bad_key(tmp_path, monkeypatch):
+    class R:
+        status_code = 429
+        headers = {}
+
+        @staticmethod
+        def json():
+            return {"error": {"message": "audio seconds per day exceeded"}}
+
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key="KEY", do_download=False,
+        dest_dir=tmp_path, ydl_factory=factory({"default": REAL_INFO}),
+        session=PostSession(R()),
+    )
+    check = names(report)["transcription backend"]
+    assert check.ok is False
+    assert "the key is valid" in check.detail
+    assert "nothing is" in check.detail.lower()
