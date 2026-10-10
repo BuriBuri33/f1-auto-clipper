@@ -1,0 +1,97 @@
+# Pipeline configuration. Secrets never live here — see .env.example.
+#
+# ${VAR} and ${VAR:-default} are substituted from the environment at load
+# time, so any value can be overridden by a GitHub Actions secret or a local
+# .env without editing this file.
+
+database:
+  path: "data/state.db"
+
+monitoring:
+  # auto: use the YouTube Data API when YOUTUBE_API_KEY is set, and fall back
+  #       to the public Atom feed otherwise (and when an API call fails)
+  # api:  Data API only            rss: Atom feed only
+  #
+  # The API is primary because the Atom feed returns intermittent 404s from
+  # datacenter IPs — i.e. from GitHub Actions runners. Detection costs 1 quota
+  # unit per source per check against a free 10,000/day. See docs/LIMITS.md.
+  backend: auto
+  api_max_results: 25
+  feed_url_template: "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+  # Ignore anything older than this on first sight, so enabling a new source
+  # does not enqueue its entire recent back catalogue.
+  max_age_hours_on_discovery: 72
+  request_timeout_seconds: 20
+  max_retries: 4
+  backoff_base_seconds: 2
+
+processing:
+  max_source_duration_minutes: 180
+  max_download_size_mb: 2000
+
+download:
+  # Licence is a property of each VIDEO, not of the channel, so a
+  # rights-cleared CC channel can still contain all-rights-reserved uploads.
+  # This check costs 1 quota unit per batch of up to 50 videos.
+  #
+  # Turning it off means the ONLY rights control left is the per-source
+  # rights_cleared flag. Do that only if every enabled source is footage you
+  # own outright. See docs/RIGHTS.md.
+  require_creative_commons: true
+
+  # Too short to pull a 20-60s self-contained clip out of.
+  min_source_duration_seconds: 120
+
+  # A 9:16 crop of a 16:9 source keeps only ~56% of the width, so a 1440p
+  # source yields a true 1080-wide vertical frame while 1080p would have to be
+  # upscaled. Raise to 2160 for better quality at ~4x the bytes.
+  preferred_max_height: 1440
+
+  # YouTube serves one progressive (single-file) format and it is 360p, so
+  # anything usable requires muxing separate streams — i.e. FFmpeg. Leave this
+  # false: true downloads 360p, which cannot be rendered to 1080x1920 without
+  # a 3x upscale the spec forbids. Testing only.
+  allow_progressive_only: false
+
+  # Extraction breaks per player client as YouTube pushes back, and which one
+  # works changes over time. Verified 2026-10-10: of these, three failed and
+  # android_vr worked. Tried in order; reorder here without a code change.
+  player_clients: ["default", "android_vr", "tv", "web_safari", "mweb", "ios"]
+
+  max_videos_per_run: 3
+  max_retries: 3
+
+  # Empty means a temp directory removed when the command exits. Set a path to
+  # keep downloads between commands while developing.
+  work_dir: ""
+
+clip:
+  min_duration: 20
+  max_duration: 60
+  target_duration: 45
+  candidates_per_video: 8
+
+publishing:
+  max_per_day: 1
+  youtube: true
+  instagram: true
+  tiktok: true
+  # Every platform starts private/unlisted. Flipping this to false is a
+  # deliberate act taken after a test upload has been inspected by hand.
+  force_private: true
+
+branding:
+  enabled: true
+  watermark_text: "${BRAND_NAME:-YOUR_CHANNEL_NAME}"
+  position: "top_right"
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  video_codec: "libx264"
+  audio_codec: "aac"
+
+logging:
+  level: "${LOG_LEVEL:-INFO}"
+  json: false

@@ -1,0 +1,97 @@
+name: download
+
+# Fetch videos that passed the pre-download gate.
+#
+# Separate from `monitor` on purpose: monitoring is cheap and reliable,
+# downloading is neither. Keeping them apart means a download problem never
+# stops new uploads being detected and recorded.
+
+on:
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "List candidates without fetching anything"
+        type: boolean
+        default: false
+
+concurrency:
+  group: download
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        # --upgrade matters: YouTube breaks extraction and only a newer
+        # yt-dlp release fixes it, and a cached old wheel is exactly the
+        # failure this prevents. A stale yt-dlp presents as a 403 that looks
+        # like an IP block — see docs/LIMITS.md section 7.
+        run: |
+          pip install -r requirements-download.txt
+          pip install --upgrade yt-dlp
+
+      - name: Confirm FFmpeg is present
+        # Preinstalled on GitHub-hosted ubuntu images, but assert it rather
+        # than discover its absence halfway through a download.
+        run: ffmpeg -version | head -1
+
+      - name: Check this runner can actually download
+        # The decisive check. yt-dlp's ability to fetch bytes depends on the
+        # IP and the yt-dlp version, and GitHub runners are datacenter IPs —
+        # exactly what YouTube is most likely to refuse. Running this first
+        # means a failure is diagnosed in one legible step instead of looking
+        # like a broken pipeline. Non-blocking: see docs/LIMITS.md section 7.
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python -m src.main doctor
+
+      - name: Download pending videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          LOG_LEVEL: INFO
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m src.main download --dry-run
+          else
+            python -m src.main download
+          fi
+
+      - name: Write status to the run summary
+        if: always()
+        run: python -m src.main status
+
+      - name: Commit state
+        if: always()
+        run: |
+          # Only the database. Media files never reach git — they live in a
+          # temp directory that the command removes on exit.
+          if git diff --quiet -- data/; then
+            echo "no state change"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore(state): download pass $(date -u +%Y-%m-%dT%H:%MZ)"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          done
+          echo "::error::could not push state after 3 attempts"
+          exit 1

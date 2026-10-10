@@ -1,0 +1,38 @@
+# Secrets — never commit
+.env
+*.pem
+*.p12
+client_secret*.json
+token*.json
+
+# Temporary media and work directories
+tmp/
+work/
+downloads/
+renders/
+*.mp4
+*.mkv
+*.webm
+*.m4a
+*.wav
+*.mp3
+*.srt
+*.ass
+
+# The state database IS committed (it is the pipeline's durable state across
+# ephemeral CI runners), but its journal files are not.
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+*.egg-info/
+
+# OS
+.DS_Store

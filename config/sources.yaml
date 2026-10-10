@@ -1,0 +1,28 @@
+# Source channels to monitor.
+#
+# RIGHTS GATE — read before adding anything here.
+#
+# `rights_cleared` is not a formality and the pipeline enforces it: a source
+# with `rights_cleared: false` is monitored and recorded, but every video it
+# produces is parked at status SKIPPED and is never downloaded, rendered or
+# published. Set it to true only for channels whose footage you personally
+# hold the right to repurpose — your own uploads, a Creative Commons licensed
+# channel, footage you have written permission for, or content licensed to you.
+#
+# Official Formula 1 broadcast footage is NOT in that category. Do not add
+# F1's own channels, race broadcast re-uploads, or aggregator channels that
+# re-host broadcast clips. See docs/RIGHTS.md.
+#
+# channel_id is the UC... id, not the @handle. To find it: open the channel,
+# View Source, search for "channelId", or use
+#   python -m src.main resolve-channel "https://www.youtube.com/@somehandle"
+
+sources:
+  # ---------------------------------------------------------------------------
+  # Example entry, disabled. Copy it, do not edit it in place.
+  # ---------------------------------------------------------------------------
+  - name: example_disabled_source
+    channel_id: "UC_x5XG1OV2P6uZZ5FSM9Ttw"   # Google Developers — placeholder
+    enabled: false
+    rights_cleared: false
+    rights_note: "Placeholder. Not cleared, not enabled. Replace with a source you hold rights to."

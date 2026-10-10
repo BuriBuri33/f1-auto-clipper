@@ -1,0 +1,5 @@
+# Core runtime — monitoring, database, config, status.
+# Deliberately does NOT include yt-dlp: detection must not be able to break
+# because of a downloader dependency problem. See requirements-download.txt.
+PyYAML==6.0.2
+requests==2.32.3

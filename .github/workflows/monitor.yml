@@ -1,0 +1,87 @@
+name: monitor
+
+# Detect new uploads from the configured sources and record them.
+#
+# Cost: standard GitHub-hosted runners are free and unmetered on PUBLIC
+# repositories. On a private repository this consumes the 2,000 included
+# minutes/month — this job takes well under a minute, so ~8 runs/day is
+# roughly 4 hours/month either way. See docs/LIMITS.md.
+
+on:
+  schedule:
+    # Every 3 hours. GitHub does not honour cron to the minute, and scheduled
+    # runs are dropped entirely under load — which is fine here: detection is
+    # idempotent, so a missed run is picked up by the next one.
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "List what would be checked without making requests"
+        type: boolean
+        default: false
+
+# One monitor at a time. Two concurrent passes would both try to commit the
+# database and one would lose.
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: write    # to commit the updated state database
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        # Core only — monitoring does not use yt-dlp, and must not be able to
+        # fail because of a downloader dependency problem.
+        run: pip install -r requirements.txt
+
+      - name: Check sources
+        env:
+          # Only needs the Data API key. Publishing credentials are not read
+          # by this workflow, so they are not exposed to it.
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          LOG_LEVEL: INFO
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m src.main monitor --dry-run
+          else
+            python -m src.main monitor
+          fi
+
+      - name: Write status to the run summary
+        if: always()
+        run: python -m src.main status
+
+      - name: Commit state
+        if: always()
+        run: |
+          # The database is the pipeline's only durable state and runners are
+          # ephemeral, so it is committed back. Nothing else is committed.
+          if git diff --quiet -- data/; then
+            echo "no state change"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore(state): monitor pass $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Another workflow may have committed since checkout; rebase and
+          # retry rather than failing the run.
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          done
+          echo "::error::could not push state after 3 attempts"
+          exit 1

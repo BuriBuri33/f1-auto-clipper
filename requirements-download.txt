@@ -1,0 +1,36 @@
+-r requirements.txt
+
+# yt-dlp is NOT pinned to an exact version, but it DOES have a meaningful
+# floor.
+#
+# Measured 2026-10-10 on one machine, minutes apart, same video:
+#   2025.10.14  -> media fetch failed on all 9 player clients (403s,
+#                  "The page needs to be reloaded") — indistinguishable from
+#                  being IP-blocked, and not that at all
+#   2026.08.19  -> media fetch succeeded on the first client
+#
+# A stale yt-dlp costs hours of debugging the network instead of the
+# dependency, so the floor makes it impossible: if your index cannot satisfy
+# it, installation FAILS LOUDLY rather than quietly producing a build that
+# cannot download. That is the intent.
+#
+# If an index is stale and offers nothing newer, install from source:
+#   pip install --upgrade "yt-dlp @ git+https://github.com/yt-dlp/yt-dlp.git"
+# (needs Python 3.10+; current yt-dlp refuses to install on 3.9)
+#
+# Never pin an exact version: YouTube breaks extraction continuously and only
+# a newer release fixes it.
+yt-dlp>=2026.8.19
+
+# Also required at runtime, NOT a pip package:
+#   FFmpeg  — YouTube serves one progressive format (360p), so anything
+#             usable must be muxed from separate streams.
+#             macOS: brew install ffmpeg / Ubuntu: apt-get install ffmpeg
+#             GitHub-hosted ubuntu runners already have it.
+
+# Later phases add, in order:
+#   Phase 3  (no dependency if transcription is API-based; faster-whisper for
+#            the local fallback)
+#   Phase 4  (no dependency — the LLM is called over plain HTTPS via requests)
+#   Phase 5  (no dependency — rendering is FFmpeg via subprocess)
+#   Phase 6  google-auth, google-auth-oauthlib, google-api-python-client
