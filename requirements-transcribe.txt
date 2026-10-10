@@ -1,0 +1,22 @@
+-r requirements-download.txt
+
+# Local transcription fallback — the reason this project does not depend on
+# any transcription vendor staying free. No key, no quota, no network.
+#
+# Only needed for the `local` backend. The Groq backend uses plain HTTPS via
+# `requests` and needs nothing here.
+faster-whisper>=1.2.1
+
+# PyAV is pinned OUT, not in.
+#
+# faster-whisper decodes audio through PyAV and does not pin it, so a fresh
+# install picks up a PyAV whose API has moved and EVERY transcription dies
+# with `open() got an unexpected keyword argument 'metadata_errors'`.
+# Observed 2026-10-10 on a clean install: faster-whisper 1.2.1 + av 19.0.1.
+#
+# Pinning PyAV to an older release is not a fix: it has no wheel for every
+# platform and then wants FFmpeg headers to build from source. So this
+# project decodes audio with the FFmpeg binary it already requires and hands
+# faster-whisper a numpy array, never a path — see
+# src/transcription/local_backend.py. PyAV is still installed as a transitive
+# dependency; it is simply never used.

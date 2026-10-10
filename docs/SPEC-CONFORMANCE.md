@@ -1,7 +1,7 @@
 # Spec conformance audit
 
 Section-by-section audit of the implementation against the project
-specification. Audited **2026-10-10** at the end of Phase 2.
+specification. Audited **2026-10-10**, updated at the end of Phase 3.
 
 Legend: **✅ done** · **◐ partial** · **⏳ later phase** · **⚠️ deviation**
 (implemented differently from the spec, with reasoning) · **❌ gap**
@@ -14,13 +14,14 @@ Legend: **✅ done** · **◐ partial** · **⏳ later phase** · **⚠️ devia
 |---|---|---|
 | 1.1 | Monitor source channels | ✅ |
 | 1.2 | Detect new videos automatically | ✅ |
-| 1.3 | Download permitted source videos | ◐ code complete, **byte fetch unverified** (LIMITS §7) |
-| 1.4-1.8 | Transcribe → select → render → publish | ⏳ Phases 3-8 |
+| 1.3 | Download permitted source videos | ✅ verified working (LIMITS §7) |
+| 1.4 | Transcribe | ✅ measured to 0.38s worst-case accuracy |
+| 1.5-1.8 | Select → render → publish | ⏳ Phases 4-8 |
 | 1.9 | History prevents double-posting | ✅ schema-enforced (see §7) |
-| 1.10 | Runs without my computer online | ◐ **at risk** — depends on CI being able to download |
+| 1.10 | Runs without my computer online | ◐ download works locally; **not yet measured on a GitHub runner** |
 | 1.11 | ₹0/month recurring | ✅ no paid dependency anywhere |
 | 1.12 | Free/open-source tooling | ✅ |
-| 2 | Pipeline stage order | ✅ followed; "Audio Extraction" will live inside transcription (Phase 3) rather than as its own stage |
+| 2 | Pipeline stage order | ✅ followed; "Audio Extraction" lives inside transcription (`transcription/audio.py`) rather than as its own stage, and download+transcribe are one job because the media only exists inside a single run |
 | 3 | No paid SaaS, document insufficient free tiers | ✅ `docs/LIMITS.md`, with a second free option per limitation |
 | 4 | Python 3.12+, FFmpeg, yt-dlp, SQLite, Actions, Data API | ✅ |
 
@@ -136,7 +137,7 @@ that rule applied upstream.
 
 | Section | Requirement | State |
 |---|---|---|
-| 9 | Transcription behind a replaceable interface | ⏳ Phase 3 |
+| 9 | Transcription behind a replaceable interface | ✅ `transcribe(media_path) -> Transcript`, two backends, spec's segment shape |
 | 10 | LLM clip selection, strict JSON | ⏳ Phase 4 |
 | 11 | F1 scoring formula | ⏳ Phase 4 |
 | 12 | One clip/day, backup candidates | ⏳ Phase 9 |

@@ -1,0 +1,6 @@
+Transcripts land here, one JSON file per source video.
+
+They are committed deliberately: later phases need them and the CI runner
+that produced them is destroyed when its job ends. A few hundred kB each, so
+`python -m src.main prune-transcripts` releases those whose video has reached
+PUBLISHED or SKIPPED.

@@ -105,13 +105,36 @@ Still open against the spec, both deferred by phase rather than overlooked:
       GitHub's failed-workflow email) — Phase 9
 - [ ] §5 `daily_clip.yml` — Phase 5/6, when there is something for it to run
 
-## Phase 3 — Transcription
+## Phase 3 — Transcription ✅
 
-- [ ] `transcribe(video_path) -> Transcript` interface
-- [ ] Groq backend with 25 MB-aware chunking and timestamp offsetting
-- [ ] `faster-whisper` local fallback (no key, no quota)
-- [ ] Verify timestamp accuracy at chunk boundaries — the thing chunking breaks
-- [ ] Test against: long sources, accents, team radio, overlapping speech
+- [x] `transcribe(media_path) -> Transcript` interface; the spec's
+      `{"segments": [{start, end, text}]}` shape is the whole contract
+- [x] Groq backend: `verbose_json`, word granularity, 25 MB-aware chunking,
+      daily-allowance exhaustion distinguished from a per-minute rate limit
+- [x] `faster-whisper` local fallback — no key, no quota, no network
+- [x] Audio extraction at 16 kHz mono, chunks encoded direct from source at a
+      bitrate we control (one lossy generation, predictable size)
+- [x] Overlapping chunks with authoritative windows, so speech is kept by
+      exactly one chunk — no duplicates, no gaps
+- [x] Word timestamps on by default (without them segment ends are wrong by
+      seconds) and segments rebuilt from words rather than trusting the
+      backend's grouping
+- [x] Fallback policy: a Groq failure falls back to local; a SPENT ALLOWANCE
+      does not, because silently burning an hour of CPU hides the problem
+- [x] `ingest` command — download and transcribe in one pass, because the
+      media only exists inside a single workflow run
+- [x] `prune-transcripts` — transcripts are committed, so they need a
+      retention story; PUBLISHED/SKIPPED videos release theirs
+- [x] Schema v3 transcript columns; `ingest.yml` workflow
+- [x] **Real-audio integration tests** against synthesised speech with known
+      timing: worst start error 0.38s, worst end error 0.19s, across three
+      forced chunk boundaries with zero duplicated speech
+
+Tested per spec section 27: timestamp accuracy ✅ (measured against ground
+truth), chunk boundaries ✅, long sources ✅ (chunk planning covers 180
+minutes), silence/no-speech ✅. **Not yet tested with real accents, team
+radio or overlapping speech** — that needs real rights-cleared F1 footage,
+so it belongs with the first real source.
 
 ## Phase 4 — Clip selection
 

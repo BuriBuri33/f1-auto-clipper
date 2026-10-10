@@ -25,7 +25,7 @@ from enum import Enum
 from pathlib import Path
 from typing import Any, Dict, Iterable, Iterator, List, Optional, Tuple
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 
 class VideoStatus(str, Enum):
@@ -153,6 +153,19 @@ _MIGRATIONS = {
         "ALTER TABLE source_videos ADD COLUMN download_path TEXT",
         "ALTER TABLE source_videos ADD COLUMN download_bytes INTEGER",
         "ALTER TABLE source_videos ADD COLUMN download_format TEXT",
+    ],
+    3: [
+        # The transcript itself lives in a committed file (text, diffable,
+        # and it must survive the runner that produced it); these columns
+        # record where it is and how it was made.
+        "ALTER TABLE source_videos ADD COLUMN transcript_path TEXT",
+        "ALTER TABLE source_videos ADD COLUMN transcript_backend TEXT",
+        "ALTER TABLE source_videos ADD COLUMN transcript_model TEXT",
+        "ALTER TABLE source_videos ADD COLUMN transcript_language TEXT",
+        "ALTER TABLE source_videos ADD COLUMN transcript_segments INTEGER",
+        "ALTER TABLE source_videos ADD COLUMN transcript_covered_seconds REAL",
+        "ALTER TABLE source_videos ADD COLUMN transcript_chunks INTEGER",
+        "ALTER TABLE source_videos ADD COLUMN transcribed_at TEXT",
     ],
 }
 
@@ -648,3 +661,92 @@ def unskip(conn: sqlite3.Connection, video_id: str) -> bool:
             (VideoStatus.DISCOVERED.value, video_id, VideoStatus.SKIPPED.value),
         )
     return cur.rowcount > 0
+
+
+# --- phase 3: transcripts ---------------------------------------------------
+
+
+def record_transcript(
+    conn: sqlite3.Connection,
+    video_row_id: int,
+    path: str,
+    backend: str,
+    model: Optional[str],
+    language: Optional[str],
+    segment_count: int,
+    covered_seconds: float,
+    chunk_count: int,
+) -> None:
+    """Mark a video transcribed and remember where the transcript landed.
+
+    The transcript file, not the media, is what persists between workflow
+    runs: media is far too large to commit and is discarded with the runner,
+    while a transcript is text that later phases genuinely need.
+    """
+    with transaction(conn):
+        conn.execute(
+            "UPDATE source_videos SET status = ?, status_detail = '', "
+            "  transcript_path = ?, transcript_backend = ?, transcript_model = ?, "
+            "  transcript_language = ?, transcript_segments = ?, "
+            "  transcript_covered_seconds = ?, transcript_chunks = ?, "
+            "  transcribed_at = ? "
+            "WHERE id = ?",
+            (
+                VideoStatus.TRANSCRIBED.value,
+                path,
+                backend,
+                model,
+                language,
+                segment_count,
+                covered_seconds,
+                chunk_count,
+                utcnow(),
+                video_row_id,
+            ),
+        )
+
+
+def videos_pending_transcription(
+    conn: sqlite3.Connection, limit: int = 3, max_retries: int = 3
+) -> List[sqlite3.Row]:
+    """Videos ready to transcribe, newest first.
+
+    DOWNLOADED videos whose transcript is missing. Note the media file is
+    *not* required to still exist: on a fresh runner it never does, which is
+    why the ingest command downloads and transcribes in one pass.
+    """
+    return list(
+        conn.execute(
+            "SELECT sv.*, s.name AS source_name, s.rights_cleared "
+            "FROM source_videos sv JOIN sources s ON s.id = sv.source_id "
+            "WHERE sv.status = ? AND s.enabled = 1 AND sv.retry_count < ? "
+            "ORDER BY (sv.published_at IS NULL), sv.published_at DESC, sv.id DESC "
+            "LIMIT ?",
+            (VideoStatus.DOWNLOADED.value, max_retries, limit),
+        ).fetchall()
+    )
+
+
+def transcripts_safe_to_prune(conn: sqlite3.Connection) -> List[sqlite3.Row]:
+    """Transcripts for videos that have reached a terminal state.
+
+    Transcripts are committed to the repository so they survive between runs,
+    which means they accumulate. Once a video is PUBLISHED or SKIPPED its
+    transcript has served its purpose and can go, keeping the repository from
+    growing without bound.
+    """
+    return list(
+        conn.execute(
+            "SELECT id, youtube_video_id, transcript_path FROM source_videos "
+            "WHERE transcript_path IS NOT NULL AND status IN (?, ?)",
+            (VideoStatus.PUBLISHED.value, VideoStatus.SKIPPED.value),
+        ).fetchall()
+    )
+
+
+def clear_transcript(conn: sqlite3.Connection, video_row_id: int) -> None:
+    with transaction(conn):
+        conn.execute(
+            "UPDATE source_videos SET transcript_path = NULL WHERE id = ?",
+            (video_row_id,),
+        )

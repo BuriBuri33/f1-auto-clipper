@@ -17,6 +17,12 @@ V2_ADDED_COLUMNS = {
     "duration_seconds", "license", "live_broadcast_content",
     "details_checked_at", "download_path", "download_bytes", "download_format",
 }
+V3_ADDED_COLUMNS = {
+    "transcript_path", "transcript_backend", "transcript_model",
+    "transcript_language", "transcript_segments",
+    "transcript_covered_seconds", "transcript_chunks", "transcribed_at",
+}
+ALL_COLUMNS = V1_BASELINE_COLUMNS | V2_ADDED_COLUMNS | V3_ADDED_COLUMNS
 
 
 def columns(conn, table):
@@ -27,7 +33,7 @@ def test_a_fresh_database_is_at_the_current_version():
     conn = db.connect(":memory:")
     db.init_db(conn)
     assert db.schema_version(conn) == db.SCHEMA_VERSION
-    assert columns(conn, "source_videos") == V1_BASELINE_COLUMNS | V2_ADDED_COLUMNS
+    assert columns(conn, "source_videos") == ALL_COLUMNS
 
 
 def test_init_db_is_idempotent_across_repeated_calls():
@@ -35,7 +41,7 @@ def test_init_db_is_idempotent_across_repeated_calls():
     for _ in range(3):
         db.init_db(conn)
     assert db.schema_version(conn) == db.SCHEMA_VERSION
-    assert columns(conn, "source_videos") == V1_BASELINE_COLUMNS | V2_ADDED_COLUMNS
+    assert columns(conn, "source_videos") == ALL_COLUMNS
 
 
 def test_an_empty_database_reports_version_zero():
@@ -44,7 +50,11 @@ def test_an_empty_database_reports_version_zero():
 
 
 def test_a_v1_database_is_migrated_in_place_without_losing_rows():
-    """The real upgrade path: someone ran Phase 1, then pulled Phase 2."""
+    """The real upgrade path: someone ran Phase 1, then pulled a later phase.
+
+    Spans every migration, so it keeps working as more are added — which is
+    the case that matters, since a long-lived database skips no versions.
+    """
     conn = db.connect(":memory:")
     # Build a v1 database by hand: baseline schema, version stamped at 1.
     conn.executescript(db._SCHEMA)
@@ -66,8 +76,8 @@ def test_a_v1_database_is_migrated_in_place_without_losing_rows():
 
     db.init_db(conn)
 
-    assert db.schema_version(conn) == 2
-    assert columns(conn, "source_videos") == V1_BASELINE_COLUMNS | V2_ADDED_COLUMNS
+    assert db.schema_version(conn) == db.SCHEMA_VERSION
+    assert columns(conn, "source_videos") == ALL_COLUMNS
     row = db.get_video(conn, "OLDVID")
     assert row is not None
     assert row["status"] == "DISCOVERED"
@@ -84,8 +94,8 @@ def test_a_half_applied_migration_completes_rather_than_crashing():
 
     db.init_db(conn)
 
-    assert db.schema_version(conn) == 2
-    assert columns(conn, "source_videos") == V1_BASELINE_COLUMNS | V2_ADDED_COLUMNS
+    assert db.schema_version(conn) == db.SCHEMA_VERSION
+    assert columns(conn, "source_videos") == ALL_COLUMNS
 
 
 def test_a_real_operational_error_is_not_swallowed():

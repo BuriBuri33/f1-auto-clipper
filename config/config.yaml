@@ -65,6 +65,59 @@ download:
   # keep downloads between commands while developing.
   work_dir: ""
 
+transcription:
+  # auto:  Groq when TRANSCRIPTION_API_KEY is set, local Whisper otherwise
+  # groq:  Groq only          local: local Whisper only (no key, no quota)
+  backend: auto
+
+  # Groq free tier, verified 2026-10-10: 25 MB per upload (the binding
+  # constraint), ~28,800 audio seconds/day, 20 req/min, 2,000 req/day.
+  groq_model: "whisper-large-v3-turbo"
+
+  # Local fallback. `base` runs at roughly real time on a 4-vCPU runner;
+  # `small` is better and 2-3x slower; `tiny` is for tests only.
+  local_model: "base"
+
+  # Leave empty to auto-detect. Setting it (e.g. "en") is faster and avoids
+  # mis-detection on noisy audio like team radio.
+  language: ""
+
+  # 16 kHz mono MP3. Whisper resamples to 16 kHz mono internally and Groq
+  # downsamples before transcribing, so higher is bytes spent on information
+  # the model discards. At 32 kbit/s, 25 MB holds ~104 minutes, so a
+  # 180-minute source is 2 chunks rather than 9.
+  bitrate_kbps: 32
+
+  # Chunks overlap by this much, and each chunk owns the span up to the
+  # middle of the overlap — so no speech is duplicated and none is dropped
+  # at a boundary.
+  chunk_overlap_seconds: 4
+
+  # If a Groq attempt fails for a reason that is NOT a spent allowance, fall
+  # back to local Whisper. A spent allowance never falls back: quietly
+  # spending an hour of CPU every run would hide the problem.
+  allow_local_fallback: true
+
+  # Per-word timestamps. ON because without them Whisper's SEGMENT end
+  # times are wrong — measured against audio with known timing, an utterance
+  # ending at 3.68s was reported as ending at 7.78s, stretched across the
+  # following silence. Phase 4 needs accurate boundaries to avoid starting a
+  # clip mid-sentence; Phase 5 needs them to synchronise captions.
+  word_timestamps: true
+
+  # Rebuild segment boundaries from the word timings rather than trusting
+  # the backend's grouping. Measured 2026-10-10: the same speech and model
+  # gave 3 segments from a WAV and 1 fifteen-second segment from the
+  # 32 kbit/s MP3 this pipeline produces — while the word timings were
+  # identical and correct. So grouping is a property of the encoding and not
+  # safe to depend on; word timings are.
+  resegment_from_words: true
+  max_segment_seconds: 8
+  max_segment_chars: 180
+  pause_threshold_seconds: 0.8
+
+  max_videos_per_run: 2
+
 clip:
   min_duration: 20
   max_duration: 60

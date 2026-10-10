@@ -1,9 +1,19 @@
-name: download
+name: ingest
 
-# Fetch videos that passed the pre-download gate.
+# Download videos that passed the rights gate, transcribe them, and commit
+# the transcript.
+#
+# Download and transcription are ONE job on purpose. The media file is
+# hundreds of megabytes: too large to commit, and this runner is destroyed
+# when the job ends. So the media exists only inside this run, and anything
+# needing it must happen here. Transcribing in a later workflow would mean
+# downloading the video a second time.
+#
+# What survives the run: the transcript (text, committed) and the database
+# row. The media is deliberately discarded.
 #
 # Separate from `monitor` on purpose: monitoring is cheap and reliable,
-# downloading is neither. Keeping them apart means a download problem never
+# ingesting is neither. Keeping them apart means an ingest problem never
 # stops new uploads being detected and recorded.
 
 on:
@@ -17,16 +27,18 @@ on:
         default: false
 
 concurrency:
-  group: download
+  group: ingest
   cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
-  download:
+  ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # Generous: local Whisper on `base` runs at roughly real time, so a long
+    # source is a long job. Actions minutes are unmetered on public repos.
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
 
@@ -41,7 +53,7 @@ jobs:
         # failure this prevents. A stale yt-dlp presents as a 403 that looks
         # like an IP block — see docs/LIMITS.md section 7.
         run: |
-          pip install -r requirements-download.txt
+          pip install -r requirements-transcribe.txt
           pip install --upgrade yt-dlp
 
       - name: Confirm FFmpeg is present
@@ -60,15 +72,18 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python -m src.main doctor
 
-      - name: Download pending videos
+      - name: Download and transcribe
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          # Optional. Absent, transcription falls back to local Whisper,
+          # which needs no key and no quota but takes far longer.
+          TRANSCRIPTION_API_KEY: ${{ secrets.TRANSCRIPTION_API_KEY }}
           LOG_LEVEL: INFO
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python -m src.main download --dry-run
           else
-            python -m src.main download
+            python -m src.main ingest
           fi
 
       - name: Write status to the run summary
@@ -78,8 +93,8 @@ jobs:
       - name: Commit state
         if: always()
         run: |
-          # Only the database. Media files never reach git — they live in a
-          # temp directory that the command removes on exit.
+          # The database and the transcripts. Media never reaches git — it
+          # lives in a temp directory the command removes on exit.
           if git diff --quiet -- data/; then
             echo "no state change"
             exit 0
@@ -87,7 +102,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          git commit -m "chore(state): download pass $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -m "chore(state): ingest pass $(date -u +%Y-%m-%dT%H:%MZ)"
           for attempt in 1 2 3; do
             if git push; then exit 0; fi
             echo "push rejected, rebasing (attempt $attempt)"

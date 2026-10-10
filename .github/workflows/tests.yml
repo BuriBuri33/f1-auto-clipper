@@ -15,5 +15,8 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+      # ffmpeg is preinstalled on ubuntu runners; the real-audio integration
+      # tests skip themselves if it or `say` is missing.
+      - run: ffmpeg -version | head -1
       - run: pip install -r requirements-dev.txt
       - run: python -m pytest tests -q

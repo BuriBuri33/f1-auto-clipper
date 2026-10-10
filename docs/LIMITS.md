@@ -96,9 +96,59 @@ will not try to (see `RIGHTS.md`). Phase 7 and Phase 8 are built and tested
 against the private/sandbox path, which is what the platforms permit before
 approval.
 
-## 4. Transcription (Phase 3)
+## 4. Transcription — implemented, with findings
 
-**Primary — Groq, free tier** (`whisper-large-v3-turbo`):
+Verified by implementation on 2026-10-10. Four things bit, all of them
+invisible to mocked tests:
+
+**a. faster-whisper's PyAV dependency is unpinned and currently broken.**
+A clean install gives faster-whisper 1.2.1 + PyAV 19.0.1, and *every*
+transcription dies with
+`open() got an unexpected keyword argument 'metadata_errors'`. Pinning PyAV
+older is not a fix — no wheel on every platform, then it wants FFmpeg headers
+to build. Resolved by decoding with the FFmpeg binary this project already
+requires and handing faster-whisper a numpy array instead of a path. PyAV is
+still installed transitively and simply never used.
+
+**b. Chunk sizes overshot the 25 MB cap.** The planner sized chunks from the
+*measured* average bitrate of the extracted file; the encoder then produced
+chunks at the *nominal* bitrate. A file averaging 2,544 B/s yielded a chunk
+at 4,040 B/s — 43% over the prediction, and over the cap. Fixed by sizing
+from the bitrate we ask for, and by encoding each chunk directly from the
+source media rather than cutting an intermediate file (which also drops the
+audio from two lossy generations to one).
+
+**c. Chunks were planned past the end of the audio.** `ffprobe` was asked for
+the *container* duration; a file reporting 30.60s carried only 19.32s of
+audio. The chunk covering 21.75–30.60s came out as a 224-byte MP3 with no
+frames, which no decoder will open. Fixed by probing the audio stream's
+duration, and by dropping any chunk too small to contain frames (the last
+surviving chunk's window then extends to the end).
+
+**d. Without word timestamps, segment end times are simply wrong.** Measured
+against synthesised audio with known timing: an utterance genuinely ending at
+3.68s was reported as ending at **7.78s**, stretched across the following
+silence to meet the next utterance. With word timestamps on, the same segment
+came back as 1.62–3.74. Spec section 9 requires accurate timestamps, so word
+timestamps are on by default.
+
+A fifth, related finding shaped the design: **Whisper's segment grouping is
+not stable.** The same speech and model gave 3 segments read from a WAV and
+one 15-second segment read from the 32 kbit/s MP3 the pipeline produces —
+with identical, correct word timings. So the pipeline ignores the backend's
+grouping entirely and rebuilds segments from word timings, which makes
+segmentation deterministic and under our control. It is also what later
+phases need: clip selection must not start mid-sentence (section 10) and
+captions must break into short readable phrases (section 16).
+
+Measured accuracy after all of the above, against known ground truth:
+**worst start error 0.38s, worst end error 0.19s**, including across three
+forced chunk boundaries with zero duplicated speech.
+
+## 4a. Transcription free tiers
+
+**Primary — Groq, free tier** (`whisper-large-v3-turbo`), endpoint
+`https://api.groq.com/openai/v1/audio/transcriptions` (OpenAI-compatible):
 - 20 requests/min, 2,000/day
 - **28,800 audio seconds/day** (8 hours)
 - **25 MB max file size** ← the binding constraint

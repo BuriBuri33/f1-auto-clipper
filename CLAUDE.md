@@ -142,7 +142,23 @@ docs/              LIMITS.md (verified figures), RIGHTS.md (boundaries)
 - **Instagram's API does not accept file uploads**; it fetches a public HTTPS
   `video_url`. And Reels via API are capped at 90 seconds.
 - **Groq's transcription limit that bites is the 25 MB file cap**, not the
-  daily seconds. Long sources must be chunked with timestamp offsets.
+  daily seconds. Long sources are chunked, each chunk encoded directly from
+  the source at a bitrate we choose — never cut out of an intermediate file,
+  and never sized from a measured average (a mostly-silent file averages far
+  below the rate its speech-dense chunks actually encode at).
+- **Probe the AUDIO stream's duration, not the container's.** They differ
+  (observed 30.60s vs 19.32s), and planning from the container puts chunks
+  past the end of the audio, where FFmpeg writes files with no frames.
+- **Word timestamps are not optional.** Without them Whisper's segment END
+  times are wrong by seconds — they stretch across following silence. And
+  Whisper's segment *grouping* varies with the audio encoding, so this
+  project rebuilds segments from word timings rather than trusting it.
+- **faster-whisper does not pin PyAV, and current PyAV breaks its decoding.**
+  Audio is decoded with the FFmpeg binary and passed as a numpy array; never
+  hand faster-whisper a file path.
+- **Download and transcription are one pass (`ingest`).** The media file
+  exists only inside a single workflow run — too large to commit, and the
+  runner is destroyed. Splitting them would mean downloading twice.
 - **A stale yt-dlp is indistinguishable from an IP block.** 2025.10.14
   failed to fetch media on all 9 player clients with 403s and "The page needs
   to be reloaded"; 2026.08.19 succeeded on the first client, same machine,

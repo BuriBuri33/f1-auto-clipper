@@ -11,6 +11,7 @@ Pipeline, in order:
     python -m src.main check VIDEO [VIDEO ...]    # gate only, no download
     python -m src.main monitor  [--dry-run]
     python -m src.main download [--dry-run] [--keep] [--work-dir PATH]
+    python -m src.main ingest   [--keep] [--work-dir PATH]   # download+transcribe
 
 Inspection and manual override (spec section 29):
 
@@ -40,6 +41,7 @@ from typing import List, Optional
 from .database import db
 from .download import runner as download_runner
 from .download import workspace
+from .transcription import runner as ingest_runner
 from .monitoring import source_monitor, youtube_rss
 from .utils import logging as log_utils
 from .utils.config import (
@@ -345,6 +347,64 @@ def downloader_ffmpeg_ok() -> bool:
     return downloader.ffmpeg_available()
 
 
+def cmd_ingest(args: argparse.Namespace) -> int:
+    """Download and transcribe in one pass.
+
+    These are one command because the media file only exists inside a single
+    run: it is too large to commit and the runner is destroyed afterwards.
+    Transcribing in a later run would mean downloading the video twice.
+    """
+    config = load_config(args.config)
+    log_utils.configure(config.log_level, config.log_json)
+    context = log_utils.LogContext(job_id=log_utils.new_job_id("ingest"))
+    log = log_utils.get_logger("ingest", context)
+
+    conn = db.connect(config.database_path)
+    db.init_db(conn)
+
+    dl_cfg = config.section("download")
+    configured_dir = args.work_dir or dl_cfg.get("work_dir") or ""
+    with workspace.work_dir(configured_dir, keep=args.keep) as dest:
+        log.info("working directory", fields={"path": dest})
+        result = ingest_runner.run_ingest(conn, config, dest_dir=dest, log=log)
+
+        lines = ["F1 AUTO-CLIPPER — INGEST", "-" * 24]
+        if not result.outcomes:
+            lines.append("  nothing pending")
+        for outcome in result.outcomes:
+            detail = outcome.reason
+            if outcome.status == db.VideoStatus.TRANSCRIBED.value:
+                detail = "%d segments via %s" % (outcome.segments or 0,
+                                                 outcome.backend or "?")
+            lines.append("  %-14s %-12s %s" % (outcome.video_id, outcome.status,
+                                               detail[:60]))
+        lines.append("")
+        lines.append("Downloaded: %d   transcribed: %d   failed: %d"
+                     % (result.downloaded, result.transcribed, len(result.failed)))
+        lines.append("Data API units this pass: %d" % result.api_units_spent)
+        lines.append("")
+        lines.append("Media is discarded with the working directory; the "
+                     "transcript is what persists.")
+        _emit_summary("\n".join(lines))
+
+        if result.failed and not result.transcribed:
+            return EXIT_PARTIAL_FAILURE
+    return EXIT_OK
+
+
+def cmd_prune_transcripts(args: argparse.Namespace) -> int:
+    config = load_config(args.config)
+    conn = db.connect(config.database_path)
+    db.init_db(conn)
+    removed = ingest_runner.prune_transcripts(conn)
+    if not removed:
+        print("no transcripts eligible for pruning "
+              "(only PUBLISHED and SKIPPED videos qualify)")
+        return EXIT_OK
+    print("pruned %d transcript(s): %s" % (len(removed), ", ".join(removed)))
+    return EXIT_OK
+
+
 def cmd_status(args: argparse.Namespace) -> int:
     """Pipeline status, in the shape spec section 31 illustrates.
 
@@ -377,6 +437,7 @@ def cmd_status(args: argparse.Namespace) -> int:
         % (sum(1 for r in sources if r["enabled"]), len(sources)),
         "Rights-cleared:    %d" % sum(1 for r in sources if r["rights_cleared"]),
         "Pending download:  %d" % len(db.videos_pending_download(conn, limit=1000)),
+        "Pending transcribe: %d" % len(db.videos_pending_transcription(conn, limit=1000)),
         "FFmpeg available:  %s" % ("yes" if downloader_ffmpeg_ok() else "NO"),
         "Data API units:    %d / 10000 today"
         % db.api_usage_today(conn, "youtube_data_api"),
@@ -553,6 +614,20 @@ def build_parser() -> argparse.ArgumentParser:
     p_dl.add_argument("--keep", action="store_true",
                       help="do not delete the working directory on exit")
     p_dl.set_defaults(func=cmd_download)
+
+    p_ing = sub.add_parser(
+        "ingest", help="download AND transcribe in one pass (what CI runs)"
+    )
+    p_ing.add_argument("--work-dir", default=None,
+                       help="where to put media (overrides config)")
+    p_ing.add_argument("--keep", action="store_true",
+                       help="do not delete the working directory on exit")
+    p_ing.set_defaults(func=cmd_ingest)
+
+    sub.add_parser(
+        "prune-transcripts",
+        help="delete transcripts for PUBLISHED/SKIPPED videos",
+    ).set_defaults(func=cmd_prune_transcripts)
 
     p_check = sub.add_parser(
         "check",

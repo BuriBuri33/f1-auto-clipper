@@ -7,8 +7,8 @@ publish one clip per day to YouTube Shorts, Instagram Reels and TikTok.
 Designed to run entirely on free tiers (target: **₹0/month** recurring) and
 entirely in CI, so nothing depends on your computer being on.
 
-> **Status: Phases 1-2 of 9 complete** — source monitoring, new-video
-> detection, and gated downloading. Transcription, clip selection, rendering
+> **Status: Phases 1-3 of 9 complete** — source monitoring, new-video
+> detection, gated downloading, and transcription. Clip selection, rendering
 > and publishing are scaffolded but not implemented. See [TODO.md](TODO.md).
 >
 > Downloading is **verified working** end to end (12.9 MB through the real
@@ -36,6 +36,27 @@ entirely in CI, so nothing depends on your computer being on.
    platform policy, not a bug, and it cannot be coded around. Details and
    figures in [docs/LIMITS.md](docs/LIMITS.md).
 
+## Transcription
+
+Two backends behind one interface (`transcribe(media_path) -> Transcript`):
+
+- **Groq Whisper** (free tier) when `TRANSCRIPTION_API_KEY` is set. The cap
+  that binds is **25 MB per upload**, not the daily seconds, so long audio is
+  chunked — each chunk encoded directly from the source at a bitrate we pick,
+  with overlapping chunks and non-overlapping "authoritative windows" so
+  speech is kept by exactly one chunk.
+- **Local `faster-whisper`** otherwise, and as a fallback when a Groq attempt
+  fails. No key, no quota, no network. A *spent allowance* deliberately does
+  **not** fall back: quietly burning an hour of CPU every run would hide the
+  problem.
+
+Word-level timestamps are on by default, and segments are rebuilt from them
+rather than trusting the backend's grouping. That is not polish — measured
+against audio with known timing, segment end times were wrong by over 4
+seconds without them, and the backend's grouping changed with the audio
+encoding while the word timings stayed correct.
+[docs/LIMITS.md §4](docs/LIMITS.md) has the measurements.
+
 ## Architecture
 
 ```
@@ -48,7 +69,8 @@ upload detector  ──  YouTube Data API (primary, 1 quota unit/check)
   SQLite state  ──  committed to the repo; CI runners are ephemeral
       |
       v
-  downloader (yt-dlp)  ->  audio extract  ->  transcribe (Groq / local Whisper)
+  ingest: downloader (yt-dlp) -> audio extract -> transcribe
+          (one job: media exists only inside a single run)
       |
       v
   clip candidates (LLM or heuristic)  ->  F1-weighted scoring
@@ -162,7 +184,8 @@ detection:
 | File | Contains | Used by |
 |---|---|---|
 | `requirements.txt` | PyYAML, requests | `monitor` workflow, core commands |
-| `requirements-download.txt` | the above + `yt-dlp>=2026.8.19` | `download` workflow |
+| `requirements-download.txt` | the above + `yt-dlp>=2026.8.19` | — |
+| `requirements-transcribe.txt` | the above + `faster-whisper` | `ingest` workflow |
 | `requirements-dev.txt` | the above + pytest | local dev, `tests` workflow |
 
 Monitoring genuinely runs with yt-dlp absent — verified, not assumed. That
@@ -177,6 +200,8 @@ matters because yt-dlp is the one dependency that breaks regularly.
 | `monitor --dry-run` | List what would be checked; make no requests |
 | `download` | Download videos that pass the pre-download gate |
 | `download --dry-run` | List download candidates; fetch nothing |
+| `ingest` | Download **and** transcribe in one pass — what CI runs |
+| `prune-transcripts` | Delete transcripts for PUBLISHED/SKIPPED videos |
 | `check VIDEO...` | Run the pre-download gate on specific videos; fetch nothing |
 | `doctor` | Check whether this environment can download at all |
 | `status` | Print a pipeline status report (also to the Actions summary) |
@@ -215,7 +240,7 @@ repository secret*. Use the same names as `.env.example`:
 | Secret | Needed from |
 |---|---|
 | `YOUTUBE_API_KEY` | Phase 1 (optional), **Phase 2 (required)** |
-| `TRANSCRIPTION_API_KEY` | Phase 3 |
+| `TRANSCRIPTION_API_KEY` | Phase 3 (optional — local fallback needs no key) |
 | `LLM_API_KEY` | Phase 4 |
 | `BRAND_NAME` | Phase 5 |
 | `YOUTUBE_CLIENT_ID` / `_CLIENT_SECRET` / `_REFRESH_TOKEN` | Phase 6 |
@@ -232,11 +257,17 @@ checks each source, records new videos, writes a status summary to the run
 page, and commits the updated state database back to the repo — runners are
 ephemeral, so the committed database *is* the pipeline's memory.
 
-`.github/workflows/download.yml` runs every 6 hours, upgrades yt-dlp, asserts
-FFmpeg, runs `doctor` as a diagnostic step, then downloads what passed the
-gate. It is separate from `monitor` on purpose: monitoring is cheap and
-reliable, downloading is neither, and a download problem must not stop new
-uploads being detected.
+`.github/workflows/ingest.yml` runs every 6 hours, upgrades yt-dlp, asserts
+FFmpeg, runs `doctor` as a diagnostic step, then downloads **and transcribes**
+what passed the gate. It is separate from `monitor` on purpose: monitoring is
+cheap and reliable, ingesting is neither, and an ingest problem must not stop
+new uploads being detected.
+
+**Why download and transcription are one job.** The media file is hundreds of
+megabytes: too large to commit, and the runner is destroyed when the job ends.
+So it exists only inside that run, and anything needing it must happen there —
+transcribing in a later workflow would mean downloading the video twice. What
+survives is the transcript (text, committed) and the database row.
 
 `.github/workflows/tests.yml` runs the test suite on push and PR.
 
@@ -265,8 +296,12 @@ Re-discovering a video never resets its status, so work in progress and
 already-published videos are left alone.
 
 Media files are never committed. They are downloaded into a temp directory
-that is removed when the command exits, including on failure — only the
-database travels between runs.
+that is removed when the command exits, including on failure. What travels
+between runs is the database and the transcripts in `data/transcripts/`.
+
+Transcripts are committed because later phases genuinely need them and the
+runner that produced them is gone. They are a few hundred kB each, so
+`prune-transcripts` releases them once a video reaches PUBLISHED or SKIPPED.
 
 The schema is versioned and migrated in place, so pulling Phase 2 onto a
 Phase 1 database adds the new columns without losing rows.
