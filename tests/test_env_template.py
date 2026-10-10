@@ -22,7 +22,13 @@ SRC = REPO_ROOT / "src"
 WORKFLOWS = REPO_ROOT / ".github" / "workflows"
 
 # Variables the runtime provides, not the operator.
-PROVIDED_BY_THE_HARNESS = {"GITHUB_RUN_ID", "GITHUB_RUN_ATTEMPT", "GITHUB_STEP_SUMMARY"}
+PROVIDED_BY_THE_HARNESS = {
+    "GITHUB_RUN_ID", "GITHUB_RUN_ATTEMPT", "GITHUB_STEP_SUMMARY",
+    # Always present in a GitHub Actions run; GITHUB_TOKEN is minted
+    # automatically from the workflow's own `permissions: contents: write`
+    # (see publishing/hosting.py) rather than being a secret anyone sets.
+    "GITHUB_TOKEN", "GITHUB_REPOSITORY",
+}
 
 
 def declared_in_template():

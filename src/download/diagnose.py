@@ -273,10 +273,89 @@ def _check_llm_key(api_key: Optional[str], session=None):
     )
 
 
+def _check_youtube_publish_credentials(
+    client_id: Optional[str], client_secret: Optional[str],
+    refresh_token: Optional[str], session=None,
+):
+    """Validate the Phase 6 OAuth credentials. Returns (name, ok, detail)."""
+    name = "YouTube publish credentials"
+    have_any = any((client_id, client_secret, refresh_token))
+    have_all = all((client_id, client_secret, refresh_token))
+
+    if not have_any:
+        return (
+            name, True,
+            "no YOUTUBE_CLIENT_ID/_SECRET/_REFRESH_TOKEN — publishing to "
+            "YouTube will be skipped. See README for the one-time OAuth "
+            "setup to mint a refresh token.",
+        )
+    if not have_all:
+        return (
+            name, False,
+            "only some of YOUTUBE_CLIENT_ID/_CLIENT_SECRET/_REFRESH_TOKEN "
+            "are set — publishing needs all three or none.",
+        )
+
+    from ..publishing import youtube
+    from ..publishing.types import PublishError
+
+    try:
+        youtube.refresh_access_token(client_id, client_secret, refresh_token, session=session)
+    except PublishError as exc:
+        return (name, False, str(exc)[:400])
+    return (
+        name, True,
+        "refresh token accepted, access token minted. No quota spent — this "
+        "is Google's OAuth endpoint, not the Data API.",
+    )
+
+
+def _check_instagram_credentials(
+    access_token: Optional[str], ig_account_id: Optional[str], session=None,
+):
+    """Validate the Phase 7 Graph API credentials. Returns (name, ok, detail)."""
+    name = "Instagram publish credentials"
+    have_any = any((access_token, ig_account_id))
+    have_all = all((access_token, ig_account_id))
+
+    if not have_any:
+        return (
+            name, True,
+            "no META_ACCESS_TOKEN/INSTAGRAM_ACCOUNT_ID — publishing to "
+            "Instagram will be skipped. See README for the Meta app / "
+            "Professional account setup.",
+        )
+    if not have_all:
+        return (
+            name, False,
+            "only one of META_ACCESS_TOKEN/INSTAGRAM_ACCOUNT_ID is set — "
+            "publishing needs both or neither.",
+        )
+
+    from ..publishing import instagram
+    from ..publishing.types import PublishError
+
+    try:
+        info = instagram.get_account_info(ig_account_id, access_token, session=session)
+    except PublishError as exc:
+        return (name, False, str(exc)[:400])
+    return (
+        name, True,
+        "access token accepted (account %s). Long-lived Meta tokens expire "
+        "around 60 days and must be refreshed manually."
+        % info.get("username", ig_account_id),
+    )
+
+
 def run_diagnostics(
     api_key: Optional[str] = None,
     transcription_api_key: Optional[str] = None,
     llm_api_key: Optional[str] = None,
+    youtube_client_id: Optional[str] = None,
+    youtube_client_secret: Optional[str] = None,
+    youtube_refresh_token: Optional[str] = None,
+    instagram_access_token: Optional[str] = None,
+    instagram_account_id: Optional[str] = None,
     do_download: bool = True,
     dest_dir: Optional[Path] = None,
     player_clients=downloader.DEFAULT_PLAYER_CLIENTS,
@@ -368,6 +447,17 @@ def run_diagnostics(
     #    moves fast enough that a working key can still 404 on a dead model
     #    name (verified: gemini-2.5-flash did exactly this on 2026-10-10).
     report.add(*_check_llm_key(llm_api_key, session))
+
+    # 4c/4d. The publishing credentials, if configured — Phase 6/7. Same
+    #    reasoning again: these are OAuth credentials that expire/rotate
+    #    (a refresh token can be revoked, a long-lived Meta token lasts
+    #    ~60 days), so "present" is not "working".
+    report.add(*_check_youtube_publish_credentials(
+        youtube_client_id, youtube_client_secret, youtube_refresh_token, session,
+    ))
+    report.add(*_check_instagram_credentials(
+        instagram_access_token, instagram_account_id, session,
+    ))
 
     # 5. Can we read metadata at all?
     probe_result = None

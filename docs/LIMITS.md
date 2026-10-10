@@ -479,6 +479,63 @@ which made FFmpeg unable to pick a container — unit tests passed because they
 fake `render_clip` entirely and construct their own `.mp4` path. Fixed in
 `video/runner.py`.
 
+## 9. Publishing (Phase 6/7) — implemented, not yet verified live
+
+**Caveat up front, unlike every other phase's LIMITS section: nothing here
+was proven against a real account.** No YouTube OAuth client, no Instagram
+Professional account, and no GitHub personal-access token were available in
+this environment to test against — `.env` has none of
+`YOUTUBE_CLIENT_ID`/`_CLIENT_SECRET`/`_REFRESH_TOKEN`,
+`META_ACCESS_TOKEN`/`INSTAGRAM_ACCOUNT_ID` set, and minting either is a
+manual, multi-step process outside this codebase (see `.env.example`). This
+is a real gap against this project's own stated methodology ("verify, do not
+recall, any external service's limits") and should be closed by running
+`python -m src.main doctor` and one real `publish` pass once credentials
+exist, not assumed safe because the unit tests pass.
+
+What IS true: both publishers are implemented strictly against each
+platform's documented REST contract (resumable upload's Location/
+Content-Range/308-resume dance for YouTube; container create -> poll
+status_code -> media_publish for Instagram), exercised with unit tests built
+from those documented shapes, and the full render-to-publish orchestration
+was run end-to-end against the REAL `config/config.yaml` with only the
+network calls faked — so the config parsing, database transitions, and
+cross-module wiring are verified; the actual bytes-over-the-wire protocol
+correctness against a live server is not.
+
+**The YouTube audit gate (section 2) and the Instagram/TikTok account
+requirements (section 3) still apply exactly as documented there** — nothing
+in Phase 6/7 changes what those sections say.
+
+### 9a. Instagram publishing needs the clip hosted somewhere public first
+
+Covered in section 3, worth restating because of what it costs in code: the
+Graph API's `video_url` fetch means publishing a clip also means uploading it
+a SECOND time (to a GitHub Release asset — `src/publishing/hosting.py`)
+before Instagram's own servers can fetch it, then deleting that asset once
+the container reaches `FINISHED`. One release (`clip-hosting`, pre-release)
+is reused across every publish rather than one release per clip, so the
+repository's Releases page does not accumulate entries — between publishes
+it holds no assets.
+
+Uses `GITHUB_TOKEN`, minted automatically by Actions with the same
+`contents: write` permission the workflow already has for committing
+`data/` — no new secret. Locally, exercising this path for real needs a
+personal access token with the same scope; none was available to test with
+here either.
+
+### 9b. What "idempotent retry" means given nothing persists the render
+
+Unlike earlier phases, a publish failure cannot be retried on its own:
+nothing keeps the rendered file between workflow runs (section 5's
+deviation note), so there is no file left to re-upload later. A retry
+re-renders AND re-publishes from scratch. What IS idempotent: a platform
+already recorded PUBLISHED for a clip (`publications.status`, checked via
+`db.publication_status` before any upload attempt) is never re-attempted —
+so a video that published to YouTube but failed on Instagram will, on retry,
+re-render, skip the already-done YouTube upload, and try Instagram again.
+That is the granularity "idempotent" holds at: per platform, not per byte.
+
 ---
 
 ## Free-tier enforcement

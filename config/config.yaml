@@ -197,13 +197,38 @@ analysis:
   max_retries: 3
 
 publishing:
+  # Phase 9's job, not enforced by `publish` — see src/publishing/runner.py.
   max_per_day: 1
   youtube: true
   instagram: true
+  # Not implemented yet (Phase 8). `publish` always skips TikTok regardless
+  # of this flag, same as `status` already reports it.
   tiktok: true
-  # Every platform starts private/unlisted. Flipping this to false is a
-  # deliberate act taken after a test upload has been inspected by hand.
+
+  # Every platform starts private. Flipping this to false is a deliberate
+  # act taken after a test upload has been inspected by hand — and even
+  # then, YouTube uploads from an un-audited API project are forced private
+  # regardless of what this sends. See docs/LIMITS.md section 2.
   force_private: true
+
+  # "Sports". https://developers.google.com/youtube/v3/docs/videoCategories
+  youtube_category_id: "17"
+
+  # Each publish re-downloads and re-renders its source (nothing persists
+  # the file between runs — see src/video/runner.py), so this is smaller
+  # than render's own default.
+  max_videos_per_run: 1
+  max_retries: 3
+
+  # Meta's container processing has no webhook, only polling. Generous
+  # timeout: giving up too early re-attempts a container that would have
+  # finished anyway, re-hosting and re-uploading the same clip for nothing.
+  instagram_poll_interval_seconds: 10
+  instagram_poll_timeout_seconds: 600
+
+  # One release, reused by every clip hosted for Instagram's video_url fetch
+  # and emptied again right after — see src/publishing/hosting.py.
+  github_release_tag: "clip-hosting"
 
 branding:
   enabled: true

@@ -7,11 +7,16 @@ publish one clip per day to YouTube Shorts, Instagram Reels and TikTok.
 Designed to run entirely on free tiers (target: **₹0/month** recurring) and
 entirely in CI, so nothing depends on your computer being on.
 
-> **Status: Phases 1-5 of 9 complete** — source monitoring, new-video
-> detection, gated downloading, transcription, clip candidate selection, and
-> rendering (cut, 9:16 reframe, burned-in captions, watermark, metadata,
-> quality gate). Publishing is scaffolded but not implemented. See
-> [TODO.md](TODO.md).
+> **Status: Phases 1-7 of 9 complete** (TikTok/Phase 8 deliberately deferred)
+> — source monitoring, new-video detection, gated downloading, transcription,
+> clip candidate selection, rendering, and publishing to YouTube Shorts and
+> Instagram Reels. **YouTube and Instagram publishing are implemented and
+> unit-tested against each platform's documented protocol, but NOT yet
+> verified against a live account** — no OAuth client or Instagram
+> Professional account was available to test with. Run `python -m src.main
+> doctor` once you have credentials, before trusting this the way every
+> other phase's measurements have been earned. See [docs/LIMITS.md
+> §9](docs/LIMITS.md). See [TODO.md](TODO.md).
 >
 > Downloading is **verified working** end to end (12.9 MB through the real
 > code path). The earlier failure was a year-stale yt-dlp, not a blocked
@@ -28,15 +33,59 @@ entirely in CI, so nothing depends on your computer being on.
    Read [docs/RIGHTS.md](docs/RIGHTS.md) first — it determines whether this
    project is useful to you at all.
 2. **Run `python -m src.main doctor` first.** It checks, in order: yt-dlp is
-   new enough, FFmpeg is present, your API key works, metadata is readable,
-   and media bytes can actually be fetched. An out-of-date yt-dlp fails with
-   403s that look exactly like being IP-blocked, so this check saves you
-   debugging the wrong thing.
+   new enough, FFmpeg is present (and has the caption/watermark filters
+   rendering needs), every API key/credential you've configured actually
+   works (YouTube, transcription, clip-selection LLM, YouTube publishing,
+   Instagram), and media bytes can actually be fetched. An out-of-date
+   yt-dlp fails with 403s that look exactly like being IP-blocked, so this
+   check saves you debugging the wrong thing.
 3. **Public posting on YouTube and TikTok is gated behind a free manual
    audit.** Until those audits pass, API uploads are forced private
    (YouTube) and `SELF_ONLY` (TikTok), whatever your code requests. This is
    platform policy, not a bug, and it cannot be coded around. Details and
    figures in [docs/LIMITS.md](docs/LIMITS.md).
+
+## Publishing (Phase 6/7)
+
+**Not yet verified against a live account** — see the status banner above
+and [docs/LIMITS.md §9](docs/LIMITS.md) before relying on this.
+
+Render and publish are one command (`publish`), for the same reason download
+and transcription are one (`ingest`): the rendered file only exists inside
+the run that produced it, so anything needing it — including uploading it —
+has to happen there. A publish failure cannot be retried on its own in a
+later run; there is no file left to retry with, so a retry re-renders and
+re-publishes from scratch. What IS idempotent: a platform already recorded
+PUBLISHED for a clip is checked and skipped before any upload is attempted,
+so a clip that reached YouTube but failed on Instagram will, on retry, skip
+straight past the already-done YouTube upload.
+
+Each platform is independent — a clip can succeed on one and fail on the
+other in the same run, and a clip is marked PUBLISHED as soon as ANY enabled
+platform succeeds. Credentials are genuinely optional per platform: missing
+ones mean that platform is SKIPPED, not failed, so `publish` runs sensibly
+before either platform's setup is done.
+
+- **YouTube**: OAuth refresh-token flow + resumable upload, raw REST rather
+  than the `google-api-python-client`/`google-auth` SDKs (same minimal-deps
+  reasoning as Phase 4's Gemini client — the whole protocol is three
+  well-documented HTTP calls). Always uploads `privacyStatus: private`
+  unless `publishing.force_private: false` — and even then, uploads from an
+  un-audited API project are forced private by YouTube regardless of what is
+  sent. See "Before you start" above and [docs/LIMITS.md §2](docs/LIMITS.md).
+- **Instagram**: the Graph API does not accept a direct file upload — it
+  fetches the video from a public `video_url` you give it. So publishing a
+  clip means hosting it a SECOND time first: a temporary GitHub Release
+  asset (one release, reused across every clip, deleted again once
+  Instagram's container finishes processing), using `GITHUB_TOKEN` — minted
+  automatically in Actions with the same `contents: write` permission the
+  workflow already has, no new secret needed there.
+
+Does not select "today's clip" across videos or enforce the spec's 1/day
+cap (both remain Phase 9) — `publish` pushes the best candidate for every
+video it considers, bounded by `publishing.max_videos_per_run`.
+`.github/workflows/publish.yml` runs once a day as a blunt stand-in for that
+cap until Phase 9's real selection logic exists.
 
 ## Rendering (Phase 5)
 
@@ -187,7 +236,7 @@ git clone <your-repo-url> && cd f1-auto-clipper
 python3.12 -m venv .venv && source .venv/bin/activate
 pip install -r requirements-dev.txt
 
-python -m pytest tests -q          # 600 tests, no network needed
+python -m pytest tests -q          # 665 tests, no network needed
 python -m src.main init-db
 python -m src.main doctor          # can this machine download?
 python -m src.main monitor --dry-run
@@ -290,6 +339,8 @@ matters because yt-dlp is the one dependency that breaks regularly.
 | `render` | Render the best candidate clip per video: cut, reframe, caption, brand |
 | `render --dry-run` | List videos pending render; fetch and encode nothing |
 | `render --keep [--work-dir PATH]` | Keep the working directory so a rendered MP4 can be inspected by hand |
+| `publish` | Render **and upload** the best candidate clip per video — what CI runs |
+| `publish --dry-run` | List videos pending publish; fetch, render and upload nothing |
 | `check VIDEO...` | Run the pre-download gate on specific videos; fetch nothing |
 | `doctor` | Check whether this environment can download at all |
 | `status` | Print a pipeline status report (also to the Actions summary) |
@@ -333,10 +384,18 @@ repository secret*. Use the same names as `.env.example`:
 | `BRAND_NAME` | Phase 5 (optional — unset renders the literal placeholder "YOUR_CHANNEL_NAME"; set `branding.enabled: false` to skip the watermark instead) |
 | `YOUTUBE_CLIENT_ID` / `_CLIENT_SECRET` / `_REFRESH_TOKEN` | Phase 6 |
 | `META_ACCESS_TOKEN`, `INSTAGRAM_ACCOUNT_ID` | Phase 7 |
-| `TIKTOK_CLIENT_KEY` / `_CLIENT_SECRET` / `_ACCESS_TOKEN` | Phase 8 |
+| `TIKTOK_CLIENT_KEY` / `_CLIENT_SECRET` / `_ACCESS_TOKEN` | Phase 8 — not implemented yet, nothing reads these |
 
 The `monitor` workflow is given only `YOUTUBE_API_KEY`, so publishing
 credentials are never exposed to it.
+
+**Instagram publishing also needs `GITHUB_TOKEN` and `GITHUB_REPOSITORY`** —
+not secrets you set: both are provided automatically inside GitHub Actions
+(`GITHUB_TOKEN` from the workflow's own `permissions: contents: write`,
+already granted for committing `data/`). Nothing to add in *Settings >
+Secrets*. Locally, exercising Instagram publishing for real needs a personal
+access token with the same scope exported as `GITHUB_TOKEN` by hand — see
+`src/publishing/hosting.py`.
 
 ## How the automation runs
 
@@ -362,11 +421,28 @@ So it exists only inside that run, and anything needing it must happen there —
 transcribing in a later workflow would mean downloading the video twice. What
 survives is the transcript (text, committed) and the database row.
 
+`.github/workflows/publish.yml` runs once a day and renders **and uploads**
+the best candidate clip for each ANALYZED video — YouTube Shorts and
+Instagram Reels; TikTok is skipped unconditionally (Phase 8, not built).
+Render and publish are one job for the same reason download and
+transcription are: the rendered file only exists inside this run. A
+platform with no credentials configured is skipped, not failed, so this
+workflow is safe to enable before either OAuth/app setup is done. Once a day
+rather than every few hours like the earlier stages — there is no Phase 9
+yet to pick the single best clip across every video and enforce "one per
+day" for real (spec section 12), so a daily cron is a blunt stand-in for
+that cap, not an implementation of it. See
+[docs/SPEC-CONFORMANCE.md](docs/SPEC-CONFORMANCE.md) section 5.
+
+`.github/workflows/render.yml` is manual-dispatch only: render a clip
+without uploading it anywhere, to inspect by hand (`render --keep`) without
+touching any publishing credentials.
+
 `.github/workflows/tests.yml` runs the test suite on push and PR.
 
-`daily_clip.yml` is intentionally absent until there is something for it to
-do (Phase 5/6). A scheduled workflow that cannot produce a clip is just a
-failing job on a timer.
+`daily_clip.yml`, the spec's own name for this stage, is intentionally
+absent — `publish.yml` is what actually runs, under a different name and
+without the real 1/day selection logic. See the note above.
 
 **Public vs private repository matters.** Standard runners are free and
 unmetered on public repos (4 vCPU, 16 GB); a private repo gets 2,000
@@ -390,7 +466,10 @@ already-published videos are left alone.
 
 Media files are never committed. They are downloaded into a temp directory
 that is removed when the command exits, including on failure. What travels
-between runs is the database and the transcripts in `data/transcripts/`.
+between runs is the database and the transcripts in `data/transcripts/`. A
+rendered clip published to Instagram is hosted PUBLICLY but TEMPORARILY (a
+GitHub Release asset, not a git commit) only long enough for Instagram's
+servers to fetch it, then deleted — see "Publishing" above.
 
 Transcripts are committed because later phases genuinely need them and the
 runner that produced them is gone. They are a few hundred kB each, so

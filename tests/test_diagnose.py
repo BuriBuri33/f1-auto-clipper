@@ -422,3 +422,137 @@ def test_a_bad_llm_key_fails_the_check(tmp_path, monkeypatch):
     check = names(report)["clip-selection LLM backend"]
     assert check.ok is False
     assert "aistudio.google.com" in check.detail
+
+
+# --- Phase 6/7 publish credential checks ------------------------------------
+
+
+def test_no_youtube_publish_credentials_is_a_pass_with_the_skip_caveat(tmp_path, monkeypatch):
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key=None,
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}),
+    )
+    check = names(report)["YouTube publish credentials"]
+    assert check.ok is True
+    assert "skipped" in check.detail.lower()
+
+
+def test_partial_youtube_publish_credentials_fail_the_check(tmp_path, monkeypatch):
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key=None,
+        youtube_client_id="id", youtube_client_secret=None, youtube_refresh_token="refresh",
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}),
+    )
+    check = names(report)["YouTube publish credentials"]
+    assert check.ok is False
+    assert "all three or none" in check.detail
+
+
+def test_a_working_youtube_refresh_token_passes(tmp_path, monkeypatch):
+    class TokenSession:
+        def post(self, url, data=None, timeout=None):
+            class R:
+                status_code = 200
+                def json(self):
+                    return {"access_token": "TOK"}
+            return R()
+
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key=None,
+        youtube_client_id="id", youtube_client_secret="secret",
+        youtube_refresh_token="refresh",
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}), session=TokenSession(),
+    )
+    check = names(report)["YouTube publish credentials"]
+    assert check.ok is True
+    assert "no quota" in check.detail.lower()
+
+
+def test_a_revoked_youtube_refresh_token_fails_the_check(tmp_path, monkeypatch):
+    class TokenSession:
+        def post(self, url, data=None, timeout=None):
+            class R:
+                status_code = 400
+                def json(self):
+                    return {"error": "invalid_grant", "error_description": "Token revoked"}
+                text = "invalid_grant"
+            return R()
+
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key=None,
+        youtube_client_id="id", youtube_client_secret="secret",
+        youtube_refresh_token="revoked",
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}), session=TokenSession(),
+    )
+    check = names(report)["YouTube publish credentials"]
+    assert check.ok is False
+    assert "invalid_grant" in check.detail
+
+
+def test_no_instagram_credentials_is_a_pass_with_the_skip_caveat(tmp_path, monkeypatch):
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key=None,
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}),
+    )
+    check = names(report)["Instagram publish credentials"]
+    assert check.ok is True
+    assert "skipped" in check.detail.lower()
+
+
+def test_a_working_instagram_token_passes(tmp_path, monkeypatch):
+    class GraphSession:
+        def get(self, url, params=None, timeout=None):
+            class R:
+                status_code = 200
+                def json(self):
+                    return {"id": "IGUSER", "username": "my_f1_clips"}
+            return R()
+
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key=None,
+        instagram_access_token="TOK", instagram_account_id="IGUSER",
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}), session=GraphSession(),
+    )
+    check = names(report)["Instagram publish credentials"]
+    assert check.ok is True
+    assert "my_f1_clips" in check.detail
+
+
+def test_a_bad_instagram_token_fails_the_check(tmp_path, monkeypatch):
+    class GraphSession:
+        def get(self, url, params=None, timeout=None):
+            class R:
+                status_code = 400
+                def json(self):
+                    return {"error": {"code": 190, "message": "token expired"}}
+                text = "token expired"
+            return R()
+
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key=None,
+        instagram_access_token="BAD", instagram_account_id="IGUSER",
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}), session=GraphSession(),
+    )
+    check = names(report)["Instagram publish credentials"]
+    assert check.ok is False

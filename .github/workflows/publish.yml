@@ -1,0 +1,118 @@
+name: publish
+
+# Render AND upload the best candidate clip for each ANALYZED video —
+# YouTube Shorts (Phase 6) and Instagram Reels (Phase 7). TikTok (Phase 8) is
+# not implemented and is always skipped, regardless of config.
+#
+# Render and publish are ONE job for the same reason download+transcribe are
+# one job in `ingest`: the rendered file only exists inside this run, so
+# anything needing it — including uploading it — must happen here. A publish
+# attempt that only uploads cannot be retried later on its own; there is no
+# file left to retry with, so a failed run re-renders from scratch next time.
+#
+# Publishing credentials are genuinely optional per platform (see
+# src/publishing/runner.py): a platform with no credentials set is SKIPPED,
+# not failed, so this workflow runs sensibly even before either OAuth/app
+# setup is done — it will render, find nothing it can upload to, and report
+# that plainly in the run summary.
+#
+# This supersedes `render.yml`'s old schedule — see that workflow's header.
+
+on:
+  schedule:
+    # Once a day, not every few hours like the earlier stages. There is no
+    # Phase 9 yet to pick ONE clip across every video and cap the day at it
+    # (spec section 12) — `max_videos_per_run: 1` caps a single RUN to one
+    # clip, but nothing stops a video becoming ANALYZED between runs and
+    # getting published a few hours later too. A daily cron is a blunt but
+    # honest stand-in until that selection logic exists: it bounds this to
+    # roughly one real post per platform per day without pretending to be
+    # the real thing. Revisit once Phase 9 lands.
+    - cron: "9 8 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "List candidates without fetching, rendering or uploading anything"
+        type: boolean
+        default: false
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  # contents: write is also what lets src/publishing/hosting.py create and
+  # delete a release asset for Instagram's video_url fetch — no separate
+  # token or secret needed for that; GITHUB_TOKEN already carries it.
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements-download.txt
+          pip install --upgrade yt-dlp
+
+      - name: Confirm FFmpeg has the filters rendering needs
+        # See render.yml / docs/LIMITS.md section 8a for why this is its own
+        # check rather than trusting `ffmpeg -version`. Non-blocking: doctor
+        # also validates credentials this job may not have configured yet.
+        continue-on-error: true
+        run: |
+          ffmpeg -version | head -1
+          python -m src.main doctor --no-download
+
+      - name: Render and publish
+        env:
+          # YouTube (Phase 6) — all three or none; see README.
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          # Instagram (Phase 7) — both or neither.
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
+          # Branding (Phase 5), carried through to the render step.
+          BRAND_NAME: ${{ secrets.BRAND_NAME }}
+          LOG_LEVEL: INFO
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m src.main publish --dry-run
+          else
+            python -m src.main publish
+          fi
+
+      - name: Write status to the run summary
+        if: always()
+        run: python -m src.main status
+
+      - name: Commit state
+        if: always()
+        run: |
+          # The database only. The rendered MP4 lives in a temp directory the
+          # command removes on exit and never reaches git; a hosted Instagram
+          # release asset is deleted by the command itself after use.
+          if git diff --quiet -- data/; then
+            echo "no state change"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore(state): publish pass $(date -u +%Y-%m-%dT%H:%MZ)"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          done
+          echo "::error::could not push state after 3 attempts"
+          exit 1

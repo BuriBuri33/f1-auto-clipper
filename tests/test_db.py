@@ -275,3 +275,77 @@ def test_mark_video_rendered_sets_status(conn):
     row = db.get_video(conn, "VID1")
     assert row["status"] == "RENDERED"
     assert row["status_detail"] == ""
+
+
+def test_get_clip_returns_none_for_an_unknown_id(conn):
+    assert db.get_clip(conn, 99999) is None
+
+
+# --- phase 6/7: publishing ------------------------------------------------
+
+
+def _rendered_clip(conn):
+    vid = _analyzed_video(conn)
+    clip_id = _candidate(conn, vid, 0, 20000, 90.0)
+    db.record_render(conn, clip_id, "/tmp/out.mp4", "T", "D", "F1,Shorts")
+    return vid, clip_id
+
+
+def test_publication_status_is_none_before_any_attempt(conn):
+    _, clip_id = _rendered_clip(conn)
+    assert db.publication_status(conn, clip_id, "youtube") is None
+
+
+def test_record_publication_inserts_then_upserts_on_retry(conn):
+    _, clip_id = _rendered_clip(conn)
+    db.record_publication(
+        conn, clip_id, "youtube", db.PublicationStatus.FAILED, error="network blip",
+    )
+    assert db.publication_status(conn, clip_id, "youtube") == "FAILED"
+    row = conn.execute(
+        "SELECT * FROM publications WHERE clip_id = ? AND platform = ?",
+        (clip_id, "youtube"),
+    ).fetchone()
+    assert row["error"] == "network blip"
+    assert row["published_at"] is None
+    assert row["retry_count"] == 0
+
+    db.record_publication(
+        conn, clip_id, "youtube", db.PublicationStatus.PUBLISHED, platform_post_id="VID1",
+    )
+    rows = conn.execute(
+        "SELECT * FROM publications WHERE clip_id = ? AND platform = ?",
+        (clip_id, "youtube"),
+    ).fetchall()
+    assert len(rows) == 1  # updated in place, not duplicated
+    row = rows[0]
+    assert row["status"] == "PUBLISHED"
+    assert row["platform_post_id"] == "VID1"
+    assert row["published_at"] is not None
+    assert row["retry_count"] == 1
+
+
+def test_record_publication_is_independent_per_platform(conn):
+    _, clip_id = _rendered_clip(conn)
+    db.record_publication(conn, clip_id, "youtube", db.PublicationStatus.PUBLISHED, platform_post_id="V1")
+    db.record_publication(conn, clip_id, "instagram", db.PublicationStatus.FAILED, error="no account")
+    assert db.publication_status(conn, clip_id, "youtube") == "PUBLISHED"
+    assert db.publication_status(conn, clip_id, "instagram") == "FAILED"
+
+
+def test_mark_clip_published_sets_status(conn):
+    _, clip_id = _rendered_clip(conn)
+    db.mark_clip_published(conn, clip_id)
+    row = db.get_clip(conn, clip_id)
+    assert row["status"] == "PUBLISHED"
+    assert row["status_detail"] == ""
+
+
+def test_count_publications_by_status(conn):
+    vid = _analyzed_video(conn)
+    c1 = _candidate(conn, vid, 0, 20000, 90.0)
+    c2 = _candidate(conn, vid, 30000, 50000, 40.0)
+    db.record_publication(conn, c1, "youtube", db.PublicationStatus.PUBLISHED)
+    db.record_publication(conn, c2, "youtube", db.PublicationStatus.FAILED, error="x")
+    assert db.count_publications_by_status(conn, "youtube") == {"PUBLISHED": 1, "FAILED": 1}
+    assert db.count_publications_by_status(conn, "instagram") == {}

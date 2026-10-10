@@ -1,7 +1,7 @@
 # Spec conformance audit
 
 Section-by-section audit of the implementation against the project
-specification. Audited **2026-10-10**, updated at the end of Phase 5.
+specification. Audited **2026-10-10**, updated at the end of Phase 7.
 
 Legend: **✅ done** · **◐ partial** · **⏳ later phase** · **⚠️ deviation**
 (implemented differently from the spec, with reasoning) · **❌ gap**
@@ -47,17 +47,22 @@ Spec-named files that exist: ✅ `README.md`, `CLAUDE.md`,
 `.github/workflows/monitor.yml`, `tests/`.
 
 ✅ Now also created, their phases having run since this table was first
-written: `src/transcription/*`, `src/analysis/*`, `src/video/*`.
+written: `src/transcription/*`, `src/analysis/*`, `src/video/*`,
+`src/publishing/*` (YouTube + Instagram; TikTok, Phase 8, deliberately not
+yet — see below).
 
-⏳ Not yet created, because its phase has not run: `src/publishing/*`.
-
-⚠️ **`daily_clip.yml` deliberately absent.** The spec lists it. A scheduled
-workflow that cannot produce a clip is a job that fails on a timer and
-trains you to ignore the notifications. It arrives in Phase 6+ once a
-publisher exists for it to run — rendering (Phase 5) produces a file but
-cannot itself post anywhere, and the file does not survive past the run
-that made it (media is never committed), so a dedicated "render" workflow
-exists instead (`render.yml`), not the spec's daily publishing one.
+⚠️ **`daily_clip.yml` deliberately absent, still — `publish.yml` is the
+closest approximation, not the real thing.** The spec wants exactly one
+clip, selected as the best across every video, once a day (section 12);
+this project does not yet have the cross-video selection
+(`db.best_candidates_overall` is the infrastructure, unused — Phase 9).
+`publish.yml` runs once daily and caps a single run to one published clip
+per platform (`publishing.max_videos_per_run: 1`), which is a BLUNT stand-in
+for the real cap, not an implementation of it: it publishes whichever
+ANALYZED video the query happens to return first, not the best candidate
+across all of them, and nothing stops a second video slipping through on a
+day with an unlucky scheduling gap. Treat this as "approximately one
+per day", not "exactly one, the best one" until Phase 9 lands.
 
 ⚠️ **Modules added beyond the spec's tree**, each because a responsibility
 turned out to be real and separable:
@@ -152,9 +157,9 @@ that rule applied upstream.
 | 16 | Burned-in captions | ✅ FFmpeg `ass` filter, cues built from word timings, inside configurable safe margins |
 | 17 | Configurable branding | ✅ `drawtext` watermark, restricted to a corner by construction, pushed clear of the caption safe-zone |
 | 18 | Title/description/hashtags | ✅ capped hashtag count, fixed non-affiliation disclaimer on every description |
-| 19 | YouTube publishing | ⏳ Phase 6 — **and see the audit gate below** |
-| 20 | Instagram Reels | ⏳ Phase 7 |
-| 21 | TikTok | ⏳ Phase 8 — **audit gate** |
+| 19 | YouTube publishing | ◐ OAuth refresh-token flow + resumable upload implemented, raw REST (no new SDK dependency); **not verified against a live account** (docs/LIMITS.md §9); forced private by the audit gate below regardless |
+| 20 | Instagram Reels | ◐ container create → poll → publish implemented, clip hosted via a temporary GitHub Release asset for the `video_url` fetch; **not verified against a live account** (docs/LIMITS.md §9/§9a) |
+| 21 | TikTok | ⏳ Phase 8 — **audit gate**. Explicitly out of scope when Phase 6/7 were built, not a technical blocker; `publish` always skips it regardless of config |
 | 28 | Quality gate before publishing | ✅ resolution/codecs/fps/duration/stream-count checked against the finished file via `ffprobe`; a failing clip is REJECTED and the next candidate tried (section 12's backups, now used) |
 
 **§19/§21 carry gates no code can satisfy.** YouTube locks API uploads from
@@ -176,7 +181,7 @@ dropped scheduled run costs latency only. ⚠️ `daily_clip.yml` deferred (§5)
 | Every step retryable | ✅ FAILED → retry → DOWNLOADED, with a ceiling |
 | Exponential backoff | ✅ with jitter; 429/5xx retried, other 4xx never |
 | No duplicate posts after a timeout | ✅ `UNIQUE(clip_id, platform)` makes it structurally impossible |
-| Check before retrying a publish | ⏳ Phase 6 |
+| Check before retrying a publish | ✅ `db.publication_status` checked before any upload is attempted — but see LIMITS §9b: a retry re-renders and re-publishes from scratch, since nothing keeps the file between runs; the idempotency is per-platform, not per-byte |
 | Log timestamp, job id, source video, clip id, platform, error, retry count | ✅ all seven, via `LogContext` |
 
 Job ids use the GitHub run id in CI, so a log line links back to the
@@ -305,9 +310,9 @@ copyright/DRM bypass.
 | 9:16 MP4 generated | ✅ verified against a real encode (LIMITS §8c) |
 | Captions burned in | ✅ FFmpeg `ass`, verified against a real encode; NOT yet confirmed the required libass/libfreetype filters are present on a GitHub runner (LIMITS §8a) |
 | Metadata generated | ✅ title/description/hashtags, capped, disclaimer on every description |
-| YouTube Shorts publishing works | ⏳ **+ audit gate** |
-| Instagram Reels publishing works | ⏳ |
-| TikTok publishing works where permitted | ⏳ **+ audit gate** |
+| YouTube Shorts publishing works | ◐ implemented + unit-tested against the documented protocol; **not verified live** (LIMITS §9) **+ audit gate** forces private regardless |
+| Instagram Reels publishing works | ◐ implemented + unit-tested against the documented protocol; **not verified live** (LIMITS §9) |
+| TikTok publishing works where permitted | ⏳ Phase 8, explicitly deferred **+ audit gate** |
 | Max one clip/day enforced | ⏳ Phase 9 (`best_candidates_overall` is the infrastructure) |
 | Failed jobs retryable | ✅ |
 | Publishing idempotent | ✅ structurally (constraint in place) |

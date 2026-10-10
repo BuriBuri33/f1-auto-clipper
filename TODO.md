@@ -22,6 +22,12 @@ you do not control, so start them early:
       published turnaround. docs/LIMITS.md §2
 - [ ] **Start the TikTok audit.** Until it passes, every post is `SELF_ONLY`.
       Free, manual, reported 2-4 weeks. docs/LIMITS.md §3
+- [ ] **Mint real YouTube OAuth / Instagram Graph API credentials and run
+      `publish` for real.** Phase 6/7 are implemented and unit-tested against
+      each platform's documented protocol, but neither has been exercised
+      against a live account — a real gap against this project's own
+      "verify, do not recall" rule. `python -m src.main doctor` is the first
+      check once credentials exist. docs/LIMITS.md §9
 
 ## Phase 1 — Monitoring ✅
 
@@ -225,22 +231,51 @@ across videos (spec section 12's selection step) — both remain Phase 9. A
 RENDERED clip is not committed anywhere; it exists only inside the workflow
 run that produced it until a publisher runs in the same pass.
 
-## Phase 6 — YouTube
+## Phase 6 — YouTube ✅ (code complete; unverified against a live account)
 
-- [ ] OAuth refresh-token flow, resumable upload, `privacyStatus: private`
-- [ ] Idempotent retry: check for an existing upload before re-posting
-- [ ] Start the compliance audit — public Shorts are blocked until it passes
+- [x] OAuth refresh-token flow (raw REST, not the google-api-python-client/
+      google-auth SDKs the original dependency plan named — same minimal-deps
+      reasoning as Phase 4's Gemini client), resumable upload with a real
+      query-and-resume recovery path, `privacyStatus: private` by default
+      (`publishing.force_private`) — and still locked private by YouTube's
+      own audit gate regardless, per docs/LIMITS.md §2
+- [x] Idempotent retry: `db.publication_status` is checked before any upload
+      is attempted, so a clip already PUBLISHED to a platform is never
+      re-attempted on it — see docs/LIMITS.md §9b for the granularity this
+      actually holds at (per platform, not per byte; nothing can resume a
+      byte-level upload across a process restart since the file itself does
+      not persist between runs)
 
-## Phase 7 — Instagram
+The compliance audit itself is tracked under "Blocking, not code" above, not
+here — it is not a coding task.
 
-- [ ] Publish the rendered file to a public HTTPS URL for `video_url`
-- [ ] Container create → poll status → publish, with the 90s cap enforced
-      at the quality gate
+**Not verified against a live account.** No YouTube OAuth client was
+available to test with — see docs/LIMITS.md §9 before trusting this the way
+every other phase's measurements have been earned.
+
+## Phase 7 — Instagram ✅ (code complete; unverified against a live account)
+
+- [x] Publish the rendered file to a public HTTPS URL for `video_url`: a
+      temporary GitHub Release asset (`src/publishing/hosting.py`), reusing
+      one release across every clip and deleting the asset again once
+      Instagram's container finishes — never committed to git history
+- [x] Container create → poll status_code → publish, with the 90s Reels cap
+      comfortably inside this project's 20-60s clip range (enforced upstream
+      by `clip.max_duration`, not re-checked here)
+
+**Not verified against a live account.** No Instagram Professional account,
+Meta app, or GitHub write token was available to test with — see
+docs/LIMITS.md §9/§9a.
 
 ## Phase 8 — TikTok
 
 - [ ] OAuth + Content Posting API, expecting `SELF_ONLY` pre-audit
 - [ ] Start the audit
+
+Deliberately not built alongside Phase 6/7 — out of scope for now by
+explicit request, not a technical blocker. `publish` skips TikTok
+unconditionally regardless of `publishing.tiktok` in config, same as
+`status` already reports it as not implemented.
 
 ## Phase 9 — Full automation
 

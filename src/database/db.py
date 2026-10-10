@@ -976,3 +976,80 @@ def mark_video_rendered(conn: sqlite3.Connection, video_row_id: int) -> None:
             "UPDATE source_videos SET status = ?, status_detail = '' WHERE id = ?",
             (VideoStatus.RENDERED.value, video_row_id),
         )
+
+
+def get_clip(conn: sqlite3.Connection, clip_id: int) -> Optional[sqlite3.Row]:
+    return conn.execute("SELECT * FROM clips WHERE id = ?", (clip_id,)).fetchone()
+
+
+# --- phase 6/7: publishing ----------------------------------------------
+
+
+def publication_status(
+    conn: sqlite3.Connection, clip_id: int, platform: str
+) -> Optional[str]:
+    """The recorded outcome of publishing one clip to one platform, if any.
+
+    Checked BEFORE attempting an upload, not just relied on as a database
+    constraint: a platform already at PUBLISHED must never be re-attempted,
+    both to avoid a duplicate post and to avoid spending real quota (YouTube
+    charges 1,600 units per upload) on a call whose answer is already known.
+    """
+    row = conn.execute(
+        "SELECT status FROM publications WHERE clip_id = ? AND platform = ?",
+        (clip_id, platform),
+    ).fetchone()
+    return row["status"] if row else None
+
+
+def record_publication(
+    conn: sqlite3.Connection,
+    clip_id: int,
+    platform: str,
+    status: PublicationStatus,
+    platform_post_id: Optional[str] = None,
+    error: Optional[str] = None,
+) -> None:
+    """Record (or update) one platform's publishing outcome for one clip.
+
+    Upserts rather than only inserting: a retry after a FAILED attempt must
+    be able to move the same (clip_id, platform) row to PUBLISHED, and
+    ``UNIQUE(clip_id, platform)`` is exactly what makes "the second call
+    updates instead of duplicating" both correct and race-free.
+    """
+    with transaction(conn):
+        conn.execute(
+            "INSERT INTO publications "
+            "(clip_id, platform, platform_post_id, status, published_at, error) "
+            "VALUES (?, ?, ?, ?, ?, ?) "
+            "ON CONFLICT(clip_id, platform) DO UPDATE SET "
+            "  platform_post_id = excluded.platform_post_id, "
+            "  status = excluded.status, "
+            "  published_at = excluded.published_at, "
+            "  error = excluded.error, "
+            "  retry_count = retry_count + 1",
+            (
+                clip_id, platform, platform_post_id, status.value,
+                utcnow() if status is PublicationStatus.PUBLISHED else None,
+                error,
+            ),
+        )
+
+
+def mark_clip_published(conn: sqlite3.Connection, clip_id: int) -> None:
+    with transaction(conn):
+        conn.execute(
+            "UPDATE clips SET status = ?, status_detail = '' WHERE id = ?",
+            (ClipStatus.PUBLISHED.value, clip_id),
+        )
+
+
+def count_publications_by_status(
+    conn: sqlite3.Connection, platform: str
+) -> Dict[str, int]:
+    rows = conn.execute(
+        "SELECT status, COUNT(*) AS n FROM publications WHERE platform = ? "
+        "GROUP BY status",
+        (platform,),
+    ).fetchall()
+    return {row["status"]: int(row["n"]) for row in rows}

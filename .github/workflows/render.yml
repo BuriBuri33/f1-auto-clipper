@@ -1,23 +1,25 @@
 name: render
 
 # Cut, reframe, caption and brand the best candidate clip for each ANALYZED
-# video into a publishable MP4.
+# video into a publishable MP4 — WITHOUT publishing it anywhere.
+#
+# Manual dispatch only, deliberately not scheduled. As of Phase 6/7, the
+# `publish` workflow does everything this one does AND uploads the result,
+# pulling from the exact same ANALYZED queue — running both on a schedule
+# would have them race over the same videos for no benefit. This workflow
+# stays for what Phase 5 built it for: rendering a sample MP4 to inspect by
+# hand (`render --keep`) without touching any publishing credentials.
 #
 # Re-downloads the source video. Media is never persisted between workflow
 # runs (see `ingest`), so by the time a video is ANALYZED its file from the
 # `ingest` run is already gone — see src/video/runner.py for why a partial,
 # time-ranged re-fetch was tried and measured not to work.
 #
-# The rendered MP4 itself is NOT committed (media never reaches git) and
-# there is no publisher yet (Phase 6+), so this job's only lasting output is
-# the database: which clip was selected, its metadata, and whether it passed
-# the quality gate. The file is discarded with the runner. That is
-# deliberately incomplete until a publisher exists to run in the same job —
-# exactly the reasoning `ingest` already established for download+transcribe.
+# The rendered MP4 itself is NOT committed (media never reaches git), so this
+# job's only lasting output is the database: which clip was selected, its
+# metadata, and whether it passed the quality gate.
 
 on:
-  schedule:
-    - cron: "17 */6 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

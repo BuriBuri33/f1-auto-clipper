@@ -14,6 +14,7 @@ Pipeline, in order:
     python -m src.main ingest   [--keep] [--work-dir PATH]   # download+transcribe
     python -m src.main analyze  [--dry-run]                   # score into clip candidates
     python -m src.main render   [--dry-run] [--keep] [--work-dir PATH]  # cut+caption+brand
+    python -m src.main publish  [--dry-run] [--keep] [--work-dir PATH]  # render+upload, what CI runs
 
 Inspection and manual override (spec section 29):
 
@@ -47,6 +48,7 @@ from .analysis import runner as analysis_runner
 from .transcription import runner as ingest_runner
 from .video import runner as render_runner
 from .video import ffmpeg as video_ffmpeg
+from .publishing import runner as publish_runner
 from .monitoring import source_monitor, youtube_rss
 from .utils import logging as log_utils
 from .utils.config import (
@@ -406,6 +408,100 @@ def cmd_render(args: argparse.Namespace) -> int:
     return EXIT_OK
 
 
+def _youtube_credentials() -> Optional[publish_runner.YouTubeCredentials]:
+    client_id = os.environ.get("YOUTUBE_CLIENT_ID")
+    client_secret = os.environ.get("YOUTUBE_CLIENT_SECRET")
+    refresh_token = os.environ.get("YOUTUBE_REFRESH_TOKEN")
+    if not (client_id and client_secret and refresh_token):
+        return None
+    return publish_runner.YouTubeCredentials(client_id, client_secret, refresh_token)
+
+
+def _instagram_credentials() -> Optional[publish_runner.InstagramCredentials]:
+    access_token = os.environ.get("META_ACCESS_TOKEN")
+    ig_account_id = os.environ.get("INSTAGRAM_ACCOUNT_ID")
+    if not (access_token and ig_account_id):
+        return None
+    return publish_runner.InstagramCredentials(access_token, ig_account_id)
+
+
+def cmd_publish(args: argparse.Namespace) -> int:
+    """Render AND upload the best candidate clip per video, in one pass.
+
+    One command because the rendered file only exists inside a single run —
+    same reasoning as ``ingest`` welding download to transcription one phase
+    earlier. TikTok (Phase 8) is not implemented and is always skipped.
+    """
+    config = load_config(args.config)
+    log_utils.configure(config.log_level, config.log_json)
+    context = log_utils.LogContext(job_id=log_utils.new_job_id("publish"))
+    log = log_utils.get_logger("publish", context)
+
+    conn = db.connect(config.database_path)
+    db.init_db(conn)
+
+    pub_cfg = config.section("publishing")
+    youtube_creds = _youtube_credentials()
+    instagram_creds = _instagram_credentials()
+
+    if args.dry_run:
+        pending = db.videos_pending_render(
+            conn, limit=int(pub_cfg.get("max_videos_per_run", 1)),
+            max_retries=int(pub_cfg.get("max_retries", 3)),
+        )
+        if not pending:
+            print("DRY RUN — nothing pending publish")
+            return EXIT_OK
+        print("DRY RUN — %d video(s) pending render+publish:" % len(pending))
+        for row in pending:
+            n_candidates = len(db.candidate_clips_for_render(conn, row["id"]))
+            print("  %-14s %-8s  %d candidate(s)  %s"
+                  % (row["youtube_video_id"], row["status"], n_candidates,
+                     row["title"][:50]))
+        print("\nYouTube credentials:   %s" % ("present" if youtube_creds else "NOT set — skipped"))
+        print("Instagram credentials: %s" % ("present" if instagram_creds else "NOT set — skipped"))
+        missing = video_ffmpeg.missing_required_filters()
+        if missing:
+            print("\nNOTE: FFmpeg is missing filter(s) %s — a real run would "
+                  "refuse to render. See docs/LIMITS.md section 8a."
+                  % ", ".join(missing))
+        return EXIT_OK
+
+    dl_cfg = config.section("download")
+    configured_dir = args.work_dir or dl_cfg.get("work_dir") or ""
+    with workspace.work_dir(configured_dir, keep=args.keep) as dest:
+        log.info("working directory", fields={"path": dest})
+        result = publish_runner.run_publish(
+            conn, config, work_dir=dest, log=log,
+            youtube_creds=youtube_creds, instagram_creds=instagram_creds,
+            github_token=os.environ.get("GITHUB_TOKEN") or None,
+        )
+
+        if result.environment_error:
+            print("PUBLISH ENVIRONMENT NOT READY", file=sys.stderr)
+            print(result.environment_error, file=sys.stderr)
+            return EXIT_PARTIAL_FAILURE
+
+        lines = ["F1 AUTO-CLIPPER — PUBLISH", "-" * 26]
+        if not result.outcomes:
+            lines.append("  nothing pending")
+        for outcome in result.outcomes:
+            detail = outcome.reason
+            if outcome.status == db.VideoStatus.PUBLISHED.value:
+                detail = ", ".join(
+                    "%s:%s" % (p.platform, p.status) for p in outcome.platforms
+                )
+            lines.append("  %-14s %-10s %s" % (outcome.video_id, outcome.status, detail[:70]))
+        lines.append("")
+        lines.append("Published: %d   failed: %d"
+                     % (result.published, len(result.failed)))
+        _emit_summary("\n".join(lines))
+
+        if result.failed and not result.published:
+            return EXIT_PARTIAL_FAILURE
+    return EXIT_OK
+
+
 def cmd_retry(args: argparse.Namespace) -> int:
     """Return failed videos to the queue (spec section 29)."""
     config = load_config(args.config)
@@ -457,6 +553,11 @@ def cmd_doctor(args: argparse.Namespace) -> int:
             api_key=os.environ.get("YOUTUBE_API_KEY") or None,
             transcription_api_key=os.environ.get("TRANSCRIPTION_API_KEY") or None,
             llm_api_key=os.environ.get("LLM_API_KEY") or None,
+            youtube_client_id=os.environ.get("YOUTUBE_CLIENT_ID") or None,
+            youtube_client_secret=os.environ.get("YOUTUBE_CLIENT_SECRET") or None,
+            youtube_refresh_token=os.environ.get("YOUTUBE_REFRESH_TOKEN") or None,
+            instagram_access_token=os.environ.get("META_ACCESS_TOKEN") or None,
+            instagram_account_id=os.environ.get("INSTAGRAM_ACCOUNT_ID") or None,
             do_download=not args.no_download,
             dest_dir=dest,
         )
@@ -553,9 +654,9 @@ def cmd_status(args: argparse.Namespace) -> int:
         "Processing:        %d" % db.count_in_progress(conn),
         "Candidates:        %d" % clip_counts.get(db.ClipStatus.CANDIDATE.value, 0),
         "Today's clip:      %s" % _todays_clip_state(),
-        "YouTube:           %s" % _platform_state("youtube", config),
-        "Instagram:         %s" % _platform_state("instagram", config),
-        "TikTok:            %s" % _platform_state("tiktok", config),
+        "YouTube:           %s" % _platform_state("youtube", config, conn),
+        "Instagram:         %s" % _platform_state("instagram", config, conn),
+        "TikTok:            %s" % _platform_state("tiktok", config, conn),
         "",
         "Sources:           %d enabled / %d total"
         % (sum(1 for r in sources if r["enabled"]), len(sources)),
@@ -565,6 +666,7 @@ def cmd_status(args: argparse.Namespace) -> int:
         "Pending analysis:   %d" % len(db.videos_pending_analysis(conn, limit=1000)),
         "Pending render:     %d" % len(db.videos_pending_render(conn, limit=1000)),
         "Rendered clips:     %d" % clip_counts.get(db.ClipStatus.RENDERED.value, 0),
+        "Published clips:    %d" % clip_counts.get(db.ClipStatus.PUBLISHED.value, 0),
         "FFmpeg available:  %s" % ("yes" if downloader_ffmpeg_ok() else "NO"),
         "FFmpeg caption/watermark filters: %s"
         % ("yes" if not missing_filters else "NO (%s)" % ", ".join(missing_filters)),
@@ -586,28 +688,40 @@ def cmd_status(args: argparse.Namespace) -> int:
 
 
 def _todays_clip_state() -> str:
-    """Honest placeholder until publishing exists (Phase 6+).
+    """Honest placeholder until Phase 9's daily selection exists.
 
-    Rendering exists as of Phase 5, but nothing selects "the one clip for
-    today" across videos yet (spec section 12) or publishes it — both are
-    Phase 9. A RENDERED clip sitting in the database is not "today's clip"
-    in the spec's sense, so this says so rather than reading one off.
+    `publish` can push a clip live as of Phase 6/7, but nothing yet selects
+    ONE clip across every video for the day (spec section 12) or enforces
+    the 1/day cap — both are Phase 9. A PUBLISHED clip existing is not
+    "today's clip" in the spec's sense, so this says so rather than reading
+    one off.
     """
-    return "n/a (daily selection + publishing not implemented — Phase 9)"
+    return "n/a (daily 1/day selection not implemented — Phase 9)"
 
 
-def _platform_state(platform: str, config) -> str:
-    """Whether a publisher is enabled in config, and whether it exists yet.
+_PLATFORM_PHASE = {"youtube": 6, "instagram": 7, "tiktok": 8}
+_PLATFORM_IMPLEMENTED = ("youtube", "instagram")
 
-    Reports configuration, not capability, and says so: a line reading
-    "PUBLISHED" for a publisher that has not been written would be a lie in
-    the one output the operator relies on.
+
+def _platform_state(platform: str, config, conn) -> str:
+    """Whether a publisher is enabled in config, and what it has actually done.
+
+    Reports configuration AND real outcomes, never just the former: a line
+    reading "enabled" for a publisher that has never successfully posted
+    would tell an operator nothing about whether it actually works.
     """
     publishing = config.section("publishing")
-    phase = {"youtube": 6, "instagram": 7, "tiktok": 8}[platform]
     if not publishing.get(platform, False):
         return "disabled in config"
-    return "enabled in config, not implemented (Phase %d)" % phase
+    if platform not in _PLATFORM_IMPLEMENTED:
+        return "enabled in config, not implemented (Phase %d)" % _PLATFORM_PHASE[platform]
+
+    counts = db.count_publications_by_status(conn, platform)
+    published = counts.get(db.PublicationStatus.PUBLISHED.value, 0)
+    failed = counts.get(db.PublicationStatus.FAILED.value, 0)
+    if not published and not failed:
+        return "enabled, no publish attempted yet"
+    return "enabled — %d published, %d failed" % (published, failed)
 
 
 def cmd_sources(args: argparse.Namespace) -> int:
@@ -780,6 +894,17 @@ def build_parser() -> argparse.ArgumentParser:
                         help="do not delete the working directory on exit — the "
                              "only way to inspect a rendered MP4 by hand")
     p_rend.set_defaults(func=cmd_render)
+
+    p_pub = sub.add_parser(
+        "publish", help="render AND upload the best candidate clip per video — what CI runs"
+    )
+    p_pub.add_argument("--dry-run", action="store_true",
+                       help="list videos pending publish without fetching or uploading anything")
+    p_pub.add_argument("--work-dir", default=None,
+                       help="where to put media and rendered output (overrides config)")
+    p_pub.add_argument("--keep", action="store_true",
+                       help="do not delete the working directory on exit")
+    p_pub.set_defaults(func=cmd_publish)
 
     p_check = sub.add_parser(
         "check",

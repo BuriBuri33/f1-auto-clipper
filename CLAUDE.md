@@ -235,3 +235,22 @@ docs/              LIMITS.md (verified figures), RIGHTS.md (boundaries)
   `render_clip` did not catch this — only a real end-to-end encode did (see
   `docs/LIMITS.md` §8c). A standing reminder that faking the expensive call
   in a test is not the same as having exercised the real one at least once.
+- **Phase 6/7 (YouTube + Instagram publishing) shipped WITHOUT live
+  credential verification** — a real exception to this project's own rule 2
+  ("verify, do not recall, any external service's limits"), recorded here
+  rather than silently carried. No OAuth client, Instagram account, or
+  GitHub token was available to test against when it was built. The code
+  follows each platform's documented REST contract and is unit-tested
+  against those documented shapes, but the actual bytes-over-the-wire
+  behaviour against a live server is unconfirmed. Run `python -m src.main
+  doctor` and one real `publish` pass before trusting this the way every
+  other phase's LIMITS section has been earned. See `docs/LIMITS.md` §9.
+- **Instagram's API does not accept a direct file upload**, so publishing a
+  clip means hosting it publicly a second time first (a GitHub Release
+  asset, deleted again once Instagram's container finishes) before handing
+  over a `video_url`. See `publishing/hosting.py` and `docs/LIMITS.md` §9a.
+- **A publish failure cannot be retried on its own** — nothing keeps the
+  rendered file between runs, so retrying means re-rendering AND
+  re-publishing from scratch. What stays idempotent is per-PLATFORM: a clip
+  already PUBLISHED to one platform is never re-attempted on that platform
+  when a later retry pushes it to a different one. See `docs/LIMITS.md` §9b.
