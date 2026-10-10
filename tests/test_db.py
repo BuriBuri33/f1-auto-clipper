@@ -199,3 +199,79 @@ def test_videos_by_status_orders_newest_first_with_nulls_last(conn):
     db.record_discovered_video(conn, sid, "NONE", "t", "u", None)
     ids = [r["youtube_video_id"] for r in db.videos_by_status(conn, db.VideoStatus.DISCOVERED)]
     assert ids == ["NEW", "OLD", "NONE"]
+
+
+# --- phase 5: rendering ------------------------------------------------
+
+
+def _analyzed_video(conn, video_id="VID1"):
+    sid = db.sync_sources(conn, [src()])["s1"]
+    _, vid = db.record_discovered_video(conn, sid, video_id, "t", "u", None)
+    db.set_video_status(conn, vid, db.VideoStatus.ANALYZED)
+    return vid
+
+
+def _candidate(conn, video_row_id, start_ms, end_ms, score):
+    cur = conn.execute(
+        "INSERT INTO clips (source_video_id, start_ms, end_ms, score, reason, "
+        " hook, status, created_at) VALUES (?, ?, ?, ?, 'r', 'h', 'CANDIDATE', ?)",
+        (video_row_id, start_ms, end_ms, score, db.utcnow()),
+    )
+    conn.commit()
+    return cur.lastrowid
+
+
+def test_videos_pending_render_requires_analyzed_status(conn):
+    vid = _analyzed_video(conn)
+    rows = db.videos_pending_render(conn)
+    assert [r["id"] for r in rows] == [vid]
+
+    db.mark_video_rendered(conn, vid)
+    assert db.videos_pending_render(conn) == []
+
+
+def test_candidate_clips_for_render_orders_best_score_first(conn):
+    vid = _analyzed_video(conn)
+    low = _candidate(conn, vid, 0, 20000, 40.0)
+    high = _candidate(conn, vid, 30000, 50000, 90.0)
+    rows = db.candidate_clips_for_render(conn, vid)
+    assert [r["id"] for r in rows] == [high, low]
+
+
+def test_record_render_sets_status_path_and_metadata(conn):
+    vid = _analyzed_video(conn)
+    clip_id = _candidate(conn, vid, 0, 20000, 90.0)
+    db.record_render(conn, clip_id, "/tmp/out.mp4", "Title", "Desc", "F1,Motorsport")
+
+    row = conn.execute("SELECT * FROM clips WHERE id = ?", (clip_id,)).fetchone()
+    assert row["status"] == "RENDERED"
+    assert row["rendered_path"] == "/tmp/out.mp4"
+    assert row["title"] == "Title"
+    assert row["description"] == "Desc"
+    assert row["hashtags"] == "F1,Motorsport"
+    assert row["rendered_at"] is not None
+    assert row["status_detail"] == ""
+    # No longer a render candidate for this video.
+    assert db.candidate_clips_for_render(conn, vid) == []
+
+
+def test_reject_clip_records_the_reason_and_frees_the_next_candidate(conn):
+    vid = _analyzed_video(conn)
+    best = _candidate(conn, vid, 0, 20000, 90.0)
+    backup = _candidate(conn, vid, 30000, 50000, 40.0)
+
+    db.reject_clip(conn, best, "quality gate: resolution mismatch")
+    row = conn.execute("SELECT * FROM clips WHERE id = ?", (best,)).fetchone()
+    assert row["status"] == "REJECTED"
+    assert row["status_detail"] == "quality gate: resolution mismatch"
+
+    remaining = db.candidate_clips_for_render(conn, vid)
+    assert [r["id"] for r in remaining] == [backup]
+
+
+def test_mark_video_rendered_sets_status(conn):
+    vid = _analyzed_video(conn)
+    db.mark_video_rendered(conn, vid)
+    row = db.get_video(conn, "VID1")
+    assert row["status"] == "RENDERED"
+    assert row["status_detail"] == ""

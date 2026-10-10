@@ -13,6 +13,7 @@ Pipeline, in order:
     python -m src.main download [--dry-run] [--keep] [--work-dir PATH]
     python -m src.main ingest   [--keep] [--work-dir PATH]   # download+transcribe
     python -m src.main analyze  [--dry-run]                   # score into clip candidates
+    python -m src.main render   [--dry-run] [--keep] [--work-dir PATH]  # cut+caption+brand
 
 Inspection and manual override (spec section 29):
 
@@ -44,6 +45,8 @@ from .download import runner as download_runner
 from .download import workspace
 from .analysis import runner as analysis_runner
 from .transcription import runner as ingest_runner
+from .video import runner as render_runner
+from .video import ffmpeg as video_ffmpeg
 from .monitoring import source_monitor, youtube_rss
 from .utils import logging as log_utils
 from .utils.config import (
@@ -331,6 +334,78 @@ def cmd_analyze(args: argparse.Namespace) -> int:
     return EXIT_OK
 
 
+def cmd_render(args: argparse.Namespace) -> int:
+    """Render the best candidate clip for each ANALYZED video into an MP4.
+
+    Re-downloads the source video (media is not persisted between workflow
+    runs — see ``video/runner.py``), so this needs the same working
+    directory lifecycle as ``download``/``ingest``.
+    """
+    config = load_config(args.config)
+    log_utils.configure(config.log_level, config.log_json)
+    context = log_utils.LogContext(job_id=log_utils.new_job_id("render"))
+    log = log_utils.get_logger("render", context)
+
+    conn = db.connect(config.database_path)
+    db.init_db(conn)
+
+    video_cfg = config.section("video")
+    if args.dry_run:
+        pending = db.videos_pending_render(
+            conn, limit=int(video_cfg.get("max_videos_per_run", 2)),
+            max_retries=int(video_cfg.get("max_retries", 3)),
+        )
+        if not pending:
+            print("DRY RUN — nothing pending render")
+            return EXIT_OK
+        print("DRY RUN — %d video(s) pending render:" % len(pending))
+        for row in pending:
+            n_candidates = len(db.candidate_clips_for_render(conn, row["id"]))
+            print("  %-14s %-8s  %d candidate(s)  %s"
+                  % (row["youtube_video_id"], row["status"], n_candidates,
+                     row["title"][:50]))
+        missing = video_ffmpeg.missing_required_filters()
+        if missing:
+            print("\nNOTE: FFmpeg is missing filter(s) %s — a real run would "
+                  "refuse to render. See docs/LIMITS.md section 8a."
+                  % ", ".join(missing))
+        return EXIT_OK
+
+    dl_cfg = config.section("download")
+    configured_dir = args.work_dir or dl_cfg.get("work_dir") or ""
+    with workspace.work_dir(configured_dir, keep=args.keep) as dest:
+        log.info("working directory", fields={"path": dest})
+        result = render_runner.run_render(conn, config, work_dir=dest, log=log)
+
+        if result.environment_error:
+            print("RENDER ENVIRONMENT NOT READY", file=sys.stderr)
+            print(result.environment_error, file=sys.stderr)
+            return EXIT_PARTIAL_FAILURE
+
+        lines = ["F1 AUTO-CLIPPER — RENDER", "-" * 25]
+        if not result.outcomes:
+            lines.append("  nothing pending")
+        for outcome in result.outcomes:
+            detail = outcome.reason
+            if outcome.status == db.VideoStatus.RENDERED.value:
+                detail = "clip %s, %d attempt(s)" % (outcome.clip_id, len(outcome.attempts))
+            lines.append("  %-14s %-10s %s" % (outcome.video_id, outcome.status, detail[:60]))
+        lines.append("")
+        lines.append("Rendered: %d   failed: %d"
+                     % (result.rendered, len(result.failed)))
+        if args.keep:
+            lines.append("Rendered files kept under: %s/rendered/" % dest)
+        else:
+            lines.append("Rendered files are discarded with the working "
+                         "directory — publishing (Phase 6+) will need to run "
+                         "in the same pass to keep them.")
+        _emit_summary("\n".join(lines))
+
+        if result.failed and not result.rendered:
+            return EXIT_PARTIAL_FAILURE
+    return EXIT_OK
+
+
 def cmd_retry(args: argparse.Namespace) -> int:
     """Return failed videos to the queue (spec section 29)."""
     config = load_config(args.config)
@@ -468,6 +543,7 @@ def cmd_status(args: argparse.Namespace) -> int:
     counts = db.status_counts(conn)
     clip_counts = db.count_clips_by_status(conn)
     last = db.last_check_time(conn) or "never"
+    missing_filters = video_ffmpeg.missing_required_filters()
 
     lines = [
         "F1 AUTO-CLIPPER",
@@ -487,7 +563,11 @@ def cmd_status(args: argparse.Namespace) -> int:
         "Pending download:  %d" % len(db.videos_pending_download(conn, limit=1000)),
         "Pending transcribe: %d" % len(db.videos_pending_transcription(conn, limit=1000)),
         "Pending analysis:   %d" % len(db.videos_pending_analysis(conn, limit=1000)),
+        "Pending render:     %d" % len(db.videos_pending_render(conn, limit=1000)),
+        "Rendered clips:     %d" % clip_counts.get(db.ClipStatus.RENDERED.value, 0),
         "FFmpeg available:  %s" % ("yes" if downloader_ffmpeg_ok() else "NO"),
+        "FFmpeg caption/watermark filters: %s"
+        % ("yes" if not missing_filters else "NO (%s)" % ", ".join(missing_filters)),
         "Data API units:    %d / 10000 today"
         % db.api_usage_today(conn, "youtube_data_api"),
         "",
@@ -506,8 +586,14 @@ def cmd_status(args: argparse.Namespace) -> int:
 
 
 def _todays_clip_state() -> str:
-    """Honest placeholder until the render stage exists (Phase 5)."""
-    return "n/a (rendering not implemented — Phase 5)"
+    """Honest placeholder until publishing exists (Phase 6+).
+
+    Rendering exists as of Phase 5, but nothing selects "the one clip for
+    today" across videos yet (spec section 12) or publishes it — both are
+    Phase 9. A RENDERED clip sitting in the database is not "today's clip"
+    in the spec's sense, so this says so rather than reading one off.
+    """
+    return "n/a (daily selection + publishing not implemented — Phase 9)"
 
 
 def _platform_state(platform: str, config) -> str:
@@ -682,6 +768,18 @@ def build_parser() -> argparse.ArgumentParser:
     p_an.add_argument("--dry-run", action="store_true",
                       help="list videos pending analysis without scoring")
     p_an.set_defaults(func=cmd_analyze)
+
+    p_rend = sub.add_parser(
+        "render", help="render the best candidate clip per video into an MP4"
+    )
+    p_rend.add_argument("--dry-run", action="store_true",
+                        help="list videos pending render without fetching anything")
+    p_rend.add_argument("--work-dir", default=None,
+                        help="where to put media and rendered output (overrides config)")
+    p_rend.add_argument("--keep", action="store_true",
+                        help="do not delete the working directory on exit — the "
+                             "only way to inspect a rendered MP4 by hand")
+    p_rend.set_defaults(func=cmd_render)
 
     p_check = sub.add_parser(
         "check",

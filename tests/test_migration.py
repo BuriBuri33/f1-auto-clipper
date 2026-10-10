@@ -31,6 +31,7 @@ V4_CLIP_COLUMNS = {
     "hook_score", "emotional_score", "context_score", "payoff_score",
     "shareability_score", "scoring_method", "model",
 }
+V5_CLIP_COLUMNS = {"status_detail", "rendered_at"}
 
 
 def columns(conn, table):
@@ -122,3 +123,30 @@ def test_the_clips_table_gets_its_v4_columns_too():
     conn = db.connect(":memory:")
     db.init_db(conn)
     assert V4_CLIP_COLUMNS <= columns(conn, "clips")
+
+
+def test_the_clips_table_gets_its_v5_columns_too():
+    conn = db.connect(":memory:")
+    db.init_db(conn)
+    assert V5_CLIP_COLUMNS <= columns(conn, "clips")
+
+    conn.execute(
+        "INSERT INTO sources (name, channel_id, enabled, rights_cleared, "
+        "rights_note, created_at) VALUES ('s', 'UCx', 1, 1, 'n', ?)",
+        (db.utcnow(),),
+    )
+    conn.execute(
+        "INSERT INTO source_videos (source_id, youtube_video_id, title, url, "
+        "discovered_at, status) VALUES (1, 'V', 't', 'u', ?, 'ANALYZED')",
+        (db.utcnow(),),
+    )
+    conn.execute(
+        "INSERT INTO clips (source_video_id, start_ms, end_ms, status, created_at) "
+        "VALUES (1, 0, 20000, 'CANDIDATE', ?)",
+        (db.utcnow(),),
+    )
+    conn.commit()
+    row = conn.execute("SELECT status_detail, rendered_at FROM clips").fetchone()
+    # NOT NULL DEFAULT '' — a row that never set it must not come back NULL.
+    assert row["status_detail"] == ""
+    assert row["rendered_at"] is None

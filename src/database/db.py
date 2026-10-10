@@ -25,7 +25,7 @@ from enum import Enum
 from pathlib import Path
 from typing import Any, Dict, Iterable, Iterator, List, Optional, Sequence, Tuple
 
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 5
 
 
 class VideoStatus(str, Enum):
@@ -181,6 +181,15 @@ _MIGRATIONS = {
         "ALTER TABLE clips ADD COLUMN model TEXT",
         "ALTER TABLE source_videos ADD COLUMN analyzed_at TEXT",
         "ALTER TABLE source_videos ADD COLUMN candidates_found INTEGER",
+    ],
+    5: [
+        # `clips` had no per-row failure reason until now — source_videos has
+        # had one (status_detail) since v1. A clip that fails the quality
+        # gate is set REJECTED so the next candidate is tried instead (spec
+        # section 12's "backup candidates"), and the reason is what makes
+        # that auditable rather than a silent skip.
+        "ALTER TABLE clips ADD COLUMN status_detail TEXT NOT NULL DEFAULT ''",
+        "ALTER TABLE clips ADD COLUMN rendered_at TEXT",
     ],
 }
 
@@ -883,3 +892,87 @@ def best_candidates_overall(
             (ClipStatus.CANDIDATE.value, limit),
         ).fetchall()
     )
+
+
+# --- phase 5: rendering -------------------------------------------------
+
+
+def videos_pending_render(
+    conn: sqlite3.Connection, limit: int = 3, max_retries: int = 3
+) -> List[sqlite3.Row]:
+    """ANALYZED videos ready to render, newest first.
+
+    ANALYZED implies at least one CANDIDATE clip exists: Phase 4 sets a video
+    to SKIPPED, not ANALYZED, when scoring produced nothing to render.
+    """
+    return list(
+        conn.execute(
+            "SELECT sv.*, s.name AS source_name "
+            "FROM source_videos sv JOIN sources s ON s.id = sv.source_id "
+            "WHERE sv.status = ? AND s.enabled = 1 AND sv.retry_count < ? "
+            "ORDER BY (sv.published_at IS NULL), sv.published_at DESC, sv.id DESC "
+            "LIMIT ?",
+            (VideoStatus.ANALYZED.value, max_retries, limit),
+        ).fetchall()
+    )
+
+
+def candidate_clips_for_render(
+    conn: sqlite3.Connection, source_video_id: int
+) -> List[sqlite3.Row]:
+    """CANDIDATE clips for one video, best score first.
+
+    The render stage tries these in order: the top-scored one, then each
+    backup in turn if an earlier one fails the quality gate (spec section 12
+    — the candidates below the one picked are exactly the backups).
+    """
+    return list(
+        conn.execute(
+            "SELECT * FROM clips WHERE source_video_id = ? AND status = ? "
+            "ORDER BY score DESC",
+            (source_video_id, ClipStatus.CANDIDATE.value),
+        ).fetchall()
+    )
+
+
+def record_render(
+    conn: sqlite3.Connection,
+    clip_id: int,
+    rendered_path: str,
+    title: str,
+    description: str,
+    hashtags: str,
+) -> None:
+    """Mark one clip RENDERED and store its publish-ready metadata."""
+    with transaction(conn):
+        conn.execute(
+            "UPDATE clips SET status = ?, status_detail = '', rendered_path = ?, "
+            "  title = ?, description = ?, hashtags = ?, rendered_at = ? "
+            "WHERE id = ?",
+            (
+                ClipStatus.RENDERED.value, rendered_path, title, description,
+                hashtags, utcnow(), clip_id,
+            ),
+        )
+
+
+def reject_clip(conn: sqlite3.Connection, clip_id: int, reason: str) -> None:
+    """A candidate failed to render or failed the quality gate.
+
+    REJECTED rather than CANDIDATE again, so the next render attempt for this
+    video tries the next backup instead of repeating the same failure — and
+    rather than deleting the row, so the failure stays on the record.
+    """
+    with transaction(conn):
+        conn.execute(
+            "UPDATE clips SET status = ?, status_detail = ? WHERE id = ?",
+            (ClipStatus.REJECTED.value, reason, clip_id),
+        )
+
+
+def mark_video_rendered(conn: sqlite3.Connection, video_row_id: int) -> None:
+    with transaction(conn):
+        conn.execute(
+            "UPDATE source_videos SET status = ?, status_detail = '' WHERE id = ?",
+            (VideoStatus.RENDERED.value, video_row_id),
+        )

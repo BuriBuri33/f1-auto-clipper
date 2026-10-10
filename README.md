@@ -7,9 +7,10 @@ publish one clip per day to YouTube Shorts, Instagram Reels and TikTok.
 Designed to run entirely on free tiers (target: **₹0/month** recurring) and
 entirely in CI, so nothing depends on your computer being on.
 
-> **Status: Phases 1-4 of 9 complete** — source monitoring, new-video
-> detection, gated downloading, transcription, and clip candidate selection.
-> Rendering and publishing are scaffolded but not implemented. See
+> **Status: Phases 1-5 of 9 complete** — source monitoring, new-video
+> detection, gated downloading, transcription, clip candidate selection, and
+> rendering (cut, 9:16 reframe, burned-in captions, watermark, metadata,
+> quality gate). Publishing is scaffolded but not implemented. See
 > [TODO.md](TODO.md).
 >
 > Downloading is **verified working** end to end (12.9 MB through the real
@@ -36,6 +37,47 @@ entirely in CI, so nothing depends on your computer being on.
    (YouTube) and `SELF_ONLY` (TikTok), whatever your code requests. This is
    platform policy, not a bug, and it cannot be coded around. Details and
    figures in [docs/LIMITS.md](docs/LIMITS.md).
+
+## Rendering (Phase 5)
+
+Re-downloads the source video — media is never persisted between workflow
+runs (`ingest` downloads and transcribes in one pass for exactly this
+reason), so by the time a video is ready to render its file is already gone.
+A partial, time-ranged re-fetch was tried first and measured to 403 on every
+player client that completes a full download; a full re-download, reusing
+the already-proven Phase 2 code, is what actually works. Costs time, not
+money. [docs/LIMITS.md §8b](docs/LIMITS.md).
+
+For each video, candidate clips are tried best-score-first: cut, reframed to
+9:16, captioned, branded, encoded, then checked against a quality gate
+(resolution, codecs, frame rate, duration, stream counts — spec section 28).
+A clip that fails the gate is rejected and the next candidate is tried —
+spec section 12's "backup candidates", put to use here rather than just
+stored.
+
+- **9:16 reframing**: `center_crop` (default) around the middle, falling back
+  automatically to `blur_pad` (a blurred, scaled copy filling the frame)
+  only when the source's own aspect ratio makes a crop geometrically
+  impossible — spec section 15's "robust fallback over bad crops".
+- **Captions**: burned in via FFmpeg's `ass` filter, re-chunked from the same
+  word-timing primitive Phase 3/4 already use, inside configurable safe
+  margins clear of what every Shorts/Reels/TikTok player draws over the
+  frame.
+- **Watermark**: `drawtext`, restricted to a single corner by construction
+  and pushed clear of the caption safe-zone rather than ever overlapping it.
+- **Metadata**: title/description/hashtags, a capped hashtag count (no
+  keyword stuffing by construction) and a fixed non-affiliation disclaimer
+  on every description.
+
+**A present `ffmpeg` binary does not mean any of this works.** Burned
+captions need libass, the watermark needs libfreetype, and a plain Homebrew
+`ffmpeg` install has neither — `doctor` and `render` both check the actual
+filter list, not just that `ffmpeg` is on PATH. [docs/LIMITS.md
+§8a](docs/LIMITS.md).
+
+Does not publish anything, and the rendered file is not committed (media
+never reaches git) — it exists only inside the workflow run that produced
+it until a publisher runs in the same pass (Phase 6+).
 
 ## Clip selection (Phase 4)
 
@@ -145,7 +187,7 @@ git clone <your-repo-url> && cd f1-auto-clipper
 python3.12 -m venv .venv && source .venv/bin/activate
 pip install -r requirements-dev.txt
 
-python -m pytest tests -q          # 216 tests, no network needed
+python -m pytest tests -q          # 600 tests, no network needed
 python -m src.main init-db
 python -m src.main doctor          # can this machine download?
 python -m src.main monitor --dry-run
@@ -245,6 +287,9 @@ matters because yt-dlp is the one dependency that breaks regularly.
 | `prune-transcripts` | Delete transcripts for PUBLISHED/SKIPPED videos |
 | `analyze` | Score transcribed videos into ranked, deduplicated clip candidates |
 | `analyze --dry-run` | List videos pending analysis; score nothing |
+| `render` | Render the best candidate clip per video: cut, reframe, caption, brand |
+| `render --dry-run` | List videos pending render; fetch and encode nothing |
+| `render --keep [--work-dir PATH]` | Keep the working directory so a rendered MP4 can be inspected by hand |
 | `check VIDEO...` | Run the pre-download gate on specific videos; fetch nothing |
 | `doctor` | Check whether this environment can download at all |
 | `status` | Print a pipeline status report (also to the Actions summary) |
@@ -285,8 +330,7 @@ repository secret*. Use the same names as `.env.example`:
 | `YOUTUBE_API_KEY` | Phase 1 (optional), **Phase 2 (required)** |
 | `TRANSCRIPTION_API_KEY` | Phase 3 (optional — local fallback needs no key) |
 | `LLM_API_KEY` | Phase 4 (optional — heuristic fallback needs no key) |
-| `LLM_API_KEY` | Phase 4 |
-| `BRAND_NAME` | Phase 5 |
+| `BRAND_NAME` | Phase 5 (optional — unset renders the literal placeholder "YOUR_CHANNEL_NAME"; set `branding.enabled: false` to skip the watermark instead) |
 | `YOUTUBE_CLIENT_ID` / `_CLIENT_SECRET` / `_REFRESH_TOKEN` | Phase 6 |
 | `META_ACCESS_TOKEN`, `INSTAGRAM_ACCOUNT_ID` | Phase 7 |
 | `TIKTOK_CLIENT_KEY` / `_CLIENT_SECRET` / `_ACCESS_TOKEN` | Phase 8 |

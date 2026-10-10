@@ -1,6 +1,7 @@
 import pytest
 
 from src.download import diagnose, downloader
+from src.video import ffmpeg as video_ffmpeg
 from tests.fakes_ytdlp import REAL_INFO, factory, writes_a_file
 
 
@@ -11,6 +12,7 @@ def names(report):
 def test_a_healthy_environment_reports_ready(tmp_path, monkeypatch):
     monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
     monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    monkeypatch.setattr(video_ffmpeg, "missing_required_filters", lambda: [])
     report = diagnose.run_diagnostics(
         api_key="KEY", dest_dir=tmp_path,
         ydl_factory=factory({"default": REAL_INFO}, write_file=writes_a_file()),
@@ -95,6 +97,7 @@ def test_the_real_observed_failure_is_reported_with_every_client(tmp_path, monke
 
 def test_no_download_mode_skips_the_byte_fetch(tmp_path, monkeypatch):
     monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(video_ffmpeg, "missing_required_filters", lambda: [])
     report = diagnose.run_diagnostics(
         api_key="KEY", do_download=False, dest_dir=tmp_path,
         ydl_factory=factory({"default": REAL_INFO}),

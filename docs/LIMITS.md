@@ -406,6 +406,79 @@ downloading as expected-to-work rather than known-to-work.
 
 All four keep the ₹0 target intact.
 
+## 8. Rendering (Phase 5) — implemented, with findings
+
+No new free-tier dependency: rendering is FFmpeg via subprocess, same as
+audio extraction in Phase 3. The findings below are about what that FFmpeg
+build actually needs to support, measured rather than assumed.
+
+### 8a. A present `ffmpeg` binary does not imply caption or watermark support
+
+Measured 2026-10-10. Burned-in captions use the `ass` filter; the watermark
+uses `drawtext`. Both need FFmpeg compiled with libass/libfreetype — and that
+is not a given:
+
+| Build | `ass` | `drawtext` |
+|---|---|---|
+| Homebrew `ffmpeg` (plain formula) | **missing** | **missing** |
+| Homebrew `ffmpeg-full` | present | present |
+
+The plain formula's own caveat says as much ("ffmpeg-full includes
+additional tools and libraries that are not included in the regular ffmpeg
+formula") but gives no indication *which* filters that affects, and
+`ffmpeg -version` reports success either way — only `ffmpeg -filters` (or
+trying to use the filter) reveals the gap. So `video.ffmpeg.
+missing_required_filters()` parses the real filter list rather than trusting
+`shutil.which("ffmpeg")`, and `doctor` reports it as its own check, separate
+from "FFmpeg on PATH" — exactly the same lesson as the yt-dlp version floor
+in §7: a tool being present proves less than it looks like it proves.
+
+Ubuntu's apt `ffmpeg` package (what GitHub-hosted `ubuntu-latest` runners
+preinstall) is expected to include both, same as most Linux distributions'
+full builds — but this has **not yet been confirmed on an actual runner**,
+the same gap §7 flagged for downloading itself. The `render` workflow's
+"Confirm FFmpeg has the filters rendering needs" step is the measurement
+once a workflow run happens; until then this is "expected to work", not
+"known to work". Locally, verifying this stage at all required installing
+`ffmpeg-full` (`brew install ffmpeg-full`, keg-only — it does not replace the
+plain `ffmpeg` on PATH) specifically to get a real libass/libfreetype build
+to test against.
+
+### 8b. A time-ranged re-download 403s; a full re-download does not
+
+Media is not persisted between workflow runs (§ established by Phase 3's
+`ingest`), so rendering a clip needs the source video again. yt-dlp supports
+`download_ranges` to fetch only the needed span — tried first, since
+re-fetching a whole multi-hour source for one 20-60s clip is wasteful.
+
+Measured 2026-10-10 against a real public video: a ranged download (which
+uses FFmpeg as an external downloader to seek the remote stream) got
+**HTTP 403 Forbidden** on the googlevideo URLs returned by every player
+client that successfully completes a *full* download (`default`/visionos and
+`android_vr` both tried). The URLs these clients hand back are evidently only
+valid for the client that requested them end-to-end, not for an external
+process seeking into them.
+
+So rendering re-downloads the FULL source via the same `download.downloader.
+download()` already proven working in Phase 2, then cuts the clip locally
+with FFmpeg. Costs time (one extra full download per rendered video), not
+money — Actions minutes are unmetered on this public repo. See
+`src/video/runner.py` module docstring.
+
+### 8c. Reframe and caption filters, verified against real encodes
+
+Both 9:16 strategies (`center_crop`, `blur_pad`) and the full filter graph
+(reframe -> burned ASS captions -> `drawtext` watermark -> fps) were run
+end-to-end against a synthetic 16:9 source with `ffmpeg-full`, not just unit
+tested with fakes: output resolution, codecs, frame rate and duration all
+matched the quality gate's expectations, and the composited frame was
+inspected by eye (caption legible over bright/dark background segments both,
+watermark clear of the caption safe-zone). One real bug only showed up at
+this stage and not in unit tests: the render path had no file extension,
+which made FFmpeg unable to pick a container — unit tests passed because they
+fake `render_clip` entirely and construct their own `.mp4` path. Fixed in
+`video/runner.py`.
+
 ---
 
 ## Free-tier enforcement

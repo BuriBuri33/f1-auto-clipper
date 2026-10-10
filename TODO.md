@@ -177,15 +177,53 @@ enforce "1 clip/day" across videos — that selection-across-all-videos step
 is explicitly Phase 9's job; `db.best_candidates_overall` is the
 infrastructure Phase 9 will query.
 
-## Phase 5 — Rendering
+## Phase 5 — Rendering ✅
 
-- [ ] Cut, 9:16 reframe (configurable strategy, robust fallback over bad crops)
-- [ ] ASS captions, burned in, mobile-legible, inside safe margins
-- [ ] Configurable watermark; skip it if it would block key footage
-- [ ] Metadata: title, description, hashtags — no keyword stuffing, no
-      implying official F1 content
-- [ ] Quality gate (spec §28) — all checks must pass before publish
-- [ ] Inspect sample MP4s by hand before wiring any publisher
+- [x] Cut, 9:16 reframe: `center_crop` (default) with automatic fallback to
+      `blur_pad` when the source's own aspect ratio makes a crop geometrically
+      impossible — the "robust fallback over bad crops" spec section 15 asks
+      for, triggered by an actual impossibility rather than a style judgement
+- [x] ASS captions, burned in via FFmpeg's `ass` filter, re-chunked from word
+      timings with `transcription.resegment_from_words` (tighter limits than
+      Phase 3/4's reuse of the same primitive), inside configurable safe
+      margins clear of platform UI
+- [x] Configurable watermark (`drawtext` + `textfile=`, not inline text, so
+      operator-supplied `BRAND_NAME` never needs escaping) — restricted to a
+      single corner by construction, and a bottom corner is pushed clear of
+      the caption safe-zone rather than ever overlapping it
+- [x] Metadata: title/description/hashtags, capped hashtag count (no keyword
+      stuffing by construction) and a fixed non-affiliation disclaimer on
+      every description (no implying official F1 content)
+- [x] Quality gate (spec §28): resolution, codecs, frame rate, duration and
+      stream counts all checked against the FINISHED file via `ffprobe`, not
+      the command line that produced it; every failure collected, not just
+      the first
+- [x] `render` command + `render.yml` workflow — re-downloads the source
+      (media is not persisted between runs; a partial time-ranged fetch was
+      tried and measured to 403, see docs/LIMITS.md §8b) and tries each
+      CANDIDATE clip best-score-first, falling to the next on a rejected gate
+      or a failed encode (spec section 12's "backup candidates", now used)
+- [x] Schema v5: `clips.status_detail` / `clips.rendered_at`, so a rejected
+      candidate's reason is on the record the same way a failed video's is
+- [x] **Verified end-to-end against a real FFmpeg encode** (not only unit
+      tests with fakes): both reframe strategies, burned captions and the
+      watermark composited correctly on a synthetic source, inspected by eye;
+      caught one real bug a faked-`render_clip` unit test could not (missing
+      `.mp4` extension on the output path) — see docs/LIMITS.md §8c
+- [x] Inspect sample MP4s by hand — done locally (`render --keep` writes to
+      the working directory); not yet done against a REAL F1 source, which
+      needs a GitHub runner confirmed to download (see "Blocking, not code")
+
+**Known gap, deliberately not closed here:** a plain `ffmpeg` build (e.g.
+Homebrew's default formula) lacks the `ass`/`drawtext` filters this phase
+needs — confirmed locally, NOT yet confirmed on a GitHub Actions runner. See
+docs/LIMITS.md §8a. `doctor` and `render` both check for this explicitly and
+fail clearly rather than produce a captionless/unbranded clip silently.
+
+Does NOT publish anything, and does NOT select "the one clip for today"
+across videos (spec section 12's selection step) — both remain Phase 9. A
+RENDERED clip is not committed anywhere; it exists only inside the workflow
+run that produced it until a publisher runs in the same pass.
 
 ## Phase 6 — YouTube
 

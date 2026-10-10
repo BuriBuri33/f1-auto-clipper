@@ -321,6 +321,26 @@ def run_diagnostics(
         ffmpeg or "missing — macOS: brew install ffmpeg / Ubuntu: apt-get install ffmpeg",
     )
 
+    # 2b. The render stage's filters specifically. Measured 2026-10-10: a
+    #     plain Homebrew `ffmpeg` has neither `ass` nor `drawtext` — both
+    #     need libass/libfreetype, which that formula does not bundle. A
+    #     present `ffmpeg` binary proves nothing about caption/watermark
+    #     support, so this checks the actual filter list. See LIMITS.md 8a.
+    if ffmpeg:
+        from ..video import ffmpeg as video_ffmpeg
+
+        missing = video_ffmpeg.missing_required_filters()
+        report.add(
+            "FFmpeg has caption/watermark filters",
+            not missing,
+            "all present" if not missing else
+            "missing: %s. Needed for Phase 5 rendering (burned-in captions "
+            "use `ass`, the watermark uses `drawtext`). On Ubuntu/Debian "
+            "the distro ffmpeg package normally has both; on macOS "
+            "Homebrew's plain `ffmpeg` formula does not — use `ffmpeg-full` "
+            "instead." % ", ".join(missing),
+        )
+
     # 3. The API key. Presence is not the question — whether it WORKS is.
     #    Checked against a video whose licence is known, so one call proves
     #    four things at once: the key is accepted, the Data API is enabled on

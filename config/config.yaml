@@ -136,6 +136,12 @@ clip:
   max_duration: 60
   target_duration: 45
   candidates_per_video: 8
+  # Metadata generation (spec section 18). Capped, not because a platform
+  # enforces it, but because spec section 18 explicitly rules out keyword
+  # stuffing — a fixed small cap is what makes that true by construction
+  # rather than by review.
+  max_title_chars: 95
+  max_hashtags: 6
 
 analysis:
   # auto: Gemini when LLM_API_KEY is set, the heuristic scorer otherwise
@@ -202,6 +208,11 @@ publishing:
 branding:
   enabled: true
   watermark_text: "${BRAND_NAME:-YOUR_CHANNEL_NAME}"
+  # A corner only, never a position that could sit over the centre of the
+  # frame — that is what "skip it if it would block key footage" (spec
+  # section 17) means here: the watermark is kept small and cornered by
+  # construction rather than measured against the footage per clip, which
+  # would need a saliency model this project has no free tier for.
   position: "top_right"
 
 video:
@@ -210,6 +221,56 @@ video:
   fps: 30
   video_codec: "libx264"
   audio_codec: "aac"
+
+  # center_crop: crop the source to 9:16 around the middle, then scale to
+  #   width x height. Keeps full resolution but discards the left/right
+  #   edges — fine for broadcast footage, which is usually framed on the
+  #   action already.
+  # blur_pad: scale the WHOLE frame to fit the width, letterboxed on a
+  #   blurred, zoomed copy of itself rather than plain bars. Never crops
+  #   anything out.
+  # center_crop is used unless the source's own aspect ratio is already
+  # too narrow to crop from (would need a negative crop width) — that
+  # degenerate case always falls back to blur_pad instead of erroring,
+  # which is the "robust fallback over bad crops" spec section 15 asks for.
+  reframe_strategy: "center_crop"
+
+  crf: 20
+  preset: "medium"
+  # Per render attempt. A render that is still running past this is almost
+  # certainly stuck (a bad filter graph can spin), not slow.
+  timeout_seconds: 300
+
+  # Each video re-downloads its full source to cut a clip from (see
+  # src/video/runner.py for why), so this is deliberately smaller than the
+  # equivalent download/analysis limits.
+  max_videos_per_run: 2
+  max_retries: 3
+
+captions:
+  enabled: true
+  # Burned in via the `ass` filter (requires FFmpeg built with libass).
+  # Measured 2026-10-10: the plain Homebrew `ffmpeg` formula does NOT
+  # include libass OR libfreetype (no `ass`, `subtitles`, or even `drawtext`
+  # filter registered) — `ffmpeg-full` does. Ubuntu's apt ffmpeg package,
+  # which is what GitHub-hosted runners preinstall, is expected to include
+  # both; `doctor` checks the actual filters, not just that `ffmpeg` exists
+  # on PATH, because the latter proved not to imply the former. See
+  # docs/LIMITS.md section 8a.
+  font: "Arial"
+  font_size: 64
+  # A cue short enough to read in the time it is on screen. Same shape as
+  # transcription.resegment_from_words (max_seconds/max_chars/pause), reused
+  # here with tighter limits because a burned caption needs to fit in 1-2
+  # lines, not a full sentence.
+  max_chars_per_cue: 36
+  max_seconds_per_cue: 4.0
+  pause_threshold_seconds: 0.5
+  # Pixels in from the bottom edge, at the output resolution. Clears the
+  # UI every Shorts/Reels/TikTok player draws over the bottom of the frame —
+  # caption text sitting under it is unreadable.
+  margin_bottom: 220
+  margin_side: 80
 
 logging:
   level: "${LOG_LEVEL:-INFO}"

@@ -1,7 +1,7 @@
 # Spec conformance audit
 
 Section-by-section audit of the implementation against the project
-specification. Audited **2026-10-10**, updated at the end of Phase 4.
+specification. Audited **2026-10-10**, updated at the end of Phase 5.
 
 Legend: **✅ done** · **◐ partial** · **⏳ later phase** · **⚠️ deviation**
 (implemented differently from the spec, with reasoning) · **❌ gap**
@@ -46,14 +46,18 @@ Spec-named files that exist: ✅ `README.md`, `CLAUDE.md`,
 `src/database/db.py`, `src/utils/logging.py`, `src/utils/config.py`,
 `.github/workflows/monitor.yml`, `tests/`.
 
-⏳ Not yet created, because their phase has not run:
-`src/transcription/transcriber.py`, `src/analysis/*`, `src/video/*`,
-`src/publishing/*`.
+✅ Now also created, their phases having run since this table was first
+written: `src/transcription/*`, `src/analysis/*`, `src/video/*`.
+
+⏳ Not yet created, because its phase has not run: `src/publishing/*`.
 
 ⚠️ **`daily_clip.yml` deliberately absent.** The spec lists it. A scheduled
 workflow that cannot produce a clip is a job that fails on a timer and
-trains you to ignore the notifications. It arrives in Phase 5/6 with
-something to run.
+trains you to ignore the notifications. It arrives in Phase 6+ once a
+publisher exists for it to run — rendering (Phase 5) produces a file but
+cannot itself post anywhere, and the file does not survive past the run
+that made it (media is never committed), so a dedicated "render" workflow
+exists instead (`render.yml`), not the spec's daily publishing one.
 
 ⚠️ **Modules added beyond the spec's tree**, each because a responsibility
 turned out to be real and separable:
@@ -142,16 +146,16 @@ that rule applied upstream.
 | 10 | LLM clip selection, strict JSON | ✅ `GeminiClipSelector` — malformed/out-of-range/invented-timestamp entries rejected, never coerced |
 | 11 | F1-weighted scoring formula | ✅ `clip_scorer.final_score`, configurable weights, applied identically to both backends |
 | 12 | One clip/day, backup candidates | ⏳ Phase 9 (`db.best_candidates_overall` is the infrastructure) |
-| 13 | Clip deduplication | ✅ schema constraint (exact repeat) + in-video overlap filter + cross-video Jaccard text similarity. Perceptual hashing (the spec's other suggestion) applies to the RENDERED video, which does not exist until Phase 5 |
-| 14 | 1080x1920 H.264/AAC MP4 | ⏳ Phase 5 (config written) |
-| 15 | Configurable vertical reframing | ⏳ Phase 5 |
-| 16 | Burned-in captions | ⏳ Phase 5 |
-| 17 | Configurable branding | ⏳ Phase 5 (config written) |
-| 18 | Title/description/hashtags | ⏳ Phase 5 |
+| 13 | Clip deduplication | ✅ schema constraint (exact repeat) + in-video overlap filter + cross-video Jaccard text similarity. Perceptual hashing (the spec's other suggestion, against the RENDERED video) is not implemented — the quality gate's exact-codec/resolution/duration checks were judged sufficient for a single rendering pipeline producing one file per candidate; revisit if duplicate RENDERED output is ever observed |
+| 14 | 1080x1920 H.264/AAC MP4 | ✅ `video/runner.py` — verified against a real encode, not just config |
+| 15 | Configurable vertical reframing | ✅ `center_crop` / `blur_pad`, with automatic fallback to the latter when a crop is geometrically impossible (section 15's "robust fallback over bad crops") |
+| 16 | Burned-in captions | ✅ FFmpeg `ass` filter, cues built from word timings, inside configurable safe margins |
+| 17 | Configurable branding | ✅ `drawtext` watermark, restricted to a corner by construction, pushed clear of the caption safe-zone |
+| 18 | Title/description/hashtags | ✅ capped hashtag count, fixed non-affiliation disclaimer on every description |
 | 19 | YouTube publishing | ⏳ Phase 6 — **and see the audit gate below** |
 | 20 | Instagram Reels | ⏳ Phase 7 |
 | 21 | TikTok | ⏳ Phase 8 — **audit gate** |
-| 28 | Quality gate before publishing | ⏳ Phase 5 |
+| 28 | Quality gate before publishing | ✅ resolution/codecs/fps/duration/stream-count checked against the finished file via `ffprobe`; a failing clip is REJECTED and the next candidate tried (section 12's backups, now used) |
 
 **§19/§21 carry gates no code can satisfy.** YouTube locks API uploads from
 an un-audited project to private — `privacyStatus: public` is accepted and
@@ -228,10 +232,10 @@ Big Buck Bunny, CC-BY) — which is how the download failure was found.
 |---|---|
 | Retry failed jobs | ✅ `retry [VIDEO_ID] [--reset-count]` |
 | Skip a candidate | ✅ gate SKIP, or `source-disable` |
-| Approve a candidate | ◐ `unskip VIDEO_ID` requeues one video; clip-level approval is Phase 4 |
+| Approve a candidate | ◐ `unskip VIDEO_ID` requeues one video; no per-clip CLI override exists — the ranked list from Phase 4 IS the approval queue, highest score first |
 | Disable a source | ✅ `source-disable` / `source-enable` |
-| Change start/end timestamp | ⏳ Phase 4 |
-| Change title | ⏳ Phase 5 |
+| Change start/end timestamp | ❌ no override exists; a candidate's span comes from `analysis.candidates` only. Gap, not scheduled against a specific phase |
+| Change title | ❌ generated by `video.metadata`, no override exists. Same gap as above |
 | Disable a platform | ✅ config `publishing.youtube/instagram/tiktok` |
 | Operates automatically without intervention | ✅ |
 
@@ -292,19 +296,19 @@ copyright/DRM bypass.
 | Criterion | State |
 |---|---|
 | New videos detected automatically | ✅ |
-| Downloaded when authorized | ◐ gate ✅, byte fetch unverified |
-| Transcribed | ⏳ |
+| Downloaded when authorized | ✅ gate ✅, byte fetch verified working (LIMITS §7); not yet confirmed from a GitHub runner specifically |
+| Transcribed | ✅ measured to 0.38s worst-case accuracy (LIMITS §4) |
 | Multiple candidates identified | ✅ |
 | Candidates scored | ✅ measured against the live API |
 | Best selected | ✅ ranked per video; cross-video "1/day" selection is Phase 9 |
 | Duplicates prevented | ✅ constraint + overlap filter + cross-video similarity |
-| 9:16 MP4 generated | ⏳ |
-| Captions burned in | ⏳ |
-| Metadata generated | ⏳ |
+| 9:16 MP4 generated | ✅ verified against a real encode (LIMITS §8c) |
+| Captions burned in | ✅ FFmpeg `ass`, verified against a real encode; NOT yet confirmed the required libass/libfreetype filters are present on a GitHub runner (LIMITS §8a) |
+| Metadata generated | ✅ title/description/hashtags, capped, disclaimer on every description |
 | YouTube Shorts publishing works | ⏳ **+ audit gate** |
 | Instagram Reels publishing works | ⏳ |
 | TikTok publishing works where permitted | ⏳ **+ audit gate** |
-| Max one clip/day enforced | ⏳ |
+| Max one clip/day enforced | ⏳ Phase 9 (`best_candidates_overall` is the infrastructure) |
 | Failed jobs retryable | ✅ |
 | Publishing idempotent | ✅ structurally (constraint in place) |
 | Secrets stored securely | ✅ |

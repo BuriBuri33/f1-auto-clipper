@@ -215,3 +215,23 @@ docs/              LIMITS.md (verified figures), RIGHTS.md (boundaries)
   where every surviving candidate was later filtered as a near-duplicate
   of an already-queued clip — which fell through to ANALYZED with zero
   candidates stored instead of SKIPPED. Caught by a test, not by inspection.
+- **A present `ffmpeg` binary does not mean captions or a watermark will
+  work.** Burned ASS captions need libass, the watermark's `drawtext` needs
+  libfreetype, and a plain Homebrew `ffmpeg` install has neither — `ffmpeg
+  -version` succeeds either way; only `ffmpeg -filters` shows the gap. Same
+  shape as the yt-dlp version lesson: verify the actual capability, not that
+  the tool is on PATH. `video.ffmpeg.missing_required_filters()` and its own
+  `doctor` check exist because of this. See `docs/LIMITS.md` §8a — and that
+  section's note that this is still unconfirmed on an actual GitHub runner.
+- **A time-ranged re-download (`yt-dlp --download-sections`) 403s even
+  through clients that complete a full download fine.** Measured 2026-10-10:
+  the googlevideo URLs handed back for an external-seek fetch are evidently
+  bound to the client that requested them end-to-end. So rendering
+  re-downloads the WHOLE source (reusing the already-proven Phase 2 code)
+  rather than a time range — costs time, not money. See `docs/LIMITS.md` §8b
+  and `video/runner.py`.
+- **The render output path needs its own `.mp4` extension**, or FFmpeg
+  cannot choose a container and fails outright. Unit tests that fake
+  `render_clip` did not catch this — only a real end-to-end encode did (see
+  `docs/LIMITS.md` §8c). A standing reminder that faking the expensive call
+  in a test is not the same as having exercised the real one at least once.

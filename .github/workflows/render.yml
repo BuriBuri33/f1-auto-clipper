@@ -1,0 +1,104 @@
+name: render
+
+# Cut, reframe, caption and brand the best candidate clip for each ANALYZED
+# video into a publishable MP4.
+#
+# Re-downloads the source video. Media is never persisted between workflow
+# runs (see `ingest`), so by the time a video is ANALYZED its file from the
+# `ingest` run is already gone — see src/video/runner.py for why a partial,
+# time-ranged re-fetch was tried and measured not to work.
+#
+# The rendered MP4 itself is NOT committed (media never reaches git) and
+# there is no publisher yet (Phase 6+), so this job's only lasting output is
+# the database: which clip was selected, its metadata, and whether it passed
+# the quality gate. The file is discarded with the runner. That is
+# deliberately incomplete until a publisher exists to run in the same job —
+# exactly the reasoning `ingest` already established for download+transcribe.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "List candidates without fetching anything"
+        type: boolean
+        default: false
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements-download.txt
+          pip install --upgrade yt-dlp
+
+      - name: Confirm FFmpeg has the filters rendering needs
+        # Preinstalled on GitHub-hosted ubuntu images, but `ass`/`drawtext`
+        # specifically need libass/libfreetype — a present `ffmpeg` binary
+        # does not imply they are compiled in (measured locally: Homebrew's
+        # plain `ffmpeg` formula lacks both). Checked here, in one legible
+        # step, rather than discovered mid-render. See docs/LIMITS.md 8a —
+        # this is the "confirm on a GitHub runner" check that section calls
+        # for and that had not been run yet as of Phase 5 landing.
+        #
+        # Non-blocking: `doctor` also validates the YouTube/transcription/LLM
+        # API keys, none of which this job has, so a full failure there is
+        # expected and not what this step exists to catch. `render` itself
+        # checks the filters it actually needs and fails clearly if they are
+        # missing (see src/video/runner.py:run_render).
+        continue-on-error: true
+        run: |
+          ffmpeg -version | head -1
+          python -m src.main doctor --no-download
+
+      - name: Render
+        env:
+          LOG_LEVEL: INFO
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m src.main render --dry-run
+          else
+            python -m src.main render
+          fi
+
+      - name: Write status to the run summary
+        if: always()
+        run: python -m src.main status
+
+      - name: Commit state
+        if: always()
+        run: |
+          # The database only. The rendered MP4 lives in a temp directory the
+          # command removes on exit and never reaches git.
+          if git diff --quiet -- data/; then
+            echo "no state change"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore(state): render pass $(date -u +%Y-%m-%dT%H:%MZ)"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          done
+          echo "::error::could not push state after 3 attempts"
+          exit 1
