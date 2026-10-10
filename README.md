@@ -7,9 +7,10 @@ publish one clip per day to YouTube Shorts, Instagram Reels and TikTok.
 Designed to run entirely on free tiers (target: **₹0/month** recurring) and
 entirely in CI, so nothing depends on your computer being on.
 
-> **Status: Phases 1-3 of 9 complete** — source monitoring, new-video
-> detection, gated downloading, and transcription. Clip selection, rendering
-> and publishing are scaffolded but not implemented. See [TODO.md](TODO.md).
+> **Status: Phases 1-4 of 9 complete** — source monitoring, new-video
+> detection, gated downloading, transcription, and clip candidate selection.
+> Rendering and publishing are scaffolded but not implemented. See
+> [TODO.md](TODO.md).
 >
 > Downloading is **verified working** end to end (12.9 MB through the real
 > code path). The earlier failure was a year-stale yt-dlp, not a blocked
@@ -35,6 +36,36 @@ entirely in CI, so nothing depends on your computer being on.
    (YouTube) and `SELF_ONLY` (TikTok), whatever your code requests. This is
    platform policy, not a bug, and it cannot be coded around. Details and
    figures in [docs/LIMITS.md](docs/LIMITS.md).
+
+## Clip selection (Phase 4)
+
+Candidate clip windows are built on transcript SEGMENT boundaries — never a
+slice through one — which directly satisfies "avoid clips that begin or end
+mid-sentence" (spec section 10) as a side effect of Phase 3's decision to
+rebuild segments on sentence/pause boundaries rather than trust a backend's
+own grouping.
+
+Each candidate is scored on five axes (spec section 11: hook, emotional,
+context, payoff, shareability), combined by a configurable weighted formula:
+
+- **Gemini** (free tier, `gemini-flash-latest`) when `LLM_API_KEY` is set.
+  Output is validated strictly — a malformed field, an out-of-range score,
+  or a timestamp the model invented rather than one it was given is
+  **rejected, never coerced**.
+- **A no-LLM heuristic** otherwise, and as a fallback when a Gemini call
+  fails for a reason that is not a spent quota (a spent quota defers the
+  work instead — never silently degrades).
+
+Deduplication happens at three levels: the database's own uniqueness
+constraint (an exact repeat), in-video overlap filtering (near-identical
+windows around the same moment), and cross-video text similarity against
+clips already queued or published (so the same moment described slightly
+differently in a recap video is caught too).
+
+Does not publish anything, and does not enforce "one clip per day" across
+videos — both are explicitly Phase 9's job.
+[docs/LIMITS.md §5](docs/LIMITS.md) has the measurements behind the model
+choice, the thinking-budget setting, and the scoring rubric.
 
 ## Transcription
 
@@ -212,6 +243,8 @@ matters because yt-dlp is the one dependency that breaks regularly.
 | `download --dry-run` | List download candidates; fetch nothing |
 | `ingest` | Download **and** transcribe in one pass — what CI runs |
 | `prune-transcripts` | Delete transcripts for PUBLISHED/SKIPPED videos |
+| `analyze` | Score transcribed videos into ranked, deduplicated clip candidates |
+| `analyze --dry-run` | List videos pending analysis; score nothing |
 | `check VIDEO...` | Run the pre-download gate on specific videos; fetch nothing |
 | `doctor` | Check whether this environment can download at all |
 | `status` | Print a pipeline status report (also to the Actions summary) |
@@ -251,6 +284,7 @@ repository secret*. Use the same names as `.env.example`:
 |---|---|
 | `YOUTUBE_API_KEY` | Phase 1 (optional), **Phase 2 (required)** |
 | `TRANSCRIPTION_API_KEY` | Phase 3 (optional — local fallback needs no key) |
+| `LLM_API_KEY` | Phase 4 (optional — heuristic fallback needs no key) |
 | `LLM_API_KEY` | Phase 4 |
 | `BRAND_NAME` | Phase 5 |
 | `YOUTUBE_CLIENT_ID` / `_CLIENT_SECRET` / `_REFRESH_TOKEN` | Phase 6 |
@@ -272,6 +306,11 @@ FFmpeg, runs `doctor` as a diagnostic step, then downloads **and transcribes**
 what passed the gate. It is separate from `monitor` on purpose: monitoring is
 cheap and reliable, ingesting is neither, and an ingest problem must not stop
 new uploads being detected.
+
+`.github/workflows/analyze.yml` runs every 4 hours and scores transcribed
+videos into clip candidates. It is separate from `ingest` too, and able to
+be: this stage reads only the committed transcript, never the media that
+produced it — which is long gone by the time this ever runs.
 
 **Why download and transcription are one job.** The media file is hundreds of
 megabytes: too large to commit, and the runner is destroyed when the job ends.

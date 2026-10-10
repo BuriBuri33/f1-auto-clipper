@@ -142,14 +142,40 @@ source.
       labelled-glossary shape stripped because it gets echoed into the
       transcript
 
-## Phase 4 — Clip selection
+## Phase 4 — Clip selection ✅
 
-- [ ] Prompt + strict JSON schema + validation (reject, never coerce)
-- [ ] F1-weighted scoring (hook/emotion/context/payoff/shareability)
-- [ ] Heuristic scorer as the no-LLM fallback
-- [ ] Sentence-boundary snapping; reject clips starting or ending mid-sentence
-- [ ] Deduplication: timestamp overlap + transcript similarity
-- [ ] Do not publish anything yet
+- [x] `generate_windows`/`deduplicate_windows` — candidate spans built on
+      sentence/pause-bounded transcript segments, never a mid-sentence slice
+- [x] Gemini backend: structured `responseSchema` output, strict validation
+      (reject a malformed/out-of-range/invented-timestamp entry, never
+      coerce it), `thinkingBudget: 0`, a rubric with explicit 0/50/100
+      anchors on every axis (an unanchored "score 0-100" produced wild
+      outliers — 9 vs 95 on the same clip)
+- [x] Heuristic no-LLM fallback scored on the same five F1-weighted axes,
+      using several independent signals so nothing is selected solely for
+      one keyword hit (spec section 10)
+- [x] `clip_scorer.final_score` — the weighted formula from spec section 11,
+      with configurable weights, applied identically to both backends
+- [x] Fallback policy matching Phase 3's: an LLM failure falls back to
+      heuristic; a SPENT QUOTA does not, and defers instead
+- [x] Deduplication: schema UNIQUE constraint (exact repeat), in-video
+      overlap filtering (near-identical windows), AND cross-video text
+      similarity against already QUEUED/PUBLISHED clips (spec section 13)
+- [x] `analyze` command + `analyze.yml` workflow — its own job, because this
+      stage reads only the committed transcript, never ephemeral media
+- [x] Schema v4: five sub-scores + scoring method stored per clip, so the
+      formula's inputs are auditable after the fact (spec section 29)
+- [x] **Verified end-to-end against the live Gemini API and a real account**:
+      five real candidate windows scored, validated, ranked, overlap-filtered
+      to 2, and stored — with the model correctly ranking the crash/safety-car
+      segment highest, matching the spec's own F1 priority order
+- [x] 94 new tests; one real bug (post-dedup empty result read as ANALYZED
+      instead of SKIPPED) caught by a test, not by inspection
+
+Does NOT publish anything (per spec: "Do not publish yet") and does NOT
+enforce "1 clip/day" across videos — that selection-across-all-videos step
+is explicitly Phase 9's job; `db.best_candidates_overall` is the
+infrastructure Phase 9 will query.
 
 ## Phase 5 — Rendering
 

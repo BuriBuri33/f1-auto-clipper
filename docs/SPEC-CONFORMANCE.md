@@ -1,7 +1,7 @@
 # Spec conformance audit
 
 Section-by-section audit of the implementation against the project
-specification. Audited **2026-10-10**, updated at the end of Phase 3.
+specification. Audited **2026-10-10**, updated at the end of Phase 4.
 
 Legend: **✅ done** · **◐ partial** · **⏳ later phase** · **⚠️ deviation**
 (implemented differently from the spec, with reasoning) · **❌ gap**
@@ -16,7 +16,8 @@ Legend: **✅ done** · **◐ partial** · **⏳ later phase** · **⚠️ devia
 | 1.2 | Detect new videos automatically | ✅ |
 | 1.3 | Download permitted source videos | ✅ verified working (LIMITS §7) |
 | 1.4 | Transcribe | ✅ measured to 0.38s worst-case accuracy |
-| 1.5-1.8 | Select → render → publish | ⏳ Phases 4-8 |
+| 1.5 | Identify strongest moments | ✅ measured against the live API on real multi-accent F1 radio |
+| 1.6-1.8 | Render → publish | ⏳ Phases 5-8 |
 | 1.9 | History prevents double-posting | ✅ schema-enforced (see §7) |
 | 1.10 | Runs without my computer online | ◐ download works locally; **not yet measured on a GitHub runner** |
 | 1.11 | ₹0/month recurring | ✅ no paid dependency anywhere |
@@ -138,10 +139,10 @@ that rule applied upstream.
 | Section | Requirement | State |
 |---|---|---|
 | 9 | Transcription behind a replaceable interface | ✅ `transcribe(media_path) -> Transcript`, two backends, spec's segment shape |
-| 10 | LLM clip selection, strict JSON | ⏳ Phase 4 |
-| 11 | F1 scoring formula | ⏳ Phase 4 |
-| 12 | One clip/day, backup candidates | ⏳ Phase 9 |
-| 13 | Clip deduplication | ◐ schema constraints in place; similarity/perceptual hashing Phase 4 |
+| 10 | LLM clip selection, strict JSON | ✅ `GeminiClipSelector` — malformed/out-of-range/invented-timestamp entries rejected, never coerced |
+| 11 | F1-weighted scoring formula | ✅ `clip_scorer.final_score`, configurable weights, applied identically to both backends |
+| 12 | One clip/day, backup candidates | ⏳ Phase 9 (`db.best_candidates_overall` is the infrastructure) |
+| 13 | Clip deduplication | ✅ schema constraint (exact repeat) + in-video overlap filter + cross-video Jaccard text similarity. Perceptual hashing (the spec's other suggestion) applies to the RENDERED video, which does not exist until Phase 5 |
 | 14 | 1080x1920 H.264/AAC MP4 | ⏳ Phase 5 (config written) |
 | 15 | Configurable vertical reframing | ⏳ Phase 5 |
 | 16 | Burned-in captions | ⏳ Phase 5 |
@@ -293,10 +294,10 @@ copyright/DRM bypass.
 | New videos detected automatically | ✅ |
 | Downloaded when authorized | ◐ gate ✅, byte fetch unverified |
 | Transcribed | ⏳ |
-| Multiple candidates identified | ⏳ |
-| Candidates scored | ⏳ |
-| Best selected | ⏳ |
-| Duplicates prevented | ◐ constraints ✅, similarity ⏳ |
+| Multiple candidates identified | ✅ |
+| Candidates scored | ✅ measured against the live API |
+| Best selected | ✅ ranked per video; cross-video "1/day" selection is Phase 9 |
+| Duplicates prevented | ✅ constraint + overlap filter + cross-video similarity |
 | 9:16 MP4 generated | ⏳ |
 | Captions burned in | ⏳ |
 | Metadata generated | ⏳ |

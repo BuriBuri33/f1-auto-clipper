@@ -217,24 +217,98 @@ is chunked (~20–30 min of mono 32–64 kbps Opus/MP3 per request) with segment
 timestamps offset back to the source timeline. 3 hours of audio = 10,800s,
 comfortably inside the 28,800s/day allowance for one video per day.
 
-**Fallback — `faster-whisper` on the runner.** No API, no key, no quota. On a
-public repo's 4-vCPU runner, the `base` model runs at roughly real-time or
-better, so a 3-hour source is a long job but an unmetered one. This is the
-reason the project does not depend on any transcription vendor staying free.
+**Fallback — `faster-whisper` on the runner.** No API, no key, no quota.
+Measured with a warm model cache (Apple Silicon, CPU, int8), not assumed:
+`tiny` 0.04x real time, `base` 0.10x real time, `small` 0.18x real time —
+all faster than real time, not "roughly real time" as an earlier, unwarmed
+single-shot measurement suggested (that number included a one-time model
+download and looked like ~4x real time). A 3-hour source should cost well
+under an hour even allowing for GitHub's x86 runners being slower than
+Apple Silicon. Actions minutes are unmetered on public repos regardless, so
+this stays free either way. This is the reason the project does not depend
+on any transcription vendor staying free.
 
-## 5. Clip selection LLM (Phase 4)
+## 5. Clip selection LLM (Phase 4) — implemented, with findings
 
-**Google AI Studio free tier** (`gemini-2.5-flash`): ~10 requests/min and
-~1,500 requests/day on current reporting. Google no longer publishes a
-guaranteed free-tier table — the live limits are per-project in the AI Studio
-console, and developers report real limits below the published ones at peak
-times. One clip-selection call per video per day sits far inside any of these
-figures.
+Verified by implementation on 2026-10-10. Three things bit, none visible
+without real API calls:
 
-**Fallback:** the clip selector's interface takes a transcript and returns
-ranked candidates, so a heuristic scorer (keyword + segment-density + pause
-detection) can stand in with no API at all. Treat the LLM as an upgrade to
-candidate *quality*, never as a dependency for the pipeline to run.
+**a. The model name originally assumed, `gemini-2.5-flash`, is dead.** A
+real call returned HTTP 404: "This model models/gemini-2.5-flash is no
+longer available to new users. Please update your code to use
+models/gemini-3.8-flash." A pinned snapshot name rots. The default is now
+`gemini-flash-latest` — an ALIAS Google documents as tracking its current
+stable flash tier, trading a small amount of behaviour drift for never
+going dead on its own. `gemini-flash-lite-latest` also exists and is
+faster/cheaper; not used by default because its accuracy was not measured
+against real F1 content, only the main flash tier was.
+
+**b. With `responseSchema` (structured output) set, "thinking" adds real
+cost with no measured benefit.** The model's own default thinking budget
+spent 283-716 tokens and 12-40 seconds reasoning about a four-segment
+transcript before answering. Setting `thinkingConfig.thinkingBudget: 0`
+explicitly drops that to 0 tokens and a few seconds, with no quality
+difference observed on the cases tried. This is a latency/cost choice, not
+a correctness one — worth re-checking if real transcripts ever show worse
+scoring than the heuristic fallback.
+
+**c. An ambiguous scoring instruction produces wild, inconsistent outliers.**
+The same objectively strong clip scored 9/100 on one call and 95/100 on a
+near-identical one when the prompt only said "score 0-100". The fix was
+explicit anchors at 0/50/100 on every one of the five sub-score axes
+(`analysis/prompts.py`'s `SCORING_RUBRIC`) — after which scores were stable
+and sensible across repeated real calls.
+
+**Error shapes, verified against the live API, not assumed:** a bad key
+returns HTTP 400 with `status: INVALID_ARGUMENT` and
+`details[].reason: API_KEY_INVALID`; a malformed request returns the same
+400/INVALID_ARGUMENT shape with a different message. `RESOURCE_EXHAUSTED`
+(quota) is Google's documented convention and was **not** triggered for
+real during development — deliberately, to avoid spending the project's own
+free allowance proving it fires. If a real exhaustion is ever observed and
+the status string does not match, that is the thing to fix first.
+
+**Measured end-to-end against real audio and a real account**, not a
+synthetic check: five candidate windows from the multi-accent F1 radio
+sample (docs/LIMITS.md section 4) were scored by the live API in one call,
+validated, ranked, overlap-filtered down to 2 non-overlapping clips, and
+stored — with the model correctly ranking the safety-car/crash segment
+highest across all five sub-score axes, which matches the spec's own
+F1-priority ordering (crashes/incidents rank above routine radio).
+
+## 5a. Gemini free tier
+
+Google AI Studio's free tier applies by default to a key with no billing
+account attached (confirmed: the key used in development has never had
+billing enabled, and every call above succeeded). Google does not publish
+a fixed RPM/TPM/RPD table any more — current guidance points to
+"View your active rate limits in AI Studio" (per-project, per-model,
+visible only after signing in), which this document cannot verify by
+fetching a page. **Check your own project's console rather than trusting a
+number here or anywhere else** — this is exactly the kind of figure that
+drifts without an announcement.
+
+What was independently verified by calling the live API rather than reading
+about it:
+
+- the model catalog moves fast — `gemini-2.5-flash` existed and was
+  presumably fine when this project's spec was written, and had already
+  been retired by the time Phase 4 shipped;
+- a free-tier key with no billing attached can call `gemini-flash-latest`
+  and `gemini-flash-lite-latest` successfully, including with
+  `responseSchema` structured output;
+- no rate-limit information is exposed in response headers (checked: none
+  of the standard `*-limit`/`*-quota`/`retry-after` headers were present on
+  a successful call), so the only way to learn the limit in code is to hit
+  it — which `clip_selector.py` treats as `AnalysisQuotaExceeded` on
+  `RESOURCE_EXHAUSTED` and defers the work, never retries, never pays.
+
+**Fallback:** the clip selector's interface takes transcript segments and
+returns ranked candidates, so a heuristic scorer (radio-marker keywords +
+emotional language + segment structure, deliberately never keying off a
+single keyword hit — spec section 10) stands in with no API key at all.
+Treat the LLM as an upgrade to candidate *quality*, never as a dependency
+for the pipeline to run — measured end-to-end both ways in Phase 4's tests.
 
 ## 6. YouTube Atom RSS — why it is the fallback, not the primary
 

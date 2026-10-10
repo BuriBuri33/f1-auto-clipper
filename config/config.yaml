@@ -137,6 +137,59 @@ clip:
   target_duration: 45
   candidates_per_video: 8
 
+analysis:
+  # auto: Gemini when LLM_API_KEY is set, the heuristic scorer otherwise
+  # llm:  Gemini only (fails loudly with no key, rather than silently
+  #       falling back — an explicit choice should error, not degrade)
+  # heuristic: never calls an LLM, even with a key present
+  backend: auto
+
+  # An alias, not a pinned snapshot. Verified 2026-10-10: the previously
+  # obvious default, gemini-2.5-flash, now 404s ("no longer available to
+  # new users"). gemini-flash-latest tracks whatever Google currently calls
+  # its stable flash tier.
+  llm_model: "gemini-flash-latest"
+
+  # Verified 2026-10-10: with responseSchema set, Gemini's OWN default
+  # thinking budget spent 283-716 tokens and 12-40s "thinking" about a
+  # four-segment transcript, with no measured quality gain over 0 on the
+  # cases tried. 0 is a latency/cost choice; re-verify if real transcripts
+  # show worse scoring quality than the heuristic fallback.
+  thinking_budget: 0
+
+  # A long video can produce far more candidate windows than are worth an
+  # LLM call over. Evenly sampled across the timeline if there are more
+  # than this, never just the first N.
+  max_windows_for_llm: 25
+
+  # Bare, comma-separated proper nouns the model keeps mishearing or that
+  # help it recognise who's speaking. Passed as context, not instructions —
+  # see transcription.vocabulary_prompt for why the shape matters.
+  vocabulary_hint: ""
+
+  # A window is grown by adding segments only while the gap since the last
+  # one stays under this — stops a candidate silently swallowing a long
+  # dead patch of broadcast (spec section 10: "avoid clips with long pauses").
+  max_internal_gap_seconds: 6
+
+  # Two candidates whose spans overlap by at least this fraction of the
+  # shorter one are treated as the same moment; only the higher-scored one
+  # is kept (spec section 13).
+  overlap_threshold: 0.5
+
+  # Jaccard word-set similarity against clips already QUEUED/PUBLISHED from
+  # a DIFFERENT video, above which a candidate is dropped as a likely
+  # re-telling of something already queued.
+  similarity_threshold: 0.6
+
+  # If an LLM call fails for a reason that is NOT a spent quota, fall back
+  # to the heuristic scorer rather than failing the video outright. A spent
+  # quota never falls back — see transcription's identical policy and why.
+  allow_heuristic_fallback: true
+
+  max_videos_per_run: 3
+  max_retries: 3
+
 publishing:
   max_per_day: 1
   youtube: true

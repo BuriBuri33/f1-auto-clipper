@@ -233,9 +233,50 @@ def _check_transcription_key(api_key: Optional[str], ffmpeg, session=None):
     )
 
 
+def _check_llm_key(api_key: Optional[str], session=None):
+    """Validate the clip-selection LLM backend. Returns (name, ok, detail)."""
+    name = "clip-selection LLM backend"
+
+    if not api_key:
+        return (
+            name, True,
+            "no LLM_API_KEY — will use the heuristic scorer. Always works, "
+            "but ranks candidates on keyword/structure signals only, not "
+            "semantic judgement. Get a free key at "
+            "https://aistudio.google.com/apikey to use Gemini instead.",
+        )
+
+    from ..analysis.clip_selector import DEFAULT_MODEL, GeminiClipSelector
+    from ..analysis.candidates import CandidateWindow
+    from ..analysis.types import AnalysisError, AnalysisQuotaExceeded
+    from ..transcription.types import Segment
+
+    selector = GeminiClipSelector(
+        api_key=api_key, session=session, max_retries=2, sleep=lambda _: None
+    )
+    probe_window = CandidateWindow([Segment(0.0, 20.0, "Box box box this lap.")])
+    try:
+        selector.score_windows([probe_window])
+    except AnalysisQuotaExceeded as exc:
+        return (
+            name, False,
+            "the key is valid but Gemini's free-tier allowance is spent. "
+            "Work stays queued; nothing is lost and nothing is charged.\n"
+            "  %s" % str(exc)[:200],
+        )
+    except AnalysisError as exc:
+        return (name, False, str(exc)[:400])
+    return (
+        name, True,
+        "Gemini key accepted, endpoint reachable, structured output parsed "
+        "(model %s)" % selector.model,
+    )
+
+
 def run_diagnostics(
     api_key: Optional[str] = None,
     transcription_api_key: Optional[str] = None,
+    llm_api_key: Optional[str] = None,
     do_download: bool = True,
     dest_dir: Optional[Path] = None,
     player_clients=downloader.DEFAULT_PLAYER_CLIENTS,
@@ -301,6 +342,12 @@ def run_diagnostics(
     #    call, because "present" says nothing: a wrong key, a disabled
     #    account and a spent allowance all look identical until you ask.
     report.add(*_check_transcription_key(transcription_api_key, ffmpeg, session))
+
+    # 4b. The clip-selection LLM key, if one is configured — same reasoning:
+    #    "present" says nothing about "accepted", and the model catalog
+    #    moves fast enough that a working key can still 404 on a dead model
+    #    name (verified: gemini-2.5-flash did exactly this on 2026-10-10).
+    report.add(*_check_llm_key(llm_api_key, session))
 
     # 5. Can we read metadata at all?
     probe_result = None

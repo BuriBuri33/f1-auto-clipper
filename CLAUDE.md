@@ -190,3 +190,28 @@ docs/              LIMITS.md (verified figures), RIGHTS.md (boundaries)
 - **The YouTube `license` field is absent from yt-dlp output**, even for a
   known CC-BY video. The licence decision comes from the Data API's
   `status.license` and from nothing else.
+- **A pinned LLM model name rots.** `gemini-2.5-flash` — the originally
+  assumed default — 404s as "no longer available to new users". Use
+  `gemini-flash-latest` (an alias Google documents as tracking its current
+  stable tier), and re-verify before ever hard-coding a dated model name.
+- **With `responseSchema` set, Gemini's default thinking budget burns real
+  tokens and latency with no measured benefit** on a well-bounded scoring
+  task — 283-716 tokens and 12-40s on a four-segment transcript, for a
+  small, well-specified call. `thinkingConfig.thinkingBudget: 0` removes
+  it. Re-verify on real transcripts if scoring quality ever looks off.
+- **An ambiguous "score 0-100" instruction produces wild, inconsistent
+  outliers** — the same clip scored 9 and 95 on near-identical calls.
+  Fixed with explicit 0/50/100 anchors on every sub-score axis
+  (`analysis/prompts.py`). Do not simplify the rubric back to a bare
+  number.
+- **Candidate windows are built on transcript SEGMENT boundaries, never a
+  slice through one.** This is a direct payoff from Phase 3's decision to
+  rebuild segments from word timings on sentence/pause boundaries — it is
+  what satisfies "avoid clips that begin or end mid-sentence" with no
+  separate boundary-snap step to get wrong.
+- **A candidate that survives scoring can still be dropped by cross-video
+  dedup, and that must be its own status check.** The first implementation
+  only checked for an empty result right after scoring, missing the case
+  where every surviving candidate was later filtered as a near-duplicate
+  of an already-queued clip — which fell through to ANALYZED with zero
+  candidates stored instead of SKIPPED. Caught by a test, not by inspection.

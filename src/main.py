@@ -12,6 +12,7 @@ Pipeline, in order:
     python -m src.main monitor  [--dry-run]
     python -m src.main download [--dry-run] [--keep] [--work-dir PATH]
     python -m src.main ingest   [--keep] [--work-dir PATH]   # download+transcribe
+    python -m src.main analyze  [--dry-run]                   # score into clip candidates
 
 Inspection and manual override (spec section 29):
 
@@ -41,6 +42,7 @@ from typing import List, Optional
 from .database import db
 from .download import runner as download_runner
 from .download import workspace
+from .analysis import runner as analysis_runner
 from .transcription import runner as ingest_runner
 from .monitoring import source_monitor, youtube_rss
 from .utils import logging as log_utils
@@ -285,6 +287,50 @@ def cmd_check(args: argparse.Namespace) -> int:
     return EXIT_OK
 
 
+def cmd_analyze(args: argparse.Namespace) -> int:
+    """Score transcribed videos into ranked, deduplicated clip candidates."""
+    config = load_config(args.config)
+    log_utils.configure(config.log_level, config.log_json)
+    context = log_utils.LogContext(job_id=log_utils.new_job_id("analyze"))
+    log = log_utils.get_logger("analyze", context)
+
+    conn = db.connect(config.database_path)
+    db.init_db(conn)
+
+    section = config.section("analysis")
+    if args.dry_run:
+        pending = db.videos_pending_analysis(
+            conn, limit=int(section.get("max_videos_per_run", 3)),
+            max_retries=int(section.get("max_retries", 3)),
+        )
+        if not pending:
+            print("DRY RUN — nothing pending analysis")
+            return EXIT_OK
+        print("DRY RUN — %d video(s) pending analysis:" % len(pending))
+        for row in pending:
+            print("  %-14s %-8s  %s" % (row["youtube_video_id"], row["status"],
+                                        row["title"][:60]))
+        return EXIT_OK
+
+    result = analysis_runner.run_analysis(conn, config, log=log)
+
+    lines = ["F1 AUTO-CLIPPER — ANALYZE", "-" * 26]
+    if not result.outcomes:
+        lines.append("  nothing pending")
+    for outcome in result.outcomes:
+        detail = outcome.reason
+        if outcome.status == db.VideoStatus.ANALYZED.value:
+            detail = "%d candidate(s) via %s" % (outcome.candidates, outcome.method)
+        lines.append("  %-14s %-12s %s" % (outcome.video_id, outcome.status, detail[:60]))
+    lines.append("")
+    lines.append("Analyzed: %d   failed: %d" % (result.analyzed, len(result.failed)))
+    _emit_summary("\n".join(lines))
+
+    if result.failed and not result.analyzed:
+        return EXIT_PARTIAL_FAILURE
+    return EXIT_OK
+
+
 def cmd_retry(args: argparse.Namespace) -> int:
     """Return failed videos to the queue (spec section 29)."""
     config = load_config(args.config)
@@ -335,6 +381,7 @@ def cmd_doctor(args: argparse.Namespace) -> int:
         report = diagnose.run_diagnostics(
             api_key=os.environ.get("YOUTUBE_API_KEY") or None,
             transcription_api_key=os.environ.get("TRANSCRIPTION_API_KEY") or None,
+            llm_api_key=os.environ.get("LLM_API_KEY") or None,
             do_download=not args.no_download,
             dest_dir=dest,
         )
@@ -428,7 +475,7 @@ def cmd_status(args: argparse.Namespace) -> int:
         "Last source check: %s" % last,
         "New videos:        %d  (discovered in the last 24h)" % db.count_new_since(conn, 24),
         "Processing:        %d" % db.count_in_progress(conn),
-        "Candidates:        %d" % sum(clip_counts.values()),
+        "Candidates:        %d" % clip_counts.get(db.ClipStatus.CANDIDATE.value, 0),
         "Today's clip:      %s" % _todays_clip_state(),
         "YouTube:           %s" % _platform_state("youtube", config),
         "Instagram:         %s" % _platform_state("instagram", config),
@@ -439,6 +486,7 @@ def cmd_status(args: argparse.Namespace) -> int:
         "Rights-cleared:    %d" % sum(1 for r in sources if r["rights_cleared"]),
         "Pending download:  %d" % len(db.videos_pending_download(conn, limit=1000)),
         "Pending transcribe: %d" % len(db.videos_pending_transcription(conn, limit=1000)),
+        "Pending analysis:   %d" % len(db.videos_pending_analysis(conn, limit=1000)),
         "FFmpeg available:  %s" % ("yes" if downloader_ffmpeg_ok() else "NO"),
         "Data API units:    %d / 10000 today"
         % db.api_usage_today(conn, "youtube_data_api"),
@@ -629,6 +677,11 @@ def build_parser() -> argparse.ArgumentParser:
         "prune-transcripts",
         help="delete transcripts for PUBLISHED/SKIPPED videos",
     ).set_defaults(func=cmd_prune_transcripts)
+
+    p_an = sub.add_parser("analyze", help="score transcribed videos into ranked clip candidates")
+    p_an.add_argument("--dry-run", action="store_true",
+                      help="list videos pending analysis without scoring")
+    p_an.set_defaults(func=cmd_analyze)
 
     p_check = sub.add_parser(
         "check",

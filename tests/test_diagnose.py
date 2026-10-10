@@ -352,3 +352,70 @@ def test_a_spent_allowance_is_distinguished_from_a_bad_key(tmp_path, monkeypatch
     assert check.ok is False
     assert "the key is valid" in check.detail
     assert "nothing is" in check.detail.lower()
+
+
+# --- LLM key check -----------------------------------------------------------
+
+
+def test_no_llm_key_is_a_pass_with_the_heuristic_caveat(tmp_path, monkeypatch):
+    """Isolated: api_key/transcription_api_key=None so only the LLM check's
+    path runs (those two checks have their own dedicated tests already)."""
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key=None,
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}),
+    )
+    check = names(report)["clip-selection LLM backend"]
+    assert check.ok is True
+    assert "heuristic scorer" in check.detail
+
+
+def test_a_working_llm_key_passes(tmp_path, monkeypatch):
+    import json as jsonlib
+
+    class LLMOnlySession:
+        """Only the LLM generateContent call is exercised in this test —
+        api_key/transcription_api_key are None so nothing else calls out."""
+        def post(self, url, params=None, json=None, timeout=None):
+            text = jsonlib.dumps({"clips": []})
+            class R:
+                status_code = 200
+                def json(self):
+                    return {"candidates": [{"content": {"parts": [{"text": text}]}}]}
+            return R()
+
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key="LLMKEY",
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}), session=LLMOnlySession(),
+    )
+    check = names(report)["clip-selection LLM backend"]
+    assert check.ok is True
+    assert "gemini" in check.detail.lower()
+
+
+def test_a_bad_llm_key_fails_the_check(tmp_path, monkeypatch):
+    class LLMOnlySession:
+        def post(self, url, params=None, json=None, timeout=None):
+            class R:
+                status_code = 400
+                def json(self):
+                    return {"error": {"status": "INVALID_ARGUMENT",
+                                      "message": "API key not valid.",
+                                      "details": [{"reason": "API_KEY_INVALID"}]}}
+            return R()
+
+    monkeypatch.setattr(diagnose.shutil, "which", lambda _: "/usr/bin/ffmpeg")
+    monkeypatch.setattr(downloader, "ffmpeg_available", lambda: True)
+    report = diagnose.run_diagnostics(
+        api_key=None, transcription_api_key=None, llm_api_key="BAD",
+        do_download=False, dest_dir=tmp_path,
+        ydl_factory=factory({"default": REAL_INFO}), session=LLMOnlySession(),
+    )
+    check = names(report)["clip-selection LLM backend"]
+    assert check.ok is False
+    assert "aistudio.google.com" in check.detail

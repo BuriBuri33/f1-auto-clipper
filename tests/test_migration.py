@@ -22,7 +22,15 @@ V3_ADDED_COLUMNS = {
     "transcript_language", "transcript_segments",
     "transcript_covered_seconds", "transcript_chunks", "transcribed_at",
 }
-ALL_COLUMNS = V1_BASELINE_COLUMNS | V2_ADDED_COLUMNS | V3_ADDED_COLUMNS
+V4_ADDED_SOURCE_VIDEO_COLUMNS = {"analyzed_at", "candidates_found"}
+ALL_COLUMNS = (
+    V1_BASELINE_COLUMNS | V2_ADDED_COLUMNS | V3_ADDED_COLUMNS
+    | V4_ADDED_SOURCE_VIDEO_COLUMNS
+)
+V4_CLIP_COLUMNS = {
+    "hook_score", "emotional_score", "context_score", "payoff_score",
+    "shareability_score", "scoring_method", "model",
+}
 
 
 def columns(conn, table):
@@ -108,3 +116,9 @@ def test_a_real_operational_error_is_not_swallowed():
         assert "duplicate column name" not in str(exc).lower()
     else:
         raise AssertionError("expected an OperationalError")
+
+
+def test_the_clips_table_gets_its_v4_columns_too():
+    conn = db.connect(":memory:")
+    db.init_db(conn)
+    assert V4_CLIP_COLUMNS <= columns(conn, "clips")

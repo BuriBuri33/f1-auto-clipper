@@ -23,9 +23,9 @@ from contextlib import contextmanager
 from datetime import datetime, timezone
 from enum import Enum
 from pathlib import Path
-from typing import Any, Dict, Iterable, Iterator, List, Optional, Tuple
+from typing import Any, Dict, Iterable, Iterator, List, Optional, Sequence, Tuple
 
-SCHEMA_VERSION = 3
+SCHEMA_VERSION = 4
 
 
 class VideoStatus(str, Enum):
@@ -166,6 +166,21 @@ _MIGRATIONS = {
         "ALTER TABLE source_videos ADD COLUMN transcript_covered_seconds REAL",
         "ALTER TABLE source_videos ADD COLUMN transcript_chunks INTEGER",
         "ALTER TABLE source_videos ADD COLUMN transcribed_at TEXT",
+    ],
+    4: [
+        # Sub-scores are stored alongside final `score` so the weighted
+        # formula's inputs are auditable after the fact (spec section 29 —
+        # "why was this picked") without re-deriving them, and so the
+        # formula's weights can be changed later and re-applied to history.
+        "ALTER TABLE clips ADD COLUMN hook_score INTEGER",
+        "ALTER TABLE clips ADD COLUMN emotional_score INTEGER",
+        "ALTER TABLE clips ADD COLUMN context_score INTEGER",
+        "ALTER TABLE clips ADD COLUMN payoff_score INTEGER",
+        "ALTER TABLE clips ADD COLUMN shareability_score INTEGER",
+        "ALTER TABLE clips ADD COLUMN scoring_method TEXT",   # 'llm' | 'heuristic'
+        "ALTER TABLE clips ADD COLUMN model TEXT",
+        "ALTER TABLE source_videos ADD COLUMN analyzed_at TEXT",
+        "ALTER TABLE source_videos ADD COLUMN candidates_found INTEGER",
     ],
 }
 
@@ -750,3 +765,121 @@ def clear_transcript(conn: sqlite3.Connection, video_row_id: int) -> None:
             "UPDATE source_videos SET transcript_path = NULL WHERE id = ?",
             (video_row_id,),
         )
+
+
+# --- phase 4: clip candidates ------------------------------------------------
+
+
+def videos_pending_analysis(
+    conn: sqlite3.Connection, limit: int = 3, max_retries: int = 3
+) -> List[sqlite3.Row]:
+    """Videos ready to analyze: TRANSCRIBED, with a transcript on record.
+
+    Deliberately reads only the committed transcript (via transcript_path),
+    never the media — the media is long gone by the time this runs, which is
+    exactly why analysis does not need to share a workflow job with ingest.
+    """
+    return list(
+        conn.execute(
+            "SELECT sv.*, s.name AS source_name "
+            "FROM source_videos sv JOIN sources s ON s.id = sv.source_id "
+            "WHERE sv.status = ? AND sv.transcript_path IS NOT NULL "
+            "  AND s.enabled = 1 AND sv.retry_count < ? "
+            "ORDER BY (sv.published_at IS NULL), sv.published_at DESC, sv.id DESC "
+            "LIMIT ?",
+            (VideoStatus.TRANSCRIBED.value, max_retries, limit),
+        ).fetchall()
+    )
+
+
+def record_clip_candidates(
+    conn: sqlite3.Connection,
+    source_video_id: int,
+    candidates: List[Any],
+) -> int:
+    """Insert scored candidates as CANDIDATE clips. Returns how many were stored.
+
+    Each candidate is a ``ScoredCandidate`` (analysis.types) — imported
+    lazily by callers, never by this module, so ``database`` has no
+    dependency on ``analysis``. Duplicate (source_video_id, start_ms, end_ms)
+    is silently skipped via INSERT OR IGNORE: the UNIQUE constraint is the
+    enforcement, re-running analysis on the same video is a no-op, not an
+    error.
+    """
+    stored = 0
+    with transaction(conn):
+        for scored in candidates:
+            c = scored.candidate
+            start_ms = int(round(c.start * 1000))
+            end_ms = int(round(c.end * 1000))
+            cur = conn.execute(
+                "INSERT OR IGNORE INTO clips "
+                "(source_video_id, start_ms, end_ms, score, reason, hook, "
+                " transcript_text, status, hook_score, emotional_score, "
+                " context_score, payoff_score, shareability_score, "
+                " scoring_method, model, created_at) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                (
+                    source_video_id, start_ms, end_ms, scored.final_score,
+                    c.reason, c.hook, c.text, ClipStatus.CANDIDATE.value,
+                    c.sub_scores.hook, c.sub_scores.emotional,
+                    c.sub_scores.context, c.sub_scores.payoff,
+                    c.sub_scores.shareability, c.method, c.model, utcnow(),
+                ),
+            )
+            stored += cur.rowcount
+    return stored
+
+
+def mark_video_analyzed(
+    conn: sqlite3.Connection, video_row_id: int, candidates_found: int
+) -> None:
+    with transaction(conn):
+        conn.execute(
+            "UPDATE source_videos SET status = ?, status_detail = '', "
+            "  analyzed_at = ?, candidates_found = ? WHERE id = ?",
+            (VideoStatus.ANALYZED.value, utcnow(), candidates_found, video_row_id),
+        )
+
+
+def clips_for_video(conn: sqlite3.Connection, source_video_id: int) -> List[sqlite3.Row]:
+    return list(
+        conn.execute(
+            "SELECT * FROM clips WHERE source_video_id = ? ORDER BY score DESC",
+            (source_video_id,),
+        ).fetchall()
+    )
+
+
+def clip_texts_by_status(
+    conn: sqlite3.Connection, statuses: Sequence[str]
+) -> List[str]:
+    """Transcript text of clips in the given statuses — the pool checked for
+    cross-video near-duplicates (QUEUED/PUBLISHED, typically)."""
+    placeholders = ",".join("?" * len(statuses))
+    rows = conn.execute(
+        "SELECT transcript_text FROM clips WHERE status IN (%s) "
+        "AND transcript_text IS NOT NULL" % placeholders,
+        list(statuses),
+    ).fetchall()
+    return [r["transcript_text"] for r in rows]
+
+
+def best_candidates_overall(
+    conn: sqlite3.Connection, limit: int = 10
+) -> List[sqlite3.Row]:
+    """Top-scoring CANDIDATE clips across every video, highest first.
+
+    Infrastructure for Phase 9's daily queue (spec section 12), which picks
+    the single best candidate across ALL videos and keeps the rest as
+    backups. Not used to enforce "1 clip/day" here — that enforcement is
+    explicitly Phase 9's job, not Phase 4's.
+    """
+    return list(
+        conn.execute(
+            "SELECT c.*, sv.youtube_video_id, sv.title AS video_title "
+            "FROM clips c JOIN source_videos sv ON sv.id = c.source_video_id "
+            "WHERE c.status = ? ORDER BY c.score DESC LIMIT ?",
+            (ClipStatus.CANDIDATE.value, limit),
+        ).fetchall()
+    )

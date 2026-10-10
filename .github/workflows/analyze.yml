@@ -1,0 +1,85 @@
+name: analyze
+
+# Score transcribed videos into ranked, deduplicated clip candidates.
+#
+# Separate from `ingest` on purpose, and able to be: this stage reads only a
+# committed TRANSCRIPT (data/transcripts/*.json), never the media. The media
+# that produced it is long gone by the time this runs — that is exactly why
+# download+transcribe are welded into one job (ingest) and this is not
+# welded to either of them.
+#
+# Needs only LLM_API_KEY, and works with none at all (the heuristic
+# fallback) — so this workflow runs even on a fork or a repo where that
+# secret was never configured, just with lower-quality ranking.
+
+on:
+  schedule:
+    - cron: "11 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "List videos pending analysis without scoring"
+        type: boolean
+        default: false
+
+concurrency:
+  group: analyze
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        # Core only. The analysis stage calls Gemini over plain HTTPS via
+        # `requests`, same as every other API in this project — no SDK, no
+        # extra dependency, and no reason this job should ever need yt-dlp
+        # or faster-whisper.
+        run: pip install -r requirements.txt
+
+      - name: Score pending videos
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LOG_LEVEL: INFO
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m src.main analyze --dry-run
+          else
+            python -m src.main analyze
+          fi
+
+      - name: Write status to the run summary
+        if: always()
+        run: python -m src.main status
+
+      - name: Commit state
+        if: always()
+        run: |
+          # Only the database — clip candidates and their scores. No media,
+          # no transcript changes; analyze only reads the transcript.
+          if git diff --quiet -- data/; then
+            echo "no state change"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore(state): analyze pass $(date -u +%Y-%m-%dT%H:%MZ)"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          done
+          echo "::error::could not push state after 3 attempts"
+          exit 1

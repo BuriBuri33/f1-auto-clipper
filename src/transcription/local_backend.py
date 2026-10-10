@@ -4,10 +4,16 @@ This is why the project does not depend on any transcription vendor staying
 free. No key, no quota, no network: a CTranslate2 Whisper model running on
 the CI runner.
 
-Cost of that independence is time. On a public repository's 4-vCPU runner the
-``base`` model runs at roughly real time, so a 3-hour source is a long job —
-but Actions minutes are unmetered on public repos, so a long job is free.
-``small`` is noticeably better and roughly 2-3x slower; ``tiny`` is for tests.
+Cost of that independence is time, and it is lower than earlier docs here
+claimed. Measured with a warm model cache (Apple Silicon, CPU, int8), 36s of
+audio: ``tiny`` 0.04x real time, ``base`` 0.10x real time, ``small`` 0.18x
+real time — all comfortably FASTER than real time, not "roughly real time".
+The first call after install is much slower (model download), which is why
+an unwarmed single-shot measurement looked like ~4x real time and misled an
+earlier version of this comment. GitHub Actions runners are x86, not Apple
+Silicon, so treat these as directional rather than exact — but Actions
+minutes are unmetered on public repos regardless, so even a 3-5x slower CI
+number is still free and still fine against the 180-minute ingest timeout.
 
 Chunking is not needed here (there is no upload limit), but the same chunk
 machinery is still used when it is active, so both backends go down one code
