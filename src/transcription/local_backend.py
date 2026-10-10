@@ -44,6 +44,7 @@ class LocalWhisperTranscriber:
         device: str = DEFAULT_DEVICE,
         compute_type: str = DEFAULT_COMPUTE_TYPE,
         language: Optional[str] = None,
+        vocabulary_prompt: Optional[str] = None,
         beam_size: int = 5,
         vad_filter: bool = True,
         word_timestamps: bool = True,
@@ -54,6 +55,7 @@ class LocalWhisperTranscriber:
         self.device = device
         self.compute_type = compute_type
         self.language = language
+        self.vocabulary_prompt = vocabulary_prompt
         self.beam_size = beam_size
         # Voice-activity filtering drops silence before the model sees it,
         # which both speeds things up and suppresses the hallucinated text
@@ -128,6 +130,7 @@ class LocalWhisperTranscriber:
                 beam_size=self.beam_size,
                 vad_filter=self.vad_filter,
                 word_timestamps=self.word_timestamps,
+                initial_prompt=self.vocabulary_prompt or None,
             )
             # faster-whisper returns a generator; transcription happens as it
             # is consumed, so the list() is where the work actually occurs.

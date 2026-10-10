@@ -49,6 +49,7 @@ class GroqTranscriber:
         api_key: str,
         model: str = DEFAULT_MODEL,
         language: Optional[str] = None,
+        vocabulary_prompt: Optional[str] = None,
         timeout: int = 300,
         max_retries: int = 4,
         backoff_base: float = 2.0,
@@ -60,6 +61,7 @@ class GroqTranscriber:
         self.api_key = api_key
         self.model = model
         self.language = language
+        self.vocabulary_prompt = _clean_prompt(vocabulary_prompt)
         self.timeout = timeout
         self.max_retries = max_retries
         self.backoff_base = backoff_base
@@ -91,6 +93,8 @@ class GroqTranscriber:
         data["timestamp_granularities[]"] = ["segment", "word"]
         if self.language:
             data["language"] = self.language
+        if self.vocabulary_prompt:
+            data["prompt"] = self.vocabulary_prompt
 
         last_error: Optional[Exception] = None
         for attempt in range(self.max_retries):
@@ -179,6 +183,36 @@ class GroqTranscriber:
         except (TypeError, ValueError):
             pass
         return False
+
+
+# Whisper treats `prompt` as text that PRECEDED the audio, so it continues it
+# stylistically rather than consulting it as a vocabulary. Measured against
+# multi-accent F1 radio on 2026-10-10:
+#
+#   no prompt                          WER 5.5%   "Leclerc" -> "LeClick"
+#   "Verstappen, Leclerc, Tsunoda."    WER 3.6%   "Leclerc" correct
+#   "Formula 1 team radio. Drivers:
+#    Verstappen, ... Terms: box box"   WER 5.5%   and the output gained
+#                                                 `Drivers:"` as literal text
+#
+# So a bare, comma-separated list of proper nouns helps; anything with labels,
+# sentences or instructions leaks into the transcript. This cap and the
+# stripping below make the failure mode hard to reach by accident.
+MAX_PROMPT_CHARS = 220
+
+
+def _clean_prompt(prompt: Optional[str]) -> Optional[str]:
+    """Reduce a vocabulary hint to the shape that actually helps."""
+    if not prompt:
+        return None
+    text = " ".join(str(prompt).split())
+    if not text:
+        return None
+    # A colon is the clearest marker of a labelled glossary, which is the
+    # shape that gets echoed. Keep only what follows the last one.
+    if ":" in text:
+        text = text.rsplit(":", 1)[-1].strip()
+    return text[:MAX_PROMPT_CHARS].strip() or None
 
 
 def parse_verbose_json(payload: Dict[str, Any]) -> List[Segment]:

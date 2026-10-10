@@ -336,3 +336,67 @@ def test_the_request_asks_for_word_granularity():
     sent = session.calls[0]["data"]["timestamp_granularities[]"]
     assert "word" in sent and "segment" in sent
 
+
+
+# --- the vocabulary prompt ------------------------------------------------
+#
+# Whisper treats `prompt` as text that PRECEDED the audio, so it continues it
+# stylistically rather than consulting it as a dictionary. Measured on
+# multi-accent F1 radio, 2026-10-10:
+#
+#   no prompt                        WER 5.5%  ("Leclerc" -> "LeClick")
+#   "Verstappen, Leclerc, Tsunoda."  WER 3.6%  ("Leclerc" correct)
+#   a labelled glossary              WER 5.5%  AND `Drivers:"` appeared as
+#                                              literal text in the transcript
+#
+# So the cleaner exists to make the harmful shape hard to reach by accident.
+
+from src.transcription.groq_backend import MAX_PROMPT_CHARS, _clean_prompt  # noqa: E402
+
+
+def test_a_bare_name_list_is_passed_through_unchanged():
+    assert _clean_prompt("Verstappen, Leclerc, Tsunoda.") == "Verstappen, Leclerc, Tsunoda."
+
+
+def test_a_labelled_glossary_is_reduced_to_its_terms():
+    """The label is what gets echoed into the transcript, so it is stripped."""
+    cleaned = _clean_prompt("Formula 1 team radio. Drivers: Verstappen, Leclerc")
+    assert cleaned == "Verstappen, Leclerc"
+    assert "Drivers" not in cleaned
+
+
+def test_only_the_last_label_segment_survives():
+    cleaned = _clean_prompt("F1. Drivers: a, b. Terms: box box, undercut")
+    assert cleaned == "box box, undercut"
+
+
+def test_an_over_long_prompt_is_truncated():
+    cleaned = _clean_prompt("Verstappen, " * 100)
+    assert len(cleaned) <= MAX_PROMPT_CHARS
+
+
+def test_whitespace_is_collapsed():
+    assert _clean_prompt("  Verstappen,\n\n   Leclerc  ") == "Verstappen, Leclerc"
+
+
+@pytest.mark.parametrize("value", [None, "", "   ", "\n"])
+def test_an_empty_prompt_becomes_none(value):
+    assert _clean_prompt(value) is None
+
+
+def test_the_prompt_is_sent_only_when_configured(tmp_path):
+    session = FakeSession([FakeResponse(200, body()), FakeResponse(200, body())])
+    make(session).transcribe_file(audio(tmp_path))
+    assert "prompt" not in session.calls[0]["data"]
+
+    make(session, vocabulary_prompt="Verstappen, Leclerc").transcribe_file(
+        audio(tmp_path)
+    )
+    assert session.calls[1]["data"]["prompt"] == "Verstappen, Leclerc"
+
+
+def test_a_glossary_shaped_prompt_is_cleaned_before_being_sent(tmp_path):
+    session = FakeSession([FakeResponse(200, body())])
+    make(session, vocabulary_prompt="F1 radio. Drivers: Verstappen, Leclerc"
+         ).transcribe_file(audio(tmp_path))
+    assert session.calls[0]["data"]["prompt"] == "Verstappen, Leclerc"

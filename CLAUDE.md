@@ -157,6 +157,12 @@ docs/              LIMITS.md (verified figures), RIGHTS.md (boundaries)
   segment.** Reading `segment["words"]` finds nothing and silently loses all
   word timing; the words must be distributed into the segments. Measured
   effect: 2.00s/3.32s worst-case error becomes 0.08s/0.48s.
+- **A Whisper `prompt` is preceding context, not a dictionary.** A bare name
+  list lowers WER (5.5% -> 3.6% and fixes "Leclerc"); a labelled glossary
+  gets echoed into the transcript as literal text. `_clean_prompt` strips
+  labels and caps length for that reason — do not remove it.
+- **Groq turbo and non-turbo are tied on accuracy** (both 5.5% WER on
+  multi-accent F1 radio), and turbo has better timing. No reason to switch.
 - **faster-whisper does not pin PyAV, and current PyAV breaks its decoding.**
   Audio is decoded with the FFmpeg binary and passed as a numpy array; never
   hand faster-whisper a file path.

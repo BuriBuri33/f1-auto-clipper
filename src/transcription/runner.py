@@ -93,6 +93,7 @@ def transcribe_one(
             allow_local_fallback=bool(section.get("allow_local_fallback", True)),
             word_timestamps=bool(section.get("word_timestamps", True)),
             resegment=bool(section.get("resegment_from_words", True)),
+            vocabulary_prompt=section.get("vocabulary_prompt") or None,
             max_segment_seconds=float(section.get("max_segment_seconds", 8)),
             max_segment_chars=int(section.get("max_segment_chars", 180)),
             pause_threshold=float(section.get("pause_threshold_seconds", 0.8)),

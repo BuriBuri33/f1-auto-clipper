@@ -132,9 +132,15 @@ Still open against the spec, both deferred by phase rather than overlooked:
 
 Tested per spec section 27: timestamp accuracy ✅ (measured against ground
 truth), chunk boundaries ✅, long sources ✅ (chunk planning covers 180
-minutes), silence/no-speech ✅. **Not yet tested with real accents, team
-radio or overlapping speech** — that needs real rights-cleared F1 footage,
-so it belongs with the first real source.
+minutes), silence/no-speech ✅, **accents ✅ and team radio ✅** (five English
+accents speaking F1 radio idiom with driver names: Groq turbo 5.5% WER,
+local `base` 12.7%). **Overlapping speech still untested** — synthesised
+audio cannot produce genuine crosstalk, so it belongs with the first real
+source.
+
+- [x] `vocabulary_prompt` for driver names (5.5% -> 3.6% WER), with the
+      labelled-glossary shape stripped because it gets echoed into the
+      transcript
 
 ## Phase 4 — Clip selection
 

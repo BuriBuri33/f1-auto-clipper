@@ -130,7 +130,7 @@ def test_transcribe_produces_a_transcript_in_the_spec_shape(media, fake_audio):
 def test_the_local_backend_runs_through_the_same_path(media, fake_audio, monkeypatch):
     class FakeModel:
         def transcribe(self, path, language=None, beam_size=5, vad_filter=True,
-                      word_timestamps=True):
+                      word_timestamps=True, initial_prompt=None):
             info = {"language": "it"}
             return iter([{"start": 2.0, "end": 4.0, "text": " forza "}]), info
 
@@ -150,7 +150,7 @@ def test_the_local_backend_runs_through_the_same_path(media, fake_audio, monkeyp
 def test_a_groq_failure_falls_back_to_local_whisper(media, fake_audio, monkeypatch):
     class FakeModel:
         def transcribe(self, path, language=None, beam_size=5, vad_filter=True,
-                      word_timestamps=True):
+                      word_timestamps=True, initial_prompt=None):
             return iter([{"start": 0.0, "end": 1.0, "text": "from local"}]), {"language": "en"}
 
     real_build = tr.build_backend
@@ -178,7 +178,7 @@ def test_an_unexpected_error_type_also_falls_back(media, fake_audio, monkeypatch
     the backend did not anticipate."""
     class FakeModel:
         def transcribe(self, path, language=None, beam_size=5, vad_filter=True,
-                      word_timestamps=True):
+                      word_timestamps=True, initial_prompt=None):
             return iter([{"start": 0.0, "end": 1.0, "text": "rescued"}]), {"language": "en"}
 
     real_build = tr.build_backend
@@ -264,7 +264,7 @@ def test_the_local_backend_is_given_no_size_limit(media, monkeypatch, tmp_path):
 
     class FakeModel:
         def transcribe(self, path, language=None, beam_size=5, vad_filter=True,
-                      word_timestamps=True):
+                      word_timestamps=True, initial_prompt=None):
             return iter([{"start": 0.0, "end": 1.0, "text": "x"}]), {"language": "en"}
 
     monkeypatch.setattr(

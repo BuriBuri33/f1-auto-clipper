@@ -153,9 +153,43 @@ The individual word timings were accurate to **0.02s** throughout — so the
 information was always there, simply unread. `whisper-large-v3` (non-turbo)
 behaves the same way, and also returns coarse segments.
 
-Transcription quality note: Groq's `whisper-large-v3-turbo` transcribed "box
-this lap" correctly where local `tiny` heard "box this lab" — as expected,
-and a reason to prefer the API when a key is available.
+### Model comparison, measured
+
+Word error rate against five English accents (en_GB, en_AU, en_IN, en_IE,
+en_ZA) speaking real F1 radio idiom with driver names — the case where a
+speech model actually degrades:
+
+| backend / model | WER | worst start error | word timings |
+|---|---|---|---|
+| Groq `whisper-large-v3-turbo` | **5.5%** | **0.06s** | yes |
+| Groq `whisper-large-v3` | 5.5% | 0.26s | yes |
+| local `base` | 12.7% | 0.81s | yes |
+| local `tiny` | 30.9% | 0.47s | yes |
+
+**Turbo and non-turbo are tied on accuracy**, and turbo has better timing
+and lower latency — so `whisper-large-v3-turbo` is the default and there is
+no measured reason to change it. Local `tiny` at 30.9% is for tests only;
+`base` is the realistic local fallback.
+
+### A vocabulary prompt helps, but only in one shape
+
+Driver names are the consistent weak spot — "Leclerc" came back as
+"LeClick" (Groq) and "likely" (local `base`); "Verstappen" as "Verstapan".
+Whisper accepts a `prompt`, but treats it as text that **preceded** the
+audio, so it continues it stylistically rather than consulting it as a
+dictionary:
+
+| prompt | WER | effect |
+|---|---|---|
+| none | 5.5% | "Leclerc" → "LeClick" |
+| `"Verstappen, Leclerc, Tsunoda."` | **3.6%** | "Leclerc" correct |
+| `"F1 team radio. Drivers: Verstappen, ... Terms: box box, ..."` | 5.5% | `Drivers:"` appeared **as literal text in the transcript** |
+
+So `transcription.vocabulary_prompt` takes a **bare, comma-separated list of
+proper nouns** — no labels, no sentences, no instructions, because those get
+transcribed. The loader strips anything up to and including the last colon
+and caps the length, which makes the harmful shape hard to reach by
+accident.
 
 A sixth, related finding shaped the design: **Whisper's segment grouping is
 not stable.** The same speech and model gave 3 segments read from a WAV and

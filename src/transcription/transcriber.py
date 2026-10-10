@@ -52,6 +52,7 @@ def build_backend(
     session=None,
     sleep=time.sleep,
     word_timestamps: bool = True,
+    vocabulary_prompt: Optional[str] = None,
 ):
     """Construct the backend named by ``backend``, or None when unavailable."""
     if backend not in VALID_BACKENDS:
@@ -73,12 +74,14 @@ def build_backend(
             api_key=api_key,
             model=groq_model or GROQ_DEFAULT_MODEL,
             language=language,
+            vocabulary_prompt=vocabulary_prompt,
             session=session,
             sleep=sleep,
         )
     return LocalWhisperTranscriber(
         model_size=local_model or LOCAL_DEFAULT_MODEL,
         language=language,
+        vocabulary_prompt=vocabulary_prompt,
         word_timestamps=word_timestamps,
     )
 
@@ -105,6 +108,7 @@ def transcribe(
     allow_local_fallback: bool = True,
     word_timestamps: bool = True,
     resegment: bool = True,
+    vocabulary_prompt: Optional[str] = None,
     max_segment_seconds: float = 8.0,
     max_segment_chars: int = 180,
     pause_threshold: float = 0.8,
@@ -125,7 +129,7 @@ def transcribe(
     work_dir = Path(work_dir) if work_dir else media_path.parent
     chosen = build_backend(
         backend, api_key, groq_model, local_model, language, session, sleep,
-        word_timestamps=word_timestamps,
+        word_timestamps=word_timestamps, vocabulary_prompt=vocabulary_prompt,
     )
 
     duration = audio_module.probe_duration(media_path)
@@ -179,7 +183,8 @@ def transcribe(
             local_model=local_model, language=language,
             bitrate_kbps=bitrate_kbps, overlap_seconds=overlap_seconds,
             allow_local_fallback=False, word_timestamps=word_timestamps,
-            resegment=resegment, max_segment_seconds=max_segment_seconds,
+            resegment=resegment, vocabulary_prompt=vocabulary_prompt,
+            max_segment_seconds=max_segment_seconds,
             max_segment_chars=max_segment_chars, pause_threshold=pause_threshold,
             sleep=sleep, log=log,
         )

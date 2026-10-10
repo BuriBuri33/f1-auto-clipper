@@ -105,6 +105,19 @@ transcription:
   # clip mid-sentence; Phase 5 needs them to synchronise captions.
   word_timestamps: true
 
+  # A bare, comma-separated list of proper nouns the model keeps mishearing.
+  # Measured on multi-accent F1 radio, 2026-10-10:
+  #   no prompt                       WER 5.5%  ("Leclerc" came out "LeClick")
+  #   "Verstappen, Leclerc, Tsunoda." WER 3.6%  ("Leclerc" correct)
+  #   a labelled glossary             WER 5.5%  AND `Drivers:"` appeared as
+  #                                             literal text in the transcript
+  #
+  # Whisper treats this as text that PRECEDED the audio, so it continues it
+  # stylistically rather than consulting it as a dictionary. Keep it to bare
+  # names. No labels, no sentences, no instructions — those get transcribed.
+  # Leave empty to send none.
+  vocabulary_prompt: ""
+
   # Rebuild segment boundaries from the word timings rather than trusting
   # the backend's grouping. Measured 2026-10-10: the same speech and model
   # gave 3 segments from a WAV and 1 fifteen-second segment from the
