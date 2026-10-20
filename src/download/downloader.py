@@ -197,6 +197,14 @@ def _base_opts(player_client: str) -> Dict[str, Any]:
         "noprogress": True,
         "consoletitle": False,
     }
+    # GitHub Actions runners are datacenter IPs and YouTube demands login
+    # verification from them. A Netscape-format cookies file exported from a
+    # real browser session (while logged in to YouTube) bypasses this.
+    # Set YOUTUBE_COOKIES_FILE to the path of that file; the workflow writes
+    # the YOUTUBE_COOKIES secret to /tmp/yt-cookies.txt and exports the var.
+    cookie_path = os.environ.get("YOUTUBE_COOKIES_FILE", "").strip()
+    if cookie_path:
+        opts["cookiefile"] = cookie_path
     if player_client != "default":
         opts["extractor_args"] = {"youtube": {"player_client": [player_client]}}
     return opts
