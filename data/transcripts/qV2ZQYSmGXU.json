@@ -1,0 +1,7836 @@
+{
+ "segments": [
+  {
+   "start": 4.42,
+   "end": 6.54,
+   "text": "Most New Yorkers are lawbreakers.",
+   "words": [
+    {
+     "start": 4.42,
+     "end": 4.54,
+     "text": "Most"
+    },
+    {
+     "start": 4.54,
+     "end": 4.84,
+     "text": "New"
+    },
+    {
+     "start": 4.84,
+     "end": 5.3,
+     "text": "Yorkers"
+    },
+    {
+     "start": 5.3,
+     "end": 5.62,
+     "text": "are"
+    },
+    {
+     "start": 5.62,
+     "end": 6.54,
+     "text": "lawbreakers."
+    }
+   ]
+  },
+  {
+   "start": 6.54,
+   "end": 7.46,
+   "text": "Why?",
+   "words": [
+    {
+     "start": 6.54,
+     "end": 7.46,
+     "text": "Why?"
+    }
+   ]
+  },
+  {
+   "start": 7.46,
+   "end": 9.88,
+   "text": "Because they're not composting.",
+   "words": [
+    {
+     "start": 7.46,
+     "end": 8.12,
+     "text": "Because"
+    },
+    {
+     "start": 8.12,
+     "end": 8.4,
+     "text": "they're"
+    },
+    {
+     "start": 8.4,
+     "end": 8.64,
+     "text": "not"
+    },
+    {
+     "start": 8.64,
+     "end": 9.88,
+     "text": "composting."
+    }
+   ]
+  },
+  {
+   "start": 10.42,
+   "end": 11.9,
+   "text": "We have not been composting at all.",
+   "words": [
+    {
+     "start": 10.42,
+     "end": 10.58,
+     "text": "We"
+    },
+    {
+     "start": 10.58,
+     "end": 10.7,
+     "text": "have"
+    },
+    {
+     "start": 10.7,
+     "end": 10.8,
+     "text": "not"
+    },
+    {
+     "start": 10.8,
+     "end": 10.94,
+     "text": "been"
+    },
+    {
+     "start": 10.94,
+     "end": 11.4,
+     "text": "composting"
+    },
+    {
+     "start": 11.4,
+     "end": 11.56,
+     "text": "at"
+    },
+    {
+     "start": 11.56,
+     "end": 11.9,
+     "text": "all."
+    }
+   ]
+  },
+  {
+   "start": 11.76,
+   "end": 12.26,
+   "text": "No.",
+   "words": [
+    {
+     "start": 11.76,
+     "end": 12.26,
+     "text": "No."
+    }
+   ]
+  },
+  {
+   "start": 12.32,
+   "end": 15.08,
+   "text": "The only thing I'm aware of is it's supposed to be done.",
+   "words": [
+    {
+     "start": 12.32,
+     "end": 12.56,
+     "text": "The"
+    },
+    {
+     "start": 12.56,
+     "end": 12.82,
+     "text": "only"
+    },
+    {
+     "start": 12.82,
+     "end": 13.12,
+     "text": "thing"
+    },
+    {
+     "start": 13.12,
+     "end": 13.38,
+     "text": "I'm"
+    },
+    {
+     "start": 13.38,
+     "end": 13.6,
+     "text": "aware"
+    },
+    {
+     "start": 13.6,
+     "end": 13.8,
+     "text": "of"
+    },
+    {
+     "start": 13.8,
+     "end": 14.18,
+     "text": "is"
+    },
+    {
+     "start": 14.18,
+     "end": 14.5,
+     "text": "it's"
+    },
+    {
+     "start": 14.5,
+     "end": 14.64,
+     "text": "supposed"
+    },
+    {
+     "start": 14.64,
+     "end": 14.8,
+     "text": "to"
+    },
+    {
+     "start": 14.8,
+     "end": 14.9,
+     "text": "be"
+    },
+    {
+     "start": 14.9,
+     "end": 15.08,
+     "text": "done."
+    }
+   ]
+  },
+  {
+   "start": 15.48,
+   "end": 23.66,
+   "text": "The city mandates that residents put coffee grounds, banana peels, meat, and other food scraps into brown bins next to the recycling and trash cans.",
+   "words": [
+    {
+     "start": 15.48,
+     "end": 15.62,
+     "text": "The"
+    },
+    {
+     "start": 15.62,
+     "end": 15.82,
+     "text": "city"
+    },
+    {
+     "start": 15.82,
+     "end": 16.3,
+     "text": "mandates"
+    },
+    {
+     "start": 16.3,
+     "end": 16.64,
+     "text": "that"
+    },
+    {
+     "start": 16.64,
+     "end": 17.02,
+     "text": "residents"
+    },
+    {
+     "start": 17.02,
+     "end": 17.32,
+     "text": "put"
+    },
+    {
+     "start": 17.32,
+     "end": 17.68,
+     "text": "coffee"
+    },
+    {
+     "start": 17.68,
+     "end": 18.32,
+     "text": "grounds,"
+    },
+    {
+     "start": 18.32,
+     "end": 18.54,
+     "text": "banana"
+    },
+    {
+     "start": 18.54,
+     "end": 19.28,
+     "text": "peels,"
+    },
+    {
+     "start": 19.28,
+     "end": 19.7,
+     "text": "meat,"
+    },
+    {
+     "start": 19.7,
+     "end": 19.8,
+     "text": "and"
+    },
+    {
+     "start": 19.8,
+     "end": 20.0,
+     "text": "other"
+    },
+    {
+     "start": 20.0,
+     "end": 20.3,
+     "text": "food"
+    },
+    {
+     "start": 20.3,
+     "end": 20.62,
+     "text": "scraps"
+    },
+    {
+     "start": 20.62,
+     "end": 21.0,
+     "text": "into"
+    },
+    {
+     "start": 21.0,
+     "end": 21.3,
+     "text": "brown"
+    },
+    {
+     "start": 21.3,
+     "end": 21.6,
+     "text": "bins"
+    },
+    {
+     "start": 21.6,
+     "end": 21.9,
+     "text": "next"
+    },
+    {
+     "start": 21.9,
+     "end": 22.08,
+     "text": "to"
+    },
+    {
+     "start": 22.08,
+     "end": 22.18,
+     "text": "the"
+    },
+    {
+     "start": 22.18,
+     "end": 22.62,
+     "text": "recycling"
+    },
+    {
+     "start": 22.62,
+     "end": 22.94,
+     "text": "and"
+    },
+    {
+     "start": 22.94,
+     "end": 23.2,
+     "text": "trash"
+    },
+    {
+     "start": 23.2,
+     "end": 23.66,
+     "text": "cans."
+    }
+   ]
+  },
+  {
+   "start": 24.08,
+   "end": 26.48,
+   "text": "But very few people have been following this rule.",
+   "words": [
+    {
+     "start": 24.08,
+     "end": 24.22,
+     "text": "But"
+    },
+    {
+     "start": 24.22,
+     "end": 24.48,
+     "text": "very"
+    },
+    {
+     "start": 24.48,
+     "end": 24.68,
+     "text": "few"
+    },
+    {
+     "start": 24.68,
+     "end": 25.08,
+     "text": "people"
+    },
+    {
+     "start": 25.08,
+     "end": 25.38,
+     "text": "have"
+    },
+    {
+     "start": 25.38,
+     "end": 25.5,
+     "text": "been"
+    },
+    {
+     "start": 25.5,
+     "end": 25.82,
+     "text": "following"
+    },
+    {
+     "start": 25.82,
+     "end": 26.1,
+     "text": "this"
+    },
+    {
+     "start": 26.1,
+     "end": 26.48,
+     "text": "rule."
+    }
+   ]
+  },
+  {
+   "start": 26.94,
+   "end": 28.5,
+   "text": "Have you been composting?",
+   "words": [
+    {
+     "start": 26.94,
+     "end": 27.14,
+     "text": "Have"
+    },
+    {
+     "start": 27.14,
+     "end": 27.3,
+     "text": "you"
+    },
+    {
+     "start": 27.3,
+     "end": 27.68,
+     "text": "been"
+    },
+    {
+     "start": 27.68,
+     "end": 28.5,
+     "text": "composting?"
+    }
+   ]
+  },
+  {
+   "start": 29.16,
+   "end": 29.4,
+   "text": "No.",
+   "words": [
+    {
+     "start": 29.16,
+     "end": 29.4,
+     "text": "No."
+    }
+   ]
+  },
+  {
+   "start": 30.28,
+   "end": 31.64,
+   "text": "Have you heard about this rule at all?",
+   "words": [
+    {
+     "start": 30.28,
+     "end": 30.38,
+     "text": "Have"
+    },
+    {
+     "start": 30.38,
+     "end": 30.5,
+     "text": "you"
+    },
+    {
+     "start": 30.5,
+     "end": 30.62,
+     "text": "heard"
+    },
+    {
+     "start": 30.62,
+     "end": 30.82,
+     "text": "about"
+    },
+    {
+     "start": 30.82,
+     "end": 31.04,
+     "text": "this"
+    },
+    {
+     "start": 31.04,
+     "end": 31.26,
+     "text": "rule"
+    },
+    {
+     "start": 31.26,
+     "end": 31.42,
+     "text": "at"
+    },
+    {
+     "start": 31.42,
+     "end": 31.64,
+     "text": "all?"
+    }
+   ]
+  },
+  {
+   "start": 31.84,
+   "end": 32.36,
+   "text": "No.",
+   "words": [
+    {
+     "start": 31.84,
+     "end": 32.36,
+     "text": "No."
+    }
+   ]
+  },
+  {
+   "start": 32.56,
+   "end": 35.12,
+   "text": "I don't think it's really talked about, to be honest.",
+   "words": [
+    {
+     "start": 32.56,
+     "end": 32.78,
+     "text": "I"
+    },
+    {
+     "start": 32.78,
+     "end": 32.94,
+     "text": "don't"
+    },
+    {
+     "start": 32.94,
+     "end": 33.1,
+     "text": "think"
+    },
+    {
+     "start": 33.1,
+     "end": 33.28,
+     "text": "it's"
+    },
+    {
+     "start": 33.28,
+     "end": 33.52,
+     "text": "really"
+    },
+    {
+     "start": 33.52,
+     "end": 33.78,
+     "text": "talked"
+    },
+    {
+     "start": 33.78,
+     "end": 34.24,
+     "text": "about,"
+    },
+    {
+     "start": 34.24,
+     "end": 34.74,
+     "text": "to"
+    },
+    {
+     "start": 34.74,
+     "end": 34.8,
+     "text": "be"
+    },
+    {
+     "start": 34.8,
+     "end": 35.12,
+     "text": "honest."
+    }
+   ]
+  },
+  {
+   "start": 35.44,
+   "end": 37.64,
+   "text": "So what's the case for composting anyway?",
+   "words": [
+    {
+     "start": 35.44,
+     "end": 35.66,
+     "text": "So"
+    },
+    {
+     "start": 35.66,
+     "end": 36.02,
+     "text": "what's"
+    },
+    {
+     "start": 36.02,
+     "end": 36.18,
+     "text": "the"
+    },
+    {
+     "start": 36.18,
+     "end": 36.36,
+     "text": "case"
+    },
+    {
+     "start": 36.36,
+     "end": 36.58,
+     "text": "for"
+    },
+    {
+     "start": 36.58,
+     "end": 37.26,
+     "text": "composting"
+    },
+    {
+     "start": 37.26,
+     "end": 37.64,
+     "text": "anyway?"
+    }
+   ]
+  },
+  {
+   "start": 38.56,
+   "end": 45.24,
+   "text": "When food scraps get buried in a landfill, they decompose without access to oxygen, causing the release of methane.",
+   "words": [
+    {
+     "start": 38.56,
+     "end": 38.74,
+     "text": "When"
+    },
+    {
+     "start": 38.74,
+     "end": 38.98,
+     "text": "food"
+    },
+    {
+     "start": 38.98,
+     "end": 39.3,
+     "text": "scraps"
+    },
+    {
+     "start": 39.3,
+     "end": 39.58,
+     "text": "get"
+    },
+    {
+     "start": 39.58,
+     "end": 39.84,
+     "text": "buried"
+    },
+    {
+     "start": 39.84,
+     "end": 40.06,
+     "text": "in"
+    },
+    {
+     "start": 40.06,
+     "end": 40.16,
+     "text": "a"
+    },
+    {
+     "start": 40.16,
+     "end": 41.08,
+     "text": "landfill,"
+    },
+    {
+     "start": 41.08,
+     "end": 41.14,
+     "text": "they"
+    },
+    {
+     "start": 41.14,
+     "end": 41.84,
+     "text": "decompose"
+    },
+    {
+     "start": 41.84,
+     "end": 42.1,
+     "text": "without"
+    },
+    {
+     "start": 42.1,
+     "end": 42.54,
+     "text": "access"
+    },
+    {
+     "start": 42.54,
+     "end": 42.78,
+     "text": "to"
+    },
+    {
+     "start": 42.78,
+     "end": 43.24,
+     "text": "oxygen,"
+    },
+    {
+     "start": 43.24,
+     "end": 44.2,
+     "text": "causing"
+    },
+    {
+     "start": 44.2,
+     "end": 44.4,
+     "text": "the"
+    },
+    {
+     "start": 44.4,
+     "end": 44.68,
+     "text": "release"
+    },
+    {
+     "start": 44.68,
+     "end": 44.9,
+     "text": "of"
+    },
+    {
+     "start": 44.9,
+     "end": 45.24,
+     "text": "methane."
+    }
+   ]
+  },
+  {
+   "start": 46.16,
+   "end": 50.2,
+   "text": "Composting lets all that rotten food breathe and reduces methane emissions.",
+   "words": [
+    {
+     "start": 46.16,
+     "end": 46.78,
+     "text": "Composting"
+    },
+    {
+     "start": 46.78,
+     "end": 46.94,
+     "text": "lets"
+    },
+    {
+     "start": 46.94,
+     "end": 47.22,
+     "text": "all"
+    },
+    {
+     "start": 47.22,
+     "end": 47.44,
+     "text": "that"
+    },
+    {
+     "start": 47.44,
+     "end": 47.7,
+     "text": "rotten"
+    },
+    {
+     "start": 47.7,
+     "end": 48.02,
+     "text": "food"
+    },
+    {
+     "start": 48.02,
+     "end": 48.42,
+     "text": "breathe"
+    },
+    {
+     "start": 48.42,
+     "end": 48.86,
+     "text": "and"
+    },
+    {
+     "start": 48.86,
+     "end": 49.3,
+     "text": "reduces"
+    },
+    {
+     "start": 49.3,
+     "end": 49.7,
+     "text": "methane"
+    },
+    {
+     "start": 49.7,
+     "end": 50.2,
+     "text": "emissions."
+    }
+   ]
+  },
+  {
+   "start": 51.06,
+   "end": 59.3,
+   "text": "In New York City, composting is also supposed to save money by reducing the amount of trash the city hauls to landfills, many of which are out of state.",
+   "words": [
+    {
+     "start": 51.06,
+     "end": 51.22,
+     "text": "In"
+    },
+    {
+     "start": 51.22,
+     "end": 51.34,
+     "text": "New"
+    },
+    {
+     "start": 51.34,
+     "end": 51.44,
+     "text": "York"
+    },
+    {
+     "start": 51.44,
+     "end": 51.92,
+     "text": "City,"
+    },
+    {
+     "start": 51.92,
+     "end": 52.54,
+     "text": "composting"
+    },
+    {
+     "start": 52.54,
+     "end": 52.66,
+     "text": "is"
+    },
+    {
+     "start": 52.66,
+     "end": 53.0,
+     "text": "also"
+    },
+    {
+     "start": 53.0,
+     "end": 53.34,
+     "text": "supposed"
+    },
+    {
+     "start": 53.34,
+     "end": 53.58,
+     "text": "to"
+    },
+    {
+     "start": 53.58,
+     "end": 53.74,
+     "text": "save"
+    },
+    {
+     "start": 53.74,
+     "end": 54.08,
+     "text": "money"
+    },
+    {
+     "start": 54.08,
+     "end": 54.62,
+     "text": "by"
+    },
+    {
+     "start": 54.62,
+     "end": 55.04,
+     "text": "reducing"
+    },
+    {
+     "start": 55.04,
+     "end": 55.28,
+     "text": "the"
+    },
+    {
+     "start": 55.28,
+     "end": 55.46,
+     "text": "amount"
+    },
+    {
+     "start": 55.46,
+     "end": 55.64,
+     "text": "of"
+    },
+    {
+     "start": 55.64,
+     "end": 55.88,
+     "text": "trash"
+    },
+    {
+     "start": 55.88,
+     "end": 56.24,
+     "text": "the"
+    },
+    {
+     "start": 56.24,
+     "end": 56.46,
+     "text": "city"
+    },
+    {
+     "start": 56.46,
+     "end": 56.72,
+     "text": "hauls"
+    },
+    {
+     "start": 56.72,
+     "end": 56.92,
+     "text": "to"
+    },
+    {
+     "start": 56.92,
+     "end": 57.48,
+     "text": "landfills,"
+    },
+    {
+     "start": 57.48,
+     "end": 58.12,
+     "text": "many"
+    },
+    {
+     "start": 58.12,
+     "end": 58.28,
+     "text": "of"
+    },
+    {
+     "start": 58.28,
+     "end": 58.42,
+     "text": "which"
+    },
+    {
+     "start": 58.42,
+     "end": 58.58,
+     "text": "are"
+    },
+    {
+     "start": 58.58,
+     "end": 58.72,
+     "text": "out"
+    },
+    {
+     "start": 58.72,
+     "end": 58.8,
+     "text": "of"
+    },
+    {
+     "start": 58.8,
+     "end": 59.3,
+     "text": "state."
+    }
+   ]
+  },
+  {
+   "start": 59.58,
+   "end": 61.62,
+   "text": "But the program hasn't gone exactly as planned.",
+   "words": [
+    {
+     "start": 59.58,
+     "end": 59.66,
+     "text": "But"
+    },
+    {
+     "start": 59.66,
+     "end": 59.82,
+     "text": "the"
+    },
+    {
+     "start": 59.82,
+     "end": 60.12,
+     "text": "program"
+    },
+    {
+     "start": 60.12,
+     "end": 60.44,
+     "text": "hasn't"
+    },
+    {
+     "start": 60.44,
+     "end": 60.62,
+     "text": "gone"
+    },
+    {
+     "start": 60.62,
+     "end": 61.02,
+     "text": "exactly"
+    },
+    {
+     "start": 61.02,
+     "end": 61.28,
+     "text": "as"
+    },
+    {
+     "start": 61.28,
+     "end": 61.62,
+     "text": "planned."
+    }
+   ]
+  },
+  {
+   "start": 62.42,
+   "end": 68.94,
+   "text": "The city's brown bin composting initiative started as a pilot program 13 years ago under Mayor Michael Bloomberg.",
+   "words": [
+    {
+     "start": 62.42,
+     "end": 62.58,
+     "text": "The"
+    },
+    {
+     "start": 62.58,
+     "end": 62.92,
+     "text": "city's"
+    },
+    {
+     "start": 62.92,
+     "end": 63.24,
+     "text": "brown"
+    },
+    {
+     "start": 63.24,
+     "end": 63.36,
+     "text": "bin"
+    },
+    {
+     "start": 63.36,
+     "end": 64.1,
+     "text": "composting"
+    },
+    {
+     "start": 64.1,
+     "end": 64.42,
+     "text": "initiative"
+    },
+    {
+     "start": 64.42,
+     "end": 64.9,
+     "text": "started"
+    },
+    {
+     "start": 64.9,
+     "end": 65.18,
+     "text": "as"
+    },
+    {
+     "start": 65.18,
+     "end": 65.26,
+     "text": "a"
+    },
+    {
+     "start": 65.26,
+     "end": 65.62,
+     "text": "pilot"
+    },
+    {
+     "start": 65.62,
+     "end": 66.06,
+     "text": "program"
+    },
+    {
+     "start": 66.06,
+     "end": 66.5,
+     "text": "13"
+    },
+    {
+     "start": 66.5,
+     "end": 66.9,
+     "text": "years"
+    },
+    {
+     "start": 66.9,
+     "end": 67.22,
+     "text": "ago"
+    },
+    {
+     "start": 67.22,
+     "end": 67.6,
+     "text": "under"
+    },
+    {
+     "start": 67.6,
+     "end": 67.86,
+     "text": "Mayor"
+    },
+    {
+     "start": 67.86,
+     "end": 68.2,
+     "text": "Michael"
+    },
+    {
+     "start": 68.2,
+     "end": 68.94,
+     "text": "Bloomberg."
+    }
+   ]
+  },
+  {
+   "start": 69.38,
+   "end": 76.88,
+   "text": "Mayor Bill de Blasio wanted to expand the program, but the expansion was put on hold due to exploding costs and low participation rates.",
+   "words": [
+    {
+     "start": 69.38,
+     "end": 69.6,
+     "text": "Mayor"
+    },
+    {
+     "start": 69.6,
+     "end": 69.82,
+     "text": "Bill"
+    },
+    {
+     "start": 69.82,
+     "end": 69.96,
+     "text": "de"
+    },
+    {
+     "start": 69.96,
+     "end": 70.34,
+     "text": "Blasio"
+    },
+    {
+     "start": 70.34,
+     "end": 70.66,
+     "text": "wanted"
+    },
+    {
+     "start": 70.66,
+     "end": 70.86,
+     "text": "to"
+    },
+    {
+     "start": 70.86,
+     "end": 71.24,
+     "text": "expand"
+    },
+    {
+     "start": 71.24,
+     "end": 71.44,
+     "text": "the"
+    },
+    {
+     "start": 71.44,
+     "end": 71.82,
+     "text": "program,"
+    },
+    {
+     "start": 71.82,
+     "end": 72.46,
+     "text": "but"
+    },
+    {
+     "start": 72.46,
+     "end": 72.62,
+     "text": "the"
+    },
+    {
+     "start": 72.62,
+     "end": 72.96,
+     "text": "expansion"
+    },
+    {
+     "start": 72.96,
+     "end": 73.28,
+     "text": "was"
+    },
+    {
+     "start": 73.28,
+     "end": 73.46,
+     "text": "put"
+    },
+    {
+     "start": 73.46,
+     "end": 73.66,
+     "text": "on"
+    },
+    {
+     "start": 73.66,
+     "end": 73.9,
+     "text": "hold"
+    },
+    {
+     "start": 73.9,
+     "end": 74.14,
+     "text": "due"
+    },
+    {
+     "start": 74.14,
+     "end": 74.28,
+     "text": "to"
+    },
+    {
+     "start": 74.28,
+     "end": 74.76,
+     "text": "exploding"
+    },
+    {
+     "start": 74.76,
+     "end": 75.28,
+     "text": "costs"
+    },
+    {
+     "start": 75.28,
+     "end": 75.56,
+     "text": "and"
+    },
+    {
+     "start": 75.56,
+     "end": 75.72,
+     "text": "low"
+    },
+    {
+     "start": 75.72,
+     "end": 76.16,
+     "text": "participation"
+    },
+    {
+     "start": 76.16,
+     "end": 76.88,
+     "text": "rates."
+    }
+   ]
+  },
+  {
+   "start": 77.54,
+   "end": 83.22,
+   "text": "The city was spending an estimated six times as much to collect compost as regular trash.",
+   "words": [
+    {
+     "start": 77.54,
+     "end": 77.72,
+     "text": "The"
+    },
+    {
+     "start": 77.72,
+     "end": 77.92,
+     "text": "city"
+    },
+    {
+     "start": 77.92,
+     "end": 78.16,
+     "text": "was"
+    },
+    {
+     "start": 78.16,
+     "end": 78.52,
+     "text": "spending"
+    },
+    {
+     "start": 78.52,
+     "end": 78.74,
+     "text": "an"
+    },
+    {
+     "start": 78.74,
+     "end": 79.24,
+     "text": "estimated"
+    },
+    {
+     "start": 79.24,
+     "end": 79.7,
+     "text": "six"
+    },
+    {
+     "start": 79.7,
+     "end": 80.12,
+     "text": "times"
+    },
+    {
+     "start": 80.12,
+     "end": 80.4,
+     "text": "as"
+    },
+    {
+     "start": 80.4,
+     "end": 80.62,
+     "text": "much"
+    },
+    {
+     "start": 80.62,
+     "end": 80.84,
+     "text": "to"
+    },
+    {
+     "start": 80.84,
+     "end": 81.16,
+     "text": "collect"
+    },
+    {
+     "start": 81.16,
+     "end": 81.58,
+     "text": "compost"
+    },
+    {
+     "start": 81.58,
+     "end": 82.18,
+     "text": "as"
+    },
+    {
+     "start": 82.18,
+     "end": 82.54,
+     "text": "regular"
+    },
+    {
+     "start": 82.54,
+     "end": 83.22,
+     "text": "trash."
+    }
+   ]
+  },
+  {
+   "start": 83.72,
+   "end": 89.72,
+   "text": "Those high costs came from operating special composting trucks that were carrying relatively little waste.",
+   "words": [
+    {
+     "start": 83.72,
+     "end": 83.88,
+     "text": "Those"
+    },
+    {
+     "start": 83.88,
+     "end": 84.08,
+     "text": "high"
+    },
+    {
+     "start": 84.08,
+     "end": 84.46,
+     "text": "costs"
+    },
+    {
+     "start": 84.46,
+     "end": 84.7,
+     "text": "came"
+    },
+    {
+     "start": 84.7,
+     "end": 84.88,
+     "text": "from"
+    },
+    {
+     "start": 84.88,
+     "end": 85.34,
+     "text": "operating"
+    },
+    {
+     "start": 85.34,
+     "end": 85.84,
+     "text": "special"
+    },
+    {
+     "start": 85.84,
+     "end": 86.58,
+     "text": "composting"
+    },
+    {
+     "start": 86.58,
+     "end": 86.86,
+     "text": "trucks"
+    },
+    {
+     "start": 86.86,
+     "end": 87.48,
+     "text": "that"
+    },
+    {
+     "start": 87.48,
+     "end": 87.6,
+     "text": "were"
+    },
+    {
+     "start": 87.6,
+     "end": 87.92,
+     "text": "carrying"
+    },
+    {
+     "start": 87.92,
+     "end": 88.52,
+     "text": "relatively"
+    },
+    {
+     "start": 88.52,
+     "end": 89.06,
+     "text": "little"
+    },
+    {
+     "start": 89.06,
+     "end": 89.72,
+     "text": "waste."
+    }
+   ]
+  },
+  {
+   "start": 90.16,
+   "end": 95.84,
+   "text": "In participating neighborhoods, almost 90% of organic material was still going in the regular trash.",
+   "words": [
+    {
+     "start": 90.16,
+     "end": 90.26,
+     "text": "In"
+    },
+    {
+     "start": 90.26,
+     "end": 90.76,
+     "text": "participating"
+    },
+    {
+     "start": 90.76,
+     "end": 91.68,
+     "text": "neighborhoods,"
+    },
+    {
+     "start": 91.68,
+     "end": 91.8,
+     "text": "almost"
+    },
+    {
+     "start": 91.8,
+     "end": 92.54,
+     "text": "90%"
+    },
+    {
+     "start": 92.54,
+     "end": 92.78,
+     "text": "of"
+    },
+    {
+     "start": 92.78,
+     "end": 93.12,
+     "text": "organic"
+    },
+    {
+     "start": 93.12,
+     "end": 93.6,
+     "text": "material"
+    },
+    {
+     "start": 93.6,
+     "end": 94.12,
+     "text": "was"
+    },
+    {
+     "start": 94.12,
+     "end": 94.32,
+     "text": "still"
+    },
+    {
+     "start": 94.32,
+     "end": 94.58,
+     "text": "going"
+    },
+    {
+     "start": 94.58,
+     "end": 94.78,
+     "text": "in"
+    },
+    {
+     "start": 94.78,
+     "end": 94.84,
+     "text": "the"
+    },
+    {
+     "start": 94.84,
+     "end": 95.1,
+     "text": "regular"
+    },
+    {
+     "start": 95.1,
+     "end": 95.84,
+     "text": "trash."
+    }
+   ]
+  },
+  {
+   "start": 98.2,
+   "end": 103.9,
+   "text": "During the pandemic, the sanitation department paused compost pickups altogether because of budget cuts.",
+   "words": [
+    {
+     "start": 98.2,
+     "end": 98.44,
+     "text": "During"
+    },
+    {
+     "start": 98.44,
+     "end": 98.6,
+     "text": "the"
+    },
+    {
+     "start": 98.6,
+     "end": 98.98,
+     "text": "pandemic,"
+    },
+    {
+     "start": 98.98,
+     "end": 99.5,
+     "text": "the"
+    },
+    {
+     "start": 99.5,
+     "end": 99.78,
+     "text": "sanitation"
+    },
+    {
+     "start": 99.78,
+     "end": 100.5,
+     "text": "department"
+    },
+    {
+     "start": 100.5,
+     "end": 100.98,
+     "text": "paused"
+    },
+    {
+     "start": 100.98,
+     "end": 101.52,
+     "text": "compost"
+    },
+    {
+     "start": 101.52,
+     "end": 101.9,
+     "text": "pickups"
+    },
+    {
+     "start": 101.9,
+     "end": 102.34,
+     "text": "altogether"
+    },
+    {
+     "start": 102.34,
+     "end": 103.04,
+     "text": "because"
+    },
+    {
+     "start": 103.04,
+     "end": 103.22,
+     "text": "of"
+    },
+    {
+     "start": 103.22,
+     "end": 103.46,
+     "text": "budget"
+    },
+    {
+     "start": 103.46,
+     "end": 103.9,
+     "text": "cuts."
+    }
+   ]
+  },
+  {
+   "start": 104.62,
+   "end": 109.7,
+   "text": "Then Mayor Adams brought back citywide composting and made it mandatory in late 2024.",
+   "words": [
+    {
+     "start": 104.62,
+     "end": 104.98,
+     "text": "Then"
+    },
+    {
+     "start": 104.98,
+     "end": 105.32,
+     "text": "Mayor"
+    },
+    {
+     "start": 105.32,
+     "end": 105.64,
+     "text": "Adams"
+    },
+    {
+     "start": 105.64,
+     "end": 105.96,
+     "text": "brought"
+    },
+    {
+     "start": 105.96,
+     "end": 106.24,
+     "text": "back"
+    },
+    {
+     "start": 106.24,
+     "end": 106.74,
+     "text": "citywide"
+    },
+    {
+     "start": 106.74,
+     "end": 107.54,
+     "text": "composting"
+    },
+    {
+     "start": 107.54,
+     "end": 107.76,
+     "text": "and"
+    },
+    {
+     "start": 107.76,
+     "end": 107.96,
+     "text": "made"
+    },
+    {
+     "start": 107.96,
+     "end": 108.08,
+     "text": "it"
+    },
+    {
+     "start": 108.08,
+     "end": 108.48,
+     "text": "mandatory"
+    },
+    {
+     "start": 108.48,
+     "end": 109.04,
+     "text": "in"
+    },
+    {
+     "start": 109.04,
+     "end": 109.18,
+     "text": "late"
+    },
+    {
+     "start": 109.18,
+     "end": 109.7,
+     "text": "2024."
+    }
+   ]
+  },
+  {
+   "start": 110.56,
+   "end": 116.9,
+   "text": "On April 1st, 2025, he instituted fines to enforce the mandate and then paused them a few weeks",
+   "words": [
+    {
+     "start": 110.56,
+     "end": 110.68,
+     "text": "On"
+    },
+    {
+     "start": 110.68,
+     "end": 110.96,
+     "text": "April"
+    },
+    {
+     "start": 110.96,
+     "end": 111.6,
+     "text": "1st,"
+    },
+    {
+     "start": 111.6,
+     "end": 112.6,
+     "text": "2025,"
+    },
+    {
+     "start": 112.6,
+     "end": 112.74,
+     "text": "he"
+    },
+    {
+     "start": 112.74,
+     "end": 113.34,
+     "text": "instituted"
+    },
+    {
+     "start": 113.34,
+     "end": 113.72,
+     "text": "fines"
+    },
+    {
+     "start": 113.72,
+     "end": 113.94,
+     "text": "to"
+    },
+    {
+     "start": 113.94,
+     "end": 114.32,
+     "text": "enforce"
+    },
+    {
+     "start": 114.32,
+     "end": 114.56,
+     "text": "the"
+    },
+    {
+     "start": 114.56,
+     "end": 114.92,
+     "text": "mandate"
+    },
+    {
+     "start": 114.92,
+     "end": 115.48,
+     "text": "and"
+    },
+    {
+     "start": 115.48,
+     "end": 115.6,
+     "text": "then"
+    },
+    {
+     "start": 115.6,
+     "end": 116.06,
+     "text": "paused"
+    },
+    {
+     "start": 116.06,
+     "end": 116.28,
+     "text": "them"
+    },
+    {
+     "start": 116.28,
+     "end": 116.5,
+     "text": "a"
+    },
+    {
+     "start": 116.5,
+     "end": 116.64,
+     "text": "few"
+    },
+    {
+     "start": 116.64,
+     "end": 116.9,
+     "text": "weeks"
+    }
+   ]
+  },
+  {
+   "start": 116.9,
+   "end": 117.36,
+   "text": "later.",
+   "words": [
+    {
+     "start": 116.9,
+     "end": 117.36,
+     "text": "later."
+    }
+   ]
+  },
+  {
+   "start": 116.38,
+   "end": 120.86,
+   "text": "And now under Mayor Mamdani, composting fines are back.",
+   "words": [
+    {
+     "start": 116.38,
+     "end": 117.78,
+     "text": "And"
+    },
+    {
+     "start": 117.78,
+     "end": 118.08,
+     "text": "now"
+    },
+    {
+     "start": 118.08,
+     "end": 118.4,
+     "text": "under"
+    },
+    {
+     "start": 118.4,
+     "end": 118.7,
+     "text": "Mayor"
+    },
+    {
+     "start": 118.7,
+     "end": 119.44,
+     "text": "Mamdani,"
+    },
+    {
+     "start": 119.44,
+     "end": 120.02,
+     "text": "composting"
+    },
+    {
+     "start": 120.02,
+     "end": 120.22,
+     "text": "fines"
+    },
+    {
+     "start": 120.22,
+     "end": 120.38,
+     "text": "are"
+    },
+    {
+     "start": 120.38,
+     "end": 120.86,
+     "text": "back."
+    }
+   ]
+  },
+  {
+   "start": 121.1,
+   "end": 123.82,
+   "text": "Is it any wonder New Yorkers are so confused?",
+   "words": [
+    {
+     "start": 121.1,
+     "end": 121.3,
+     "text": "Is"
+    },
+    {
+     "start": 121.3,
+     "end": 121.42,
+     "text": "it"
+    },
+    {
+     "start": 121.42,
+     "end": 121.6,
+     "text": "any"
+    },
+    {
+     "start": 121.6,
+     "end": 122.0,
+     "text": "wonder"
+    },
+    {
+     "start": 122.0,
+     "end": 122.22,
+     "text": "New"
+    },
+    {
+     "start": 122.22,
+     "end": 122.6,
+     "text": "Yorkers"
+    },
+    {
+     "start": 122.6,
+     "end": 122.7,
+     "text": "are"
+    },
+    {
+     "start": 122.7,
+     "end": 122.92,
+     "text": "so"
+    },
+    {
+     "start": 122.92,
+     "end": 123.82,
+     "text": "confused?"
+    }
+   ]
+  },
+  {
+   "start": 123.82,
+   "end": 125.84,
+   "text": "Were you aware of the composting law?",
+   "words": [
+    {
+     "start": 123.82,
+     "end": 124.18,
+     "text": "Were"
+    },
+    {
+     "start": 124.18,
+     "end": 124.3,
+     "text": "you"
+    },
+    {
+     "start": 124.3,
+     "end": 124.56,
+     "text": "aware"
+    },
+    {
+     "start": 124.56,
+     "end": 124.78,
+     "text": "of"
+    },
+    {
+     "start": 124.78,
+     "end": 124.88,
+     "text": "the"
+    },
+    {
+     "start": 124.88,
+     "end": 125.46,
+     "text": "composting"
+    },
+    {
+     "start": 125.46,
+     "end": 125.84,
+     "text": "law?"
+    }
+   ]
+  },
+  {
+   "start": 126.206,
+   "end": 128.766,
+   "text": "I was not until you told me about it, no.",
+   "words": [
+    {
+     "start": 126.206,
+     "end": 126.426,
+     "text": "I"
+    },
+    {
+     "start": 126.426,
+     "end": 126.666,
+     "text": "was"
+    },
+    {
+     "start": 126.666,
+     "end": 126.946,
+     "text": "not"
+    },
+    {
+     "start": 126.946,
+     "end": 127.206,
+     "text": "until"
+    },
+    {
+     "start": 127.206,
+     "end": 127.406,
+     "text": "you"
+    },
+    {
+     "start": 127.406,
+     "end": 127.606,
+     "text": "told"
+    },
+    {
+     "start": 127.606,
+     "end": 127.746,
+     "text": "me"
+    },
+    {
+     "start": 127.746,
+     "end": 127.966,
+     "text": "about"
+    },
+    {
+     "start": 127.966,
+     "end": 128.226,
+     "text": "it,"
+    },
+    {
+     "start": 128.226,
+     "end": 128.766,
+     "text": "no."
+    }
+   ]
+  },
+  {
+   "start": 128.766,
+   "end": 130.526,
+   "text": "So this is all news to me.",
+   "words": [
+    {
+     "start": 128.766,
+     "end": 128.886,
+     "text": "So"
+    },
+    {
+     "start": 128.886,
+     "end": 129.446,
+     "text": "this"
+    },
+    {
+     "start": 129.446,
+     "end": 129.566,
+     "text": "is"
+    },
+    {
+     "start": 129.566,
+     "end": 130.026,
+     "text": "all"
+    },
+    {
+     "start": 130.026,
+     "end": 130.246,
+     "text": "news"
+    },
+    {
+     "start": 130.246,
+     "end": 130.386,
+     "text": "to"
+    },
+    {
+     "start": 130.386,
+     "end": 130.526,
+     "text": "me."
+    }
+   ]
+  },
+  {
+   "start": 130.786,
+   "end": 131.806,
+   "text": "I've never heard of that.",
+   "words": [
+    {
+     "start": 130.786,
+     "end": 131.026,
+     "text": "I've"
+    },
+    {
+     "start": 131.026,
+     "end": 131.286,
+     "text": "never"
+    },
+    {
+     "start": 131.286,
+     "end": 131.446,
+     "text": "heard"
+    },
+    {
+     "start": 131.446,
+     "end": 131.566,
+     "text": "of"
+    },
+    {
+     "start": 131.566,
+     "end": 131.806,
+     "text": "that."
+    }
+   ]
+  },
+  {
+   "start": 132.226,
+   "end": 136.206,
+   "text": "It's unclear exactly how much New York City spends on composting.",
+   "words": [
+    {
+     "start": 132.226,
+     "end": 132.426,
+     "text": "It's"
+    },
+    {
+     "start": 132.426,
+     "end": 132.846,
+     "text": "unclear"
+    },
+    {
+     "start": 132.846,
+     "end": 133.466,
+     "text": "exactly"
+    },
+    {
+     "start": 133.466,
+     "end": 133.786,
+     "text": "how"
+    },
+    {
+     "start": 133.786,
+     "end": 134.146,
+     "text": "much"
+    },
+    {
+     "start": 134.146,
+     "end": 134.386,
+     "text": "New"
+    },
+    {
+     "start": 134.386,
+     "end": 134.466,
+     "text": "York"
+    },
+    {
+     "start": 134.466,
+     "end": 134.746,
+     "text": "City"
+    },
+    {
+     "start": 134.746,
+     "end": 135.066,
+     "text": "spends"
+    },
+    {
+     "start": 135.066,
+     "end": 135.306,
+     "text": "on"
+    },
+    {
+     "start": 135.306,
+     "end": 136.206,
+     "text": "composting."
+    }
+   ]
+  },
+  {
+   "start": 136.406,
+   "end": 138.666,
+   "text": "The sanitation department told me, It",
+   "words": [
+    {
+     "start": 136.406,
+     "end": 136.586,
+     "text": "The"
+    },
+    {
+     "start": 136.586,
+     "end": 136.886,
+     "text": "sanitation"
+    },
+    {
+     "start": 136.886,
+     "end": 137.446,
+     "text": "department"
+    },
+    {
+     "start": 137.446,
+     "end": 137.906,
+     "text": "told"
+    },
+    {
+     "start": 137.906,
+     "end": 138.286,
+     "text": "me,"
+    },
+    {
+     "start": 137.726,
+     "end": 138.666,
+     "text": "It"
+    }
+   ]
+  },
+  {
+   "start": 138.666,
+   "end": 144.646,
+   "text": "is difficult to put a number on it since composting is integrated with so much of the department's other work.",
+   "words": [
+    {
+     "start": 138.666,
+     "end": 138.786,
+     "text": "is"
+    },
+    {
+     "start": 138.786,
+     "end": 139.086,
+     "text": "difficult"
+    },
+    {
+     "start": 139.086,
+     "end": 139.446,
+     "text": "to"
+    },
+    {
+     "start": 139.446,
+     "end": 139.586,
+     "text": "put"
+    },
+    {
+     "start": 139.586,
+     "end": 139.726,
+     "text": "a"
+    },
+    {
+     "start": 139.726,
+     "end": 139.946,
+     "text": "number"
+    },
+    {
+     "start": 139.946,
+     "end": 140.246,
+     "text": "on"
+    },
+    {
+     "start": 140.246,
+     "end": 140.386,
+     "text": "it"
+    },
+    {
+     "start": 140.386,
+     "end": 140.906,
+     "text": "since"
+    },
+    {
+     "start": 140.906,
+     "end": 141.606,
+     "text": "composting"
+    },
+    {
+     "start": 141.606,
+     "end": 141.746,
+     "text": "is"
+    },
+    {
+     "start": 141.746,
+     "end": 142.146,
+     "text": "integrated"
+    },
+    {
+     "start": 142.146,
+     "end": 142.506,
+     "text": "with"
+    },
+    {
+     "start": 142.506,
+     "end": 142.706,
+     "text": "so"
+    },
+    {
+     "start": 142.706,
+     "end": 143.006,
+     "text": "much"
+    },
+    {
+     "start": 143.006,
+     "end": 143.326,
+     "text": "of"
+    },
+    {
+     "start": 143.326,
+     "end": 143.466,
+     "text": "the"
+    },
+    {
+     "start": 143.466,
+     "end": 143.986,
+     "text": "department's"
+    },
+    {
+     "start": 143.986,
+     "end": 144.166,
+     "text": "other"
+    },
+    {
+     "start": 144.166,
+     "end": 144.646,
+     "text": "work."
+    }
+   ]
+  },
+  {
+   "start": 144.666,
+   "end": 152.846,
+   "text": "But for personnel and processing, the city budget includes baseline funding for 299 uniform positions at",
+   "words": [
+    {
+     "start": 144.666,
+     "end": 145.386,
+     "text": "But"
+    },
+    {
+     "start": 145.386,
+     "end": 145.546,
+     "text": "for"
+    },
+    {
+     "start": 145.546,
+     "end": 145.966,
+     "text": "personnel"
+    },
+    {
+     "start": 145.966,
+     "end": 146.366,
+     "text": "and"
+    },
+    {
+     "start": 146.366,
+     "end": 147.366,
+     "text": "processing,"
+    },
+    {
+     "start": 147.366,
+     "end": 147.466,
+     "text": "the"
+    },
+    {
+     "start": 147.466,
+     "end": 147.726,
+     "text": "city"
+    },
+    {
+     "start": 147.726,
+     "end": 148.086,
+     "text": "budget"
+    },
+    {
+     "start": 148.086,
+     "end": 148.786,
+     "text": "includes"
+    },
+    {
+     "start": 148.786,
+     "end": 149.306,
+     "text": "baseline"
+    },
+    {
+     "start": 149.306,
+     "end": 149.726,
+     "text": "funding"
+    },
+    {
+     "start": 149.726,
+     "end": 150.006,
+     "text": "for"
+    },
+    {
+     "start": 150.006,
+     "end": 150.826,
+     "text": "299"
+    },
+    {
+     "start": 150.826,
+     "end": 151.446,
+     "text": "uniform"
+    },
+    {
+     "start": 151.446,
+     "end": 152.046,
+     "text": "positions"
+    },
+    {
+     "start": 152.046,
+     "end": 152.846,
+     "text": "at"
+    }
+   ]
+  },
+  {
+   "start": 152.846,
+   "end": 158.566,
+   "text": "a recurring cost of $33.4 million a year for curbside organics collection.",
+   "words": [
+    {
+     "start": 152.846,
+     "end": 152.946,
+     "text": "a"
+    },
+    {
+     "start": 152.946,
+     "end": 153.286,
+     "text": "recurring"
+    },
+    {
+     "start": 153.286,
+     "end": 153.786,
+     "text": "cost"
+    },
+    {
+     "start": 153.786,
+     "end": 155.186,
+     "text": "of $33.4"
+    },
+    {
+     "start": 155.186,
+     "end": 155.526,
+     "text": "million"
+    },
+    {
+     "start": 155.526,
+     "end": 156.086,
+     "text": "a"
+    },
+    {
+     "start": 156.086,
+     "end": 156.346,
+     "text": "year"
+    },
+    {
+     "start": 156.346,
+     "end": 156.866,
+     "text": "for"
+    },
+    {
+     "start": 156.866,
+     "end": 157.446,
+     "text": "curbside"
+    },
+    {
+     "start": 157.446,
+     "end": 157.986,
+     "text": "organics"
+    },
+    {
+     "start": 157.986,
+     "end": 158.566,
+     "text": "collection."
+    }
+   ]
+  },
+  {
+   "start": 159.286,
+   "end": 167.366,
+   "text": "According to the former director of research and operations at the sanitation department, the city would need to properly sort out about 30% of its",
+   "words": [
+    {
+     "start": 159.286,
+     "end": 159.546,
+     "text": "According"
+    },
+    {
+     "start": 159.546,
+     "end": 159.806,
+     "text": "to"
+    },
+    {
+     "start": 159.806,
+     "end": 159.946,
+     "text": "the"
+    },
+    {
+     "start": 159.946,
+     "end": 160.246,
+     "text": "former"
+    },
+    {
+     "start": 160.246,
+     "end": 160.526,
+     "text": "director"
+    },
+    {
+     "start": 160.526,
+     "end": 160.846,
+     "text": "of"
+    },
+    {
+     "start": 160.846,
+     "end": 161.126,
+     "text": "research"
+    },
+    {
+     "start": 161.126,
+     "end": 161.366,
+     "text": "and"
+    },
+    {
+     "start": 161.366,
+     "end": 161.826,
+     "text": "operations"
+    },
+    {
+     "start": 161.826,
+     "end": 162.166,
+     "text": "at"
+    },
+    {
+     "start": 162.166,
+     "end": 162.266,
+     "text": "the"
+    },
+    {
+     "start": 162.266,
+     "end": 162.526,
+     "text": "sanitation"
+    },
+    {
+     "start": 162.526,
+     "end": 163.586,
+     "text": "department,"
+    },
+    {
+     "start": 163.586,
+     "end": 163.926,
+     "text": "the"
+    },
+    {
+     "start": 163.926,
+     "end": 164.126,
+     "text": "city"
+    },
+    {
+     "start": 164.126,
+     "end": 164.366,
+     "text": "would"
+    },
+    {
+     "start": 164.366,
+     "end": 164.466,
+     "text": "need"
+    },
+    {
+     "start": 164.466,
+     "end": 164.606,
+     "text": "to"
+    },
+    {
+     "start": 164.606,
+     "end": 165.026,
+     "text": "properly"
+    },
+    {
+     "start": 165.026,
+     "end": 165.406,
+     "text": "sort"
+    },
+    {
+     "start": 165.406,
+     "end": 165.646,
+     "text": "out"
+    },
+    {
+     "start": 165.646,
+     "end": 166.026,
+     "text": "about"
+    },
+    {
+     "start": 166.026,
+     "end": 166.806,
+     "text": "30%"
+    },
+    {
+     "start": 166.806,
+     "end": 167.206,
+     "text": "of"
+    },
+    {
+     "start": 167.206,
+     "end": 167.366,
+     "text": "its"
+    }
+   ]
+  },
+  {
+   "start": 167.366,
+   "end": 170.086,
+   "text": "organic waste in order to make the program cost effective.",
+   "words": [
+    {
+     "start": 167.366,
+     "end": 167.686,
+     "text": "organic"
+    },
+    {
+     "start": 167.686,
+     "end": 168.066,
+     "text": "waste"
+    },
+    {
+     "start": 168.066,
+     "end": 168.326,
+     "text": "in"
+    },
+    {
+     "start": 168.326,
+     "end": 168.486,
+     "text": "order"
+    },
+    {
+     "start": 168.486,
+     "end": 168.666,
+     "text": "to"
+    },
+    {
+     "start": 168.666,
+     "end": 168.806,
+     "text": "make"
+    },
+    {
+     "start": 168.806,
+     "end": 168.926,
+     "text": "the"
+    },
+    {
+     "start": 168.926,
+     "end": 169.286,
+     "text": "program"
+    },
+    {
+     "start": 169.286,
+     "end": 169.626,
+     "text": "cost"
+    },
+    {
+     "start": 169.626,
+     "end": 170.086,
+     "text": "effective."
+    }
+   ]
+  },
+  {
+   "start": 170.146,
+   "end": 173.066,
+   "text": "But the city seems to be far from meeting its goal.",
+   "words": [
+    {
+     "start": 170.146,
+     "end": 170.826,
+     "text": "But"
+    },
+    {
+     "start": 170.826,
+     "end": 170.966,
+     "text": "the"
+    },
+    {
+     "start": 170.966,
+     "end": 171.186,
+     "text": "city"
+    },
+    {
+     "start": 171.186,
+     "end": 171.486,
+     "text": "seems"
+    },
+    {
+     "start": 171.486,
+     "end": 171.626,
+     "text": "to"
+    },
+    {
+     "start": 171.626,
+     "end": 171.766,
+     "text": "be"
+    },
+    {
+     "start": 171.766,
+     "end": 171.986,
+     "text": "far"
+    },
+    {
+     "start": 171.986,
+     "end": 172.186,
+     "text": "from"
+    },
+    {
+     "start": 172.186,
+     "end": 172.406,
+     "text": "meeting"
+    },
+    {
+     "start": 172.406,
+     "end": 172.626,
+     "text": "its"
+    },
+    {
+     "start": 172.626,
+     "end": 173.066,
+     "text": "goal."
+    }
+   ]
+  },
+  {
+   "start": 172.946,
+   "end": 180.286,
+   "text": "In fiscal year 2025, New Yorkers only successfully separated out about 7% of their organic waste from the regular trash.",
+   "words": [
+    {
+     "start": 172.946,
+     "end": 173.446,
+     "text": "In"
+    },
+    {
+     "start": 173.446,
+     "end": 173.686,
+     "text": "fiscal"
+    },
+    {
+     "start": 173.686,
+     "end": 173.946,
+     "text": "year"
+    },
+    {
+     "start": 173.946,
+     "end": 175.026,
+     "text": "2025,"
+    },
+    {
+     "start": 175.026,
+     "end": 175.106,
+     "text": "New"
+    },
+    {
+     "start": 175.106,
+     "end": 175.386,
+     "text": "Yorkers"
+    },
+    {
+     "start": 175.386,
+     "end": 175.586,
+     "text": "only"
+    },
+    {
+     "start": 175.586,
+     "end": 176.126,
+     "text": "successfully"
+    },
+    {
+     "start": 176.126,
+     "end": 176.666,
+     "text": "separated"
+    },
+    {
+     "start": 176.666,
+     "end": 176.986,
+     "text": "out"
+    },
+    {
+     "start": 176.986,
+     "end": 177.266,
+     "text": "about"
+    },
+    {
+     "start": 177.266,
+     "end": 177.946,
+     "text": "7%"
+    },
+    {
+     "start": 177.946,
+     "end": 178.146,
+     "text": "of"
+    },
+    {
+     "start": 178.146,
+     "end": 178.306,
+     "text": "their"
+    },
+    {
+     "start": 178.306,
+     "end": 178.606,
+     "text": "organic"
+    },
+    {
+     "start": 178.606,
+     "end": 178.986,
+     "text": "waste"
+    },
+    {
+     "start": 178.986,
+     "end": 179.186,
+     "text": "from"
+    },
+    {
+     "start": 179.186,
+     "end": 179.306,
+     "text": "the"
+    },
+    {
+     "start": 179.306,
+     "end": 179.566,
+     "text": "regular"
+    },
+    {
+     "start": 179.566,
+     "end": 180.286,
+     "text": "trash."
+    }
+   ]
+  },
+  {
+   "start": 180.506,
+   "end": 186.406,
+   "text": "So let's suppose the city did achieve full compliance and everyone composted 100% of their organic waste.",
+   "words": [
+    {
+     "start": 180.506,
+     "end": 180.626,
+     "text": "So"
+    },
+    {
+     "start": 180.626,
+     "end": 180.846,
+     "text": "let's"
+    },
+    {
+     "start": 180.846,
+     "end": 181.066,
+     "text": "suppose"
+    },
+    {
+     "start": 181.066,
+     "end": 181.266,
+     "text": "the"
+    },
+    {
+     "start": 181.266,
+     "end": 181.506,
+     "text": "city"
+    },
+    {
+     "start": 181.506,
+     "end": 181.806,
+     "text": "did"
+    },
+    {
+     "start": 181.806,
+     "end": 182.166,
+     "text": "achieve"
+    },
+    {
+     "start": 182.166,
+     "end": 182.406,
+     "text": "full"
+    },
+    {
+     "start": 182.406,
+     "end": 182.866,
+     "text": "compliance"
+    },
+    {
+     "start": 182.866,
+     "end": 183.166,
+     "text": "and"
+    },
+    {
+     "start": 183.166,
+     "end": 183.646,
+     "text": "everyone"
+    },
+    {
+     "start": 183.646,
+     "end": 184.446,
+     "text": "composted"
+    },
+    {
+     "start": 184.446,
+     "end": 185.246,
+     "text": "100%"
+    },
+    {
+     "start": 185.246,
+     "end": 185.466,
+     "text": "of"
+    },
+    {
+     "start": 185.466,
+     "end": 185.586,
+     "text": "their"
+    },
+    {
+     "start": 185.586,
+     "end": 185.926,
+     "text": "organic"
+    },
+    {
+     "start": 185.926,
+     "end": 186.406,
+     "text": "waste."
+    }
+   ]
+  },
+  {
+   "start": 186.746,
+   "end": 188.506,
+   "text": "Would the city be able to handle it all?",
+   "words": [
+    {
+     "start": 186.746,
+     "end": 186.926,
+     "text": "Would"
+    },
+    {
+     "start": 186.926,
+     "end": 187.046,
+     "text": "the"
+    },
+    {
+     "start": 187.046,
+     "end": 187.226,
+     "text": "city"
+    },
+    {
+     "start": 187.226,
+     "end": 187.426,
+     "text": "be"
+    },
+    {
+     "start": 187.426,
+     "end": 187.546,
+     "text": "able"
+    },
+    {
+     "start": 187.546,
+     "end": 187.706,
+     "text": "to"
+    },
+    {
+     "start": 187.706,
+     "end": 187.966,
+     "text": "handle"
+    },
+    {
+     "start": 187.966,
+     "end": 188.226,
+     "text": "it"
+    },
+    {
+     "start": 188.226,
+     "end": 188.506,
+     "text": "all?"
+    }
+   ]
+  },
+  {
+   "start": 188.846,
+   "end": 192.126,
+   "text": "According to the city's own estimates, absolutely not.",
+   "words": [
+    {
+     "start": 188.846,
+     "end": 189.166,
+     "text": "According"
+    },
+    {
+     "start": 189.166,
+     "end": 189.446,
+     "text": "to"
+    },
+    {
+     "start": 189.446,
+     "end": 189.606,
+     "text": "the"
+    },
+    {
+     "start": 189.606,
+     "end": 189.986,
+     "text": "city's"
+    },
+    {
+     "start": 189.986,
+     "end": 190.206,
+     "text": "own"
+    },
+    {
+     "start": 190.206,
+     "end": 191.086,
+     "text": "estimates,"
+    },
+    {
+     "start": 191.086,
+     "end": 191.706,
+     "text": "absolutely"
+    },
+    {
+     "start": 191.706,
+     "end": 192.126,
+     "text": "not."
+    }
+   ]
+  },
+  {
+   "start": 192.666,
+   "end": 199.166,
+   "text": "As of 2025, the city can only handle about 400,000 tons of organic waste per year.",
+   "words": [
+    {
+     "start": 192.666,
+     "end": 192.906,
+     "text": "As"
+    },
+    {
+     "start": 192.906,
+     "end": 193.026,
+     "text": "of"
+    },
+    {
+     "start": 193.026,
+     "end": 193.506,
+     "text": "2025,"
+    },
+    {
+     "start": 193.506,
+     "end": 194.506,
+     "text": "the"
+    },
+    {
+     "start": 194.506,
+     "end": 194.686,
+     "text": "city"
+    },
+    {
+     "start": 194.686,
+     "end": 194.906,
+     "text": "can"
+    },
+    {
+     "start": 194.906,
+     "end": 195.086,
+     "text": "only"
+    },
+    {
+     "start": 195.086,
+     "end": 195.526,
+     "text": "handle"
+    },
+    {
+     "start": 195.526,
+     "end": 195.906,
+     "text": "about"
+    },
+    {
+     "start": 195.906,
+     "end": 197.126,
+     "text": "400,000"
+    },
+    {
+     "start": 197.126,
+     "end": 197.346,
+     "text": "tons"
+    },
+    {
+     "start": 197.346,
+     "end": 197.706,
+     "text": "of"
+    },
+    {
+     "start": 197.706,
+     "end": 198.066,
+     "text": "organic"
+    },
+    {
+     "start": 198.066,
+     "end": 198.446,
+     "text": "waste"
+    },
+    {
+     "start": 198.446,
+     "end": 198.626,
+     "text": "per"
+    },
+    {
+     "start": 198.626,
+     "end": 199.166,
+     "text": "year."
+    }
+   ]
+  },
+  {
+   "start": 199.386,
+   "end": 205.546,
+   "text": "that organic waste either goes to traditional composting facilities or anaerobic digesters,",
+   "words": [
+    {
+     "start": 199.386,
+     "end": 199.506,
+     "text": "that"
+    },
+    {
+     "start": 199.506,
+     "end": 199.906,
+     "text": "organic"
+    },
+    {
+     "start": 199.906,
+     "end": 200.366,
+     "text": "waste"
+    },
+    {
+     "start": 200.366,
+     "end": 200.726,
+     "text": "either"
+    },
+    {
+     "start": 200.726,
+     "end": 201.046,
+     "text": "goes"
+    },
+    {
+     "start": 201.046,
+     "end": 201.226,
+     "text": "to"
+    },
+    {
+     "start": 201.226,
+     "end": 201.706,
+     "text": "traditional"
+    },
+    {
+     "start": 201.706,
+     "end": 202.506,
+     "text": "composting"
+    },
+    {
+     "start": 202.506,
+     "end": 202.966,
+     "text": "facilities"
+    },
+    {
+     "start": 202.966,
+     "end": 203.806,
+     "text": "or"
+    },
+    {
+     "start": 203.806,
+     "end": 204.466,
+     "text": "anaerobic"
+    },
+    {
+     "start": 204.466,
+     "end": 205.546,
+     "text": "digesters,"
+    }
+   ]
+  },
+  {
+   "start": 205.826,
+   "end": 207.446,
+   "text": "which turn waste into energy.",
+   "words": [
+    {
+     "start": 205.826,
+     "end": 205.986,
+     "text": "which"
+    },
+    {
+     "start": 205.986,
+     "end": 206.306,
+     "text": "turn"
+    },
+    {
+     "start": 206.306,
+     "end": 206.666,
+     "text": "waste"
+    },
+    {
+     "start": 206.666,
+     "end": 207.006,
+     "text": "into"
+    },
+    {
+     "start": 207.006,
+     "end": 207.446,
+     "text": "energy."
+    }
+   ]
+  },
+  {
+   "start": 207.446,
+   "end": 212.006,
+   "text": "New York residents produce about 1.1 million tons of compostable",
+   "words": [
+    {
+     "start": 207.446,
+     "end": 208.266,
+     "text": "New"
+    },
+    {
+     "start": 208.266,
+     "end": 208.386,
+     "text": "York"
+    },
+    {
+     "start": 208.386,
+     "end": 208.806,
+     "text": "residents"
+    },
+    {
+     "start": 208.806,
+     "end": 209.286,
+     "text": "produce"
+    },
+    {
+     "start": 209.286,
+     "end": 209.746,
+     "text": "about"
+    },
+    {
+     "start": 209.746,
+     "end": 210.506,
+     "text": "1.1"
+    },
+    {
+     "start": 210.506,
+     "end": 210.766,
+     "text": "million"
+    },
+    {
+     "start": 210.766,
+     "end": 211.066,
+     "text": "tons"
+    },
+    {
+     "start": 211.066,
+     "end": 211.306,
+     "text": "of"
+    },
+    {
+     "start": 211.306,
+     "end": 212.006,
+     "text": "compostable"
+    }
+   ]
+  },
+  {
+   "start": 211.746,
+   "end": 213.666,
+   "text": "organic waste per year.",
+   "words": [
+    {
+     "start": 211.746,
+     "end": 212.506,
+     "text": "organic"
+    },
+    {
+     "start": 212.506,
+     "end": 212.886,
+     "text": "waste"
+    },
+    {
+     "start": 212.886,
+     "end": 213.046,
+     "text": "per"
+    },
+    {
+     "start": 213.046,
+     "end": 213.666,
+     "text": "year."
+    }
+   ]
+  },
+  {
+   "start": 213.666,
+   "end": 217.446,
+   "text": "Even if New Yorkers were to put a little over a third of their waste into",
+   "words": [
+    {
+     "start": 213.666,
+     "end": 214.186,
+     "text": "Even"
+    },
+    {
+     "start": 214.186,
+     "end": 214.406,
+     "text": "if"
+    },
+    {
+     "start": 214.406,
+     "end": 214.546,
+     "text": "New"
+    },
+    {
+     "start": 214.546,
+     "end": 214.786,
+     "text": "Yorkers"
+    },
+    {
+     "start": 214.786,
+     "end": 214.926,
+     "text": "were"
+    },
+    {
+     "start": 214.926,
+     "end": 215.046,
+     "text": "to"
+    },
+    {
+     "start": 215.046,
+     "end": 215.226,
+     "text": "put"
+    },
+    {
+     "start": 215.226,
+     "end": 215.426,
+     "text": "a"
+    },
+    {
+     "start": 215.426,
+     "end": 215.586,
+     "text": "little"
+    },
+    {
+     "start": 215.586,
+     "end": 215.906,
+     "text": "over"
+    },
+    {
+     "start": 215.906,
+     "end": 216.086,
+     "text": "a"
+    },
+    {
+     "start": 216.086,
+     "end": 216.286,
+     "text": "third"
+    },
+    {
+     "start": 216.286,
+     "end": 216.526,
+     "text": "of"
+    },
+    {
+     "start": 216.526,
+     "end": 216.666,
+     "text": "their"
+    },
+    {
+     "start": 216.666,
+     "end": 217.046,
+     "text": "waste"
+    },
+    {
+     "start": 216.586,
+     "end": 217.446,
+     "text": "into"
+    }
+   ]
+  },
+  {
+   "start": 217.446,
+   "end": 222.206,
+   "text": "brown bins, the city's composting and digesting facilities would hit capacity.",
+   "words": [
+    {
+     "start": 217.446,
+     "end": 217.786,
+     "text": "brown"
+    },
+    {
+     "start": 217.786,
+     "end": 218.406,
+     "text": "bins,"
+    },
+    {
+     "start": 218.406,
+     "end": 218.766,
+     "text": "the"
+    },
+    {
+     "start": 218.766,
+     "end": 219.126,
+     "text": "city's"
+    },
+    {
+     "start": 219.126,
+     "end": 219.766,
+     "text": "composting"
+    },
+    {
+     "start": 219.766,
+     "end": 219.906,
+     "text": "and"
+    },
+    {
+     "start": 219.906,
+     "end": 220.366,
+     "text": "digesting"
+    },
+    {
+     "start": 220.366,
+     "end": 220.966,
+     "text": "facilities"
+    },
+    {
+     "start": 220.966,
+     "end": 221.406,
+     "text": "would"
+    },
+    {
+     "start": 221.406,
+     "end": 221.566,
+     "text": "hit"
+    },
+    {
+     "start": 221.566,
+     "end": 222.206,
+     "text": "capacity."
+    }
+   ]
+  },
+  {
+   "start": 225.306,
+   "end": 228.066,
+   "text": "But right now, the city is nowhere near close to full compliance.",
+   "words": [
+    {
+     "start": 225.306,
+     "end": 225.386,
+     "text": "But"
+    },
+    {
+     "start": 225.386,
+     "end": 225.526,
+     "text": "right"
+    },
+    {
+     "start": 225.526,
+     "end": 225.766,
+     "text": "now,"
+    },
+    {
+     "start": 225.766,
+     "end": 225.826,
+     "text": "the"
+    },
+    {
+     "start": 225.826,
+     "end": 225.986,
+     "text": "city"
+    },
+    {
+     "start": 225.986,
+     "end": 226.146,
+     "text": "is"
+    },
+    {
+     "start": 226.146,
+     "end": 226.306,
+     "text": "nowhere"
+    },
+    {
+     "start": 226.306,
+     "end": 226.566,
+     "text": "near"
+    },
+    {
+     "start": 226.566,
+     "end": 226.846,
+     "text": "close"
+    },
+    {
+     "start": 226.846,
+     "end": 226.986,
+     "text": "to"
+    },
+    {
+     "start": 226.986,
+     "end": 227.166,
+     "text": "full"
+    },
+    {
+     "start": 227.166,
+     "end": 228.066,
+     "text": "compliance."
+    }
+   ]
+  },
+  {
+   "start": 228.366,
+   "end": 231.466,
+   "text": "In fact, it's still trying to tell people that the mandate even exists.",
+   "words": [
+    {
+     "start": 228.366,
+     "end": 228.446,
+     "text": "In"
+    },
+    {
+     "start": 228.446,
+     "end": 228.726,
+     "text": "fact,"
+    },
+    {
+     "start": 228.726,
+     "end": 228.846,
+     "text": "it's"
+    },
+    {
+     "start": 228.846,
+     "end": 228.986,
+     "text": "still"
+    },
+    {
+     "start": 228.986,
+     "end": 229.206,
+     "text": "trying"
+    },
+    {
+     "start": 229.206,
+     "end": 229.326,
+     "text": "to"
+    },
+    {
+     "start": 229.326,
+     "end": 229.506,
+     "text": "tell"
+    },
+    {
+     "start": 229.506,
+     "end": 229.746,
+     "text": "people"
+    },
+    {
+     "start": 229.746,
+     "end": 230.066,
+     "text": "that"
+    },
+    {
+     "start": 230.066,
+     "end": 230.186,
+     "text": "the"
+    },
+    {
+     "start": 230.186,
+     "end": 230.486,
+     "text": "mandate"
+    },
+    {
+     "start": 230.486,
+     "end": 230.886,
+     "text": "even"
+    },
+    {
+     "start": 230.886,
+     "end": 231.466,
+     "text": "exists."
+    }
+   ]
+  },
+  {
+   "start": 232.126,
+   "end": 236.746,
+   "text": "Now, the Mamdani administration has tried to improve compliance by reinstating fines.",
+   "words": [
+    {
+     "start": 232.126,
+     "end": 232.346,
+     "text": "Now,"
+    },
+    {
+     "start": 232.346,
+     "end": 232.406,
+     "text": "the"
+    },
+    {
+     "start": 232.406,
+     "end": 232.846,
+     "text": "Mamdani"
+    },
+    {
+     "start": 232.846,
+     "end": 233.346,
+     "text": "administration"
+    },
+    {
+     "start": 233.346,
+     "end": 233.866,
+     "text": "has"
+    },
+    {
+     "start": 233.866,
+     "end": 234.066,
+     "text": "tried"
+    },
+    {
+     "start": 234.066,
+     "end": 234.246,
+     "text": "to"
+    },
+    {
+     "start": 234.246,
+     "end": 234.706,
+     "text": "improve"
+    },
+    {
+     "start": 234.706,
+     "end": 235.266,
+     "text": "compliance"
+    },
+    {
+     "start": 235.266,
+     "end": 235.686,
+     "text": "by"
+    },
+    {
+     "start": 235.686,
+     "end": 236.286,
+     "text": "reinstating"
+    },
+    {
+     "start": 236.286,
+     "end": 236.746,
+     "text": "fines."
+    }
+   ]
+  },
+  {
+   "start": 237.526,
+   "end": 242.726,
+   "text": "Buildings face tickets of up to $300 for failing to compost or composting improperly,",
+   "words": [
+    {
+     "start": 237.526,
+     "end": 237.866,
+     "text": "Buildings"
+    },
+    {
+     "start": 237.866,
+     "end": 238.126,
+     "text": "face"
+    },
+    {
+     "start": 238.126,
+     "end": 238.446,
+     "text": "tickets"
+    },
+    {
+     "start": 238.446,
+     "end": 238.706,
+     "text": "of"
+    },
+    {
+     "start": 238.706,
+     "end": 238.826,
+     "text": "up"
+    },
+    {
+     "start": 238.826,
+     "end": 239.346,
+     "text": "to $300"
+    },
+    {
+     "start": 239.346,
+     "end": 240.066,
+     "text": "for"
+    },
+    {
+     "start": 240.066,
+     "end": 240.326,
+     "text": "failing"
+    },
+    {
+     "start": 240.326,
+     "end": 240.526,
+     "text": "to"
+    },
+    {
+     "start": 240.526,
+     "end": 240.906,
+     "text": "compost"
+    },
+    {
+     "start": 240.906,
+     "end": 241.306,
+     "text": "or"
+    },
+    {
+     "start": 241.306,
+     "end": 241.886,
+     "text": "composting"
+    },
+    {
+     "start": 241.886,
+     "end": 242.726,
+     "text": "improperly,"
+    }
+   ]
+  },
+  {
+   "start": 243.206,
+   "end": 245.126,
+   "text": "but these fines haven't had much impact.",
+   "words": [
+    {
+     "start": 243.206,
+     "end": 243.386,
+     "text": "but"
+    },
+    {
+     "start": 243.386,
+     "end": 243.786,
+     "text": "these"
+    },
+    {
+     "start": 243.786,
+     "end": 244.006,
+     "text": "fines"
+    },
+    {
+     "start": 244.006,
+     "end": 244.326,
+     "text": "haven't"
+    },
+    {
+     "start": 244.326,
+     "end": 244.526,
+     "text": "had"
+    },
+    {
+     "start": 244.526,
+     "end": 244.806,
+     "text": "much"
+    },
+    {
+     "start": 244.806,
+     "end": 245.126,
+     "text": "impact."
+    }
+   ]
+  },
+  {
+   "start": 245.966,
+   "end": 248.246,
+   "text": "At first, there was a jump in composting.",
+   "words": [
+    {
+     "start": 245.966,
+     "end": 246.166,
+     "text": "At"
+    },
+    {
+     "start": 246.166,
+     "end": 246.746,
+     "text": "first,"
+    },
+    {
+     "start": 246.746,
+     "end": 246.866,
+     "text": "there"
+    },
+    {
+     "start": 246.866,
+     "end": 246.966,
+     "text": "was"
+    },
+    {
+     "start": 246.966,
+     "end": 247.106,
+     "text": "a"
+    },
+    {
+     "start": 247.106,
+     "end": 247.286,
+     "text": "jump"
+    },
+    {
+     "start": 247.286,
+     "end": 247.486,
+     "text": "in"
+    },
+    {
+     "start": 247.486,
+     "end": 248.246,
+     "text": "composting."
+    }
+   ]
+  },
+  {
+   "start": 247.766,
+   "end": 255.272,
+   "text": "But compare the organics collection volume over this past summer with the amounts from last year when fines were not being enforced.",
+   "words": [
+    {
+     "start": 247.766,
+     "end": 248.906,
+     "text": "But"
+    },
+    {
+     "start": 248.906,
+     "end": 249.246,
+     "text": "compare"
+    },
+    {
+     "start": 249.246,
+     "end": 249.466,
+     "text": "the"
+    },
+    {
+     "start": 249.466,
+     "end": 249.946,
+     "text": "organics"
+    },
+    {
+     "start": 249.946,
+     "end": 250.366,
+     "text": "collection"
+    },
+    {
+     "start": 250.366,
+     "end": 250.826,
+     "text": "volume"
+    },
+    {
+     "start": 250.826,
+     "end": 251.146,
+     "text": "over"
+    },
+    {
+     "start": 251.152,
+     "end": 251.372,
+     "text": "this"
+    },
+    {
+     "start": 251.372,
+     "end": 251.692,
+     "text": "past"
+    },
+    {
+     "start": 251.692,
+     "end": 251.972,
+     "text": "summer"
+    },
+    {
+     "start": 251.992,
+     "end": 252.672,
+     "text": "with"
+    },
+    {
+     "start": 252.672,
+     "end": 252.812,
+     "text": "the"
+    },
+    {
+     "start": 252.812,
+     "end": 253.072,
+     "text": "amounts"
+    },
+    {
+     "start": 253.072,
+     "end": 253.232,
+     "text": "from"
+    },
+    {
+     "start": 253.232,
+     "end": 253.512,
+     "text": "last"
+    },
+    {
+     "start": 253.512,
+     "end": 253.752,
+     "text": "year"
+    },
+    {
+     "start": 253.752,
+     "end": 253.972,
+     "text": "when"
+    },
+    {
+     "start": 253.972,
+     "end": 254.252,
+     "text": "fines"
+    },
+    {
+     "start": 254.252,
+     "end": 254.432,
+     "text": "were"
+    },
+    {
+     "start": 254.432,
+     "end": 254.632,
+     "text": "not"
+    },
+    {
+     "start": 254.632,
+     "end": 254.892,
+     "text": "being"
+    },
+    {
+     "start": 254.892,
+     "end": 255.272,
+     "text": "enforced."
+    }
+   ]
+  },
+  {
+   "start": 256.092,
+   "end": 257.132,
+   "text": "There's not a big difference.",
+   "words": [
+    {
+     "start": 256.092,
+     "end": 256.352,
+     "text": "There's"
+    },
+    {
+     "start": 256.352,
+     "end": 256.492,
+     "text": "not"
+    },
+    {
+     "start": 256.492,
+     "end": 256.652,
+     "text": "a"
+    },
+    {
+     "start": 256.652,
+     "end": 256.772,
+     "text": "big"
+    },
+    {
+     "start": 256.772,
+     "end": 257.132,
+     "text": "difference."
+    }
+   ]
+  },
+  {
+   "start": 257.752,
+   "end": 261.972,
+   "text": "In fact, the totals from last summer when fines were not being enforced were higher.",
+   "words": [
+    {
+     "start": 257.752,
+     "end": 257.892,
+     "text": "In"
+    },
+    {
+     "start": 257.892,
+     "end": 258.172,
+     "text": "fact,"
+    },
+    {
+     "start": 258.172,
+     "end": 258.532,
+     "text": "the"
+    },
+    {
+     "start": 258.532,
+     "end": 258.872,
+     "text": "totals"
+    },
+    {
+     "start": 258.872,
+     "end": 259.072,
+     "text": "from"
+    },
+    {
+     "start": 259.072,
+     "end": 259.292,
+     "text": "last"
+    },
+    {
+     "start": 259.292,
+     "end": 259.572,
+     "text": "summer"
+    },
+    {
+     "start": 259.572,
+     "end": 259.952,
+     "text": "when"
+    },
+    {
+     "start": 259.952,
+     "end": 260.212,
+     "text": "fines"
+    },
+    {
+     "start": 260.212,
+     "end": 260.372,
+     "text": "were"
+    },
+    {
+     "start": 260.372,
+     "end": 260.551,
+     "text": "not"
+    },
+    {
+     "start": 260.551,
+     "end": 260.772,
+     "text": "being"
+    },
+    {
+     "start": 260.772,
+     "end": 261.111,
+     "text": "enforced"
+    },
+    {
+     "start": 261.111,
+     "end": 261.611,
+     "text": "were"
+    },
+    {
+     "start": 261.611,
+     "end": 261.972,
+     "text": "higher."
+    }
+   ]
+  },
+  {
+   "start": 262.592,
+   "end": 263.932,
+   "text": "So what's the problem?",
+   "words": [
+    {
+     "start": 262.592,
+     "end": 262.912,
+     "text": "So"
+    },
+    {
+     "start": 262.912,
+     "end": 263.452,
+     "text": "what's"
+    },
+    {
+     "start": 263.452,
+     "end": 263.592,
+     "text": "the"
+    },
+    {
+     "start": 263.592,
+     "end": 263.932,
+     "text": "problem?"
+    }
+   ]
+  },
+  {
+   "start": 264.392,
+   "end": 267.952,
+   "text": "I'm not composting, and I moved out of the city to get away from the brown garbage can.",
+   "words": [
+    {
+     "start": 264.392,
+     "end": 264.551,
+     "text": "I'm"
+    },
+    {
+     "start": 264.551,
+     "end": 264.712,
+     "text": "not"
+    },
+    {
+     "start": 264.712,
+     "end": 265.412,
+     "text": "composting,"
+    },
+    {
+     "start": 265.412,
+     "end": 265.432,
+     "text": "and"
+    },
+    {
+     "start": 265.432,
+     "end": 265.532,
+     "text": "I"
+    },
+    {
+     "start": 265.532,
+     "end": 265.752,
+     "text": "moved"
+    },
+    {
+     "start": 265.752,
+     "end": 265.932,
+     "text": "out"
+    },
+    {
+     "start": 265.932,
+     "end": 266.032,
+     "text": "of"
+    },
+    {
+     "start": 266.032,
+     "end": 266.172,
+     "text": "the"
+    },
+    {
+     "start": 266.172,
+     "end": 266.312,
+     "text": "city"
+    },
+    {
+     "start": 266.312,
+     "end": 266.512,
+     "text": "to"
+    },
+    {
+     "start": 266.512,
+     "end": 266.672,
+     "text": "get"
+    },
+    {
+     "start": 266.672,
+     "end": 266.832,
+     "text": "away"
+    },
+    {
+     "start": 266.832,
+     "end": 267.032,
+     "text": "from"
+    },
+    {
+     "start": 267.032,
+     "end": 267.172,
+     "text": "the"
+    },
+    {
+     "start": 267.172,
+     "end": 267.352,
+     "text": "brown"
+    },
+    {
+     "start": 267.352,
+     "end": 267.692,
+     "text": "garbage"
+    },
+    {
+     "start": 267.692,
+     "end": 267.952,
+     "text": "can."
+    }
+   ]
+  },
+  {
+   "start": 268.652,
+   "end": 268.852,
+   "text": "Sorry.",
+   "words": [
+    {
+     "start": 268.652,
+     "end": 268.852,
+     "text": "Sorry."
+    }
+   ]
+  },
+  {
+   "start": 269.611,
+   "end": 270.051,
+   "text": "You did?",
+   "words": [
+    {
+     "start": 269.611,
+     "end": 269.812,
+     "text": "You"
+    },
+    {
+     "start": 269.812,
+     "end": 270.051,
+     "text": "did?"
+    }
+   ]
+  },
+  {
+   "start": 270.232,
+   "end": 270.392,
+   "text": "Yeah.",
+   "words": [
+    {
+     "start": 270.232,
+     "end": 270.392,
+     "text": "Yeah."
+    }
+   ]
+  },
+  {
+   "start": 270.492,
+   "end": 271.372,
+   "text": "Tell me The",
+   "words": [
+    {
+     "start": 270.492,
+     "end": 270.892,
+     "text": "Tell"
+    },
+    {
+     "start": 270.892,
+     "end": 271.051,
+     "text": "me"
+    },
+    {
+     "start": 270.772,
+     "end": 271.372,
+     "text": "The"
+    }
+   ]
+  },
+  {
+   "start": 271.051,
+   "end": 271.752,
+   "text": "more.",
+   "words": [
+    {
+     "start": 271.051,
+     "end": 271.752,
+     "text": "more."
+    }
+   ]
+  },
+  {
+   "start": 271.372,
+   "end": 273.172,
+   "text": "brown garbage can took me over the edge.",
+   "words": [
+    {
+     "start": 271.372,
+     "end": 271.392,
+     "text": "brown"
+    },
+    {
+     "start": 271.392,
+     "end": 271.592,
+     "text": "garbage"
+    },
+    {
+     "start": 271.592,
+     "end": 271.872,
+     "text": "can"
+    },
+    {
+     "start": 271.872,
+     "end": 272.412,
+     "text": "took"
+    },
+    {
+     "start": 272.412,
+     "end": 272.551,
+     "text": "me"
+    },
+    {
+     "start": 272.551,
+     "end": 272.732,
+     "text": "over"
+    },
+    {
+     "start": 272.732,
+     "end": 272.872,
+     "text": "the"
+    },
+    {
+     "start": 272.872,
+     "end": 273.172,
+     "text": "edge."
+    }
+   ]
+  },
+  {
+   "start": 273.111,
+   "end": 273.512,
+   "text": "I left.",
+   "words": [
+    {
+     "start": 273.111,
+     "end": 273.272,
+     "text": "I"
+    },
+    {
+     "start": 273.272,
+     "end": 273.512,
+     "text": "left."
+    }
+   ]
+  },
+  {
+   "start": 274.111,
+   "end": 274.992,
+   "text": "I went to Long Island.",
+   "words": [
+    {
+     "start": 274.111,
+     "end": 274.232,
+     "text": "I"
+    },
+    {
+     "start": 274.232,
+     "end": 274.372,
+     "text": "went"
+    },
+    {
+     "start": 274.372,
+     "end": 274.492,
+     "text": "to"
+    },
+    {
+     "start": 274.492,
+     "end": 274.611,
+     "text": "Long"
+    },
+    {
+     "start": 274.611,
+     "end": 274.992,
+     "text": "Island."
+    }
+   ]
+  },
+  {
+   "start": 275.312,
+   "end": 277.472,
+   "text": "I don't want a brown garbage bag either.",
+   "words": [
+    {
+     "start": 275.312,
+     "end": 275.392,
+     "text": "I"
+    },
+    {
+     "start": 275.392,
+     "end": 275.592,
+     "text": "don't"
+    },
+    {
+     "start": 275.592,
+     "end": 275.752,
+     "text": "want"
+    },
+    {
+     "start": 275.752,
+     "end": 275.932,
+     "text": "a"
+    },
+    {
+     "start": 275.932,
+     "end": 276.192,
+     "text": "brown"
+    },
+    {
+     "start": 276.192,
+     "end": 276.492,
+     "text": "garbage"
+    },
+    {
+     "start": 276.492,
+     "end": 276.812,
+     "text": "bag"
+    },
+    {
+     "start": 276.812,
+     "end": 277.472,
+     "text": "either."
+    }
+   ]
+  },
+  {
+   "start": 277.512,
+   "end": 278.692,
+   "text": "I don't want to compost in a city.",
+   "words": [
+    {
+     "start": 277.512,
+     "end": 277.652,
+     "text": "I"
+    },
+    {
+     "start": 277.652,
+     "end": 277.812,
+     "text": "don't"
+    },
+    {
+     "start": 277.812,
+     "end": 277.912,
+     "text": "want"
+    },
+    {
+     "start": 277.912,
+     "end": 277.992,
+     "text": "to"
+    },
+    {
+     "start": 277.992,
+     "end": 278.272,
+     "text": "compost"
+    },
+    {
+     "start": 278.272,
+     "end": 278.452,
+     "text": "in"
+    },
+    {
+     "start": 278.452,
+     "end": 278.492,
+     "text": "a"
+    },
+    {
+     "start": 278.492,
+     "end": 278.692,
+     "text": "city."
+    }
+   ]
+  },
+  {
+   "start": 278.671,
+   "end": 281.512,
+   "text": "I have a place upstate where I do want to compost,",
+   "words": [
+    {
+     "start": 278.671,
+     "end": 278.812,
+     "text": "I"
+    },
+    {
+     "start": 278.812,
+     "end": 278.912,
+     "text": "have"
+    },
+    {
+     "start": 278.912,
+     "end": 279.012,
+     "text": "a"
+    },
+    {
+     "start": 279.012,
+     "end": 279.212,
+     "text": "place"
+    },
+    {
+     "start": 279.212,
+     "end": 279.551,
+     "text": "upstate"
+    },
+    {
+     "start": 279.551,
+     "end": 280.152,
+     "text": "where"
+    },
+    {
+     "start": 280.152,
+     "end": 280.252,
+     "text": "I"
+    },
+    {
+     "start": 280.252,
+     "end": 280.412,
+     "text": "do"
+    },
+    {
+     "start": 280.412,
+     "end": 280.632,
+     "text": "want"
+    },
+    {
+     "start": 280.632,
+     "end": 280.732,
+     "text": "to"
+    },
+    {
+     "start": 280.732,
+     "end": 281.512,
+     "text": "compost,"
+    }
+   ]
+  },
+  {
+   "start": 282.111,
+   "end": 286.412,
+   "text": "but I think in a city it's just, for lack of a better word, nasty.",
+   "words": [
+    {
+     "start": 282.111,
+     "end": 282.312,
+     "text": "but"
+    },
+    {
+     "start": 282.312,
+     "end": 282.611,
+     "text": "I"
+    },
+    {
+     "start": 282.611,
+     "end": 282.772,
+     "text": "think"
+    },
+    {
+     "start": 282.772,
+     "end": 282.892,
+     "text": "in"
+    },
+    {
+     "start": 282.892,
+     "end": 282.992,
+     "text": "a"
+    },
+    {
+     "start": 282.992,
+     "end": 283.232,
+     "text": "city"
+    },
+    {
+     "start": 283.232,
+     "end": 283.532,
+     "text": "it's"
+    },
+    {
+     "start": 283.532,
+     "end": 283.892,
+     "text": "just,"
+    },
+    {
+     "start": 283.892,
+     "end": 285.332,
+     "text": "for"
+    },
+    {
+     "start": 285.332,
+     "end": 285.512,
+     "text": "lack"
+    },
+    {
+     "start": 285.512,
+     "end": 285.592,
+     "text": "of"
+    },
+    {
+     "start": 285.592,
+     "end": 285.652,
+     "text": "a"
+    },
+    {
+     "start": 285.652,
+     "end": 285.792,
+     "text": "better"
+    },
+    {
+     "start": 285.792,
+     "end": 286.132,
+     "text": "word,"
+    },
+    {
+     "start": 286.132,
+     "end": 286.412,
+     "text": "nasty."
+    }
+   ]
+  },
+  {
+   "start": 286.892,
+   "end": 289.512,
+   "text": "It's kind of a privileged take to require people to do that",
+   "words": [
+    {
+     "start": 286.892,
+     "end": 287.232,
+     "text": "It's"
+    },
+    {
+     "start": 287.232,
+     "end": 287.452,
+     "text": "kind"
+    },
+    {
+     "start": 287.452,
+     "end": 287.551,
+     "text": "of"
+    },
+    {
+     "start": 287.551,
+     "end": 287.652,
+     "text": "a"
+    },
+    {
+     "start": 287.652,
+     "end": 288.032,
+     "text": "privileged"
+    },
+    {
+     "start": 288.032,
+     "end": 288.352,
+     "text": "take"
+    },
+    {
+     "start": 288.352,
+     "end": 288.572,
+     "text": "to"
+    },
+    {
+     "start": 288.572,
+     "end": 288.812,
+     "text": "require"
+    },
+    {
+     "start": 288.812,
+     "end": 289.051,
+     "text": "people"
+    },
+    {
+     "start": 289.051,
+     "end": 289.192,
+     "text": "to"
+    },
+    {
+     "start": 289.192,
+     "end": 289.352,
+     "text": "do"
+    },
+    {
+     "start": 289.352,
+     "end": 289.512,
+     "text": "that"
+    }
+   ]
+  },
+  {
+   "start": 289.532,
+   "end": 293.272,
+   "text": "because it's kind of an out-of-the-way thing to do for a lot of people.",
+   "words": [
+    {
+     "start": 289.532,
+     "end": 289.772,
+     "text": "because"
+    },
+    {
+     "start": 289.772,
+     "end": 290.072,
+     "text": "it's"
+    },
+    {
+     "start": 290.072,
+     "end": 290.372,
+     "text": "kind"
+    },
+    {
+     "start": 290.372,
+     "end": 290.492,
+     "text": "of"
+    },
+    {
+     "start": 290.492,
+     "end": 290.792,
+     "text": "an"
+    },
+    {
+     "start": 290.792,
+     "end": 291.572,
+     "text": "out-of-the-way"
+    },
+    {
+     "start": 291.572,
+     "end": 291.892,
+     "text": "thing"
+    },
+    {
+     "start": 291.892,
+     "end": 292.092,
+     "text": "to"
+    },
+    {
+     "start": 292.092,
+     "end": 292.352,
+     "text": "do"
+    },
+    {
+     "start": 292.352,
+     "end": 292.772,
+     "text": "for"
+    },
+    {
+     "start": 292.772,
+     "end": 292.872,
+     "text": "a"
+    },
+    {
+     "start": 292.872,
+     "end": 292.932,
+     "text": "lot"
+    },
+    {
+     "start": 292.932,
+     "end": 293.012,
+     "text": "of"
+    },
+    {
+     "start": 293.012,
+     "end": 293.272,
+     "text": "people."
+    }
+   ]
+  },
+  {
+   "start": 295.592,
+   "end": 297.392,
+   "text": "Don't New Yorkers care about the environment?",
+   "words": [
+    {
+     "start": 295.592,
+     "end": 295.792,
+     "text": "Don't"
+    },
+    {
+     "start": 295.792,
+     "end": 295.972,
+     "text": "New"
+    },
+    {
+     "start": 295.972,
+     "end": 296.332,
+     "text": "Yorkers"
+    },
+    {
+     "start": 296.332,
+     "end": 296.551,
+     "text": "care"
+    },
+    {
+     "start": 296.551,
+     "end": 296.792,
+     "text": "about"
+    },
+    {
+     "start": 296.792,
+     "end": 296.992,
+     "text": "the"
+    },
+    {
+     "start": 296.992,
+     "end": 297.392,
+     "text": "environment?"
+    }
+   ]
+  },
+  {
+   "start": 298.092,
+   "end": 301.632,
+   "text": "And while there may be some loyal composters out there in Queens, the",
+   "words": [
+    {
+     "start": 298.092,
+     "end": 298.232,
+     "text": "And"
+    },
+    {
+     "start": 298.232,
+     "end": 298.332,
+     "text": "while"
+    },
+    {
+     "start": 298.332,
+     "end": 298.492,
+     "text": "there"
+    },
+    {
+     "start": 298.492,
+     "end": 298.692,
+     "text": "may"
+    },
+    {
+     "start": 298.692,
+     "end": 298.792,
+     "text": "be"
+    },
+    {
+     "start": 298.792,
+     "end": 299.051,
+     "text": "some"
+    },
+    {
+     "start": 299.051,
+     "end": 299.352,
+     "text": "loyal"
+    },
+    {
+     "start": 299.352,
+     "end": 300.032,
+     "text": "composters"
+    },
+    {
+     "start": 300.032,
+     "end": 300.412,
+     "text": "out"
+    },
+    {
+     "start": 300.412,
+     "end": 300.671,
+     "text": "there"
+    },
+    {
+     "start": 300.671,
+     "end": 300.892,
+     "text": "in"
+    },
+    {
+     "start": 300.892,
+     "end": 301.232,
+     "text": "Queens,"
+    },
+    {
+     "start": 301.051,
+     "end": 301.632,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "start": 301.632,
+   "end": 302.952,
+   "text": "Bronx, Brooklyn, and Manhattan,",
+   "words": [
+    {
+     "start": 301.632,
+     "end": 302.111,
+     "text": "Bronx,"
+    },
+    {
+     "start": 302.111,
+     "end": 302.551,
+     "text": "Brooklyn,"
+    },
+    {
+     "start": 302.551,
+     "end": 302.592,
+     "text": "and"
+    },
+    {
+     "start": 302.592,
+     "end": 302.952,
+     "text": "Manhattan,"
+    }
+   ]
+  },
+  {
+   "start": 303.051,
+   "end": 307.332,
+   "text": "And the borough with the highest composting rate per capita is actually Satin Island.",
+   "words": [
+    {
+     "start": 303.051,
+     "end": 303.192,
+     "text": "And"
+    },
+    {
+     "start": 303.192,
+     "end": 303.752,
+     "text": "the"
+    },
+    {
+     "start": 303.752,
+     "end": 303.952,
+     "text": "borough"
+    },
+    {
+     "start": 303.952,
+     "end": 304.111,
+     "text": "with"
+    },
+    {
+     "start": 304.111,
+     "end": 304.212,
+     "text": "the"
+    },
+    {
+     "start": 304.212,
+     "end": 304.492,
+     "text": "highest"
+    },
+    {
+     "start": 304.492,
+     "end": 305.152,
+     "text": "composting"
+    },
+    {
+     "start": 305.152,
+     "end": 305.332,
+     "text": "rate"
+    },
+    {
+     "start": 305.332,
+     "end": 305.452,
+     "text": "per"
+    },
+    {
+     "start": 305.452,
+     "end": 305.832,
+     "text": "capita"
+    },
+    {
+     "start": 305.832,
+     "end": 306.412,
+     "text": "is"
+    },
+    {
+     "start": 306.412,
+     "end": 306.652,
+     "text": "actually"
+    },
+    {
+     "start": 306.652,
+     "end": 307.032,
+     "text": "Satin"
+    },
+    {
+     "start": 307.032,
+     "end": 307.332,
+     "text": "Island."
+    }
+   ]
+  },
+  {
+   "start": 307.892,
+   "end": 313.852,
+   "text": "It's not exactly an area you'd expect to meet crunchy environmentalists, being a Republican stronghold.",
+   "words": [
+    {
+     "start": 307.892,
+     "end": 308.152,
+     "text": "It's"
+    },
+    {
+     "start": 308.152,
+     "end": 308.292,
+     "text": "not"
+    },
+    {
+     "start": 308.292,
+     "end": 308.712,
+     "text": "exactly"
+    },
+    {
+     "start": 308.712,
+     "end": 308.912,
+     "text": "an"
+    },
+    {
+     "start": 308.912,
+     "end": 309.232,
+     "text": "area"
+    },
+    {
+     "start": 309.232,
+     "end": 309.632,
+     "text": "you'd"
+    },
+    {
+     "start": 309.632,
+     "end": 309.892,
+     "text": "expect"
+    },
+    {
+     "start": 309.892,
+     "end": 310.132,
+     "text": "to"
+    },
+    {
+     "start": 310.132,
+     "end": 310.292,
+     "text": "meet"
+    },
+    {
+     "start": 310.292,
+     "end": 310.671,
+     "text": "crunchy"
+    },
+    {
+     "start": 310.671,
+     "end": 311.932,
+     "text": "environmentalists,"
+    },
+    {
+     "start": 311.932,
+     "end": 312.332,
+     "text": "being"
+    },
+    {
+     "start": 312.332,
+     "end": 312.472,
+     "text": "a"
+    },
+    {
+     "start": 312.472,
+     "end": 312.832,
+     "text": "Republican"
+    },
+    {
+     "start": 312.832,
+     "end": 313.852,
+     "text": "stronghold."
+    }
+   ]
+  },
+  {
+   "start": 314.292,
+   "end": 317.432,
+   "text": "But it's a borough with many suburban single-family homes.",
+   "words": [
+    {
+     "start": 314.292,
+     "end": 314.532,
+     "text": "But"
+    },
+    {
+     "start": 314.532,
+     "end": 314.772,
+     "text": "it's"
+    },
+    {
+     "start": 314.772,
+     "end": 314.912,
+     "text": "a"
+    },
+    {
+     "start": 314.912,
+     "end": 315.132,
+     "text": "borough"
+    },
+    {
+     "start": 315.132,
+     "end": 315.372,
+     "text": "with"
+    },
+    {
+     "start": 315.372,
+     "end": 315.592,
+     "text": "many"
+    },
+    {
+     "start": 315.592,
+     "end": 316.132,
+     "text": "suburban"
+    },
+    {
+     "start": 316.132,
+     "end": 316.972,
+     "text": "single-family"
+    },
+    {
+     "start": 316.972,
+     "end": 317.432,
+     "text": "homes."
+    }
+   ]
+  },
+  {
+   "start": 318.072,
+   "end": 321.292,
+   "text": "Manhattanites actually tend to be the worst composters.",
+   "words": [
+    {
+     "start": 318.072,
+     "end": 318.832,
+     "text": "Manhattanites"
+    },
+    {
+     "start": 318.832,
+     "end": 319.452,
+     "text": "actually"
+    },
+    {
+     "start": 319.452,
+     "end": 319.752,
+     "text": "tend"
+    },
+    {
+     "start": 319.752,
+     "end": 319.952,
+     "text": "to"
+    },
+    {
+     "start": 319.952,
+     "end": 320.072,
+     "text": "be"
+    },
+    {
+     "start": 320.072,
+     "end": 320.232,
+     "text": "the"
+    },
+    {
+     "start": 320.232,
+     "end": 320.551,
+     "text": "worst"
+    },
+    {
+     "start": 320.551,
+     "end": 321.292,
+     "text": "composters."
+    }
+   ]
+  },
+  {
+   "start": 322.272,
+   "end": 326.132,
+   "text": "Maybe that's because cramped apartments make sorting organics less practical.",
+   "words": [
+    {
+     "start": 322.272,
+     "end": 322.492,
+     "text": "Maybe"
+    },
+    {
+     "start": 322.492,
+     "end": 322.832,
+     "text": "that's"
+    },
+    {
+     "start": 322.832,
+     "end": 323.192,
+     "text": "because"
+    },
+    {
+     "start": 323.192,
+     "end": 323.752,
+     "text": "cramped"
+    },
+    {
+     "start": 323.752,
+     "end": 324.132,
+     "text": "apartments"
+    },
+    {
+     "start": 324.132,
+     "end": 324.611,
+     "text": "make"
+    },
+    {
+     "start": 324.611,
+     "end": 324.932,
+     "text": "sorting"
+    },
+    {
+     "start": 324.932,
+     "end": 325.512,
+     "text": "organics"
+    },
+    {
+     "start": 325.512,
+     "end": 325.732,
+     "text": "less"
+    },
+    {
+     "start": 325.732,
+     "end": 326.132,
+     "text": "practical."
+    }
+   ]
+  },
+  {
+   "start": 325.712,
+   "end": 326.671,
+   "text": "I",
+   "words": [
+    {
+     "start": 325.712,
+     "end": 326.671,
+     "text": "I"
+    }
+   ]
+  },
+  {
+   "start": 326.671,
+   "end": 331.472,
+   "text": "feel like even if it's just the responsibility of the whole building, I don't know how many people in the building are going to participate.",
+   "words": [
+    {
+     "start": 326.671,
+     "end": 326.892,
+     "text": "feel"
+    },
+    {
+     "start": 326.892,
+     "end": 327.152,
+     "text": "like"
+    },
+    {
+     "start": 327.152,
+     "end": 327.372,
+     "text": "even"
+    },
+    {
+     "start": 327.372,
+     "end": 327.792,
+     "text": "if"
+    },
+    {
+     "start": 327.792,
+     "end": 328.032,
+     "text": "it's"
+    },
+    {
+     "start": 328.032,
+     "end": 328.232,
+     "text": "just"
+    },
+    {
+     "start": 328.232,
+     "end": 328.352,
+     "text": "the"
+    },
+    {
+     "start": 328.352,
+     "end": 328.712,
+     "text": "responsibility"
+    },
+    {
+     "start": 328.712,
+     "end": 328.972,
+     "text": "of"
+    },
+    {
+     "start": 328.972,
+     "end": 329.072,
+     "text": "the"
+    },
+    {
+     "start": 329.072,
+     "end": 329.192,
+     "text": "whole"
+    },
+    {
+     "start": 329.192,
+     "end": 329.532,
+     "text": "building,"
+    },
+    {
+     "start": 329.532,
+     "end": 329.632,
+     "text": "I"
+    },
+    {
+     "start": 329.632,
+     "end": 329.732,
+     "text": "don't"
+    },
+    {
+     "start": 329.732,
+     "end": 329.792,
+     "text": "know"
+    },
+    {
+     "start": 329.792,
+     "end": 329.932,
+     "text": "how"
+    },
+    {
+     "start": 329.932,
+     "end": 330.032,
+     "text": "many"
+    },
+    {
+     "start": 330.032,
+     "end": 330.292,
+     "text": "people"
+    },
+    {
+     "start": 330.292,
+     "end": 330.512,
+     "text": "in"
+    },
+    {
+     "start": 330.512,
+     "end": 330.611,
+     "text": "the"
+    },
+    {
+     "start": 330.611,
+     "end": 330.812,
+     "text": "building"
+    },
+    {
+     "start": 330.812,
+     "end": 331.012,
+     "text": "are"
+    },
+    {
+     "start": 331.012,
+     "end": 331.032,
+     "text": "going"
+    },
+    {
+     "start": 331.032,
+     "end": 331.132,
+     "text": "to"
+    },
+    {
+     "start": 331.132,
+     "end": 331.472,
+     "text": "participate."
+    }
+   ]
+  },
+  {
+   "start": 331.572,
+   "end": 335.912,
+   "text": "so maybe it's left more on each individual apartment.",
+   "words": [
+    {
+     "start": 331.572,
+     "end": 332.232,
+     "text": "so"
+    },
+    {
+     "start": 332.232,
+     "end": 332.592,
+     "text": "maybe"
+    },
+    {
+     "start": 332.592,
+     "end": 332.892,
+     "text": "it's"
+    },
+    {
+     "start": 332.892,
+     "end": 333.152,
+     "text": "left"
+    },
+    {
+     "start": 333.152,
+     "end": 333.472,
+     "text": "more"
+    },
+    {
+     "start": 333.472,
+     "end": 334.192,
+     "text": "on"
+    },
+    {
+     "start": 334.192,
+     "end": 334.592,
+     "text": "each"
+    },
+    {
+     "start": 334.592,
+     "end": 334.972,
+     "text": "individual"
+    },
+    {
+     "start": 334.972,
+     "end": 335.912,
+     "text": "apartment."
+    }
+   ]
+  },
+  {
+   "start": 335.792,
+   "end": 337.111,
+   "text": "Are you composting too?",
+   "words": [
+    {
+     "start": 335.792,
+     "end": 335.952,
+     "text": "Are"
+    },
+    {
+     "start": 335.952,
+     "end": 336.092,
+     "text": "you"
+    },
+    {
+     "start": 336.092,
+     "end": 336.872,
+     "text": "composting"
+    },
+    {
+     "start": 336.872,
+     "end": 337.111,
+     "text": "too?"
+    }
+   ]
+  },
+  {
+   "start": 337.772,
+   "end": 339.912,
+   "text": "No, our building is not very good at it.",
+   "words": [
+    {
+     "start": 337.772,
+     "end": 338.171,
+     "text": "No,"
+    },
+    {
+     "start": 338.171,
+     "end": 338.272,
+     "text": "our"
+    },
+    {
+     "start": 338.272,
+     "end": 338.532,
+     "text": "building"
+    },
+    {
+     "start": 338.532,
+     "end": 338.752,
+     "text": "is"
+    },
+    {
+     "start": 338.752,
+     "end": 338.952,
+     "text": "not"
+    },
+    {
+     "start": 338.952,
+     "end": 339.192,
+     "text": "very"
+    },
+    {
+     "start": 339.192,
+     "end": 339.532,
+     "text": "good"
+    },
+    {
+     "start": 339.532,
+     "end": 339.752,
+     "text": "at"
+    },
+    {
+     "start": 339.752,
+     "end": 339.912,
+     "text": "it."
+    }
+   ]
+  },
+  {
+   "start": 342.892,
+   "end": 345.292,
+   "text": "To boost New York City's composting rates,",
+   "words": [
+    {
+     "start": 342.892,
+     "end": 343.051,
+     "text": "To"
+    },
+    {
+     "start": 343.051,
+     "end": 343.252,
+     "text": "boost"
+    },
+    {
+     "start": 343.252,
+     "end": 343.472,
+     "text": "New"
+    },
+    {
+     "start": 343.472,
+     "end": 343.551,
+     "text": "York"
+    },
+    {
+     "start": 343.551,
+     "end": 343.952,
+     "text": "City's"
+    },
+    {
+     "start": 343.952,
+     "end": 344.652,
+     "text": "composting"
+    },
+    {
+     "start": 344.652,
+     "end": 345.292,
+     "text": "rates,"
+    }
+   ]
+  },
+  {
+   "start": 345.232,
+   "end": 348.332,
+   "text": "the city launched a Sex and the City-themed marketing campaign",
+   "words": [
+    {
+     "start": 345.232,
+     "end": 345.392,
+     "text": "the"
+    },
+    {
+     "start": 345.392,
+     "end": 345.592,
+     "text": "city"
+    },
+    {
+     "start": 345.592,
+     "end": 345.972,
+     "text": "launched"
+    },
+    {
+     "start": 345.972,
+     "end": 346.171,
+     "text": "a"
+    },
+    {
+     "start": 346.171,
+     "end": 346.412,
+     "text": "Sex"
+    },
+    {
+     "start": 346.412,
+     "end": 346.592,
+     "text": "and"
+    },
+    {
+     "start": 346.592,
+     "end": 346.712,
+     "text": "the"
+    },
+    {
+     "start": 346.712,
+     "end": 347.292,
+     "text": "City-themed"
+    },
+    {
+     "start": 347.292,
+     "end": 347.752,
+     "text": "marketing"
+    },
+    {
+     "start": 347.752,
+     "end": 348.332,
+     "text": "campaign"
+    }
+   ]
+  },
+  {
+   "start": 348.452,
+   "end": 351.912,
+   "text": "paid for by a grant from the Environmental Protection Agency.",
+   "words": [
+    {
+     "start": 348.452,
+     "end": 348.972,
+     "text": "paid"
+    },
+    {
+     "start": 348.972,
+     "end": 349.232,
+     "text": "for"
+    },
+    {
+     "start": 349.232,
+     "end": 349.532,
+     "text": "by"
+    },
+    {
+     "start": 349.532,
+     "end": 349.671,
+     "text": "a"
+    },
+    {
+     "start": 349.671,
+     "end": 349.892,
+     "text": "grant"
+    },
+    {
+     "start": 349.892,
+     "end": 350.171,
+     "text": "from"
+    },
+    {
+     "start": 350.171,
+     "end": 350.312,
+     "text": "the"
+    },
+    {
+     "start": 350.312,
+     "end": 350.652,
+     "text": "Environmental"
+    },
+    {
+     "start": 350.652,
+     "end": 351.272,
+     "text": "Protection"
+    },
+    {
+     "start": 351.272,
+     "end": 351.912,
+     "text": "Agency."
+    }
+   ]
+  },
+  {
+   "start": 352.532,
+   "end": 355.892,
+   "text": "The ad features the composting mascot Scrappy on",
+   "words": [
+    {
+     "start": 352.532,
+     "end": 352.712,
+     "text": "The"
+    },
+    {
+     "start": 352.712,
+     "end": 352.932,
+     "text": "ad"
+    },
+    {
+     "start": 352.932,
+     "end": 353.332,
+     "text": "features"
+    },
+    {
+     "start": 353.332,
+     "end": 353.572,
+     "text": "the"
+    },
+    {
+     "start": 353.572,
+     "end": 354.232,
+     "text": "composting"
+    },
+    {
+     "start": 354.232,
+     "end": 354.632,
+     "text": "mascot"
+    },
+    {
+     "start": 354.632,
+     "end": 355.412,
+     "text": "Scrappy"
+    },
+    {
+     "start": 354.972,
+     "end": 355.892,
+     "text": "on"
+    }
+   ]
+  },
+  {
+   "start": 355.892,
+   "end": 357.272,
+   "text": "the side of New York City buses.",
+   "words": [
+    {
+     "start": 355.892,
+     "end": 356.032,
+     "text": "the"
+    },
+    {
+     "start": 356.032,
+     "end": 356.232,
+     "text": "side"
+    },
+    {
+     "start": 356.232,
+     "end": 356.412,
+     "text": "of"
+    },
+    {
+     "start": 356.412,
+     "end": 356.512,
+     "text": "New"
+    },
+    {
+     "start": 356.512,
+     "end": 356.652,
+     "text": "York"
+    },
+    {
+     "start": 356.652,
+     "end": 356.892,
+     "text": "City"
+    },
+    {
+     "start": 356.892,
+     "end": 357.272,
+     "text": "buses."
+    }
+   ]
+  },
+  {
+   "start": 357.932,
+   "end": 360.272,
+   "text": "The campaign urges residents to call 311",
+   "words": [
+    {
+     "start": 357.932,
+     "end": 358.072,
+     "text": "The"
+    },
+    {
+     "start": 358.072,
+     "end": 358.452,
+     "text": "campaign"
+    },
+    {
+     "start": 358.452,
+     "end": 358.832,
+     "text": "urges"
+    },
+    {
+     "start": 358.832,
+     "end": 359.171,
+     "text": "residents"
+    },
+    {
+     "start": 359.171,
+     "end": 359.492,
+     "text": "to"
+    },
+    {
+     "start": 359.492,
+     "end": 359.712,
+     "text": "call"
+    },
+    {
+     "start": 359.712,
+     "end": 360.272,
+     "text": "311"
+    }
+   ]
+  },
+  {
+   "start": 360.332,
+   "end": 363.272,
+   "text": "if their buildings aren't complying with the rules.",
+   "words": [
+    {
+     "start": 360.332,
+     "end": 360.752,
+     "text": "if"
+    },
+    {
+     "start": 360.752,
+     "end": 360.912,
+     "text": "their"
+    },
+    {
+     "start": 360.912,
+     "end": 361.352,
+     "text": "buildings"
+    },
+    {
+     "start": 361.352,
+     "end": 361.732,
+     "text": "aren't"
+    },
+    {
+     "start": 361.732,
+     "end": 362.171,
+     "text": "complying"
+    },
+    {
+     "start": 362.171,
+     "end": 362.392,
+     "text": "with"
+    },
+    {
+     "start": 362.392,
+     "end": 362.532,
+     "text": "the"
+    },
+    {
+     "start": 362.532,
+     "end": 363.272,
+     "text": "rules."
+    }
+   ]
+  },
+  {
+   "start": 363.092,
+   "end": 363.752,
+   "text": "One",
+   "words": [
+    {
+     "start": 363.092,
+     "end": 363.752,
+     "text": "One"
+    }
+   ]
+  },
+  {
+   "start": 363.752,
+   "end": 366.832,
+   "text": "assumption is that people want to compost and",
+   "words": [
+    {
+     "start": 363.752,
+     "end": 364.111,
+     "text": "assumption"
+    },
+    {
+     "start": 364.111,
+     "end": 364.452,
+     "text": "is"
+    },
+    {
+     "start": 364.452,
+     "end": 364.592,
+     "text": "that"
+    },
+    {
+     "start": 364.592,
+     "end": 364.872,
+     "text": "people"
+    },
+    {
+     "start": 364.872,
+     "end": 365.252,
+     "text": "want"
+    },
+    {
+     "start": 365.252,
+     "end": 365.432,
+     "text": "to"
+    },
+    {
+     "start": 365.432,
+     "end": 366.072,
+     "text": "compost"
+    },
+    {
+     "start": 366.232,
+     "end": 366.832,
+     "text": "and"
+    }
+   ]
+  },
+  {
+   "start": 366.832,
+   "end": 369.132,
+   "text": "they will demand that their buildings get on board.",
+   "words": [
+    {
+     "start": 366.832,
+     "end": 366.952,
+     "text": "they"
+    },
+    {
+     "start": 366.952,
+     "end": 367.072,
+     "text": "will"
+    },
+    {
+     "start": 367.072,
+     "end": 367.551,
+     "text": "demand"
+    },
+    {
+     "start": 367.551,
+     "end": 367.712,
+     "text": "that"
+    },
+    {
+     "start": 367.712,
+     "end": 367.852,
+     "text": "their"
+    },
+    {
+     "start": 367.852,
+     "end": 368.232,
+     "text": "buildings"
+    },
+    {
+     "start": 368.232,
+     "end": 368.432,
+     "text": "get"
+    },
+    {
+     "start": 368.432,
+     "end": 368.572,
+     "text": "on"
+    },
+    {
+     "start": 368.572,
+     "end": 369.132,
+     "text": "board."
+    }
+   ]
+  },
+  {
+   "start": 369.111,
+   "end": 369.732,
+   "text": "The",
+   "words": [
+    {
+     "start": 369.111,
+     "end": 369.732,
+     "text": "The"
+    }
+   ]
+  },
+  {
+   "start": 369.732,
+   "end": 371.412,
+   "text": "other assumption is that people will",
+   "words": [
+    {
+     "start": 369.732,
+     "end": 369.972,
+     "text": "other"
+    },
+    {
+     "start": 369.972,
+     "end": 370.432,
+     "text": "assumption"
+    },
+    {
+     "start": 370.432,
+     "end": 370.752,
+     "text": "is"
+    },
+    {
+     "start": 370.752,
+     "end": 370.912,
+     "text": "that"
+    },
+    {
+     "start": 370.912,
+     "end": 371.212,
+     "text": "people"
+    },
+    {
+     "start": 370.832,
+     "end": 371.412,
+     "text": "will"
+    }
+   ]
+  },
+  {
+   "start": 371.412,
+   "end": 372.892,
+   "text": "actually understand the ad.",
+   "words": [
+    {
+     "start": 371.412,
+     "end": 371.692,
+     "text": "actually"
+    },
+    {
+     "start": 371.692,
+     "end": 372.232,
+     "text": "understand"
+    },
+    {
+     "start": 372.232,
+     "end": 372.432,
+     "text": "the"
+    },
+    {
+     "start": 372.432,
+     "end": 372.892,
+     "text": "ad."
+    }
+   ]
+  },
+  {
+   "start": 372.592,
+   "end": 374.212,
+   "text": "Does this make sense to you?",
+   "words": [
+    {
+     "start": 372.592,
+     "end": 373.212,
+     "text": "Does"
+    },
+    {
+     "start": 373.212,
+     "end": 373.352,
+     "text": "this"
+    },
+    {
+     "start": 373.352,
+     "end": 373.532,
+     "text": "make"
+    },
+    {
+     "start": 373.532,
+     "end": 373.752,
+     "text": "sense"
+    },
+    {
+     "start": 373.752,
+     "end": 373.952,
+     "text": "to"
+    },
+    {
+     "start": 373.952,
+     "end": 374.212,
+     "text": "you?"
+    }
+   ]
+  },
+  {
+   "start": 373.832,
+   "end": 375.332,
+   "text": "Uh, no.",
+   "words": [
+    {
+     "start": 373.832,
+     "end": 374.731,
+     "text": "Uh,"
+    },
+    {
+     "start": 374.731,
+     "end": 375.332,
+     "text": "no."
+    }
+   ]
+  },
+  {
+   "start": 374.892,
+   "end": 376.957,
+   "text": "I mean, yeah, the building won't compost part.",
+   "words": [
+    {
+     "start": 374.892,
+     "end": 375.492,
+     "text": "I"
+    },
+    {
+     "start": 375.492,
+     "end": 375.692,
+     "text": "mean,"
+    },
+    {
+     "start": 375.692,
+     "end": 375.872,
+     "text": "yeah,"
+    },
+    {
+     "start": 375.872,
+     "end": 375.932,
+     "text": "the"
+    },
+    {
+     "start": 375.932,
+     "end": 376.192,
+     "text": "building"
+    },
+    {
+     "start": 376.192,
+     "end": 376.372,
+     "text": "won't"
+    },
+    {
+     "start": 376.377,
+     "end": 376.677,
+     "text": "compost"
+    },
+    {
+     "start": 376.677,
+     "end": 376.957,
+     "text": "part."
+    }
+   ]
+  },
+  {
+   "start": 376.957,
+   "end": 379.497,
+   "text": "The scrappy, I'm not quite sure what's going on.",
+   "words": [
+    {
+     "start": 376.957,
+     "end": 377.077,
+     "text": "The"
+    },
+    {
+     "start": 377.077,
+     "end": 377.877,
+     "text": "scrappy,"
+    },
+    {
+     "start": 377.777,
+     "end": 378.417,
+     "text": "I'm"
+    },
+    {
+     "start": 378.417,
+     "end": 378.517,
+     "text": "not"
+    },
+    {
+     "start": 378.517,
+     "end": 378.717,
+     "text": "quite"
+    },
+    {
+     "start": 378.717,
+     "end": 378.857,
+     "text": "sure"
+    },
+    {
+     "start": 378.857,
+     "end": 379.037,
+     "text": "what's"
+    },
+    {
+     "start": 379.037,
+     "end": 379.197,
+     "text": "going"
+    },
+    {
+     "start": 379.197,
+     "end": 379.497,
+     "text": "on."
+    }
+   ]
+  },
+  {
+   "start": 379.757,
+   "end": 382.477,
+   "text": "I think it's trying to make composting",
+   "words": [
+    {
+     "start": 379.757,
+     "end": 379.897,
+     "text": "I"
+    },
+    {
+     "start": 379.897,
+     "end": 380.037,
+     "text": "think"
+    },
+    {
+     "start": 380.037,
+     "end": 380.397,
+     "text": "it's"
+    },
+    {
+     "start": 380.397,
+     "end": 381.697,
+     "text": "trying"
+    },
+    {
+     "start": 381.697,
+     "end": 381.817,
+     "text": "to"
+    },
+    {
+     "start": 381.817,
+     "end": 381.957,
+     "text": "make"
+    },
+    {
+     "start": 381.517,
+     "end": 382.477,
+     "text": "composting"
+    }
+   ]
+  },
+  {
+   "start": 382.477,
+   "end": 382.837,
+   "text": "sexy,",
+   "words": [
+    {
+     "start": 382.477,
+     "end": 382.837,
+     "text": "sexy,"
+    }
+   ]
+  },
+  {
+   "start": 383.817,
+   "end": 384.937,
+   "text": "but it's failing.",
+   "words": [
+    {
+     "start": 383.817,
+     "end": 384.077,
+     "text": "but"
+    },
+    {
+     "start": 384.077,
+     "end": 384.417,
+     "text": "it's"
+    },
+    {
+     "start": 384.417,
+     "end": 384.937,
+     "text": "failing."
+    }
+   ]
+  },
+  {
+   "start": 384.937,
+   "end": 386.097,
+   "text": "It's supposed to be a",
+   "words": [
+    {
+     "start": 384.937,
+     "end": 385.497,
+     "text": "It's"
+    },
+    {
+     "start": 385.497,
+     "end": 385.697,
+     "text": "supposed"
+    },
+    {
+     "start": 385.697,
+     "end": 385.817,
+     "text": "to"
+    },
+    {
+     "start": 385.817,
+     "end": 385.957,
+     "text": "be"
+    },
+    {
+     "start": 385.477,
+     "end": 386.097,
+     "text": "a"
+    }
+   ]
+  },
+  {
+   "start": 386.097,
+   "end": 388.297,
+   "text": "reference to, like, the Sex and the City bus",
+   "words": [
+    {
+     "start": 386.097,
+     "end": 386.377,
+     "text": "reference"
+    },
+    {
+     "start": 386.377,
+     "end": 386.697,
+     "text": "to,"
+    },
+    {
+     "start": 386.697,
+     "end": 387.017,
+     "text": "like,"
+    },
+    {
+     "start": 387.017,
+     "end": 387.157,
+     "text": "the"
+    },
+    {
+     "start": 387.157,
+     "end": 387.497,
+     "text": "Sex"
+    },
+    {
+     "start": 387.497,
+     "end": 387.637,
+     "text": "and"
+    },
+    {
+     "start": 387.637,
+     "end": 387.737,
+     "text": "the"
+    },
+    {
+     "start": 387.737,
+     "end": 387.937,
+     "text": "City"
+    },
+    {
+     "start": 387.477,
+     "end": 388.297,
+     "text": "bus"
+    }
+   ]
+  },
+  {
+   "start": 388.297,
+   "end": 389.477,
+   "text": "with, like,",
+   "words": [
+    {
+     "start": 388.297,
+     "end": 388.697,
+     "text": "with,"
+    },
+    {
+     "start": 388.697,
+     "end": 389.477,
+     "text": "like,"
+    }
+   ]
+  },
+  {
+   "start": 389.877,
+   "end": 391.557,
+   "text": "Carrie on the bus, but it's",
+   "words": [
+    {
+     "start": 389.877,
+     "end": 390.177,
+     "text": "Carrie"
+    },
+    {
+     "start": 390.177,
+     "end": 390.457,
+     "text": "on"
+    },
+    {
+     "start": 390.457,
+     "end": 390.617,
+     "text": "the"
+    },
+    {
+     "start": 390.617,
+     "end": 390.997,
+     "text": "bus,"
+    },
+    {
+     "start": 390.997,
+     "end": 391.277,
+     "text": "but"
+    },
+    {
+     "start": 391.277,
+     "end": 391.557,
+     "text": "it's"
+    }
+   ]
+  },
+  {
+   "start": 391.077,
+   "end": 392.577,
+   "text": "composting.",
+   "words": [
+    {
+     "start": 391.077,
+     "end": 392.577,
+     "text": "composting."
+    }
+   ]
+  },
+  {
+   "start": 392.577,
+   "end": 394.317,
+   "text": "Makes no sense.",
+   "words": [
+    {
+     "start": 392.577,
+     "end": 393.597,
+     "text": "Makes"
+    },
+    {
+     "start": 393.597,
+     "end": 393.817,
+     "text": "no"
+    },
+    {
+     "start": 393.817,
+     "end": 394.317,
+     "text": "sense."
+    }
+   ]
+  },
+  {
+   "start": 394.397,
+   "end": 394.637,
+   "text": "Okay.",
+   "words": [
+    {
+     "start": 394.397,
+     "end": 394.637,
+     "text": "Okay."
+    }
+   ]
+  },
+  {
+   "start": 394.637,
+   "end": 396.397,
+   "text": "Yeah, I'm not really understanding",
+   "words": [
+    {
+     "start": 394.637,
+     "end": 395.617,
+     "text": "Yeah,"
+    },
+    {
+     "start": 395.617,
+     "end": 395.777,
+     "text": "I'm"
+    },
+    {
+     "start": 395.777,
+     "end": 395.877,
+     "text": "not"
+    },
+    {
+     "start": 395.877,
+     "end": 396.017,
+     "text": "really"
+    },
+    {
+     "start": 395.557,
+     "end": 396.397,
+     "text": "understanding"
+    }
+   ]
+  },
+  {
+   "start": 396.397,
+   "end": 396.837,
+   "text": "the message.",
+   "words": [
+    {
+     "start": 396.397,
+     "end": 396.577,
+     "text": "the"
+    },
+    {
+     "start": 396.577,
+     "end": 396.837,
+     "text": "message."
+    }
+   ]
+  },
+  {
+   "start": 397.997,
+   "end": 400.137,
+   "text": "Now, if that ad won't get New Yorkers to care about",
+   "words": [
+    {
+     "start": 397.997,
+     "end": 398.177,
+     "text": "Now,"
+    },
+    {
+     "start": 398.177,
+     "end": 398.297,
+     "text": "if"
+    },
+    {
+     "start": 398.297,
+     "end": 398.437,
+     "text": "that"
+    },
+    {
+     "start": 398.437,
+     "end": 398.737,
+     "text": "ad"
+    },
+    {
+     "start": 398.737,
+     "end": 398.917,
+     "text": "won't"
+    },
+    {
+     "start": 398.917,
+     "end": 399.137,
+     "text": "get"
+    },
+    {
+     "start": 399.137,
+     "end": 399.317,
+     "text": "New"
+    },
+    {
+     "start": 399.317,
+     "end": 399.577,
+     "text": "Yorkers"
+    },
+    {
+     "start": 399.577,
+     "end": 399.737,
+     "text": "to"
+    },
+    {
+     "start": 399.737,
+     "end": 399.917,
+     "text": "care"
+    },
+    {
+     "start": 399.457,
+     "end": 400.137,
+     "text": "about"
+    }
+   ]
+  },
+  {
+   "start": 400.137,
+   "end": 401.817,
+   "text": "composting, well, anything,",
+   "words": [
+    {
+     "start": 400.137,
+     "end": 401.317,
+     "text": "composting,"
+    },
+    {
+     "start": 401.317,
+     "end": 401.337,
+     "text": "well,"
+    },
+    {
+     "start": 401.337,
+     "end": 401.817,
+     "text": "anything,"
+    }
+   ]
+  },
+  {
+   "start": 405.597,
+   "end": 408.057,
+   "text": "New Yorkers in general ignore rules.",
+   "words": [
+    {
+     "start": 405.597,
+     "end": 405.857,
+     "text": "New"
+    },
+    {
+     "start": 405.857,
+     "end": 406.257,
+     "text": "Yorkers"
+    },
+    {
+     "start": 406.257,
+     "end": 406.417,
+     "text": "in"
+    },
+    {
+     "start": 406.417,
+     "end": 406.737,
+     "text": "general"
+    },
+    {
+     "start": 406.737,
+     "end": 407.477,
+     "text": "ignore"
+    },
+    {
+     "start": 407.477,
+     "end": 408.057,
+     "text": "rules."
+    }
+   ]
+  },
+  {
+   "start": 407.957,
+   "end": 410.217,
+   "text": "I don't know if you've ever tried to cross a street here.",
+   "words": [
+    {
+     "start": 407.957,
+     "end": 408.077,
+     "text": "I"
+    },
+    {
+     "start": 408.077,
+     "end": 408.217,
+     "text": "don't"
+    },
+    {
+     "start": 408.217,
+     "end": 408.257,
+     "text": "know"
+    },
+    {
+     "start": 408.257,
+     "end": 408.357,
+     "text": "if"
+    },
+    {
+     "start": 408.357,
+     "end": 408.497,
+     "text": "you've"
+    },
+    {
+     "start": 408.497,
+     "end": 408.617,
+     "text": "ever"
+    },
+    {
+     "start": 408.617,
+     "end": 409.077,
+     "text": "tried"
+    },
+    {
+     "start": 409.077,
+     "end": 409.217,
+     "text": "to"
+    },
+    {
+     "start": 409.217,
+     "end": 409.417,
+     "text": "cross"
+    },
+    {
+     "start": 409.417,
+     "end": 409.597,
+     "text": "a"
+    },
+    {
+     "start": 409.597,
+     "end": 409.817,
+     "text": "street"
+    },
+    {
+     "start": 409.817,
+     "end": 410.217,
+     "text": "here."
+    }
+   ]
+  },
+  {
+   "start": 410.357,
+   "end": 414.137,
+   "text": "I think people here view the walk and don't walk signs as suggestions.",
+   "words": [
+    {
+     "start": 410.357,
+     "end": 410.517,
+     "text": "I"
+    },
+    {
+     "start": 410.517,
+     "end": 410.637,
+     "text": "think"
+    },
+    {
+     "start": 410.637,
+     "end": 410.917,
+     "text": "people"
+    },
+    {
+     "start": 410.917,
+     "end": 411.097,
+     "text": "here"
+    },
+    {
+     "start": 411.097,
+     "end": 411.337,
+     "text": "view"
+    },
+    {
+     "start": 411.337,
+     "end": 411.677,
+     "text": "the"
+    },
+    {
+     "start": 411.677,
+     "end": 412.097,
+     "text": "walk"
+    },
+    {
+     "start": 412.097,
+     "end": 412.277,
+     "text": "and"
+    },
+    {
+     "start": 412.277,
+     "end": 412.517,
+     "text": "don't"
+    },
+    {
+     "start": 412.517,
+     "end": 412.757,
+     "text": "walk"
+    },
+    {
+     "start": 412.757,
+     "end": 413.177,
+     "text": "signs"
+    },
+    {
+     "start": 413.177,
+     "end": 413.497,
+     "text": "as"
+    },
+    {
+     "start": 413.497,
+     "end": 414.137,
+     "text": "suggestions."
+    }
+   ]
+  },
+  {
+   "start": 415.017,
+   "end": 417.937,
+   "text": "And I think that's how they deal with recycling.",
+   "words": [
+    {
+     "start": 415.017,
+     "end": 415.237,
+     "text": "And"
+    },
+    {
+     "start": 415.237,
+     "end": 415.377,
+     "text": "I"
+    },
+    {
+     "start": 415.377,
+     "end": 415.537,
+     "text": "think"
+    },
+    {
+     "start": 415.537,
+     "end": 415.957,
+     "text": "that's"
+    },
+    {
+     "start": 415.957,
+     "end": 416.137,
+     "text": "how"
+    },
+    {
+     "start": 416.137,
+     "end": 416.317,
+     "text": "they"
+    },
+    {
+     "start": 416.317,
+     "end": 416.597,
+     "text": "deal"
+    },
+    {
+     "start": 416.597,
+     "end": 416.897,
+     "text": "with"
+    },
+    {
+     "start": 416.897,
+     "end": 417.937,
+     "text": "recycling."
+    }
+   ]
+  },
+  {
+   "start": 418.277,
+   "end": 420.737,
+   "text": "But I also think it's a pretty fast-paced place.",
+   "words": [
+    {
+     "start": 418.277,
+     "end": 418.417,
+     "text": "But"
+    },
+    {
+     "start": 418.417,
+     "end": 418.517,
+     "text": "I"
+    },
+    {
+     "start": 418.517,
+     "end": 418.717,
+     "text": "also"
+    },
+    {
+     "start": 418.717,
+     "end": 418.997,
+     "text": "think"
+    },
+    {
+     "start": 418.997,
+     "end": 419.237,
+     "text": "it's"
+    },
+    {
+     "start": 419.237,
+     "end": 419.317,
+     "text": "a"
+    },
+    {
+     "start": 419.317,
+     "end": 419.497,
+     "text": "pretty"
+    },
+    {
+     "start": 419.497,
+     "end": 420.157,
+     "text": "fast-paced"
+    },
+    {
+     "start": 420.157,
+     "end": 420.737,
+     "text": "place."
+    }
+   ]
+  },
+  {
+   "start": 421.457,
+   "end": 423.457,
+   "text": "And for a lot of people, they just can't be bothered.",
+   "words": [
+    {
+     "start": 421.457,
+     "end": 421.757,
+     "text": "And"
+    },
+    {
+     "start": 421.757,
+     "end": 421.897,
+     "text": "for"
+    },
+    {
+     "start": 421.897,
+     "end": 421.997,
+     "text": "a"
+    },
+    {
+     "start": 421.997,
+     "end": 422.077,
+     "text": "lot"
+    },
+    {
+     "start": 422.077,
+     "end": 422.197,
+     "text": "of"
+    },
+    {
+     "start": 422.197,
+     "end": 422.557,
+     "text": "people,"
+    },
+    {
+     "start": 422.557,
+     "end": 422.637,
+     "text": "they"
+    },
+    {
+     "start": 422.637,
+     "end": 422.777,
+     "text": "just"
+    },
+    {
+     "start": 422.777,
+     "end": 422.977,
+     "text": "can't"
+    },
+    {
+     "start": 422.977,
+     "end": 423.097,
+     "text": "be"
+    },
+    {
+     "start": 423.097,
+     "end": 423.457,
+     "text": "bothered."
+    }
+   ]
+  },
+  {
+   "start": 424.337,
+   "end": 426.677,
+   "text": "It takes a lot to change people's habits.",
+   "words": [
+    {
+     "start": 424.337,
+     "end": 424.597,
+     "text": "It"
+    },
+    {
+     "start": 424.597,
+     "end": 424.837,
+     "text": "takes"
+    },
+    {
+     "start": 424.837,
+     "end": 425.017,
+     "text": "a"
+    },
+    {
+     "start": 425.017,
+     "end": 425.217,
+     "text": "lot"
+    },
+    {
+     "start": 425.217,
+     "end": 425.737,
+     "text": "to"
+    },
+    {
+     "start": 425.737,
+     "end": 425.997,
+     "text": "change"
+    },
+    {
+     "start": 425.997,
+     "end": 426.397,
+     "text": "people's"
+    },
+    {
+     "start": 426.397,
+     "end": 426.677,
+     "text": "habits."
+    }
+   ]
+  },
+  {
+   "start": 427.457,
+   "end": 435.597,
+   "text": "But I still think that getting people in their home to separate the garbage into all the different categories has never",
+   "words": [
+    {
+     "start": 427.457,
+     "end": 427.557,
+     "text": "But"
+    },
+    {
+     "start": 427.557,
+     "end": 427.717,
+     "text": "I"
+    },
+    {
+     "start": 427.717,
+     "end": 427.997,
+     "text": "still"
+    },
+    {
+     "start": 427.997,
+     "end": 428.357,
+     "text": "think"
+    },
+    {
+     "start": 428.357,
+     "end": 428.917,
+     "text": "that"
+    },
+    {
+     "start": 428.917,
+     "end": 429.737,
+     "text": "getting"
+    },
+    {
+     "start": 429.737,
+     "end": 430.177,
+     "text": "people"
+    },
+    {
+     "start": 430.177,
+     "end": 430.537,
+     "text": "in"
+    },
+    {
+     "start": 430.537,
+     "end": 430.717,
+     "text": "their"
+    },
+    {
+     "start": 430.717,
+     "end": 431.037,
+     "text": "home"
+    },
+    {
+     "start": 431.037,
+     "end": 431.857,
+     "text": "to"
+    },
+    {
+     "start": 431.857,
+     "end": 432.537,
+     "text": "separate"
+    },
+    {
+     "start": 432.537,
+     "end": 432.837,
+     "text": "the"
+    },
+    {
+     "start": 432.837,
+     "end": 433.177,
+     "text": "garbage"
+    },
+    {
+     "start": 433.177,
+     "end": 433.397,
+     "text": "into"
+    },
+    {
+     "start": 433.397,
+     "end": 433.597,
+     "text": "all"
+    },
+    {
+     "start": 433.597,
+     "end": 433.737,
+     "text": "the"
+    },
+    {
+     "start": 433.737,
+     "end": 433.917,
+     "text": "different"
+    },
+    {
+     "start": 433.917,
+     "end": 434.537,
+     "text": "categories"
+    },
+    {
+     "start": 434.537,
+     "end": 435.377,
+     "text": "has"
+    },
+    {
+     "start": 435.377,
+     "end": 435.597,
+     "text": "never"
+    }
+   ]
+  },
+  {
+   "start": 435.597,
+   "end": 439.257,
+   "text": "worked, will never work, and it'll never be 100%.",
+   "words": [
+    {
+     "start": 435.597,
+     "end": 436.057,
+     "text": "worked,"
+    },
+    {
+     "start": 436.057,
+     "end": 436.777,
+     "text": "will"
+    },
+    {
+     "start": 436.777,
+     "end": 437.037,
+     "text": "never"
+    },
+    {
+     "start": 437.037,
+     "end": 437.457,
+     "text": "work,"
+    },
+    {
+     "start": 437.457,
+     "end": 438.097,
+     "text": "and"
+    },
+    {
+     "start": 438.097,
+     "end": 438.257,
+     "text": "it'll"
+    },
+    {
+     "start": 438.257,
+     "end": 438.457,
+     "text": "never"
+    },
+    {
+     "start": 438.457,
+     "end": 438.597,
+     "text": "be"
+    },
+    {
+     "start": 438.597,
+     "end": 439.257,
+     "text": "100%."
+    }
+   ]
+  },
+  {
+   "start": 439.897,
+   "end": 447.617,
+   "text": "Cohen believes that in the future, AI might solve our trash-sorting woes, meaning we can toss aside the brown bins for good.",
+   "words": [
+    {
+     "start": 439.897,
+     "end": 440.117,
+     "text": "Cohen"
+    },
+    {
+     "start": 440.117,
+     "end": 440.617,
+     "text": "believes"
+    },
+    {
+     "start": 440.617,
+     "end": 440.917,
+     "text": "that"
+    },
+    {
+     "start": 440.917,
+     "end": 441.057,
+     "text": "in"
+    },
+    {
+     "start": 441.057,
+     "end": 441.157,
+     "text": "the"
+    },
+    {
+     "start": 441.157,
+     "end": 441.977,
+     "text": "future,"
+    },
+    {
+     "start": 441.977,
+     "end": 442.197,
+     "text": "AI"
+    },
+    {
+     "start": 442.197,
+     "end": 442.557,
+     "text": "might"
+    },
+    {
+     "start": 442.557,
+     "end": 442.757,
+     "text": "solve"
+    },
+    {
+     "start": 442.757,
+     "end": 442.957,
+     "text": "our"
+    },
+    {
+     "start": 442.957,
+     "end": 443.817,
+     "text": "trash-sorting"
+    },
+    {
+     "start": 443.817,
+     "end": 444.377,
+     "text": "woes,"
+    },
+    {
+     "start": 444.377,
+     "end": 445.017,
+     "text": "meaning"
+    },
+    {
+     "start": 445.017,
+     "end": 445.277,
+     "text": "we"
+    },
+    {
+     "start": 445.277,
+     "end": 445.417,
+     "text": "can"
+    },
+    {
+     "start": 445.417,
+     "end": 445.657,
+     "text": "toss"
+    },
+    {
+     "start": 445.657,
+     "end": 446.157,
+     "text": "aside"
+    },
+    {
+     "start": 446.157,
+     "end": 446.437,
+     "text": "the"
+    },
+    {
+     "start": 446.437,
+     "end": 446.677,
+     "text": "brown"
+    },
+    {
+     "start": 446.677,
+     "end": 446.997,
+     "text": "bins"
+    },
+    {
+     "start": 446.997,
+     "end": 447.277,
+     "text": "for"
+    },
+    {
+     "start": 447.277,
+     "end": 447.617,
+     "text": "good."
+    }
+   ]
+  },
+  {
+   "start": 447.917,
+   "end": 452.457,
+   "text": "We'll have a mixed stream that will go to essentially a waste mining facility",
+   "words": [
+    {
+     "start": 447.917,
+     "end": 448.077,
+     "text": "We'll"
+    },
+    {
+     "start": 448.077,
+     "end": 448.217,
+     "text": "have"
+    },
+    {
+     "start": 448.217,
+     "end": 448.377,
+     "text": "a"
+    },
+    {
+     "start": 448.377,
+     "end": 448.597,
+     "text": "mixed"
+    },
+    {
+     "start": 448.597,
+     "end": 448.917,
+     "text": "stream"
+    },
+    {
+     "start": 448.917,
+     "end": 449.217,
+     "text": "that"
+    },
+    {
+     "start": 449.217,
+     "end": 449.357,
+     "text": "will"
+    },
+    {
+     "start": 449.357,
+     "end": 449.617,
+     "text": "go"
+    },
+    {
+     "start": 449.617,
+     "end": 449.937,
+     "text": "to"
+    },
+    {
+     "start": 449.937,
+     "end": 450.457,
+     "text": "essentially"
+    },
+    {
+     "start": 450.457,
+     "end": 451.297,
+     "text": "a"
+    },
+    {
+     "start": 451.297,
+     "end": 451.597,
+     "text": "waste"
+    },
+    {
+     "start": 451.597,
+     "end": 451.997,
+     "text": "mining"
+    },
+    {
+     "start": 451.997,
+     "end": 452.457,
+     "text": "facility"
+    }
+   ]
+  },
+  {
+   "start": 452.557,
+   "end": 456.997,
+   "text": "where artificial intelligence and robotics will do the separation for us",
+   "words": [
+    {
+     "start": 452.557,
+     "end": 453.457,
+     "text": "where"
+    },
+    {
+     "start": 453.457,
+     "end": 453.817,
+     "text": "artificial"
+    },
+    {
+     "start": 453.817,
+     "end": 454.537,
+     "text": "intelligence"
+    },
+    {
+     "start": 454.537,
+     "end": 454.817,
+     "text": "and"
+    },
+    {
+     "start": 454.817,
+     "end": 455.217,
+     "text": "robotics"
+    },
+    {
+     "start": 455.217,
+     "end": 455.537,
+     "text": "will"
+    },
+    {
+     "start": 455.537,
+     "end": 455.677,
+     "text": "do"
+    },
+    {
+     "start": 455.677,
+     "end": 455.837,
+     "text": "the"
+    },
+    {
+     "start": 455.837,
+     "end": 456.157,
+     "text": "separation"
+    },
+    {
+     "start": 456.157,
+     "end": 456.697,
+     "text": "for"
+    },
+    {
+     "start": 456.697,
+     "end": 456.997,
+     "text": "us"
+    }
+   ]
+  },
+  {
+   "start": 457.037,
+   "end": 460.077,
+   "text": "and try to extract the value out of the waste stream",
+   "words": [
+    {
+     "start": 457.037,
+     "end": 457.717,
+     "text": "and"
+    },
+    {
+     "start": 457.717,
+     "end": 457.857,
+     "text": "try"
+    },
+    {
+     "start": 457.857,
+     "end": 457.997,
+     "text": "to"
+    },
+    {
+     "start": 457.997,
+     "end": 458.377,
+     "text": "extract"
+    },
+    {
+     "start": 458.377,
+     "end": 458.657,
+     "text": "the"
+    },
+    {
+     "start": 458.657,
+     "end": 459.057,
+     "text": "value"
+    },
+    {
+     "start": 459.057,
+     "end": 459.317,
+     "text": "out"
+    },
+    {
+     "start": 459.317,
+     "end": 459.397,
+     "text": "of"
+    },
+    {
+     "start": 459.397,
+     "end": 459.497,
+     "text": "the"
+    },
+    {
+     "start": 459.497,
+     "end": 459.777,
+     "text": "waste"
+    },
+    {
+     "start": 459.777,
+     "end": 460.077,
+     "text": "stream"
+    }
+   ]
+  },
+  {
+   "start": 460.117,
+   "end": 463.937,
+   "text": "so we don't have to pay a billion plus to get rid of the garbage.",
+   "words": [
+    {
+     "start": 460.117,
+     "end": 460.797,
+     "text": "so"
+    },
+    {
+     "start": 460.797,
+     "end": 460.917,
+     "text": "we"
+    },
+    {
+     "start": 460.917,
+     "end": 460.997,
+     "text": "don't"
+    },
+    {
+     "start": 460.997,
+     "end": 461.057,
+     "text": "have"
+    },
+    {
+     "start": 461.057,
+     "end": 461.177,
+     "text": "to"
+    },
+    {
+     "start": 461.177,
+     "end": 461.497,
+     "text": "pay"
+    },
+    {
+     "start": 461.497,
+     "end": 461.837,
+     "text": "a"
+    },
+    {
+     "start": 461.837,
+     "end": 462.097,
+     "text": "billion"
+    },
+    {
+     "start": 462.097,
+     "end": 462.437,
+     "text": "plus"
+    },
+    {
+     "start": 462.437,
+     "end": 462.837,
+     "text": "to"
+    },
+    {
+     "start": 462.837,
+     "end": 463.097,
+     "text": "get"
+    },
+    {
+     "start": 463.097,
+     "end": 463.217,
+     "text": "rid"
+    },
+    {
+     "start": 463.217,
+     "end": 463.297,
+     "text": "of"
+    },
+    {
+     "start": 463.297,
+     "end": 463.397,
+     "text": "the"
+    },
+    {
+     "start": 463.397,
+     "end": 463.937,
+     "text": "garbage."
+    }
+   ]
+  },
+  {
+   "start": 463.817,
+   "end": 465.697,
+   "text": "Maybe we can even get paid for the garbage.",
+   "words": [
+    {
+     "start": 463.817,
+     "end": 464.077,
+     "text": "Maybe"
+    },
+    {
+     "start": 464.077,
+     "end": 464.397,
+     "text": "we"
+    },
+    {
+     "start": 464.397,
+     "end": 464.517,
+     "text": "can"
+    },
+    {
+     "start": 464.517,
+     "end": 464.677,
+     "text": "even"
+    },
+    {
+     "start": 464.677,
+     "end": 464.837,
+     "text": "get"
+    },
+    {
+     "start": 464.837,
+     "end": 465.117,
+     "text": "paid"
+    },
+    {
+     "start": 465.117,
+     "end": 465.297,
+     "text": "for"
+    },
+    {
+     "start": 465.297,
+     "end": 465.377,
+     "text": "the"
+    },
+    {
+     "start": 465.377,
+     "end": 465.697,
+     "text": "garbage."
+    }
+   ]
+  },
+  {
+   "start": 466.257,
+   "end": 472.037,
+   "text": "So what you want to do is use technology to do the sorting that people don't have the patience for.",
+   "words": [
+    {
+     "start": 466.257,
+     "end": 466.437,
+     "text": "So"
+    },
+    {
+     "start": 466.437,
+     "end": 466.677,
+     "text": "what"
+    },
+    {
+     "start": 466.677,
+     "end": 466.797,
+     "text": "you"
+    },
+    {
+     "start": 466.797,
+     "end": 466.937,
+     "text": "want"
+    },
+    {
+     "start": 466.937,
+     "end": 467.037,
+     "text": "to"
+    },
+    {
+     "start": 467.037,
+     "end": 467.317,
+     "text": "do"
+    },
+    {
+     "start": 467.317,
+     "end": 467.637,
+     "text": "is"
+    },
+    {
+     "start": 467.637,
+     "end": 467.897,
+     "text": "use"
+    },
+    {
+     "start": 467.897,
+     "end": 468.377,
+     "text": "technology"
+    },
+    {
+     "start": 468.377,
+     "end": 469.197,
+     "text": "to"
+    },
+    {
+     "start": 469.197,
+     "end": 469.337,
+     "text": "do"
+    },
+    {
+     "start": 469.337,
+     "end": 469.517,
+     "text": "the"
+    },
+    {
+     "start": 469.517,
+     "end": 469.817,
+     "text": "sorting"
+    },
+    {
+     "start": 469.817,
+     "end": 470.277,
+     "text": "that"
+    },
+    {
+     "start": 470.277,
+     "end": 470.577,
+     "text": "people"
+    },
+    {
+     "start": 470.577,
+     "end": 470.917,
+     "text": "don't"
+    },
+    {
+     "start": 470.917,
+     "end": 471.077,
+     "text": "have"
+    },
+    {
+     "start": 471.077,
+     "end": 471.237,
+     "text": "the"
+    },
+    {
+     "start": 471.237,
+     "end": 471.577,
+     "text": "patience"
+    },
+    {
+     "start": 471.577,
+     "end": 472.037,
+     "text": "for."
+    }
+   ]
+  },
+  {
+   "start": 472.377,
+   "end": 475.097,
+   "text": "Now, having a robot sort through trash would be great,",
+   "words": [
+    {
+     "start": 472.377,
+     "end": 472.597,
+     "text": "Now,"
+    },
+    {
+     "start": 472.597,
+     "end": 472.837,
+     "text": "having"
+    },
+    {
+     "start": 472.837,
+     "end": 472.977,
+     "text": "a"
+    },
+    {
+     "start": 472.977,
+     "end": 473.337,
+     "text": "robot"
+    },
+    {
+     "start": 473.337,
+     "end": 473.597,
+     "text": "sort"
+    },
+    {
+     "start": 473.597,
+     "end": 473.877,
+     "text": "through"
+    },
+    {
+     "start": 473.877,
+     "end": 474.197,
+     "text": "trash"
+    },
+    {
+     "start": 474.197,
+     "end": 474.557,
+     "text": "would"
+    },
+    {
+     "start": 474.557,
+     "end": 474.637,
+     "text": "be"
+    },
+    {
+     "start": 474.637,
+     "end": 475.097,
+     "text": "great,"
+    }
+   ]
+  },
+  {
+   "start": 475.337,
+   "end": 477.777,
+   "text": "but the technology is only in its early stages.",
+   "words": [
+    {
+     "start": 475.337,
+     "end": 475.457,
+     "text": "but"
+    },
+    {
+     "start": 475.457,
+     "end": 475.737,
+     "text": "the"
+    },
+    {
+     "start": 475.737,
+     "end": 476.117,
+     "text": "technology"
+    },
+    {
+     "start": 476.117,
+     "end": 476.517,
+     "text": "is"
+    },
+    {
+     "start": 476.517,
+     "end": 476.697,
+     "text": "only"
+    },
+    {
+     "start": 476.697,
+     "end": 476.897,
+     "text": "in"
+    },
+    {
+     "start": 476.897,
+     "end": 477.037,
+     "text": "its"
+    },
+    {
+     "start": 477.037,
+     "end": 477.297,
+     "text": "early"
+    },
+    {
+     "start": 477.297,
+     "end": 477.777,
+     "text": "stages."
+    }
+   ]
+  },
+  {
+   "start": 478.317,
+   "end": 481.617,
+   "text": "So for now, it's up to New Yorkers to separate their compost.",
+   "words": [
+    {
+     "start": 478.317,
+     "end": 478.577,
+     "text": "So"
+    },
+    {
+     "start": 478.577,
+     "end": 478.857,
+     "text": "for"
+    },
+    {
+     "start": 478.857,
+     "end": 479.217,
+     "text": "now,"
+    },
+    {
+     "start": 479.217,
+     "end": 479.317,
+     "text": "it's"
+    },
+    {
+     "start": 479.317,
+     "end": 479.437,
+     "text": "up"
+    },
+    {
+     "start": 479.437,
+     "end": 479.577,
+     "text": "to"
+    },
+    {
+     "start": 479.577,
+     "end": 479.737,
+     "text": "New"
+    },
+    {
+     "start": 479.737,
+     "end": 480.057,
+     "text": "Yorkers"
+    },
+    {
+     "start": 480.057,
+     "end": 480.237,
+     "text": "to"
+    },
+    {
+     "start": 480.237,
+     "end": 480.597,
+     "text": "separate"
+    },
+    {
+     "start": 480.597,
+     "end": 480.857,
+     "text": "their"
+    },
+    {
+     "start": 480.857,
+     "end": 481.617,
+     "text": "compost."
+    }
+   ]
+  },
+  {
+   "start": 481.877,
+   "end": 484.097,
+   "text": "And it's clear they aren't doing a very good job.",
+   "words": [
+    {
+     "start": 481.877,
+     "end": 482.017,
+     "text": "And"
+    },
+    {
+     "start": 482.017,
+     "end": 482.197,
+     "text": "it's"
+    },
+    {
+     "start": 482.197,
+     "end": 482.457,
+     "text": "clear"
+    },
+    {
+     "start": 482.457,
+     "end": 482.677,
+     "text": "they"
+    },
+    {
+     "start": 482.677,
+     "end": 482.937,
+     "text": "aren't"
+    },
+    {
+     "start": 482.937,
+     "end": 483.117,
+     "text": "doing"
+    },
+    {
+     "start": 483.117,
+     "end": 483.277,
+     "text": "a"
+    },
+    {
+     "start": 483.277,
+     "end": 483.477,
+     "text": "very"
+    },
+    {
+     "start": 483.477,
+     "end": 483.677,
+     "text": "good"
+    },
+    {
+     "start": 483.677,
+     "end": 484.097,
+     "text": "job."
+    }
+   ]
+  },
+  {
+   "start": 484.577,
+   "end": 488.417,
+   "text": "And yet, New York seems determined to keep its composting program going,",
+   "words": [
+    {
+     "start": 484.577,
+     "end": 484.737,
+     "text": "And"
+    },
+    {
+     "start": 484.737,
+     "end": 485.277,
+     "text": "yet,"
+    },
+    {
+     "start": 485.277,
+     "end": 485.337,
+     "text": "New"
+    },
+    {
+     "start": 485.337,
+     "end": 485.477,
+     "text": "York"
+    },
+    {
+     "start": 485.477,
+     "end": 485.757,
+     "text": "seems"
+    },
+    {
+     "start": 485.757,
+     "end": 486.197,
+     "text": "determined"
+    },
+    {
+     "start": 486.197,
+     "end": 486.657,
+     "text": "to"
+    },
+    {
+     "start": 486.657,
+     "end": 486.837,
+     "text": "keep"
+    },
+    {
+     "start": 486.837,
+     "end": 487.037,
+     "text": "its"
+    },
+    {
+     "start": 487.037,
+     "end": 487.677,
+     "text": "composting"
+    },
+    {
+     "start": 487.677,
+     "end": 487.977,
+     "text": "program"
+    },
+    {
+     "start": 487.977,
+     "end": 488.417,
+     "text": "going,"
+    }
+   ]
+  },
+  {
+   "start": 488.977,
+   "end": 495.017,
+   "text": "with more fines, confusing PSAs, taxpayer funds, and yes, reminders from Scrappy.",
+   "words": [
+    {
+     "start": 488.977,
+     "end": 489.117,
+     "text": "with"
+    },
+    {
+     "start": 489.117,
+     "end": 489.297,
+     "text": "more"
+    },
+    {
+     "start": 489.297,
+     "end": 490.057,
+     "text": "fines,"
+    },
+    {
+     "start": 490.057,
+     "end": 490.477,
+     "text": "confusing"
+    },
+    {
+     "start": 490.477,
+     "end": 491.657,
+     "text": "PSAs,"
+    },
+    {
+     "start": 491.657,
+     "end": 492.197,
+     "text": "taxpayer"
+    },
+    {
+     "start": 492.197,
+     "end": 492.857,
+     "text": "funds,"
+    },
+    {
+     "start": 492.857,
+     "end": 493.277,
+     "text": "and"
+    },
+    {
+     "start": 493.277,
+     "end": 493.777,
+     "text": "yes,"
+    },
+    {
+     "start": 493.777,
+     "end": 494.177,
+     "text": "reminders"
+    },
+    {
+     "start": 494.177,
+     "end": 494.537,
+     "text": "from"
+    },
+    {
+     "start": 494.537,
+     "end": 495.017,
+     "text": "Scrappy."
+    }
+   ]
+  }
+ ],
+ "language": "English",
+ "backend": "groq",
+ "model": "whisper-large-v3-turbo",
+ "source_duration": 502.503039,
+ "chunk_count": 1,
+ "has_word_timings": true
+}

@@ -1,0 +1,7258 @@
+{
+ "segments": [
+  {
+   "start": 0.34,
+   "end": 2.52,
+   "text": "Your family tree begins with a simple rule.",
+   "words": [
+    {
+     "start": 0.34,
+     "end": 0.46,
+     "text": "Your"
+    },
+    {
+     "start": 0.46,
+     "end": 0.82,
+     "text": "family"
+    },
+    {
+     "start": 0.82,
+     "end": 1.06,
+     "text": "tree"
+    },
+    {
+     "start": 1.06,
+     "end": 1.44,
+     "text": "begins"
+    },
+    {
+     "start": 1.44,
+     "end": 1.68,
+     "text": "with"
+    },
+    {
+     "start": 1.68,
+     "end": 1.8,
+     "text": "a"
+    },
+    {
+     "start": 1.8,
+     "end": 2.08,
+     "text": "simple"
+    },
+    {
+     "start": 2.08,
+     "end": 2.52,
+     "text": "rule."
+    }
+   ]
+  },
+  {
+   "start": 2.52,
+   "end": 8.62,
+   "text": "You have two parents, four grandparents, eight great-grandparents, and 16 great-great-grandparents.",
+   "words": [
+    {
+     "start": 2.52,
+     "end": 2.98,
+     "text": "You"
+    },
+    {
+     "start": 2.98,
+     "end": 3.14,
+     "text": "have"
+    },
+    {
+     "start": 3.14,
+     "end": 3.3,
+     "text": "two"
+    },
+    {
+     "start": 3.3,
+     "end": 3.98,
+     "text": "parents,"
+    },
+    {
+     "start": 3.98,
+     "end": 4.1,
+     "text": "four"
+    },
+    {
+     "start": 4.1,
+     "end": 5.24,
+     "text": "grandparents,"
+    },
+    {
+     "start": 5.24,
+     "end": 5.38,
+     "text": "eight"
+    },
+    {
+     "start": 5.38,
+     "end": 6.78,
+     "text": "great-grandparents,"
+    },
+    {
+     "start": 6.78,
+     "end": 6.92,
+     "text": "and"
+    },
+    {
+     "start": 6.92,
+     "end": 7.3,
+     "text": "16"
+    },
+    {
+     "start": 7.3,
+     "end": 8.62,
+     "text": "great-great-grandparents."
+    }
+   ]
+  },
+  {
+   "start": 9.3,
+   "end": 12.62,
+   "text": "Every time you travel back another generation, the number doubles.",
+   "words": [
+    {
+     "start": 9.3,
+     "end": 9.54,
+     "text": "Every"
+    },
+    {
+     "start": 9.54,
+     "end": 9.7,
+     "text": "time"
+    },
+    {
+     "start": 9.7,
+     "end": 9.88,
+     "text": "you"
+    },
+    {
+     "start": 9.88,
+     "end": 10.14,
+     "text": "travel"
+    },
+    {
+     "start": 10.14,
+     "end": 10.48,
+     "text": "back"
+    },
+    {
+     "start": 10.48,
+     "end": 10.8,
+     "text": "another"
+    },
+    {
+     "start": 10.8,
+     "end": 11.7,
+     "text": "generation,"
+    },
+    {
+     "start": 11.7,
+     "end": 11.98,
+     "text": "the"
+    },
+    {
+     "start": 11.98,
+     "end": 12.28,
+     "text": "number"
+    },
+    {
+     "start": 12.28,
+     "end": 12.62,
+     "text": "doubles."
+    }
+   ]
+  },
+  {
+   "start": 12.62,
+   "end": 15.66,
+   "text": "At first, nothing about that seems unusual.",
+   "words": [
+    {
+     "start": 12.62,
+     "end": 13.48,
+     "text": "At"
+    },
+    {
+     "start": 13.48,
+     "end": 14.0,
+     "text": "first,"
+    },
+    {
+     "start": 14.0,
+     "end": 14.48,
+     "text": "nothing"
+    },
+    {
+     "start": 14.48,
+     "end": 14.74,
+     "text": "about"
+    },
+    {
+     "start": 14.74,
+     "end": 15.0,
+     "text": "that"
+    },
+    {
+     "start": 15.0,
+     "end": 15.3,
+     "text": "seems"
+    },
+    {
+     "start": 15.3,
+     "end": 15.66,
+     "text": "unusual."
+    }
+   ]
+  },
+  {
+   "start": 16.2,
+   "end": 19.0,
+   "text": "But keep going, and something extraordinary happens.",
+   "words": [
+    {
+     "start": 16.2,
+     "end": 16.38,
+     "text": "But"
+    },
+    {
+     "start": 16.38,
+     "end": 16.58,
+     "text": "keep"
+    },
+    {
+     "start": 16.58,
+     "end": 17.08,
+     "text": "going,"
+    },
+    {
+     "start": 17.08,
+     "end": 17.44,
+     "text": "and"
+    },
+    {
+     "start": 17.44,
+     "end": 17.78,
+     "text": "something"
+    },
+    {
+     "start": 17.78,
+     "end": 18.42,
+     "text": "extraordinary"
+    },
+    {
+     "start": 18.42,
+     "end": 19.0,
+     "text": "happens."
+    }
+   ]
+  },
+  {
+   "start": 19.9,
+   "end": 25.38,
+   "text": "Twenty generations ago, you should have more than one million ancestors in that single generation.",
+   "words": [
+    {
+     "start": 19.9,
+     "end": 20.2,
+     "text": "Twenty"
+    },
+    {
+     "start": 20.2,
+     "end": 20.84,
+     "text": "generations"
+    },
+    {
+     "start": 20.84,
+     "end": 21.44,
+     "text": "ago,"
+    },
+    {
+     "start": 21.44,
+     "end": 21.68,
+     "text": "you"
+    },
+    {
+     "start": 21.68,
+     "end": 21.86,
+     "text": "should"
+    },
+    {
+     "start": 21.86,
+     "end": 22.1,
+     "text": "have"
+    },
+    {
+     "start": 22.1,
+     "end": 22.36,
+     "text": "more"
+    },
+    {
+     "start": 22.36,
+     "end": 22.54,
+     "text": "than"
+    },
+    {
+     "start": 22.54,
+     "end": 22.7,
+     "text": "one"
+    },
+    {
+     "start": 22.7,
+     "end": 22.96,
+     "text": "million"
+    },
+    {
+     "start": 22.96,
+     "end": 23.64,
+     "text": "ancestors"
+    },
+    {
+     "start": 23.64,
+     "end": 24.08,
+     "text": "in"
+    },
+    {
+     "start": 24.08,
+     "end": 24.24,
+     "text": "that"
+    },
+    {
+     "start": 24.24,
+     "end": 24.52,
+     "text": "single"
+    },
+    {
+     "start": 24.52,
+     "end": 25.38,
+     "text": "generation."
+    }
+   ]
+  },
+  {
+   "start": 25.66,
+   "end": 28.44,
+   "text": "At 30 generations, more than 1 billion.",
+   "words": [
+    {
+     "start": 25.66,
+     "end": 25.82,
+     "text": "At"
+    },
+    {
+     "start": 25.82,
+     "end": 26.14,
+     "text": "30"
+    },
+    {
+     "start": 26.14,
+     "end": 27.4,
+     "text": "generations,"
+    },
+    {
+     "start": 27.4,
+     "end": 27.5,
+     "text": "more"
+    },
+    {
+     "start": 27.5,
+     "end": 27.72,
+     "text": "than"
+    },
+    {
+     "start": 27.72,
+     "end": 27.92,
+     "text": "1"
+    },
+    {
+     "start": 27.92,
+     "end": 28.44,
+     "text": "billion."
+    }
+   ]
+  },
+  {
+   "start": 28.82,
+   "end": 36.4,
+   "text": "And just after 37 generations, your family tree demands an astonishing 137 billion ancestors.",
+   "words": [
+    {
+     "start": 28.82,
+     "end": 29.0,
+     "text": "And"
+    },
+    {
+     "start": 29.0,
+     "end": 29.24,
+     "text": "just"
+    },
+    {
+     "start": 29.24,
+     "end": 29.62,
+     "text": "after"
+    },
+    {
+     "start": 29.62,
+     "end": 30.12,
+     "text": "37"
+    },
+    {
+     "start": 30.12,
+     "end": 31.52,
+     "text": "generations,"
+    },
+    {
+     "start": 31.52,
+     "end": 31.64,
+     "text": "your"
+    },
+    {
+     "start": 31.64,
+     "end": 31.96,
+     "text": "family"
+    },
+    {
+     "start": 31.96,
+     "end": 32.22,
+     "text": "tree"
+    },
+    {
+     "start": 32.22,
+     "end": 32.58,
+     "text": "demands"
+    },
+    {
+     "start": 32.58,
+     "end": 33.1,
+     "text": "an"
+    },
+    {
+     "start": 33.1,
+     "end": 33.62,
+     "text": "astonishing"
+    },
+    {
+     "start": 33.62,
+     "end": 35.34,
+     "text": "137"
+    },
+    {
+     "start": 35.34,
+     "end": 35.68,
+     "text": "billion"
+    },
+    {
+     "start": 35.68,
+     "end": 36.4,
+     "text": "ancestors."
+    }
+   ]
+  },
+  {
+   "start": 37.28,
+   "end": 40.98,
+   "text": "Now that's roughly a thousand years ago, and the problem is obvious.",
+   "words": [
+    {
+     "start": 37.28,
+     "end": 37.46,
+     "text": "Now"
+    },
+    {
+     "start": 37.46,
+     "end": 37.78,
+     "text": "that's"
+    },
+    {
+     "start": 37.78,
+     "end": 38.06,
+     "text": "roughly"
+    },
+    {
+     "start": 38.06,
+     "end": 38.2,
+     "text": "a"
+    },
+    {
+     "start": 38.2,
+     "end": 38.44,
+     "text": "thousand"
+    },
+    {
+     "start": 38.44,
+     "end": 38.7,
+     "text": "years"
+    },
+    {
+     "start": 38.7,
+     "end": 39.2,
+     "text": "ago,"
+    },
+    {
+     "start": 39.2,
+     "end": 39.56,
+     "text": "and"
+    },
+    {
+     "start": 39.56,
+     "end": 39.68,
+     "text": "the"
+    },
+    {
+     "start": 39.68,
+     "end": 40.0,
+     "text": "problem"
+    },
+    {
+     "start": 40.0,
+     "end": 40.22,
+     "text": "is"
+    },
+    {
+     "start": 40.22,
+     "end": 40.98,
+     "text": "obvious."
+    }
+   ]
+  },
+  {
+   "start": 41.1,
+   "end": 45.5,
+   "text": "Around this time, there weren't 137 billion people alive on Earth.",
+   "words": [
+    {
+     "start": 41.1,
+     "end": 41.42,
+     "text": "Around"
+    },
+    {
+     "start": 41.42,
+     "end": 41.68,
+     "text": "this"
+    },
+    {
+     "start": 41.68,
+     "end": 42.08,
+     "text": "time,"
+    },
+    {
+     "start": 42.08,
+     "end": 42.38,
+     "text": "there"
+    },
+    {
+     "start": 42.38,
+     "end": 42.7,
+     "text": "weren't"
+    },
+    {
+     "start": 42.7,
+     "end": 43.74,
+     "text": "137"
+    },
+    {
+     "start": 43.74,
+     "end": 44.06,
+     "text": "billion"
+    },
+    {
+     "start": 44.06,
+     "end": 44.4,
+     "text": "people"
+    },
+    {
+     "start": 44.4,
+     "end": 44.86,
+     "text": "alive"
+    },
+    {
+     "start": 44.86,
+     "end": 45.24,
+     "text": "on"
+    },
+    {
+     "start": 45.24,
+     "end": 45.5,
+     "text": "Earth."
+    }
+   ]
+  },
+  {
+   "start": 46.04,
+   "end": 51.96,
+   "text": "The entire world population around the year 1000 is estimated to have been only a few hundred million.",
+   "words": [
+    {
+     "start": 46.04,
+     "end": 46.24,
+     "text": "The"
+    },
+    {
+     "start": 46.24,
+     "end": 46.58,
+     "text": "entire"
+    },
+    {
+     "start": 46.58,
+     "end": 46.88,
+     "text": "world"
+    },
+    {
+     "start": 46.88,
+     "end": 47.56,
+     "text": "population"
+    },
+    {
+     "start": 47.56,
+     "end": 47.92,
+     "text": "around"
+    },
+    {
+     "start": 47.92,
+     "end": 48.08,
+     "text": "the"
+    },
+    {
+     "start": 48.08,
+     "end": 48.3,
+     "text": "year"
+    },
+    {
+     "start": 48.3,
+     "end": 48.64,
+     "text": "1000"
+    },
+    {
+     "start": 48.64,
+     "end": 49.5,
+     "text": "is"
+    },
+    {
+     "start": 49.5,
+     "end": 49.9,
+     "text": "estimated"
+    },
+    {
+     "start": 49.9,
+     "end": 50.18,
+     "text": "to"
+    },
+    {
+     "start": 50.18,
+     "end": 50.26,
+     "text": "have"
+    },
+    {
+     "start": 50.26,
+     "end": 50.46,
+     "text": "been"
+    },
+    {
+     "start": 50.46,
+     "end": 51.0,
+     "text": "only"
+    },
+    {
+     "start": 51.0,
+     "end": 51.2,
+     "text": "a"
+    },
+    {
+     "start": 51.2,
+     "end": 51.3,
+     "text": "few"
+    },
+    {
+     "start": 51.3,
+     "end": 51.52,
+     "text": "hundred"
+    },
+    {
+     "start": 51.52,
+     "end": 51.96,
+     "text": "million."
+    }
+   ]
+  },
+  {
+   "start": 52.52,
+   "end": 59.64,
+   "text": "and even in the entire course of human history, it is estimated that only around 117 billion people have ever lived.",
+   "words": [
+    {
+     "start": 52.52,
+     "end": 52.56,
+     "text": "and"
+    },
+    {
+     "start": 52.56,
+     "end": 52.84,
+     "text": "even"
+    },
+    {
+     "start": 52.84,
+     "end": 53.04,
+     "text": "in"
+    },
+    {
+     "start": 53.04,
+     "end": 53.14,
+     "text": "the"
+    },
+    {
+     "start": 53.14,
+     "end": 53.48,
+     "text": "entire"
+    },
+    {
+     "start": 53.48,
+     "end": 53.88,
+     "text": "course"
+    },
+    {
+     "start": 53.88,
+     "end": 54.04,
+     "text": "of"
+    },
+    {
+     "start": 54.04,
+     "end": 54.24,
+     "text": "human"
+    },
+    {
+     "start": 54.24,
+     "end": 54.84,
+     "text": "history,"
+    },
+    {
+     "start": 54.84,
+     "end": 55.18,
+     "text": "it"
+    },
+    {
+     "start": 55.18,
+     "end": 55.3,
+     "text": "is"
+    },
+    {
+     "start": 55.3,
+     "end": 55.76,
+     "text": "estimated"
+    },
+    {
+     "start": 55.76,
+     "end": 56.04,
+     "text": "that"
+    },
+    {
+     "start": 56.04,
+     "end": 56.22,
+     "text": "only"
+    },
+    {
+     "start": 56.22,
+     "end": 56.58,
+     "text": "around"
+    },
+    {
+     "start": 56.58,
+     "end": 57.82,
+     "text": "117"
+    },
+    {
+     "start": 57.82,
+     "end": 58.14,
+     "text": "billion"
+    },
+    {
+     "start": 58.14,
+     "end": 58.52,
+     "text": "people"
+    },
+    {
+     "start": 58.52,
+     "end": 59.04,
+     "text": "have"
+    },
+    {
+     "start": 59.04,
+     "end": 59.24,
+     "text": "ever"
+    },
+    {
+     "start": 59.24,
+     "end": 59.64,
+     "text": "lived."
+    }
+   ]
+  },
+  {
+   "start": 60.4,
+   "end": 63.62,
+   "text": "So how can you be descended from more people than ever existed?",
+   "words": [
+    {
+     "start": 60.4,
+     "end": 60.62,
+     "text": "So"
+    },
+    {
+     "start": 60.62,
+     "end": 60.78,
+     "text": "how"
+    },
+    {
+     "start": 60.78,
+     "end": 61.04,
+     "text": "can"
+    },
+    {
+     "start": 61.04,
+     "end": 61.14,
+     "text": "you"
+    },
+    {
+     "start": 61.14,
+     "end": 61.24,
+     "text": "be"
+    },
+    {
+     "start": 61.24,
+     "end": 61.64,
+     "text": "descended"
+    },
+    {
+     "start": 61.64,
+     "end": 62.04,
+     "text": "from"
+    },
+    {
+     "start": 62.04,
+     "end": 62.26,
+     "text": "more"
+    },
+    {
+     "start": 62.26,
+     "end": 62.56,
+     "text": "people"
+    },
+    {
+     "start": 62.56,
+     "end": 63.0,
+     "text": "than"
+    },
+    {
+     "start": 63.0,
+     "end": 63.2,
+     "text": "ever"
+    },
+    {
+     "start": 63.2,
+     "end": 63.62,
+     "text": "existed?"
+    }
+   ]
+  },
+  {
+   "start": 64.12,
+   "end": 65.8,
+   "text": "And what are the implications of this?",
+   "words": [
+    {
+     "start": 64.12,
+     "end": 64.3,
+     "text": "And"
+    },
+    {
+     "start": 64.3,
+     "end": 64.46,
+     "text": "what"
+    },
+    {
+     "start": 64.46,
+     "end": 64.56,
+     "text": "are"
+    },
+    {
+     "start": 64.56,
+     "end": 64.64,
+     "text": "the"
+    },
+    {
+     "start": 64.64,
+     "end": 65.04,
+     "text": "implications"
+    },
+    {
+     "start": 65.04,
+     "end": 65.44,
+     "text": "of"
+    },
+    {
+     "start": 65.44,
+     "end": 65.8,
+     "text": "this?"
+    }
+   ]
+  },
+  {
+   "start": 66.16,
+   "end": 71.62,
+   "text": "For instance, you hear a lot of people with European ancestry claim they are descended from Charlemagne,",
+   "words": [
+    {
+     "start": 66.16,
+     "end": 66.34,
+     "text": "For"
+    },
+    {
+     "start": 66.34,
+     "end": 67.1,
+     "text": "instance,"
+    },
+    {
+     "start": 67.1,
+     "end": 67.22,
+     "text": "you"
+    },
+    {
+     "start": 67.22,
+     "end": 67.38,
+     "text": "hear"
+    },
+    {
+     "start": 67.38,
+     "end": 67.52,
+     "text": "a"
+    },
+    {
+     "start": 67.52,
+     "end": 67.6,
+     "text": "lot"
+    },
+    {
+     "start": 67.6,
+     "end": 67.74,
+     "text": "of"
+    },
+    {
+     "start": 67.74,
+     "end": 67.96,
+     "text": "people"
+    },
+    {
+     "start": 67.96,
+     "end": 68.14,
+     "text": "with"
+    },
+    {
+     "start": 68.14,
+     "end": 68.5,
+     "text": "European"
+    },
+    {
+     "start": 68.5,
+     "end": 68.9,
+     "text": "ancestry"
+    },
+    {
+     "start": 68.9,
+     "end": 69.78,
+     "text": "claim"
+    },
+    {
+     "start": 69.78,
+     "end": 69.98,
+     "text": "they"
+    },
+    {
+     "start": 69.98,
+     "end": 70.08,
+     "text": "are"
+    },
+    {
+     "start": 70.08,
+     "end": 70.4,
+     "text": "descended"
+    },
+    {
+     "start": 70.4,
+     "end": 70.78,
+     "text": "from"
+    },
+    {
+     "start": 70.78,
+     "end": 71.62,
+     "text": "Charlemagne,"
+    }
+   ]
+  },
+  {
+   "start": 70.94,
+   "end": 74.26,
+   "text": "the king of the Franks over 1,000 years ago.",
+   "words": [
+    {
+     "start": 70.94,
+     "end": 72.02,
+     "text": "the"
+    },
+    {
+     "start": 72.02,
+     "end": 72.22,
+     "text": "king"
+    },
+    {
+     "start": 72.22,
+     "end": 72.38,
+     "text": "of"
+    },
+    {
+     "start": 72.38,
+     "end": 72.48,
+     "text": "the"
+    },
+    {
+     "start": 72.48,
+     "end": 72.92,
+     "text": "Franks"
+    },
+    {
+     "start": 72.92,
+     "end": 73.12,
+     "text": "over"
+    },
+    {
+     "start": 73.12,
+     "end": 73.68,
+     "text": "1,000"
+    },
+    {
+     "start": 73.68,
+     "end": 73.92,
+     "text": "years"
+    },
+    {
+     "start": 73.92,
+     "end": 74.26,
+     "text": "ago."
+    }
+   ]
+  },
+  {
+   "start": 74.62,
+   "end": 75.44,
+   "text": "But is this true?",
+   "words": [
+    {
+     "start": 74.62,
+     "end": 74.8,
+     "text": "But"
+    },
+    {
+     "start": 74.8,
+     "end": 74.96,
+     "text": "is"
+    },
+    {
+     "start": 74.96,
+     "end": 75.18,
+     "text": "this"
+    },
+    {
+     "start": 75.18,
+     "end": 75.44,
+     "text": "true?"
+    }
+   ]
+  },
+  {
+   "start": 76.3,
+   "end": 79.78,
+   "text": "Well, the first clue is hidden in the way we draw our family trees.",
+   "words": [
+    {
+     "start": 76.3,
+     "end": 76.46,
+     "text": "Well,"
+    },
+    {
+     "start": 76.46,
+     "end": 76.6,
+     "text": "the"
+    },
+    {
+     "start": 76.6,
+     "end": 76.84,
+     "text": "first"
+    },
+    {
+     "start": 76.84,
+     "end": 77.08,
+     "text": "clue"
+    },
+    {
+     "start": 77.08,
+     "end": 77.22,
+     "text": "is"
+    },
+    {
+     "start": 77.22,
+     "end": 77.54,
+     "text": "hidden"
+    },
+    {
+     "start": 77.54,
+     "end": 77.98,
+     "text": "in"
+    },
+    {
+     "start": 77.98,
+     "end": 78.08,
+     "text": "the"
+    },
+    {
+     "start": 78.08,
+     "end": 78.26,
+     "text": "way"
+    },
+    {
+     "start": 78.26,
+     "end": 78.38,
+     "text": "we"
+    },
+    {
+     "start": 78.38,
+     "end": 78.64,
+     "text": "draw"
+    },
+    {
+     "start": 78.64,
+     "end": 78.84,
+     "text": "our"
+    },
+    {
+     "start": 78.84,
+     "end": 79.16,
+     "text": "family"
+    },
+    {
+     "start": 79.16,
+     "end": 79.78,
+     "text": "trees."
+    }
+   ]
+  },
+  {
+   "start": 80.1,
+   "end": 81.7,
+   "text": "Each time we add another generation",
+   "words": [
+    {
+     "start": 80.1,
+     "end": 80.26,
+     "text": "Each"
+    },
+    {
+     "start": 80.26,
+     "end": 80.5,
+     "text": "time"
+    },
+    {
+     "start": 80.5,
+     "end": 80.66,
+     "text": "we"
+    },
+    {
+     "start": 80.66,
+     "end": 80.86,
+     "text": "add"
+    },
+    {
+     "start": 80.86,
+     "end": 81.12,
+     "text": "another"
+    },
+    {
+     "start": 81.12,
+     "end": 81.7,
+     "text": "generation"
+    }
+   ]
+  },
+  {
+   "start": 81.78,
+   "end": 84.58,
+   "text": "We draw two new branches for each person",
+   "words": [
+    {
+     "start": 81.78,
+     "end": 82.26,
+     "text": "We"
+    },
+    {
+     "start": 82.26,
+     "end": 82.54,
+     "text": "draw"
+    },
+    {
+     "start": 82.54,
+     "end": 82.94,
+     "text": "two"
+    },
+    {
+     "start": 82.94,
+     "end": 83.24,
+     "text": "new"
+    },
+    {
+     "start": 83.24,
+     "end": 83.64,
+     "text": "branches"
+    },
+    {
+     "start": 83.64,
+     "end": 83.98,
+     "text": "for"
+    },
+    {
+     "start": 83.98,
+     "end": 84.18,
+     "text": "each"
+    },
+    {
+     "start": 84.18,
+     "end": 84.58,
+     "text": "person"
+    }
+   ]
+  },
+  {
+   "start": 84.62,
+   "end": 87.0,
+   "text": "That gives us a growing number of positions",
+   "words": [
+    {
+     "start": 84.62,
+     "end": 85.44,
+     "text": "That"
+    },
+    {
+     "start": 85.44,
+     "end": 85.68,
+     "text": "gives"
+    },
+    {
+     "start": 85.68,
+     "end": 85.82,
+     "text": "us"
+    },
+    {
+     "start": 85.82,
+     "end": 85.94,
+     "text": "a"
+    },
+    {
+     "start": 85.94,
+     "end": 86.18,
+     "text": "growing"
+    },
+    {
+     "start": 86.18,
+     "end": 86.5,
+     "text": "number"
+    },
+    {
+     "start": 86.5,
+     "end": 86.62,
+     "text": "of"
+    },
+    {
+     "start": 86.62,
+     "end": 87.0,
+     "text": "positions"
+    }
+   ]
+  },
+  {
+   "start": 87.1,
+   "end": 88.94,
+   "text": "Waiting to be filled by names",
+   "words": [
+    {
+     "start": 87.1,
+     "end": 87.8,
+     "text": "Waiting"
+    },
+    {
+     "start": 87.8,
+     "end": 88.02,
+     "text": "to"
+    },
+    {
+     "start": 88.02,
+     "end": 88.22,
+     "text": "be"
+    },
+    {
+     "start": 88.22,
+     "end": 88.38,
+     "text": "filled"
+    },
+    {
+     "start": 88.38,
+     "end": 88.62,
+     "text": "by"
+    },
+    {
+     "start": 88.62,
+     "end": 88.94,
+     "text": "names"
+    }
+   ]
+  },
+  {
+   "start": 89.48,
+   "end": 91.5,
+   "text": "But a position in your family tree Is",
+   "words": [
+    {
+     "start": 89.48,
+     "end": 89.72,
+     "text": "But"
+    },
+    {
+     "start": 89.72,
+     "end": 89.86,
+     "text": "a"
+    },
+    {
+     "start": 89.86,
+     "end": 90.08,
+     "text": "position"
+    },
+    {
+     "start": 90.08,
+     "end": 90.32,
+     "text": "in"
+    },
+    {
+     "start": 90.32,
+     "end": 90.44,
+     "text": "your"
+    },
+    {
+     "start": 90.44,
+     "end": 90.72,
+     "text": "family"
+    },
+    {
+     "start": 90.72,
+     "end": 90.98,
+     "text": "tree"
+    },
+    {
+     "start": 90.56,
+     "end": 91.5,
+     "text": "Is"
+    }
+   ]
+  },
+  {
+   "start": 91.5,
+   "end": 93.92,
+   "text": "not necessarily a different human being",
+   "words": [
+    {
+     "start": 91.5,
+     "end": 91.68,
+     "text": "not"
+    },
+    {
+     "start": 91.68,
+     "end": 92.28,
+     "text": "necessarily"
+    },
+    {
+     "start": 92.28,
+     "end": 92.84,
+     "text": "a"
+    },
+    {
+     "start": 92.84,
+     "end": 93.2,
+     "text": "different"
+    },
+    {
+     "start": 93.2,
+     "end": 93.52,
+     "text": "human"
+    },
+    {
+     "start": 93.52,
+     "end": 93.92,
+     "text": "being"
+    }
+   ]
+  },
+  {
+   "start": 94.78,
+   "end": 97.26,
+   "text": "Imagine travelling back to a medieval village in England",
+   "words": [
+    {
+     "start": 94.78,
+     "end": 95.18,
+     "text": "Imagine"
+    },
+    {
+     "start": 95.18,
+     "end": 95.56,
+     "text": "travelling"
+    },
+    {
+     "start": 95.56,
+     "end": 95.9,
+     "text": "back"
+    },
+    {
+     "start": 95.9,
+     "end": 96.08,
+     "text": "to"
+    },
+    {
+     "start": 96.08,
+     "end": 96.16,
+     "text": "a"
+    },
+    {
+     "start": 96.16,
+     "end": 96.46,
+     "text": "medieval"
+    },
+    {
+     "start": 96.46,
+     "end": 96.82,
+     "text": "village"
+    },
+    {
+     "start": 96.82,
+     "end": 97.04,
+     "text": "in"
+    },
+    {
+     "start": 97.04,
+     "end": 97.26,
+     "text": "England"
+    }
+   ]
+  },
+  {
+   "start": 97.28,
+   "end": 99.66,
+   "text": "There is a married couple with two children",
+   "words": [
+    {
+     "start": 97.28,
+     "end": 98.06,
+     "text": "There"
+    },
+    {
+     "start": 98.06,
+     "end": 98.18,
+     "text": "is"
+    },
+    {
+     "start": 98.18,
+     "end": 98.28,
+     "text": "a"
+    },
+    {
+     "start": 98.28,
+     "end": 98.56,
+     "text": "married"
+    },
+    {
+     "start": 98.56,
+     "end": 98.88,
+     "text": "couple"
+    },
+    {
+     "start": 98.88,
+     "end": 99.1,
+     "text": "with"
+    },
+    {
+     "start": 99.1,
+     "end": 99.3,
+     "text": "two"
+    },
+    {
+     "start": 99.3,
+     "end": 99.66,
+     "text": "children"
+    }
+   ]
+  },
+  {
+   "start": 99.26,
+   "end": 101.14,
+   "text": "A son and a daughter",
+   "words": [
+    {
+     "start": 99.26,
+     "end": 100.26,
+     "text": "A"
+    },
+    {
+     "start": 100.26,
+     "end": 100.54,
+     "text": "son"
+    },
+    {
+     "start": 100.54,
+     "end": 100.82,
+     "text": "and"
+    },
+    {
+     "start": 100.82,
+     "end": 100.94,
+     "text": "a"
+    },
+    {
+     "start": 100.94,
+     "end": 101.14,
+     "text": "daughter"
+    }
+   ]
+  },
+  {
+   "start": 101.18,
+   "end": 103.78,
+   "text": "The son grows up, starts a family",
+   "words": [
+    {
+     "start": 101.18,
+     "end": 102.04,
+     "text": "The"
+    },
+    {
+     "start": 102.04,
+     "end": 102.26,
+     "text": "son"
+    },
+    {
+     "start": 102.26,
+     "end": 102.48,
+     "text": "grows"
+    },
+    {
+     "start": 102.48,
+     "end": 103.06,
+     "text": "up,"
+    },
+    {
+     "start": 103.06,
+     "end": 103.32,
+     "text": "starts"
+    },
+    {
+     "start": 103.32,
+     "end": 103.46,
+     "text": "a"
+    },
+    {
+     "start": 103.46,
+     "end": 103.78,
+     "text": "family"
+    }
+   ]
+  },
+  {
+   "start": 103.8,
+   "end": 106.42,
+   "text": "And his descendants spread into the neighbouring villages",
+   "words": [
+    {
+     "start": 103.8,
+     "end": 104.3,
+     "text": "And"
+    },
+    {
+     "start": 104.3,
+     "end": 104.4,
+     "text": "his"
+    },
+    {
+     "start": 104.4,
+     "end": 104.84,
+     "text": "descendants"
+    },
+    {
+     "start": 104.84,
+     "end": 105.22,
+     "text": "spread"
+    },
+    {
+     "start": 105.22,
+     "end": 105.52,
+     "text": "into"
+    },
+    {
+     "start": 105.52,
+     "end": 105.72,
+     "text": "the"
+    },
+    {
+     "start": 105.72,
+     "end": 106.08,
+     "text": "neighbouring"
+    },
+    {
+     "start": 106.08,
+     "end": 106.42,
+     "text": "villages"
+    }
+   ]
+  },
+  {
+   "start": 106.82,
+   "end": 108.42,
+   "text": "His sister does the same thing",
+   "words": [
+    {
+     "start": 106.82,
+     "end": 107.28,
+     "text": "His"
+    },
+    {
+     "start": 107.28,
+     "end": 107.58,
+     "text": "sister"
+    },
+    {
+     "start": 107.58,
+     "end": 107.8,
+     "text": "does"
+    },
+    {
+     "start": 107.8,
+     "end": 107.94,
+     "text": "the"
+    },
+    {
+     "start": 107.94,
+     "end": 108.12,
+     "text": "same"
+    },
+    {
+     "start": 108.12,
+     "end": 108.42,
+     "text": "thing"
+    }
+   ]
+  },
+  {
+   "start": 109.24,
+   "end": 114.54,
+   "text": "Several hundred years later, one descendant of the son meets and has children with a distant",
+   "words": [
+    {
+     "start": 109.24,
+     "end": 109.46,
+     "text": "Several"
+    },
+    {
+     "start": 109.46,
+     "end": 109.78,
+     "text": "hundred"
+    },
+    {
+     "start": 109.78,
+     "end": 110.02,
+     "text": "years"
+    },
+    {
+     "start": 110.02,
+     "end": 110.98,
+     "text": "later,"
+    },
+    {
+     "start": 110.98,
+     "end": 111.06,
+     "text": "one"
+    },
+    {
+     "start": 111.06,
+     "end": 111.68,
+     "text": "descendant"
+    },
+    {
+     "start": 111.68,
+     "end": 111.82,
+     "text": "of"
+    },
+    {
+     "start": 111.82,
+     "end": 111.96,
+     "text": "the"
+    },
+    {
+     "start": 111.96,
+     "end": 112.14,
+     "text": "son"
+    },
+    {
+     "start": 112.14,
+     "end": 112.78,
+     "text": "meets"
+    },
+    {
+     "start": 112.78,
+     "end": 112.98,
+     "text": "and"
+    },
+    {
+     "start": 112.98,
+     "end": 113.12,
+     "text": "has"
+    },
+    {
+     "start": 113.12,
+     "end": 113.54,
+     "text": "children"
+    },
+    {
+     "start": 113.54,
+     "end": 114.0,
+     "text": "with"
+    },
+    {
+     "start": 114.0,
+     "end": 114.1,
+     "text": "a"
+    },
+    {
+     "start": 114.1,
+     "end": 114.54,
+     "text": "distant"
+    }
+   ]
+  },
+  {
+   "start": 114.1,
+   "end": 116.16,
+   "text": "descendant of the daughter.",
+   "words": [
+    {
+     "start": 114.1,
+     "end": 115.18,
+     "text": "descendant"
+    },
+    {
+     "start": 115.18,
+     "end": 115.4,
+     "text": "of"
+    },
+    {
+     "start": 115.4,
+     "end": 115.54,
+     "text": "the"
+    },
+    {
+     "start": 115.54,
+     "end": 116.16,
+     "text": "daughter."
+    }
+   ]
+  },
+  {
+   "start": 116.14,
+   "end": 118.96,
+   "text": "Now trace their child's family tree backwards.",
+   "words": [
+    {
+     "start": 116.14,
+     "end": 116.72,
+     "text": "Now"
+    },
+    {
+     "start": 116.72,
+     "end": 117.04,
+     "text": "trace"
+    },
+    {
+     "start": 117.04,
+     "end": 117.2,
+     "text": "their"
+    },
+    {
+     "start": 117.2,
+     "end": 117.6,
+     "text": "child's"
+    },
+    {
+     "start": 117.6,
+     "end": 117.9,
+     "text": "family"
+    },
+    {
+     "start": 117.9,
+     "end": 118.08,
+     "text": "tree"
+    },
+    {
+     "start": 118.08,
+     "end": 118.96,
+     "text": "backwards."
+    }
+   ]
+  },
+  {
+   "start": 118.76,
+   "end": 119.34,
+   "text": "On",
+   "words": [
+    {
+     "start": 118.76,
+     "end": 119.34,
+     "text": "On"
+    }
+   ]
+  },
+  {
+   "start": 119.34,
+   "end": 122.28,
+   "text": "one side, a line leads through the medieval son.",
+   "words": [
+    {
+     "start": 119.34,
+     "end": 119.56,
+     "text": "one"
+    },
+    {
+     "start": 119.56,
+     "end": 120.06,
+     "text": "side,"
+    },
+    {
+     "start": 120.06,
+     "end": 120.4,
+     "text": "a"
+    },
+    {
+     "start": 120.4,
+     "end": 120.64,
+     "text": "line"
+    },
+    {
+     "start": 120.64,
+     "end": 120.88,
+     "text": "leads"
+    },
+    {
+     "start": 120.88,
+     "end": 121.18,
+     "text": "through"
+    },
+    {
+     "start": 121.18,
+     "end": 121.38,
+     "text": "the"
+    },
+    {
+     "start": 121.38,
+     "end": 121.7,
+     "text": "medieval"
+    },
+    {
+     "start": 121.7,
+     "end": 122.28,
+     "text": "son."
+    }
+   ]
+  },
+  {
+   "start": 122.2,
+   "end": 125.516,
+   "text": "On the other, another leads through the sister.",
+   "words": [
+    {
+     "start": 122.2,
+     "end": 122.78,
+     "text": "On"
+    },
+    {
+     "start": 122.78,
+     "end": 122.86,
+     "text": "the"
+    },
+    {
+     "start": 122.86,
+     "end": 123.26,
+     "text": "other,"
+    },
+    {
+     "start": 123.26,
+     "end": 123.8,
+     "text": "another"
+    },
+    {
+     "start": 123.8,
+     "end": 124.12,
+     "text": "leads"
+    },
+    {
+     "start": 124.116,
+     "end": 124.456,
+     "text": "through"
+    },
+    {
+     "start": 124.456,
+     "end": 124.856,
+     "text": "the"
+    },
+    {
+     "start": 124.856,
+     "end": 125.516,
+     "text": "sister."
+    }
+   ]
+  },
+  {
+   "start": 125.116,
+   "end": 129.176,
+   "text": "And both lines eventually arrive at the very same parents.",
+   "words": [
+    {
+     "start": 125.116,
+     "end": 125.996,
+     "text": "And"
+    },
+    {
+     "start": 125.996,
+     "end": 126.216,
+     "text": "both"
+    },
+    {
+     "start": 126.216,
+     "end": 126.436,
+     "text": "lines"
+    },
+    {
+     "start": 126.436,
+     "end": 126.836,
+     "text": "eventually"
+    },
+    {
+     "start": 126.836,
+     "end": 127.316,
+     "text": "arrive"
+    },
+    {
+     "start": 127.316,
+     "end": 127.756,
+     "text": "at"
+    },
+    {
+     "start": 127.756,
+     "end": 127.856,
+     "text": "the"
+    },
+    {
+     "start": 127.856,
+     "end": 128.136,
+     "text": "very"
+    },
+    {
+     "start": 128.136,
+     "end": 128.416,
+     "text": "same"
+    },
+    {
+     "start": 128.416,
+     "end": 129.176,
+     "text": "parents."
+    }
+   ]
+  },
+  {
+   "start": 129.176,
+   "end": 132.556,
+   "text": "That medieval couple now appears twice in",
+   "words": [
+    {
+     "start": 129.176,
+     "end": 130.016,
+     "text": "That"
+    },
+    {
+     "start": 130.016,
+     "end": 130.396,
+     "text": "medieval"
+    },
+    {
+     "start": 130.396,
+     "end": 130.776,
+     "text": "couple"
+    },
+    {
+     "start": 130.776,
+     "end": 131.296,
+     "text": "now"
+    },
+    {
+     "start": 131.296,
+     "end": 131.636,
+     "text": "appears"
+    },
+    {
+     "start": 131.636,
+     "end": 132.076,
+     "text": "twice"
+    },
+    {
+     "start": 131.756,
+     "end": 132.556,
+     "text": "in"
+    }
+   ]
+  },
+  {
+   "start": 132.556,
+   "end": 135.696,
+   "text": "the tree, despite being only two actual people.",
+   "words": [
+    {
+     "start": 132.556,
+     "end": 132.676,
+     "text": "the"
+    },
+    {
+     "start": 132.676,
+     "end": 133.176,
+     "text": "tree,"
+    },
+    {
+     "start": 133.176,
+     "end": 133.756,
+     "text": "despite"
+    },
+    {
+     "start": 133.756,
+     "end": 134.016,
+     "text": "being"
+    },
+    {
+     "start": 134.016,
+     "end": 134.356,
+     "text": "only"
+    },
+    {
+     "start": 134.356,
+     "end": 134.656,
+     "text": "two"
+    },
+    {
+     "start": 134.656,
+     "end": 135.036,
+     "text": "actual"
+    },
+    {
+     "start": 135.036,
+     "end": 135.696,
+     "text": "people."
+    }
+   ]
+  },
+  {
+   "start": 135.696,
+   "end": 138.916,
+   "text": "Multiplying that process across hundreds of years and",
+   "words": [
+    {
+     "start": 135.696,
+     "end": 136.536,
+     "text": "Multiplying"
+    },
+    {
+     "start": 136.536,
+     "end": 136.756,
+     "text": "that"
+    },
+    {
+     "start": 136.756,
+     "end": 137.196,
+     "text": "process"
+    },
+    {
+     "start": 137.196,
+     "end": 137.556,
+     "text": "across"
+    },
+    {
+     "start": 137.556,
+     "end": 137.936,
+     "text": "hundreds"
+    },
+    {
+     "start": 137.936,
+     "end": 138.116,
+     "text": "of"
+    },
+    {
+     "start": 138.116,
+     "end": 138.396,
+     "text": "years"
+    },
+    {
+     "start": 138.076,
+     "end": 138.916,
+     "text": "and"
+    }
+   ]
+  },
+  {
+   "start": 138.916,
+   "end": 144.056,
+   "text": "the same person can appear not twice but dozens, hundreds or potentially thousands of times",
+   "words": [
+    {
+     "start": 138.916,
+     "end": 139.056,
+     "text": "the"
+    },
+    {
+     "start": 139.056,
+     "end": 139.236,
+     "text": "same"
+    },
+    {
+     "start": 139.236,
+     "end": 139.576,
+     "text": "person"
+    },
+    {
+     "start": 139.576,
+     "end": 139.776,
+     "text": "can"
+    },
+    {
+     "start": 139.776,
+     "end": 140.136,
+     "text": "appear"
+    },
+    {
+     "start": 140.136,
+     "end": 140.536,
+     "text": "not"
+    },
+    {
+     "start": 140.536,
+     "end": 140.936,
+     "text": "twice"
+    },
+    {
+     "start": 140.936,
+     "end": 141.276,
+     "text": "but"
+    },
+    {
+     "start": 141.276,
+     "end": 141.876,
+     "text": "dozens,"
+    },
+    {
+     "start": 141.876,
+     "end": 142.096,
+     "text": "hundreds"
+    },
+    {
+     "start": 142.096,
+     "end": 142.656,
+     "text": "or"
+    },
+    {
+     "start": 142.656,
+     "end": 143.036,
+     "text": "potentially"
+    },
+    {
+     "start": 143.036,
+     "end": 143.516,
+     "text": "thousands"
+    },
+    {
+     "start": 143.516,
+     "end": 143.796,
+     "text": "of"
+    },
+    {
+     "start": 143.796,
+     "end": 144.056,
+     "text": "times"
+    }
+   ]
+  },
+  {
+   "start": 144.456,
+   "end": 146.296,
+   "text": "through different ancestral roots.",
+   "words": [
+    {
+     "start": 144.456,
+     "end": 144.596,
+     "text": "through"
+    },
+    {
+     "start": 144.596,
+     "end": 144.956,
+     "text": "different"
+    },
+    {
+     "start": 144.956,
+     "end": 145.596,
+     "text": "ancestral"
+    },
+    {
+     "start": 145.596,
+     "end": 146.296,
+     "text": "roots."
+    }
+   ]
+  },
+  {
+   "start": 146.616,
+   "end": 148.936,
+   "text": "And this is known as pedigree collapse,",
+   "words": [
+    {
+     "start": 146.616,
+     "end": 146.876,
+     "text": "And"
+    },
+    {
+     "start": 146.876,
+     "end": 147.036,
+     "text": "this"
+    },
+    {
+     "start": 147.036,
+     "end": 147.196,
+     "text": "is"
+    },
+    {
+     "start": 147.196,
+     "end": 147.376,
+     "text": "known"
+    },
+    {
+     "start": 147.376,
+     "end": 147.616,
+     "text": "as"
+    },
+    {
+     "start": 147.616,
+     "end": 148.096,
+     "text": "pedigree"
+    },
+    {
+     "start": 148.096,
+     "end": 148.936,
+     "text": "collapse,"
+    }
+   ]
+  },
+  {
+   "start": 149.116,
+   "end": 153.176,
+   "text": "when the same ancestors appear multiple times in your family tree because",
+   "words": [
+    {
+     "start": 149.116,
+     "end": 149.316,
+     "text": "when"
+    },
+    {
+     "start": 149.316,
+     "end": 149.456,
+     "text": "the"
+    },
+    {
+     "start": 149.456,
+     "end": 149.636,
+     "text": "same"
+    },
+    {
+     "start": 149.636,
+     "end": 150.276,
+     "text": "ancestors"
+    },
+    {
+     "start": 150.276,
+     "end": 150.676,
+     "text": "appear"
+    },
+    {
+     "start": 150.676,
+     "end": 151.416,
+     "text": "multiple"
+    },
+    {
+     "start": 151.416,
+     "end": 151.816,
+     "text": "times"
+    },
+    {
+     "start": 151.816,
+     "end": 151.996,
+     "text": "in"
+    },
+    {
+     "start": 151.996,
+     "end": 152.096,
+     "text": "your"
+    },
+    {
+     "start": 152.096,
+     "end": 152.356,
+     "text": "family"
+    },
+    {
+     "start": 152.356,
+     "end": 152.636,
+     "text": "tree"
+    },
+    {
+     "start": 152.196,
+     "end": 153.176,
+     "text": "because"
+    }
+   ]
+  },
+  {
+   "start": 153.176,
+   "end": 156.736,
+   "text": "different branches of your ancestry eventually overlap.",
+   "words": [
+    {
+     "start": 153.176,
+     "end": 153.496,
+     "text": "different"
+    },
+    {
+     "start": 153.496,
+     "end": 153.916,
+     "text": "branches"
+    },
+    {
+     "start": 153.916,
+     "end": 154.136,
+     "text": "of"
+    },
+    {
+     "start": 154.136,
+     "end": 154.256,
+     "text": "your"
+    },
+    {
+     "start": 154.256,
+     "end": 154.816,
+     "text": "ancestry"
+    },
+    {
+     "start": 154.816,
+     "end": 155.676,
+     "text": "eventually"
+    },
+    {
+     "start": 155.676,
+     "end": 156.736,
+     "text": "overlap."
+    }
+   ]
+  },
+  {
+   "start": 157.096,
+   "end": 160.056,
+   "text": "But this doesn't just require close relatives marrying.",
+   "words": [
+    {
+     "start": 157.096,
+     "end": 157.296,
+     "text": "But"
+    },
+    {
+     "start": 157.296,
+     "end": 157.516,
+     "text": "this"
+    },
+    {
+     "start": 157.516,
+     "end": 157.756,
+     "text": "doesn't"
+    },
+    {
+     "start": 157.756,
+     "end": 157.936,
+     "text": "just"
+    },
+    {
+     "start": 157.936,
+     "end": 158.416,
+     "text": "require"
+    },
+    {
+     "start": 158.416,
+     "end": 158.856,
+     "text": "close"
+    },
+    {
+     "start": 158.856,
+     "end": 159.296,
+     "text": "relatives"
+    },
+    {
+     "start": 159.296,
+     "end": 160.056,
+     "text": "marrying."
+    }
+   ]
+  },
+  {
+   "start": 160.356,
+   "end": 163.916,
+   "text": "Even distant cousins can share ancestors without knowing it,",
+   "words": [
+    {
+     "start": 160.356,
+     "end": 160.596,
+     "text": "Even"
+    },
+    {
+     "start": 160.596,
+     "end": 160.956,
+     "text": "distant"
+    },
+    {
+     "start": 160.956,
+     "end": 161.236,
+     "text": "cousins"
+    },
+    {
+     "start": 161.236,
+     "end": 161.596,
+     "text": "can"
+    },
+    {
+     "start": 161.596,
+     "end": 161.836,
+     "text": "share"
+    },
+    {
+     "start": 161.836,
+     "end": 162.396,
+     "text": "ancestors"
+    },
+    {
+     "start": 162.396,
+     "end": 163.056,
+     "text": "without"
+    },
+    {
+     "start": 163.056,
+     "end": 163.396,
+     "text": "knowing"
+    },
+    {
+     "start": 163.396,
+     "end": 163.916,
+     "text": "it,"
+    }
+   ]
+  },
+  {
+   "start": 164.156,
+   "end": 167.736,
+   "text": "especially when their families have lived in the same communities for centuries.",
+   "words": [
+    {
+     "start": 164.156,
+     "end": 164.616,
+     "text": "especially"
+    },
+    {
+     "start": 164.616,
+     "end": 164.856,
+     "text": "when"
+    },
+    {
+     "start": 164.856,
+     "end": 164.996,
+     "text": "their"
+    },
+    {
+     "start": 164.996,
+     "end": 165.356,
+     "text": "families"
+    },
+    {
+     "start": 165.356,
+     "end": 165.596,
+     "text": "have"
+    },
+    {
+     "start": 165.596,
+     "end": 165.836,
+     "text": "lived"
+    },
+    {
+     "start": 165.836,
+     "end": 166.256,
+     "text": "in"
+    },
+    {
+     "start": 166.256,
+     "end": 166.396,
+     "text": "the"
+    },
+    {
+     "start": 166.396,
+     "end": 166.596,
+     "text": "same"
+    },
+    {
+     "start": 166.596,
+     "end": 167.116,
+     "text": "communities"
+    },
+    {
+     "start": 167.116,
+     "end": 167.356,
+     "text": "for"
+    },
+    {
+     "start": 167.356,
+     "end": 167.736,
+     "text": "centuries."
+    }
+   ]
+  },
+  {
+   "start": 168.456,
+   "end": 170.416,
+   "text": "So the maths isn't actually wrong.",
+   "words": [
+    {
+     "start": 168.456,
+     "end": 168.796,
+     "text": "So"
+    },
+    {
+     "start": 168.796,
+     "end": 168.936,
+     "text": "the"
+    },
+    {
+     "start": 168.936,
+     "end": 169.256,
+     "text": "maths"
+    },
+    {
+     "start": 169.256,
+     "end": 169.676,
+     "text": "isn't"
+    },
+    {
+     "start": 169.676,
+     "end": 170.076,
+     "text": "actually"
+    },
+    {
+     "start": 170.076,
+     "end": 170.416,
+     "text": "wrong."
+    }
+   ]
+  },
+  {
+   "start": 171.016,
+   "end": 178.356,
+   "text": "The 137 billion figure represents ancestor positions, not 137 billion different people.",
+   "words": [
+    {
+     "start": 171.016,
+     "end": 171.096,
+     "text": "The"
+    },
+    {
+     "start": 171.096,
+     "end": 171.996,
+     "text": "137"
+    },
+    {
+     "start": 171.996,
+     "end": 172.216,
+     "text": "billion"
+    },
+    {
+     "start": 172.216,
+     "end": 172.636,
+     "text": "figure"
+    },
+    {
+     "start": 172.636,
+     "end": 173.516,
+     "text": "represents"
+    },
+    {
+     "start": 173.516,
+     "end": 174.316,
+     "text": "ancestor"
+    },
+    {
+     "start": 174.316,
+     "end": 175.596,
+     "text": "positions,"
+    },
+    {
+     "start": 175.596,
+     "end": 175.776,
+     "text": "not"
+    },
+    {
+     "start": 175.776,
+     "end": 176.796,
+     "text": "137"
+    },
+    {
+     "start": 176.796,
+     "end": 177.136,
+     "text": "billion"
+    },
+    {
+     "start": 177.136,
+     "end": 177.716,
+     "text": "different"
+    },
+    {
+     "start": 177.716,
+     "end": 178.356,
+     "text": "people."
+    }
+   ]
+  },
+  {
+   "start": 178.756,
+   "end": 186.196,
+   "text": "As branches repeatedly reconnect, your family tree becomes less like a tree and more like an enormous interconnected web.",
+   "words": [
+    {
+     "start": 178.756,
+     "end": 178.936,
+     "text": "As"
+    },
+    {
+     "start": 178.936,
+     "end": 179.396,
+     "text": "branches"
+    },
+    {
+     "start": 179.396,
+     "end": 179.996,
+     "text": "repeatedly"
+    },
+    {
+     "start": 179.996,
+     "end": 180.876,
+     "text": "reconnect,"
+    },
+    {
+     "start": 180.876,
+     "end": 181.176,
+     "text": "your"
+    },
+    {
+     "start": 181.176,
+     "end": 181.476,
+     "text": "family"
+    },
+    {
+     "start": 181.476,
+     "end": 181.716,
+     "text": "tree"
+    },
+    {
+     "start": 181.716,
+     "end": 182.036,
+     "text": "becomes"
+    },
+    {
+     "start": 182.036,
+     "end": 182.376,
+     "text": "less"
+    },
+    {
+     "start": 182.376,
+     "end": 182.616,
+     "text": "like"
+    },
+    {
+     "start": 182.616,
+     "end": 182.716,
+     "text": "a"
+    },
+    {
+     "start": 182.716,
+     "end": 182.976,
+     "text": "tree"
+    },
+    {
+     "start": 182.976,
+     "end": 183.516,
+     "text": "and"
+    },
+    {
+     "start": 183.516,
+     "end": 183.736,
+     "text": "more"
+    },
+    {
+     "start": 183.736,
+     "end": 183.976,
+     "text": "like"
+    },
+    {
+     "start": 183.976,
+     "end": 184.096,
+     "text": "an"
+    },
+    {
+     "start": 184.096,
+     "end": 184.536,
+     "text": "enormous"
+    },
+    {
+     "start": 184.536,
+     "end": 185.336,
+     "text": "interconnected"
+    },
+    {
+     "start": 185.336,
+     "end": 186.196,
+     "text": "web."
+    }
+   ]
+  },
+  {
+   "start": 186.936,
+   "end": 194.156,
+   "text": "And this has much broader consequences, as different people's family trees tend to merge as you travel further and further back.",
+   "words": [
+    {
+     "start": 186.936,
+     "end": 187.136,
+     "text": "And"
+    },
+    {
+     "start": 187.136,
+     "end": 187.316,
+     "text": "this"
+    },
+    {
+     "start": 187.316,
+     "end": 187.496,
+     "text": "has"
+    },
+    {
+     "start": 187.496,
+     "end": 187.736,
+     "text": "much"
+    },
+    {
+     "start": 187.736,
+     "end": 188.096,
+     "text": "broader"
+    },
+    {
+     "start": 188.096,
+     "end": 188.736,
+     "text": "consequences,"
+    },
+    {
+     "start": 188.736,
+     "end": 189.476,
+     "text": "as"
+    },
+    {
+     "start": 189.476,
+     "end": 189.756,
+     "text": "different"
+    },
+    {
+     "start": 189.756,
+     "end": 190.116,
+     "text": "people's"
+    },
+    {
+     "start": 190.116,
+     "end": 190.396,
+     "text": "family"
+    },
+    {
+     "start": 190.396,
+     "end": 190.716,
+     "text": "trees"
+    },
+    {
+     "start": 190.716,
+     "end": 191.256,
+     "text": "tend"
+    },
+    {
+     "start": 191.256,
+     "end": 191.436,
+     "text": "to"
+    },
+    {
+     "start": 191.436,
+     "end": 191.716,
+     "text": "merge"
+    },
+    {
+     "start": 191.716,
+     "end": 192.276,
+     "text": "as"
+    },
+    {
+     "start": 192.276,
+     "end": 192.376,
+     "text": "you"
+    },
+    {
+     "start": 192.376,
+     "end": 192.676,
+     "text": "travel"
+    },
+    {
+     "start": 192.676,
+     "end": 193.036,
+     "text": "further"
+    },
+    {
+     "start": 193.036,
+     "end": 193.236,
+     "text": "and"
+    },
+    {
+     "start": 193.236,
+     "end": 193.436,
+     "text": "further"
+    },
+    {
+     "start": 193.436,
+     "end": 194.156,
+     "text": "back."
+    }
+   ]
+  },
+  {
+   "start": 194.476,
+   "end": 199.616,
+   "text": "And a really interesting paper from 2013 looked at different sides of Europe, how they are related.",
+   "words": [
+    {
+     "start": 194.476,
+     "end": 194.636,
+     "text": "And"
+    },
+    {
+     "start": 194.636,
+     "end": 194.716,
+     "text": "a"
+    },
+    {
+     "start": 194.716,
+     "end": 194.896,
+     "text": "really"
+    },
+    {
+     "start": 194.896,
+     "end": 195.336,
+     "text": "interesting"
+    },
+    {
+     "start": 195.336,
+     "end": 195.656,
+     "text": "paper"
+    },
+    {
+     "start": 195.656,
+     "end": 195.876,
+     "text": "from"
+    },
+    {
+     "start": 195.876,
+     "end": 196.456,
+     "text": "2013"
+    },
+    {
+     "start": 196.456,
+     "end": 197.296,
+     "text": "looked"
+    },
+    {
+     "start": 197.296,
+     "end": 197.476,
+     "text": "at"
+    },
+    {
+     "start": 197.476,
+     "end": 197.776,
+     "text": "different"
+    },
+    {
+     "start": 197.776,
+     "end": 198.056,
+     "text": "sides"
+    },
+    {
+     "start": 198.056,
+     "end": 198.216,
+     "text": "of"
+    },
+    {
+     "start": 198.216,
+     "end": 198.636,
+     "text": "Europe,"
+    },
+    {
+     "start": 198.636,
+     "end": 198.936,
+     "text": "how"
+    },
+    {
+     "start": 198.936,
+     "end": 199.096,
+     "text": "they"
+    },
+    {
+     "start": 199.096,
+     "end": 199.236,
+     "text": "are"
+    },
+    {
+     "start": 199.236,
+     "end": 199.616,
+     "text": "related."
+    }
+   ]
+  },
+  {
+   "start": 200.476,
+   "end": 205.176,
+   "text": "Research by geneticists Peter Ralph and Graham Cope looked at Europe,",
+   "words": [
+    {
+     "start": 200.476,
+     "end": 200.836,
+     "text": "Research"
+    },
+    {
+     "start": 200.836,
+     "end": 201.176,
+     "text": "by"
+    },
+    {
+     "start": 201.176,
+     "end": 201.936,
+     "text": "geneticists"
+    },
+    {
+     "start": 201.936,
+     "end": 202.256,
+     "text": "Peter"
+    },
+    {
+     "start": 202.256,
+     "end": 202.636,
+     "text": "Ralph"
+    },
+    {
+     "start": 202.636,
+     "end": 203.096,
+     "text": "and"
+    },
+    {
+     "start": 203.096,
+     "end": 203.396,
+     "text": "Graham"
+    },
+    {
+     "start": 203.396,
+     "end": 203.776,
+     "text": "Cope"
+    },
+    {
+     "start": 203.776,
+     "end": 204.416,
+     "text": "looked"
+    },
+    {
+     "start": 204.416,
+     "end": 204.576,
+     "text": "at"
+    },
+    {
+     "start": 204.576,
+     "end": 205.176,
+     "text": "Europe,"
+    }
+   ]
+  },
+  {
+   "start": 205.436,
+   "end": 209.396,
+   "text": "and the results suggested that individuals from opposite ends of Europe are",
+   "words": [
+    {
+     "start": 205.436,
+     "end": 205.596,
+     "text": "and"
+    },
+    {
+     "start": 205.596,
+     "end": 205.756,
+     "text": "the"
+    },
+    {
+     "start": 205.756,
+     "end": 206.016,
+     "text": "results"
+    },
+    {
+     "start": 206.016,
+     "end": 206.396,
+     "text": "suggested"
+    },
+    {
+     "start": 206.396,
+     "end": 206.596,
+     "text": "that"
+    },
+    {
+     "start": 206.596,
+     "end": 207.036,
+     "text": "individuals"
+    },
+    {
+     "start": 207.036,
+     "end": 207.596,
+     "text": "from"
+    },
+    {
+     "start": 207.596,
+     "end": 208.036,
+     "text": "opposite"
+    },
+    {
+     "start": 208.036,
+     "end": 208.356,
+     "text": "ends"
+    },
+    {
+     "start": 208.356,
+     "end": 208.616,
+     "text": "of"
+    },
+    {
+     "start": 208.616,
+     "end": 208.876,
+     "text": "Europe"
+    },
+    {
+     "start": 208.496,
+     "end": 209.396,
+     "text": "are"
+    }
+   ]
+  },
+  {
+   "start": 209.396,
+   "end": 214.476,
+   "text": "expected to share millions of common genealogical ancestors over the last 1,000 years.",
+   "words": [
+    {
+     "start": 209.396,
+     "end": 209.676,
+     "text": "expected"
+    },
+    {
+     "start": 209.676,
+     "end": 210.036,
+     "text": "to"
+    },
+    {
+     "start": 210.036,
+     "end": 210.196,
+     "text": "share"
+    },
+    {
+     "start": 210.196,
+     "end": 210.576,
+     "text": "millions"
+    },
+    {
+     "start": 210.576,
+     "end": 210.856,
+     "text": "of"
+    },
+    {
+     "start": 210.856,
+     "end": 211.216,
+     "text": "common"
+    },
+    {
+     "start": 211.216,
+     "end": 211.956,
+     "text": "genealogical"
+    },
+    {
+     "start": 211.956,
+     "end": 212.356,
+     "text": "ancestors"
+    },
+    {
+     "start": 212.356,
+     "end": 213.176,
+     "text": "over"
+    },
+    {
+     "start": 213.176,
+     "end": 213.336,
+     "text": "the"
+    },
+    {
+     "start": 213.336,
+     "end": 213.576,
+     "text": "last"
+    },
+    {
+     "start": 213.576,
+     "end": 214.096,
+     "text": "1,000"
+    },
+    {
+     "start": 214.096,
+     "end": 214.476,
+     "text": "years."
+    }
+   ]
+  },
+  {
+   "start": 215.256,
+   "end": 216.476,
+   "text": "And it goes even further.",
+   "words": [
+    {
+     "start": 215.256,
+     "end": 215.476,
+     "text": "And"
+    },
+    {
+     "start": 215.476,
+     "end": 215.616,
+     "text": "it"
+    },
+    {
+     "start": 215.616,
+     "end": 215.856,
+     "text": "goes"
+    },
+    {
+     "start": 215.856,
+     "end": 216.116,
+     "text": "even"
+    },
+    {
+     "start": 216.116,
+     "end": 216.476,
+     "text": "further."
+    }
+   ]
+  },
+  {
+   "start": 217.216,
+   "end": 223.596,
+   "text": "A 2004 study published in Nature suggested that the most recent common ancestor, or MRCA,",
+   "words": [
+    {
+     "start": 217.216,
+     "end": 217.356,
+     "text": "A"
+    },
+    {
+     "start": 217.356,
+     "end": 217.996,
+     "text": "2004"
+    },
+    {
+     "start": 217.996,
+     "end": 218.456,
+     "text": "study"
+    },
+    {
+     "start": 218.456,
+     "end": 218.836,
+     "text": "published"
+    },
+    {
+     "start": 218.836,
+     "end": 219.016,
+     "text": "in"
+    },
+    {
+     "start": 219.016,
+     "end": 219.276,
+     "text": "Nature"
+    },
+    {
+     "start": 219.276,
+     "end": 219.996,
+     "text": "suggested"
+    },
+    {
+     "start": 219.996,
+     "end": 220.356,
+     "text": "that"
+    },
+    {
+     "start": 220.356,
+     "end": 220.436,
+     "text": "the"
+    },
+    {
+     "start": 220.436,
+     "end": 220.596,
+     "text": "most"
+    },
+    {
+     "start": 220.596,
+     "end": 220.956,
+     "text": "recent"
+    },
+    {
+     "start": 220.956,
+     "end": 221.276,
+     "text": "common"
+    },
+    {
+     "start": 221.276,
+     "end": 222.376,
+     "text": "ancestor,"
+    },
+    {
+     "start": 222.376,
+     "end": 222.476,
+     "text": "or"
+    },
+    {
+     "start": 222.476,
+     "end": 223.596,
+     "text": "MRCA,"
+    }
+   ]
+  },
+  {
+   "start": 223.796,
+   "end": 228.076,
+   "text": "of everyone alive today may have lived just a few thousand years ago.",
+   "words": [
+    {
+     "start": 223.796,
+     "end": 223.956,
+     "text": "of"
+    },
+    {
+     "start": 223.956,
+     "end": 224.376,
+     "text": "everyone"
+    },
+    {
+     "start": 224.376,
+     "end": 224.776,
+     "text": "alive"
+    },
+    {
+     "start": 224.776,
+     "end": 225.156,
+     "text": "today"
+    },
+    {
+     "start": 225.156,
+     "end": 225.796,
+     "text": "may"
+    },
+    {
+     "start": 225.796,
+     "end": 226.016,
+     "text": "have"
+    },
+    {
+     "start": 226.016,
+     "end": 226.376,
+     "text": "lived"
+    },
+    {
+     "start": 226.376,
+     "end": 226.836,
+     "text": "just"
+    },
+    {
+     "start": 226.836,
+     "end": 227.016,
+     "text": "a"
+    },
+    {
+     "start": 227.016,
+     "end": 227.196,
+     "text": "few"
+    },
+    {
+     "start": 227.196,
+     "end": 227.536,
+     "text": "thousand"
+    },
+    {
+     "start": 227.536,
+     "end": 227.816,
+     "text": "years"
+    },
+    {
+     "start": 227.816,
+     "end": 228.076,
+     "text": "ago."
+    }
+   ]
+  },
+  {
+   "start": 228.936,
+   "end": 233.636,
+   "text": "In other words, every person alive today could descend from the same individual who lived",
+   "words": [
+    {
+     "start": 228.936,
+     "end": 229.016,
+     "text": "In"
+    },
+    {
+     "start": 229.016,
+     "end": 229.256,
+     "text": "other"
+    },
+    {
+     "start": 229.256,
+     "end": 230.036,
+     "text": "words,"
+    },
+    {
+     "start": 230.036,
+     "end": 230.156,
+     "text": "every"
+    },
+    {
+     "start": 230.156,
+     "end": 230.476,
+     "text": "person"
+    },
+    {
+     "start": 230.476,
+     "end": 230.816,
+     "text": "alive"
+    },
+    {
+     "start": 230.816,
+     "end": 231.196,
+     "text": "today"
+    },
+    {
+     "start": 231.196,
+     "end": 231.656,
+     "text": "could"
+    },
+    {
+     "start": 231.656,
+     "end": 231.976,
+     "text": "descend"
+    },
+    {
+     "start": 231.976,
+     "end": 232.196,
+     "text": "from"
+    },
+    {
+     "start": 232.196,
+     "end": 232.336,
+     "text": "the"
+    },
+    {
+     "start": 232.336,
+     "end": 232.496,
+     "text": "same"
+    },
+    {
+     "start": 232.496,
+     "end": 232.976,
+     "text": "individual"
+    },
+    {
+     "start": 232.976,
+     "end": 233.456,
+     "text": "who"
+    },
+    {
+     "start": 233.456,
+     "end": 233.636,
+     "text": "lived"
+    }
+   ]
+  },
+  {
+   "start": 233.316,
+   "end": 236.076,
+   "text": "surprisingly recently in human history.",
+   "words": [
+    {
+     "start": 233.316,
+     "end": 234.216,
+     "text": "surprisingly"
+    },
+    {
+     "start": 234.216,
+     "end": 234.776,
+     "text": "recently"
+    },
+    {
+     "start": 234.776,
+     "end": 235.016,
+     "text": "in"
+    },
+    {
+     "start": 235.016,
+     "end": 235.236,
+     "text": "human"
+    },
+    {
+     "start": 235.236,
+     "end": 236.076,
+     "text": "history."
+    }
+   ]
+  },
+  {
+   "start": 236.476,
+   "end": 236.796,
+   "text": "And",
+   "words": [
+    {
+     "start": 236.476,
+     "end": 236.796,
+     "text": "And"
+    }
+   ]
+  },
+  {
+   "start": 236.796,
+   "end": 240.996,
+   "text": "this is where one of Europe's most famous rulers enters the story, Charlemagne.",
+   "words": [
+    {
+     "start": 236.796,
+     "end": 236.936,
+     "text": "this"
+    },
+    {
+     "start": 236.936,
+     "end": 237.076,
+     "text": "is"
+    },
+    {
+     "start": 237.076,
+     "end": 237.216,
+     "text": "where"
+    },
+    {
+     "start": 237.216,
+     "end": 237.376,
+     "text": "one"
+    },
+    {
+     "start": 237.376,
+     "end": 237.496,
+     "text": "of"
+    },
+    {
+     "start": 237.496,
+     "end": 237.896,
+     "text": "Europe's"
+    },
+    {
+     "start": 237.896,
+     "end": 238.096,
+     "text": "most"
+    },
+    {
+     "start": 238.096,
+     "end": 238.456,
+     "text": "famous"
+    },
+    {
+     "start": 238.456,
+     "end": 238.736,
+     "text": "rulers"
+    },
+    {
+     "start": 238.736,
+     "end": 239.216,
+     "text": "enters"
+    },
+    {
+     "start": 239.216,
+     "end": 239.396,
+     "text": "the"
+    },
+    {
+     "start": 239.396,
+     "end": 240.196,
+     "text": "story,"
+    },
+    {
+     "start": 240.196,
+     "end": 240.996,
+     "text": "Charlemagne."
+    }
+   ]
+  },
+  {
+   "start": 240.296,
+   "end": 244.416,
+   "text": "But are you actually descended from this great king?",
+   "words": [
+    {
+     "start": 240.296,
+     "end": 241.576,
+     "text": "But"
+    },
+    {
+     "start": 241.576,
+     "end": 241.756,
+     "text": "are"
+    },
+    {
+     "start": 241.756,
+     "end": 241.896,
+     "text": "you"
+    },
+    {
+     "start": 241.896,
+     "end": 242.336,
+     "text": "actually"
+    },
+    {
+     "start": 242.336,
+     "end": 242.876,
+     "text": "descended"
+    },
+    {
+     "start": 242.876,
+     "end": 243.296,
+     "text": "from"
+    },
+    {
+     "start": 243.296,
+     "end": 243.556,
+     "text": "this"
+    },
+    {
+     "start": 243.556,
+     "end": 243.856,
+     "text": "great"
+    },
+    {
+     "start": 243.856,
+     "end": 244.416,
+     "text": "king?"
+    }
+   ]
+  },
+  {
+   "start": 244.696,
+   "end": 251.352,
+   "text": "Now Charlemagne was king of the Franks, and in the year 800 he was crowned emperor of the Carolingian Empire.",
+   "words": [
+    {
+     "start": 244.696,
+     "end": 245.096,
+     "text": "Now"
+    },
+    {
+     "start": 245.096,
+     "end": 245.636,
+     "text": "Charlemagne"
+    },
+    {
+     "start": 245.636,
+     "end": 245.836,
+     "text": "was"
+    },
+    {
+     "start": 245.836,
+     "end": 245.996,
+     "text": "king"
+    },
+    {
+     "start": 245.996,
+     "end": 246.196,
+     "text": "of"
+    },
+    {
+     "start": 246.196,
+     "end": 246.316,
+     "text": "the"
+    },
+    {
+     "start": 246.316,
+     "end": 246.896,
+     "text": "Franks,"
+    },
+    {
+     "start": 246.896,
+     "end": 247.236,
+     "text": "and"
+    },
+    {
+     "start": 247.236,
+     "end": 247.356,
+     "text": "in"
+    },
+    {
+     "start": 247.356,
+     "end": 247.476,
+     "text": "the"
+    },
+    {
+     "start": 247.476,
+     "end": 247.676,
+     "text": "year"
+    },
+    {
+     "start": 247.676,
+     "end": 248.136,
+     "text": "800"
+    },
+    {
+     "start": 248.136,
+     "end": 248.776,
+     "text": "he"
+    },
+    {
+     "start": 248.776,
+     "end": 248.916,
+     "text": "was"
+    },
+    {
+     "start": 248.916,
+     "end": 249.256,
+     "text": "crowned"
+    },
+    {
+     "start": 249.252,
+     "end": 249.592,
+     "text": "emperor"
+    },
+    {
+     "start": 249.592,
+     "end": 250.172,
+     "text": "of"
+    },
+    {
+     "start": 250.172,
+     "end": 250.292,
+     "text": "the"
+    },
+    {
+     "start": 250.292,
+     "end": 250.932,
+     "text": "Carolingian"
+    },
+    {
+     "start": 250.932,
+     "end": 251.352,
+     "text": "Empire."
+    }
+   ]
+  },
+  {
+   "start": 252.132,
+   "end": 260.332,
+   "text": "He ruled large parts of Western and Central Europe before dying in 814 and famously fathered at least 18 children with",
+   "words": [
+    {
+     "start": 252.132,
+     "end": 252.292,
+     "text": "He"
+    },
+    {
+     "start": 252.292,
+     "end": 252.512,
+     "text": "ruled"
+    },
+    {
+     "start": 252.512,
+     "end": 252.772,
+     "text": "large"
+    },
+    {
+     "start": 252.772,
+     "end": 253.052,
+     "text": "parts"
+    },
+    {
+     "start": 253.052,
+     "end": 253.252,
+     "text": "of"
+    },
+    {
+     "start": 253.252,
+     "end": 253.632,
+     "text": "Western"
+    },
+    {
+     "start": 253.632,
+     "end": 253.852,
+     "text": "and"
+    },
+    {
+     "start": 253.852,
+     "end": 254.232,
+     "text": "Central"
+    },
+    {
+     "start": 254.232,
+     "end": 254.552,
+     "text": "Europe"
+    },
+    {
+     "start": 254.552,
+     "end": 255.212,
+     "text": "before"
+    },
+    {
+     "start": 255.212,
+     "end": 255.632,
+     "text": "dying"
+    },
+    {
+     "start": 255.632,
+     "end": 255.912,
+     "text": "in"
+    },
+    {
+     "start": 255.912,
+     "end": 256.392,
+     "text": "814"
+    },
+    {
+     "start": 256.392,
+     "end": 257.232,
+     "text": "and"
+    },
+    {
+     "start": 257.232,
+     "end": 257.612,
+     "text": "famously"
+    },
+    {
+     "start": 257.612,
+     "end": 258.252,
+     "text": "fathered"
+    },
+    {
+     "start": 258.252,
+     "end": 258.652,
+     "text": "at"
+    },
+    {
+     "start": 258.652,
+     "end": 258.792,
+     "text": "least"
+    },
+    {
+     "start": 258.792,
+     "end": 259.312,
+     "text": "18"
+    },
+    {
+     "start": 259.312,
+     "end": 259.752,
+     "text": "children"
+    },
+    {
+     "start": 259.752,
+     "end": 260.332,
+     "text": "with"
+    }
+   ]
+  },
+  {
+   "start": 260.332,
+   "end": 262.032,
+   "text": "his wives and other partners.",
+   "words": [
+    {
+     "start": 260.332,
+     "end": 260.472,
+     "text": "his"
+    },
+    {
+     "start": 260.472,
+     "end": 260.812,
+     "text": "wives"
+    },
+    {
+     "start": 260.812,
+     "end": 261.032,
+     "text": "and"
+    },
+    {
+     "start": 261.032,
+     "end": 261.212,
+     "text": "other"
+    },
+    {
+     "start": 261.212,
+     "end": 262.032,
+     "text": "partners."
+    }
+   ]
+  },
+  {
+   "start": 261.292,
+   "end": 267.752,
+   "text": "At first glance, discovering him and your family tree would seem like an extraordinary royal connection.",
+   "words": [
+    {
+     "start": 261.292,
+     "end": 262.492,
+     "text": "At"
+    },
+    {
+     "start": 262.492,
+     "end": 262.732,
+     "text": "first"
+    },
+    {
+     "start": 262.732,
+     "end": 263.292,
+     "text": "glance,"
+    },
+    {
+     "start": 263.292,
+     "end": 263.892,
+     "text": "discovering"
+    },
+    {
+     "start": 263.892,
+     "end": 264.152,
+     "text": "him"
+    },
+    {
+     "start": 264.152,
+     "end": 264.252,
+     "text": "and"
+    },
+    {
+     "start": 264.252,
+     "end": 264.372,
+     "text": "your"
+    },
+    {
+     "start": 264.372,
+     "end": 264.673,
+     "text": "family"
+    },
+    {
+     "start": 264.673,
+     "end": 264.952,
+     "text": "tree"
+    },
+    {
+     "start": 264.952,
+     "end": 265.412,
+     "text": "would"
+    },
+    {
+     "start": 265.412,
+     "end": 265.673,
+     "text": "seem"
+    },
+    {
+     "start": 265.673,
+     "end": 265.932,
+     "text": "like"
+    },
+    {
+     "start": 265.932,
+     "end": 266.032,
+     "text": "an"
+    },
+    {
+     "start": 266.032,
+     "end": 266.652,
+     "text": "extraordinary"
+    },
+    {
+     "start": 266.652,
+     "end": 267.252,
+     "text": "royal"
+    },
+    {
+     "start": 267.252,
+     "end": 267.752,
+     "text": "connection."
+    }
+   ]
+  },
+  {
+   "start": 268.312,
+   "end": 271.232,
+   "text": "But consider what 12 centuries actually means.",
+   "words": [
+    {
+     "start": 268.312,
+     "end": 268.452,
+     "text": "But"
+    },
+    {
+     "start": 268.452,
+     "end": 268.852,
+     "text": "consider"
+    },
+    {
+     "start": 268.852,
+     "end": 269.173,
+     "text": "what"
+    },
+    {
+     "start": 269.173,
+     "end": 269.532,
+     "text": "12"
+    },
+    {
+     "start": 269.532,
+     "end": 270.032,
+     "text": "centuries"
+    },
+    {
+     "start": 270.032,
+     "end": 270.592,
+     "text": "actually"
+    },
+    {
+     "start": 270.592,
+     "end": 271.232,
+     "text": "means."
+    }
+   ]
+  },
+  {
+   "start": 271.832,
+   "end": 276.132,
+   "text": "That's around 40 or more generations of descendants marrying into new families",
+   "words": [
+    {
+     "start": 271.832,
+     "end": 272.072,
+     "text": "That's"
+    },
+    {
+     "start": 272.072,
+     "end": 272.312,
+     "text": "around"
+    },
+    {
+     "start": 272.312,
+     "end": 272.712,
+     "text": "40"
+    },
+    {
+     "start": 272.712,
+     "end": 272.932,
+     "text": "or"
+    },
+    {
+     "start": 272.932,
+     "end": 273.072,
+     "text": "more"
+    },
+    {
+     "start": 273.072,
+     "end": 273.673,
+     "text": "generations"
+    },
+    {
+     "start": 273.673,
+     "end": 274.272,
+     "text": "of"
+    },
+    {
+     "start": 274.272,
+     "end": 274.752,
+     "text": "descendants"
+    },
+    {
+     "start": 274.752,
+     "end": 275.292,
+     "text": "marrying"
+    },
+    {
+     "start": 275.292,
+     "end": 275.652,
+     "text": "into"
+    },
+    {
+     "start": 275.652,
+     "end": 275.812,
+     "text": "new"
+    },
+    {
+     "start": 275.812,
+     "end": 276.132,
+     "text": "families"
+    }
+   ]
+  },
+  {
+   "start": 276.332,
+   "end": 280.472,
+   "text": "Moving between regions and producing further descendants of their own",
+   "words": [
+    {
+     "start": 276.332,
+     "end": 277.052,
+     "text": "Moving"
+    },
+    {
+     "start": 277.052,
+     "end": 277.372,
+     "text": "between"
+    },
+    {
+     "start": 277.372,
+     "end": 277.812,
+     "text": "regions"
+    },
+    {
+     "start": 277.812,
+     "end": 278.332,
+     "text": "and"
+    },
+    {
+     "start": 278.332,
+     "end": 278.732,
+     "text": "producing"
+    },
+    {
+     "start": 278.732,
+     "end": 279.092,
+     "text": "further"
+    },
+    {
+     "start": 279.092,
+     "end": 279.632,
+     "text": "descendants"
+    },
+    {
+     "start": 279.632,
+     "end": 280.092,
+     "text": "of"
+    },
+    {
+     "start": 280.092,
+     "end": 280.292,
+     "text": "their"
+    },
+    {
+     "start": 280.292,
+     "end": 280.472,
+     "text": "own"
+    }
+   ]
+  },
+  {
+   "start": 281.212,
+   "end": 286.392,
+   "text": "And population mathematics suggests that an immense number of living people could be his descendants",
+   "words": [
+    {
+     "start": 281.212,
+     "end": 281.412,
+     "text": "And"
+    },
+    {
+     "start": 281.412,
+     "end": 281.912,
+     "text": "population"
+    },
+    {
+     "start": 281.912,
+     "end": 282.292,
+     "text": "mathematics"
+    },
+    {
+     "start": 282.292,
+     "end": 283.012,
+     "text": "suggests"
+    },
+    {
+     "start": 283.012,
+     "end": 283.472,
+     "text": "that"
+    },
+    {
+     "start": 283.472,
+     "end": 283.613,
+     "text": "an"
+    },
+    {
+     "start": 283.613,
+     "end": 283.892,
+     "text": "immense"
+    },
+    {
+     "start": 283.892,
+     "end": 284.232,
+     "text": "number"
+    },
+    {
+     "start": 284.232,
+     "end": 284.412,
+     "text": "of"
+    },
+    {
+     "start": 284.412,
+     "end": 284.613,
+     "text": "living"
+    },
+    {
+     "start": 284.613,
+     "end": 284.992,
+     "text": "people"
+    },
+    {
+     "start": 284.992,
+     "end": 285.532,
+     "text": "could"
+    },
+    {
+     "start": 285.532,
+     "end": 285.732,
+     "text": "be"
+    },
+    {
+     "start": 285.732,
+     "end": 285.952,
+     "text": "his"
+    },
+    {
+     "start": 285.952,
+     "end": 286.392,
+     "text": "descendants"
+    }
+   ]
+  },
+  {
+   "start": 287.012,
+   "end": 288.613,
+   "text": "Whether they realise it or not",
+   "words": [
+    {
+     "start": 287.012,
+     "end": 287.252,
+     "text": "Whether"
+    },
+    {
+     "start": 287.252,
+     "end": 287.472,
+     "text": "they"
+    },
+    {
+     "start": 287.472,
+     "end": 287.832,
+     "text": "realise"
+    },
+    {
+     "start": 287.832,
+     "end": 288.092,
+     "text": "it"
+    },
+    {
+     "start": 288.092,
+     "end": 288.352,
+     "text": "or"
+    },
+    {
+     "start": 288.352,
+     "end": 288.613,
+     "text": "not"
+    }
+   ]
+  },
+  {
+   "start": 288.392,
+   "end": 291.952,
+   "text": "So when someone says I'm descendants from royalty",
+   "words": [
+    {
+     "start": 288.392,
+     "end": 289.532,
+     "text": "So"
+    },
+    {
+     "start": 289.532,
+     "end": 289.673,
+     "text": "when"
+    },
+    {
+     "start": 289.673,
+     "end": 289.952,
+     "text": "someone"
+    },
+    {
+     "start": 289.952,
+     "end": 290.372,
+     "text": "says"
+    },
+    {
+     "start": 290.372,
+     "end": 290.872,
+     "text": "I'm"
+    },
+    {
+     "start": 290.872,
+     "end": 291.272,
+     "text": "descendants"
+    },
+    {
+     "start": 291.272,
+     "end": 291.613,
+     "text": "from"
+    },
+    {
+     "start": 291.613,
+     "end": 291.952,
+     "text": "royalty"
+    }
+   ]
+  },
+  {
+   "start": 291.532,
+   "end": 293.932,
+   "text": "That may be completely true",
+   "words": [
+    {
+     "start": 291.532,
+     "end": 292.852,
+     "text": "That"
+    },
+    {
+     "start": 292.852,
+     "end": 293.032,
+     "text": "may"
+    },
+    {
+     "start": 293.032,
+     "end": 293.152,
+     "text": "be"
+    },
+    {
+     "start": 293.152,
+     "end": 293.572,
+     "text": "completely"
+    },
+    {
+     "start": 293.572,
+     "end": 293.932,
+     "text": "true"
+    }
+   ]
+  },
+  {
+   "start": 293.652,
+   "end": 300.012,
+   "text": "But the truth is that virtually everyone with European ancestry is related to Charlemagne in some way",
+   "words": [
+    {
+     "start": 293.652,
+     "end": 294.832,
+     "text": "But"
+    },
+    {
+     "start": 294.832,
+     "end": 294.972,
+     "text": "the"
+    },
+    {
+     "start": 294.972,
+     "end": 295.173,
+     "text": "truth"
+    },
+    {
+     "start": 295.173,
+     "end": 295.432,
+     "text": "is"
+    },
+    {
+     "start": 295.432,
+     "end": 295.572,
+     "text": "that"
+    },
+    {
+     "start": 295.572,
+     "end": 295.852,
+     "text": "virtually"
+    },
+    {
+     "start": 295.852,
+     "end": 296.392,
+     "text": "everyone"
+    },
+    {
+     "start": 296.392,
+     "end": 296.652,
+     "text": "with"
+    },
+    {
+     "start": 296.652,
+     "end": 297.032,
+     "text": "European"
+    },
+    {
+     "start": 297.032,
+     "end": 297.673,
+     "text": "ancestry"
+    },
+    {
+     "start": 297.673,
+     "end": 298.272,
+     "text": "is"
+    },
+    {
+     "start": 298.272,
+     "end": 298.592,
+     "text": "related"
+    },
+    {
+     "start": 298.592,
+     "end": 298.832,
+     "text": "to"
+    },
+    {
+     "start": 298.832,
+     "end": 299.292,
+     "text": "Charlemagne"
+    },
+    {
+     "start": 299.292,
+     "end": 299.552,
+     "text": "in"
+    },
+    {
+     "start": 299.552,
+     "end": 299.812,
+     "text": "some"
+    },
+    {
+     "start": 299.812,
+     "end": 300.012,
+     "text": "way"
+    }
+   ]
+  },
+  {
+   "start": 300.732,
+   "end": 305.352,
+   "text": "But you may be asking yourself, can you actually prove direct descent from him?",
+   "words": [
+    {
+     "start": 300.732,
+     "end": 300.852,
+     "text": "But"
+    },
+    {
+     "start": 300.852,
+     "end": 300.952,
+     "text": "you"
+    },
+    {
+     "start": 300.952,
+     "end": 301.072,
+     "text": "may"
+    },
+    {
+     "start": 301.072,
+     "end": 301.152,
+     "text": "be"
+    },
+    {
+     "start": 301.152,
+     "end": 301.492,
+     "text": "asking"
+    },
+    {
+     "start": 301.492,
+     "end": 302.352,
+     "text": "yourself,"
+    },
+    {
+     "start": 302.352,
+     "end": 302.472,
+     "text": "can"
+    },
+    {
+     "start": 302.472,
+     "end": 302.632,
+     "text": "you"
+    },
+    {
+     "start": 302.632,
+     "end": 303.052,
+     "text": "actually"
+    },
+    {
+     "start": 303.052,
+     "end": 303.572,
+     "text": "prove"
+    },
+    {
+     "start": 303.572,
+     "end": 304.072,
+     "text": "direct"
+    },
+    {
+     "start": 304.072,
+     "end": 304.432,
+     "text": "descent"
+    },
+    {
+     "start": 304.432,
+     "end": 304.832,
+     "text": "from"
+    },
+    {
+     "start": 304.832,
+     "end": 305.352,
+     "text": "him?"
+    }
+   ]
+  },
+  {
+   "start": 305.812,
+   "end": 311.712,
+   "text": "Well, only by tracing an unbroken family line through historical records all the way back to the king.",
+   "words": [
+    {
+     "start": 305.812,
+     "end": 306.032,
+     "text": "Well,"
+    },
+    {
+     "start": 306.032,
+     "end": 306.272,
+     "text": "only"
+    },
+    {
+     "start": 306.272,
+     "end": 306.432,
+     "text": "by"
+    },
+    {
+     "start": 306.432,
+     "end": 306.832,
+     "text": "tracing"
+    },
+    {
+     "start": 306.832,
+     "end": 307.132,
+     "text": "an"
+    },
+    {
+     "start": 307.132,
+     "end": 307.512,
+     "text": "unbroken"
+    },
+    {
+     "start": 307.512,
+     "end": 308.012,
+     "text": "family"
+    },
+    {
+     "start": 308.012,
+     "end": 308.352,
+     "text": "line"
+    },
+    {
+     "start": 308.352,
+     "end": 308.772,
+     "text": "through"
+    },
+    {
+     "start": 308.772,
+     "end": 309.212,
+     "text": "historical"
+    },
+    {
+     "start": 309.212,
+     "end": 309.712,
+     "text": "records"
+    },
+    {
+     "start": 309.712,
+     "end": 310.312,
+     "text": "all"
+    },
+    {
+     "start": 310.312,
+     "end": 310.472,
+     "text": "the"
+    },
+    {
+     "start": 310.472,
+     "end": 310.572,
+     "text": "way"
+    },
+    {
+     "start": 310.572,
+     "end": 310.892,
+     "text": "back"
+    },
+    {
+     "start": 310.892,
+     "end": 311.132,
+     "text": "to"
+    },
+    {
+     "start": 311.132,
+     "end": 311.292,
+     "text": "the"
+    },
+    {
+     "start": 311.292,
+     "end": 311.712,
+     "text": "king."
+    }
+   ]
+  },
+  {
+   "start": 312.113,
+   "end": 320.392,
+   "text": "Some families have documented these connections, but for most people, the records simply don't survive, and a DNA test alone can't",
+   "words": [
+    {
+     "start": 312.113,
+     "end": 312.372,
+     "text": "Some"
+    },
+    {
+     "start": 312.372,
+     "end": 312.752,
+     "text": "families"
+    },
+    {
+     "start": 312.752,
+     "end": 313.092,
+     "text": "have"
+    },
+    {
+     "start": 313.092,
+     "end": 313.592,
+     "text": "documented"
+    },
+    {
+     "start": 313.592,
+     "end": 314.012,
+     "text": "these"
+    },
+    {
+     "start": 314.012,
+     "end": 314.852,
+     "text": "connections,"
+    },
+    {
+     "start": 314.852,
+     "end": 315.192,
+     "text": "but"
+    },
+    {
+     "start": 315.192,
+     "end": 315.332,
+     "text": "for"
+    },
+    {
+     "start": 315.332,
+     "end": 315.512,
+     "text": "most"
+    },
+    {
+     "start": 315.512,
+     "end": 316.012,
+     "text": "people,"
+    },
+    {
+     "start": 316.012,
+     "end": 316.372,
+     "text": "the"
+    },
+    {
+     "start": 316.372,
+     "end": 316.732,
+     "text": "records"
+    },
+    {
+     "start": 316.732,
+     "end": 317.132,
+     "text": "simply"
+    },
+    {
+     "start": 317.132,
+     "end": 317.412,
+     "text": "don't"
+    },
+    {
+     "start": 317.412,
+     "end": 318.132,
+     "text": "survive,"
+    },
+    {
+     "start": 318.132,
+     "end": 318.632,
+     "text": "and"
+    },
+    {
+     "start": 318.632,
+     "end": 318.732,
+     "text": "a"
+    },
+    {
+     "start": 318.732,
+     "end": 319.032,
+     "text": "DNA"
+    },
+    {
+     "start": 319.032,
+     "end": 319.452,
+     "text": "test"
+    },
+    {
+     "start": 319.452,
+     "end": 319.792,
+     "text": "alone"
+    },
+    {
+     "start": 319.792,
+     "end": 320.392,
+     "text": "can't"
+    }
+   ]
+  },
+  {
+   "start": 320.392,
+   "end": 321.052,
+   "text": "really prove it.",
+   "words": [
+    {
+     "start": 320.392,
+     "end": 320.572,
+     "text": "really"
+    },
+    {
+     "start": 320.572,
+     "end": 320.832,
+     "text": "prove"
+    },
+    {
+     "start": 320.832,
+     "end": 321.052,
+     "text": "it."
+    }
+   ]
+  },
+  {
+   "start": 322.012,
+   "end": 325.712,
+   "text": "And this highlights another interesting quirk of genetics and ancestry.",
+   "words": [
+    {
+     "start": 322.012,
+     "end": 322.192,
+     "text": "And"
+    },
+    {
+     "start": 322.192,
+     "end": 322.352,
+     "text": "this"
+    },
+    {
+     "start": 322.352,
+     "end": 322.772,
+     "text": "highlights"
+    },
+    {
+     "start": 322.772,
+     "end": 323.192,
+     "text": "another"
+    },
+    {
+     "start": 323.192,
+     "end": 323.852,
+     "text": "interesting"
+    },
+    {
+     "start": 323.852,
+     "end": 324.212,
+     "text": "quirk"
+    },
+    {
+     "start": 324.212,
+     "end": 324.512,
+     "text": "of"
+    },
+    {
+     "start": 324.512,
+     "end": 324.952,
+     "text": "genetics"
+    },
+    {
+     "start": 324.952,
+     "end": 325.212,
+     "text": "and"
+    },
+    {
+     "start": 325.212,
+     "end": 325.712,
+     "text": "ancestry."
+    }
+   ]
+  },
+  {
+   "start": 326.492,
+   "end": 331.792,
+   "text": "There are direct descendants in your family tree who left you no DNA at all.",
+   "words": [
+    {
+     "start": 326.492,
+     "end": 326.572,
+     "text": "There"
+    },
+    {
+     "start": 326.572,
+     "end": 326.732,
+     "text": "are"
+    },
+    {
+     "start": 326.732,
+     "end": 327.152,
+     "text": "direct"
+    },
+    {
+     "start": 327.152,
+     "end": 327.652,
+     "text": "descendants"
+    },
+    {
+     "start": 327.652,
+     "end": 327.952,
+     "text": "in"
+    },
+    {
+     "start": 327.952,
+     "end": 328.072,
+     "text": "your"
+    },
+    {
+     "start": 328.072,
+     "end": 328.332,
+     "text": "family"
+    },
+    {
+     "start": 328.332,
+     "end": 328.613,
+     "text": "tree"
+    },
+    {
+     "start": 328.613,
+     "end": 329.132,
+     "text": "who"
+    },
+    {
+     "start": 329.132,
+     "end": 329.512,
+     "text": "left"
+    },
+    {
+     "start": 329.512,
+     "end": 329.772,
+     "text": "you"
+    },
+    {
+     "start": 329.772,
+     "end": 330.372,
+     "text": "no"
+    },
+    {
+     "start": 330.372,
+     "end": 330.832,
+     "text": "DNA"
+    },
+    {
+     "start": 330.832,
+     "end": 331.332,
+     "text": "at"
+    },
+    {
+     "start": 331.332,
+     "end": 331.792,
+     "text": "all."
+    }
+   ]
+  },
+  {
+   "start": 332.272,
+   "end": 333.132,
+   "text": "But how is this?",
+   "words": [
+    {
+     "start": 332.272,
+     "end": 332.452,
+     "text": "But"
+    },
+    {
+     "start": 332.452,
+     "end": 332.592,
+     "text": "how"
+    },
+    {
+     "start": 332.592,
+     "end": 332.832,
+     "text": "is"
+    },
+    {
+     "start": 332.832,
+     "end": 333.132,
+     "text": "this?"
+    }
+   ]
+  },
+  {
+   "start": 333.792,
+   "end": 340.592,
+   "text": "Well, you receive half your autosomal DNA from each parent, and on average, about a quarter from each grandparent.",
+   "words": [
+    {
+     "start": 333.792,
+     "end": 334.032,
+     "text": "Well,"
+    },
+    {
+     "start": 334.032,
+     "end": 334.132,
+     "text": "you"
+    },
+    {
+     "start": 334.132,
+     "end": 334.632,
+     "text": "receive"
+    },
+    {
+     "start": 334.632,
+     "end": 335.152,
+     "text": "half"
+    },
+    {
+     "start": 335.152,
+     "end": 335.372,
+     "text": "your"
+    },
+    {
+     "start": 335.372,
+     "end": 335.992,
+     "text": "autosomal"
+    },
+    {
+     "start": 335.992,
+     "end": 336.292,
+     "text": "DNA"
+    },
+    {
+     "start": 336.292,
+     "end": 336.652,
+     "text": "from"
+    },
+    {
+     "start": 336.652,
+     "end": 336.832,
+     "text": "each"
+    },
+    {
+     "start": 336.832,
+     "end": 337.432,
+     "text": "parent,"
+    },
+    {
+     "start": 337.432,
+     "end": 337.852,
+     "text": "and"
+    },
+    {
+     "start": 337.852,
+     "end": 338.012,
+     "text": "on"
+    },
+    {
+     "start": 338.012,
+     "end": 338.792,
+     "text": "average,"
+    },
+    {
+     "start": 338.792,
+     "end": 338.972,
+     "text": "about"
+    },
+    {
+     "start": 338.972,
+     "end": 339.173,
+     "text": "a"
+    },
+    {
+     "start": 339.173,
+     "end": 339.412,
+     "text": "quarter"
+    },
+    {
+     "start": 339.412,
+     "end": 339.772,
+     "text": "from"
+    },
+    {
+     "start": 339.772,
+     "end": 339.972,
+     "text": "each"
+    },
+    {
+     "start": 339.972,
+     "end": 340.592,
+     "text": "grandparent."
+    }
+   ]
+  },
+  {
+   "start": 341.212,
+   "end": 345.292,
+   "text": "But genetic inheritance isn't divided into perfectly equal pieces forever.",
+   "words": [
+    {
+     "start": 341.212,
+     "end": 341.392,
+     "text": "But"
+    },
+    {
+     "start": 341.392,
+     "end": 341.712,
+     "text": "genetic"
+    },
+    {
+     "start": 341.712,
+     "end": 342.292,
+     "text": "inheritance"
+    },
+    {
+     "start": 342.292,
+     "end": 342.912,
+     "text": "isn't"
+    },
+    {
+     "start": 342.912,
+     "end": 343.272,
+     "text": "divided"
+    },
+    {
+     "start": 343.272,
+     "end": 343.632,
+     "text": "into"
+    },
+    {
+     "start": 343.632,
+     "end": 344.072,
+     "text": "perfectly"
+    },
+    {
+     "start": 344.072,
+     "end": 344.452,
+     "text": "equal"
+    },
+    {
+     "start": 344.452,
+     "end": 344.832,
+     "text": "pieces"
+    },
+    {
+     "start": 344.832,
+     "end": 345.292,
+     "text": "forever."
+    }
+   ]
+  },
+  {
+   "start": 346.173,
+   "end": 351.652,
+   "text": "When eggs and sperm are formed, chromosomes are shuffled through a process called recombination.",
+   "words": [
+    {
+     "start": 346.173,
+     "end": 346.372,
+     "text": "When"
+    },
+    {
+     "start": 346.372,
+     "end": 346.692,
+     "text": "eggs"
+    },
+    {
+     "start": 346.692,
+     "end": 346.812,
+     "text": "and"
+    },
+    {
+     "start": 346.812,
+     "end": 347.132,
+     "text": "sperm"
+    },
+    {
+     "start": 347.132,
+     "end": 347.332,
+     "text": "are"
+    },
+    {
+     "start": 347.332,
+     "end": 347.992,
+     "text": "formed,"
+    },
+    {
+     "start": 347.992,
+     "end": 348.352,
+     "text": "chromosomes"
+    },
+    {
+     "start": 348.352,
+     "end": 348.752,
+     "text": "are"
+    },
+    {
+     "start": 348.752,
+     "end": 349.032,
+     "text": "shuffled"
+    },
+    {
+     "start": 349.032,
+     "end": 349.613,
+     "text": "through"
+    },
+    {
+     "start": 349.613,
+     "end": 349.712,
+     "text": "a"
+    },
+    {
+     "start": 349.712,
+     "end": 350.072,
+     "text": "process"
+    },
+    {
+     "start": 350.072,
+     "end": 350.512,
+     "text": "called"
+    },
+    {
+     "start": 350.512,
+     "end": 351.652,
+     "text": "recombination."
+    }
+   ]
+  },
+  {
+   "start": 352.532,
+   "end": 355.812,
+   "text": "Some ancestral segments are passed on, yet others are lost",
+   "words": [
+    {
+     "start": 352.532,
+     "end": 352.692,
+     "text": "Some"
+    },
+    {
+     "start": 352.692,
+     "end": 353.173,
+     "text": "ancestral"
+    },
+    {
+     "start": 353.173,
+     "end": 353.712,
+     "text": "segments"
+    },
+    {
+     "start": 353.712,
+     "end": 353.892,
+     "text": "are"
+    },
+    {
+     "start": 353.892,
+     "end": 354.132,
+     "text": "passed"
+    },
+    {
+     "start": 354.132,
+     "end": 354.752,
+     "text": "on,"
+    },
+    {
+     "start": 354.752,
+     "end": 354.872,
+     "text": "yet"
+    },
+    {
+     "start": 354.872,
+     "end": 355.212,
+     "text": "others"
+    },
+    {
+     "start": 355.212,
+     "end": 355.392,
+     "text": "are"
+    },
+    {
+     "start": 355.392,
+     "end": 355.812,
+     "text": "lost"
+    }
+   ]
+  },
+  {
+   "start": 355.832,
+   "end": 359.292,
+   "text": "And this is a process that is surprisingly random to some extent",
+   "words": [
+    {
+     "start": 355.832,
+     "end": 356.552,
+     "text": "And"
+    },
+    {
+     "start": 356.552,
+     "end": 356.712,
+     "text": "this"
+    },
+    {
+     "start": 356.712,
+     "end": 356.812,
+     "text": "is"
+    },
+    {
+     "start": 356.812,
+     "end": 356.892,
+     "text": "a"
+    },
+    {
+     "start": 356.892,
+     "end": 357.173,
+     "text": "process"
+    },
+    {
+     "start": 357.173,
+     "end": 357.412,
+     "text": "that"
+    },
+    {
+     "start": 357.412,
+     "end": 357.472,
+     "text": "is"
+    },
+    {
+     "start": 357.472,
+     "end": 358.052,
+     "text": "surprisingly"
+    },
+    {
+     "start": 358.052,
+     "end": 358.532,
+     "text": "random"
+    },
+    {
+     "start": 358.532,
+     "end": 358.772,
+     "text": "to"
+    },
+    {
+     "start": 358.772,
+     "end": 358.932,
+     "text": "some"
+    },
+    {
+     "start": 358.932,
+     "end": 359.292,
+     "text": "extent"
+    }
+   ]
+  },
+  {
+   "start": 360.092,
+   "end": 364.252,
+   "text": "Go back 10 generations and a particular ancestor's expected contribution",
+   "words": [
+    {
+     "start": 360.092,
+     "end": 360.312,
+     "text": "Go"
+    },
+    {
+     "start": 360.312,
+     "end": 360.592,
+     "text": "back"
+    },
+    {
+     "start": 360.592,
+     "end": 360.912,
+     "text": "10"
+    },
+    {
+     "start": 360.912,
+     "end": 361.472,
+     "text": "generations"
+    },
+    {
+     "start": 361.472,
+     "end": 362.072,
+     "text": "and"
+    },
+    {
+     "start": 362.072,
+     "end": 362.152,
+     "text": "a"
+    },
+    {
+     "start": 362.152,
+     "end": 362.512,
+     "text": "particular"
+    },
+    {
+     "start": 362.512,
+     "end": 363.312,
+     "text": "ancestor's"
+    },
+    {
+     "start": 363.312,
+     "end": 363.692,
+     "text": "expected"
+    },
+    {
+     "start": 363.692,
+     "end": 364.252,
+     "text": "contribution"
+    }
+   ]
+  },
+  {
+   "start": 363.872,
+   "end": 367.412,
+   "text": "Is already less than one tenth of 1%",
+   "words": [
+    {
+     "start": 363.872,
+     "end": 364.952,
+     "text": "Is"
+    },
+    {
+     "start": 364.952,
+     "end": 365.272,
+     "text": "already"
+    },
+    {
+     "start": 365.272,
+     "end": 365.752,
+     "text": "less"
+    },
+    {
+     "start": 365.752,
+     "end": 366.173,
+     "text": "than"
+    },
+    {
+     "start": 366.173,
+     "end": 366.352,
+     "text": "one"
+    },
+    {
+     "start": 366.352,
+     "end": 366.632,
+     "text": "tenth"
+    },
+    {
+     "start": 366.632,
+     "end": 366.972,
+     "text": "of"
+    },
+    {
+     "start": 366.972,
+     "end": 367.412,
+     "text": "1%"
+    }
+   ]
+  },
+  {
+   "start": 368.232,
+   "end": 376.409,
+   "text": "And at that distance, many genuine ancestors will have left you no autosomal DNA at all Go back into the early Middle",
+   "words": [
+    {
+     "start": 368.232,
+     "end": 368.472,
+     "text": "And"
+    },
+    {
+     "start": 368.472,
+     "end": 368.712,
+     "text": "at"
+    },
+    {
+     "start": 368.712,
+     "end": 368.892,
+     "text": "that"
+    },
+    {
+     "start": 368.892,
+     "end": 369.732,
+     "text": "distance,"
+    },
+    {
+     "start": 369.732,
+     "end": 370.212,
+     "text": "many"
+    },
+    {
+     "start": 370.212,
+     "end": 370.632,
+     "text": "genuine"
+    },
+    {
+     "start": 370.632,
+     "end": 371.272,
+     "text": "ancestors"
+    },
+    {
+     "start": 371.272,
+     "end": 371.832,
+     "text": "will"
+    },
+    {
+     "start": 371.832,
+     "end": 371.992,
+     "text": "have"
+    },
+    {
+     "start": 371.992,
+     "end": 372.272,
+     "text": "left"
+    },
+    {
+     "start": 372.272,
+     "end": 372.432,
+     "text": "you"
+    },
+    {
+     "start": 372.432,
+     "end": 372.732,
+     "text": "no"
+    },
+    {
+     "start": 372.732,
+     "end": 373.412,
+     "text": "autosomal"
+    },
+    {
+     "start": 373.412,
+     "end": 373.712,
+     "text": "DNA"
+    },
+    {
+     "start": 373.712,
+     "end": 374.173,
+     "text": "at"
+    },
+    {
+     "start": 374.173,
+     "end": 374.412,
+     "text": "all"
+    },
+    {
+     "start": 375.113,
+     "end": 375.332,
+     "text": "Go"
+    },
+    {
+     "start": 375.332,
+     "end": 375.652,
+     "text": "back"
+    },
+    {
+     "start": 375.609,
+     "end": 375.869,
+     "text": "into"
+    },
+    {
+     "start": 375.869,
+     "end": 375.989,
+     "text": "the"
+    },
+    {
+     "start": 375.989,
+     "end": 376.229,
+     "text": "early"
+    },
+    {
+     "start": 376.229,
+     "end": 376.409,
+     "text": "Middle"
+    }
+   ]
+  },
+  {
+   "start": 376.409,
+   "end": 383.229,
+   "text": "Ages and the chances of identifying a specific piece of DNA from one ancestor becomes far smaller.",
+   "words": [
+    {
+     "start": 376.409,
+     "end": 376.689,
+     "text": "Ages"
+    },
+    {
+     "start": 376.689,
+     "end": 377.309,
+     "text": "and"
+    },
+    {
+     "start": 377.309,
+     "end": 377.429,
+     "text": "the"
+    },
+    {
+     "start": 377.429,
+     "end": 377.809,
+     "text": "chances"
+    },
+    {
+     "start": 377.809,
+     "end": 378.009,
+     "text": "of"
+    },
+    {
+     "start": 378.009,
+     "end": 378.569,
+     "text": "identifying"
+    },
+    {
+     "start": 378.569,
+     "end": 379.049,
+     "text": "a"
+    },
+    {
+     "start": 379.049,
+     "end": 379.389,
+     "text": "specific"
+    },
+    {
+     "start": 379.389,
+     "end": 379.709,
+     "text": "piece"
+    },
+    {
+     "start": 379.709,
+     "end": 379.889,
+     "text": "of"
+    },
+    {
+     "start": 379.889,
+     "end": 380.189,
+     "text": "DNA"
+    },
+    {
+     "start": 380.189,
+     "end": 380.749,
+     "text": "from"
+    },
+    {
+     "start": 380.749,
+     "end": 380.989,
+     "text": "one"
+    },
+    {
+     "start": 380.989,
+     "end": 381.529,
+     "text": "ancestor"
+    },
+    {
+     "start": 381.529,
+     "end": 382.409,
+     "text": "becomes"
+    },
+    {
+     "start": 382.409,
+     "end": 382.709,
+     "text": "far"
+    },
+    {
+     "start": 382.709,
+     "end": 383.229,
+     "text": "smaller."
+    }
+   ]
+  },
+  {
+   "start": 383.749,
+   "end": 389.949,
+   "text": "That means that you could genuinely be descended from Charlemagne, a Viking, a Norman or an unnamed medieval woman",
+   "words": [
+    {
+     "start": 383.749,
+     "end": 383.949,
+     "text": "That"
+    },
+    {
+     "start": 383.949,
+     "end": 384.229,
+     "text": "means"
+    },
+    {
+     "start": 384.229,
+     "end": 384.369,
+     "text": "that"
+    },
+    {
+     "start": 384.369,
+     "end": 384.449,
+     "text": "you"
+    },
+    {
+     "start": 384.449,
+     "end": 384.589,
+     "text": "could"
+    },
+    {
+     "start": 384.589,
+     "end": 385.069,
+     "text": "genuinely"
+    },
+    {
+     "start": 385.069,
+     "end": 385.249,
+     "text": "be"
+    },
+    {
+     "start": 385.249,
+     "end": 385.629,
+     "text": "descended"
+    },
+    {
+     "start": 385.629,
+     "end": 386.009,
+     "text": "from"
+    },
+    {
+     "start": 386.009,
+     "end": 386.929,
+     "text": "Charlemagne,"
+    },
+    {
+     "start": 386.929,
+     "end": 387.069,
+     "text": "a"
+    },
+    {
+     "start": 387.069,
+     "end": 387.749,
+     "text": "Viking,"
+    },
+    {
+     "start": 387.749,
+     "end": 387.929,
+     "text": "a"
+    },
+    {
+     "start": 387.929,
+     "end": 388.189,
+     "text": "Norman"
+    },
+    {
+     "start": 388.189,
+     "end": 388.609,
+     "text": "or"
+    },
+    {
+     "start": 388.609,
+     "end": 388.809,
+     "text": "an"
+    },
+    {
+     "start": 388.809,
+     "end": 389.169,
+     "text": "unnamed"
+    },
+    {
+     "start": 389.169,
+     "end": 389.629,
+     "text": "medieval"
+    },
+    {
+     "start": 389.629,
+     "end": 389.949,
+     "text": "woman"
+    }
+   ]
+  },
+  {
+   "start": 390.529,
+   "end": 395.069,
+   "text": "without carrying a detectable autosomal DNA segment from that individual.",
+   "words": [
+    {
+     "start": 390.529,
+     "end": 390.829,
+     "text": "without"
+    },
+    {
+     "start": 390.829,
+     "end": 391.309,
+     "text": "carrying"
+    },
+    {
+     "start": 391.309,
+     "end": 391.769,
+     "text": "a"
+    },
+    {
+     "start": 391.769,
+     "end": 392.429,
+     "text": "detectable"
+    },
+    {
+     "start": 392.429,
+     "end": 393.169,
+     "text": "autosomal"
+    },
+    {
+     "start": 393.169,
+     "end": 393.429,
+     "text": "DNA"
+    },
+    {
+     "start": 393.429,
+     "end": 393.849,
+     "text": "segment"
+    },
+    {
+     "start": 393.849,
+     "end": 394.489,
+     "text": "from"
+    },
+    {
+     "start": 394.489,
+     "end": 394.709,
+     "text": "that"
+    },
+    {
+     "start": 394.709,
+     "end": 395.069,
+     "text": "individual."
+    }
+   ]
+  },
+  {
+   "start": 395.969,
+   "end": 400.529,
+   "text": "They belong to your genealogy, even if they are absent from the DNA you inherited",
+   "words": [
+    {
+     "start": 395.969,
+     "end": 396.029,
+     "text": "They"
+    },
+    {
+     "start": 396.029,
+     "end": 396.329,
+     "text": "belong"
+    },
+    {
+     "start": 396.329,
+     "end": 396.569,
+     "text": "to"
+    },
+    {
+     "start": 396.569,
+     "end": 396.689,
+     "text": "your"
+    },
+    {
+     "start": 396.689,
+     "end": 397.569,
+     "text": "genealogy,"
+    },
+    {
+     "start": 397.569,
+     "end": 398.029,
+     "text": "even"
+    },
+    {
+     "start": 398.029,
+     "end": 398.229,
+     "text": "if"
+    },
+    {
+     "start": 398.229,
+     "end": 398.329,
+     "text": "they"
+    },
+    {
+     "start": 398.329,
+     "end": 398.429,
+     "text": "are"
+    },
+    {
+     "start": 398.429,
+     "end": 398.809,
+     "text": "absent"
+    },
+    {
+     "start": 398.809,
+     "end": 399.289,
+     "text": "from"
+    },
+    {
+     "start": 399.289,
+     "end": 399.469,
+     "text": "the"
+    },
+    {
+     "start": 399.469,
+     "end": 399.829,
+     "text": "DNA"
+    },
+    {
+     "start": 399.829,
+     "end": 400.129,
+     "text": "you"
+    },
+    {
+     "start": 400.129,
+     "end": 400.529,
+     "text": "inherited"
+    }
+   ]
+  },
+  {
+   "start": 401.609,
+   "end": 405.989,
+   "text": "Therefore, your family tree and your DNA ancestry are not the same thing",
+   "words": [
+    {
+     "start": 401.609,
+     "end": 402.549,
+     "text": "Therefore,"
+    },
+    {
+     "start": 402.549,
+     "end": 402.669,
+     "text": "your"
+    },
+    {
+     "start": 402.669,
+     "end": 402.989,
+     "text": "family"
+    },
+    {
+     "start": 402.989,
+     "end": 403.249,
+     "text": "tree"
+    },
+    {
+     "start": 403.249,
+     "end": 403.429,
+     "text": "and"
+    },
+    {
+     "start": 403.429,
+     "end": 403.549,
+     "text": "your"
+    },
+    {
+     "start": 403.549,
+     "end": 403.929,
+     "text": "DNA"
+    },
+    {
+     "start": 403.929,
+     "end": 404.329,
+     "text": "ancestry"
+    },
+    {
+     "start": 404.329,
+     "end": 405.049,
+     "text": "are"
+    },
+    {
+     "start": 405.049,
+     "end": 405.269,
+     "text": "not"
+    },
+    {
+     "start": 405.269,
+     "end": 405.489,
+     "text": "the"
+    },
+    {
+     "start": 405.489,
+     "end": 405.669,
+     "text": "same"
+    },
+    {
+     "start": 405.669,
+     "end": 405.989,
+     "text": "thing"
+    }
+   ]
+  },
+  {
+   "start": 406.029,
+   "end": 409.669,
+   "text": "Your genealogy records the people from whom you descend",
+   "words": [
+    {
+     "start": 406.029,
+     "end": 406.789,
+     "text": "Your"
+    },
+    {
+     "start": 406.789,
+     "end": 407.529,
+     "text": "genealogy"
+    },
+    {
+     "start": 407.529,
+     "end": 407.969,
+     "text": "records"
+    },
+    {
+     "start": 407.969,
+     "end": 408.129,
+     "text": "the"
+    },
+    {
+     "start": 408.129,
+     "end": 408.429,
+     "text": "people"
+    },
+    {
+     "start": 408.429,
+     "end": 408.949,
+     "text": "from"
+    },
+    {
+     "start": 408.949,
+     "end": 409.149,
+     "text": "whom"
+    },
+    {
+     "start": 409.149,
+     "end": 409.369,
+     "text": "you"
+    },
+    {
+     "start": 409.369,
+     "end": 409.669,
+     "text": "descend"
+    }
+   ]
+  },
+  {
+   "start": 409.829,
+   "end": 414.569,
+   "text": "But your genome preserves only a fragment of their combined genetic history",
+   "words": [
+    {
+     "start": 409.829,
+     "end": 410.709,
+     "text": "But"
+    },
+    {
+     "start": 410.709,
+     "end": 410.869,
+     "text": "your"
+    },
+    {
+     "start": 410.869,
+     "end": 411.249,
+     "text": "genome"
+    },
+    {
+     "start": 411.249,
+     "end": 411.969,
+     "text": "preserves"
+    },
+    {
+     "start": 411.969,
+     "end": 412.189,
+     "text": "only"
+    },
+    {
+     "start": 412.189,
+     "end": 412.329,
+     "text": "a"
+    },
+    {
+     "start": 412.329,
+     "end": 412.709,
+     "text": "fragment"
+    },
+    {
+     "start": 412.709,
+     "end": 413.129,
+     "text": "of"
+    },
+    {
+     "start": 413.129,
+     "end": 413.269,
+     "text": "their"
+    },
+    {
+     "start": 413.269,
+     "end": 413.689,
+     "text": "combined"
+    },
+    {
+     "start": 413.689,
+     "end": 414.189,
+     "text": "genetic"
+    },
+    {
+     "start": 414.189,
+     "end": 414.569,
+     "text": "history"
+    }
+   ]
+  },
+  {
+   "start": 415.709,
+   "end": 419.949,
+   "text": "Now why DNA and mitochondrial haplogroups are slightly different and can be useful",
+   "words": [
+    {
+     "start": 415.709,
+     "end": 415.889,
+     "text": "Now"
+    },
+    {
+     "start": 415.889,
+     "end": 416.189,
+     "text": "why"
+    },
+    {
+     "start": 416.189,
+     "end": 416.549,
+     "text": "DNA"
+    },
+    {
+     "start": 416.549,
+     "end": 416.749,
+     "text": "and"
+    },
+    {
+     "start": 416.749,
+     "end": 417.329,
+     "text": "mitochondrial"
+    },
+    {
+     "start": 417.329,
+     "end": 417.889,
+     "text": "haplogroups"
+    },
+    {
+     "start": 417.889,
+     "end": 418.329,
+     "text": "are"
+    },
+    {
+     "start": 418.329,
+     "end": 418.669,
+     "text": "slightly"
+    },
+    {
+     "start": 418.669,
+     "end": 419.129,
+     "text": "different"
+    },
+    {
+     "start": 419.129,
+     "end": 419.369,
+     "text": "and"
+    },
+    {
+     "start": 419.369,
+     "end": 419.529,
+     "text": "can"
+    },
+    {
+     "start": 419.529,
+     "end": 419.709,
+     "text": "be"
+    },
+    {
+     "start": 419.709,
+     "end": 419.949,
+     "text": "useful"
+    }
+   ]
+  },
+  {
+   "start": 420.469,
+   "end": 424.969,
+   "text": "As this allows us to trace paternal and maternal haplogroups back thousands of years",
+   "words": [
+    {
+     "start": 420.469,
+     "end": 420.689,
+     "text": "As"
+    },
+    {
+     "start": 420.689,
+     "end": 420.829,
+     "text": "this"
+    },
+    {
+     "start": 420.829,
+     "end": 421.069,
+     "text": "allows"
+    },
+    {
+     "start": 421.069,
+     "end": 421.249,
+     "text": "us"
+    },
+    {
+     "start": 421.249,
+     "end": 421.369,
+     "text": "to"
+    },
+    {
+     "start": 421.369,
+     "end": 421.649,
+     "text": "trace"
+    },
+    {
+     "start": 421.649,
+     "end": 422.209,
+     "text": "paternal"
+    },
+    {
+     "start": 422.209,
+     "end": 422.569,
+     "text": "and"
+    },
+    {
+     "start": 422.569,
+     "end": 422.869,
+     "text": "maternal"
+    },
+    {
+     "start": 422.869,
+     "end": 423.589,
+     "text": "haplogroups"
+    },
+    {
+     "start": 423.589,
+     "end": 424.049,
+     "text": "back"
+    },
+    {
+     "start": 424.049,
+     "end": 424.429,
+     "text": "thousands"
+    },
+    {
+     "start": 424.429,
+     "end": 424.709,
+     "text": "of"
+    },
+    {
+     "start": 424.709,
+     "end": 424.969,
+     "text": "years"
+    }
+   ]
+  },
+  {
+   "start": 425.809,
+   "end": 429.209,
+   "text": "But these represent just two branches of your enormous family tree",
+   "words": [
+    {
+     "start": 425.809,
+     "end": 425.929,
+     "text": "But"
+    },
+    {
+     "start": 425.929,
+     "end": 426.109,
+     "text": "these"
+    },
+    {
+     "start": 426.109,
+     "end": 426.529,
+     "text": "represent"
+    },
+    {
+     "start": 426.529,
+     "end": 426.809,
+     "text": "just"
+    },
+    {
+     "start": 426.809,
+     "end": 427.029,
+     "text": "two"
+    },
+    {
+     "start": 427.029,
+     "end": 427.449,
+     "text": "branches"
+    },
+    {
+     "start": 427.449,
+     "end": 427.969,
+     "text": "of"
+    },
+    {
+     "start": 427.969,
+     "end": 428.149,
+     "text": "your"
+    },
+    {
+     "start": 428.149,
+     "end": 428.509,
+     "text": "enormous"
+    },
+    {
+     "start": 428.509,
+     "end": 428.929,
+     "text": "family"
+    },
+    {
+     "start": 428.929,
+     "end": 429.209,
+     "text": "tree"
+    }
+   ]
+  },
+  {
+   "start": 430.049,
+   "end": 434.029,
+   "text": "So how many ancestors do you really have from around 1000 years ago?",
+   "words": [
+    {
+     "start": 430.049,
+     "end": 430.249,
+     "text": "So"
+    },
+    {
+     "start": 430.249,
+     "end": 430.409,
+     "text": "how"
+    },
+    {
+     "start": 430.409,
+     "end": 430.629,
+     "text": "many"
+    },
+    {
+     "start": 430.629,
+     "end": 431.029,
+     "text": "ancestors"
+    },
+    {
+     "start": 431.029,
+     "end": 431.509,
+     "text": "do"
+    },
+    {
+     "start": 431.509,
+     "end": 431.609,
+     "text": "you"
+    },
+    {
+     "start": 431.609,
+     "end": 431.849,
+     "text": "really"
+    },
+    {
+     "start": 431.849,
+     "end": 432.189,
+     "text": "have"
+    },
+    {
+     "start": 432.189,
+     "end": 432.589,
+     "text": "from"
+    },
+    {
+     "start": 432.589,
+     "end": 432.829,
+     "text": "around"
+    },
+    {
+     "start": 432.829,
+     "end": 433.209,
+     "text": "1000"
+    },
+    {
+     "start": 433.209,
+     "end": 433.569,
+     "text": "years"
+    },
+    {
+     "start": 433.569,
+     "end": 434.029,
+     "text": "ago?"
+    }
+   ]
+  },
+  {
+   "start": 434.409,
+   "end": 438.429,
+   "text": "Well if your ancestry is mainly European, the answer is probably in the millions",
+   "words": [
+    {
+     "start": 434.409,
+     "end": 434.569,
+     "text": "Well"
+    },
+    {
+     "start": 434.569,
+     "end": 434.669,
+     "text": "if"
+    },
+    {
+     "start": 434.669,
+     "end": 434.809,
+     "text": "your"
+    },
+    {
+     "start": 434.809,
+     "end": 435.309,
+     "text": "ancestry"
+    },
+    {
+     "start": 435.309,
+     "end": 435.529,
+     "text": "is"
+    },
+    {
+     "start": 435.529,
+     "end": 435.829,
+     "text": "mainly"
+    },
+    {
+     "start": 435.829,
+     "end": 436.529,
+     "text": "European,"
+    },
+    {
+     "start": 436.529,
+     "end": 436.769,
+     "text": "the"
+    },
+    {
+     "start": 436.769,
+     "end": 437.109,
+     "text": "answer"
+    },
+    {
+     "start": 437.109,
+     "end": 437.309,
+     "text": "is"
+    },
+    {
+     "start": 437.309,
+     "end": 437.689,
+     "text": "probably"
+    },
+    {
+     "start": 437.689,
+     "end": 438.069,
+     "text": "in"
+    },
+    {
+     "start": 438.069,
+     "end": 438.149,
+     "text": "the"
+    },
+    {
+     "start": 438.149,
+     "end": 438.429,
+     "text": "millions"
+    }
+   ]
+  },
+  {
+   "start": 439.309,
+   "end": 442.269,
+   "text": "But certainly nowhere near 137 billion",
+   "words": [
+    {
+     "start": 439.309,
+     "end": 439.509,
+     "text": "But"
+    },
+    {
+     "start": 439.509,
+     "end": 439.969,
+     "text": "certainly"
+    },
+    {
+     "start": 439.969,
+     "end": 440.269,
+     "text": "nowhere"
+    },
+    {
+     "start": 440.269,
+     "end": 440.709,
+     "text": "near"
+    },
+    {
+     "start": 440.709,
+     "end": 442.009,
+     "text": "137"
+    },
+    {
+     "start": 442.009,
+     "end": 442.269,
+     "text": "billion"
+    }
+   ]
+  },
+  {
+   "start": 443.049,
+   "end": 447.589,
+   "text": "Around the year 1000, Europe's entire population was only about 40 million",
+   "words": [
+    {
+     "start": 443.049,
+     "end": 443.369,
+     "text": "Around"
+    },
+    {
+     "start": 443.369,
+     "end": 443.509,
+     "text": "the"
+    },
+    {
+     "start": 443.509,
+     "end": 443.629,
+     "text": "year"
+    },
+    {
+     "start": 443.629,
+     "end": 444.669,
+     "text": "1000,"
+    },
+    {
+     "start": 444.669,
+     "end": 445.089,
+     "text": "Europe's"
+    },
+    {
+     "start": 445.089,
+     "end": 445.409,
+     "text": "entire"
+    },
+    {
+     "start": 445.409,
+     "end": 445.929,
+     "text": "population"
+    },
+    {
+     "start": 445.929,
+     "end": 446.509,
+     "text": "was"
+    },
+    {
+     "start": 446.509,
+     "end": 446.729,
+     "text": "only"
+    },
+    {
+     "start": 446.729,
+     "end": 446.989,
+     "text": "about"
+    },
+    {
+     "start": 446.989,
+     "end": 447.329,
+     "text": "40"
+    },
+    {
+     "start": 447.329,
+     "end": 447.589,
+     "text": "million"
+    }
+   ]
+  },
+  {
+   "start": 447.189,
+   "end": 451.009,
+   "text": "And only some of those people would have been your direct ancestors",
+   "words": [
+    {
+     "start": 447.189,
+     "end": 448.329,
+     "text": "And"
+    },
+    {
+     "start": 448.329,
+     "end": 448.509,
+     "text": "only"
+    },
+    {
+     "start": 448.509,
+     "end": 448.749,
+     "text": "some"
+    },
+    {
+     "start": 448.749,
+     "end": 448.889,
+     "text": "of"
+    },
+    {
+     "start": 448.889,
+     "end": 449.049,
+     "text": "those"
+    },
+    {
+     "start": 449.049,
+     "end": 449.409,
+     "text": "people"
+    },
+    {
+     "start": 449.409,
+     "end": 449.829,
+     "text": "would"
+    },
+    {
+     "start": 449.829,
+     "end": 449.909,
+     "text": "have"
+    },
+    {
+     "start": 449.909,
+     "end": 450.029,
+     "text": "been"
+    },
+    {
+     "start": 450.029,
+     "end": 450.209,
+     "text": "your"
+    },
+    {
+     "start": 450.209,
+     "end": 450.629,
+     "text": "direct"
+    },
+    {
+     "start": 450.629,
+     "end": 451.009,
+     "text": "ancestors"
+    }
+   ]
+  },
+  {
+   "start": 451.969,
+   "end": 453.989,
+   "text": "And this brings us back to where we started",
+   "words": [
+    {
+     "start": 451.969,
+     "end": 452.269,
+     "text": "And"
+    },
+    {
+     "start": 452.269,
+     "end": 452.449,
+     "text": "this"
+    },
+    {
+     "start": 452.449,
+     "end": 452.669,
+     "text": "brings"
+    },
+    {
+     "start": 452.669,
+     "end": 452.809,
+     "text": "us"
+    },
+    {
+     "start": 452.809,
+     "end": 453.089,
+     "text": "back"
+    },
+    {
+     "start": 453.089,
+     "end": 453.309,
+     "text": "to"
+    },
+    {
+     "start": 453.309,
+     "end": 453.449,
+     "text": "where"
+    },
+    {
+     "start": 453.449,
+     "end": 453.629,
+     "text": "we"
+    },
+    {
+     "start": 453.629,
+     "end": 453.989,
+     "text": "started"
+    }
+   ]
+  },
+  {
+   "start": 454.709,
+   "end": 460.229,
+   "text": "Two parents, four grandparents, eight great-grandparents and 16 great-great-grandparents",
+   "words": [
+    {
+     "start": 454.709,
+     "end": 454.869,
+     "text": "Two"
+    },
+    {
+     "start": 454.869,
+     "end": 455.789,
+     "text": "parents,"
+    },
+    {
+     "start": 455.789,
+     "end": 455.949,
+     "text": "four"
+    },
+    {
+     "start": 455.949,
+     "end": 457.029,
+     "text": "grandparents,"
+    },
+    {
+     "start": 457.029,
+     "end": 457.189,
+     "text": "eight"
+    },
+    {
+     "start": 457.189,
+     "end": 458.049,
+     "text": "great-grandparents"
+    },
+    {
+     "start": 458.049,
+     "end": 458.569,
+     "text": "and"
+    },
+    {
+     "start": 458.569,
+     "end": 459.009,
+     "text": "16"
+    },
+    {
+     "start": 459.009,
+     "end": 460.229,
+     "text": "great-great-grandparents"
+    }
+   ]
+  },
+  {
+   "start": 460.869,
+   "end": 462.989,
+   "text": "At first, the branches spread apart",
+   "words": [
+    {
+     "start": 460.869,
+     "end": 461.129,
+     "text": "At"
+    },
+    {
+     "start": 461.129,
+     "end": 461.869,
+     "text": "first,"
+    },
+    {
+     "start": 461.869,
+     "end": 461.909,
+     "text": "the"
+    },
+    {
+     "start": 461.909,
+     "end": 462.289,
+     "text": "branches"
+    },
+    {
+     "start": 462.289,
+     "end": 462.629,
+     "text": "spread"
+    },
+    {
+     "start": 462.629,
+     "end": 462.989,
+     "text": "apart"
+    }
+   ]
+  },
+  {
+   "start": 463.569,
+   "end": 468.449,
+   "text": "But travel further back and they begin crossing, merging and reconnecting with the same people",
+   "words": [
+    {
+     "start": 463.569,
+     "end": 463.729,
+     "text": "But"
+    },
+    {
+     "start": 463.729,
+     "end": 464.049,
+     "text": "travel"
+    },
+    {
+     "start": 464.049,
+     "end": 464.309,
+     "text": "further"
+    },
+    {
+     "start": 464.309,
+     "end": 464.689,
+     "text": "back"
+    },
+    {
+     "start": 464.689,
+     "end": 465.149,
+     "text": "and"
+    },
+    {
+     "start": 465.149,
+     "end": 465.289,
+     "text": "they"
+    },
+    {
+     "start": 465.289,
+     "end": 465.509,
+     "text": "begin"
+    },
+    {
+     "start": 465.509,
+     "end": 466.169,
+     "text": "crossing,"
+    },
+    {
+     "start": 466.169,
+     "end": 466.449,
+     "text": "merging"
+    },
+    {
+     "start": 466.449,
+     "end": 466.969,
+     "text": "and"
+    },
+    {
+     "start": 466.969,
+     "end": 467.729,
+     "text": "reconnecting"
+    },
+    {
+     "start": 467.729,
+     "end": 467.889,
+     "text": "with"
+    },
+    {
+     "start": 467.889,
+     "end": 468.009,
+     "text": "the"
+    },
+    {
+     "start": 468.009,
+     "end": 468.169,
+     "text": "same"
+    },
+    {
+     "start": 468.169,
+     "end": 468.449,
+     "text": "people"
+    }
+   ]
+  },
+  {
+   "start": 469.069,
+   "end": 473.249,
+   "text": "Eventually, your family tree begins merging with those of countless strangers",
+   "words": [
+    {
+     "start": 469.069,
+     "end": 470.069,
+     "text": "Eventually,"
+    },
+    {
+     "start": 470.069,
+     "end": 470.189,
+     "text": "your"
+    },
+    {
+     "start": 470.189,
+     "end": 470.509,
+     "text": "family"
+    },
+    {
+     "start": 470.509,
+     "end": 470.769,
+     "text": "tree"
+    },
+    {
+     "start": 470.769,
+     "end": 471.129,
+     "text": "begins"
+    },
+    {
+     "start": 471.129,
+     "end": 471.429,
+     "text": "merging"
+    },
+    {
+     "start": 471.429,
+     "end": 472.009,
+     "text": "with"
+    },
+    {
+     "start": 472.009,
+     "end": 472.249,
+     "text": "those"
+    },
+    {
+     "start": 472.249,
+     "end": 472.449,
+     "text": "of"
+    },
+    {
+     "start": 472.449,
+     "end": 472.809,
+     "text": "countless"
+    },
+    {
+     "start": 472.809,
+     "end": 473.249,
+     "text": "strangers"
+    }
+   ]
+  },
+  {
+   "start": 473.269,
+   "end": 478.469,
+   "text": "So your family tree isn't an endless pyramid of billions of separate ancestors",
+   "words": [
+    {
+     "start": 473.269,
+     "end": 474.329,
+     "text": "So"
+    },
+    {
+     "start": 474.329,
+     "end": 474.469,
+     "text": "your"
+    },
+    {
+     "start": 474.469,
+     "end": 474.729,
+     "text": "family"
+    },
+    {
+     "start": 474.729,
+     "end": 474.989,
+     "text": "tree"
+    },
+    {
+     "start": 474.989,
+     "end": 475.429,
+     "text": "isn't"
+    },
+    {
+     "start": 475.429,
+     "end": 475.749,
+     "text": "an"
+    },
+    {
+     "start": 475.749,
+     "end": 476.129,
+     "text": "endless"
+    },
+    {
+     "start": 476.129,
+     "end": 476.509,
+     "text": "pyramid"
+    },
+    {
+     "start": 476.509,
+     "end": 477.049,
+     "text": "of"
+    },
+    {
+     "start": 477.049,
+     "end": 477.369,
+     "text": "billions"
+    },
+    {
+     "start": 477.369,
+     "end": 477.669,
+     "text": "of"
+    },
+    {
+     "start": 477.669,
+     "end": 477.949,
+     "text": "separate"
+    },
+    {
+     "start": 477.949,
+     "end": 478.469,
+     "text": "ancestors"
+    }
+   ]
+  },
+  {
+   "start": 478.909,
+   "end": 481.209,
+   "text": "It's an enormous interconnected web",
+   "words": [
+    {
+     "start": 478.909,
+     "end": 479.489,
+     "text": "It's"
+    },
+    {
+     "start": 479.489,
+     "end": 479.629,
+     "text": "an"
+    },
+    {
+     "start": 479.629,
+     "end": 480.109,
+     "text": "enormous"
+    },
+    {
+     "start": 480.109,
+     "end": 480.809,
+     "text": "interconnected"
+    },
+    {
+     "start": 480.809,
+     "end": 481.209,
+     "text": "web"
+    }
+   ]
+  },
+  {
+   "start": 481.829,
+   "end": 486.009,
+   "text": "And the further back you go, the less your family history belongs only to you",
+   "words": [
+    {
+     "start": 481.829,
+     "end": 481.929,
+     "text": "And"
+    },
+    {
+     "start": 481.929,
+     "end": 482.029,
+     "text": "the"
+    },
+    {
+     "start": 482.029,
+     "end": 482.229,
+     "text": "further"
+    },
+    {
+     "start": 482.229,
+     "end": 482.509,
+     "text": "back"
+    },
+    {
+     "start": 482.509,
+     "end": 482.709,
+     "text": "you"
+    },
+    {
+     "start": 482.709,
+     "end": 483.249,
+     "text": "go,"
+    },
+    {
+     "start": 483.249,
+     "end": 483.369,
+     "text": "the"
+    },
+    {
+     "start": 483.369,
+     "end": 483.589,
+     "text": "less"
+    },
+    {
+     "start": 483.589,
+     "end": 483.749,
+     "text": "your"
+    },
+    {
+     "start": 483.749,
+     "end": 484.009,
+     "text": "family"
+    },
+    {
+     "start": 484.009,
+     "end": 484.389,
+     "text": "history"
+    },
+    {
+     "start": 484.389,
+     "end": 485.049,
+     "text": "belongs"
+    },
+    {
+     "start": 485.049,
+     "end": 485.469,
+     "text": "only"
+    },
+    {
+     "start": 485.469,
+     "end": 485.729,
+     "text": "to"
+    },
+    {
+     "start": 485.729,
+     "end": 486.009,
+     "text": "you"
+    }
+   ]
+  },
+  {
+   "start": 486.509,
+   "end": 489.929,
+   "text": "And the more it becomes part of the shared history of entire populations",
+   "words": [
+    {
+     "start": 486.509,
+     "end": 486.669,
+     "text": "And"
+    },
+    {
+     "start": 486.669,
+     "end": 486.789,
+     "text": "the"
+    },
+    {
+     "start": 486.789,
+     "end": 486.909,
+     "text": "more"
+    },
+    {
+     "start": 486.909,
+     "end": 487.049,
+     "text": "it"
+    },
+    {
+     "start": 487.049,
+     "end": 487.229,
+     "text": "becomes"
+    },
+    {
+     "start": 487.229,
+     "end": 487.569,
+     "text": "part"
+    },
+    {
+     "start": 487.569,
+     "end": 487.729,
+     "text": "of"
+    },
+    {
+     "start": 487.729,
+     "end": 487.869,
+     "text": "the"
+    },
+    {
+     "start": 487.869,
+     "end": 488.049,
+     "text": "shared"
+    },
+    {
+     "start": 488.049,
+     "end": 488.449,
+     "text": "history"
+    },
+    {
+     "start": 488.449,
+     "end": 488.929,
+     "text": "of"
+    },
+    {
+     "start": 488.929,
+     "end": 489.309,
+     "text": "entire"
+    },
+    {
+     "start": 489.309,
+     "end": 489.929,
+     "text": "populations"
+    }
+   ]
+  },
+  {
+   "start": 490.889,
+   "end": 493.769,
+   "text": "But what region of Europe has the most Celtic DNA today?",
+   "words": [
+    {
+     "start": 490.889,
+     "end": 491.069,
+     "text": "But"
+    },
+    {
+     "start": 491.069,
+     "end": 491.189,
+     "text": "what"
+    },
+    {
+     "start": 491.189,
+     "end": 491.449,
+     "text": "region"
+    },
+    {
+     "start": 491.449,
+     "end": 491.649,
+     "text": "of"
+    },
+    {
+     "start": 491.649,
+     "end": 491.809,
+     "text": "Europe"
+    },
+    {
+     "start": 491.809,
+     "end": 492.089,
+     "text": "has"
+    },
+    {
+     "start": 492.089,
+     "end": 492.209,
+     "text": "the"
+    },
+    {
+     "start": 492.209,
+     "end": 492.389,
+     "text": "most"
+    },
+    {
+     "start": 492.389,
+     "end": 492.789,
+     "text": "Celtic"
+    },
+    {
+     "start": 492.789,
+     "end": 493.069,
+     "text": "DNA"
+    },
+    {
+     "start": 493.069,
+     "end": 493.769,
+     "text": "today?"
+    }
+   ]
+  },
+  {
+   "start": 493.929,
+   "end": 495.429,
+   "text": "Well to find out, please click here",
+   "words": [
+    {
+     "start": 493.929,
+     "end": 494.129,
+     "text": "Well"
+    },
+    {
+     "start": 494.129,
+     "end": 494.189,
+     "text": "to"
+    },
+    {
+     "start": 494.189,
+     "end": 494.389,
+     "text": "find"
+    },
+    {
+     "start": 494.389,
+     "end": 494.809,
+     "text": "out,"
+    },
+    {
+     "start": 494.809,
+     "end": 494.989,
+     "text": "please"
+    },
+    {
+     "start": 494.989,
+     "end": 495.169,
+     "text": "click"
+    },
+    {
+     "start": 495.169,
+     "end": 495.429,
+     "text": "here"
+    }
+   ]
+  },
+  {
+   "start": 495.889,
+   "end": 498.329,
+   "text": "Thanks for watching, please let me know your thoughts in the comments below",
+   "words": [
+    {
+     "start": 495.889,
+     "end": 496.129,
+     "text": "Thanks"
+    },
+    {
+     "start": 496.129,
+     "end": 496.269,
+     "text": "for"
+    },
+    {
+     "start": 496.269,
+     "end": 496.729,
+     "text": "watching,"
+    },
+    {
+     "start": 496.729,
+     "end": 496.869,
+     "text": "please"
+    },
+    {
+     "start": 496.869,
+     "end": 496.989,
+     "text": "let"
+    },
+    {
+     "start": 496.989,
+     "end": 497.029,
+     "text": "me"
+    },
+    {
+     "start": 497.029,
+     "end": 497.069,
+     "text": "know"
+    },
+    {
+     "start": 497.069,
+     "end": 497.289,
+     "text": "your"
+    },
+    {
+     "start": 497.289,
+     "end": 497.569,
+     "text": "thoughts"
+    },
+    {
+     "start": 497.569,
+     "end": 497.749,
+     "text": "in"
+    },
+    {
+     "start": 497.749,
+     "end": 497.809,
+     "text": "the"
+    },
+    {
+     "start": 497.809,
+     "end": 498.009,
+     "text": "comments"
+    },
+    {
+     "start": 498.009,
+     "end": 498.329,
+     "text": "below"
+    }
+   ]
+  },
+  {
+   "start": 498.349,
+   "end": 499.549,
+   "text": "And I'll see you next time",
+   "words": [
+    {
+     "start": 498.349,
+     "end": 498.829,
+     "text": "And"
+    },
+    {
+     "start": 498.829,
+     "end": 498.929,
+     "text": "I'll"
+    },
+    {
+     "start": 498.929,
+     "end": 499.049,
+     "text": "see"
+    },
+    {
+     "start": 499.049,
+     "end": 499.109,
+     "text": "you"
+    },
+    {
+     "start": 499.109,
+     "end": 499.309,
+     "text": "next"
+    },
+    {
+     "start": 499.309,
+     "end": 499.549,
+     "text": "time"
+    }
+   ]
+  }
+ ],
+ "language": "English",
+ "backend": "groq",
+ "model": "whisper-large-v3-turbo",
+ "source_duration": 500.064943,
+ "chunk_count": 1,
+ "has_word_timings": true
+}

@@ -1,0 +1,3295 @@
+{
+ "segments": [
+  {
+   "start": 0.08,
+   "end": 3.6,
+   "text": "Why are neighbors pointing security cameras at a 170-acre mountain bike park,",
+   "words": [
+    {
+     "start": 0.08,
+     "end": 0.22,
+     "text": "Why"
+    },
+    {
+     "start": 0.22,
+     "end": 0.36,
+     "text": "are"
+    },
+    {
+     "start": 0.36,
+     "end": 0.52,
+     "text": "neighbors"
+    },
+    {
+     "start": 0.52,
+     "end": 0.8,
+     "text": "pointing"
+    },
+    {
+     "start": 0.8,
+     "end": 1.06,
+     "text": "security"
+    },
+    {
+     "start": 1.06,
+     "end": 1.54,
+     "text": "cameras"
+    },
+    {
+     "start": 1.54,
+     "end": 1.72,
+     "text": "at"
+    },
+    {
+     "start": 1.72,
+     "end": 1.78,
+     "text": "a"
+    },
+    {
+     "start": 1.78,
+     "end": 2.8,
+     "text": "170-acre"
+    },
+    {
+     "start": 2.8,
+     "end": 3.06,
+     "text": "mountain"
+    },
+    {
+     "start": 3.06,
+     "end": 3.3,
+     "text": "bike"
+    },
+    {
+     "start": 3.3,
+     "end": 3.6,
+     "text": "park,"
+    }
+   ]
+  },
+  {
+   "start": 3.76,
+   "end": 8.28,
+   "text": "then reporting visitors to the county prosecutor who wants the contact info of everyone there?",
+   "words": [
+    {
+     "start": 3.76,
+     "end": 3.92,
+     "text": "then"
+    },
+    {
+     "start": 3.92,
+     "end": 4.36,
+     "text": "reporting"
+    },
+    {
+     "start": 4.36,
+     "end": 4.78,
+     "text": "visitors"
+    },
+    {
+     "start": 4.78,
+     "end": 4.98,
+     "text": "to"
+    },
+    {
+     "start": 4.98,
+     "end": 5.1,
+     "text": "the"
+    },
+    {
+     "start": 5.1,
+     "end": 5.24,
+     "text": "county"
+    },
+    {
+     "start": 5.24,
+     "end": 5.72,
+     "text": "prosecutor"
+    },
+    {
+     "start": 5.72,
+     "end": 6.3,
+     "text": "who"
+    },
+    {
+     "start": 6.3,
+     "end": 6.5,
+     "text": "wants"
+    },
+    {
+     "start": 6.5,
+     "end": 6.66,
+     "text": "the"
+    },
+    {
+     "start": 6.66,
+     "end": 7.0,
+     "text": "contact"
+    },
+    {
+     "start": 7.0,
+     "end": 7.34,
+     "text": "info"
+    },
+    {
+     "start": 7.34,
+     "end": 7.56,
+     "text": "of"
+    },
+    {
+     "start": 7.56,
+     "end": 7.9,
+     "text": "everyone"
+    },
+    {
+     "start": 7.9,
+     "end": 8.28,
+     "text": "there?"
+    }
+   ]
+  },
+  {
+   "start": 8.74,
+   "end": 10.2,
+   "text": "This is Panhandle Bike Ranch.",
+   "words": [
+    {
+     "start": 8.74,
+     "end": 9.02,
+     "text": "This"
+    },
+    {
+     "start": 9.02,
+     "end": 9.22,
+     "text": "is"
+    },
+    {
+     "start": 9.22,
+     "end": 9.68,
+     "text": "Panhandle"
+    },
+    {
+     "start": 9.68,
+     "end": 9.88,
+     "text": "Bike"
+    },
+    {
+     "start": 9.88,
+     "end": 10.2,
+     "text": "Ranch."
+    }
+   ]
+  },
+  {
+   "start": 10.2,
+   "end": 12.34,
+   "text": "It's a mountain bike park in Sagal, Idaho,",
+   "words": [
+    {
+     "start": 10.2,
+     "end": 10.84,
+     "text": "It's"
+    },
+    {
+     "start": 10.84,
+     "end": 10.88,
+     "text": "a"
+    },
+    {
+     "start": 10.88,
+     "end": 11.06,
+     "text": "mountain"
+    },
+    {
+     "start": 11.06,
+     "end": 11.26,
+     "text": "bike"
+    },
+    {
+     "start": 11.26,
+     "end": 11.44,
+     "text": "park"
+    },
+    {
+     "start": 11.44,
+     "end": 11.64,
+     "text": "in"
+    },
+    {
+     "start": 11.64,
+     "end": 12.0,
+     "text": "Sagal,"
+    },
+    {
+     "start": 12.0,
+     "end": 12.34,
+     "text": "Idaho,"
+    }
+   ]
+  },
+  {
+   "start": 12.38,
+   "end": 15.54,
+   "text": "owned by Scott and Jennifer Kalbach.",
+   "words": [
+    {
+     "start": 12.38,
+     "end": 13.64,
+     "text": "owned"
+    },
+    {
+     "start": 13.64,
+     "end": 14.38,
+     "text": "by"
+    },
+    {
+     "start": 14.38,
+     "end": 14.64,
+     "text": "Scott"
+    },
+    {
+     "start": 14.64,
+     "end": 14.82,
+     "text": "and"
+    },
+    {
+     "start": 14.82,
+     "end": 15.06,
+     "text": "Jennifer"
+    },
+    {
+     "start": 15.06,
+     "end": 15.54,
+     "text": "Kalbach."
+    }
+   ]
+  },
+  {
+   "start": 15.54,
+   "end": 18.38,
+   "text": "Their family loves mountain biking and wanted to share",
+   "words": [
+    {
+     "start": 15.54,
+     "end": 16.06,
+     "text": "Their"
+    },
+    {
+     "start": 16.06,
+     "end": 16.36,
+     "text": "family"
+    },
+    {
+     "start": 16.36,
+     "end": 16.8,
+     "text": "loves"
+    },
+    {
+     "start": 16.8,
+     "end": 17.1,
+     "text": "mountain"
+    },
+    {
+     "start": 17.1,
+     "end": 17.42,
+     "text": "biking"
+    },
+    {
+     "start": 17.42,
+     "end": 17.86,
+     "text": "and"
+    },
+    {
+     "start": 17.86,
+     "end": 18.06,
+     "text": "wanted"
+    },
+    {
+     "start": 18.06,
+     "end": 18.2,
+     "text": "to"
+    },
+    {
+     "start": 17.88,
+     "end": 18.38,
+     "text": "share"
+    }
+   ]
+  },
+  {
+   "start": 18.38,
+   "end": 19.58,
+   "text": "this experience with the community.",
+   "words": [
+    {
+     "start": 18.38,
+     "end": 18.54,
+     "text": "this"
+    },
+    {
+     "start": 18.54,
+     "end": 18.94,
+     "text": "experience"
+    },
+    {
+     "start": 18.94,
+     "end": 19.18,
+     "text": "with"
+    },
+    {
+     "start": 19.18,
+     "end": 19.3,
+     "text": "the"
+    },
+    {
+     "start": 19.3,
+     "end": 19.58,
+     "text": "community."
+    }
+   ]
+  },
+  {
+   "start": 19.58,
+   "end": 23.1,
+   "text": "So in 2023, after owning property up here for a decade,",
+   "words": [
+    {
+     "start": 19.58,
+     "end": 20.14,
+     "text": "So"
+    },
+    {
+     "start": 20.14,
+     "end": 20.26,
+     "text": "in"
+    },
+    {
+     "start": 20.26,
+     "end": 20.66,
+     "text": "2023,"
+    },
+    {
+     "start": 20.66,
+     "end": 21.32,
+     "text": "after"
+    },
+    {
+     "start": 21.32,
+     "end": 21.58,
+     "text": "owning"
+    },
+    {
+     "start": 21.58,
+     "end": 21.94,
+     "text": "property"
+    },
+    {
+     "start": 21.94,
+     "end": 22.16,
+     "text": "up"
+    },
+    {
+     "start": 22.16,
+     "end": 22.3,
+     "text": "here"
+    },
+    {
+     "start": 22.3,
+     "end": 22.48,
+     "text": "for"
+    },
+    {
+     "start": 22.48,
+     "end": 22.6,
+     "text": "a"
+    },
+    {
+     "start": 22.6,
+     "end": 23.1,
+     "text": "decade,"
+    }
+   ]
+  },
+  {
+   "start": 23.08,
+   "end": 25.94,
+   "text": "they purchased 170 acres for a passion project.",
+   "words": [
+    {
+     "start": 23.08,
+     "end": 23.2,
+     "text": "they"
+    },
+    {
+     "start": 23.2,
+     "end": 23.46,
+     "text": "purchased"
+    },
+    {
+     "start": 23.46,
+     "end": 24.3,
+     "text": "170"
+    },
+    {
+     "start": 24.3,
+     "end": 24.74,
+     "text": "acres"
+    },
+    {
+     "start": 24.74,
+     "end": 25.14,
+     "text": "for"
+    },
+    {
+     "start": 25.14,
+     "end": 25.26,
+     "text": "a"
+    },
+    {
+     "start": 25.26,
+     "end": 25.56,
+     "text": "passion"
+    },
+    {
+     "start": 25.56,
+     "end": 25.94,
+     "text": "project."
+    }
+   ]
+  },
+  {
+   "start": 25.94,
+   "end": 27.8,
+   "text": "The Kalbachs knew they'd need a permit,",
+   "words": [
+    {
+     "start": 25.94,
+     "end": 26.5,
+     "text": "The"
+    },
+    {
+     "start": 26.5,
+     "end": 26.96,
+     "text": "Kalbachs"
+    },
+    {
+     "start": 26.96,
+     "end": 27.1,
+     "text": "knew"
+    },
+    {
+     "start": 27.1,
+     "end": 27.28,
+     "text": "they'd"
+    },
+    {
+     "start": 27.28,
+     "end": 27.42,
+     "text": "need"
+    },
+    {
+     "start": 27.42,
+     "end": 27.54,
+     "text": "a"
+    },
+    {
+     "start": 27.54,
+     "end": 27.8,
+     "text": "permit,"
+    }
+   ]
+  },
+  {
+   "start": 28.06,
+   "end": 30.04,
+   "text": "So even hired a land use consultant beforehand.",
+   "words": [
+    {
+     "start": 28.06,
+     "end": 28.16,
+     "text": "So"
+    },
+    {
+     "start": 28.16,
+     "end": 28.34,
+     "text": "even"
+    },
+    {
+     "start": 28.34,
+     "end": 28.58,
+     "text": "hired"
+    },
+    {
+     "start": 28.58,
+     "end": 28.7,
+     "text": "a"
+    },
+    {
+     "start": 28.7,
+     "end": 28.88,
+     "text": "land"
+    },
+    {
+     "start": 28.88,
+     "end": 29.02,
+     "text": "use"
+    },
+    {
+     "start": 29.02,
+     "end": 29.42,
+     "text": "consultant"
+    },
+    {
+     "start": 29.42,
+     "end": 30.04,
+     "text": "beforehand."
+    }
+   ]
+  },
+  {
+   "start": 30.54,
+   "end": 34.5,
+   "text": "That April, Bonner County first approved their conditional use permit to run as a recreational facility.",
+   "words": [
+    {
+     "start": 30.54,
+     "end": 30.72,
+     "text": "That"
+    },
+    {
+     "start": 30.72,
+     "end": 31.04,
+     "text": "April,"
+    },
+    {
+     "start": 31.04,
+     "end": 31.28,
+     "text": "Bonner"
+    },
+    {
+     "start": 31.28,
+     "end": 31.48,
+     "text": "County"
+    },
+    {
+     "start": 31.48,
+     "end": 31.82,
+     "text": "first"
+    },
+    {
+     "start": 31.82,
+     "end": 32.04,
+     "text": "approved"
+    },
+    {
+     "start": 32.04,
+     "end": 32.22,
+     "text": "their"
+    },
+    {
+     "start": 32.22,
+     "end": 32.5,
+     "text": "conditional"
+    },
+    {
+     "start": 32.5,
+     "end": 32.82,
+     "text": "use"
+    },
+    {
+     "start": 32.82,
+     "end": 33.04,
+     "text": "permit"
+    },
+    {
+     "start": 33.04,
+     "end": 33.26,
+     "text": "to"
+    },
+    {
+     "start": 33.26,
+     "end": 33.36,
+     "text": "run"
+    },
+    {
+     "start": 33.36,
+     "end": 33.52,
+     "text": "as"
+    },
+    {
+     "start": 33.52,
+     "end": 33.58,
+     "text": "a"
+    },
+    {
+     "start": 33.58,
+     "end": 33.88,
+     "text": "recreational"
+    },
+    {
+     "start": 33.88,
+     "end": 34.5,
+     "text": "facility."
+    }
+   ]
+  },
+  {
+   "start": 34.9,
+   "end": 36.26,
+   "text": "But it had tight restrictions.",
+   "words": [
+    {
+     "start": 34.9,
+     "end": 35.08,
+     "text": "But"
+    },
+    {
+     "start": 35.08,
+     "end": 35.38,
+     "text": "it"
+    },
+    {
+     "start": 35.38,
+     "end": 35.56,
+     "text": "had"
+    },
+    {
+     "start": 35.56,
+     "end": 35.8,
+     "text": "tight"
+    },
+    {
+     "start": 35.8,
+     "end": 36.26,
+     "text": "restrictions."
+    }
+   ]
+  },
+  {
+   "start": 36.8,
+   "end": 39.86,
+   "text": "By this point, word had gotten out and some neighbors opposed it.",
+   "words": [
+    {
+     "start": 36.8,
+     "end": 36.96,
+     "text": "By"
+    },
+    {
+     "start": 36.96,
+     "end": 37.14,
+     "text": "this"
+    },
+    {
+     "start": 37.14,
+     "end": 37.52,
+     "text": "point,"
+    },
+    {
+     "start": 37.52,
+     "end": 37.78,
+     "text": "word"
+    },
+    {
+     "start": 37.78,
+     "end": 37.94,
+     "text": "had"
+    },
+    {
+     "start": 37.94,
+     "end": 38.1,
+     "text": "gotten"
+    },
+    {
+     "start": 38.1,
+     "end": 38.44,
+     "text": "out"
+    },
+    {
+     "start": 38.44,
+     "end": 38.74,
+     "text": "and"
+    },
+    {
+     "start": 38.74,
+     "end": 39.0,
+     "text": "some"
+    },
+    {
+     "start": 39.0,
+     "end": 39.24,
+     "text": "neighbors"
+    },
+    {
+     "start": 39.24,
+     "end": 39.54,
+     "text": "opposed"
+    },
+    {
+     "start": 39.54,
+     "end": 39.86,
+     "text": "it."
+    }
+   ]
+  },
+  {
+   "start": 39.98,
+   "end": 45.46,
+   "text": "So they appealed the decision and the call box did too, asking for things like more riders allowed and days open.",
+   "words": [
+    {
+     "start": 39.98,
+     "end": 40.16,
+     "text": "So"
+    },
+    {
+     "start": 40.16,
+     "end": 40.28,
+     "text": "they"
+    },
+    {
+     "start": 40.28,
+     "end": 40.52,
+     "text": "appealed"
+    },
+    {
+     "start": 40.52,
+     "end": 40.68,
+     "text": "the"
+    },
+    {
+     "start": 40.68,
+     "end": 40.98,
+     "text": "decision"
+    },
+    {
+     "start": 40.98,
+     "end": 41.38,
+     "text": "and"
+    },
+    {
+     "start": 41.38,
+     "end": 41.5,
+     "text": "the"
+    },
+    {
+     "start": 41.5,
+     "end": 41.68,
+     "text": "call"
+    },
+    {
+     "start": 41.68,
+     "end": 41.92,
+     "text": "box"
+    },
+    {
+     "start": 41.92,
+     "end": 42.14,
+     "text": "did"
+    },
+    {
+     "start": 42.14,
+     "end": 42.68,
+     "text": "too,"
+    },
+    {
+     "start": 42.68,
+     "end": 42.9,
+     "text": "asking"
+    },
+    {
+     "start": 42.9,
+     "end": 43.1,
+     "text": "for"
+    },
+    {
+     "start": 43.1,
+     "end": 43.4,
+     "text": "things"
+    },
+    {
+     "start": 43.4,
+     "end": 43.7,
+     "text": "like"
+    },
+    {
+     "start": 43.7,
+     "end": 43.94,
+     "text": "more"
+    },
+    {
+     "start": 43.94,
+     "end": 44.22,
+     "text": "riders"
+    },
+    {
+     "start": 44.22,
+     "end": 44.62,
+     "text": "allowed"
+    },
+    {
+     "start": 44.62,
+     "end": 44.94,
+     "text": "and"
+    },
+    {
+     "start": 44.94,
+     "end": 45.18,
+     "text": "days"
+    },
+    {
+     "start": 45.18,
+     "end": 45.46,
+     "text": "open."
+    }
+   ]
+  },
+  {
+   "start": 45.94,
+   "end": 49.36,
+   "text": "Once again, the permit got approved as well as the requested changes.",
+   "words": [
+    {
+     "start": 45.94,
+     "end": 46.16,
+     "text": "Once"
+    },
+    {
+     "start": 46.16,
+     "end": 46.66,
+     "text": "again,"
+    },
+    {
+     "start": 46.66,
+     "end": 46.9,
+     "text": "the"
+    },
+    {
+     "start": 46.9,
+     "end": 47.1,
+     "text": "permit"
+    },
+    {
+     "start": 47.1,
+     "end": 47.32,
+     "text": "got"
+    },
+    {
+     "start": 47.32,
+     "end": 47.68,
+     "text": "approved"
+    },
+    {
+     "start": 47.68,
+     "end": 48.16,
+     "text": "as"
+    },
+    {
+     "start": 48.16,
+     "end": 48.26,
+     "text": "well"
+    },
+    {
+     "start": 48.26,
+     "end": 48.42,
+     "text": "as"
+    },
+    {
+     "start": 48.42,
+     "end": 48.52,
+     "text": "the"
+    },
+    {
+     "start": 48.52,
+     "end": 48.88,
+     "text": "requested"
+    },
+    {
+     "start": 48.88,
+     "end": 49.36,
+     "text": "changes."
+    }
+   ]
+  },
+  {
+   "start": 49.78,
+   "end": 52.78,
+   "text": "And if the community wanted to appeal, they'd have to do so in court.",
+   "words": [
+    {
+     "start": 49.78,
+     "end": 49.88,
+     "text": "And"
+    },
+    {
+     "start": 49.88,
+     "end": 49.96,
+     "text": "if"
+    },
+    {
+     "start": 49.96,
+     "end": 50.06,
+     "text": "the"
+    },
+    {
+     "start": 50.06,
+     "end": 50.36,
+     "text": "community"
+    },
+    {
+     "start": 50.36,
+     "end": 50.8,
+     "text": "wanted"
+    },
+    {
+     "start": 50.8,
+     "end": 51.02,
+     "text": "to"
+    },
+    {
+     "start": 51.02,
+     "end": 51.56,
+     "text": "appeal,"
+    },
+    {
+     "start": 51.56,
+     "end": 51.78,
+     "text": "they'd"
+    },
+    {
+     "start": 51.78,
+     "end": 51.9,
+     "text": "have"
+    },
+    {
+     "start": 51.9,
+     "end": 52.04,
+     "text": "to"
+    },
+    {
+     "start": 52.04,
+     "end": 52.18,
+     "text": "do"
+    },
+    {
+     "start": 52.18,
+     "end": 52.34,
+     "text": "so"
+    },
+    {
+     "start": 52.34,
+     "end": 52.5,
+     "text": "in"
+    },
+    {
+     "start": 52.5,
+     "end": 52.78,
+     "text": "court."
+    }
+   ]
+  },
+  {
+   "start": 53.0,
+   "end": 54.78,
+   "text": "By December, the county made it official.",
+   "words": [
+    {
+     "start": 53.0,
+     "end": 53.16,
+     "text": "By"
+    },
+    {
+     "start": 53.16,
+     "end": 53.8,
+     "text": "December,"
+    },
+    {
+     "start": 53.8,
+     "end": 53.94,
+     "text": "the"
+    },
+    {
+     "start": 53.94,
+     "end": 54.14,
+     "text": "county"
+    },
+    {
+     "start": 54.14,
+     "end": 54.4,
+     "text": "made"
+    },
+    {
+     "start": 54.4,
+     "end": 54.48,
+     "text": "it"
+    },
+    {
+     "start": 54.48,
+     "end": 54.78,
+     "text": "official."
+    }
+   ]
+  },
+  {
+   "start": 54.84,
+   "end": 59.92,
+   "text": "The final plan detailed things like trails, parking, and bathrooms, and they'd open the following summer.",
+   "words": [
+    {
+     "start": 54.84,
+     "end": 55.26,
+     "text": "The"
+    },
+    {
+     "start": 55.26,
+     "end": 55.44,
+     "text": "final"
+    },
+    {
+     "start": 55.44,
+     "end": 55.7,
+     "text": "plan"
+    },
+    {
+     "start": 55.7,
+     "end": 56.04,
+     "text": "detailed"
+    },
+    {
+     "start": 56.04,
+     "end": 56.4,
+     "text": "things"
+    },
+    {
+     "start": 56.4,
+     "end": 56.6,
+     "text": "like"
+    },
+    {
+     "start": 56.6,
+     "end": 57.28,
+     "text": "trails,"
+    },
+    {
+     "start": 57.28,
+     "end": 57.76,
+     "text": "parking,"
+    },
+    {
+     "start": 57.76,
+     "end": 57.82,
+     "text": "and"
+    },
+    {
+     "start": 57.82,
+     "end": 58.34,
+     "text": "bathrooms,"
+    },
+    {
+     "start": 58.34,
+     "end": 58.7,
+     "text": "and"
+    },
+    {
+     "start": 58.7,
+     "end": 58.84,
+     "text": "they'd"
+    },
+    {
+     "start": 58.84,
+     "end": 59.06,
+     "text": "open"
+    },
+    {
+     "start": 59.06,
+     "end": 59.2,
+     "text": "the"
+    },
+    {
+     "start": 59.2,
+     "end": 59.46,
+     "text": "following"
+    },
+    {
+     "start": 59.46,
+     "end": 59.92,
+     "text": "summer."
+    }
+   ]
+  },
+  {
+   "start": 60.24,
+   "end": 64.66,
+   "text": "So the call box invested their life savings, about $2.5 million, into the ranch.",
+   "words": [
+    {
+     "start": 60.24,
+     "end": 60.4,
+     "text": "So"
+    },
+    {
+     "start": 60.4,
+     "end": 60.52,
+     "text": "the"
+    },
+    {
+     "start": 60.52,
+     "end": 60.68,
+     "text": "call"
+    },
+    {
+     "start": 60.68,
+     "end": 60.86,
+     "text": "box"
+    },
+    {
+     "start": 60.86,
+     "end": 61.22,
+     "text": "invested"
+    },
+    {
+     "start": 61.22,
+     "end": 61.42,
+     "text": "their"
+    },
+    {
+     "start": 61.42,
+     "end": 61.64,
+     "text": "life"
+    },
+    {
+     "start": 61.64,
+     "end": 62.38,
+     "text": "savings,"
+    },
+    {
+     "start": 62.38,
+     "end": 63.06,
+     "text": "about $2.5"
+    },
+    {
+     "start": 63.06,
+     "end": 63.4,
+     "text": "million,"
+    },
+    {
+     "start": 63.4,
+     "end": 63.98,
+     "text": "into"
+    },
+    {
+     "start": 63.98,
+     "end": 64.16,
+     "text": "the"
+    },
+    {
+     "start": 64.16,
+     "end": 64.66,
+     "text": "ranch."
+    }
+   ]
+  },
+  {
+   "start": 64.78,
+   "end": 70.42,
+   "text": "Gravity Logic, the team behind Whistler's Bike Park, even contracted the job, and they hired local labor to build the 10 trails.",
+   "words": [
+    {
+     "start": 64.78,
+     "end": 65.12,
+     "text": "Gravity"
+    },
+    {
+     "start": 65.12,
+     "end": 65.64,
+     "text": "Logic,"
+    },
+    {
+     "start": 65.64,
+     "end": 65.72,
+     "text": "the"
+    },
+    {
+     "start": 65.72,
+     "end": 65.9,
+     "text": "team"
+    },
+    {
+     "start": 65.9,
+     "end": 66.18,
+     "text": "behind"
+    },
+    {
+     "start": 66.18,
+     "end": 66.6,
+     "text": "Whistler's"
+    },
+    {
+     "start": 66.6,
+     "end": 66.74,
+     "text": "Bike"
+    },
+    {
+     "start": 66.74,
+     "end": 66.96,
+     "text": "Park,"
+    },
+    {
+     "start": 66.96,
+     "end": 67.18,
+     "text": "even"
+    },
+    {
+     "start": 67.18,
+     "end": 67.64,
+     "text": "contracted"
+    },
+    {
+     "start": 67.64,
+     "end": 67.9,
+     "text": "the"
+    },
+    {
+     "start": 67.9,
+     "end": 68.18,
+     "text": "job,"
+    },
+    {
+     "start": 68.18,
+     "end": 68.44,
+     "text": "and"
+    },
+    {
+     "start": 68.44,
+     "end": 68.56,
+     "text": "they"
+    },
+    {
+     "start": 68.56,
+     "end": 68.8,
+     "text": "hired"
+    },
+    {
+     "start": 68.8,
+     "end": 69.1,
+     "text": "local"
+    },
+    {
+     "start": 69.1,
+     "end": 69.36,
+     "text": "labor"
+    },
+    {
+     "start": 69.36,
+     "end": 69.56,
+     "text": "to"
+    },
+    {
+     "start": 69.56,
+     "end": 69.72,
+     "text": "build"
+    },
+    {
+     "start": 69.72,
+     "end": 69.92,
+     "text": "the"
+    },
+    {
+     "start": 69.92,
+     "end": 70.08,
+     "text": "10"
+    },
+    {
+     "start": 70.08,
+     "end": 70.42,
+     "text": "trails."
+    }
+   ]
+  },
+  {
+   "start": 70.98,
+   "end": 75.98,
+   "text": "Then in June 2025, only 10 days before opening, a judge revoked the permit.",
+   "words": [
+    {
+     "start": 70.98,
+     "end": 71.16,
+     "text": "Then"
+    },
+    {
+     "start": 71.16,
+     "end": 71.28,
+     "text": "in"
+    },
+    {
+     "start": 71.28,
+     "end": 71.44,
+     "text": "June"
+    },
+    {
+     "start": 71.44,
+     "end": 72.5,
+     "text": "2025,"
+    },
+    {
+     "start": 72.5,
+     "end": 72.66,
+     "text": "only"
+    },
+    {
+     "start": 72.66,
+     "end": 73.14,
+     "text": "10"
+    },
+    {
+     "start": 73.14,
+     "end": 73.32,
+     "text": "days"
+    },
+    {
+     "start": 73.32,
+     "end": 73.68,
+     "text": "before"
+    },
+    {
+     "start": 73.68,
+     "end": 74.4,
+     "text": "opening,"
+    },
+    {
+     "start": 74.4,
+     "end": 74.96,
+     "text": "a"
+    },
+    {
+     "start": 74.96,
+     "end": 75.22,
+     "text": "judge"
+    },
+    {
+     "start": 75.22,
+     "end": 75.56,
+     "text": "revoked"
+    },
+    {
+     "start": 75.56,
+     "end": 75.72,
+     "text": "the"
+    },
+    {
+     "start": 75.72,
+     "end": 75.98,
+     "text": "permit."
+    }
+   ]
+  },
+  {
+   "start": 76.32,
+   "end": 83.14,
+   "text": "You see, those negative neighbors did take the matter to court, saying it's basically a resort and they shouldn't have to sit and listen.",
+   "words": [
+    {
+     "start": 76.32,
+     "end": 76.46,
+     "text": "You"
+    },
+    {
+     "start": 76.46,
+     "end": 76.8,
+     "text": "see,"
+    },
+    {
+     "start": 76.8,
+     "end": 76.98,
+     "text": "those"
+    },
+    {
+     "start": 76.98,
+     "end": 77.38,
+     "text": "negative"
+    },
+    {
+     "start": 77.38,
+     "end": 77.72,
+     "text": "neighbors"
+    },
+    {
+     "start": 77.72,
+     "end": 78.3,
+     "text": "did"
+    },
+    {
+     "start": 78.3,
+     "end": 78.62,
+     "text": "take"
+    },
+    {
+     "start": 78.62,
+     "end": 78.76,
+     "text": "the"
+    },
+    {
+     "start": 78.76,
+     "end": 78.9,
+     "text": "matter"
+    },
+    {
+     "start": 78.9,
+     "end": 79.12,
+     "text": "to"
+    },
+    {
+     "start": 79.12,
+     "end": 79.36,
+     "text": "court,"
+    },
+    {
+     "start": 79.36,
+     "end": 79.86,
+     "text": "saying"
+    },
+    {
+     "start": 79.86,
+     "end": 80.32,
+     "text": "it's"
+    },
+    {
+     "start": 80.32,
+     "end": 80.74,
+     "text": "basically"
+    },
+    {
+     "start": 80.74,
+     "end": 80.98,
+     "text": "a"
+    },
+    {
+     "start": 80.98,
+     "end": 81.24,
+     "text": "resort"
+    },
+    {
+     "start": 81.24,
+     "end": 81.74,
+     "text": "and"
+    },
+    {
+     "start": 81.74,
+     "end": 81.88,
+     "text": "they"
+    },
+    {
+     "start": 81.88,
+     "end": 82.2,
+     "text": "shouldn't"
+    },
+    {
+     "start": 82.2,
+     "end": 82.38,
+     "text": "have"
+    },
+    {
+     "start": 82.38,
+     "end": 82.54,
+     "text": "to"
+    },
+    {
+     "start": 82.54,
+     "end": 82.74,
+     "text": "sit"
+    },
+    {
+     "start": 82.74,
+     "end": 82.9,
+     "text": "and"
+    },
+    {
+     "start": 82.9,
+     "end": 83.14,
+     "text": "listen."
+    }
+   ]
+  },
+  {
+   "start": 83.62,
+   "end": 87.04,
+   "text": "Apparently, the county failed to properly document why it approved the bike park.",
+   "words": [
+    {
+     "start": 83.62,
+     "end": 84.04,
+     "text": "Apparently,"
+    },
+    {
+     "start": 84.04,
+     "end": 84.08,
+     "text": "the"
+    },
+    {
+     "start": 84.08,
+     "end": 84.26,
+     "text": "county"
+    },
+    {
+     "start": 84.26,
+     "end": 84.58,
+     "text": "failed"
+    },
+    {
+     "start": 84.58,
+     "end": 84.74,
+     "text": "to"
+    },
+    {
+     "start": 84.74,
+     "end": 85.0,
+     "text": "properly"
+    },
+    {
+     "start": 85.0,
+     "end": 85.52,
+     "text": "document"
+    },
+    {
+     "start": 85.52,
+     "end": 85.8,
+     "text": "why"
+    },
+    {
+     "start": 85.8,
+     "end": 85.92,
+     "text": "it"
+    },
+    {
+     "start": 85.92,
+     "end": 86.2,
+     "text": "approved"
+    },
+    {
+     "start": 86.2,
+     "end": 86.36,
+     "text": "the"
+    },
+    {
+     "start": 86.36,
+     "end": 86.56,
+     "text": "bike"
+    },
+    {
+     "start": 86.56,
+     "end": 87.04,
+     "text": "park."
+    }
+   ]
+  },
+  {
+   "start": 86.84,
+   "end": 88.42,
+   "text": "This reversed the permit.",
+   "words": [
+    {
+     "start": 86.84,
+     "end": 87.42,
+     "text": "This"
+    },
+    {
+     "start": 87.42,
+     "end": 87.7,
+     "text": "reversed"
+    },
+    {
+     "start": 87.7,
+     "end": 87.9,
+     "text": "the"
+    },
+    {
+     "start": 87.9,
+     "end": 88.42,
+     "text": "permit."
+    }
+   ]
+  },
+  {
+   "start": 87.84,
+   "end": 90.1,
+   "text": "And it should have been an easy fix.",
+   "words": [
+    {
+     "start": 87.84,
+     "end": 88.66,
+     "text": "And"
+    },
+    {
+     "start": 88.66,
+     "end": 88.78,
+     "text": "it"
+    },
+    {
+     "start": 88.78,
+     "end": 88.94,
+     "text": "should"
+    },
+    {
+     "start": 88.94,
+     "end": 89.06,
+     "text": "have"
+    },
+    {
+     "start": 89.06,
+     "end": 89.14,
+     "text": "been"
+    },
+    {
+     "start": 89.14,
+     "end": 89.26,
+     "text": "an"
+    },
+    {
+     "start": 89.26,
+     "end": 89.44,
+     "text": "easy"
+    },
+    {
+     "start": 89.44,
+     "end": 90.1,
+     "text": "fix."
+    }
+   ]
+  },
+  {
+   "start": 89.76,
+   "end": 93.47,
+   "text": "The county just needed a document what the judge asked for, but they refused.",
+   "words": [
+    {
+     "start": 89.76,
+     "end": 90.36,
+     "text": "The"
+    },
+    {
+     "start": 90.36,
+     "end": 90.52,
+     "text": "county"
+    },
+    {
+     "start": 90.52,
+     "end": 90.76,
+     "text": "just"
+    },
+    {
+     "start": 90.77,
+     "end": 90.93,
+     "text": "needed"
+    },
+    {
+     "start": 90.93,
+     "end": 91.11,
+     "text": "a"
+    },
+    {
+     "start": 91.11,
+     "end": 91.39,
+     "text": "document"
+    },
+    {
+     "start": 91.39,
+     "end": 91.59,
+     "text": "what"
+    },
+    {
+     "start": 91.59,
+     "end": 91.73,
+     "text": "the"
+    },
+    {
+     "start": 91.73,
+     "end": 91.85,
+     "text": "judge"
+    },
+    {
+     "start": 91.85,
+     "end": 92.19,
+     "text": "asked"
+    },
+    {
+     "start": 92.19,
+     "end": 92.55,
+     "text": "for,"
+    },
+    {
+     "start": 92.55,
+     "end": 92.91,
+     "text": "but"
+    },
+    {
+     "start": 92.91,
+     "end": 93.09,
+     "text": "they"
+    },
+    {
+     "start": 93.09,
+     "end": 93.47,
+     "text": "refused."
+    }
+   ]
+  },
+  {
+   "start": 94.03,
+   "end": 98.95,
+   "text": "Apparently, commissioners wanted a new hearing, and planning staff suggested they operate based on donations.",
+   "words": [
+    {
+     "start": 94.03,
+     "end": 94.49,
+     "text": "Apparently,"
+    },
+    {
+     "start": 94.49,
+     "end": 95.01,
+     "text": "commissioners"
+    },
+    {
+     "start": 95.01,
+     "end": 95.23,
+     "text": "wanted"
+    },
+    {
+     "start": 95.23,
+     "end": 95.45,
+     "text": "a"
+    },
+    {
+     "start": 95.45,
+     "end": 95.67,
+     "text": "new"
+    },
+    {
+     "start": 95.67,
+     "end": 96.15,
+     "text": "hearing,"
+    },
+    {
+     "start": 96.15,
+     "end": 96.45,
+     "text": "and"
+    },
+    {
+     "start": 96.45,
+     "end": 96.67,
+     "text": "planning"
+    },
+    {
+     "start": 96.67,
+     "end": 96.99,
+     "text": "staff"
+    },
+    {
+     "start": 96.99,
+     "end": 97.41,
+     "text": "suggested"
+    },
+    {
+     "start": 97.41,
+     "end": 97.67,
+     "text": "they"
+    },
+    {
+     "start": 97.67,
+     "end": 97.99,
+     "text": "operate"
+    },
+    {
+     "start": 97.99,
+     "end": 98.33,
+     "text": "based"
+    },
+    {
+     "start": 98.33,
+     "end": 98.53,
+     "text": "on"
+    },
+    {
+     "start": 98.53,
+     "end": 98.95,
+     "text": "donations."
+    }
+   ]
+  },
+  {
+   "start": 99.35,
+   "end": 101.01,
+   "text": "That way, the bike ranch wouldn't need a permit.",
+   "words": [
+    {
+     "start": 99.35,
+     "end": 99.55,
+     "text": "That"
+    },
+    {
+     "start": 99.55,
+     "end": 99.65,
+     "text": "way,"
+    },
+    {
+     "start": 99.65,
+     "end": 99.79,
+     "text": "the"
+    },
+    {
+     "start": 99.79,
+     "end": 99.95,
+     "text": "bike"
+    },
+    {
+     "start": 99.95,
+     "end": 100.11,
+     "text": "ranch"
+    },
+    {
+     "start": 100.11,
+     "end": 100.39,
+     "text": "wouldn't"
+    },
+    {
+     "start": 100.39,
+     "end": 100.59,
+     "text": "need"
+    },
+    {
+     "start": 100.59,
+     "end": 100.71,
+     "text": "a"
+    },
+    {
+     "start": 100.71,
+     "end": 101.01,
+     "text": "permit."
+    }
+   ]
+  },
+  {
+   "start": 101.25,
+   "end": 103.13,
+   "text": "So the call box pivoted to form a nonprofit.",
+   "words": [
+    {
+     "start": 101.25,
+     "end": 101.45,
+     "text": "So"
+    },
+    {
+     "start": 101.45,
+     "end": 101.55,
+     "text": "the"
+    },
+    {
+     "start": 101.55,
+     "end": 101.73,
+     "text": "call"
+    },
+    {
+     "start": 101.73,
+     "end": 101.91,
+     "text": "box"
+    },
+    {
+     "start": 101.91,
+     "end": 102.31,
+     "text": "pivoted"
+    },
+    {
+     "start": 102.31,
+     "end": 102.45,
+     "text": "to"
+    },
+    {
+     "start": 102.45,
+     "end": 102.61,
+     "text": "form"
+    },
+    {
+     "start": 102.61,
+     "end": 102.77,
+     "text": "a"
+    },
+    {
+     "start": 102.77,
+     "end": 103.13,
+     "text": "nonprofit."
+    }
+   ]
+  },
+  {
+   "start": 103.57,
+   "end": 107.59,
+   "text": "They also asked the county to recognize the bike ranch as a park, a definition they now fit.",
+   "words": [
+    {
+     "start": 103.57,
+     "end": 103.71,
+     "text": "They"
+    },
+    {
+     "start": 103.71,
+     "end": 103.93,
+     "text": "also"
+    },
+    {
+     "start": 103.93,
+     "end": 104.19,
+     "text": "asked"
+    },
+    {
+     "start": 104.19,
+     "end": 104.33,
+     "text": "the"
+    },
+    {
+     "start": 104.33,
+     "end": 104.45,
+     "text": "county"
+    },
+    {
+     "start": 104.45,
+     "end": 104.67,
+     "text": "to"
+    },
+    {
+     "start": 104.67,
+     "end": 105.05,
+     "text": "recognize"
+    },
+    {
+     "start": 105.05,
+     "end": 105.25,
+     "text": "the"
+    },
+    {
+     "start": 105.25,
+     "end": 105.41,
+     "text": "bike"
+    },
+    {
+     "start": 105.41,
+     "end": 105.63,
+     "text": "ranch"
+    },
+    {
+     "start": 105.63,
+     "end": 105.79,
+     "text": "as"
+    },
+    {
+     "start": 105.79,
+     "end": 105.87,
+     "text": "a"
+    },
+    {
+     "start": 105.87,
+     "end": 106.11,
+     "text": "park,"
+    },
+    {
+     "start": 106.11,
+     "end": 106.47,
+     "text": "a"
+    },
+    {
+     "start": 106.47,
+     "end": 106.85,
+     "text": "definition"
+    },
+    {
+     "start": 106.85,
+     "end": 107.15,
+     "text": "they"
+    },
+    {
+     "start": 107.15,
+     "end": 107.31,
+     "text": "now"
+    },
+    {
+     "start": 107.31,
+     "end": 107.59,
+     "text": "fit."
+    }
+   ]
+  },
+  {
+   "start": 107.91,
+   "end": 111.71,
+   "text": "But some people still didn't like this and formed a very vocal opposition group.",
+   "words": [
+    {
+     "start": 107.91,
+     "end": 108.05,
+     "text": "But"
+    },
+    {
+     "start": 108.05,
+     "end": 108.17,
+     "text": "some"
+    },
+    {
+     "start": 108.17,
+     "end": 108.41,
+     "text": "people"
+    },
+    {
+     "start": 108.41,
+     "end": 108.67,
+     "text": "still"
+    },
+    {
+     "start": 108.67,
+     "end": 108.95,
+     "text": "didn't"
+    },
+    {
+     "start": 108.95,
+     "end": 109.15,
+     "text": "like"
+    },
+    {
+     "start": 109.15,
+     "end": 109.45,
+     "text": "this"
+    },
+    {
+     "start": 109.45,
+     "end": 109.65,
+     "text": "and"
+    },
+    {
+     "start": 109.65,
+     "end": 109.87,
+     "text": "formed"
+    },
+    {
+     "start": 109.87,
+     "end": 110.07,
+     "text": "a"
+    },
+    {
+     "start": 110.07,
+     "end": 110.35,
+     "text": "very"
+    },
+    {
+     "start": 110.35,
+     "end": 110.79,
+     "text": "vocal"
+    },
+    {
+     "start": 110.79,
+     "end": 111.25,
+     "text": "opposition"
+    },
+    {
+     "start": 111.25,
+     "end": 111.71,
+     "text": "group."
+    }
+   ]
+  },
+  {
+   "start": 112.03,
+   "end": 113.93,
+   "text": "And then things escalated.",
+   "words": [
+    {
+     "start": 112.03,
+     "end": 112.23,
+     "text": "And"
+    },
+    {
+     "start": 112.23,
+     "end": 112.65,
+     "text": "then"
+    },
+    {
+     "start": 112.65,
+     "end": 113.27,
+     "text": "things"
+    },
+    {
+     "start": 113.27,
+     "end": 113.93,
+     "text": "escalated."
+    }
+   ]
+  },
+  {
+   "start": 114.01,
+   "end": 116.53,
+   "text": "People on both sides put up and stole signs.",
+   "words": [
+    {
+     "start": 114.01,
+     "end": 114.47,
+     "text": "People"
+    },
+    {
+     "start": 114.47,
+     "end": 114.69,
+     "text": "on"
+    },
+    {
+     "start": 114.69,
+     "end": 114.87,
+     "text": "both"
+    },
+    {
+     "start": 114.87,
+     "end": 115.11,
+     "text": "sides"
+    },
+    {
+     "start": 115.11,
+     "end": 115.37,
+     "text": "put"
+    },
+    {
+     "start": 115.37,
+     "end": 115.53,
+     "text": "up"
+    },
+    {
+     "start": 115.53,
+     "end": 115.77,
+     "text": "and"
+    },
+    {
+     "start": 115.77,
+     "end": 115.97,
+     "text": "stole"
+    },
+    {
+     "start": 115.97,
+     "end": 116.53,
+     "text": "signs."
+    }
+   ]
+  },
+  {
+   "start": 116.69,
+   "end": 120.81,
+   "text": "One neighbor allegedly fired guns into his berm 150 feet from the beginner trail.",
+   "words": [
+    {
+     "start": 116.69,
+     "end": 116.87,
+     "text": "One"
+    },
+    {
+     "start": 116.87,
+     "end": 117.03,
+     "text": "neighbor"
+    },
+    {
+     "start": 117.03,
+     "end": 117.47,
+     "text": "allegedly"
+    },
+    {
+     "start": 117.47,
+     "end": 117.87,
+     "text": "fired"
+    },
+    {
+     "start": 117.87,
+     "end": 118.09,
+     "text": "guns"
+    },
+    {
+     "start": 118.09,
+     "end": 118.29,
+     "text": "into"
+    },
+    {
+     "start": 118.29,
+     "end": 118.45,
+     "text": "his"
+    },
+    {
+     "start": 118.45,
+     "end": 118.65,
+     "text": "berm"
+    },
+    {
+     "start": 118.65,
+     "end": 119.25,
+     "text": "150"
+    },
+    {
+     "start": 119.25,
+     "end": 119.83,
+     "text": "feet"
+    },
+    {
+     "start": 119.83,
+     "end": 119.99,
+     "text": "from"
+    },
+    {
+     "start": 119.99,
+     "end": 120.11,
+     "text": "the"
+    },
+    {
+     "start": 120.11,
+     "end": 120.31,
+     "text": "beginner"
+    },
+    {
+     "start": 120.31,
+     "end": 120.81,
+     "text": "trail."
+    }
+   ]
+  },
+  {
+   "start": 123.01,
+   "end": 127.61,
+   "text": "And another neighbor used his backhoe to dig trenches in the road shortly after the call box fixed it.",
+   "words": [
+    {
+     "start": 123.01,
+     "end": 123.11,
+     "text": "And"
+    },
+    {
+     "start": 123.11,
+     "end": 123.35,
+     "text": "another"
+    },
+    {
+     "start": 123.35,
+     "end": 123.57,
+     "text": "neighbor"
+    },
+    {
+     "start": 123.57,
+     "end": 123.89,
+     "text": "used"
+    },
+    {
+     "start": 123.89,
+     "end": 124.09,
+     "text": "his"
+    },
+    {
+     "start": 124.09,
+     "end": 124.49,
+     "text": "backhoe"
+    },
+    {
+     "start": 124.49,
+     "end": 124.69,
+     "text": "to"
+    },
+    {
+     "start": 124.69,
+     "end": 124.83,
+     "text": "dig"
+    },
+    {
+     "start": 124.83,
+     "end": 125.19,
+     "text": "trenches"
+    },
+    {
+     "start": 125.19,
+     "end": 125.45,
+     "text": "in"
+    },
+    {
+     "start": 125.45,
+     "end": 125.51,
+     "text": "the"
+    },
+    {
+     "start": 125.51,
+     "end": 125.73,
+     "text": "road"
+    },
+    {
+     "start": 125.73,
+     "end": 126.15,
+     "text": "shortly"
+    },
+    {
+     "start": 126.15,
+     "end": 126.45,
+     "text": "after"
+    },
+    {
+     "start": 126.45,
+     "end": 126.61,
+     "text": "the"
+    },
+    {
+     "start": 126.61,
+     "end": 126.77,
+     "text": "call"
+    },
+    {
+     "start": 126.77,
+     "end": 126.99,
+     "text": "box"
+    },
+    {
+     "start": 126.99,
+     "end": 127.27,
+     "text": "fixed"
+    },
+    {
+     "start": 127.27,
+     "end": 127.61,
+     "text": "it."
+    }
+   ]
+  },
+  {
+   "start": 127.87,
+   "end": 128.91,
+   "text": "Again, allegedly.",
+   "words": [
+    {
+     "start": 127.87,
+     "end": 128.33,
+     "text": "Again,"
+    },
+    {
+     "start": 128.33,
+     "end": 128.91,
+     "text": "allegedly."
+    }
+   ]
+  },
+  {
+   "start": 129.47,
+   "end": 133.69,
+   "text": "Then last fall, the county denied the park designation, giving them no option to appeal.",
+   "words": [
+    {
+     "start": 129.47,
+     "end": 129.63,
+     "text": "Then"
+    },
+    {
+     "start": 129.63,
+     "end": 129.87,
+     "text": "last"
+    },
+    {
+     "start": 129.87,
+     "end": 130.21,
+     "text": "fall,"
+    },
+    {
+     "start": 130.21,
+     "end": 130.25,
+     "text": "the"
+    },
+    {
+     "start": 130.25,
+     "end": 130.45,
+     "text": "county"
+    },
+    {
+     "start": 130.45,
+     "end": 130.95,
+     "text": "denied"
+    },
+    {
+     "start": 130.95,
+     "end": 131.13,
+     "text": "the"
+    },
+    {
+     "start": 131.13,
+     "end": 131.35,
+     "text": "park"
+    },
+    {
+     "start": 131.35,
+     "end": 131.77,
+     "text": "designation,"
+    },
+    {
+     "start": 131.77,
+     "end": 132.47,
+     "text": "giving"
+    },
+    {
+     "start": 132.47,
+     "end": 132.65,
+     "text": "them"
+    },
+    {
+     "start": 132.65,
+     "end": 132.85,
+     "text": "no"
+    },
+    {
+     "start": 132.85,
+     "end": 133.17,
+     "text": "option"
+    },
+    {
+     "start": 133.17,
+     "end": 133.41,
+     "text": "to"
+    },
+    {
+     "start": 133.41,
+     "end": 133.69,
+     "text": "appeal."
+    }
+   ]
+  },
+  {
+   "start": 134.09,
+   "end": 137.59,
+   "text": "So the call box filed a lawsuit in court while continuing to build out the ranch.",
+   "words": [
+    {
+     "start": 134.09,
+     "end": 134.23,
+     "text": "So"
+    },
+    {
+     "start": 134.23,
+     "end": 134.33,
+     "text": "the"
+    },
+    {
+     "start": 134.33,
+     "end": 134.49,
+     "text": "call"
+    },
+    {
+     "start": 134.49,
+     "end": 134.67,
+     "text": "box"
+    },
+    {
+     "start": 134.67,
+     "end": 134.93,
+     "text": "filed"
+    },
+    {
+     "start": 134.93,
+     "end": 135.07,
+     "text": "a"
+    },
+    {
+     "start": 135.07,
+     "end": 135.31,
+     "text": "lawsuit"
+    },
+    {
+     "start": 135.31,
+     "end": 135.51,
+     "text": "in"
+    },
+    {
+     "start": 135.51,
+     "end": 135.75,
+     "text": "court"
+    },
+    {
+     "start": 135.75,
+     "end": 136.11,
+     "text": "while"
+    },
+    {
+     "start": 136.11,
+     "end": 136.45,
+     "text": "continuing"
+    },
+    {
+     "start": 136.45,
+     "end": 136.67,
+     "text": "to"
+    },
+    {
+     "start": 136.67,
+     "end": 136.85,
+     "text": "build"
+    },
+    {
+     "start": 136.85,
+     "end": 136.99,
+     "text": "out"
+    },
+    {
+     "start": 136.99,
+     "end": 137.17,
+     "text": "the"
+    },
+    {
+     "start": 137.17,
+     "end": 137.59,
+     "text": "ranch."
+    }
+   ]
+  },
+  {
+   "start": 137.83,
+   "end": 139.31,
+   "text": "Until this spring.",
+   "words": [
+    {
+     "start": 137.83,
+     "end": 138.23,
+     "text": "Until"
+    },
+    {
+     "start": 138.23,
+     "end": 138.99,
+     "text": "this"
+    },
+    {
+     "start": 138.99,
+     "end": 139.31,
+     "text": "spring."
+    }
+   ]
+  },
+  {
+   "start": 139.43,
+   "end": 144.85,
+   "text": "The county posted a stop work order as the case went before a judge, who agreed.",
+   "words": [
+    {
+     "start": 139.43,
+     "end": 139.85,
+     "text": "The"
+    },
+    {
+     "start": 139.85,
+     "end": 140.01,
+     "text": "county"
+    },
+    {
+     "start": 140.01,
+     "end": 140.35,
+     "text": "posted"
+    },
+    {
+     "start": 140.35,
+     "end": 140.55,
+     "text": "a"
+    },
+    {
+     "start": 140.55,
+     "end": 140.77,
+     "text": "stop"
+    },
+    {
+     "start": 140.77,
+     "end": 141.01,
+     "text": "work"
+    },
+    {
+     "start": 141.01,
+     "end": 141.25,
+     "text": "order"
+    },
+    {
+     "start": 141.25,
+     "end": 141.61,
+     "text": "as"
+    },
+    {
+     "start": 141.61,
+     "end": 141.71,
+     "text": "the"
+    },
+    {
+     "start": 141.71,
+     "end": 141.95,
+     "text": "case"
+    },
+    {
+     "start": 141.95,
+     "end": 142.17,
+     "text": "went"
+    },
+    {
+     "start": 142.17,
+     "end": 142.41,
+     "text": "before"
+    },
+    {
+     "start": 142.41,
+     "end": 142.59,
+     "text": "a"
+    },
+    {
+     "start": 142.59,
+     "end": 143.41,
+     "text": "judge,"
+    },
+    {
+     "start": 143.41,
+     "end": 143.59,
+     "text": "who"
+    },
+    {
+     "start": 143.59,
+     "end": 144.85,
+     "text": "agreed."
+    }
+   ]
+  },
+  {
+   "start": 145.49,
+   "end": 148.51,
+   "text": "Now only people with a close personal relationship could use the park,",
+   "words": [
+    {
+     "start": 145.49,
+     "end": 145.69,
+     "text": "Now"
+    },
+    {
+     "start": 145.69,
+     "end": 145.95,
+     "text": "only"
+    },
+    {
+     "start": 145.95,
+     "end": 146.19,
+     "text": "people"
+    },
+    {
+     "start": 146.19,
+     "end": 146.41,
+     "text": "with"
+    },
+    {
+     "start": 146.41,
+     "end": 146.53,
+     "text": "a"
+    },
+    {
+     "start": 146.53,
+     "end": 146.81,
+     "text": "close"
+    },
+    {
+     "start": 146.81,
+     "end": 147.13,
+     "text": "personal"
+    },
+    {
+     "start": 147.13,
+     "end": 147.63,
+     "text": "relationship"
+    },
+    {
+     "start": 147.63,
+     "end": 147.95,
+     "text": "could"
+    },
+    {
+     "start": 147.95,
+     "end": 148.13,
+     "text": "use"
+    },
+    {
+     "start": 148.13,
+     "end": 148.27,
+     "text": "the"
+    },
+    {
+     "start": 148.27,
+     "end": 148.51,
+     "text": "park,"
+    }
+   ]
+  },
+  {
+   "start": 148.77,
+   "end": 154.19,
+   "text": "but the call box felt this was too vague, especially since violating the order could mean jail time.",
+   "words": [
+    {
+     "start": 148.77,
+     "end": 148.99,
+     "text": "but"
+    },
+    {
+     "start": 148.99,
+     "end": 149.21,
+     "text": "the"
+    },
+    {
+     "start": 149.21,
+     "end": 149.41,
+     "text": "call"
+    },
+    {
+     "start": 149.41,
+     "end": 149.61,
+     "text": "box"
+    },
+    {
+     "start": 149.61,
+     "end": 149.83,
+     "text": "felt"
+    },
+    {
+     "start": 149.83,
+     "end": 149.97,
+     "text": "this"
+    },
+    {
+     "start": 149.97,
+     "end": 150.11,
+     "text": "was"
+    },
+    {
+     "start": 150.11,
+     "end": 150.29,
+     "text": "too"
+    },
+    {
+     "start": 150.29,
+     "end": 150.89,
+     "text": "vague,"
+    },
+    {
+     "start": 150.89,
+     "end": 151.25,
+     "text": "especially"
+    },
+    {
+     "start": 151.25,
+     "end": 151.65,
+     "text": "since"
+    },
+    {
+     "start": 151.65,
+     "end": 152.09,
+     "text": "violating"
+    },
+    {
+     "start": 152.09,
+     "end": 152.47,
+     "text": "the"
+    },
+    {
+     "start": 152.47,
+     "end": 152.69,
+     "text": "order"
+    },
+    {
+     "start": 152.69,
+     "end": 153.13,
+     "text": "could"
+    },
+    {
+     "start": 153.13,
+     "end": 153.31,
+     "text": "mean"
+    },
+    {
+     "start": 153.31,
+     "end": 153.69,
+     "text": "jail"
+    },
+    {
+     "start": 153.69,
+     "end": 154.19,
+     "text": "time."
+    }
+   ]
+  },
+  {
+   "start": 154.45,
+   "end": 159.13,
+   "text": "I attended one of these hearings where the judge said having a gate means it's not a park.",
+   "words": [
+    {
+     "start": 154.45,
+     "end": 154.59,
+     "text": "I"
+    },
+    {
+     "start": 154.59,
+     "end": 154.91,
+     "text": "attended"
+    },
+    {
+     "start": 154.91,
+     "end": 155.15,
+     "text": "one"
+    },
+    {
+     "start": 155.15,
+     "end": 155.23,
+     "text": "of"
+    },
+    {
+     "start": 155.23,
+     "end": 155.39,
+     "text": "these"
+    },
+    {
+     "start": 155.39,
+     "end": 155.73,
+     "text": "hearings"
+    },
+    {
+     "start": 155.73,
+     "end": 156.07,
+     "text": "where"
+    },
+    {
+     "start": 156.07,
+     "end": 156.23,
+     "text": "the"
+    },
+    {
+     "start": 156.23,
+     "end": 156.47,
+     "text": "judge"
+    },
+    {
+     "start": 156.47,
+     "end": 156.67,
+     "text": "said"
+    },
+    {
+     "start": 156.67,
+     "end": 156.93,
+     "text": "having"
+    },
+    {
+     "start": 156.93,
+     "end": 157.13,
+     "text": "a"
+    },
+    {
+     "start": 157.13,
+     "end": 157.33,
+     "text": "gate"
+    },
+    {
+     "start": 157.33,
+     "end": 157.91,
+     "text": "means"
+    },
+    {
+     "start": 157.91,
+     "end": 158.39,
+     "text": "it's"
+    },
+    {
+     "start": 158.39,
+     "end": 158.61,
+     "text": "not"
+    },
+    {
+     "start": 158.61,
+     "end": 158.77,
+     "text": "a"
+    },
+    {
+     "start": 158.77,
+     "end": 159.13,
+     "text": "park."
+    }
+   ]
+  },
+  {
+   "start": 159.59,
+   "end": 161.57,
+   "text": "So for now, the ruling stands.",
+   "words": [
+    {
+     "start": 159.59,
+     "end": 159.89,
+     "text": "So"
+    },
+    {
+     "start": 159.89,
+     "end": 160.23,
+     "text": "for"
+    },
+    {
+     "start": 160.23,
+     "end": 160.77,
+     "text": "now,"
+    },
+    {
+     "start": 160.77,
+     "end": 160.87,
+     "text": "the"
+    },
+    {
+     "start": 160.87,
+     "end": 161.15,
+     "text": "ruling"
+    },
+    {
+     "start": 161.15,
+     "end": 161.57,
+     "text": "stands."
+    }
+   ]
+  },
+  {
+   "start": 162.07,
+   "end": 165.27,
+   "text": "And since neighbors like this have multiple cameras pointed at the property,",
+   "words": [
+    {
+     "start": 162.07,
+     "end": 162.21,
+     "text": "And"
+    },
+    {
+     "start": 162.21,
+     "end": 162.37,
+     "text": "since"
+    },
+    {
+     "start": 162.37,
+     "end": 162.61,
+     "text": "neighbors"
+    },
+    {
+     "start": 162.61,
+     "end": 162.93,
+     "text": "like"
+    },
+    {
+     "start": 162.93,
+     "end": 163.31,
+     "text": "this"
+    },
+    {
+     "start": 163.31,
+     "end": 163.59,
+     "text": "have"
+    },
+    {
+     "start": 163.59,
+     "end": 163.83,
+     "text": "multiple"
+    },
+    {
+     "start": 163.83,
+     "end": 164.23,
+     "text": "cameras"
+    },
+    {
+     "start": 164.23,
+     "end": 164.51,
+     "text": "pointed"
+    },
+    {
+     "start": 164.51,
+     "end": 164.67,
+     "text": "at"
+    },
+    {
+     "start": 164.67,
+     "end": 164.73,
+     "text": "the"
+    },
+    {
+     "start": 164.73,
+     "end": 165.27,
+     "text": "property,"
+    }
+   ]
+  },
+  {
+   "start": 165.49,
+   "end": 168.09,
+   "text": "one woman emailed photos to eight people at the county,",
+   "words": [
+    {
+     "start": 165.49,
+     "end": 165.69,
+     "text": "one"
+    },
+    {
+     "start": 165.69,
+     "end": 165.91,
+     "text": "woman"
+    },
+    {
+     "start": 165.91,
+     "end": 166.25,
+     "text": "emailed"
+    },
+    {
+     "start": 166.25,
+     "end": 166.65,
+     "text": "photos"
+    },
+    {
+     "start": 166.65,
+     "end": 166.83,
+     "text": "to"
+    },
+    {
+     "start": 166.83,
+     "end": 167.15,
+     "text": "eight"
+    },
+    {
+     "start": 167.15,
+     "end": 167.53,
+     "text": "people"
+    },
+    {
+     "start": 167.53,
+     "end": 167.71,
+     "text": "at"
+    },
+    {
+     "start": 167.71,
+     "end": 167.79,
+     "text": "the"
+    },
+    {
+     "start": 167.79,
+     "end": 168.09,
+     "text": "county,"
+    }
+   ]
+  },
+  {
+   "start": 168.41,
+   "end": 173.23,
+   "text": "with the prosecutor now demanding the names, contact info, and relationship of everyone there.",
+   "words": [
+    {
+     "start": 168.41,
+     "end": 168.49,
+     "text": "with"
+    },
+    {
+     "start": 168.49,
+     "end": 168.59,
+     "text": "the"
+    },
+    {
+     "start": 168.59,
+     "end": 168.91,
+     "text": "prosecutor"
+    },
+    {
+     "start": 168.91,
+     "end": 169.25,
+     "text": "now"
+    },
+    {
+     "start": 169.25,
+     "end": 169.57,
+     "text": "demanding"
+    },
+    {
+     "start": 169.57,
+     "end": 169.81,
+     "text": "the"
+    },
+    {
+     "start": 169.81,
+     "end": 170.35,
+     "text": "names,"
+    },
+    {
+     "start": 170.35,
+     "end": 170.67,
+     "text": "contact"
+    },
+    {
+     "start": 170.67,
+     "end": 171.21,
+     "text": "info,"
+    },
+    {
+     "start": 171.21,
+     "end": 171.33,
+     "text": "and"
+    },
+    {
+     "start": 171.33,
+     "end": 171.79,
+     "text": "relationship"
+    },
+    {
+     "start": 171.79,
+     "end": 172.31,
+     "text": "of"
+    },
+    {
+     "start": 172.31,
+     "end": 172.67,
+     "text": "everyone"
+    },
+    {
+     "start": 172.67,
+     "end": 173.23,
+     "text": "there."
+    }
+   ]
+  },
+  {
+   "start": 173.53,
+   "end": 177.23,
+   "text": "So would opponents prefer the bike park get sold to developers with an army of lawyers who",
+   "words": [
+    {
+     "start": 173.53,
+     "end": 173.73,
+     "text": "So"
+    },
+    {
+     "start": 173.73,
+     "end": 174.11,
+     "text": "would"
+    },
+    {
+     "start": 174.11,
+     "end": 174.43,
+     "text": "opponents"
+    },
+    {
+     "start": 174.43,
+     "end": 174.71,
+     "text": "prefer"
+    },
+    {
+     "start": 174.71,
+     "end": 174.87,
+     "text": "the"
+    },
+    {
+     "start": 174.87,
+     "end": 175.05,
+     "text": "bike"
+    },
+    {
+     "start": 175.05,
+     "end": 175.23,
+     "text": "park"
+    },
+    {
+     "start": 175.23,
+     "end": 175.39,
+     "text": "get"
+    },
+    {
+     "start": 175.39,
+     "end": 175.53,
+     "text": "sold"
+    },
+    {
+     "start": 175.53,
+     "end": 175.63,
+     "text": "to"
+    },
+    {
+     "start": 175.63,
+     "end": 175.95,
+     "text": "developers"
+    },
+    {
+     "start": 175.95,
+     "end": 176.21,
+     "text": "with"
+    },
+    {
+     "start": 176.21,
+     "end": 176.31,
+     "text": "an"
+    },
+    {
+     "start": 176.31,
+     "end": 176.57,
+     "text": "army"
+    },
+    {
+     "start": 176.57,
+     "end": 176.75,
+     "text": "of"
+    },
+    {
+     "start": 176.75,
+     "end": 176.97,
+     "text": "lawyers"
+    },
+    {
+     "start": 176.55,
+     "end": 177.23,
+     "text": "who"
+    }
+   ]
+  },
+  {
+   "start": 177.23,
+   "end": 179.11,
+   "text": "can rezone the land into a housing development?",
+   "words": [
+    {
+     "start": 177.23,
+     "end": 177.37,
+     "text": "can"
+    },
+    {
+     "start": 177.37,
+     "end": 177.67,
+     "text": "rezone"
+    },
+    {
+     "start": 177.67,
+     "end": 177.85,
+     "text": "the"
+    },
+    {
+     "start": 177.85,
+     "end": 178.07,
+     "text": "land"
+    },
+    {
+     "start": 178.07,
+     "end": 178.25,
+     "text": "into"
+    },
+    {
+     "start": 178.25,
+     "end": 178.39,
+     "text": "a"
+    },
+    {
+     "start": 178.39,
+     "end": 178.65,
+     "text": "housing"
+    },
+    {
+     "start": 178.65,
+     "end": 179.11,
+     "text": "development?"
+    }
+   ]
+  }
+ ],
+ "language": "English",
+ "backend": "groq",
+ "model": "whisper-large-v3-turbo",
+ "source_duration": 179.699229,
+ "chunk_count": 1,
+ "has_word_timings": true
+}
