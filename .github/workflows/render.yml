@@ -55,6 +55,13 @@ jobs:
           pip install -r requirements-download.txt
           pip install --upgrade "yt-dlp[default]"
 
+      - name: Install FFmpeg
+        # Not preinstalled on ubuntu-latest — see ingest.yml. Ubuntu's package
+        # is expected to carry libass/libfreetype; the next step verifies.
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+
       - name: Confirm FFmpeg has the filters rendering needs
         # Preinstalled on GitHub-hosted ubuntu images, but `ass`/`drawtext`
         # specifically need libass/libfreetype — a present `ffmpeg` binary

@@ -61,10 +61,33 @@ jobs:
           pip install -r requirements-transcribe.txt
           pip install --upgrade "yt-dlp[default]"
 
-      - name: Confirm FFmpeg is present
-        # Preinstalled on GitHub-hosted ubuntu images, but assert it rather
-        # than discover its absence halfway through a download.
-        run: ffmpeg -version | head -1
+      - name: Install FFmpeg
+        # NOT preinstalled on ubuntu-latest: `doctor` measured it missing on
+        # 2026-10-20. The old check (`ffmpeg -version | head -1`) passed anyway
+        # because a pipeline's exit status is head's, not ffmpeg's.
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          ffmpeg -version
+
+      - name: Write YouTube cookies
+        # Datacenter IPs trigger YouTube's bot-verification gate. Passing a
+        # Netscape-format cookie file from a real browser session (logged in to
+        # YouTube) bypasses it. Export the YOUTUBE_COOKIES secret as a file;
+        # downloader.py reads YOUTUBE_COOKIES_FILE and passes it to yt-dlp.
+        # If the secret is absent this step is a no-op and the download will
+        # fail with "Sign in to confirm" — add the secret to fix it.
+        # Before `doctor`, so doctor measures the same setup ingest uses.
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          if [ -n "$YOUTUBE_COOKIES" ]; then
+            echo "$YOUTUBE_COOKIES" > /tmp/yt-cookies.txt
+            echo "YOUTUBE_COOKIES_FILE=/tmp/yt-cookies.txt" >> "$GITHUB_ENV"
+            echo "Cookie file written."
+          else
+            echo "YOUTUBE_COOKIES secret not set — downloads will attempt without cookies."
+          fi
 
       - name: Check this runner can actually download
         # The decisive check. yt-dlp's ability to fetch bytes depends on the
@@ -76,24 +99,6 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python -m src.main doctor
-
-      - name: Write YouTube cookies
-        # Datacenter IPs trigger YouTube's bot-verification gate. Passing a
-        # Netscape-format cookie file from a real browser session (logged in to
-        # YouTube) bypasses it. Export the YOUTUBE_COOKIES secret as a file;
-        # downloader.py reads YOUTUBE_COOKIES_FILE and passes it to yt-dlp.
-        # If the secret is absent this step is a no-op and the download will
-        # fail with "Sign in to confirm" — add the secret to fix it.
-        env:
-          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
-        run: |
-          if [ -n "$YOUTUBE_COOKIES" ]; then
-            echo "$YOUTUBE_COOKIES" > /tmp/yt-cookies.txt
-            echo "YOUTUBE_COOKIES_FILE=/tmp/yt-cookies.txt" >> "$GITHUB_ENV"
-            echo "Cookie file written."
-          else
-            echo "YOUTUBE_COOKIES secret not set — downloads will attempt without cookies."
-          fi
 
       - name: Download and transcribe
         env:

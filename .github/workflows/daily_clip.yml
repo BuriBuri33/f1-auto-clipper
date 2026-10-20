@@ -77,6 +77,12 @@ jobs:
           pip install -r requirements-download.txt
           pip install --upgrade "yt-dlp[default]"
 
+      - name: Install FFmpeg
+        # Not preinstalled on ubuntu-latest — see ingest.yml.
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+
       - name: Confirm FFmpeg has the filters rendering needs
         # See render.yml / docs/LIMITS.md section 8a for why this is its own
         # check rather than trusting `ffmpeg -version`. Non-blocking: doctor
