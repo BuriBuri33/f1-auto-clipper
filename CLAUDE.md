@@ -221,8 +221,19 @@ docs/              LIMITS.md (verified figures), RIGHTS.md (boundaries)
   -version` succeeds either way; only `ffmpeg -filters` shows the gap. Same
   shape as the yt-dlp version lesson: verify the actual capability, not that
   the tool is on PATH. `video.ffmpeg.missing_required_filters()` and its own
-  `doctor` check exist because of this. See `docs/LIMITS.md` §8a — and that
-  section's note that this is still unconfirmed on an actual GitHub runner.
+  `doctor` check exist because of this. See `docs/LIMITS.md` §8a.
+  **Confirmed on a runner 2026-10-20, with two surprises:** ubuntu-latest
+  does NOT preinstall FFmpeg at all (workflows now `apt-get install` it, and
+  that package has every required filter), and its FFmpeg 6.1 prints
+  `-filters` with no `------` separator, which made the old parser read zero
+  filters. `parse_filter_names` now matches lines by shape.
+- **GitHub runners need cookies AND a JS runtime to download from YouTube.**
+  Without cookies every client answers "Sign in to confirm you're not a
+  bot". Cookies exported from a normal browser tab get rotated and die
+  within minutes; export from a private window, then close it (yt-dlp wiki,
+  "Exporting YouTube cookies"), and never from the channel-owning account —
+  yt-dlp warns the account can be banned. yt-dlp also needs Deno +
+  `yt-dlp[default]` (yt-dlp-ejs) to solve YouTube's JS challenges.
 - **A time-ranged re-download (`yt-dlp --download-sections`) 403s even
   through clients that complete a full download fine.** Measured 2026-10-10:
   the googlevideo URLs handed back for an external-seek fetch are evidently

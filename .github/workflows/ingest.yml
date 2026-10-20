@@ -69,11 +69,6 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
           ffmpeg -version
-          # doctor reported even `crop` missing on this image — record the raw
-          # listing so the parser can be checked against what it really saw.
-          echo "--- ffmpeg -filters (head) ---"
-          ffmpeg -hide_banner -filters 2>&1 | head -12 || true
-          ffmpeg -hide_banner -filters 2>&1 | grep -E " (ass|drawtext|overlay|crop|gblur) " || echo "none of the required filters listed"
 
       - name: Write YouTube cookies
         # Datacenter IPs trigger YouTube's bot-verification gate. Passing a

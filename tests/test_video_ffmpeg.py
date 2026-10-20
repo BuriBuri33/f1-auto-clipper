@@ -37,6 +37,34 @@ def test_parse_filter_names_ignores_the_legend_lines():
     assert "threading" not in names  # from ".S. = Slice threading"
 
 
+# Verbatim from ubuntu-latest's apt ffmpeg 6.1.1-3ubuntu5, 2026-10-20: no
+# "------" separator, and a third flag column (C). The old parser read zero
+# filters from this and reported every required filter missing.
+UBUNTU_6_1_FILTERS_OUTPUT = """Filters:
+  T.. = Timeline support
+  .S. = Slice threading
+  ..C = Command support
+  A = Audio input/output
+  V = Video input/output
+  N = Dynamic number and/or type of input/output
+  | = Source or sink filter
+ ... abench            A->A       Benchmark part of a filtergraph.
+ ..C acompressor       A->A       Audio compressor.
+ ... ass               V->V       Render ASS subtitles onto input video using the libass library.
+ ..C crop              V->V       Crop the input video.
+ T.C cropdetect        V->V       Auto-detect crop size.
+ T.C drawtext          V->V       Draw text on top of video frames using libfreetype library.
+ TSC gblur             V->V       Apply Gaussian Blur filter.
+ TSC overlay           VV->V      Overlay a video source on top of the input.
+"""
+
+
+def test_parse_filter_names_reads_ffmpeg_6_1_output_with_no_separator():
+    names = ffmpeg.parse_filter_names(UBUNTU_6_1_FILTERS_OUTPUT)
+    assert {"ass", "crop", "drawtext", "gblur", "overlay"} <= names
+    assert "=" not in names and "support" not in names
+
+
 def test_parse_filter_names_on_empty_input():
     assert ffmpeg.parse_filter_names("") == set()
 

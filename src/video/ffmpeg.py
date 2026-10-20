@@ -11,6 +11,7 @@ a real build before anything here relied on it — see docs/LIMITS.md section
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -71,25 +72,30 @@ def parse_filter_names(listing: str) -> Set[str]:
     """Parse ``ffmpeg -filters`` output into a set of filter names.
 
     Pulled out as a pure function so the parsing itself is testable without
-    an FFmpeg binary. Format, per line after the "------" separator::
+    an FFmpeg binary. A filter line looks like::
 
-        TS overlay           VV->V      Overlay a video source...
+        TSC overlay           VV->V      Overlay a video source...
 
-    where the first field is a 2-3 character flag combination (T/S/.) and
-    the second is the filter name.
+    — a 2-3 character flag field (T/S/C/.), then the name. Lines are matched
+    by that shape rather than by position after a "------" separator,
+    because Ubuntu 24.04's FFmpeg 6.1 prints no separator at all (measured
+    on a GitHub runner 2026-10-20): keying on it read zero filters there and
+    reported even `crop` as missing. Legend lines ("T.. = Timeline support")
+    share the flag shape but have "=" as their second field.
     """
     names: Set[str] = set()
-    past_header = False
     for line in listing.splitlines():
-        if line.strip().startswith("---"):
-            past_header = True
-            continue
-        if not past_header:
-            continue
         parts = line.split()
-        if len(parts) >= 2:
+        if (
+            len(parts) >= 3
+            and _FLAG_FIELD.fullmatch(parts[0])
+            and parts[1] != "="
+        ):
             names.add(parts[1])
     return names
+
+
+_FLAG_FIELD = re.compile(r"[TSC.]{2,3}")
 
 
 def missing_required_filters() -> List[str]:
