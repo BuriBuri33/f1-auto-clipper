@@ -271,6 +271,21 @@ def run_publish(
         log.error("publish environment check failed", fields={"missing_filters": missing})
         return result
 
+    # Rendering consumes a clip (RENDERED is history, never reset), so with no
+    # platform able to post, rendering anyway would burn one candidate per
+    # scheduled run and mark the video FAILED for a reason that has nothing to
+    # do with it. Leave everything queued instead.
+    has_creds = {"youtube": youtube_creds is not None, "instagram": instagram_creds is not None}
+    if not any(bool(pub_cfg.get(p, False)) and has_creds.get(p, False)
+               for p in IMPLEMENTED_PLATFORMS):
+        result.environment_error = (
+            "no enabled publishing platform has credentials — nothing was "
+            "rendered or published, and every candidate stays queued. Set the "
+            "YOUTUBE_* or META_ACCESS_TOKEN/INSTAGRAM_ACCOUNT_ID secrets."
+        )
+        log.error("publish skipped: no platform credentials")
+        return result
+
     max_videos_per_run = int(pub_cfg.get("max_videos_per_run", 1))
     max_retries = int(pub_cfg.get("max_retries", 3))
     new_slots = max(0, max_per_day - published_today)

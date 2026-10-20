@@ -326,6 +326,33 @@ def test_a_clip_already_published_today_on_one_platform_can_still_finish_another
 # --- environment pre-check -------------------------------------------------
 
 
+def test_no_platform_credentials_renders_nothing_and_consumes_no_clip(conn, tmp_path, monkeypatch):
+    vid = seed_analyzed(conn)
+    clip_id = _insert_candidate(conn, vid)
+    install_render_fake(monkeypatch, clip_id)
+
+    result = run(conn, tmp_path, youtube_creds=None, instagram_creds=None)
+
+    assert result.environment_error is not None
+    assert result.outcomes == []
+    assert db.get_clip(conn, clip_id)["status"] == "CANDIDATE"
+    video_row = db.get_video(conn, "VID1")
+    assert video_row["status"] == "ANALYZED"
+    assert video_row["retry_count"] == 0
+
+
+def test_credentials_only_for_a_disabled_platform_still_render_nothing(conn, tmp_path, monkeypatch):
+    vid = seed_analyzed(conn)
+    clip_id = _insert_candidate(conn, vid)
+    install_render_fake(monkeypatch, clip_id)
+
+    result = run(conn, tmp_path, config=make_config(youtube=False),
+                 youtube_creds=youtube_creds(), instagram_creds=None)
+
+    assert result.environment_error is not None
+    assert db.get_clip(conn, clip_id)["status"] == "CANDIDATE"
+
+
 def test_run_publish_refuses_when_filters_are_missing(conn, tmp_path, monkeypatch):
     monkeypatch.setattr(publish_runner.video_ffmpeg, "missing_required_filters",
                         lambda: ["ass", "drawtext"])
