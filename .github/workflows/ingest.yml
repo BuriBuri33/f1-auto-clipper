@@ -47,6 +47,11 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      # yt-dlp must solve YouTube's JS challenges with an external runtime;
+      # Deno is the one it enables by default. Without it yt-dlp warns that
+      # "some formats may be missing". https://github.com/yt-dlp/yt-dlp/wiki/EJS
+      - uses: denoland/setup-deno@v2
+
       - name: Install dependencies
         # --upgrade matters: YouTube breaks extraction and only a newer
         # yt-dlp release fixes it, and a cached old wheel is exactly the
@@ -54,7 +59,7 @@ jobs:
         # like an IP block — see docs/LIMITS.md section 7.
         run: |
           pip install -r requirements-transcribe.txt
-          pip install --upgrade yt-dlp
+          pip install --upgrade "yt-dlp[default]"
 
       - name: Confirm FFmpeg is present
         # Preinstalled on GitHub-hosted ubuntu images, but assert it rather

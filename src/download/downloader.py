@@ -34,7 +34,7 @@ from typing import Any, Dict, List, Optional, Sequence
 # default is used when it works; the rest are the fallbacks that were observed
 # to behave differently. Overridable via config, because this list is the part
 # most likely to need changing without a code release.
-DEFAULT_PLAYER_CLIENTS = ("android_vr", "default", "tv", "web_safari", "mweb", "ios")
+DEFAULT_PLAYER_CLIENTS = ("default", "android_vr", "tv", "web_safari", "mweb", "ios")
 
 # Errors that mean "this client is broken right now", as opposed to "this
 # video cannot be downloaded at all". Only the former justifies trying the
@@ -203,11 +203,7 @@ def _base_opts(player_client: str) -> Dict[str, Any]:
     # Set YOUTUBE_COOKIES_FILE to the path of that file; the workflow writes
     # the YOUTUBE_COOKIES secret to /tmp/yt-cookies.txt and exports the var.
     cookie_path = os.environ.get("YOUTUBE_COOKIES_FILE", "").strip()
-    if cookie_path and player_client != "android_vr":
-        # android_vr bypasses bot-detection without auth and its format
-        # availability breaks when a logged-in cookie file is supplied —
-        # verified 2026-10-20: passing cookies caused "Requested format is
-        # not available" on a client that fetched successfully without them.
+    if cookie_path:
         opts["cookiefile"] = cookie_path
     if player_client != "default":
         opts["extractor_args"] = {"youtube": {"player_client": [player_client]}}

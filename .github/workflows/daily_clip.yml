@@ -69,10 +69,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      # JS runtime for yt-dlp's YouTube challenge solving — see ingest.yml.
+      - uses: denoland/setup-deno@v2
+
       - name: Install dependencies
         run: |
           pip install -r requirements-download.txt
-          pip install --upgrade yt-dlp
+          pip install --upgrade "yt-dlp[default]"
 
       - name: Confirm FFmpeg has the filters rendering needs
         # See render.yml / docs/LIMITS.md section 8a for why this is its own
@@ -82,6 +85,18 @@ jobs:
         run: |
           ffmpeg -version | head -1
           python -m src.main doctor --no-download
+
+      - name: Write YouTube cookies
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          if [ -n "$YOUTUBE_COOKIES" ]; then
+            echo "$YOUTUBE_COOKIES" > /tmp/yt-cookies.txt
+            echo "YOUTUBE_COOKIES_FILE=/tmp/yt-cookies.txt" >> "$GITHUB_ENV"
+            echo "Cookie file written."
+          else
+            echo "YOUTUBE_COOKIES secret not set — downloads will attempt without cookies."
+          fi
 
       - name: Render and publish
         env:

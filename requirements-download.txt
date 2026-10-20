@@ -20,7 +20,11 @@
 #
 # Never pin an exact version: YouTube breaks extraction continuously and only
 # a newer release fixes it.
-yt-dlp>=2026.8.19
+# [default] pulls in yt-dlp-ejs, the YouTube JS-challenge solver. It also
+# needs a JS runtime on PATH (Deno by default; workflows install it). Without
+# one yt-dlp warns "some formats may be missing" — see
+# https://github.com/yt-dlp/yt-dlp/wiki/EJS
+yt-dlp[default]>=2026.8.19
 
 # Also required at runtime, NOT a pip package:
 #   FFmpeg  — YouTube serves one progressive format (360p), so anything

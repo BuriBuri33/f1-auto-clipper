@@ -47,10 +47,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      # JS runtime for yt-dlp's YouTube challenge solving — see ingest.yml.
+      - uses: denoland/setup-deno@v2
+
       - name: Install dependencies
         run: |
           pip install -r requirements-download.txt
-          pip install --upgrade yt-dlp
+          pip install --upgrade "yt-dlp[default]"
 
       - name: Confirm FFmpeg has the filters rendering needs
         # Preinstalled on GitHub-hosted ubuntu images, but `ass`/`drawtext`
