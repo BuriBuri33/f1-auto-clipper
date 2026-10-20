@@ -1,0 +1,9963 @@
+{
+ "segments": [
+  {
+   "start": 10.28,
+   "end": 11.84,
+   "text": "The walls are closing in.",
+   "words": [
+    {
+     "start": 10.28,
+     "end": 10.34,
+     "text": "The"
+    },
+    {
+     "start": 10.34,
+     "end": 10.7,
+     "text": "walls"
+    },
+    {
+     "start": 10.7,
+     "end": 10.94,
+     "text": "are"
+    },
+    {
+     "start": 10.94,
+     "end": 11.28,
+     "text": "closing"
+    },
+    {
+     "start": 11.28,
+     "end": 11.84,
+     "text": "in."
+    }
+   ]
+  },
+  {
+   "start": 12.26,
+   "end": 18.6,
+   "text": "Whilst it may be easier for us to now begin verifying the many astonishing works of this now lost builder,",
+   "words": [
+    {
+     "start": 12.26,
+     "end": 12.52,
+     "text": "Whilst"
+    },
+    {
+     "start": 12.52,
+     "end": 12.76,
+     "text": "it"
+    },
+    {
+     "start": 12.76,
+     "end": 12.94,
+     "text": "may"
+    },
+    {
+     "start": 12.94,
+     "end": 13.08,
+     "text": "be"
+    },
+    {
+     "start": 13.08,
+     "end": 13.48,
+     "text": "easier"
+    },
+    {
+     "start": 13.48,
+     "end": 13.78,
+     "text": "for"
+    },
+    {
+     "start": 13.78,
+     "end": 14.04,
+     "text": "us"
+    },
+    {
+     "start": 14.04,
+     "end": 14.2,
+     "text": "to"
+    },
+    {
+     "start": 14.2,
+     "end": 14.42,
+     "text": "now"
+    },
+    {
+     "start": 14.42,
+     "end": 14.78,
+     "text": "begin"
+    },
+    {
+     "start": 14.78,
+     "end": 15.46,
+     "text": "verifying"
+    },
+    {
+     "start": 15.46,
+     "end": 15.72,
+     "text": "the"
+    },
+    {
+     "start": 15.72,
+     "end": 15.96,
+     "text": "many"
+    },
+    {
+     "start": 15.96,
+     "end": 16.52,
+     "text": "astonishing"
+    },
+    {
+     "start": 16.52,
+     "end": 17.02,
+     "text": "works"
+    },
+    {
+     "start": 17.02,
+     "end": 17.26,
+     "text": "of"
+    },
+    {
+     "start": 17.26,
+     "end": 17.42,
+     "text": "this"
+    },
+    {
+     "start": 17.42,
+     "end": 17.66,
+     "text": "now"
+    },
+    {
+     "start": 17.66,
+     "end": 17.98,
+     "text": "lost"
+    },
+    {
+     "start": 17.98,
+     "end": 18.6,
+     "text": "builder,"
+    }
+   ]
+  },
+  {
+   "start": 19.06,
+   "end": 22.98,
+   "text": "by utilizing these many features and signatures as a guide,",
+   "words": [
+    {
+     "start": 19.06,
+     "end": 19.22,
+     "text": "by"
+    },
+    {
+     "start": 19.22,
+     "end": 19.78,
+     "text": "utilizing"
+    },
+    {
+     "start": 19.78,
+     "end": 20.12,
+     "text": "these"
+    },
+    {
+     "start": 20.12,
+     "end": 20.4,
+     "text": "many"
+    },
+    {
+     "start": 20.4,
+     "end": 20.82,
+     "text": "features"
+    },
+    {
+     "start": 20.82,
+     "end": 21.28,
+     "text": "and"
+    },
+    {
+     "start": 21.28,
+     "end": 21.72,
+     "text": "signatures"
+    },
+    {
+     "start": 21.72,
+     "end": 22.16,
+     "text": "as"
+    },
+    {
+     "start": 22.16,
+     "end": 22.28,
+     "text": "a"
+    },
+    {
+     "start": 22.28,
+     "end": 22.98,
+     "text": "guide,"
+    }
+   ]
+  },
+  {
+   "start": 23.38,
+   "end": 27.64,
+   "text": "another area of this simply vast array of up until now,",
+   "words": [
+    {
+     "start": 23.38,
+     "end": 23.74,
+     "text": "another"
+    },
+    {
+     "start": 23.74,
+     "end": 24.18,
+     "text": "area"
+    },
+    {
+     "start": 24.18,
+     "end": 24.5,
+     "text": "of"
+    },
+    {
+     "start": 24.5,
+     "end": 24.64,
+     "text": "this"
+    },
+    {
+     "start": 24.64,
+     "end": 24.98,
+     "text": "simply"
+    },
+    {
+     "start": 24.98,
+     "end": 25.58,
+     "text": "vast"
+    },
+    {
+     "start": 25.58,
+     "end": 26.0,
+     "text": "array"
+    },
+    {
+     "start": 26.0,
+     "end": 26.6,
+     "text": "of"
+    },
+    {
+     "start": 26.6,
+     "end": 26.86,
+     "text": "up"
+    },
+    {
+     "start": 26.86,
+     "end": 27.1,
+     "text": "until"
+    },
+    {
+     "start": 27.1,
+     "end": 27.64,
+     "text": "now,"
+    }
+   ]
+  },
+  {
+   "start": 28.22,
+   "end": 30.62,
+   "text": "completely unexplained anomalies,",
+   "words": [
+    {
+     "start": 28.22,
+     "end": 28.7,
+     "text": "completely"
+    },
+    {
+     "start": 28.7,
+     "end": 29.58,
+     "text": "unexplained"
+    },
+    {
+     "start": 29.58,
+     "end": 30.62,
+     "text": "anomalies,"
+    }
+   ]
+  },
+  {
+   "start": 31.12,
+   "end": 34.24,
+   "text": "and one which I personally find of great intrigue.",
+   "words": [
+    {
+     "start": 31.12,
+     "end": 31.28,
+     "text": "and"
+    },
+    {
+     "start": 31.28,
+     "end": 31.52,
+     "text": "one"
+    },
+    {
+     "start": 31.52,
+     "end": 31.76,
+     "text": "which"
+    },
+    {
+     "start": 31.76,
+     "end": 31.9,
+     "text": "I"
+    },
+    {
+     "start": 31.9,
+     "end": 32.36,
+     "text": "personally"
+    },
+    {
+     "start": 32.36,
+     "end": 32.88,
+     "text": "find"
+    },
+    {
+     "start": 32.88,
+     "end": 33.06,
+     "text": "of"
+    },
+    {
+     "start": 33.06,
+     "end": 33.42,
+     "text": "great"
+    },
+    {
+     "start": 33.42,
+     "end": 34.24,
+     "text": "intrigue."
+    }
+   ]
+  },
+  {
+   "start": 35.12,
+   "end": 37.02,
+   "text": "A collection of pre-flood relics,",
+   "words": [
+    {
+     "start": 35.12,
+     "end": 35.28,
+     "text": "A"
+    },
+    {
+     "start": 35.28,
+     "end": 35.66,
+     "text": "collection"
+    },
+    {
+     "start": 35.66,
+     "end": 35.9,
+     "text": "of"
+    },
+    {
+     "start": 35.9,
+     "end": 36.42,
+     "text": "pre-flood"
+    },
+    {
+     "start": 36.42,
+     "end": 37.02,
+     "text": "relics,"
+    }
+   ]
+  },
+  {
+   "start": 37.4,
+   "end": 40.42,
+   "text": "quite clearly once designed to survive the cataclysm,",
+   "words": [
+    {
+     "start": 37.4,
+     "end": 37.6,
+     "text": "quite"
+    },
+    {
+     "start": 37.6,
+     "end": 37.96,
+     "text": "clearly"
+    },
+    {
+     "start": 37.96,
+     "end": 38.32,
+     "text": "once"
+    },
+    {
+     "start": 38.32,
+     "end": 38.68,
+     "text": "designed"
+    },
+    {
+     "start": 38.68,
+     "end": 39.08,
+     "text": "to"
+    },
+    {
+     "start": 39.08,
+     "end": 39.4,
+     "text": "survive"
+    },
+    {
+     "start": 39.4,
+     "end": 39.66,
+     "text": "the"
+    },
+    {
+     "start": 39.66,
+     "end": 40.42,
+     "text": "cataclysm,"
+    }
+   ]
+  },
+  {
+   "start": 41.08,
+   "end": 44.6,
+   "text": "that being, of course, the pre-flood walls.",
+   "words": [
+    {
+     "start": 41.08,
+     "end": 41.28,
+     "text": "that"
+    },
+    {
+     "start": 41.28,
+     "end": 41.8,
+     "text": "being,"
+    },
+    {
+     "start": 41.8,
+     "end": 42.16,
+     "text": "of"
+    },
+    {
+     "start": 42.16,
+     "end": 42.46,
+     "text": "course,"
+    },
+    {
+     "start": 42.46,
+     "end": 43.62,
+     "text": "the"
+    },
+    {
+     "start": 43.62,
+     "end": 44.14,
+     "text": "pre-flood"
+    },
+    {
+     "start": 44.14,
+     "end": 44.6,
+     "text": "walls."
+    }
+   ]
+  },
+  {
+   "start": 45.96,
+   "end": 49.16,
+   "text": "For, although what they were once protecting may",
+   "words": [
+    {
+     "start": 45.96,
+     "end": 46.5,
+     "text": "For,"
+    },
+    {
+     "start": 46.5,
+     "end": 46.78,
+     "text": "although"
+    },
+    {
+     "start": 46.78,
+     "end": 47.4,
+     "text": "what"
+    },
+    {
+     "start": 47.4,
+     "end": 47.56,
+     "text": "they"
+    },
+    {
+     "start": 47.56,
+     "end": 47.78,
+     "text": "were"
+    },
+    {
+     "start": 47.78,
+     "end": 48.06,
+     "text": "once"
+    },
+    {
+     "start": 48.06,
+     "end": 48.6,
+     "text": "protecting"
+    },
+    {
+     "start": 48.22,
+     "end": 49.16,
+     "text": "may"
+    }
+   ]
+  },
+  {
+   "start": 49.16,
+   "end": 50.96,
+   "text": "have now all but eroded away,",
+   "words": [
+    {
+     "start": 49.16,
+     "end": 49.3,
+     "text": "have"
+    },
+    {
+     "start": 49.3,
+     "end": 49.6,
+     "text": "now"
+    },
+    {
+     "start": 49.6,
+     "end": 49.96,
+     "text": "all"
+    },
+    {
+     "start": 49.96,
+     "end": 50.14,
+     "text": "but"
+    },
+    {
+     "start": 50.14,
+     "end": 50.52,
+     "text": "eroded"
+    },
+    {
+     "start": 50.52,
+     "end": 50.96,
+     "text": "away,"
+    }
+   ]
+  },
+  {
+   "start": 51.84,
+   "end": 55.54,
+   "text": "the walls themselves have remained stubbornly standing,",
+   "words": [
+    {
+     "start": 51.84,
+     "end": 52.0,
+     "text": "the"
+    },
+    {
+     "start": 52.0,
+     "end": 52.32,
+     "text": "walls"
+    },
+    {
+     "start": 52.32,
+     "end": 52.76,
+     "text": "themselves"
+    },
+    {
+     "start": 52.76,
+     "end": 53.36,
+     "text": "have"
+    },
+    {
+     "start": 53.36,
+     "end": 53.76,
+     "text": "remained"
+    },
+    {
+     "start": 53.76,
+     "end": 54.6,
+     "text": "stubbornly"
+    },
+    {
+     "start": 54.6,
+     "end": 55.54,
+     "text": "standing,"
+    }
+   ]
+  },
+  {
+   "start": 56.04,
+   "end": 60.26,
+   "text": "each a testament to their past effectiveness as fortifications,",
+   "words": [
+    {
+     "start": 56.04,
+     "end": 56.34,
+     "text": "each"
+    },
+    {
+     "start": 56.34,
+     "end": 56.64,
+     "text": "a"
+    },
+    {
+     "start": 56.64,
+     "end": 57.0,
+     "text": "testament"
+    },
+    {
+     "start": 57.0,
+     "end": 57.54,
+     "text": "to"
+    },
+    {
+     "start": 57.54,
+     "end": 57.66,
+     "text": "their"
+    },
+    {
+     "start": 57.66,
+     "end": 58.16,
+     "text": "past"
+    },
+    {
+     "start": 58.16,
+     "end": 58.76,
+     "text": "effectiveness"
+    },
+    {
+     "start": 58.76,
+     "end": 59.46,
+     "text": "as"
+    },
+    {
+     "start": 59.46,
+     "end": 60.26,
+     "text": "fortifications,"
+    }
+   ]
+  },
+  {
+   "start": 61.16,
+   "end": 63.4,
+   "text": "with them all being even more evidence,",
+   "words": [
+    {
+     "start": 61.16,
+     "end": 61.3,
+     "text": "with"
+    },
+    {
+     "start": 61.3,
+     "end": 61.5,
+     "text": "them"
+    },
+    {
+     "start": 61.5,
+     "end": 61.76,
+     "text": "all"
+    },
+    {
+     "start": 61.76,
+     "end": 62.1,
+     "text": "being"
+    },
+    {
+     "start": 62.1,
+     "end": 62.4,
+     "text": "even"
+    },
+    {
+     "start": 62.4,
+     "end": 62.86,
+     "text": "more"
+    },
+    {
+     "start": 62.86,
+     "end": 63.4,
+     "text": "evidence,"
+    }
+   ]
+  },
+  {
+   "start": 64.14,
+   "end": 66.54,
+   "text": "and yet another set of identifiable features,",
+   "words": [
+    {
+     "start": 64.14,
+     "end": 64.34,
+     "text": "and"
+    },
+    {
+     "start": 64.34,
+     "end": 64.5,
+     "text": "yet"
+    },
+    {
+     "start": 64.5,
+     "end": 64.9,
+     "text": "another"
+    },
+    {
+     "start": 64.9,
+     "end": 65.22,
+     "text": "set"
+    },
+    {
+     "start": 65.22,
+     "end": 65.42,
+     "text": "of"
+    },
+    {
+     "start": 65.42,
+     "end": 66.06,
+     "text": "identifiable"
+    },
+    {
+     "start": 66.06,
+     "end": 66.54,
+     "text": "features,"
+    }
+   ]
+  },
+  {
+   "start": 67.28,
+   "end": 71.92,
+   "text": "we can also begin to utilize in our quest to find and fully expose",
+   "words": [
+    {
+     "start": 67.28,
+     "end": 67.38,
+     "text": "we"
+    },
+    {
+     "start": 67.38,
+     "end": 67.52,
+     "text": "can"
+    },
+    {
+     "start": 67.52,
+     "end": 67.8,
+     "text": "also"
+    },
+    {
+     "start": 67.8,
+     "end": 68.16,
+     "text": "begin"
+    },
+    {
+     "start": 68.16,
+     "end": 68.44,
+     "text": "to"
+    },
+    {
+     "start": 68.44,
+     "end": 68.76,
+     "text": "utilize"
+    },
+    {
+     "start": 68.76,
+     "end": 69.22,
+     "text": "in"
+    },
+    {
+     "start": 69.22,
+     "end": 69.32,
+     "text": "our"
+    },
+    {
+     "start": 69.32,
+     "end": 69.76,
+     "text": "quest"
+    },
+    {
+     "start": 69.76,
+     "end": 70.1,
+     "text": "to"
+    },
+    {
+     "start": 70.1,
+     "end": 70.56,
+     "text": "find"
+    },
+    {
+     "start": 70.56,
+     "end": 71.12,
+     "text": "and"
+    },
+    {
+     "start": 71.12,
+     "end": 71.46,
+     "text": "fully"
+    },
+    {
+     "start": 71.46,
+     "end": 71.92,
+     "text": "expose"
+    }
+   ]
+  },
+  {
+   "start": 72.02,
+   "end": 76.14,
+   "text": "the many worldwide works of this now lost tribe.",
+   "words": [
+    {
+     "start": 72.02,
+     "end": 73.0,
+     "text": "the"
+    },
+    {
+     "start": 73.0,
+     "end": 73.28,
+     "text": "many"
+    },
+    {
+     "start": 73.28,
+     "end": 73.82,
+     "text": "worldwide"
+    },
+    {
+     "start": 73.82,
+     "end": 74.4,
+     "text": "works"
+    },
+    {
+     "start": 74.4,
+     "end": 74.88,
+     "text": "of"
+    },
+    {
+     "start": 74.88,
+     "end": 75.04,
+     "text": "this"
+    },
+    {
+     "start": 75.04,
+     "end": 75.26,
+     "text": "now"
+    },
+    {
+     "start": 75.26,
+     "end": 75.64,
+     "text": "lost"
+    },
+    {
+     "start": 75.64,
+     "end": 76.14,
+     "text": "tribe."
+    }
+   ]
+  },
+  {
+   "start": 77.14,
+   "end": 82.52,
+   "text": "The Nyx Wall within Greece is but one among countless examples",
+   "words": [
+    {
+     "start": 77.14,
+     "end": 77.36,
+     "text": "The"
+    },
+    {
+     "start": 77.36,
+     "end": 77.66,
+     "text": "Nyx"
+    },
+    {
+     "start": 77.66,
+     "end": 78.14,
+     "text": "Wall"
+    },
+    {
+     "start": 78.14,
+     "end": 78.86,
+     "text": "within"
+    },
+    {
+     "start": 78.86,
+     "end": 79.26,
+     "text": "Greece"
+    },
+    {
+     "start": 79.26,
+     "end": 80.18,
+     "text": "is"
+    },
+    {
+     "start": 80.18,
+     "end": 80.36,
+     "text": "but"
+    },
+    {
+     "start": 80.36,
+     "end": 80.86,
+     "text": "one"
+    },
+    {
+     "start": 80.86,
+     "end": 81.36,
+     "text": "among"
+    },
+    {
+     "start": 81.36,
+     "end": 81.88,
+     "text": "countless"
+    },
+    {
+     "start": 81.88,
+     "end": 82.52,
+     "text": "examples"
+    }
+   ]
+  },
+  {
+   "start": 82.6,
+   "end": 85.04,
+   "text": "of these still surviving relics,",
+   "words": [
+    {
+     "start": 82.6,
+     "end": 82.88,
+     "text": "of"
+    },
+    {
+     "start": 82.88,
+     "end": 83.06,
+     "text": "these"
+    },
+    {
+     "start": 83.06,
+     "end": 83.44,
+     "text": "still"
+    },
+    {
+     "start": 83.44,
+     "end": 84.06,
+     "text": "surviving"
+    },
+    {
+     "start": 84.06,
+     "end": 85.04,
+     "text": "relics,"
+    }
+   ]
+  },
+  {
+   "start": 85.32,
+   "end": 88.5,
+   "text": "each once made of blocks many tons in weight,",
+   "words": [
+    {
+     "start": 85.32,
+     "end": 85.54,
+     "text": "each"
+    },
+    {
+     "start": 85.54,
+     "end": 85.82,
+     "text": "once"
+    },
+    {
+     "start": 85.82,
+     "end": 86.16,
+     "text": "made"
+    },
+    {
+     "start": 86.16,
+     "end": 86.38,
+     "text": "of"
+    },
+    {
+     "start": 86.38,
+     "end": 86.8,
+     "text": "blocks"
+    },
+    {
+     "start": 86.8,
+     "end": 87.14,
+     "text": "many"
+    },
+    {
+     "start": 87.14,
+     "end": 87.54,
+     "text": "tons"
+    },
+    {
+     "start": 87.54,
+     "end": 87.94,
+     "text": "in"
+    },
+    {
+     "start": 87.94,
+     "end": 88.5,
+     "text": "weight,"
+    }
+   ]
+  },
+  {
+   "start": 88.9,
+   "end": 90.46,
+   "text": "which in style and form,",
+   "words": [
+    {
+     "start": 88.9,
+     "end": 89.1,
+     "text": "which"
+    },
+    {
+     "start": 89.1,
+     "end": 89.24,
+     "text": "in"
+    },
+    {
+     "start": 89.24,
+     "end": 89.6,
+     "text": "style"
+    },
+    {
+     "start": 89.6,
+     "end": 89.84,
+     "text": "and"
+    },
+    {
+     "start": 89.84,
+     "end": 90.46,
+     "text": "form,"
+    }
+   ]
+  },
+  {
+   "start": 91.28,
+   "end": 93.86,
+   "text": "uncannily similar to thousands of others",
+   "words": [
+    {
+     "start": 91.28,
+     "end": 92.04,
+     "text": "uncannily"
+    },
+    {
+     "start": 92.04,
+     "end": 92.44,
+     "text": "similar"
+    },
+    {
+     "start": 92.44,
+     "end": 92.74,
+     "text": "to"
+    },
+    {
+     "start": 92.74,
+     "end": 93.24,
+     "text": "thousands"
+    },
+    {
+     "start": 93.24,
+     "end": 93.56,
+     "text": "of"
+    },
+    {
+     "start": 93.56,
+     "end": 93.86,
+     "text": "others"
+    }
+   ]
+  },
+  {
+   "start": 93.44,
+   "end": 97.34,
+   "text": "still to be found quietly dotting our earth.",
+   "words": [
+    {
+     "start": 93.44,
+     "end": 94.46,
+     "text": "still"
+    },
+    {
+     "start": 94.46,
+     "end": 94.72,
+     "text": "to"
+    },
+    {
+     "start": 94.72,
+     "end": 94.84,
+     "text": "be"
+    },
+    {
+     "start": 94.84,
+     "end": 95.24,
+     "text": "found"
+    },
+    {
+     "start": 95.24,
+     "end": 96.22,
+     "text": "quietly"
+    },
+    {
+     "start": 96.22,
+     "end": 96.74,
+     "text": "dotting"
+    },
+    {
+     "start": 96.74,
+     "end": 96.94,
+     "text": "our"
+    },
+    {
+     "start": 96.94,
+     "end": 97.34,
+     "text": "earth."
+    }
+   ]
+  },
+  {
+   "start": 98.46,
+   "end": 100.66,
+   "text": "Most notably within Montana,",
+   "words": [
+    {
+     "start": 98.46,
+     "end": 98.74,
+     "text": "Most"
+    },
+    {
+     "start": 98.74,
+     "end": 99.16,
+     "text": "notably"
+    },
+    {
+     "start": 99.16,
+     "end": 99.74,
+     "text": "within"
+    },
+    {
+     "start": 99.74,
+     "end": 100.66,
+     "text": "Montana,"
+    }
+   ]
+  },
+  {
+   "start": 100.98,
+   "end": 103.28,
+   "text": "sites which I have personally experienced",
+   "words": [
+    {
+     "start": 100.98,
+     "end": 101.22,
+     "text": "sites"
+    },
+    {
+     "start": 101.22,
+     "end": 101.44,
+     "text": "which"
+    },
+    {
+     "start": 101.44,
+     "end": 101.72,
+     "text": "I"
+    },
+    {
+     "start": 101.72,
+     "end": 101.9,
+     "text": "have"
+    },
+    {
+     "start": 101.9,
+     "end": 102.36,
+     "text": "personally"
+    },
+    {
+     "start": 102.36,
+     "end": 103.28,
+     "text": "experienced"
+    }
+   ]
+  },
+  {
+   "start": 102.98,
+   "end": 105.58,
+   "text": "considerable academic hostilities",
+   "words": [
+    {
+     "start": 102.98,
+     "end": 104.2,
+     "text": "considerable"
+    },
+    {
+     "start": 104.2,
+     "end": 104.9,
+     "text": "academic"
+    },
+    {
+     "start": 104.9,
+     "end": 105.58,
+     "text": "hostilities"
+    }
+   ]
+  },
+  {
+   "start": 105.16,
+   "end": 108.46,
+   "text": "when independently investigating,",
+   "words": [
+    {
+     "start": 105.16,
+     "end": 106.42,
+     "text": "when"
+    },
+    {
+     "start": 106.42,
+     "end": 107.02,
+     "text": "independently"
+    },
+    {
+     "start": 107.02,
+     "end": 108.46,
+     "text": "investigating,"
+    }
+   ]
+  },
+  {
+   "start": 108.54,
+   "end": 111.2,
+   "text": "exploring, and exposing them to the world.",
+   "words": [
+    {
+     "start": 108.54,
+     "end": 109.06,
+     "text": "exploring,"
+    },
+    {
+     "start": 109.06,
+     "end": 109.52,
+     "text": "and"
+    },
+    {
+     "start": 109.52,
+     "end": 110.04,
+     "text": "exposing"
+    },
+    {
+     "start": 110.04,
+     "end": 110.36,
+     "text": "them"
+    },
+    {
+     "start": 110.36,
+     "end": 110.56,
+     "text": "to"
+    },
+    {
+     "start": 110.56,
+     "end": 110.66,
+     "text": "the"
+    },
+    {
+     "start": 110.66,
+     "end": 111.2,
+     "text": "world."
+    }
+   ]
+  },
+  {
+   "start": 112.58,
+   "end": 120.92,
+   "text": "With the Nyx wall, although appearing to many, as once having been roughly made, with stones that were crudely cut, the",
+   "words": [
+    {
+     "start": 112.58,
+     "end": 112.74,
+     "text": "With"
+    },
+    {
+     "start": 112.74,
+     "end": 112.92,
+     "text": "the"
+    },
+    {
+     "start": 112.92,
+     "end": 113.16,
+     "text": "Nyx"
+    },
+    {
+     "start": 113.16,
+     "end": 114.2,
+     "text": "wall,"
+    },
+    {
+     "start": 114.2,
+     "end": 114.48,
+     "text": "although"
+    },
+    {
+     "start": 114.48,
+     "end": 114.9,
+     "text": "appearing"
+    },
+    {
+     "start": 114.9,
+     "end": 115.14,
+     "text": "to"
+    },
+    {
+     "start": 115.14,
+     "end": 115.7,
+     "text": "many,"
+    },
+    {
+     "start": 115.7,
+     "end": 116.1,
+     "text": "as"
+    },
+    {
+     "start": 116.1,
+     "end": 116.36,
+     "text": "once"
+    },
+    {
+     "start": 116.36,
+     "end": 116.68,
+     "text": "having"
+    },
+    {
+     "start": 116.68,
+     "end": 116.92,
+     "text": "been"
+    },
+    {
+     "start": 116.92,
+     "end": 117.3,
+     "text": "roughly"
+    },
+    {
+     "start": 117.3,
+     "end": 118.04,
+     "text": "made,"
+    },
+    {
+     "start": 118.04,
+     "end": 118.4,
+     "text": "with"
+    },
+    {
+     "start": 118.4,
+     "end": 118.74,
+     "text": "stones"
+    },
+    {
+     "start": 118.74,
+     "end": 119.14,
+     "text": "that"
+    },
+    {
+     "start": 119.14,
+     "end": 119.24,
+     "text": "were"
+    },
+    {
+     "start": 119.24,
+     "end": 119.76,
+     "text": "crudely"
+    },
+    {
+     "start": 119.76,
+     "end": 120.42,
+     "text": "cut,"
+    },
+    {
+     "start": 120.42,
+     "end": 120.92,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "start": 120.92,
+   "end": 129.4,
+   "text": "precision exhibited within the shaping of its many blocks connecting sides, along with their masterful placement of each, all",
+   "words": [
+    {
+     "start": 120.92,
+     "end": 121.34,
+     "text": "precision"
+    },
+    {
+     "start": 121.34,
+     "end": 121.92,
+     "text": "exhibited"
+    },
+    {
+     "start": 121.92,
+     "end": 122.28,
+     "text": "within"
+    },
+    {
+     "start": 122.28,
+     "end": 122.44,
+     "text": "the"
+    },
+    {
+     "start": 122.44,
+     "end": 122.74,
+     "text": "shaping"
+    },
+    {
+     "start": 122.74,
+     "end": 123.02,
+     "text": "of"
+    },
+    {
+     "start": 123.02,
+     "end": 123.12,
+     "text": "its"
+    },
+    {
+     "start": 123.12,
+     "end": 123.44,
+     "text": "many"
+    },
+    {
+     "start": 123.44,
+     "end": 123.92,
+     "text": "blocks"
+    },
+    {
+     "start": 123.92,
+     "end": 124.42,
+     "text": "connecting"
+    },
+    {
+     "start": 124.42,
+     "end": 125.56,
+     "text": "sides,"
+    },
+    {
+     "start": 125.56,
+     "end": 126.04,
+     "text": "along"
+    },
+    {
+     "start": 126.04,
+     "end": 126.36,
+     "text": "with"
+    },
+    {
+     "start": 126.36,
+     "end": 126.5,
+     "text": "their"
+    },
+    {
+     "start": 126.5,
+     "end": 127.14,
+     "text": "masterful"
+    },
+    {
+     "start": 127.14,
+     "end": 127.56,
+     "text": "placement"
+    },
+    {
+     "start": 127.56,
+     "end": 127.84,
+     "text": "of"
+    },
+    {
+     "start": 127.84,
+     "end": 128.78,
+     "text": "each,"
+    },
+    {
+     "start": 128.78,
+     "end": 129.4,
+     "text": "all"
+    }
+   ]
+  },
+  {
+   "start": 129.4,
+   "end": 131.7,
+   "text": "once accomplished without the use of any mortar.",
+   "words": [
+    {
+     "start": 129.4,
+     "end": 129.74,
+     "text": "once"
+    },
+    {
+     "start": 129.74,
+     "end": 130.2,
+     "text": "accomplished"
+    },
+    {
+     "start": 130.2,
+     "end": 130.56,
+     "text": "without"
+    },
+    {
+     "start": 130.56,
+     "end": 130.8,
+     "text": "the"
+    },
+    {
+     "start": 130.8,
+     "end": 130.96,
+     "text": "use"
+    },
+    {
+     "start": 130.96,
+     "end": 131.14,
+     "text": "of"
+    },
+    {
+     "start": 131.14,
+     "end": 131.3,
+     "text": "any"
+    },
+    {
+     "start": 131.3,
+     "end": 131.7,
+     "text": "mortar."
+    }
+   ]
+  },
+  {
+   "start": 132.66,
+   "end": 136.02,
+   "text": "In addition to suggesting that its now-lost builders not",
+   "words": [
+    {
+     "start": 132.66,
+     "end": 132.8,
+     "text": "In"
+    },
+    {
+     "start": 132.8,
+     "end": 133.08,
+     "text": "addition"
+    },
+    {
+     "start": 133.08,
+     "end": 133.32,
+     "text": "to"
+    },
+    {
+     "start": 133.32,
+     "end": 133.74,
+     "text": "suggesting"
+    },
+    {
+     "start": 133.74,
+     "end": 134.08,
+     "text": "that"
+    },
+    {
+     "start": 134.08,
+     "end": 134.3,
+     "text": "its"
+    },
+    {
+     "start": 134.3,
+     "end": 135.16,
+     "text": "now-lost"
+    },
+    {
+     "start": 135.16,
+     "end": 135.58,
+     "text": "builders"
+    },
+    {
+     "start": 135.32,
+     "end": 136.02,
+     "text": "not"
+    }
+   ]
+  },
+  {
+   "start": 136.02,
+   "end": 139.44,
+   "text": "too bothered about the wall's outer finish or appearance,",
+   "words": [
+    {
+     "start": 136.02,
+     "end": 136.24,
+     "text": "too"
+    },
+    {
+     "start": 136.24,
+     "end": 136.64,
+     "text": "bothered"
+    },
+    {
+     "start": 136.64,
+     "end": 136.94,
+     "text": "about"
+    },
+    {
+     "start": 136.94,
+     "end": 137.14,
+     "text": "the"
+    },
+    {
+     "start": 137.14,
+     "end": 137.58,
+     "text": "wall's"
+    },
+    {
+     "start": 137.58,
+     "end": 137.86,
+     "text": "outer"
+    },
+    {
+     "start": 137.86,
+     "end": 138.26,
+     "text": "finish"
+    },
+    {
+     "start": 138.26,
+     "end": 138.66,
+     "text": "or"
+    },
+    {
+     "start": 138.66,
+     "end": 139.44,
+     "text": "appearance,"
+    }
+   ]
+  },
+  {
+   "start": 140.02,
+   "end": 144.78,
+   "text": "its design still clearly demonstrates their past skill set and abilities regardless.",
+   "words": [
+    {
+     "start": 140.02,
+     "end": 140.14,
+     "text": "its"
+    },
+    {
+     "start": 140.14,
+     "end": 140.68,
+     "text": "design"
+    },
+    {
+     "start": 140.68,
+     "end": 140.96,
+     "text": "still"
+    },
+    {
+     "start": 140.96,
+     "end": 141.36,
+     "text": "clearly"
+    },
+    {
+     "start": 141.36,
+     "end": 141.92,
+     "text": "demonstrates"
+    },
+    {
+     "start": 141.92,
+     "end": 142.34,
+     "text": "their"
+    },
+    {
+     "start": 142.34,
+     "end": 142.8,
+     "text": "past"
+    },
+    {
+     "start": 142.8,
+     "end": 143.1,
+     "text": "skill"
+    },
+    {
+     "start": 143.1,
+     "end": 143.48,
+     "text": "set"
+    },
+    {
+     "start": 143.48,
+     "end": 143.7,
+     "text": "and"
+    },
+    {
+     "start": 143.7,
+     "end": 144.14,
+     "text": "abilities"
+    },
+    {
+     "start": 144.14,
+     "end": 144.78,
+     "text": "regardless."
+    }
+   ]
+  },
+  {
+   "start": 146.18,
+   "end": 149.94,
+   "text": "For although they may be a little trickier to initially identify,",
+   "words": [
+    {
+     "start": 146.18,
+     "end": 146.34,
+     "text": "For"
+    },
+    {
+     "start": 146.34,
+     "end": 146.62,
+     "text": "although"
+    },
+    {
+     "start": 146.62,
+     "end": 146.88,
+     "text": "they"
+    },
+    {
+     "start": 146.88,
+     "end": 147.1,
+     "text": "may"
+    },
+    {
+     "start": 147.1,
+     "end": 147.38,
+     "text": "be"
+    },
+    {
+     "start": 147.38,
+     "end": 147.6,
+     "text": "a"
+    },
+    {
+     "start": 147.6,
+     "end": 147.74,
+     "text": "little"
+    },
+    {
+     "start": 147.74,
+     "end": 148.34,
+     "text": "trickier"
+    },
+    {
+     "start": 148.34,
+     "end": 148.6,
+     "text": "to"
+    },
+    {
+     "start": 148.6,
+     "end": 148.92,
+     "text": "initially"
+    },
+    {
+     "start": 148.92,
+     "end": 149.94,
+     "text": "identify,"
+    }
+   ]
+  },
+  {
+   "start": 150.32,
+   "end": 155.8,
+   "text": "they remain undeniable proof still here for all who seek it, to indeed find.",
+   "words": [
+    {
+     "start": 150.32,
+     "end": 150.5,
+     "text": "they"
+    },
+    {
+     "start": 150.5,
+     "end": 150.94,
+     "text": "remain"
+    },
+    {
+     "start": 150.94,
+     "end": 151.7,
+     "text": "undeniable"
+    },
+    {
+     "start": 151.7,
+     "end": 152.12,
+     "text": "proof"
+    },
+    {
+     "start": 152.12,
+     "end": 152.48,
+     "text": "still"
+    },
+    {
+     "start": 152.48,
+     "end": 152.8,
+     "text": "here"
+    },
+    {
+     "start": 152.8,
+     "end": 153.12,
+     "text": "for"
+    },
+    {
+     "start": 153.12,
+     "end": 153.5,
+     "text": "all"
+    },
+    {
+     "start": 153.5,
+     "end": 153.72,
+     "text": "who"
+    },
+    {
+     "start": 153.72,
+     "end": 154.02,
+     "text": "seek"
+    },
+    {
+     "start": 154.02,
+     "end": 154.36,
+     "text": "it,"
+    },
+    {
+     "start": 154.36,
+     "end": 154.92,
+     "text": "to"
+    },
+    {
+     "start": 154.92,
+     "end": 155.3,
+     "text": "indeed"
+    },
+    {
+     "start": 155.3,
+     "end": 155.8,
+     "text": "find."
+    }
+   ]
+  },
+  {
+   "start": 157.24,
+   "end": 161.68,
+   "text": "Such as the Kaimanawa Wall, hiding within modern-day New Zealand,",
+   "words": [
+    {
+     "start": 157.24,
+     "end": 157.44,
+     "text": "Such"
+    },
+    {
+     "start": 157.44,
+     "end": 157.84,
+     "text": "as"
+    },
+    {
+     "start": 157.84,
+     "end": 158.26,
+     "text": "the"
+    },
+    {
+     "start": 158.26,
+     "end": 159.0,
+     "text": "Kaimanawa"
+    },
+    {
+     "start": 159.0,
+     "end": 159.4,
+     "text": "Wall,"
+    },
+    {
+     "start": 159.4,
+     "end": 160.18,
+     "text": "hiding"
+    },
+    {
+     "start": 160.18,
+     "end": 160.48,
+     "text": "within"
+    },
+    {
+     "start": 160.48,
+     "end": 161.04,
+     "text": "modern-day"
+    },
+    {
+     "start": 161.04,
+     "end": 161.3,
+     "text": "New"
+    },
+    {
+     "start": 161.3,
+     "end": 161.68,
+     "text": "Zealand,"
+    }
+   ]
+  },
+  {
+   "start": 162.26,
+   "end": 167.0,
+   "text": "for although only a tiny fraction of the wall still survives upon the surface,",
+   "words": [
+    {
+     "start": 162.26,
+     "end": 162.34,
+     "text": "for"
+    },
+    {
+     "start": 162.34,
+     "end": 162.66,
+     "text": "although"
+    },
+    {
+     "start": 162.66,
+     "end": 163.08,
+     "text": "only"
+    },
+    {
+     "start": 163.08,
+     "end": 163.24,
+     "text": "a"
+    },
+    {
+     "start": 163.24,
+     "end": 163.58,
+     "text": "tiny"
+    },
+    {
+     "start": 163.58,
+     "end": 164.06,
+     "text": "fraction"
+    },
+    {
+     "start": 164.06,
+     "end": 164.34,
+     "text": "of"
+    },
+    {
+     "start": 164.34,
+     "end": 164.46,
+     "text": "the"
+    },
+    {
+     "start": 164.46,
+     "end": 164.72,
+     "text": "wall"
+    },
+    {
+     "start": 164.72,
+     "end": 165.12,
+     "text": "still"
+    },
+    {
+     "start": 165.12,
+     "end": 165.58,
+     "text": "survives"
+    },
+    {
+     "start": 165.58,
+     "end": 166.02,
+     "text": "upon"
+    },
+    {
+     "start": 166.02,
+     "end": 166.28,
+     "text": "the"
+    },
+    {
+     "start": 166.28,
+     "end": 167.0,
+     "text": "surface,"
+    }
+   ]
+  },
+  {
+   "start": 167.2,
+   "end": 173.04,
+   "text": "what remains is still undeniably that of an artificial, man-made origin.",
+   "words": [
+    {
+     "start": 167.2,
+     "end": 167.56,
+     "text": "what"
+    },
+    {
+     "start": 167.56,
+     "end": 167.98,
+     "text": "remains"
+    },
+    {
+     "start": 167.98,
+     "end": 168.5,
+     "text": "is"
+    },
+    {
+     "start": 168.5,
+     "end": 168.76,
+     "text": "still"
+    },
+    {
+     "start": 168.76,
+     "end": 169.66,
+     "text": "undeniably"
+    },
+    {
+     "start": 169.66,
+     "end": 170.28,
+     "text": "that"
+    },
+    {
+     "start": 170.28,
+     "end": 170.68,
+     "text": "of"
+    },
+    {
+     "start": 170.68,
+     "end": 170.78,
+     "text": "an"
+    },
+    {
+     "start": 170.78,
+     "end": 171.24,
+     "text": "artificial,"
+    },
+    {
+     "start": 171.24,
+     "end": 172.42,
+     "text": "man-made"
+    },
+    {
+     "start": 172.42,
+     "end": 173.04,
+     "text": "origin."
+    }
+   ]
+  },
+  {
+   "start": 174.26,
+   "end": 178.86,
+   "text": "With this ancient wall having also now been carbon-dated many times since",
+   "words": [
+    {
+     "start": 174.26,
+     "end": 174.42,
+     "text": "With"
+    },
+    {
+     "start": 174.42,
+     "end": 174.6,
+     "text": "this"
+    },
+    {
+     "start": 174.6,
+     "end": 175.02,
+     "text": "ancient"
+    },
+    {
+     "start": 175.02,
+     "end": 175.42,
+     "text": "wall"
+    },
+    {
+     "start": 175.42,
+     "end": 175.78,
+     "text": "having"
+    },
+    {
+     "start": 175.78,
+     "end": 176.2,
+     "text": "also"
+    },
+    {
+     "start": 176.2,
+     "end": 176.58,
+     "text": "now"
+    },
+    {
+     "start": 176.58,
+     "end": 176.82,
+     "text": "been"
+    },
+    {
+     "start": 176.82,
+     "end": 177.46,
+     "text": "carbon-dated"
+    },
+    {
+     "start": 177.46,
+     "end": 177.94,
+     "text": "many"
+    },
+    {
+     "start": 177.94,
+     "end": 178.48,
+     "text": "times"
+    },
+    {
+     "start": 178.06,
+     "end": 178.86,
+     "text": "since"
+    }
+   ]
+  },
+  {
+   "start": 178.86,
+   "end": 181.56,
+   "text": "being rediscovered within this ancient vegetation,",
+   "words": [
+    {
+     "start": 178.86,
+     "end": 179.08,
+     "text": "being"
+    },
+    {
+     "start": 179.08,
+     "end": 180.04,
+     "text": "rediscovered"
+    },
+    {
+     "start": 180.04,
+     "end": 180.52,
+     "text": "within"
+    },
+    {
+     "start": 180.52,
+     "end": 180.74,
+     "text": "this"
+    },
+    {
+     "start": 180.74,
+     "end": 181.08,
+     "text": "ancient"
+    },
+    {
+     "start": 181.08,
+     "end": 181.56,
+     "text": "vegetation,"
+    }
+   ]
+  },
+  {
+   "start": 182.96,
+   "end": 187.56,
+   "text": "with these tests repeatedly returning dates of around 300,000 years,",
+   "words": [
+    {
+     "start": 182.96,
+     "end": 183.12,
+     "text": "with"
+    },
+    {
+     "start": 183.12,
+     "end": 183.32,
+     "text": "these"
+    },
+    {
+     "start": 183.32,
+     "end": 183.8,
+     "text": "tests"
+    },
+    {
+     "start": 183.8,
+     "end": 184.4,
+     "text": "repeatedly"
+    },
+    {
+     "start": 184.4,
+     "end": 184.96,
+     "text": "returning"
+    },
+    {
+     "start": 184.96,
+     "end": 185.4,
+     "text": "dates"
+    },
+    {
+     "start": 185.4,
+     "end": 185.64,
+     "text": "of"
+    },
+    {
+     "start": 185.64,
+     "end": 185.96,
+     "text": "around"
+    },
+    {
+     "start": 185.96,
+     "end": 186.98,
+     "text": "300,000"
+    },
+    {
+     "start": 186.98,
+     "end": 187.56,
+     "text": "years,"
+    }
+   ]
+  },
+  {
+   "start": 188.62,
+   "end": 196.7,
+   "text": "And with the telltale precision again still present, along with the all too familiar stretcher courses of stones,",
+   "words": [
+    {
+     "start": 188.62,
+     "end": 188.72,
+     "text": "And"
+    },
+    {
+     "start": 188.72,
+     "end": 189.2,
+     "text": "with"
+    },
+    {
+     "start": 189.2,
+     "end": 189.36,
+     "text": "the"
+    },
+    {
+     "start": 189.36,
+     "end": 189.76,
+     "text": "telltale"
+    },
+    {
+     "start": 189.76,
+     "end": 190.16,
+     "text": "precision"
+    },
+    {
+     "start": 190.16,
+     "end": 190.66,
+     "text": "again"
+    },
+    {
+     "start": 190.66,
+     "end": 191.3,
+     "text": "still"
+    },
+    {
+     "start": 191.3,
+     "end": 192.06,
+     "text": "present,"
+    },
+    {
+     "start": 192.06,
+     "end": 192.66,
+     "text": "along"
+    },
+    {
+     "start": 192.66,
+     "end": 192.88,
+     "text": "with"
+    },
+    {
+     "start": 192.88,
+     "end": 193.02,
+     "text": "the"
+    },
+    {
+     "start": 193.02,
+     "end": 193.3,
+     "text": "all"
+    },
+    {
+     "start": 193.3,
+     "end": 193.52,
+     "text": "too"
+    },
+    {
+     "start": 193.52,
+     "end": 194.0,
+     "text": "familiar"
+    },
+    {
+     "start": 194.0,
+     "end": 195.22,
+     "text": "stretcher"
+    },
+    {
+     "start": 195.22,
+     "end": 195.62,
+     "text": "courses"
+    },
+    {
+     "start": 195.62,
+     "end": 196.24,
+     "text": "of"
+    },
+    {
+     "start": 196.24,
+     "end": 196.7,
+     "text": "stones,"
+    }
+   ]
+  },
+  {
+   "start": 196.7,
+   "end": 204.52,
+   "text": "I feel all but undeniable evidence of Kaimanawa Wall's incredibly ancient artificial origins.",
+   "words": [
+    {
+     "start": 196.7,
+     "end": 197.6,
+     "text": "I"
+    },
+    {
+     "start": 197.6,
+     "end": 198.02,
+     "text": "feel"
+    },
+    {
+     "start": 198.02,
+     "end": 198.6,
+     "text": "all"
+    },
+    {
+     "start": 198.6,
+     "end": 198.86,
+     "text": "but"
+    },
+    {
+     "start": 198.86,
+     "end": 199.66,
+     "text": "undeniable"
+    },
+    {
+     "start": 199.66,
+     "end": 200.24,
+     "text": "evidence"
+    },
+    {
+     "start": 200.24,
+     "end": 200.68,
+     "text": "of"
+    },
+    {
+     "start": 200.68,
+     "end": 201.3,
+     "text": "Kaimanawa"
+    },
+    {
+     "start": 201.3,
+     "end": 201.92,
+     "text": "Wall's"
+    },
+    {
+     "start": 201.92,
+     "end": 202.64,
+     "text": "incredibly"
+    },
+    {
+     "start": 202.64,
+     "end": 203.26,
+     "text": "ancient"
+    },
+    {
+     "start": 203.26,
+     "end": 203.86,
+     "text": "artificial"
+    },
+    {
+     "start": 203.86,
+     "end": 204.52,
+     "text": "origins."
+    }
+   ]
+  },
+  {
+   "start": 206.54,
+   "end": 213.42,
+   "text": "The Great Wall of China, yet another undeniable pre-flood feat of monstrous proportions.",
+   "words": [
+    {
+     "start": 206.54,
+     "end": 206.62,
+     "text": "The"
+    },
+    {
+     "start": 206.62,
+     "end": 206.88,
+     "text": "Great"
+    },
+    {
+     "start": 206.88,
+     "end": 207.2,
+     "text": "Wall"
+    },
+    {
+     "start": 207.2,
+     "end": 207.46,
+     "text": "of"
+    },
+    {
+     "start": 207.46,
+     "end": 208.14,
+     "text": "China,"
+    },
+    {
+     "start": 208.14,
+     "end": 209.14,
+     "text": "yet"
+    },
+    {
+     "start": 209.14,
+     "end": 209.62,
+     "text": "another"
+    },
+    {
+     "start": 209.62,
+     "end": 210.62,
+     "text": "undeniable"
+    },
+    {
+     "start": 210.62,
+     "end": 211.44,
+     "text": "pre-flood"
+    },
+    {
+     "start": 211.44,
+     "end": 211.78,
+     "text": "feat"
+    },
+    {
+     "start": 211.78,
+     "end": 212.14,
+     "text": "of"
+    },
+    {
+     "start": 212.14,
+     "end": 212.72,
+     "text": "monstrous"
+    },
+    {
+     "start": 212.72,
+     "end": 213.42,
+     "text": "proportions."
+    }
+   ]
+  },
+  {
+   "start": 214.86,
+   "end": 222.782,
+   "text": "Once built to such a scale, it visible from space, and one you may have not expected to see upon a list of lost relics.",
+   "words": [
+    {
+     "start": 214.86,
+     "end": 215.04,
+     "text": "Once"
+    },
+    {
+     "start": 215.04,
+     "end": 215.34,
+     "text": "built"
+    },
+    {
+     "start": 215.34,
+     "end": 215.56,
+     "text": "to"
+    },
+    {
+     "start": 215.56,
+     "end": 215.8,
+     "text": "such"
+    },
+    {
+     "start": 215.8,
+     "end": 215.9,
+     "text": "a"
+    },
+    {
+     "start": 215.9,
+     "end": 216.66,
+     "text": "scale,"
+    },
+    {
+     "start": 216.66,
+     "end": 216.72,
+     "text": "it"
+    },
+    {
+     "start": 216.72,
+     "end": 217.02,
+     "text": "visible"
+    },
+    {
+     "start": 217.02,
+     "end": 217.38,
+     "text": "from"
+    },
+    {
+     "start": 217.38,
+     "end": 217.98,
+     "text": "space,"
+    },
+    {
+     "start": 217.98,
+     "end": 218.74,
+     "text": "and"
+    },
+    {
+     "start": 218.74,
+     "end": 218.88,
+     "text": "one"
+    },
+    {
+     "start": 218.882,
+     "end": 219.042,
+     "text": "you"
+    },
+    {
+     "start": 219.042,
+     "end": 219.262,
+     "text": "may"
+    },
+    {
+     "start": 219.262,
+     "end": 219.562,
+     "text": "have"
+    },
+    {
+     "start": 219.562,
+     "end": 219.802,
+     "text": "not"
+    },
+    {
+     "start": 219.802,
+     "end": 220.202,
+     "text": "expected"
+    },
+    {
+     "start": 219.942,
+     "end": 220.482,
+     "text": "to"
+    },
+    {
+     "start": 220.482,
+     "end": 220.822,
+     "text": "see"
+    },
+    {
+     "start": 220.822,
+     "end": 221.402,
+     "text": "upon"
+    },
+    {
+     "start": 221.402,
+     "end": 221.582,
+     "text": "a"
+    },
+    {
+     "start": 221.582,
+     "end": 221.842,
+     "text": "list"
+    },
+    {
+     "start": 221.842,
+     "end": 222.022,
+     "text": "of"
+    },
+    {
+     "start": 222.022,
+     "end": 222.322,
+     "text": "lost"
+    },
+    {
+     "start": 222.322,
+     "end": 222.782,
+     "text": "relics."
+    }
+   ]
+  },
+  {
+   "start": 222.782,
+   "end": 228.602,
+   "text": "However, the Great Wall has its very own litany of",
+   "words": [
+    {
+     "start": 222.782,
+     "end": 225.662,
+     "text": "However,"
+    },
+    {
+     "start": 225.662,
+     "end": 225.782,
+     "text": "the"
+    },
+    {
+     "start": 225.782,
+     "end": 225.962,
+     "text": "Great"
+    },
+    {
+     "start": 225.962,
+     "end": 226.362,
+     "text": "Wall"
+    },
+    {
+     "start": 226.362,
+     "end": 226.742,
+     "text": "has"
+    },
+    {
+     "start": 226.742,
+     "end": 226.842,
+     "text": "its"
+    },
+    {
+     "start": 226.842,
+     "end": 227.362,
+     "text": "very"
+    },
+    {
+     "start": 227.362,
+     "end": 227.822,
+     "text": "own"
+    },
+    {
+     "start": 227.822,
+     "end": 228.282,
+     "text": "litany"
+    },
+    {
+     "start": 228.282,
+     "end": 228.602,
+     "text": "of"
+    }
+   ]
+  },
+  {
+   "start": 228.162,
+   "end": 233.542,
+   "text": "strange, little-mentioned, incredibly controversial ancient secrets.",
+   "words": [
+    {
+     "start": 228.162,
+     "end": 229.662,
+     "text": "strange,"
+    },
+    {
+     "start": 229.662,
+     "end": 230.842,
+     "text": "little-mentioned,"
+    },
+    {
+     "start": 230.842,
+     "end": 231.582,
+     "text": "incredibly"
+    },
+    {
+     "start": 231.582,
+     "end": 232.482,
+     "text": "controversial"
+    },
+    {
+     "start": 232.482,
+     "end": 233.042,
+     "text": "ancient"
+    },
+    {
+     "start": 233.042,
+     "end": 233.542,
+     "text": "secrets."
+    }
+   ]
+  },
+  {
+   "start": 233.542,
+   "end": 237.022,
+   "text": "An undeniable characteristic once",
+   "words": [
+    {
+     "start": 233.542,
+     "end": 234.962,
+     "text": "An"
+    },
+    {
+     "start": 234.962,
+     "end": 235.662,
+     "text": "undeniable"
+    },
+    {
+     "start": 235.662,
+     "end": 236.422,
+     "text": "characteristic"
+    },
+    {
+     "start": 236.102,
+     "end": 237.022,
+     "text": "once"
+    }
+   ]
+  },
+  {
+   "start": 237.022,
+   "end": 242.842,
+   "text": "built into its very design, and one that no funded historian is ever going to point",
+   "words": [
+    {
+     "start": 237.022,
+     "end": 237.302,
+     "text": "built"
+    },
+    {
+     "start": 237.302,
+     "end": 237.542,
+     "text": "into"
+    },
+    {
+     "start": 237.542,
+     "end": 237.782,
+     "text": "its"
+    },
+    {
+     "start": 237.782,
+     "end": 238.082,
+     "text": "very"
+    },
+    {
+     "start": 238.082,
+     "end": 238.882,
+     "text": "design,"
+    },
+    {
+     "start": 238.882,
+     "end": 239.422,
+     "text": "and"
+    },
+    {
+     "start": 239.422,
+     "end": 239.622,
+     "text": "one"
+    },
+    {
+     "start": 239.622,
+     "end": 239.882,
+     "text": "that"
+    },
+    {
+     "start": 239.882,
+     "end": 240.282,
+     "text": "no"
+    },
+    {
+     "start": 240.282,
+     "end": 240.982,
+     "text": "funded"
+    },
+    {
+     "start": 240.982,
+     "end": 241.522,
+     "text": "historian"
+    },
+    {
+     "start": 241.522,
+     "end": 241.822,
+     "text": "is"
+    },
+    {
+     "start": 241.822,
+     "end": 242.102,
+     "text": "ever"
+    },
+    {
+     "start": 242.102,
+     "end": 242.482,
+     "text": "going"
+    },
+    {
+     "start": 242.482,
+     "end": 242.662,
+     "text": "to"
+    },
+    {
+     "start": 242.662,
+     "end": 242.842,
+     "text": "point"
+    }
+   ]
+  },
+  {
+   "start": 242.902,
+   "end": 244.082,
+   "text": "out.",
+   "words": [
+    {
+     "start": 242.902,
+     "end": 244.082,
+     "text": "out."
+    }
+   ]
+  },
+  {
+   "start": 244.082,
+   "end": 251.162,
+   "text": "For the wall was not once built by ancient China, but was instead once built to face it,",
+   "words": [
+    {
+     "start": 244.082,
+     "end": 244.722,
+     "text": "For"
+    },
+    {
+     "start": 244.722,
+     "end": 244.842,
+     "text": "the"
+    },
+    {
+     "start": 244.842,
+     "end": 245.142,
+     "text": "wall"
+    },
+    {
+     "start": 245.142,
+     "end": 245.442,
+     "text": "was"
+    },
+    {
+     "start": 245.442,
+     "end": 245.642,
+     "text": "not"
+    },
+    {
+     "start": 245.642,
+     "end": 245.982,
+     "text": "once"
+    },
+    {
+     "start": 245.982,
+     "end": 246.282,
+     "text": "built"
+    },
+    {
+     "start": 246.282,
+     "end": 246.542,
+     "text": "by"
+    },
+    {
+     "start": 246.542,
+     "end": 246.882,
+     "text": "ancient"
+    },
+    {
+     "start": 246.882,
+     "end": 247.642,
+     "text": "China,"
+    },
+    {
+     "start": 247.642,
+     "end": 248.262,
+     "text": "but"
+    },
+    {
+     "start": 248.262,
+     "end": 248.442,
+     "text": "was"
+    },
+    {
+     "start": 248.442,
+     "end": 248.862,
+     "text": "instead"
+    },
+    {
+     "start": 248.862,
+     "end": 249.802,
+     "text": "once"
+    },
+    {
+     "start": 249.802,
+     "end": 250.082,
+     "text": "built"
+    },
+    {
+     "start": 250.082,
+     "end": 250.342,
+     "text": "to"
+    },
+    {
+     "start": 250.342,
+     "end": 250.682,
+     "text": "face"
+    },
+    {
+     "start": 250.682,
+     "end": 251.162,
+     "text": "it,"
+    }
+   ]
+  },
+  {
+   "start": 252.062,
+   "end": 258.862,
+   "text": "with archery windows and other fortifications, all once constructed on only one of its sides,",
+   "words": [
+    {
+     "start": 252.062,
+     "end": 252.242,
+     "text": "with"
+    },
+    {
+     "start": 252.242,
+     "end": 252.762,
+     "text": "archery"
+    },
+    {
+     "start": 252.762,
+     "end": 253.162,
+     "text": "windows"
+    },
+    {
+     "start": 253.162,
+     "end": 253.762,
+     "text": "and"
+    },
+    {
+     "start": 253.762,
+     "end": 254.002,
+     "text": "other"
+    },
+    {
+     "start": 254.002,
+     "end": 254.762,
+     "text": "fortifications,"
+    },
+    {
+     "start": 254.762,
+     "end": 255.842,
+     "text": "all"
+    },
+    {
+     "start": 255.842,
+     "end": 256.242,
+     "text": "once"
+    },
+    {
+     "start": 256.242,
+     "end": 256.742,
+     "text": "constructed"
+    },
+    {
+     "start": 256.742,
+     "end": 257.242,
+     "text": "on"
+    },
+    {
+     "start": 257.242,
+     "end": 257.482,
+     "text": "only"
+    },
+    {
+     "start": 257.482,
+     "end": 257.802,
+     "text": "one"
+    },
+    {
+     "start": 257.802,
+     "end": 257.982,
+     "text": "of"
+    },
+    {
+     "start": 257.982,
+     "end": 258.122,
+     "text": "its"
+    },
+    {
+     "start": 258.122,
+     "end": 258.862,
+     "text": "sides,"
+    }
+   ]
+  },
+  {
+   "start": 259.122,
+   "end": 261.562,
+   "text": "and all built to face China itself.",
+   "words": [
+    {
+     "start": 259.122,
+     "end": 259.282,
+     "text": "and"
+    },
+    {
+     "start": 259.282,
+     "end": 259.522,
+     "text": "all"
+    },
+    {
+     "start": 259.522,
+     "end": 259.862,
+     "text": "built"
+    },
+    {
+     "start": 259.862,
+     "end": 260.182,
+     "text": "to"
+    },
+    {
+     "start": 260.182,
+     "end": 260.562,
+     "text": "face"
+    },
+    {
+     "start": 260.562,
+     "end": 260.982,
+     "text": "China"
+    },
+    {
+     "start": 260.982,
+     "end": 261.562,
+     "text": "itself."
+    }
+   ]
+  },
+  {
+   "start": 261.562,
+   "end": 267.122,
+   "text": "Thus, whoever it was who truly built this thing,",
+   "words": [
+    {
+     "start": 261.562,
+     "end": 263.482,
+     "text": "Thus,"
+    },
+    {
+     "start": 263.482,
+     "end": 264.462,
+     "text": "whoever"
+    },
+    {
+     "start": 264.462,
+     "end": 264.762,
+     "text": "it"
+    },
+    {
+     "start": 264.762,
+     "end": 265.102,
+     "text": "was"
+    },
+    {
+     "start": 265.102,
+     "end": 265.302,
+     "text": "who"
+    },
+    {
+     "start": 265.302,
+     "end": 265.762,
+     "text": "truly"
+    },
+    {
+     "start": 265.762,
+     "end": 266.142,
+     "text": "built"
+    },
+    {
+     "start": 266.142,
+     "end": 266.462,
+     "text": "this"
+    },
+    {
+     "start": 266.462,
+     "end": 267.122,
+     "text": "thing,"
+    }
+   ]
+  },
+  {
+   "start": 267.662,
+   "end": 273.342,
+   "text": "did so to guard against that of modern-day China and not the other way round.",
+   "words": [
+    {
+     "start": 267.662,
+     "end": 267.822,
+     "text": "did"
+    },
+    {
+     "start": 267.822,
+     "end": 268.202,
+     "text": "so"
+    },
+    {
+     "start": 268.202,
+     "end": 268.702,
+     "text": "to"
+    },
+    {
+     "start": 268.702,
+     "end": 269.002,
+     "text": "guard"
+    },
+    {
+     "start": 269.002,
+     "end": 269.442,
+     "text": "against"
+    },
+    {
+     "start": 269.442,
+     "end": 269.822,
+     "text": "that"
+    },
+    {
+     "start": 269.822,
+     "end": 270.202,
+     "text": "of"
+    },
+    {
+     "start": 270.202,
+     "end": 270.762,
+     "text": "modern-day"
+    },
+    {
+     "start": 270.762,
+     "end": 271.182,
+     "text": "China"
+    },
+    {
+     "start": 271.182,
+     "end": 271.962,
+     "text": "and"
+    },
+    {
+     "start": 271.962,
+     "end": 272.262,
+     "text": "not"
+    },
+    {
+     "start": 272.262,
+     "end": 272.502,
+     "text": "the"
+    },
+    {
+     "start": 272.502,
+     "end": 272.722,
+     "text": "other"
+    },
+    {
+     "start": 272.722,
+     "end": 272.962,
+     "text": "way"
+    },
+    {
+     "start": 272.962,
+     "end": 273.342,
+     "text": "round."
+    }
+   ]
+  },
+  {
+   "start": 275.202,
+   "end": 280.962,
+   "text": "Another astonishing exhibit amongst this simply vast array of ancient undertakings I",
+   "words": [
+    {
+     "start": 275.202,
+     "end": 275.502,
+     "text": "Another"
+    },
+    {
+     "start": 275.502,
+     "end": 276.162,
+     "text": "astonishing"
+    },
+    {
+     "start": 276.162,
+     "end": 276.802,
+     "text": "exhibit"
+    },
+    {
+     "start": 276.802,
+     "end": 277.382,
+     "text": "amongst"
+    },
+    {
+     "start": 277.382,
+     "end": 277.762,
+     "text": "this"
+    },
+    {
+     "start": 277.762,
+     "end": 278.102,
+     "text": "simply"
+    },
+    {
+     "start": 278.102,
+     "end": 278.702,
+     "text": "vast"
+    },
+    {
+     "start": 278.702,
+     "end": 279.042,
+     "text": "array"
+    },
+    {
+     "start": 279.042,
+     "end": 279.422,
+     "text": "of"
+    },
+    {
+     "start": 279.422,
+     "end": 279.802,
+     "text": "ancient"
+    },
+    {
+     "start": 279.802,
+     "end": 280.622,
+     "text": "undertakings"
+    },
+    {
+     "start": 280.242,
+     "end": 280.962,
+     "text": "I"
+    }
+   ]
+  },
+  {
+   "start": 280.962,
+   "end": 286.662,
+   "text": "have now found and catalogued is a site located within southwestern Nigeria,",
+   "words": [
+    {
+     "start": 280.962,
+     "end": 281.082,
+     "text": "have"
+    },
+    {
+     "start": 281.082,
+     "end": 281.262,
+     "text": "now"
+    },
+    {
+     "start": 281.262,
+     "end": 281.662,
+     "text": "found"
+    },
+    {
+     "start": 281.662,
+     "end": 281.882,
+     "text": "and"
+    },
+    {
+     "start": 281.882,
+     "end": 282.582,
+     "text": "catalogued"
+    },
+    {
+     "start": 282.582,
+     "end": 283.342,
+     "text": "is"
+    },
+    {
+     "start": 283.342,
+     "end": 283.462,
+     "text": "a"
+    },
+    {
+     "start": 283.462,
+     "end": 283.762,
+     "text": "site"
+    },
+    {
+     "start": 283.762,
+     "end": 284.322,
+     "text": "located"
+    },
+    {
+     "start": 284.322,
+     "end": 284.722,
+     "text": "within"
+    },
+    {
+     "start": 284.722,
+     "end": 285.542,
+     "text": "southwestern"
+    },
+    {
+     "start": 285.542,
+     "end": 286.662,
+     "text": "Nigeria,"
+    }
+   ]
+  },
+  {
+   "start": 286.982,
+   "end": 291.042,
+   "text": "a ruin that is now known as the Walls of Benin,",
+   "words": [
+    {
+     "start": 286.982,
+     "end": 287.122,
+     "text": "a"
+    },
+    {
+     "start": 287.122,
+     "end": 287.442,
+     "text": "ruin"
+    },
+    {
+     "start": 287.442,
+     "end": 287.662,
+     "text": "that"
+    },
+    {
+     "start": 287.662,
+     "end": 287.762,
+     "text": "is"
+    },
+    {
+     "start": 287.762,
+     "end": 288.042,
+     "text": "now"
+    },
+    {
+     "start": 288.042,
+     "end": 288.462,
+     "text": "known"
+    },
+    {
+     "start": 288.462,
+     "end": 289.302,
+     "text": "as"
+    },
+    {
+     "start": 289.302,
+     "end": 289.822,
+     "text": "the"
+    },
+    {
+     "start": 289.822,
+     "end": 290.302,
+     "text": "Walls"
+    },
+    {
+     "start": 290.302,
+     "end": 290.522,
+     "text": "of"
+    },
+    {
+     "start": 290.522,
+     "end": 291.042,
+     "text": "Benin,"
+    }
+   ]
+  },
+  {
+   "start": 292.742,
+   "end": 295.282,
+   "text": "which although again very rarely studied",
+   "words": [
+    {
+     "start": 292.742,
+     "end": 292.862,
+     "text": "which"
+    },
+    {
+     "start": 292.862,
+     "end": 293.202,
+     "text": "although"
+    },
+    {
+     "start": 293.202,
+     "end": 293.802,
+     "text": "again"
+    },
+    {
+     "start": 293.802,
+     "end": 294.402,
+     "text": "very"
+    },
+    {
+     "start": 294.402,
+     "end": 294.782,
+     "text": "rarely"
+    },
+    {
+     "start": 294.782,
+     "end": 295.282,
+     "text": "studied"
+    }
+   ]
+  },
+  {
+   "start": 294.982,
+   "end": 299.702,
+   "text": "and even less frequently publicized by the mainstream academic world",
+   "words": [
+    {
+     "start": 294.982,
+     "end": 295.862,
+     "text": "and"
+    },
+    {
+     "start": 295.862,
+     "end": 296.042,
+     "text": "even"
+    },
+    {
+     "start": 296.042,
+     "end": 296.382,
+     "text": "less"
+    },
+    {
+     "start": 296.382,
+     "end": 296.802,
+     "text": "frequently"
+    },
+    {
+     "start": 296.802,
+     "end": 297.662,
+     "text": "publicized"
+    },
+    {
+     "start": 297.662,
+     "end": 297.862,
+     "text": "by"
+    },
+    {
+     "start": 297.862,
+     "end": 298.002,
+     "text": "the"
+    },
+    {
+     "start": 298.002,
+     "end": 298.462,
+     "text": "mainstream"
+    },
+    {
+     "start": 298.462,
+     "end": 299.062,
+     "text": "academic"
+    },
+    {
+     "start": 299.062,
+     "end": 299.702,
+     "text": "world"
+    }
+   ]
+  },
+  {
+   "start": 299.422,
+   "end": 303.862,
+   "text": "they nonetheless dwarf that of the Great Wall of China",
+   "words": [
+    {
+     "start": 299.422,
+     "end": 300.642,
+     "text": "they"
+    },
+    {
+     "start": 300.642,
+     "end": 301.082,
+     "text": "nonetheless"
+    },
+    {
+     "start": 301.082,
+     "end": 302.022,
+     "text": "dwarf"
+    },
+    {
+     "start": 302.022,
+     "end": 302.542,
+     "text": "that"
+    },
+    {
+     "start": 302.542,
+     "end": 302.682,
+     "text": "of"
+    },
+    {
+     "start": 302.682,
+     "end": 302.782,
+     "text": "the"
+    },
+    {
+     "start": 302.782,
+     "end": 303.022,
+     "text": "Great"
+    },
+    {
+     "start": 303.022,
+     "end": 303.302,
+     "text": "Wall"
+    },
+    {
+     "start": 303.302,
+     "end": 303.602,
+     "text": "of"
+    },
+    {
+     "start": 303.602,
+     "end": 303.862,
+     "text": "China"
+    }
+   ]
+  },
+  {
+   "start": 304.902,
+   "end": 308.522,
+   "text": "formed from a series of defensively constructed earthworks",
+   "words": [
+    {
+     "start": 304.902,
+     "end": 305.282,
+     "text": "formed"
+    },
+    {
+     "start": 305.282,
+     "end": 305.682,
+     "text": "from"
+    },
+    {
+     "start": 305.682,
+     "end": 305.822,
+     "text": "a"
+    },
+    {
+     "start": 305.822,
+     "end": 306.102,
+     "text": "series"
+    },
+    {
+     "start": 306.102,
+     "end": 306.462,
+     "text": "of"
+    },
+    {
+     "start": 306.462,
+     "end": 307.222,
+     "text": "defensively"
+    },
+    {
+     "start": 307.222,
+     "end": 307.722,
+     "text": "constructed"
+    },
+    {
+     "start": 307.722,
+     "end": 308.522,
+     "text": "earthworks"
+    }
+   ]
+  },
+  {
+   "start": 308.102,
+   "end": 310.922,
+   "text": "called Ia and Edo",
+   "words": [
+    {
+     "start": 308.102,
+     "end": 309.322,
+     "text": "called"
+    },
+    {
+     "start": 309.322,
+     "end": 309.742,
+     "text": "Ia"
+    },
+    {
+     "start": 309.742,
+     "end": 310.482,
+     "text": "and"
+    },
+    {
+     "start": 310.482,
+     "end": 310.922,
+     "text": "Edo"
+    }
+   ]
+  },
+  {
+   "start": 310.562,
+   "end": 315.382,
+   "text": "they consist of an estimated 9.3 miles of inner city",
+   "words": [
+    {
+     "start": 310.562,
+     "end": 311.822,
+     "text": "they"
+    },
+    {
+     "start": 311.822,
+     "end": 312.182,
+     "text": "consist"
+    },
+    {
+     "start": 312.182,
+     "end": 312.502,
+     "text": "of"
+    },
+    {
+     "start": 312.502,
+     "end": 312.622,
+     "text": "an"
+    },
+    {
+     "start": 312.622,
+     "end": 313.062,
+     "text": "estimated"
+    },
+    {
+     "start": 313.062,
+     "end": 314.122,
+     "text": "9.3"
+    },
+    {
+     "start": 314.122,
+     "end": 314.502,
+     "text": "miles"
+    },
+    {
+     "start": 314.502,
+     "end": 314.842,
+     "text": "of"
+    },
+    {
+     "start": 314.842,
+     "end": 315.062,
+     "text": "inner"
+    },
+    {
+     "start": 315.062,
+     "end": 315.382,
+     "text": "city"
+    }
+   ]
+  },
+  {
+   "start": 314.962,
+   "end": 319.262,
+   "text": "and 9,900 miles of outer city walls",
+   "words": [
+    {
+     "start": 314.962,
+     "end": 316.242,
+     "text": "and"
+    },
+    {
+     "start": 316.242,
+     "end": 317.462,
+     "text": "9,900"
+    },
+    {
+     "start": 317.462,
+     "end": 317.962,
+     "text": "miles"
+    },
+    {
+     "start": 317.962,
+     "end": 318.322,
+     "text": "of"
+    },
+    {
+     "start": 318.322,
+     "end": 318.502,
+     "text": "outer"
+    },
+    {
+     "start": 318.502,
+     "end": 318.822,
+     "text": "city"
+    },
+    {
+     "start": 318.822,
+     "end": 319.262,
+     "text": "walls"
+    }
+   ]
+  },
+  {
+   "start": 321.002,
+   "end": 322.862,
+   "text": "with the walls once described as",
+   "words": [
+    {
+     "start": 321.002,
+     "end": 321.082,
+     "text": "with"
+    },
+    {
+     "start": 321.082,
+     "end": 321.222,
+     "text": "the"
+    },
+    {
+     "start": 321.222,
+     "end": 321.542,
+     "text": "walls"
+    },
+    {
+     "start": 321.542,
+     "end": 321.862,
+     "text": "once"
+    },
+    {
+     "start": 321.862,
+     "end": 322.282,
+     "text": "described"
+    },
+    {
+     "start": 322.282,
+     "end": 322.862,
+     "text": "as"
+    }
+   ]
+  },
+  {
+   "start": 322.662,
+   "end": 326.642,
+   "text": "quote, the world's largest earthwork carried out prior",
+   "words": [
+    {
+     "start": 322.662,
+     "end": 323.442,
+     "text": "quote,"
+    },
+    {
+     "start": 323.442,
+     "end": 323.942,
+     "text": "the"
+    },
+    {
+     "start": 323.942,
+     "end": 324.382,
+     "text": "world's"
+    },
+    {
+     "start": 324.382,
+     "end": 324.782,
+     "text": "largest"
+    },
+    {
+     "start": 324.782,
+     "end": 325.482,
+     "text": "earthwork"
+    },
+    {
+     "start": 325.482,
+     "end": 325.922,
+     "text": "carried"
+    },
+    {
+     "start": 325.922,
+     "end": 326.222,
+     "text": "out"
+    },
+    {
+     "start": 325.782,
+     "end": 326.642,
+     "text": "prior"
+    }
+   ]
+  },
+  {
+   "start": 326.642,
+   "end": 328.942,
+   "text": "to the mechanical era, end quote",
+   "words": [
+    {
+     "start": 326.642,
+     "end": 326.882,
+     "text": "to"
+    },
+    {
+     "start": 326.882,
+     "end": 327.002,
+     "text": "the"
+    },
+    {
+     "start": 327.002,
+     "end": 327.462,
+     "text": "mechanical"
+    },
+    {
+     "start": 327.462,
+     "end": 328.562,
+     "text": "era,"
+    },
+    {
+     "start": 328.562,
+     "end": 328.662,
+     "text": "end"
+    },
+    {
+     "start": 328.662,
+     "end": 328.942,
+     "text": "quote"
+    }
+   ]
+  },
+  {
+   "start": 328.522,
+   "end": 330.782,
+   "text": "from the Guinness Book of Records",
+   "words": [
+    {
+     "start": 328.522,
+     "end": 329.642,
+     "text": "from"
+    },
+    {
+     "start": 329.642,
+     "end": 329.802,
+     "text": "the"
+    },
+    {
+     "start": 329.802,
+     "end": 330.142,
+     "text": "Guinness"
+    },
+    {
+     "start": 330.142,
+     "end": 330.302,
+     "text": "Book"
+    },
+    {
+     "start": 330.302,
+     "end": 330.502,
+     "text": "of"
+    },
+    {
+     "start": 330.502,
+     "end": 330.782,
+     "text": "Records"
+    }
+   ]
+  },
+  {
+   "start": 331.022,
+   "end": 335.382,
+   "text": "the Benin city walls have also been quietly known of by",
+   "words": [
+    {
+     "start": 331.022,
+     "end": 331.962,
+     "text": "the"
+    },
+    {
+     "start": 331.962,
+     "end": 332.322,
+     "text": "Benin"
+    },
+    {
+     "start": 332.322,
+     "end": 332.622,
+     "text": "city"
+    },
+    {
+     "start": 332.622,
+     "end": 333.042,
+     "text": "walls"
+    },
+    {
+     "start": 333.042,
+     "end": 333.382,
+     "text": "have"
+    },
+    {
+     "start": 333.382,
+     "end": 333.682,
+     "text": "also"
+    },
+    {
+     "start": 333.682,
+     "end": 333.942,
+     "text": "been"
+    },
+    {
+     "start": 333.942,
+     "end": 334.402,
+     "text": "quietly"
+    },
+    {
+     "start": 334.402,
+     "end": 334.822,
+     "text": "known"
+    },
+    {
+     "start": 334.822,
+     "end": 335.162,
+     "text": "of"
+    },
+    {
+     "start": 334.702,
+     "end": 335.382,
+     "text": "by"
+    }
+   ]
+  },
+  {
+   "start": 335.382,
+   "end": 338.762,
+   "text": "the western world since around the 1500s",
+   "words": [
+    {
+     "start": 335.382,
+     "end": 335.542,
+     "text": "the"
+    },
+    {
+     "start": 335.542,
+     "end": 335.882,
+     "text": "western"
+    },
+    {
+     "start": 335.882,
+     "end": 336.302,
+     "text": "world"
+    },
+    {
+     "start": 336.302,
+     "end": 336.962,
+     "text": "since"
+    },
+    {
+     "start": 336.962,
+     "end": 337.362,
+     "text": "around"
+    },
+    {
+     "start": 337.362,
+     "end": 337.582,
+     "text": "the"
+    },
+    {
+     "start": 337.582,
+     "end": 338.762,
+     "text": "1500s"
+    }
+   ]
+  },
+  {
+   "start": 338.382,
+   "end": 343.422,
+   "text": "with Portuguese explorer Duarte Pacheco Pereira",
+   "words": [
+    {
+     "start": 338.382,
+     "end": 339.502,
+     "text": "with"
+    },
+    {
+     "start": 339.502,
+     "end": 339.902,
+     "text": "Portuguese"
+    },
+    {
+     "start": 339.902,
+     "end": 340.622,
+     "text": "explorer"
+    },
+    {
+     "start": 340.622,
+     "end": 341.822,
+     "text": "Duarte"
+    },
+    {
+     "start": 341.822,
+     "end": 342.762,
+     "text": "Pacheco"
+    },
+    {
+     "start": 342.762,
+     "end": 343.422,
+     "text": "Pereira"
+    }
+   ]
+  },
+  {
+   "start": 344.102,
+   "end": 346.942,
+   "text": "briefly describing the walls during his own travels",
+   "words": [
+    {
+     "start": 344.102,
+     "end": 344.482,
+     "text": "briefly"
+    },
+    {
+     "start": 344.482,
+     "end": 345.082,
+     "text": "describing"
+    },
+    {
+     "start": 345.082,
+     "end": 345.342,
+     "text": "the"
+    },
+    {
+     "start": 345.342,
+     "end": 345.662,
+     "text": "walls"
+    },
+    {
+     "start": 345.662,
+     "end": 346.002,
+     "text": "during"
+    },
+    {
+     "start": 346.002,
+     "end": 346.262,
+     "text": "his"
+    },
+    {
+     "start": 346.262,
+     "end": 346.482,
+     "text": "own"
+    },
+    {
+     "start": 346.482,
+     "end": 346.942,
+     "text": "travels"
+    }
+   ]
+  },
+  {
+   "start": 347.682,
+   "end": 353.062,
+   "text": "with another description given in 1600 by the Dutch explorer Derek Reuters,",
+   "words": [
+    {
+     "start": 347.682,
+     "end": 347.762,
+     "text": "with"
+    },
+    {
+     "start": 347.762,
+     "end": 348.042,
+     "text": "another"
+    },
+    {
+     "start": 348.042,
+     "end": 348.522,
+     "text": "description"
+    },
+    {
+     "start": 348.522,
+     "end": 348.902,
+     "text": "given"
+    },
+    {
+     "start": 348.902,
+     "end": 349.122,
+     "text": "in"
+    },
+    {
+     "start": 349.122,
+     "end": 349.462,
+     "text": "1600"
+    },
+    {
+     "start": 349.462,
+     "end": 350.442,
+     "text": "by"
+    },
+    {
+     "start": 350.442,
+     "end": 350.602,
+     "text": "the"
+    },
+    {
+     "start": 350.602,
+     "end": 350.802,
+     "text": "Dutch"
+    },
+    {
+     "start": 350.802,
+     "end": 351.322,
+     "text": "explorer"
+    },
+    {
+     "start": 351.322,
+     "end": 352.182,
+     "text": "Derek"
+    },
+    {
+     "start": 352.182,
+     "end": 353.062,
+     "text": "Reuters,"
+    }
+   ]
+  },
+  {
+   "start": 353.742,
+   "end": 356.262,
+   "text": "with his initial account of the walls as follows.",
+   "words": [
+    {
+     "start": 353.742,
+     "end": 353.922,
+     "text": "with"
+    },
+    {
+     "start": 353.922,
+     "end": 354.062,
+     "text": "his"
+    },
+    {
+     "start": 354.062,
+     "end": 354.442,
+     "text": "initial"
+    },
+    {
+     "start": 354.442,
+     "end": 354.842,
+     "text": "account"
+    },
+    {
+     "start": 354.842,
+     "end": 355.142,
+     "text": "of"
+    },
+    {
+     "start": 355.142,
+     "end": 355.242,
+     "text": "the"
+    },
+    {
+     "start": 355.242,
+     "end": 355.602,
+     "text": "walls"
+    },
+    {
+     "start": 355.602,
+     "end": 355.882,
+     "text": "as"
+    },
+    {
+     "start": 355.882,
+     "end": 356.262,
+     "text": "follows."
+    }
+   ]
+  },
+  {
+   "start": 358.042,
+   "end": 358.562,
+   "text": "Quote,",
+   "words": [
+    {
+     "start": 358.042,
+     "end": 358.562,
+     "text": "Quote,"
+    }
+   ]
+  },
+  {
+   "start": 359.182,
+   "end": 363.982,
+   "text": "At the gate where I entered on horseback I saw very high, very thick,",
+   "words": [
+    {
+     "start": 359.182,
+     "end": 359.302,
+     "text": "At"
+    },
+    {
+     "start": 359.302,
+     "end": 359.462,
+     "text": "the"
+    },
+    {
+     "start": 359.462,
+     "end": 359.782,
+     "text": "gate"
+    },
+    {
+     "start": 359.782,
+     "end": 360.062,
+     "text": "where"
+    },
+    {
+     "start": 360.062,
+     "end": 360.202,
+     "text": "I"
+    },
+    {
+     "start": 360.202,
+     "end": 360.562,
+     "text": "entered"
+    },
+    {
+     "start": 360.562,
+     "end": 360.822,
+     "text": "on"
+    },
+    {
+     "start": 360.822,
+     "end": 361.422,
+     "text": "horseback"
+    },
+    {
+     "start": 361.422,
+     "end": 361.742,
+     "text": "I"
+    },
+    {
+     "start": 361.742,
+     "end": 362.022,
+     "text": "saw"
+    },
+    {
+     "start": 362.022,
+     "end": 362.442,
+     "text": "very"
+    },
+    {
+     "start": 362.442,
+     "end": 363.222,
+     "text": "high,"
+    },
+    {
+     "start": 363.222,
+     "end": 363.462,
+     "text": "very"
+    },
+    {
+     "start": 363.462,
+     "end": 363.982,
+     "text": "thick,"
+    }
+   ]
+  },
+  {
+   "start": 364.422,
+   "end": 367.922,
+   "text": "walls of earth with a very deep, broad ditch around.",
+   "words": [
+    {
+     "start": 364.422,
+     "end": 364.782,
+     "text": "walls"
+    },
+    {
+     "start": 364.782,
+     "end": 364.982,
+     "text": "of"
+    },
+    {
+     "start": 364.982,
+     "end": 365.362,
+     "text": "earth"
+    },
+    {
+     "start": 365.362,
+     "end": 365.602,
+     "text": "with"
+    },
+    {
+     "start": 365.602,
+     "end": 365.722,
+     "text": "a"
+    },
+    {
+     "start": 365.722,
+     "end": 366.002,
+     "text": "very"
+    },
+    {
+     "start": 366.002,
+     "end": 366.482,
+     "text": "deep,"
+    },
+    {
+     "start": 366.482,
+     "end": 366.962,
+     "text": "broad"
+    },
+    {
+     "start": 366.962,
+     "end": 367.382,
+     "text": "ditch"
+    },
+    {
+     "start": 367.382,
+     "end": 367.922,
+     "text": "around."
+    }
+   ]
+  },
+  {
+   "start": 368.822,
+   "end": 372.022,
+   "text": "They were dry and full of high trees.",
+   "words": [
+    {
+     "start": 368.822,
+     "end": 368.962,
+     "text": "They"
+    },
+    {
+     "start": 368.962,
+     "end": 369.182,
+     "text": "were"
+    },
+    {
+     "start": 369.182,
+     "end": 369.682,
+     "text": "dry"
+    },
+    {
+     "start": 369.682,
+     "end": 370.202,
+     "text": "and"
+    },
+    {
+     "start": 370.202,
+     "end": 370.622,
+     "text": "full"
+    },
+    {
+     "start": 370.622,
+     "end": 370.942,
+     "text": "of"
+    },
+    {
+     "start": 370.942,
+     "end": 371.242,
+     "text": "high"
+    },
+    {
+     "start": 371.242,
+     "end": 372.022,
+     "text": "trees."
+    }
+   ]
+  },
+  {
+   "start": 372.542,
+   "end": 373.002,
+   "text": "End quote.",
+   "words": [
+    {
+     "start": 372.542,
+     "end": 372.682,
+     "text": "End"
+    },
+    {
+     "start": 372.682,
+     "end": 373.002,
+     "text": "quote."
+    }
+   ]
+  },
+  {
+   "start": 374.142,
+   "end": 382.002,
+   "text": "Over a hundred years ago, another curious yet fascinating discovery of a pre-cataclysmic wall was made,",
+   "words": [
+    {
+     "start": 374.142,
+     "end": 374.282,
+     "text": "Over"
+    },
+    {
+     "start": 374.282,
+     "end": 374.522,
+     "text": "a"
+    },
+    {
+     "start": 374.522,
+     "end": 374.742,
+     "text": "hundred"
+    },
+    {
+     "start": 374.742,
+     "end": 375.162,
+     "text": "years"
+    },
+    {
+     "start": 375.162,
+     "end": 376.002,
+     "text": "ago,"
+    },
+    {
+     "start": 376.002,
+     "end": 376.242,
+     "text": "another"
+    },
+    {
+     "start": 376.242,
+     "end": 376.902,
+     "text": "curious"
+    },
+    {
+     "start": 376.902,
+     "end": 377.522,
+     "text": "yet"
+    },
+    {
+     "start": 377.522,
+     "end": 378.262,
+     "text": "fascinating"
+    },
+    {
+     "start": 378.262,
+     "end": 378.942,
+     "text": "discovery"
+    },
+    {
+     "start": 378.942,
+     "end": 379.402,
+     "text": "of"
+    },
+    {
+     "start": 379.402,
+     "end": 379.502,
+     "text": "a"
+    },
+    {
+     "start": 379.502,
+     "end": 380.702,
+     "text": "pre-cataclysmic"
+    },
+    {
+     "start": 380.702,
+     "end": 381.062,
+     "text": "wall"
+    },
+    {
+     "start": 381.062,
+     "end": 381.442,
+     "text": "was"
+    },
+    {
+     "start": 381.442,
+     "end": 382.002,
+     "text": "made,"
+    }
+   ]
+  },
+  {
+   "start": 382.682,
+   "end": 388.222,
+   "text": "within a town that would eventually become named after this very out-of-place artifact itself.",
+   "words": [
+    {
+     "start": 382.682,
+     "end": 382.882,
+     "text": "within"
+    },
+    {
+     "start": 382.882,
+     "end": 383.042,
+     "text": "a"
+    },
+    {
+     "start": 383.042,
+     "end": 383.382,
+     "text": "town"
+    },
+    {
+     "start": 383.382,
+     "end": 383.622,
+     "text": "that"
+    },
+    {
+     "start": 383.622,
+     "end": 383.742,
+     "text": "would"
+    },
+    {
+     "start": 383.742,
+     "end": 384.182,
+     "text": "eventually"
+    },
+    {
+     "start": 384.182,
+     "end": 384.702,
+     "text": "become"
+    },
+    {
+     "start": 384.702,
+     "end": 385.122,
+     "text": "named"
+    },
+    {
+     "start": 385.122,
+     "end": 385.582,
+     "text": "after"
+    },
+    {
+     "start": 385.582,
+     "end": 385.822,
+     "text": "this"
+    },
+    {
+     "start": 385.822,
+     "end": 386.262,
+     "text": "very"
+    },
+    {
+     "start": 386.262,
+     "end": 386.962,
+     "text": "out-of-place"
+    },
+    {
+     "start": 386.962,
+     "end": 387.442,
+     "text": "artifact"
+    },
+    {
+     "start": 387.442,
+     "end": 388.222,
+     "text": "itself."
+    }
+   ]
+  },
+  {
+   "start": 389.822,
+   "end": 393.342,
+   "text": "Now to be found within the town of Rockwall, Texas,",
+   "words": [
+    {
+     "start": 389.822,
+     "end": 390.062,
+     "text": "Now"
+    },
+    {
+     "start": 390.062,
+     "end": 390.262,
+     "text": "to"
+    },
+    {
+     "start": 390.262,
+     "end": 390.382,
+     "text": "be"
+    },
+    {
+     "start": 390.382,
+     "end": 390.742,
+     "text": "found"
+    },
+    {
+     "start": 390.742,
+     "end": 391.022,
+     "text": "within"
+    },
+    {
+     "start": 391.022,
+     "end": 391.202,
+     "text": "the"
+    },
+    {
+     "start": 391.202,
+     "end": 391.482,
+     "text": "town"
+    },
+    {
+     "start": 391.482,
+     "end": 391.702,
+     "text": "of"
+    },
+    {
+     "start": 391.702,
+     "end": 392.922,
+     "text": "Rockwall,"
+    },
+    {
+     "start": 392.922,
+     "end": 393.342,
+     "text": "Texas,"
+    }
+   ]
+  },
+  {
+   "start": 393.842,
+   "end": 398.462,
+   "text": "and once discovered buried deep beneath a layer of thick antediluvian sediment,",
+   "words": [
+    {
+     "start": 393.842,
+     "end": 393.962,
+     "text": "and"
+    },
+    {
+     "start": 393.962,
+     "end": 394.222,
+     "text": "once"
+    },
+    {
+     "start": 394.222,
+     "end": 394.762,
+     "text": "discovered"
+    },
+    {
+     "start": 394.762,
+     "end": 395.142,
+     "text": "buried"
+    },
+    {
+     "start": 395.142,
+     "end": 395.482,
+     "text": "deep"
+    },
+    {
+     "start": 395.482,
+     "end": 395.822,
+     "text": "beneath"
+    },
+    {
+     "start": 395.822,
+     "end": 396.122,
+     "text": "a"
+    },
+    {
+     "start": 396.122,
+     "end": 396.382,
+     "text": "layer"
+    },
+    {
+     "start": 396.382,
+     "end": 396.722,
+     "text": "of"
+    },
+    {
+     "start": 396.722,
+     "end": 397.062,
+     "text": "thick"
+    },
+    {
+     "start": 397.062,
+     "end": 398.102,
+     "text": "antediluvian"
+    },
+    {
+     "start": 398.102,
+     "end": 398.462,
+     "text": "sediment,"
+    }
+   ]
+  },
+  {
+   "start": 399.322,
+   "end": 403.042,
+   "text": "another ancient wall of an undeniable artificial origin.",
+   "words": [
+    {
+     "start": 399.322,
+     "end": 399.642,
+     "text": "another"
+    },
+    {
+     "start": 399.642,
+     "end": 400.162,
+     "text": "ancient"
+    },
+    {
+     "start": 400.162,
+     "end": 400.542,
+     "text": "wall"
+    },
+    {
+     "start": 400.542,
+     "end": 400.782,
+     "text": "of"
+    },
+    {
+     "start": 400.782,
+     "end": 400.882,
+     "text": "an"
+    },
+    {
+     "start": 400.882,
+     "end": 401.642,
+     "text": "undeniable"
+    },
+    {
+     "start": 401.642,
+     "end": 402.262,
+     "text": "artificial"
+    },
+    {
+     "start": 402.262,
+     "end": 403.042,
+     "text": "origin."
+    }
+   ]
+  },
+  {
+   "start": 404.842,
+   "end": 410.322,
+   "text": "Yet its now recorded age predictably causing several people within the academic world",
+   "words": [
+    {
+     "start": 404.842,
+     "end": 404.942,
+     "text": "Yet"
+    },
+    {
+     "start": 404.942,
+     "end": 405.202,
+     "text": "its"
+    },
+    {
+     "start": 405.202,
+     "end": 405.442,
+     "text": "now"
+    },
+    {
+     "start": 405.442,
+     "end": 405.982,
+     "text": "recorded"
+    },
+    {
+     "start": 405.982,
+     "end": 406.382,
+     "text": "age"
+    },
+    {
+     "start": 406.382,
+     "end": 407.142,
+     "text": "predictably"
+    },
+    {
+     "start": 407.142,
+     "end": 407.822,
+     "text": "causing"
+    },
+    {
+     "start": 407.822,
+     "end": 408.302,
+     "text": "several"
+    },
+    {
+     "start": 408.302,
+     "end": 408.702,
+     "text": "people"
+    },
+    {
+     "start": 408.702,
+     "end": 409.082,
+     "text": "within"
+    },
+    {
+     "start": 409.082,
+     "end": 409.302,
+     "text": "the"
+    },
+    {
+     "start": 409.302,
+     "end": 409.642,
+     "text": "academic"
+    },
+    {
+     "start": 409.642,
+     "end": 410.322,
+     "text": "world"
+    }
+   ]
+  },
+  {
+   "start": 409.982,
+   "end": 415.962,
+   "text": "to strongly argue against any possibility of it having man-made origins.",
+   "words": [
+    {
+     "start": 409.982,
+     "end": 411.062,
+     "text": "to"
+    },
+    {
+     "start": 411.062,
+     "end": 411.582,
+     "text": "strongly"
+    },
+    {
+     "start": 411.582,
+     "end": 412.142,
+     "text": "argue"
+    },
+    {
+     "start": 412.142,
+     "end": 412.502,
+     "text": "against"
+    },
+    {
+     "start": 412.502,
+     "end": 412.942,
+     "text": "any"
+    },
+    {
+     "start": 412.942,
+     "end": 413.582,
+     "text": "possibility"
+    },
+    {
+     "start": 413.582,
+     "end": 414.222,
+     "text": "of"
+    },
+    {
+     "start": 414.222,
+     "end": 414.342,
+     "text": "it"
+    },
+    {
+     "start": 414.342,
+     "end": 414.582,
+     "text": "having"
+    },
+    {
+     "start": 414.582,
+     "end": 415.142,
+     "text": "man-made"
+    },
+    {
+     "start": 415.142,
+     "end": 415.962,
+     "text": "origins."
+    }
+   ]
+  },
+  {
+   "start": 416.442,
+   "end": 422.582,
+   "text": "This continually denied, all in favor of it being nothing more than that of a natural formation.",
+   "words": [
+    {
+     "start": 416.442,
+     "end": 416.642,
+     "text": "This"
+    },
+    {
+     "start": 416.642,
+     "end": 417.282,
+     "text": "continually"
+    },
+    {
+     "start": 417.282,
+     "end": 418.462,
+     "text": "denied,"
+    },
+    {
+     "start": 418.462,
+     "end": 418.582,
+     "text": "all"
+    },
+    {
+     "start": 418.582,
+     "end": 418.782,
+     "text": "in"
+    },
+    {
+     "start": 418.782,
+     "end": 419.042,
+     "text": "favor"
+    },
+    {
+     "start": 419.042,
+     "end": 419.302,
+     "text": "of"
+    },
+    {
+     "start": 419.302,
+     "end": 419.422,
+     "text": "it"
+    },
+    {
+     "start": 419.422,
+     "end": 419.642,
+     "text": "being"
+    },
+    {
+     "start": 419.642,
+     "end": 420.002,
+     "text": "nothing"
+    },
+    {
+     "start": 420.002,
+     "end": 420.482,
+     "text": "more"
+    },
+    {
+     "start": 420.482,
+     "end": 421.022,
+     "text": "than"
+    },
+    {
+     "start": 421.022,
+     "end": 421.202,
+     "text": "that"
+    },
+    {
+     "start": 421.202,
+     "end": 421.382,
+     "text": "of"
+    },
+    {
+     "start": 421.382,
+     "end": 421.482,
+     "text": "a"
+    },
+    {
+     "start": 421.482,
+     "end": 421.842,
+     "text": "natural"
+    },
+    {
+     "start": 421.842,
+     "end": 422.582,
+     "text": "formation."
+    }
+   ]
+  },
+  {
+   "start": 423.682,
+   "end": 427.862,
+   "text": "Discovered in 1852, when the local farmers were digging a well",
+   "words": [
+    {
+     "start": 423.682,
+     "end": 424.142,
+     "text": "Discovered"
+    },
+    {
+     "start": 424.142,
+     "end": 424.262,
+     "text": "in"
+    },
+    {
+     "start": 424.262,
+     "end": 425.642,
+     "text": "1852,"
+    },
+    {
+     "start": 425.642,
+     "end": 426.042,
+     "text": "when"
+    },
+    {
+     "start": 426.042,
+     "end": 426.182,
+     "text": "the"
+    },
+    {
+     "start": 426.182,
+     "end": 426.462,
+     "text": "local"
+    },
+    {
+     "start": 426.462,
+     "end": 426.882,
+     "text": "farmers"
+    },
+    {
+     "start": 426.882,
+     "end": 427.122,
+     "text": "were"
+    },
+    {
+     "start": 427.122,
+     "end": 427.362,
+     "text": "digging"
+    },
+    {
+     "start": 427.362,
+     "end": 427.602,
+     "text": "a"
+    },
+    {
+     "start": 427.602,
+     "end": 427.862,
+     "text": "well"
+    }
+   ]
+  },
+  {
+   "start": 428.442,
+   "end": 436.684,
+   "text": "with magnetic explorations of the anomaly now suggesting that this rock wall has lay buried here for over 100,000 years.",
+   "words": [
+    {
+     "start": 428.442,
+     "end": 428.522,
+     "text": "with"
+    },
+    {
+     "start": 428.522,
+     "end": 429.062,
+     "text": "magnetic"
+    },
+    {
+     "start": 429.062,
+     "end": 429.942,
+     "text": "explorations"
+    },
+    {
+     "start": 429.942,
+     "end": 430.122,
+     "text": "of"
+    },
+    {
+     "start": 430.122,
+     "end": 430.242,
+     "text": "the"
+    },
+    {
+     "start": 430.242,
+     "end": 430.702,
+     "text": "anomaly"
+    },
+    {
+     "start": 430.702,
+     "end": 431.122,
+     "text": "now"
+    },
+    {
+     "start": 431.122,
+     "end": 431.742,
+     "text": "suggesting"
+    },
+    {
+     "start": 431.742,
+     "end": 432.002,
+     "text": "that"
+    },
+    {
+     "start": 432.002,
+     "end": 432.202,
+     "text": "this"
+    },
+    {
+     "start": 432.202,
+     "end": 432.582,
+     "text": "rock"
+    },
+    {
+     "start": 432.582,
+     "end": 432.962,
+     "text": "wall"
+    },
+    {
+     "start": 432.482,
+     "end": 433.442,
+     "text": "has"
+    },
+    {
+     "start": 433.442,
+     "end": 433.682,
+     "text": "lay"
+    },
+    {
+     "start": 433.682,
+     "end": 434.062,
+     "text": "buried"
+    },
+    {
+     "start": 434.062,
+     "end": 434.462,
+     "text": "here"
+    },
+    {
+     "start": 434.462,
+     "end": 434.722,
+     "text": "for"
+    },
+    {
+     "start": 434.722,
+     "end": 434.982,
+     "text": "over"
+    },
+    {
+     "start": 434.984,
+     "end": 436.124,
+     "text": "100,000"
+    },
+    {
+     "start": 436.124,
+     "end": 436.684,
+     "text": "years."
+    }
+   ]
+  },
+  {
+   "start": 438.164,
+   "end": 442.504,
+   "text": "Although the many independent individuals who have now examined it in much depth,",
+   "words": [
+    {
+     "start": 438.164,
+     "end": 438.364,
+     "text": "Although"
+    },
+    {
+     "start": 438.364,
+     "end": 438.564,
+     "text": "the"
+    },
+    {
+     "start": 438.564,
+     "end": 438.804,
+     "text": "many"
+    },
+    {
+     "start": 438.804,
+     "end": 439.324,
+     "text": "independent"
+    },
+    {
+     "start": 439.324,
+     "end": 439.984,
+     "text": "individuals"
+    },
+    {
+     "start": 439.984,
+     "end": 440.524,
+     "text": "who"
+    },
+    {
+     "start": 440.524,
+     "end": 440.664,
+     "text": "have"
+    },
+    {
+     "start": 440.664,
+     "end": 440.844,
+     "text": "now"
+    },
+    {
+     "start": 440.844,
+     "end": 441.384,
+     "text": "examined"
+    },
+    {
+     "start": 441.384,
+     "end": 441.584,
+     "text": "it"
+    },
+    {
+     "start": 441.584,
+     "end": 441.764,
+     "text": "in"
+    },
+    {
+     "start": 441.764,
+     "end": 441.944,
+     "text": "much"
+    },
+    {
+     "start": 441.944,
+     "end": 442.504,
+     "text": "depth,"
+    }
+   ]
+  },
+  {
+   "start": 443.604,
+   "end": 448.704,
+   "text": "often concluding that along with it indeed, being that of an antediluvian relic,",
+   "words": [
+    {
+     "start": 443.604,
+     "end": 443.904,
+     "text": "often"
+    },
+    {
+     "start": 443.904,
+     "end": 444.504,
+     "text": "concluding"
+    },
+    {
+     "start": 444.504,
+     "end": 444.644,
+     "text": "that"
+    },
+    {
+     "start": 444.644,
+     "end": 444.964,
+     "text": "along"
+    },
+    {
+     "start": 444.964,
+     "end": 445.244,
+     "text": "with"
+    },
+    {
+     "start": 445.244,
+     "end": 445.384,
+     "text": "it"
+    },
+    {
+     "start": 445.384,
+     "end": 446.304,
+     "text": "indeed,"
+    },
+    {
+     "start": 446.304,
+     "end": 446.344,
+     "text": "being"
+    },
+    {
+     "start": 446.344,
+     "end": 446.564,
+     "text": "that"
+    },
+    {
+     "start": 446.564,
+     "end": 446.704,
+     "text": "of"
+    },
+    {
+     "start": 446.704,
+     "end": 446.824,
+     "text": "an"
+    },
+    {
+     "start": 446.824,
+     "end": 447.663,
+     "text": "antediluvian"
+    },
+    {
+     "start": 447.663,
+     "end": 448.704,
+     "text": "relic,"
+    }
+   ]
+  },
+  {
+   "start": 449.344,
+   "end": 456.764,
+   "text": "instead of a mere 100,000 years, it could be as much as 200 to 400,000 years old.",
+   "words": [
+    {
+     "start": 449.344,
+     "end": 449.604,
+     "text": "instead"
+    },
+    {
+     "start": 449.604,
+     "end": 449.784,
+     "text": "of"
+    },
+    {
+     "start": 449.784,
+     "end": 449.924,
+     "text": "a"
+    },
+    {
+     "start": 449.924,
+     "end": 450.104,
+     "text": "mere"
+    },
+    {
+     "start": 450.104,
+     "end": 451.204,
+     "text": "100,000"
+    },
+    {
+     "start": 451.204,
+     "end": 451.744,
+     "text": "years,"
+    },
+    {
+     "start": 451.744,
+     "end": 452.584,
+     "text": "it"
+    },
+    {
+     "start": 452.584,
+     "end": 452.784,
+     "text": "could"
+    },
+    {
+     "start": 452.784,
+     "end": 452.964,
+     "text": "be"
+    },
+    {
+     "start": 452.964,
+     "end": 453.163,
+     "text": "as"
+    },
+    {
+     "start": 453.163,
+     "end": 453.284,
+     "text": "much"
+    },
+    {
+     "start": 453.284,
+     "end": 453.484,
+     "text": "as"
+    },
+    {
+     "start": 453.484,
+     "end": 454.064,
+     "text": "200"
+    },
+    {
+     "start": 454.064,
+     "end": 454.824,
+     "text": "to"
+    },
+    {
+     "start": 454.824,
+     "end": 455.964,
+     "text": "400,000"
+    },
+    {
+     "start": 455.964,
+     "end": 456.304,
+     "text": "years"
+    },
+    {
+     "start": 456.304,
+     "end": 456.764,
+     "text": "old."
+    }
+   ]
+  },
+  {
+   "start": 458.284,
+   "end": 458.584,
+   "text": "Dr.",
+   "words": [
+    {
+     "start": 458.284,
+     "end": 458.584,
+     "text": "Dr."
+    }
+   ]
+  },
+  {
+   "start": 458.584,
+   "end": 461.784,
+   "text": "John Geisman of the University of Texas in Dallas",
+   "words": [
+    {
+     "start": 458.584,
+     "end": 458.984,
+     "text": "John"
+    },
+    {
+     "start": 458.984,
+     "end": 459.544,
+     "text": "Geisman"
+    },
+    {
+     "start": 459.544,
+     "end": 460.084,
+     "text": "of"
+    },
+    {
+     "start": 460.084,
+     "end": 460.163,
+     "text": "the"
+    },
+    {
+     "start": 460.163,
+     "end": 460.404,
+     "text": "University"
+    },
+    {
+     "start": 460.404,
+     "end": 460.844,
+     "text": "of"
+    },
+    {
+     "start": 460.844,
+     "end": 461.163,
+     "text": "Texas"
+    },
+    {
+     "start": 461.163,
+     "end": 461.464,
+     "text": "in"
+    },
+    {
+     "start": 461.464,
+     "end": 461.784,
+     "text": "Dallas"
+    }
+   ]
+  },
+  {
+   "start": 462.364,
+   "end": 466.924,
+   "text": "tested the rock samples as part of a History Channel documentary,",
+   "words": [
+    {
+     "start": 462.364,
+     "end": 462.784,
+     "text": "tested"
+    },
+    {
+     "start": 462.784,
+     "end": 463.004,
+     "text": "the"
+    },
+    {
+     "start": 463.004,
+     "end": 463.324,
+     "text": "rock"
+    },
+    {
+     "start": 463.324,
+     "end": 463.684,
+     "text": "samples"
+    },
+    {
+     "start": 463.684,
+     "end": 464.484,
+     "text": "as"
+    },
+    {
+     "start": 464.484,
+     "end": 464.744,
+     "text": "part"
+    },
+    {
+     "start": 464.744,
+     "end": 464.884,
+     "text": "of"
+    },
+    {
+     "start": 464.884,
+     "end": 464.984,
+     "text": "a"
+    },
+    {
+     "start": 464.984,
+     "end": 465.324,
+     "text": "History"
+    },
+    {
+     "start": 465.324,
+     "end": 465.744,
+     "text": "Channel"
+    },
+    {
+     "start": 465.744,
+     "end": 466.924,
+     "text": "documentary,"
+    }
+   ]
+  },
+  {
+   "start": 467.324,
+   "end": 472.184,
+   "text": "with him predictably giving credence to this denial of its artificial origins.",
+   "words": [
+    {
+     "start": 467.324,
+     "end": 467.444,
+     "text": "with"
+    },
+    {
+     "start": 467.444,
+     "end": 467.663,
+     "text": "him"
+    },
+    {
+     "start": 467.663,
+     "end": 468.364,
+     "text": "predictably"
+    },
+    {
+     "start": 468.364,
+     "end": 468.764,
+     "text": "giving"
+    },
+    {
+     "start": 468.764,
+     "end": 469.404,
+     "text": "credence"
+    },
+    {
+     "start": 469.404,
+     "end": 469.784,
+     "text": "to"
+    },
+    {
+     "start": 469.784,
+     "end": 469.984,
+     "text": "this"
+    },
+    {
+     "start": 469.984,
+     "end": 470.404,
+     "text": "denial"
+    },
+    {
+     "start": 470.404,
+     "end": 471.084,
+     "text": "of"
+    },
+    {
+     "start": 471.084,
+     "end": 471.204,
+     "text": "its"
+    },
+    {
+     "start": 471.204,
+     "end": 471.564,
+     "text": "artificial"
+    },
+    {
+     "start": 471.564,
+     "end": 472.184,
+     "text": "origins."
+    }
+   ]
+  },
+  {
+   "start": 473.184,
+   "end": 479.924,
+   "text": "This tremendous age, leading many who work for and within these well-funded institutes and academies,",
+   "words": [
+    {
+     "start": 473.184,
+     "end": 473.384,
+     "text": "This"
+    },
+    {
+     "start": 473.384,
+     "end": 473.984,
+     "text": "tremendous"
+    },
+    {
+     "start": 473.984,
+     "end": 474.884,
+     "text": "age,"
+    },
+    {
+     "start": 474.884,
+     "end": 474.984,
+     "text": "leading"
+    },
+    {
+     "start": 474.984,
+     "end": 475.304,
+     "text": "many"
+    },
+    {
+     "start": 475.304,
+     "end": 475.604,
+     "text": "who"
+    },
+    {
+     "start": 475.604,
+     "end": 475.864,
+     "text": "work"
+    },
+    {
+     "start": 475.864,
+     "end": 476.224,
+     "text": "for"
+    },
+    {
+     "start": 476.224,
+     "end": 476.584,
+     "text": "and"
+    },
+    {
+     "start": 476.584,
+     "end": 476.864,
+     "text": "within"
+    },
+    {
+     "start": 476.864,
+     "end": 477.264,
+     "text": "these"
+    },
+    {
+     "start": 477.264,
+     "end": 478.144,
+     "text": "well-funded"
+    },
+    {
+     "start": 478.144,
+     "end": 478.824,
+     "text": "institutes"
+    },
+    {
+     "start": 478.824,
+     "end": 479.104,
+     "text": "and"
+    },
+    {
+     "start": 479.104,
+     "end": 479.924,
+     "text": "academies,"
+    }
+   ]
+  },
+  {
+   "start": 480.284,
+   "end": 483.924,
+   "text": "which are all in support of these many modern paradigms,",
+   "words": [
+    {
+     "start": 480.284,
+     "end": 480.424,
+     "text": "which"
+    },
+    {
+     "start": 480.424,
+     "end": 480.544,
+     "text": "are"
+    },
+    {
+     "start": 480.544,
+     "end": 480.944,
+     "text": "all"
+    },
+    {
+     "start": 480.944,
+     "end": 481.184,
+     "text": "in"
+    },
+    {
+     "start": 481.184,
+     "end": 481.564,
+     "text": "support"
+    },
+    {
+     "start": 481.564,
+     "end": 482.124,
+     "text": "of"
+    },
+    {
+     "start": 482.124,
+     "end": 482.284,
+     "text": "these"
+    },
+    {
+     "start": 482.284,
+     "end": 482.604,
+     "text": "many"
+    },
+    {
+     "start": 482.604,
+     "end": 483.104,
+     "text": "modern"
+    },
+    {
+     "start": 483.104,
+     "end": 483.924,
+     "text": "paradigms,"
+    }
+   ]
+  },
+  {
+   "start": 484.364,
+   "end": 488.284,
+   "text": "to passionately deny any possibility of a man-made origin,",
+   "words": [
+    {
+     "start": 484.364,
+     "end": 484.444,
+     "text": "to"
+    },
+    {
+     "start": 484.444,
+     "end": 485.144,
+     "text": "passionately"
+    },
+    {
+     "start": 485.144,
+     "end": 485.524,
+     "text": "deny"
+    },
+    {
+     "start": 485.524,
+     "end": 486.024,
+     "text": "any"
+    },
+    {
+     "start": 486.024,
+     "end": 486.604,
+     "text": "possibility"
+    },
+    {
+     "start": 486.604,
+     "end": 487.184,
+     "text": "of"
+    },
+    {
+     "start": 487.184,
+     "end": 487.324,
+     "text": "a"
+    },
+    {
+     "start": 487.324,
+     "end": 487.744,
+     "text": "man-made"
+    },
+    {
+     "start": 487.744,
+     "end": 488.284,
+     "text": "origin,"
+    }
+   ]
+  },
+  {
+   "start": 489.824,
+   "end": 493.104,
+   "text": "which has led to what I perceive to be an outright hunt",
+   "words": [
+    {
+     "start": 489.824,
+     "end": 490.024,
+     "text": "which"
+    },
+    {
+     "start": 490.024,
+     "end": 490.264,
+     "text": "has"
+    },
+    {
+     "start": 490.264,
+     "end": 490.504,
+     "text": "led"
+    },
+    {
+     "start": 490.504,
+     "end": 490.744,
+     "text": "to"
+    },
+    {
+     "start": 490.744,
+     "end": 490.904,
+     "text": "what"
+    },
+    {
+     "start": 490.904,
+     "end": 491.084,
+     "text": "I"
+    },
+    {
+     "start": 491.084,
+     "end": 491.464,
+     "text": "perceive"
+    },
+    {
+     "start": 491.464,
+     "end": 491.864,
+     "text": "to"
+    },
+    {
+     "start": 491.864,
+     "end": 491.984,
+     "text": "be"
+    },
+    {
+     "start": 491.984,
+     "end": 492.144,
+     "text": "an"
+    },
+    {
+     "start": 492.144,
+     "end": 492.564,
+     "text": "outright"
+    },
+    {
+     "start": 492.564,
+     "end": 493.104,
+     "text": "hunt"
+    }
+   ]
+  },
+  {
+   "start": 492.784,
+   "end": 498.484,
+   "text": "for any features that could possibly aid in this argument of natural formation.",
+   "words": [
+    {
+     "start": 492.784,
+     "end": 493.884,
+     "text": "for"
+    },
+    {
+     "start": 493.884,
+     "end": 494.184,
+     "text": "any"
+    },
+    {
+     "start": 494.184,
+     "end": 494.604,
+     "text": "features"
+    },
+    {
+     "start": 494.604,
+     "end": 494.944,
+     "text": "that"
+    },
+    {
+     "start": 494.944,
+     "end": 495.104,
+     "text": "could"
+    },
+    {
+     "start": 495.104,
+     "end": 495.644,
+     "text": "possibly"
+    },
+    {
+     "start": 495.644,
+     "end": 496.044,
+     "text": "aid"
+    },
+    {
+     "start": 496.044,
+     "end": 496.284,
+     "text": "in"
+    },
+    {
+     "start": 496.284,
+     "end": 496.444,
+     "text": "this"
+    },
+    {
+     "start": 496.444,
+     "end": 496.804,
+     "text": "argument"
+    },
+    {
+     "start": 496.804,
+     "end": 497.244,
+     "text": "of"
+    },
+    {
+     "start": 497.244,
+     "end": 497.704,
+     "text": "natural"
+    },
+    {
+     "start": 497.704,
+     "end": 498.484,
+     "text": "formation."
+    }
+   ]
+  },
+  {
+   "start": 499.824,
+   "end": 502.824,
+   "text": "A hunt undertaken whilst continually and deliberately",
+   "words": [
+    {
+     "start": 499.824,
+     "end": 499.964,
+     "text": "A"
+    },
+    {
+     "start": 499.964,
+     "end": 500.264,
+     "text": "hunt"
+    },
+    {
+     "start": 500.264,
+     "end": 500.844,
+     "text": "undertaken"
+    },
+    {
+     "start": 500.844,
+     "end": 501.264,
+     "text": "whilst"
+    },
+    {
+     "start": 501.264,
+     "end": 501.784,
+     "text": "continually"
+    },
+    {
+     "start": 501.784,
+     "end": 502.324,
+     "text": "and"
+    },
+    {
+     "start": 502.324,
+     "end": 502.824,
+     "text": "deliberately"
+    }
+   ]
+  },
+  {
+   "start": 503.344,
+   "end": 506.324,
+   "text": "overlooking countless other features and fingerprints,",
+   "words": [
+    {
+     "start": 503.344,
+     "end": 503.884,
+     "text": "overlooking"
+    },
+    {
+     "start": 503.884,
+     "end": 504.444,
+     "text": "countless"
+    },
+    {
+     "start": 504.444,
+     "end": 504.804,
+     "text": "other"
+    },
+    {
+     "start": 504.804,
+     "end": 505.264,
+     "text": "features"
+    },
+    {
+     "start": 505.264,
+     "end": 505.764,
+     "text": "and"
+    },
+    {
+     "start": 505.764,
+     "end": 506.324,
+     "text": "fingerprints,"
+    }
+   ]
+  },
+  {
+   "start": 507.024,
+   "end": 510.884,
+   "text": "which all led so many to conclude upon that of the works of man.",
+   "words": [
+    {
+     "start": 507.024,
+     "end": 507.144,
+     "text": "which"
+    },
+    {
+     "start": 507.144,
+     "end": 507.484,
+     "text": "all"
+    },
+    {
+     "start": 507.484,
+     "end": 507.744,
+     "text": "led"
+    },
+    {
+     "start": 507.744,
+     "end": 508.084,
+     "text": "so"
+    },
+    {
+     "start": 508.084,
+     "end": 508.464,
+     "text": "many"
+    },
+    {
+     "start": 508.464,
+     "end": 508.684,
+     "text": "to"
+    },
+    {
+     "start": 508.684,
+     "end": 509.104,
+     "text": "conclude"
+    },
+    {
+     "start": 509.104,
+     "end": 509.564,
+     "text": "upon"
+    },
+    {
+     "start": 509.564,
+     "end": 509.824,
+     "text": "that"
+    },
+    {
+     "start": 509.824,
+     "end": 510.024,
+     "text": "of"
+    },
+    {
+     "start": 510.024,
+     "end": 510.144,
+     "text": "the"
+    },
+    {
+     "start": 510.144,
+     "end": 510.404,
+     "text": "works"
+    },
+    {
+     "start": 510.404,
+     "end": 510.604,
+     "text": "of"
+    },
+    {
+     "start": 510.604,
+     "end": 510.884,
+     "text": "man."
+    }
+   ]
+  },
+  {
+   "start": 512.204,
+   "end": 520.663,
+   "text": "There are some, however, such as geologist James Shelton, for example, or that of Harvard's architect John Lindsay, who",
+   "words": [
+    {
+     "start": 512.204,
+     "end": 512.284,
+     "text": "There"
+    },
+    {
+     "start": 512.284,
+     "end": 512.444,
+     "text": "are"
+    },
+    {
+     "start": 512.444,
+     "end": 512.963,
+     "text": "some,"
+    },
+    {
+     "start": 512.963,
+     "end": 513.564,
+     "text": "however,"
+    },
+    {
+     "start": 513.564,
+     "end": 513.704,
+     "text": "such"
+    },
+    {
+     "start": 513.704,
+     "end": 513.884,
+     "text": "as"
+    },
+    {
+     "start": 513.884,
+     "end": 514.543,
+     "text": "geologist"
+    },
+    {
+     "start": 514.543,
+     "end": 515.163,
+     "text": "James"
+    },
+    {
+     "start": 515.163,
+     "end": 515.963,
+     "text": "Shelton,"
+    },
+    {
+     "start": 515.963,
+     "end": 516.043,
+     "text": "for"
+    },
+    {
+     "start": 516.043,
+     "end": 516.784,
+     "text": "example,"
+    },
+    {
+     "start": 516.784,
+     "end": 517.463,
+     "text": "or"
+    },
+    {
+     "start": 517.463,
+     "end": 517.784,
+     "text": "that"
+    },
+    {
+     "start": 517.784,
+     "end": 518.004,
+     "text": "of"
+    },
+    {
+     "start": 518.004,
+     "end": 518.444,
+     "text": "Harvard's"
+    },
+    {
+     "start": 518.444,
+     "end": 518.904,
+     "text": "architect"
+    },
+    {
+     "start": 518.904,
+     "end": 519.564,
+     "text": "John"
+    },
+    {
+     "start": 519.564,
+     "end": 520.004,
+     "text": "Lindsay,"
+    },
+    {
+     "start": 520.004,
+     "end": 520.663,
+     "text": "who"
+    }
+   ]
+  },
+  {
+   "start": 520.663,
+   "end": 529.604,
+   "text": "have both focused instead on its many uniquely designed anomalies, including architectural elements, archways,",
+   "words": [
+    {
+     "start": 520.663,
+     "end": 520.784,
+     "text": "have"
+    },
+    {
+     "start": 520.784,
+     "end": 521.124,
+     "text": "both"
+    },
+    {
+     "start": 521.124,
+     "end": 521.624,
+     "text": "focused"
+    },
+    {
+     "start": 521.624,
+     "end": 522.124,
+     "text": "instead"
+    },
+    {
+     "start": 522.124,
+     "end": 523.043,
+     "text": "on"
+    },
+    {
+     "start": 523.043,
+     "end": 523.163,
+     "text": "its"
+    },
+    {
+     "start": 523.163,
+     "end": 523.543,
+     "text": "many"
+    },
+    {
+     "start": 523.543,
+     "end": 524.204,
+     "text": "uniquely"
+    },
+    {
+     "start": 524.204,
+     "end": 524.904,
+     "text": "designed"
+    },
+    {
+     "start": 524.904,
+     "end": 525.583,
+     "text": "anomalies,"
+    },
+    {
+     "start": 525.583,
+     "end": 526.764,
+     "text": "including"
+    },
+    {
+     "start": 526.764,
+     "end": 527.504,
+     "text": "architectural"
+    },
+    {
+     "start": 527.504,
+     "end": 528.604,
+     "text": "elements,"
+    },
+    {
+     "start": 528.604,
+     "end": 529.604,
+     "text": "archways,"
+    }
+   ]
+  },
+  {
+   "start": 529.604,
+   "end": 534.604,
+   "text": "linteled portals, square doorways and window openings, and so on,",
+   "words": [
+    {
+     "start": 529.604,
+     "end": 529.923,
+     "text": "linteled"
+    },
+    {
+     "start": 529.923,
+     "end": 531.024,
+     "text": "portals,"
+    },
+    {
+     "start": 531.024,
+     "end": 531.384,
+     "text": "square"
+    },
+    {
+     "start": 531.384,
+     "end": 532.064,
+     "text": "doorways"
+    },
+    {
+     "start": 532.064,
+     "end": 532.404,
+     "text": "and"
+    },
+    {
+     "start": 532.404,
+     "end": 532.744,
+     "text": "window"
+    },
+    {
+     "start": 532.744,
+     "end": 533.784,
+     "text": "openings,"
+    },
+    {
+     "start": 533.784,
+     "end": 533.884,
+     "text": "and"
+    },
+    {
+     "start": 533.884,
+     "end": 534.124,
+     "text": "so"
+    },
+    {
+     "start": 534.124,
+     "end": 534.604,
+     "text": "on,"
+    }
+   ]
+  },
+  {
+   "start": 534.864,
+   "end": 538.184,
+   "text": "which have all suggested not only an artificial creation,",
+   "words": [
+    {
+     "start": 534.864,
+     "end": 535.004,
+     "text": "which"
+    },
+    {
+     "start": 535.004,
+     "end": 535.144,
+     "text": "have"
+    },
+    {
+     "start": 535.144,
+     "end": 535.343,
+     "text": "all"
+    },
+    {
+     "start": 535.343,
+     "end": 535.944,
+     "text": "suggested"
+    },
+    {
+     "start": 535.944,
+     "end": 536.504,
+     "text": "not"
+    },
+    {
+     "start": 536.504,
+     "end": 536.884,
+     "text": "only"
+    },
+    {
+     "start": 536.884,
+     "end": 537.064,
+     "text": "an"
+    },
+    {
+     "start": 537.064,
+     "end": 537.384,
+     "text": "artificial"
+    },
+    {
+     "start": 537.384,
+     "end": 538.184,
+     "text": "creation,"
+    }
+   ]
+  },
+  {
+   "start": 538.744,
+   "end": 542.824,
+   "text": "but functionalities once inbuilt solely for the use of humans,",
+   "words": [
+    {
+     "start": 538.744,
+     "end": 538.923,
+     "text": "but"
+    },
+    {
+     "start": 538.923,
+     "end": 539.944,
+     "text": "functionalities"
+    },
+    {
+     "start": 539.944,
+     "end": 540.264,
+     "text": "once"
+    },
+    {
+     "start": 540.264,
+     "end": 540.803,
+     "text": "inbuilt"
+    },
+    {
+     "start": 540.803,
+     "end": 541.364,
+     "text": "solely"
+    },
+    {
+     "start": 541.364,
+     "end": 541.723,
+     "text": "for"
+    },
+    {
+     "start": 541.723,
+     "end": 541.843,
+     "text": "the"
+    },
+    {
+     "start": 541.843,
+     "end": 542.144,
+     "text": "use"
+    },
+    {
+     "start": 542.144,
+     "end": 542.364,
+     "text": "of"
+    },
+    {
+     "start": 542.364,
+     "end": 542.824,
+     "text": "humans,"
+    }
+   ]
+  },
+  {
+   "start": 544.043,
+   "end": 547.284,
+   "text": "which they soundly concluded nature would simply not create.",
+   "words": [
+    {
+     "start": 544.043,
+     "end": 544.244,
+     "text": "which"
+    },
+    {
+     "start": 544.244,
+     "end": 544.404,
+     "text": "they"
+    },
+    {
+     "start": 544.404,
+     "end": 544.843,
+     "text": "soundly"
+    },
+    {
+     "start": 544.843,
+     "end": 545.324,
+     "text": "concluded"
+    },
+    {
+     "start": 545.324,
+     "end": 545.984,
+     "text": "nature"
+    },
+    {
+     "start": 545.984,
+     "end": 546.264,
+     "text": "would"
+    },
+    {
+     "start": 546.264,
+     "end": 546.504,
+     "text": "simply"
+    },
+    {
+     "start": 546.504,
+     "end": 546.864,
+     "text": "not"
+    },
+    {
+     "start": 546.864,
+     "end": 547.284,
+     "text": "create."
+    }
+   ]
+  },
+  {
+   "start": 548.764,
+   "end": 553.504,
+   "text": "The past height of the wall, also an impressive characteristic.",
+   "words": [
+    {
+     "start": 548.764,
+     "end": 548.904,
+     "text": "The"
+    },
+    {
+     "start": 548.904,
+     "end": 549.324,
+     "text": "past"
+    },
+    {
+     "start": 549.324,
+     "end": 549.624,
+     "text": "height"
+    },
+    {
+     "start": 549.624,
+     "end": 549.904,
+     "text": "of"
+    },
+    {
+     "start": 549.904,
+     "end": 550.024,
+     "text": "the"
+    },
+    {
+     "start": 550.024,
+     "end": 550.364,
+     "text": "wall,"
+    },
+    {
+     "start": 550.364,
+     "end": 551.463,
+     "text": "also"
+    },
+    {
+     "start": 551.463,
+     "end": 551.684,
+     "text": "an"
+    },
+    {
+     "start": 551.684,
+     "end": 552.184,
+     "text": "impressive"
+    },
+    {
+     "start": 552.184,
+     "end": 553.504,
+     "text": "characteristic."
+    }
+   ]
+  },
+  {
+   "start": 554.803,
+   "end": 556.404,
+   "text": "With the family of T.U.",
+   "words": [
+    {
+     "start": 554.803,
+     "end": 554.984,
+     "text": "With"
+    },
+    {
+     "start": 554.984,
+     "end": 555.144,
+     "text": "the"
+    },
+    {
+     "start": 555.144,
+     "end": 555.524,
+     "text": "family"
+    },
+    {
+     "start": 555.524,
+     "end": 555.764,
+     "text": "of"
+    },
+    {
+     "start": 555.764,
+     "end": 556.404,
+     "text": "T.U."
+    }
+   ]
+  },
+  {
+   "start": 556.404,
+   "end": 557.064,
+   "text": "Wade,",
+   "words": [
+    {
+     "start": 556.404,
+     "end": 557.064,
+     "text": "Wade,"
+    }
+   ]
+  },
+  {
+   "start": 557.404,
+   "end": 562.004,
+   "text": "who initially made the discovery once digging to a depth of some 40 feet",
+   "words": [
+    {
+     "start": 557.404,
+     "end": 557.543,
+     "text": "who"
+    },
+    {
+     "start": 557.543,
+     "end": 557.944,
+     "text": "initially"
+    },
+    {
+     "start": 557.944,
+     "end": 558.343,
+     "text": "made"
+    },
+    {
+     "start": 558.343,
+     "end": 558.524,
+     "text": "the"
+    },
+    {
+     "start": 558.524,
+     "end": 558.984,
+     "text": "discovery"
+    },
+    {
+     "start": 558.984,
+     "end": 559.484,
+     "text": "once"
+    },
+    {
+     "start": 559.484,
+     "end": 559.824,
+     "text": "digging"
+    },
+    {
+     "start": 559.824,
+     "end": 560.104,
+     "text": "to"
+    },
+    {
+     "start": 560.104,
+     "end": 560.264,
+     "text": "a"
+    },
+    {
+     "start": 560.264,
+     "end": 560.484,
+     "text": "depth"
+    },
+    {
+     "start": 560.484,
+     "end": 560.824,
+     "text": "of"
+    },
+    {
+     "start": 560.824,
+     "end": 561.104,
+     "text": "some"
+    },
+    {
+     "start": 561.104,
+     "end": 561.663,
+     "text": "40"
+    },
+    {
+     "start": 561.663,
+     "end": 562.004,
+     "text": "feet"
+    }
+   ]
+  },
+  {
+   "start": 562.663,
+   "end": 564.764,
+   "text": "to try and find the bottom of the wall,",
+   "words": [
+    {
+     "start": 562.663,
+     "end": 562.744,
+     "text": "to"
+    },
+    {
+     "start": 562.744,
+     "end": 563.024,
+     "text": "try"
+    },
+    {
+     "start": 563.024,
+     "end": 563.223,
+     "text": "and"
+    },
+    {
+     "start": 563.223,
+     "end": 563.444,
+     "text": "find"
+    },
+    {
+     "start": 563.444,
+     "end": 563.624,
+     "text": "the"
+    },
+    {
+     "start": 563.624,
+     "end": 563.904,
+     "text": "bottom"
+    },
+    {
+     "start": 563.904,
+     "end": 564.083,
+     "text": "of"
+    },
+    {
+     "start": 564.083,
+     "end": 564.223,
+     "text": "the"
+    },
+    {
+     "start": 564.223,
+     "end": 564.764,
+     "text": "wall,"
+    }
+   ]
+  },
+  {
+   "start": 565.184,
+   "end": 568.524,
+   "text": "although this excavation was abandoned without finding it.",
+   "words": [
+    {
+     "start": 565.184,
+     "end": 565.423,
+     "text": "although"
+    },
+    {
+     "start": 565.423,
+     "end": 565.904,
+     "text": "this"
+    },
+    {
+     "start": 565.904,
+     "end": 566.504,
+     "text": "excavation"
+    },
+    {
+     "start": 566.504,
+     "end": 566.723,
+     "text": "was"
+    },
+    {
+     "start": 566.723,
+     "end": 567.223,
+     "text": "abandoned"
+    },
+    {
+     "start": 567.223,
+     "end": 567.723,
+     "text": "without"
+    },
+    {
+     "start": 567.723,
+     "end": 568.223,
+     "text": "finding"
+    },
+    {
+     "start": 568.223,
+     "end": 568.524,
+     "text": "it."
+    }
+   ]
+  },
+  {
+   "start": 569.384,
+   "end": 572.663,
+   "text": "Years later, in 1949, Mr.",
+   "words": [
+    {
+     "start": 569.384,
+     "end": 569.644,
+     "text": "Years"
+    },
+    {
+     "start": 569.644,
+     "end": 570.004,
+     "text": "later,"
+    },
+    {
+     "start": 570.004,
+     "end": 570.504,
+     "text": "in"
+    },
+    {
+     "start": 570.504,
+     "end": 572.324,
+     "text": "1949,"
+    },
+    {
+     "start": 572.324,
+     "end": 572.663,
+     "text": "Mr."
+    }
+   ]
+  },
+  {
+   "start": 572.663,
+   "end": 574.163,
+   "text": "Sanders of Fort Worth",
+   "words": [
+    {
+     "start": 572.663,
+     "end": 573.124,
+     "text": "Sanders"
+    },
+    {
+     "start": 573.124,
+     "end": 573.543,
+     "text": "of"
+    },
+    {
+     "start": 573.543,
+     "end": 573.843,
+     "text": "Fort"
+    },
+    {
+     "start": 573.843,
+     "end": 574.163,
+     "text": "Worth"
+    }
+   ]
+  },
+  {
+   "start": 573.864,
+   "end": 579.244,
+   "text": "took up the baton and continued excavational explorations of the wall,",
+   "words": [
+    {
+     "start": 573.864,
+     "end": 574.984,
+     "text": "took"
+    },
+    {
+     "start": 574.984,
+     "end": 575.144,
+     "text": "up"
+    },
+    {
+     "start": 575.144,
+     "end": 575.264,
+     "text": "the"
+    },
+    {
+     "start": 575.264,
+     "end": 575.703,
+     "text": "baton"
+    },
+    {
+     "start": 575.703,
+     "end": 576.043,
+     "text": "and"
+    },
+    {
+     "start": 576.043,
+     "end": 576.583,
+     "text": "continued"
+    },
+    {
+     "start": 576.583,
+     "end": 577.504,
+     "text": "excavational"
+    },
+    {
+     "start": 577.504,
+     "end": 578.303,
+     "text": "explorations"
+    },
+    {
+     "start": 578.303,
+     "end": 578.484,
+     "text": "of"
+    },
+    {
+     "start": 578.484,
+     "end": 578.604,
+     "text": "the"
+    },
+    {
+     "start": 578.604,
+     "end": 579.244,
+     "text": "wall,"
+    }
+   ]
+  },
+  {
+   "start": 579.524,
+   "end": 583.104,
+   "text": "finding a number of megalithic stones at considerable depth",
+   "words": [
+    {
+     "start": 579.524,
+     "end": 579.843,
+     "text": "finding"
+    },
+    {
+     "start": 579.843,
+     "end": 580.024,
+     "text": "a"
+    },
+    {
+     "start": 580.024,
+     "end": 580.223,
+     "text": "number"
+    },
+    {
+     "start": 580.223,
+     "end": 580.444,
+     "text": "of"
+    },
+    {
+     "start": 580.444,
+     "end": 581.083,
+     "text": "megalithic"
+    },
+    {
+     "start": 581.083,
+     "end": 581.444,
+     "text": "stones"
+    },
+    {
+     "start": 581.444,
+     "end": 581.923,
+     "text": "at"
+    },
+    {
+     "start": 581.923,
+     "end": 582.444,
+     "text": "considerable"
+    },
+    {
+     "start": 582.444,
+     "end": 583.104,
+     "text": "depth"
+    }
+   ]
+  },
+  {
+   "start": 583.124,
+   "end": 585.104,
+   "text": "and each weighing several tons.",
+   "words": [
+    {
+     "start": 583.124,
+     "end": 583.644,
+     "text": "and"
+    },
+    {
+     "start": 583.644,
+     "end": 583.864,
+     "text": "each"
+    },
+    {
+     "start": 583.864,
+     "end": 584.203,
+     "text": "weighing"
+    },
+    {
+     "start": 584.203,
+     "end": 584.703,
+     "text": "several"
+    },
+    {
+     "start": 584.703,
+     "end": 585.104,
+     "text": "tons."
+    }
+   ]
+  },
+  {
+   "start": 586.864,
+   "end": 590.684,
+   "text": "After bringing them to the surface, mysterious pictographs were found,",
+   "words": [
+    {
+     "start": 586.864,
+     "end": 587.124,
+     "text": "After"
+    },
+    {
+     "start": 587.124,
+     "end": 587.484,
+     "text": "bringing"
+    },
+    {
+     "start": 587.484,
+     "end": 587.703,
+     "text": "them"
+    },
+    {
+     "start": 587.703,
+     "end": 587.904,
+     "text": "to"
+    },
+    {
+     "start": 587.904,
+     "end": 588.043,
+     "text": "the"
+    },
+    {
+     "start": 588.043,
+     "end": 588.803,
+     "text": "surface,"
+    },
+    {
+     "start": 588.803,
+     "end": 589.303,
+     "text": "mysterious"
+    },
+    {
+     "start": 589.303,
+     "end": 590.163,
+     "text": "pictographs"
+    },
+    {
+     "start": 590.163,
+     "end": 590.303,
+     "text": "were"
+    },
+    {
+     "start": 590.303,
+     "end": 590.684,
+     "text": "found,"
+    }
+   ]
+  },
+  {
+   "start": 591.264,
+   "end": 594.144,
+   "text": "further supporting the thesis of artificial origin.",
+   "words": [
+    {
+     "start": 591.264,
+     "end": 591.444,
+     "text": "further"
+    },
+    {
+     "start": 591.444,
+     "end": 592.083,
+     "text": "supporting"
+    },
+    {
+     "start": 592.083,
+     "end": 592.303,
+     "text": "the"
+    },
+    {
+     "start": 592.303,
+     "end": 592.663,
+     "text": "thesis"
+    },
+    {
+     "start": 592.663,
+     "end": 593.064,
+     "text": "of"
+    },
+    {
+     "start": 593.064,
+     "end": 593.364,
+     "text": "artificial"
+    },
+    {
+     "start": 593.364,
+     "end": 594.144,
+     "text": "origin."
+    }
+   ]
+  },
+  {
+   "start": 595.343,
+   "end": 599.963,
+   "text": "Modern studies have also found that the wall is in fact six stories tall",
+   "words": [
+    {
+     "start": 595.343,
+     "end": 595.703,
+     "text": "Modern"
+    },
+    {
+     "start": 595.703,
+     "end": 596.124,
+     "text": "studies"
+    },
+    {
+     "start": 596.124,
+     "end": 596.404,
+     "text": "have"
+    },
+    {
+     "start": 596.404,
+     "end": 596.644,
+     "text": "also"
+    },
+    {
+     "start": 596.644,
+     "end": 597.083,
+     "text": "found"
+    },
+    {
+     "start": 597.083,
+     "end": 597.284,
+     "text": "that"
+    },
+    {
+     "start": 597.284,
+     "end": 597.404,
+     "text": "the"
+    },
+    {
+     "start": 597.404,
+     "end": 597.744,
+     "text": "wall"
+    },
+    {
+     "start": 597.744,
+     "end": 598.083,
+     "text": "is"
+    },
+    {
+     "start": 598.083,
+     "end": 598.264,
+     "text": "in"
+    },
+    {
+     "start": 598.264,
+     "end": 598.564,
+     "text": "fact"
+    },
+    {
+     "start": 598.564,
+     "end": 599.064,
+     "text": "six"
+    },
+    {
+     "start": 599.064,
+     "end": 599.484,
+     "text": "stories"
+    },
+    {
+     "start": 599.484,
+     "end": 599.963,
+     "text": "tall"
+    }
+   ]
+  },
+  {
+   "start": 599.984,
+   "end": 602.604,
+   "text": "and around 20 miles in length,",
+   "words": [
+    {
+     "start": 599.984,
+     "end": 600.803,
+     "text": "and"
+    },
+    {
+     "start": 600.803,
+     "end": 601.163,
+     "text": "around"
+    },
+    {
+     "start": 601.163,
+     "end": 601.564,
+     "text": "20"
+    },
+    {
+     "start": 601.564,
+     "end": 601.963,
+     "text": "miles"
+    },
+    {
+     "start": 601.963,
+     "end": 602.203,
+     "text": "in"
+    },
+    {
+     "start": 602.203,
+     "end": 602.604,
+     "text": "length,"
+    }
+   ]
+  },
+  {
+   "start": 603.803,
+   "end": 608.404,
+   "text": "with several individuals now attributing it to a lost civilization of giants due",
+   "words": [
+    {
+     "start": 603.803,
+     "end": 603.923,
+     "text": "with"
+    },
+    {
+     "start": 603.923,
+     "end": 604.303,
+     "text": "several"
+    },
+    {
+     "start": 604.303,
+     "end": 604.824,
+     "text": "individuals"
+    },
+    {
+     "start": 604.824,
+     "end": 605.203,
+     "text": "now"
+    },
+    {
+     "start": 605.203,
+     "end": 605.703,
+     "text": "attributing"
+    },
+    {
+     "start": 605.703,
+     "end": 605.944,
+     "text": "it"
+    },
+    {
+     "start": 605.944,
+     "end": 606.104,
+     "text": "to"
+    },
+    {
+     "start": 606.104,
+     "end": 606.244,
+     "text": "a"
+    },
+    {
+     "start": 606.244,
+     "end": 606.504,
+     "text": "lost"
+    },
+    {
+     "start": 606.504,
+     "end": 606.843,
+     "text": "civilization"
+    },
+    {
+     "start": 606.843,
+     "end": 607.404,
+     "text": "of"
+    },
+    {
+     "start": 607.404,
+     "end": 607.784,
+     "text": "giants"
+    },
+    {
+     "start": 607.463,
+     "end": 608.404,
+     "text": "due"
+    }
+   ]
+  },
+  {
+   "start": 608.404,
+   "end": 610.404,
+   "text": "to these inexplicable accomplishments.",
+   "words": [
+    {
+     "start": 608.404,
+     "end": 608.583,
+     "text": "to"
+    },
+    {
+     "start": 608.583,
+     "end": 608.843,
+     "text": "these"
+    },
+    {
+     "start": 608.843,
+     "end": 609.803,
+     "text": "inexplicable"
+    },
+    {
+     "start": 609.803,
+     "end": 610.404,
+     "text": "accomplishments."
+    }
+   ]
+  },
+  {
+   "start": 612.004,
+   "end": 616.784,
+   "text": "Curious metal rings, just as those found inside the geodes,",
+   "words": [
+    {
+     "start": 612.004,
+     "end": 612.484,
+     "text": "Curious"
+    },
+    {
+     "start": 612.484,
+     "end": 612.923,
+     "text": "metal"
+    },
+    {
+     "start": 612.923,
+     "end": 613.423,
+     "text": "rings,"
+    },
+    {
+     "start": 613.423,
+     "end": 614.404,
+     "text": "just"
+    },
+    {
+     "start": 614.404,
+     "end": 614.644,
+     "text": "as"
+    },
+    {
+     "start": 614.644,
+     "end": 614.864,
+     "text": "those"
+    },
+    {
+     "start": 614.864,
+     "end": 615.303,
+     "text": "found"
+    },
+    {
+     "start": 615.303,
+     "end": 615.784,
+     "text": "inside"
+    },
+    {
+     "start": 615.784,
+     "end": 616.024,
+     "text": "the"
+    },
+    {
+     "start": 616.024,
+     "end": 616.784,
+     "text": "geodes,"
+    }
+   ]
+  },
+  {
+   "start": 616.904,
+   "end": 619.384,
+   "text": "as covered earlier, all of a quote,",
+   "words": [
+    {
+     "start": 616.904,
+     "end": 617.043,
+     "text": "as"
+    },
+    {
+     "start": 617.043,
+     "end": 617.404,
+     "text": "covered"
+    },
+    {
+     "start": 617.404,
+     "end": 618.524,
+     "text": "earlier,"
+    },
+    {
+     "start": 618.524,
+     "end": 618.684,
+     "text": "all"
+    },
+    {
+     "start": 618.684,
+     "end": 618.824,
+     "text": "of"
+    },
+    {
+     "start": 618.824,
+     "end": 618.904,
+     "text": "a"
+    },
+    {
+     "start": 618.904,
+     "end": 619.384,
+     "text": "quote,"
+    }
+   ]
+  },
+  {
+   "start": 619.884,
+   "end": 622.684,
+   "text": "sturdy modern composition, end quote,",
+   "words": [
+    {
+     "start": 619.884,
+     "end": 620.124,
+     "text": "sturdy"
+    },
+    {
+     "start": 620.124,
+     "end": 620.644,
+     "text": "modern"
+    },
+    {
+     "start": 620.644,
+     "end": 622.083,
+     "text": "composition,"
+    },
+    {
+     "start": 622.083,
+     "end": 622.124,
+     "text": "end"
+    },
+    {
+     "start": 622.124,
+     "end": 622.684,
+     "text": "quote,"
+    }
+   ]
+  },
+  {
+   "start": 622.963,
+   "end": 625.163,
+   "text": "also found embedded in several rocks,",
+   "words": [
+    {
+     "start": 622.963,
+     "end": 623.203,
+     "text": "also"
+    },
+    {
+     "start": 623.203,
+     "end": 623.624,
+     "text": "found"
+    },
+    {
+     "start": 623.624,
+     "end": 623.984,
+     "text": "embedded"
+    },
+    {
+     "start": 623.984,
+     "end": 624.264,
+     "text": "in"
+    },
+    {
+     "start": 624.264,
+     "end": 624.583,
+     "text": "several"
+    },
+    {
+     "start": 624.583,
+     "end": 625.163,
+     "text": "rocks,"
+    }
+   ]
+  },
+  {
+   "start": 625.543,
+   "end": 626.884,
+   "text": "these additionally suggesting",
+   "words": [
+    {
+     "start": 625.543,
+     "end": 625.723,
+     "text": "these"
+    },
+    {
+     "start": 625.723,
+     "end": 626.223,
+     "text": "additionally"
+    },
+    {
+     "start": 626.223,
+     "end": 626.884,
+     "text": "suggesting"
+    }
+   ]
+  },
+  {
+   "start": 626.484,
+   "end": 631.043,
+   "text": "the possible past presence of now lost high technology.",
+   "words": [
+    {
+     "start": 626.484,
+     "end": 627.604,
+     "text": "the"
+    },
+    {
+     "start": 627.604,
+     "end": 628.083,
+     "text": "possible"
+    },
+    {
+     "start": 628.083,
+     "end": 628.564,
+     "text": "past"
+    },
+    {
+     "start": 628.564,
+     "end": 628.963,
+     "text": "presence"
+    },
+    {
+     "start": 628.963,
+     "end": 629.303,
+     "text": "of"
+    },
+    {
+     "start": 629.303,
+     "end": 629.564,
+     "text": "now"
+    },
+    {
+     "start": 629.564,
+     "end": 630.004,
+     "text": "lost"
+    },
+    {
+     "start": 630.004,
+     "end": 630.284,
+     "text": "high"
+    },
+    {
+     "start": 630.284,
+     "end": 631.043,
+     "text": "technology."
+    }
+   ]
+  },
+  {
+   "start": 632.303,
+   "end": 634.303,
+   "text": "A gigantic artificial wall,",
+   "words": [
+    {
+     "start": 632.303,
+     "end": 632.463,
+     "text": "A"
+    },
+    {
+     "start": 632.463,
+     "end": 632.963,
+     "text": "gigantic"
+    },
+    {
+     "start": 632.963,
+     "end": 633.444,
+     "text": "artificial"
+    },
+    {
+     "start": 633.444,
+     "end": 634.303,
+     "text": "wall,"
+    }
+   ]
+  },
+  {
+   "start": 634.264,
+   "end": 637.444,
+   "text": "measuring approximately 71 miles in length,",
+   "words": [
+    {
+     "start": 634.264,
+     "end": 634.803,
+     "text": "measuring"
+    },
+    {
+     "start": 634.803,
+     "end": 635.463,
+     "text": "approximately"
+    },
+    {
+     "start": 635.463,
+     "end": 636.244,
+     "text": "71"
+    },
+    {
+     "start": 636.244,
+     "end": 636.723,
+     "text": "miles"
+    },
+    {
+     "start": 636.723,
+     "end": 636.984,
+     "text": "in"
+    },
+    {
+     "start": 636.984,
+     "end": 637.444,
+     "text": "length,"
+    }
+   ]
+  },
+  {
+   "start": 637.864,
+   "end": 640.904,
+   "text": "can also be found extending from the mountains of Bamu",
+   "words": [
+    {
+     "start": 637.864,
+     "end": 638.004,
+     "text": "can"
+    },
+    {
+     "start": 638.004,
+     "end": 638.324,
+     "text": "also"
+    },
+    {
+     "start": 638.324,
+     "end": 638.524,
+     "text": "be"
+    },
+    {
+     "start": 638.524,
+     "end": 638.884,
+     "text": "found"
+    },
+    {
+     "start": 638.884,
+     "end": 639.324,
+     "text": "extending"
+    },
+    {
+     "start": 639.324,
+     "end": 639.684,
+     "text": "from"
+    },
+    {
+     "start": 639.684,
+     "end": 639.824,
+     "text": "the"
+    },
+    {
+     "start": 639.824,
+     "end": 640.163,
+     "text": "mountains"
+    },
+    {
+     "start": 640.163,
+     "end": 640.484,
+     "text": "of"
+    },
+    {
+     "start": 640.484,
+     "end": 640.904,
+     "text": "Bamu"
+    }
+   ]
+  },
+  {
+   "start": 640.504,
+   "end": 645.184,
+   "text": "to the town of Jaumarg within modern-day Iran.",
+   "words": [
+    {
+     "start": 640.504,
+     "end": 641.864,
+     "text": "to"
+    },
+    {
+     "start": 641.864,
+     "end": 641.984,
+     "text": "the"
+    },
+    {
+     "start": 641.984,
+     "end": 642.303,
+     "text": "town"
+    },
+    {
+     "start": 642.303,
+     "end": 642.583,
+     "text": "of"
+    },
+    {
+     "start": 642.583,
+     "end": 643.284,
+     "text": "Jaumarg"
+    },
+    {
+     "start": 643.284,
+     "end": 643.824,
+     "text": "within"
+    },
+    {
+     "start": 643.824,
+     "end": 644.663,
+     "text": "modern-day"
+    },
+    {
+     "start": 644.663,
+     "end": 645.184,
+     "text": "Iran."
+    }
+   ]
+  },
+  {
+   "start": 646.583,
+   "end": 648.784,
+   "text": "With modern computer systems now estimating",
+   "words": [
+    {
+     "start": 646.583,
+     "end": 646.784,
+     "text": "With"
+    },
+    {
+     "start": 646.784,
+     "end": 647.124,
+     "text": "modern"
+    },
+    {
+     "start": 647.124,
+     "end": 647.484,
+     "text": "computer"
+    },
+    {
+     "start": 647.484,
+     "end": 647.923,
+     "text": "systems"
+    },
+    {
+     "start": 647.923,
+     "end": 648.223,
+     "text": "now"
+    },
+    {
+     "start": 648.223,
+     "end": 648.784,
+     "text": "estimating"
+    }
+   ]
+  },
+  {
+   "start": 648.843,
+   "end": 656.885,
+   "text": "that more than 1 million cubic meters of stone would have had to have been quarried, transported, and placed where it now lay.",
+   "words": [
+    {
+     "start": 648.843,
+     "end": 649.024,
+     "text": "that"
+    },
+    {
+     "start": 649.024,
+     "end": 649.184,
+     "text": "more"
+    },
+    {
+     "start": 649.184,
+     "end": 649.343,
+     "text": "than"
+    },
+    {
+     "start": 649.343,
+     "end": 649.744,
+     "text": "1"
+    },
+    {
+     "start": 649.744,
+     "end": 650.184,
+     "text": "million"
+    },
+    {
+     "start": 650.184,
+     "end": 650.543,
+     "text": "cubic"
+    },
+    {
+     "start": 650.543,
+     "end": 651.004,
+     "text": "meters"
+    },
+    {
+     "start": 651.004,
+     "end": 651.244,
+     "text": "of"
+    },
+    {
+     "start": 651.244,
+     "end": 651.684,
+     "text": "stone"
+    },
+    {
+     "start": 651.303,
+     "end": 652.524,
+     "text": "would"
+    },
+    {
+     "start": 652.524,
+     "end": 652.684,
+     "text": "have"
+    },
+    {
+     "start": 652.684,
+     "end": 652.864,
+     "text": "had"
+    },
+    {
+     "start": 652.864,
+     "end": 653.024,
+     "text": "to"
+    },
+    {
+     "start": 653.024,
+     "end": 653.203,
+     "text": "have"
+    },
+    {
+     "start": 653.203,
+     "end": 653.343,
+     "text": "been"
+    },
+    {
+     "start": 653.345,
+     "end": 654.385,
+     "text": "quarried,"
+    },
+    {
+     "start": 654.385,
+     "end": 654.785,
+     "text": "transported,"
+    },
+    {
+     "start": 654.785,
+     "end": 655.545,
+     "text": "and"
+    },
+    {
+     "start": 655.545,
+     "end": 655.965,
+     "text": "placed"
+    },
+    {
+     "start": 655.965,
+     "end": 656.265,
+     "text": "where"
+    },
+    {
+     "start": 655.805,
+     "end": 656.425,
+     "text": "it"
+    },
+    {
+     "start": 656.425,
+     "end": 656.565,
+     "text": "now"
+    },
+    {
+     "start": 656.565,
+     "end": 656.885,
+     "text": "lay."
+    }
+   ]
+  },
+  {
+   "start": 656.885,
+   "end": 664.905,
+   "text": "With this being even but a fragment, a fraction, a mere remnant of its true original",
+   "words": [
+    {
+     "start": 656.885,
+     "end": 658.725,
+     "text": "With"
+    },
+    {
+     "start": 658.725,
+     "end": 658.965,
+     "text": "this"
+    },
+    {
+     "start": 658.965,
+     "end": 659.285,
+     "text": "being"
+    },
+    {
+     "start": 659.285,
+     "end": 659.645,
+     "text": "even"
+    },
+    {
+     "start": 659.645,
+     "end": 660.045,
+     "text": "but"
+    },
+    {
+     "start": 660.045,
+     "end": 660.165,
+     "text": "a"
+    },
+    {
+     "start": 660.165,
+     "end": 661.405,
+     "text": "fragment,"
+    },
+    {
+     "start": 661.405,
+     "end": 661.505,
+     "text": "a"
+    },
+    {
+     "start": 661.505,
+     "end": 662.645,
+     "text": "fraction,"
+    },
+    {
+     "start": 662.645,
+     "end": 662.725,
+     "text": "a"
+    },
+    {
+     "start": 662.725,
+     "end": 663.025,
+     "text": "mere"
+    },
+    {
+     "start": 663.025,
+     "end": 663.485,
+     "text": "remnant"
+    },
+    {
+     "start": 663.485,
+     "end": 663.965,
+     "text": "of"
+    },
+    {
+     "start": 663.965,
+     "end": 664.065,
+     "text": "its"
+    },
+    {
+     "start": 664.065,
+     "end": 664.385,
+     "text": "true"
+    },
+    {
+     "start": 664.385,
+     "end": 664.905,
+     "text": "original"
+    }
+   ]
+  },
+  {
+   "start": 664.485,
+   "end": 665.545,
+   "text": "size.",
+   "words": [
+    {
+     "start": 664.485,
+     "end": 665.545,
+     "text": "size."
+    }
+   ]
+  },
+  {
+   "start": 665.545,
+   "end": 673.265,
+   "text": "Quote, with an estimated volume of some one million cubic meters of stone, its construction would",
+   "words": [
+    {
+     "start": 665.545,
+     "end": 667.185,
+     "text": "Quote,"
+    },
+    {
+     "start": 667.185,
+     "end": 667.805,
+     "text": "with"
+    },
+    {
+     "start": 667.805,
+     "end": 667.925,
+     "text": "an"
+    },
+    {
+     "start": 667.925,
+     "end": 668.385,
+     "text": "estimated"
+    },
+    {
+     "start": 668.385,
+     "end": 668.905,
+     "text": "volume"
+    },
+    {
+     "start": 668.905,
+     "end": 669.185,
+     "text": "of"
+    },
+    {
+     "start": 669.185,
+     "end": 669.445,
+     "text": "some"
+    },
+    {
+     "start": 669.445,
+     "end": 669.745,
+     "text": "one"
+    },
+    {
+     "start": 669.745,
+     "end": 670.125,
+     "text": "million"
+    },
+    {
+     "start": 670.125,
+     "end": 670.505,
+     "text": "cubic"
+    },
+    {
+     "start": 670.505,
+     "end": 670.965,
+     "text": "meters"
+    },
+    {
+     "start": 670.965,
+     "end": 671.205,
+     "text": "of"
+    },
+    {
+     "start": 671.205,
+     "end": 671.625,
+     "text": "stone,"
+    },
+    {
+     "start": 671.625,
+     "end": 672.385,
+     "text": "its"
+    },
+    {
+     "start": 672.385,
+     "end": 672.825,
+     "text": "construction"
+    },
+    {
+     "start": 672.485,
+     "end": 673.265,
+     "text": "would"
+    }
+   ]
+  },
+  {
+   "start": 673.265,
+   "end": 679.725,
+   "text": "have required abundant resources, in terms of labor, materials, and just tremendous time.",
+   "words": [
+    {
+     "start": 673.265,
+     "end": 673.365,
+     "text": "have"
+    },
+    {
+     "start": 673.365,
+     "end": 673.905,
+     "text": "required"
+    },
+    {
+     "start": 673.905,
+     "end": 674.405,
+     "text": "abundant"
+    },
+    {
+     "start": 674.405,
+     "end": 675.545,
+     "text": "resources,"
+    },
+    {
+     "start": 675.545,
+     "end": 675.985,
+     "text": "in"
+    },
+    {
+     "start": 675.985,
+     "end": 676.205,
+     "text": "terms"
+    },
+    {
+     "start": 676.205,
+     "end": 676.385,
+     "text": "of"
+    },
+    {
+     "start": 676.385,
+     "end": 677.185,
+     "text": "labor,"
+    },
+    {
+     "start": 677.185,
+     "end": 677.685,
+     "text": "materials,"
+    },
+    {
+     "start": 677.685,
+     "end": 678.385,
+     "text": "and"
+    },
+    {
+     "start": 678.385,
+     "end": 678.605,
+     "text": "just"
+    },
+    {
+     "start": 678.605,
+     "end": 679.085,
+     "text": "tremendous"
+    },
+    {
+     "start": 679.085,
+     "end": 679.725,
+     "text": "time."
+    }
+   ]
+  },
+  {
+   "start": 680.625,
+   "end": 683.265,
+   "text": "wrote Sajjad Alibaygi, Ph.D.",
+   "words": [
+    {
+     "start": 680.625,
+     "end": 680.765,
+     "text": "wrote"
+    },
+    {
+     "start": 680.765,
+     "end": 681.405,
+     "text": "Sajjad"
+    },
+    {
+     "start": 681.405,
+     "end": 682.725,
+     "text": "Alibaygi,"
+    },
+    {
+     "start": 682.725,
+     "end": 683.265,
+     "text": "Ph.D."
+    }
+   ]
+  },
+  {
+   "start": 683.265,
+   "end": 686.785,
+   "text": "of the Archaeology Department of the University of Tehran",
+   "words": [
+    {
+     "start": 683.265,
+     "end": 683.665,
+     "text": "of"
+    },
+    {
+     "start": 683.665,
+     "end": 683.785,
+     "text": "the"
+    },
+    {
+     "start": 683.785,
+     "end": 684.505,
+     "text": "Archaeology"
+    },
+    {
+     "start": 684.505,
+     "end": 684.825,
+     "text": "Department"
+    },
+    {
+     "start": 684.825,
+     "end": 685.305,
+     "text": "of"
+    },
+    {
+     "start": 685.305,
+     "end": 685.445,
+     "text": "the"
+    },
+    {
+     "start": 685.445,
+     "end": 685.765,
+     "text": "University"
+    },
+    {
+     "start": 685.765,
+     "end": 686.285,
+     "text": "of"
+    },
+    {
+     "start": 686.285,
+     "end": 686.785,
+     "text": "Tehran"
+    }
+   ]
+  },
+  {
+   "start": 686.825,
+   "end": 690.505,
+   "text": "in an article published in the journal Antiquity.",
+   "words": [
+    {
+     "start": 686.825,
+     "end": 687.505,
+     "text": "in"
+    },
+    {
+     "start": 687.505,
+     "end": 687.605,
+     "text": "an"
+    },
+    {
+     "start": 687.605,
+     "end": 687.985,
+     "text": "article"
+    },
+    {
+     "start": 687.985,
+     "end": 688.465,
+     "text": "published"
+    },
+    {
+     "start": 688.465,
+     "end": 688.685,
+     "text": "in"
+    },
+    {
+     "start": 688.685,
+     "end": 688.765,
+     "text": "the"
+    },
+    {
+     "start": 688.765,
+     "end": 689.085,
+     "text": "journal"
+    },
+    {
+     "start": 689.085,
+     "end": 690.505,
+     "text": "Antiquity."
+    }
+   ]
+  },
+  {
+   "start": 691.365,
+   "end": 698.025,
+   "text": "With this astonishing ancient feat, although long claimed as unknown to mainstream archaeology,",
+   "words": [
+    {
+     "start": 691.365,
+     "end": 691.505,
+     "text": "With"
+    },
+    {
+     "start": 691.505,
+     "end": 691.725,
+     "text": "this"
+    },
+    {
+     "start": 691.725,
+     "end": 692.385,
+     "text": "astonishing"
+    },
+    {
+     "start": 692.385,
+     "end": 692.985,
+     "text": "ancient"
+    },
+    {
+     "start": 692.985,
+     "end": 693.545,
+     "text": "feat,"
+    },
+    {
+     "start": 693.545,
+     "end": 694.045,
+     "text": "although"
+    },
+    {
+     "start": 694.045,
+     "end": 694.545,
+     "text": "long"
+    },
+    {
+     "start": 694.545,
+     "end": 694.905,
+     "text": "claimed"
+    },
+    {
+     "start": 694.905,
+     "end": 695.205,
+     "text": "as"
+    },
+    {
+     "start": 695.205,
+     "end": 695.725,
+     "text": "unknown"
+    },
+    {
+     "start": 695.725,
+     "end": 696.265,
+     "text": "to"
+    },
+    {
+     "start": 696.265,
+     "end": 696.645,
+     "text": "mainstream"
+    },
+    {
+     "start": 696.645,
+     "end": 698.025,
+     "text": "archaeology,"
+    }
+   ]
+  },
+  {
+   "start": 698.005,
+   "end": 701.385,
+   "text": "many others, aware of its existence for millennia.",
+   "words": [
+    {
+     "start": 698.005,
+     "end": 698.225,
+     "text": "many"
+    },
+    {
+     "start": 698.225,
+     "end": 698.745,
+     "text": "others,"
+    },
+    {
+     "start": 698.745,
+     "end": 699.585,
+     "text": "aware"
+    },
+    {
+     "start": 699.585,
+     "end": 699.865,
+     "text": "of"
+    },
+    {
+     "start": 699.865,
+     "end": 699.965,
+     "text": "its"
+    },
+    {
+     "start": 699.965,
+     "end": 700.425,
+     "text": "existence"
+    },
+    {
+     "start": 700.425,
+     "end": 700.805,
+     "text": "for"
+    },
+    {
+     "start": 700.805,
+     "end": 701.385,
+     "text": "millennia."
+    }
+   ]
+  },
+  {
+   "start": 703.605,
+   "end": 707.285,
+   "text": "The wall of Fenestras being yet another most peculiar",
+   "words": [
+    {
+     "start": 703.605,
+     "end": 703.705,
+     "text": "The"
+    },
+    {
+     "start": 703.705,
+     "end": 704.005,
+     "text": "wall"
+    },
+    {
+     "start": 704.005,
+     "end": 704.225,
+     "text": "of"
+    },
+    {
+     "start": 704.225,
+     "end": 704.885,
+     "text": "Fenestras"
+    },
+    {
+     "start": 704.885,
+     "end": 705.685,
+     "text": "being"
+    },
+    {
+     "start": 705.685,
+     "end": 705.905,
+     "text": "yet"
+    },
+    {
+     "start": 705.905,
+     "end": 706.325,
+     "text": "another"
+    },
+    {
+     "start": 706.325,
+     "end": 706.765,
+     "text": "most"
+    },
+    {
+     "start": 706.765,
+     "end": 707.285,
+     "text": "peculiar"
+    }
+   ]
+  },
+  {
+   "start": 707.285,
+   "end": 712.105,
+   "text": "and equally incredible ancient anomaly found standing,",
+   "words": [
+    {
+     "start": 707.285,
+     "end": 708.085,
+     "text": "and"
+    },
+    {
+     "start": 708.085,
+     "end": 708.505,
+     "text": "equally"
+    },
+    {
+     "start": 708.505,
+     "end": 709.285,
+     "text": "incredible"
+    },
+    {
+     "start": 709.285,
+     "end": 709.845,
+     "text": "ancient"
+    },
+    {
+     "start": 709.845,
+     "end": 710.365,
+     "text": "anomaly"
+    },
+    {
+     "start": 710.365,
+     "end": 711.005,
+     "text": "found"
+    },
+    {
+     "start": 711.005,
+     "end": 712.105,
+     "text": "standing,"
+    }
+   ]
+  },
+  {
+   "start": 712.265,
+   "end": 716.845,
+   "text": "soaring into the sky and thankfully still in possession of its clear,",
+   "words": [
+    {
+     "start": 712.265,
+     "end": 712.665,
+     "text": "soaring"
+    },
+    {
+     "start": 712.665,
+     "end": 712.945,
+     "text": "into"
+    },
+    {
+     "start": 712.945,
+     "end": 713.105,
+     "text": "the"
+    },
+    {
+     "start": 713.105,
+     "end": 713.365,
+     "text": "sky"
+    },
+    {
+     "start": 713.365,
+     "end": 714.105,
+     "text": "and"
+    },
+    {
+     "start": 714.105,
+     "end": 714.545,
+     "text": "thankfully"
+    },
+    {
+     "start": 714.545,
+     "end": 715.165,
+     "text": "still"
+    },
+    {
+     "start": 715.165,
+     "end": 715.365,
+     "text": "in"
+    },
+    {
+     "start": 715.365,
+     "end": 715.625,
+     "text": "possession"
+    },
+    {
+     "start": 715.625,
+     "end": 716.065,
+     "text": "of"
+    },
+    {
+     "start": 716.065,
+     "end": 716.185,
+     "text": "its"
+    },
+    {
+     "start": 716.185,
+     "end": 716.845,
+     "text": "clear,"
+    }
+   ]
+  },
+  {
+   "start": 717.225,
+   "end": 720.625,
+   "text": "out-of-place appearance within the surrounding landscape.",
+   "words": [
+    {
+     "start": 717.225,
+     "end": 717.765,
+     "text": "out-of-place"
+    },
+    {
+     "start": 717.765,
+     "end": 718.325,
+     "text": "appearance"
+    },
+    {
+     "start": 718.325,
+     "end": 719.245,
+     "text": "within"
+    },
+    {
+     "start": 719.245,
+     "end": 719.465,
+     "text": "the"
+    },
+    {
+     "start": 719.465,
+     "end": 719.885,
+     "text": "surrounding"
+    },
+    {
+     "start": 719.885,
+     "end": 720.625,
+     "text": "landscape."
+    }
+   ]
+  },
+  {
+   "start": 722.125,
+   "end": 727.265,
+   "text": "Yet it is nonetheless, again, predictably still heavily and hotly debated",
+   "words": [
+    {
+     "start": 722.125,
+     "end": 722.305,
+     "text": "Yet"
+    },
+    {
+     "start": 722.305,
+     "end": 722.505,
+     "text": "it"
+    },
+    {
+     "start": 722.505,
+     "end": 722.685,
+     "text": "is"
+    },
+    {
+     "start": 722.685,
+     "end": 723.045,
+     "text": "nonetheless,"
+    },
+    {
+     "start": 723.045,
+     "end": 724.525,
+     "text": "again,"
+    },
+    {
+     "start": 724.525,
+     "end": 725.245,
+     "text": "predictably"
+    },
+    {
+     "start": 725.245,
+     "end": 725.585,
+     "text": "still"
+    },
+    {
+     "start": 725.585,
+     "end": 726.025,
+     "text": "heavily"
+    },
+    {
+     "start": 726.025,
+     "end": 726.425,
+     "text": "and"
+    },
+    {
+     "start": 726.425,
+     "end": 726.865,
+     "text": "hotly"
+    },
+    {
+     "start": 726.865,
+     "end": 727.265,
+     "text": "debated"
+    }
+   ]
+  },
+  {
+   "start": 727.885,
+   "end": 731.325,
+   "text": "as nothing other than the result of geological activity.",
+   "words": [
+    {
+     "start": 727.885,
+     "end": 728.165,
+     "text": "as"
+    },
+    {
+     "start": 728.165,
+     "end": 728.465,
+     "text": "nothing"
+    },
+    {
+     "start": 728.465,
+     "end": 728.825,
+     "text": "other"
+    },
+    {
+     "start": 728.825,
+     "end": 729.225,
+     "text": "than"
+    },
+    {
+     "start": 729.225,
+     "end": 729.345,
+     "text": "the"
+    },
+    {
+     "start": 729.345,
+     "end": 729.665,
+     "text": "result"
+    },
+    {
+     "start": 729.665,
+     "end": 729.865,
+     "text": "of"
+    },
+    {
+     "start": 729.865,
+     "end": 730.445,
+     "text": "geological"
+    },
+    {
+     "start": 730.445,
+     "end": 731.325,
+     "text": "activity."
+    }
+   ]
+  },
+  {
+   "start": 732.525,
+   "end": 740.545,
+   "text": "Located near to the modern-day city of Barcelona, it is a relic which, just like that of the countless prehistoric or oftentimes",
+   "words": [
+    {
+     "start": 732.525,
+     "end": 732.985,
+     "text": "Located"
+    },
+    {
+     "start": 732.985,
+     "end": 733.225,
+     "text": "near"
+    },
+    {
+     "start": 733.225,
+     "end": 733.405,
+     "text": "to"
+    },
+    {
+     "start": 733.405,
+     "end": 733.505,
+     "text": "the"
+    },
+    {
+     "start": 733.505,
+     "end": 734.065,
+     "text": "modern-day"
+    },
+    {
+     "start": 734.065,
+     "end": 734.445,
+     "text": "city"
+    },
+    {
+     "start": 734.445,
+     "end": 734.625,
+     "text": "of"
+    },
+    {
+     "start": 734.625,
+     "end": 735.665,
+     "text": "Barcelona,"
+    },
+    {
+     "start": 735.665,
+     "end": 735.725,
+     "text": "it"
+    },
+    {
+     "start": 735.725,
+     "end": 735.845,
+     "text": "is"
+    },
+    {
+     "start": 735.845,
+     "end": 735.985,
+     "text": "a"
+    },
+    {
+     "start": 735.985,
+     "end": 736.465,
+     "text": "relic"
+    },
+    {
+     "start": 736.465,
+     "end": 737.225,
+     "text": "which,"
+    },
+    {
+     "start": 737.225,
+     "end": 737.725,
+     "text": "just"
+    },
+    {
+     "start": 737.725,
+     "end": 737.965,
+     "text": "like"
+    },
+    {
+     "start": 737.965,
+     "end": 738.185,
+     "text": "that"
+    },
+    {
+     "start": 738.185,
+     "end": 738.345,
+     "text": "of"
+    },
+    {
+     "start": 738.345,
+     "end": 738.445,
+     "text": "the"
+    },
+    {
+     "start": 738.445,
+     "end": 738.805,
+     "text": "countless"
+    },
+    {
+     "start": 738.805,
+     "end": 739.725,
+     "text": "prehistoric"
+    },
+    {
+     "start": 739.725,
+     "end": 740.045,
+     "text": "or"
+    },
+    {
+     "start": 740.045,
+     "end": 740.545,
+     "text": "oftentimes"
+    }
+   ]
+  },
+  {
+   "start": 740.545,
+   "end": 748.025,
+   "text": "fossilized uparts, dredged up from the depths of our prehistoric earth's many mines, caverns, and caves.",
+   "words": [
+    {
+     "start": 740.545,
+     "end": 741.505,
+     "text": "fossilized"
+    },
+    {
+     "start": 741.505,
+     "end": 742.285,
+     "text": "uparts,"
+    },
+    {
+     "start": 742.285,
+     "end": 743.065,
+     "text": "dredged"
+    },
+    {
+     "start": 743.065,
+     "end": 743.345,
+     "text": "up"
+    },
+    {
+     "start": 743.345,
+     "end": 743.605,
+     "text": "from"
+    },
+    {
+     "start": 743.605,
+     "end": 743.745,
+     "text": "the"
+    },
+    {
+     "start": 743.745,
+     "end": 744.105,
+     "text": "depths"
+    },
+    {
+     "start": 744.105,
+     "end": 744.365,
+     "text": "of"
+    },
+    {
+     "start": 744.365,
+     "end": 744.505,
+     "text": "our"
+    },
+    {
+     "start": 744.505,
+     "end": 745.345,
+     "text": "prehistoric"
+    },
+    {
+     "start": 745.345,
+     "end": 745.745,
+     "text": "earth's"
+    },
+    {
+     "start": 745.745,
+     "end": 746.065,
+     "text": "many"
+    },
+    {
+     "start": 746.065,
+     "end": 746.845,
+     "text": "mines,"
+    },
+    {
+     "start": 746.845,
+     "end": 747.365,
+     "text": "caverns,"
+    },
+    {
+     "start": 747.365,
+     "end": 747.505,
+     "text": "and"
+    },
+    {
+     "start": 747.505,
+     "end": 748.025,
+     "text": "caves."
+    }
+   ]
+  },
+  {
+   "start": 748.865,
+   "end": 757.105,
+   "text": "It is a wall so old and in such a petrified state, it has allowed mainstream-funded geologists to successfully dismiss",
+   "words": [
+    {
+     "start": 748.865,
+     "end": 748.945,
+     "text": "It"
+    },
+    {
+     "start": 748.945,
+     "end": 749.065,
+     "text": "is"
+    },
+    {
+     "start": 749.065,
+     "end": 749.165,
+     "text": "a"
+    },
+    {
+     "start": 749.165,
+     "end": 749.605,
+     "text": "wall"
+    },
+    {
+     "start": 749.605,
+     "end": 749.985,
+     "text": "so"
+    },
+    {
+     "start": 749.985,
+     "end": 750.525,
+     "text": "old"
+    },
+    {
+     "start": 750.525,
+     "end": 751.005,
+     "text": "and"
+    },
+    {
+     "start": 751.005,
+     "end": 751.105,
+     "text": "in"
+    },
+    {
+     "start": 751.105,
+     "end": 751.325,
+     "text": "such"
+    },
+    {
+     "start": 751.325,
+     "end": 751.465,
+     "text": "a"
+    },
+    {
+     "start": 751.465,
+     "end": 751.985,
+     "text": "petrified"
+    },
+    {
+     "start": 751.985,
+     "end": 752.685,
+     "text": "state,"
+    },
+    {
+     "start": 752.685,
+     "end": 753.105,
+     "text": "it"
+    },
+    {
+     "start": 753.105,
+     "end": 753.245,
+     "text": "has"
+    },
+    {
+     "start": 753.245,
+     "end": 753.645,
+     "text": "allowed"
+    },
+    {
+     "start": 753.645,
+     "end": 754.665,
+     "text": "mainstream-funded"
+    },
+    {
+     "start": 754.665,
+     "end": 755.385,
+     "text": "geologists"
+    },
+    {
+     "start": 755.385,
+     "end": 756.025,
+     "text": "to"
+    },
+    {
+     "start": 756.025,
+     "end": 756.565,
+     "text": "successfully"
+    },
+    {
+     "start": 756.565,
+     "end": 757.105,
+     "text": "dismiss"
+    }
+   ]
+  },
+  {
+   "start": 757.105,
+   "end": 761.685,
+   "text": "it as nothing more than a uniquely formed natural outcrop.",
+   "words": [
+    {
+     "start": 757.105,
+     "end": 757.385,
+     "text": "it"
+    },
+    {
+     "start": 757.385,
+     "end": 757.985,
+     "text": "as"
+    },
+    {
+     "start": 757.985,
+     "end": 758.265,
+     "text": "nothing"
+    },
+    {
+     "start": 758.265,
+     "end": 758.665,
+     "text": "more"
+    },
+    {
+     "start": 758.665,
+     "end": 758.885,
+     "text": "than"
+    },
+    {
+     "start": 758.885,
+     "end": 759.005,
+     "text": "a"
+    },
+    {
+     "start": 759.005,
+     "end": 759.485,
+     "text": "uniquely"
+    },
+    {
+     "start": 759.485,
+     "end": 760.125,
+     "text": "formed"
+    },
+    {
+     "start": 760.125,
+     "end": 760.785,
+     "text": "natural"
+    },
+    {
+     "start": 760.785,
+     "end": 761.685,
+     "text": "outcrop."
+    }
+   ]
+  },
+  {
+   "start": 762.765,
+   "end": 770.965,
+   "text": "Additionally, with the wall of fenesters, once passing over a body of water, which I have begun to theorize was perhaps",
+   "words": [
+    {
+     "start": 762.765,
+     "end": 763.625,
+     "text": "Additionally,"
+    },
+    {
+     "start": 763.625,
+     "end": 763.805,
+     "text": "with"
+    },
+    {
+     "start": 763.805,
+     "end": 764.025,
+     "text": "the"
+    },
+    {
+     "start": 764.025,
+     "end": 764.405,
+     "text": "wall"
+    },
+    {
+     "start": 764.405,
+     "end": 764.645,
+     "text": "of"
+    },
+    {
+     "start": 764.645,
+     "end": 766.085,
+     "text": "fenesters,"
+    },
+    {
+     "start": 766.085,
+     "end": 766.225,
+     "text": "once"
+    },
+    {
+     "start": 766.225,
+     "end": 766.605,
+     "text": "passing"
+    },
+    {
+     "start": 766.605,
+     "end": 766.945,
+     "text": "over"
+    },
+    {
+     "start": 766.945,
+     "end": 767.125,
+     "text": "a"
+    },
+    {
+     "start": 767.125,
+     "end": 767.405,
+     "text": "body"
+    },
+    {
+     "start": 767.405,
+     "end": 767.605,
+     "text": "of"
+    },
+    {
+     "start": 767.605,
+     "end": 767.905,
+     "text": "water,"
+    },
+    {
+     "start": 767.905,
+     "end": 768.685,
+     "text": "which"
+    },
+    {
+     "start": 768.685,
+     "end": 768.985,
+     "text": "I"
+    },
+    {
+     "start": 768.985,
+     "end": 769.085,
+     "text": "have"
+    },
+    {
+     "start": 769.085,
+     "end": 769.325,
+     "text": "begun"
+    },
+    {
+     "start": 769.325,
+     "end": 769.545,
+     "text": "to"
+    },
+    {
+     "start": 769.545,
+     "end": 770.085,
+     "text": "theorize"
+    },
+    {
+     "start": 770.085,
+     "end": 770.625,
+     "text": "was"
+    },
+    {
+     "start": 770.625,
+     "end": 770.965,
+     "text": "perhaps"
+    }
+   ]
+  },
+  {
+   "start": 770.965,
+   "end": 776.225,
+   "text": "part of its purpose, with it possibly once used as some form of ancient dam.",
+   "words": [
+    {
+     "start": 770.965,
+     "end": 771.565,
+     "text": "part"
+    },
+    {
+     "start": 771.565,
+     "end": 771.725,
+     "text": "of"
+    },
+    {
+     "start": 771.725,
+     "end": 771.825,
+     "text": "its"
+    },
+    {
+     "start": 771.825,
+     "end": 772.225,
+     "text": "purpose,"
+    },
+    {
+     "start": 772.225,
+     "end": 773.005,
+     "text": "with"
+    },
+    {
+     "start": 773.005,
+     "end": 773.125,
+     "text": "it"
+    },
+    {
+     "start": 773.125,
+     "end": 773.545,
+     "text": "possibly"
+    },
+    {
+     "start": 773.545,
+     "end": 774.045,
+     "text": "once"
+    },
+    {
+     "start": 774.045,
+     "end": 774.385,
+     "text": "used"
+    },
+    {
+     "start": 774.385,
+     "end": 774.585,
+     "text": "as"
+    },
+    {
+     "start": 774.585,
+     "end": 774.725,
+     "text": "some"
+    },
+    {
+     "start": 774.725,
+     "end": 775.025,
+     "text": "form"
+    },
+    {
+     "start": 775.025,
+     "end": 775.225,
+     "text": "of"
+    },
+    {
+     "start": 775.225,
+     "end": 775.685,
+     "text": "ancient"
+    },
+    {
+     "start": 775.685,
+     "end": 776.225,
+     "text": "dam."
+    }
+   ]
+  },
+  {
+   "start": 777.865,
+   "end": 784.265,
+   "text": "For, interestingly, it is also not a unique feature, but one I have found a near-identical match",
+   "words": [
+    {
+     "start": 777.865,
+     "end": 778.205,
+     "text": "For,"
+    },
+    {
+     "start": 778.205,
+     "end": 779.385,
+     "text": "interestingly,"
+    },
+    {
+     "start": 779.385,
+     "end": 779.465,
+     "text": "it"
+    },
+    {
+     "start": 779.465,
+     "end": 779.605,
+     "text": "is"
+    },
+    {
+     "start": 779.605,
+     "end": 779.845,
+     "text": "also"
+    },
+    {
+     "start": 779.845,
+     "end": 780.185,
+     "text": "not"
+    },
+    {
+     "start": 780.185,
+     "end": 780.365,
+     "text": "a"
+    },
+    {
+     "start": 780.365,
+     "end": 780.685,
+     "text": "unique"
+    },
+    {
+     "start": 780.685,
+     "end": 781.485,
+     "text": "feature,"
+    },
+    {
+     "start": 781.485,
+     "end": 782.025,
+     "text": "but"
+    },
+    {
+     "start": 782.025,
+     "end": 782.245,
+     "text": "one"
+    },
+    {
+     "start": 782.245,
+     "end": 782.385,
+     "text": "I"
+    },
+    {
+     "start": 782.385,
+     "end": 782.525,
+     "text": "have"
+    },
+    {
+     "start": 782.525,
+     "end": 782.785,
+     "text": "found"
+    },
+    {
+     "start": 782.785,
+     "end": 782.925,
+     "text": "a"
+    },
+    {
+     "start": 782.925,
+     "end": 783.845,
+     "text": "near-identical"
+    },
+    {
+     "start": 783.405,
+     "end": 784.265,
+     "text": "match"
+    }
+   ]
+  },
+  {
+   "start": 784.265,
+   "end": 791.125,
+   "text": "for within Utah in America, and one that along with exhibiting this strange two-tier",
+   "words": [
+    {
+     "start": 784.265,
+     "end": 784.625,
+     "text": "for"
+    },
+    {
+     "start": 784.625,
+     "end": 784.985,
+     "text": "within"
+    },
+    {
+     "start": 784.985,
+     "end": 785.505,
+     "text": "Utah"
+    },
+    {
+     "start": 785.505,
+     "end": 786.085,
+     "text": "in"
+    },
+    {
+     "start": 786.085,
+     "end": 787.005,
+     "text": "America,"
+    },
+    {
+     "start": 787.005,
+     "end": 787.605,
+     "text": "and"
+    },
+    {
+     "start": 787.605,
+     "end": 787.805,
+     "text": "one"
+    },
+    {
+     "start": 787.805,
+     "end": 788.085,
+     "text": "that"
+    },
+    {
+     "start": 788.085,
+     "end": 788.425,
+     "text": "along"
+    },
+    {
+     "start": 788.425,
+     "end": 788.705,
+     "text": "with"
+    },
+    {
+     "start": 788.705,
+     "end": 789.205,
+     "text": "exhibiting"
+    },
+    {
+     "start": 789.205,
+     "end": 789.545,
+     "text": "this"
+    },
+    {
+     "start": 789.545,
+     "end": 790.285,
+     "text": "strange"
+    },
+    {
+     "start": 790.285,
+     "end": 791.125,
+     "text": "two-tier"
+    }
+   ]
+  },
+  {
+   "start": 790.685,
+   "end": 799.025,
+   "text": "design, and this tremendous age, is also still to be found surrounded by a body of water,",
+   "words": [
+    {
+     "start": 790.685,
+     "end": 792.165,
+     "text": "design,"
+    },
+    {
+     "start": 792.165,
+     "end": 792.725,
+     "text": "and"
+    },
+    {
+     "start": 792.725,
+     "end": 792.965,
+     "text": "this"
+    },
+    {
+     "start": 792.965,
+     "end": 793.525,
+     "text": "tremendous"
+    },
+    {
+     "start": 793.525,
+     "end": 794.545,
+     "text": "age,"
+    },
+    {
+     "start": 794.545,
+     "end": 794.645,
+     "text": "is"
+    },
+    {
+     "start": 794.645,
+     "end": 795.105,
+     "text": "also"
+    },
+    {
+     "start": 795.105,
+     "end": 795.745,
+     "text": "still"
+    },
+    {
+     "start": 795.745,
+     "end": 796.045,
+     "text": "to"
+    },
+    {
+     "start": 796.045,
+     "end": 796.185,
+     "text": "be"
+    },
+    {
+     "start": 796.185,
+     "end": 796.645,
+     "text": "found"
+    },
+    {
+     "start": 796.645,
+     "end": 797.345,
+     "text": "surrounded"
+    },
+    {
+     "start": 797.345,
+     "end": 797.725,
+     "text": "by"
+    },
+    {
+     "start": 797.725,
+     "end": 797.865,
+     "text": "a"
+    },
+    {
+     "start": 797.865,
+     "end": 798.105,
+     "text": "body"
+    },
+    {
+     "start": 798.105,
+     "end": 798.285,
+     "text": "of"
+    },
+    {
+     "start": 798.285,
+     "end": 799.025,
+     "text": "water,"
+    }
+   ]
+  },
+  {
+   "start": 799.245,
+   "end": 803.905,
+   "text": "which again is seen running along the foot of the wall's surviving fragment.",
+   "words": [
+    {
+     "start": 799.245,
+     "end": 799.385,
+     "text": "which"
+    },
+    {
+     "start": 799.385,
+     "end": 799.805,
+     "text": "again"
+    },
+    {
+     "start": 799.805,
+     "end": 800.445,
+     "text": "is"
+    },
+    {
+     "start": 800.445,
+     "end": 800.665,
+     "text": "seen"
+    },
+    {
+     "start": 800.665,
+     "end": 801.005,
+     "text": "running"
+    },
+    {
+     "start": 801.005,
+     "end": 801.425,
+     "text": "along"
+    },
+    {
+     "start": 801.425,
+     "end": 801.665,
+     "text": "the"
+    },
+    {
+     "start": 801.665,
+     "end": 801.925,
+     "text": "foot"
+    },
+    {
+     "start": 801.925,
+     "end": 802.145,
+     "text": "of"
+    },
+    {
+     "start": 802.145,
+     "end": 802.285,
+     "text": "the"
+    },
+    {
+     "start": 802.285,
+     "end": 802.765,
+     "text": "wall's"
+    },
+    {
+     "start": 802.765,
+     "end": 803.385,
+     "text": "surviving"
+    },
+    {
+     "start": 803.385,
+     "end": 803.905,
+     "text": "fragment."
+    }
+   ]
+  },
+  {
+   "start": 805.385,
+   "end": 813.385,
+   "text": "This ancient connection, this seeming obsession with the manipulation and complete control of water, is, as mentioned",
+   "words": [
+    {
+     "start": 805.385,
+     "end": 805.465,
+     "text": "This"
+    },
+    {
+     "start": 805.465,
+     "end": 805.865,
+     "text": "ancient"
+    },
+    {
+     "start": 805.865,
+     "end": 807.005,
+     "text": "connection,"
+    },
+    {
+     "start": 807.005,
+     "end": 807.165,
+     "text": "this"
+    },
+    {
+     "start": 807.165,
+     "end": 807.685,
+     "text": "seeming"
+    },
+    {
+     "start": 807.685,
+     "end": 808.145,
+     "text": "obsession"
+    },
+    {
+     "start": 808.145,
+     "end": 808.585,
+     "text": "with"
+    },
+    {
+     "start": 808.585,
+     "end": 808.725,
+     "text": "the"
+    },
+    {
+     "start": 808.725,
+     "end": 809.145,
+     "text": "manipulation"
+    },
+    {
+     "start": 809.145,
+     "end": 809.785,
+     "text": "and"
+    },
+    {
+     "start": 809.785,
+     "end": 810.185,
+     "text": "complete"
+    },
+    {
+     "start": 810.185,
+     "end": 810.625,
+     "text": "control"
+    },
+    {
+     "start": 810.625,
+     "end": 810.845,
+     "text": "of"
+    },
+    {
+     "start": 810.845,
+     "end": 811.465,
+     "text": "water,"
+    },
+    {
+     "start": 811.465,
+     "end": 812.465,
+     "text": "is,"
+    },
+    {
+     "start": 812.465,
+     "end": 813.105,
+     "text": "as"
+    },
+    {
+     "start": 813.105,
+     "end": 813.385,
+     "text": "mentioned"
+    }
+   ]
+  },
+  {
+   "start": 813.385,
+   "end": 821.625,
+   "text": "earlier, also beginning to be recognized as a possible connection point with that of the mystery of the ancient pyramids.",
+   "words": [
+    {
+     "start": 813.385,
+     "end": 814.465,
+     "text": "earlier,"
+    },
+    {
+     "start": 814.465,
+     "end": 814.745,
+     "text": "also"
+    },
+    {
+     "start": 814.745,
+     "end": 815.205,
+     "text": "beginning"
+    },
+    {
+     "start": 815.205,
+     "end": 815.485,
+     "text": "to"
+    },
+    {
+     "start": 815.485,
+     "end": 815.605,
+     "text": "be"
+    },
+    {
+     "start": 815.605,
+     "end": 816.025,
+     "text": "recognized"
+    },
+    {
+     "start": 816.025,
+     "end": 816.565,
+     "text": "as"
+    },
+    {
+     "start": 816.565,
+     "end": 816.665,
+     "text": "a"
+    },
+    {
+     "start": 816.665,
+     "end": 817.125,
+     "text": "possible"
+    },
+    {
+     "start": 817.125,
+     "end": 817.825,
+     "text": "connection"
+    },
+    {
+     "start": 817.825,
+     "end": 818.285,
+     "text": "point"
+    },
+    {
+     "start": 818.285,
+     "end": 818.805,
+     "text": "with"
+    },
+    {
+     "start": 818.805,
+     "end": 818.985,
+     "text": "that"
+    },
+    {
+     "start": 818.985,
+     "end": 819.245,
+     "text": "of"
+    },
+    {
+     "start": 819.245,
+     "end": 819.365,
+     "text": "the"
+    },
+    {
+     "start": 819.365,
+     "end": 819.725,
+     "text": "mystery"
+    },
+    {
+     "start": 819.725,
+     "end": 820.245,
+     "text": "of"
+    },
+    {
+     "start": 820.245,
+     "end": 820.345,
+     "text": "the"
+    },
+    {
+     "start": 820.345,
+     "end": 820.645,
+     "text": "ancient"
+    },
+    {
+     "start": 820.645,
+     "end": 821.625,
+     "text": "pyramids."
+    }
+   ]
+  },
+  {
+   "start": 822.465,
+   "end": 824.865,
+   "text": "But for now, I digress.",
+   "words": [
+    {
+     "start": 822.465,
+     "end": 822.925,
+     "text": "But"
+    },
+    {
+     "start": 822.925,
+     "end": 823.085,
+     "text": "for"
+    },
+    {
+     "start": 823.085,
+     "end": 823.605,
+     "text": "now,"
+    },
+    {
+     "start": 823.605,
+     "end": 824.105,
+     "text": "I"
+    },
+    {
+     "start": 824.105,
+     "end": 824.865,
+     "text": "digress."
+    }
+   ]
+  },
+  {
+   "start": 826.405,
+   "end": 834.645,
+   "text": "My first book, Life Before the Flood, a definitive guide to the lost world, is now available on Amazon,",
+   "words": [
+    {
+     "start": 826.405,
+     "end": 826.465,
+     "text": "My"
+    },
+    {
+     "start": 826.465,
+     "end": 826.725,
+     "text": "first"
+    },
+    {
+     "start": 826.725,
+     "end": 827.685,
+     "text": "book,"
+    },
+    {
+     "start": 827.685,
+     "end": 827.845,
+     "text": "Life"
+    },
+    {
+     "start": 827.845,
+     "end": 828.205,
+     "text": "Before"
+    },
+    {
+     "start": 828.205,
+     "end": 828.565,
+     "text": "the"
+    },
+    {
+     "start": 828.565,
+     "end": 829.265,
+     "text": "Flood,"
+    },
+    {
+     "start": 829.265,
+     "end": 829.725,
+     "text": "a"
+    },
+    {
+     "start": 829.725,
+     "end": 830.065,
+     "text": "definitive"
+    },
+    {
+     "start": 830.065,
+     "end": 830.645,
+     "text": "guide"
+    },
+    {
+     "start": 830.645,
+     "end": 831.065,
+     "text": "to"
+    },
+    {
+     "start": 831.065,
+     "end": 831.185,
+     "text": "the"
+    },
+    {
+     "start": 831.185,
+     "end": 831.445,
+     "text": "lost"
+    },
+    {
+     "start": 831.445,
+     "end": 832.165,
+     "text": "world,"
+    },
+    {
+     "start": 832.165,
+     "end": 832.765,
+     "text": "is"
+    },
+    {
+     "start": 832.765,
+     "end": 832.985,
+     "text": "now"
+    },
+    {
+     "start": 832.985,
+     "end": 833.465,
+     "text": "available"
+    },
+    {
+     "start": 833.465,
+     "end": 833.825,
+     "text": "on"
+    },
+    {
+     "start": 833.825,
+     "end": 834.645,
+     "text": "Amazon,"
+    }
+   ]
+  },
+  {
+   "start": 834.645,
+   "end": 836.625,
+   "text": "so don't forget to check it out.",
+   "words": [
+    {
+     "start": 834.645,
+     "end": 835.165,
+     "text": "so"
+    },
+    {
+     "start": 835.165,
+     "end": 835.445,
+     "text": "don't"
+    },
+    {
+     "start": 835.445,
+     "end": 835.745,
+     "text": "forget"
+    },
+    {
+     "start": 835.745,
+     "end": 836.025,
+     "text": "to"
+    },
+    {
+     "start": 836.025,
+     "end": 836.165,
+     "text": "check"
+    },
+    {
+     "start": 836.165,
+     "end": 836.345,
+     "text": "it"
+    },
+    {
+     "start": 836.345,
+     "end": 836.625,
+     "text": "out."
+    }
+   ]
+  },
+  {
+   "start": 840.345,
+   "end": 844.185,
+   "text": "The second book, Ruined Earth, is now available.",
+   "words": [
+    {
+     "start": 840.345,
+     "end": 840.505,
+     "text": "The"
+    },
+    {
+     "start": 840.505,
+     "end": 840.825,
+     "text": "second"
+    },
+    {
+     "start": 840.825,
+     "end": 842.245,
+     "text": "book,"
+    },
+    {
+     "start": 842.245,
+     "end": 842.605,
+     "text": "Ruined"
+    },
+    {
+     "start": 842.605,
+     "end": 843.185,
+     "text": "Earth,"
+    },
+    {
+     "start": 843.185,
+     "end": 843.305,
+     "text": "is"
+    },
+    {
+     "start": 843.305,
+     "end": 843.645,
+     "text": "now"
+    },
+    {
+     "start": 843.645,
+     "end": 844.185,
+     "text": "available."
+    }
+   ]
+  },
+  {
+   "start": 845.185,
+   "end": 850.325,
+   "text": "The quest to unravel the true history of our Earth has officially begun.",
+   "words": [
+    {
+     "start": 845.185,
+     "end": 845.345,
+     "text": "The"
+    },
+    {
+     "start": 845.345,
+     "end": 845.725,
+     "text": "quest"
+    },
+    {
+     "start": 845.725,
+     "end": 846.025,
+     "text": "to"
+    },
+    {
+     "start": 846.025,
+     "end": 846.505,
+     "text": "unravel"
+    },
+    {
+     "start": 846.505,
+     "end": 846.865,
+     "text": "the"
+    },
+    {
+     "start": 846.865,
+     "end": 847.145,
+     "text": "true"
+    },
+    {
+     "start": 847.145,
+     "end": 847.625,
+     "text": "history"
+    },
+    {
+     "start": 847.625,
+     "end": 848.185,
+     "text": "of"
+    },
+    {
+     "start": 848.185,
+     "end": 848.325,
+     "text": "our"
+    },
+    {
+     "start": 848.325,
+     "end": 848.665,
+     "text": "Earth"
+    },
+    {
+     "start": 848.665,
+     "end": 849.365,
+     "text": "has"
+    },
+    {
+     "start": 849.365,
+     "end": 849.765,
+     "text": "officially"
+    },
+    {
+     "start": 849.765,
+     "end": 850.325,
+     "text": "begun."
+    }
+   ]
+  },
+  {
+   "start": 854.605,
+   "end": 860.105,
+   "text": "Thank you.",
+   "words": [
+    {
+     "start": 854.605,
+     "end": 860.085,
+     "text": "Thank"
+    },
+    {
+     "start": 860.085,
+     "end": 860.105,
+     "text": "you."
+    }
+   ]
+  }
+ ],
+ "language": "English",
+ "backend": "groq",
+ "model": "whisper-large-v3-turbo",
+ "source_duration": 873.047075,
+ "chunk_count": 1,
+ "has_word_timings": true
+}

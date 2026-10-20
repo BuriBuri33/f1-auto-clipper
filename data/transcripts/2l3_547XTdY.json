@@ -1,0 +1,11183 @@
+{
+ "segments": [
+  {
+   "start": 0.1,
+   "end": 4.08,
+   "text": "I'm sure this was the one thing British Rail didn't want to happen.",
+   "words": [
+    {
+     "start": 0.1,
+     "end": 0.3,
+     "text": "I'm"
+    },
+    {
+     "start": 0.3,
+     "end": 0.46,
+     "text": "sure"
+    },
+    {
+     "start": 0.46,
+     "end": 0.68,
+     "text": "this"
+    },
+    {
+     "start": 0.68,
+     "end": 0.88,
+     "text": "was"
+    },
+    {
+     "start": 0.88,
+     "end": 1.1,
+     "text": "the"
+    },
+    {
+     "start": 1.1,
+     "end": 1.38,
+     "text": "one"
+    },
+    {
+     "start": 1.38,
+     "end": 1.9,
+     "text": "thing"
+    },
+    {
+     "start": 1.9,
+     "end": 2.38,
+     "text": "British"
+    },
+    {
+     "start": 2.38,
+     "end": 2.8,
+     "text": "Rail"
+    },
+    {
+     "start": 2.8,
+     "end": 3.28,
+     "text": "didn't"
+    },
+    {
+     "start": 3.28,
+     "end": 3.48,
+     "text": "want"
+    },
+    {
+     "start": 3.48,
+     "end": 3.7,
+     "text": "to"
+    },
+    {
+     "start": 3.7,
+     "end": 4.08,
+     "text": "happen."
+    }
+   ]
+  },
+  {
+   "start": 4.96,
+   "end": 10.22,
+   "text": "So it is the mid-1980s and a train has come off the tracks, leaving carriages strewn around.",
+   "words": [
+    {
+     "start": 4.96,
+     "end": 5.08,
+     "text": "So"
+    },
+    {
+     "start": 5.08,
+     "end": 5.22,
+     "text": "it"
+    },
+    {
+     "start": 5.22,
+     "end": 5.32,
+     "text": "is"
+    },
+    {
+     "start": 5.32,
+     "end": 5.44,
+     "text": "the"
+    },
+    {
+     "start": 5.44,
+     "end": 6.34,
+     "text": "mid-1980s"
+    },
+    {
+     "start": 6.34,
+     "end": 6.68,
+     "text": "and"
+    },
+    {
+     "start": 6.68,
+     "end": 6.76,
+     "text": "a"
+    },
+    {
+     "start": 6.76,
+     "end": 7.04,
+     "text": "train"
+    },
+    {
+     "start": 7.04,
+     "end": 7.34,
+     "text": "has"
+    },
+    {
+     "start": 7.34,
+     "end": 7.52,
+     "text": "come"
+    },
+    {
+     "start": 7.52,
+     "end": 7.66,
+     "text": "off"
+    },
+    {
+     "start": 7.66,
+     "end": 7.8,
+     "text": "the"
+    },
+    {
+     "start": 7.8,
+     "end": 8.34,
+     "text": "tracks,"
+    },
+    {
+     "start": 8.34,
+     "end": 8.88,
+     "text": "leaving"
+    },
+    {
+     "start": 8.88,
+     "end": 9.42,
+     "text": "carriages"
+    },
+    {
+     "start": 9.42,
+     "end": 9.82,
+     "text": "strewn"
+    },
+    {
+     "start": 9.82,
+     "end": 10.22,
+     "text": "around."
+    }
+   ]
+  },
+  {
+   "start": 11.02,
+   "end": 15.26,
+   "text": "The crash garnered quite a rather large amount of attention from the British press,",
+   "words": [
+    {
+     "start": 11.02,
+     "end": 11.16,
+     "text": "The"
+    },
+    {
+     "start": 11.16,
+     "end": 11.4,
+     "text": "crash"
+    },
+    {
+     "start": 11.4,
+     "end": 11.8,
+     "text": "garnered"
+    },
+    {
+     "start": 11.8,
+     "end": 12.14,
+     "text": "quite"
+    },
+    {
+     "start": 12.14,
+     "end": 12.42,
+     "text": "a"
+    },
+    {
+     "start": 12.42,
+     "end": 12.7,
+     "text": "rather"
+    },
+    {
+     "start": 12.7,
+     "end": 13.12,
+     "text": "large"
+    },
+    {
+     "start": 13.12,
+     "end": 13.42,
+     "text": "amount"
+    },
+    {
+     "start": 13.42,
+     "end": 13.56,
+     "text": "of"
+    },
+    {
+     "start": 13.56,
+     "end": 13.88,
+     "text": "attention"
+    },
+    {
+     "start": 13.88,
+     "end": 14.2,
+     "text": "from"
+    },
+    {
+     "start": 14.2,
+     "end": 14.3,
+     "text": "the"
+    },
+    {
+     "start": 14.3,
+     "end": 14.52,
+     "text": "British"
+    },
+    {
+     "start": 14.52,
+     "end": 15.26,
+     "text": "press,"
+    }
+   ]
+  },
+  {
+   "start": 15.54,
+   "end": 19.02,
+   "text": "even getting attention as far away as the New York Times.",
+   "words": [
+    {
+     "start": 15.54,
+     "end": 15.82,
+     "text": "even"
+    },
+    {
+     "start": 15.82,
+     "end": 16.12,
+     "text": "getting"
+    },
+    {
+     "start": 16.12,
+     "end": 16.62,
+     "text": "attention"
+    },
+    {
+     "start": 16.62,
+     "end": 17.12,
+     "text": "as"
+    },
+    {
+     "start": 17.12,
+     "end": 17.5,
+     "text": "far"
+    },
+    {
+     "start": 17.5,
+     "end": 17.84,
+     "text": "away"
+    },
+    {
+     "start": 17.84,
+     "end": 18.08,
+     "text": "as"
+    },
+    {
+     "start": 18.08,
+     "end": 18.18,
+     "text": "the"
+    },
+    {
+     "start": 18.18,
+     "end": 18.34,
+     "text": "New"
+    },
+    {
+     "start": 18.34,
+     "end": 18.52,
+     "text": "York"
+    },
+    {
+     "start": 18.52,
+     "end": 19.02,
+     "text": "Times."
+    }
+   ]
+  },
+  {
+   "start": 19.6,
+   "end": 23.96,
+   "text": "But it's hardly surprising when looking at these contemporary grainy 1980s images.",
+   "words": [
+    {
+     "start": 19.6,
+     "end": 19.74,
+     "text": "But"
+    },
+    {
+     "start": 19.74,
+     "end": 19.88,
+     "text": "it's"
+    },
+    {
+     "start": 19.88,
+     "end": 20.16,
+     "text": "hardly"
+    },
+    {
+     "start": 20.16,
+     "end": 20.7,
+     "text": "surprising"
+    },
+    {
+     "start": 20.7,
+     "end": 21.18,
+     "text": "when"
+    },
+    {
+     "start": 21.18,
+     "end": 21.44,
+     "text": "looking"
+    },
+    {
+     "start": 21.44,
+     "end": 21.62,
+     "text": "at"
+    },
+    {
+     "start": 21.62,
+     "end": 21.8,
+     "text": "these"
+    },
+    {
+     "start": 21.8,
+     "end": 22.4,
+     "text": "contemporary"
+    },
+    {
+     "start": 22.4,
+     "end": 22.86,
+     "text": "grainy"
+    },
+    {
+     "start": 22.86,
+     "end": 23.68,
+     "text": "1980s"
+    },
+    {
+     "start": 23.68,
+     "end": 23.96,
+     "text": "images."
+    }
+   ]
+  },
+  {
+   "start": 24.64,
+   "end": 27.5,
+   "text": "You can see this is not the best outcome from an intercity",
+   "words": [
+    {
+     "start": 24.64,
+     "end": 24.78,
+     "text": "You"
+    },
+    {
+     "start": 24.78,
+     "end": 24.9,
+     "text": "can"
+    },
+    {
+     "start": 24.9,
+     "end": 25.12,
+     "text": "see"
+    },
+    {
+     "start": 25.12,
+     "end": 25.8,
+     "text": "this"
+    },
+    {
+     "start": 25.8,
+     "end": 25.94,
+     "text": "is"
+    },
+    {
+     "start": 25.94,
+     "end": 26.0,
+     "text": "not"
+    },
+    {
+     "start": 26.0,
+     "end": 26.12,
+     "text": "the"
+    },
+    {
+     "start": 26.12,
+     "end": 26.32,
+     "text": "best"
+    },
+    {
+     "start": 26.32,
+     "end": 26.68,
+     "text": "outcome"
+    },
+    {
+     "start": 26.68,
+     "end": 26.98,
+     "text": "from"
+    },
+    {
+     "start": 26.98,
+     "end": 27.14,
+     "text": "an"
+    },
+    {
+     "start": 27.14,
+     "end": 27.5,
+     "text": "intercity"
+    }
+   ]
+  },
+  {
+   "start": 27.5,
+   "end": 28.42,
+   "text": "train.",
+   "words": [
+    {
+     "start": 27.5,
+     "end": 28.42,
+     "text": "train."
+    }
+   ]
+  },
+  {
+   "start": 28.96,
+   "end": 35.28,
+   "text": "Our location today is in a backwater that not many people outside the United Kingdom know about.",
+   "words": [
+    {
+     "start": 28.96,
+     "end": 29.06,
+     "text": "Our"
+    },
+    {
+     "start": 29.06,
+     "end": 29.6,
+     "text": "location"
+    },
+    {
+     "start": 29.6,
+     "end": 29.9,
+     "text": "today"
+    },
+    {
+     "start": 29.9,
+     "end": 30.58,
+     "text": "is"
+    },
+    {
+     "start": 30.58,
+     "end": 30.96,
+     "text": "in"
+    },
+    {
+     "start": 30.96,
+     "end": 31.08,
+     "text": "a"
+    },
+    {
+     "start": 31.08,
+     "end": 31.66,
+     "text": "backwater"
+    },
+    {
+     "start": 31.66,
+     "end": 32.28,
+     "text": "that"
+    },
+    {
+     "start": 32.28,
+     "end": 32.44,
+     "text": "not"
+    },
+    {
+     "start": 32.44,
+     "end": 32.66,
+     "text": "many"
+    },
+    {
+     "start": 32.66,
+     "end": 32.92,
+     "text": "people"
+    },
+    {
+     "start": 32.92,
+     "end": 33.2,
+     "text": "outside"
+    },
+    {
+     "start": 33.2,
+     "end": 33.44,
+     "text": "the"
+    },
+    {
+     "start": 33.44,
+     "end": 33.64,
+     "text": "United"
+    },
+    {
+     "start": 33.64,
+     "end": 34.04,
+     "text": "Kingdom"
+    },
+    {
+     "start": 34.04,
+     "end": 34.8,
+     "text": "know"
+    },
+    {
+     "start": 34.8,
+     "end": 35.28,
+     "text": "about."
+    }
+   ]
+  },
+  {
+   "start": 35.6,
+   "end": 41.28,
+   "text": "It is a town called Bertley and rather largely this crash would be forgotten to time.",
+   "words": [
+    {
+     "start": 35.6,
+     "end": 35.76,
+     "text": "It"
+    },
+    {
+     "start": 35.76,
+     "end": 35.84,
+     "text": "is"
+    },
+    {
+     "start": 35.84,
+     "end": 35.94,
+     "text": "a"
+    },
+    {
+     "start": 35.94,
+     "end": 36.2,
+     "text": "town"
+    },
+    {
+     "start": 36.2,
+     "end": 36.7,
+     "text": "called"
+    },
+    {
+     "start": 36.7,
+     "end": 37.1,
+     "text": "Bertley"
+    },
+    {
+     "start": 37.1,
+     "end": 37.46,
+     "text": "and"
+    },
+    {
+     "start": 37.46,
+     "end": 37.88,
+     "text": "rather"
+    },
+    {
+     "start": 37.88,
+     "end": 38.54,
+     "text": "largely"
+    },
+    {
+     "start": 38.54,
+     "end": 39.14,
+     "text": "this"
+    },
+    {
+     "start": 39.14,
+     "end": 39.56,
+     "text": "crash"
+    },
+    {
+     "start": 39.56,
+     "end": 40.02,
+     "text": "would"
+    },
+    {
+     "start": 40.02,
+     "end": 40.16,
+     "text": "be"
+    },
+    {
+     "start": 40.16,
+     "end": 40.58,
+     "text": "forgotten"
+    },
+    {
+     "start": 40.58,
+     "end": 40.86,
+     "text": "to"
+    },
+    {
+     "start": 40.86,
+     "end": 41.28,
+     "text": "time."
+    }
+   ]
+  },
+  {
+   "start": 41.62,
+   "end": 49.76,
+   "text": "It's probably because amazingly no one died but it does work as a very good warning before the bloody years of post-privatisation of",
+   "words": [
+    {
+     "start": 41.62,
+     "end": 41.82,
+     "text": "It's"
+    },
+    {
+     "start": 41.82,
+     "end": 42.04,
+     "text": "probably"
+    },
+    {
+     "start": 42.04,
+     "end": 42.96,
+     "text": "because"
+    },
+    {
+     "start": 42.96,
+     "end": 43.38,
+     "text": "amazingly"
+    },
+    {
+     "start": 43.38,
+     "end": 43.74,
+     "text": "no"
+    },
+    {
+     "start": 43.74,
+     "end": 43.82,
+     "text": "one"
+    },
+    {
+     "start": 43.82,
+     "end": 44.2,
+     "text": "died"
+    },
+    {
+     "start": 44.2,
+     "end": 44.86,
+     "text": "but"
+    },
+    {
+     "start": 44.86,
+     "end": 45.0,
+     "text": "it"
+    },
+    {
+     "start": 45.0,
+     "end": 45.3,
+     "text": "does"
+    },
+    {
+     "start": 45.3,
+     "end": 45.76,
+     "text": "work"
+    },
+    {
+     "start": 45.76,
+     "end": 46.0,
+     "text": "as"
+    },
+    {
+     "start": 46.0,
+     "end": 46.08,
+     "text": "a"
+    },
+    {
+     "start": 46.08,
+     "end": 46.28,
+     "text": "very"
+    },
+    {
+     "start": 46.28,
+     "end": 46.42,
+     "text": "good"
+    },
+    {
+     "start": 46.42,
+     "end": 46.72,
+     "text": "warning"
+    },
+    {
+     "start": 46.72,
+     "end": 47.42,
+     "text": "before"
+    },
+    {
+     "start": 47.42,
+     "end": 47.62,
+     "text": "the"
+    },
+    {
+     "start": 47.62,
+     "end": 47.84,
+     "text": "bloody"
+    },
+    {
+     "start": 47.84,
+     "end": 48.28,
+     "text": "years"
+    },
+    {
+     "start": 48.28,
+     "end": 48.46,
+     "text": "of"
+    },
+    {
+     "start": 48.46,
+     "end": 49.42,
+     "text": "post-privatisation"
+    },
+    {
+     "start": 49.42,
+     "end": 49.76,
+     "text": "of"
+    }
+   ]
+  },
+  {
+   "start": 49.76,
+   "end": 50.78,
+   "text": "the UK's railways.",
+   "words": [
+    {
+     "start": 49.76,
+     "end": 49.86,
+     "text": "the"
+    },
+    {
+     "start": 49.86,
+     "end": 50.28,
+     "text": "UK's"
+    },
+    {
+     "start": 50.28,
+     "end": 50.78,
+     "text": "railways."
+    }
+   ]
+  },
+  {
+   "start": 50.96,
+   "end": 54.5,
+   "text": "Today we're looking at the Bertley train crash.",
+   "words": [
+    {
+     "start": 50.96,
+     "end": 51.18,
+     "text": "Today"
+    },
+    {
+     "start": 51.18,
+     "end": 51.88,
+     "text": "we're"
+    },
+    {
+     "start": 51.88,
+     "end": 52.14,
+     "text": "looking"
+    },
+    {
+     "start": 52.14,
+     "end": 53.04,
+     "text": "at"
+    },
+    {
+     "start": 53.04,
+     "end": 53.26,
+     "text": "the"
+    },
+    {
+     "start": 53.26,
+     "end": 53.62,
+     "text": "Bertley"
+    },
+    {
+     "start": 53.62,
+     "end": 53.92,
+     "text": "train"
+    },
+    {
+     "start": 53.92,
+     "end": 54.5,
+     "text": "crash."
+    }
+   ]
+  },
+  {
+   "start": 53.82,
+   "end": 54.68,
+   "text": "My",
+   "words": [
+    {
+     "start": 53.82,
+     "end": 54.68,
+     "text": "My"
+    }
+   ]
+  },
+  {
+   "start": 54.68,
+   "end": 57.28,
+   "text": "name is John and welcome to Plainly Difficult.",
+   "words": [
+    {
+     "start": 54.68,
+     "end": 54.8,
+     "text": "name"
+    },
+    {
+     "start": 54.8,
+     "end": 54.96,
+     "text": "is"
+    },
+    {
+     "start": 54.96,
+     "end": 55.18,
+     "text": "John"
+    },
+    {
+     "start": 55.18,
+     "end": 55.7,
+     "text": "and"
+    },
+    {
+     "start": 55.7,
+     "end": 56.08,
+     "text": "welcome"
+    },
+    {
+     "start": 56.08,
+     "end": 56.4,
+     "text": "to"
+    },
+    {
+     "start": 56.4,
+     "end": 56.74,
+     "text": "Plainly"
+    },
+    {
+     "start": 56.74,
+     "end": 57.28,
+     "text": "Difficult."
+    }
+   ]
+  },
+  {
+   "start": 66.08,
+   "end": 74.42,
+   "text": "for location if you've been reading the uk news recently you would have known about two derailments over",
+   "words": [
+    {
+     "start": 66.08,
+     "end": 66.2,
+     "text": "for"
+    },
+    {
+     "start": 66.2,
+     "end": 66.52,
+     "text": "location"
+    },
+    {
+     "start": 66.52,
+     "end": 68.3,
+     "text": "if"
+    },
+    {
+     "start": 68.3,
+     "end": 68.48,
+     "text": "you've"
+    },
+    {
+     "start": 68.48,
+     "end": 68.62,
+     "text": "been"
+    },
+    {
+     "start": 68.62,
+     "end": 69.02,
+     "text": "reading"
+    },
+    {
+     "start": 69.02,
+     "end": 69.6,
+     "text": "the"
+    },
+    {
+     "start": 69.6,
+     "end": 69.88,
+     "text": "uk"
+    },
+    {
+     "start": 69.88,
+     "end": 70.32,
+     "text": "news"
+    },
+    {
+     "start": 70.32,
+     "end": 70.72,
+     "text": "recently"
+    },
+    {
+     "start": 70.72,
+     "end": 71.32,
+     "text": "you"
+    },
+    {
+     "start": 71.32,
+     "end": 71.72,
+     "text": "would"
+    },
+    {
+     "start": 71.72,
+     "end": 72.18,
+     "text": "have"
+    },
+    {
+     "start": 72.18,
+     "end": 72.52,
+     "text": "known"
+    },
+    {
+     "start": 72.52,
+     "end": 72.86,
+     "text": "about"
+    },
+    {
+     "start": 72.86,
+     "end": 73.26,
+     "text": "two"
+    },
+    {
+     "start": 73.26,
+     "end": 73.96,
+     "text": "derailments"
+    },
+    {
+     "start": 73.56,
+     "end": 74.42,
+     "text": "over"
+    }
+   ]
+  },
+  {
+   "start": 74.42,
+   "end": 79.4,
+   "text": "the blistering hot summer we've had i'm still waiting on the official reports to look into these",
+   "words": [
+    {
+     "start": 74.42,
+     "end": 74.78,
+     "text": "the"
+    },
+    {
+     "start": 74.78,
+     "end": 75.26,
+     "text": "blistering"
+    },
+    {
+     "start": 75.26,
+     "end": 75.46,
+     "text": "hot"
+    },
+    {
+     "start": 75.46,
+     "end": 75.74,
+     "text": "summer"
+    },
+    {
+     "start": 75.74,
+     "end": 76.04,
+     "text": "we've"
+    },
+    {
+     "start": 76.04,
+     "end": 76.18,
+     "text": "had"
+    },
+    {
+     "start": 76.18,
+     "end": 76.88,
+     "text": "i'm"
+    },
+    {
+     "start": 76.88,
+     "end": 77.04,
+     "text": "still"
+    },
+    {
+     "start": 77.04,
+     "end": 77.34,
+     "text": "waiting"
+    },
+    {
+     "start": 77.34,
+     "end": 77.5,
+     "text": "on"
+    },
+    {
+     "start": 77.5,
+     "end": 77.6,
+     "text": "the"
+    },
+    {
+     "start": 77.6,
+     "end": 77.8,
+     "text": "official"
+    },
+    {
+     "start": 77.8,
+     "end": 78.26,
+     "text": "reports"
+    },
+    {
+     "start": 78.26,
+     "end": 78.54,
+     "text": "to"
+    },
+    {
+     "start": 78.54,
+     "end": 78.78,
+     "text": "look"
+    },
+    {
+     "start": 78.78,
+     "end": 79.12,
+     "text": "into"
+    },
+    {
+     "start": 79.12,
+     "end": 79.4,
+     "text": "these"
+    }
+   ]
+  },
+  {
+   "start": 78.94,
+   "end": 86.86,
+   "text": "but to fill in the time i started looking into historic derailments both of the more recent ones",
+   "words": [
+    {
+     "start": 78.94,
+     "end": 80.1,
+     "text": "but"
+    },
+    {
+     "start": 80.1,
+     "end": 80.96,
+     "text": "to"
+    },
+    {
+     "start": 80.96,
+     "end": 81.14,
+     "text": "fill"
+    },
+    {
+     "start": 81.14,
+     "end": 81.28,
+     "text": "in"
+    },
+    {
+     "start": 81.28,
+     "end": 81.36,
+     "text": "the"
+    },
+    {
+     "start": 81.36,
+     "end": 81.58,
+     "text": "time"
+    },
+    {
+     "start": 81.58,
+     "end": 81.88,
+     "text": "i"
+    },
+    {
+     "start": 81.88,
+     "end": 82.26,
+     "text": "started"
+    },
+    {
+     "start": 82.26,
+     "end": 82.52,
+     "text": "looking"
+    },
+    {
+     "start": 82.52,
+     "end": 83.06,
+     "text": "into"
+    },
+    {
+     "start": 83.06,
+     "end": 83.64,
+     "text": "historic"
+    },
+    {
+     "start": 83.64,
+     "end": 84.28,
+     "text": "derailments"
+    },
+    {
+     "start": 84.28,
+     "end": 85.32,
+     "text": "both"
+    },
+    {
+     "start": 85.32,
+     "end": 85.82,
+     "text": "of"
+    },
+    {
+     "start": 85.82,
+     "end": 86.04,
+     "text": "the"
+    },
+    {
+     "start": 86.04,
+     "end": 86.24,
+     "text": "more"
+    },
+    {
+     "start": 86.24,
+     "end": 86.58,
+     "text": "recent"
+    },
+    {
+     "start": 86.58,
+     "end": 86.86,
+     "text": "ones"
+    }
+   ]
+  },
+  {
+   "start": 86.94,
+   "end": 93.5,
+   "text": "were in the south of England but our story today is here near the northern town of Burtley in Tynum where",
+   "words": [
+    {
+     "start": 86.94,
+     "end": 87.08,
+     "text": "were"
+    },
+    {
+     "start": 87.08,
+     "end": 87.16,
+     "text": "in"
+    },
+    {
+     "start": 87.16,
+     "end": 87.26,
+     "text": "the"
+    },
+    {
+     "start": 87.26,
+     "end": 87.52,
+     "text": "south"
+    },
+    {
+     "start": 87.52,
+     "end": 87.68,
+     "text": "of"
+    },
+    {
+     "start": 87.68,
+     "end": 87.94,
+     "text": "England"
+    },
+    {
+     "start": 87.94,
+     "end": 88.62,
+     "text": "but"
+    },
+    {
+     "start": 88.62,
+     "end": 88.78,
+     "text": "our"
+    },
+    {
+     "start": 88.78,
+     "end": 89.0,
+     "text": "story"
+    },
+    {
+     "start": 89.0,
+     "end": 89.3,
+     "text": "today"
+    },
+    {
+     "start": 89.3,
+     "end": 90.06,
+     "text": "is"
+    },
+    {
+     "start": 90.06,
+     "end": 90.4,
+     "text": "here"
+    },
+    {
+     "start": 90.4,
+     "end": 90.92,
+     "text": "near"
+    },
+    {
+     "start": 90.92,
+     "end": 91.12,
+     "text": "the"
+    },
+    {
+     "start": 91.12,
+     "end": 91.34,
+     "text": "northern"
+    },
+    {
+     "start": 91.34,
+     "end": 91.76,
+     "text": "town"
+    },
+    {
+     "start": 91.76,
+     "end": 91.98,
+     "text": "of"
+    },
+    {
+     "start": 91.98,
+     "end": 92.4,
+     "text": "Burtley"
+    },
+    {
+     "start": 92.4,
+     "end": 92.88,
+     "text": "in"
+    },
+    {
+     "start": 92.88,
+     "end": 93.26,
+     "text": "Tynum"
+    },
+    {
+     "start": 92.8,
+     "end": 93.5,
+     "text": "where"
+    }
+   ]
+  },
+  {
+   "start": 93.5,
+   "end": 97.02,
+   "text": "just a few miles away from Newcastle.",
+   "words": [
+    {
+     "start": 93.5,
+     "end": 94.34,
+     "text": "just"
+    },
+    {
+     "start": 94.34,
+     "end": 94.5,
+     "text": "a"
+    },
+    {
+     "start": 94.5,
+     "end": 94.6,
+     "text": "few"
+    },
+    {
+     "start": 94.6,
+     "end": 95.02,
+     "text": "miles"
+    },
+    {
+     "start": 95.02,
+     "end": 95.44,
+     "text": "away"
+    },
+    {
+     "start": 95.44,
+     "end": 95.68,
+     "text": "from"
+    },
+    {
+     "start": 95.68,
+     "end": 97.02,
+     "text": "Newcastle."
+    }
+   ]
+  },
+  {
+   "start": 97.02,
+   "end": 100.12,
+   "text": "It is a rather unassuming town that doesn't have much in",
+   "words": [
+    {
+     "start": 97.02,
+     "end": 97.1,
+     "text": "It"
+    },
+    {
+     "start": 97.1,
+     "end": 97.28,
+     "text": "is"
+    },
+    {
+     "start": 97.28,
+     "end": 97.38,
+     "text": "a"
+    },
+    {
+     "start": 97.38,
+     "end": 97.62,
+     "text": "rather"
+    },
+    {
+     "start": 97.62,
+     "end": 98.18,
+     "text": "unassuming"
+    },
+    {
+     "start": 98.18,
+     "end": 98.56,
+     "text": "town"
+    },
+    {
+     "start": 98.56,
+     "end": 99.16,
+     "text": "that"
+    },
+    {
+     "start": 99.16,
+     "end": 99.44,
+     "text": "doesn't"
+    },
+    {
+     "start": 99.44,
+     "end": 99.64,
+     "text": "have"
+    },
+    {
+     "start": 99.64,
+     "end": 99.86,
+     "text": "much"
+    },
+    {
+     "start": 99.46,
+     "end": 100.12,
+     "text": "in"
+    }
+   ]
+  },
+  {
+   "start": 100.12,
+   "end": 105.0,
+   "text": "terms to do with our story apart from having the east coast main line pass nearby.",
+   "words": [
+    {
+     "start": 100.12,
+     "end": 100.56,
+     "text": "terms"
+    },
+    {
+     "start": 100.56,
+     "end": 101.04,
+     "text": "to"
+    },
+    {
+     "start": 101.04,
+     "end": 101.18,
+     "text": "do"
+    },
+    {
+     "start": 101.18,
+     "end": 101.38,
+     "text": "with"
+    },
+    {
+     "start": 101.38,
+     "end": 101.54,
+     "text": "our"
+    },
+    {
+     "start": 101.54,
+     "end": 101.94,
+     "text": "story"
+    },
+    {
+     "start": 101.94,
+     "end": 102.38,
+     "text": "apart"
+    },
+    {
+     "start": 102.38,
+     "end": 102.54,
+     "text": "from"
+    },
+    {
+     "start": 102.54,
+     "end": 102.8,
+     "text": "having"
+    },
+    {
+     "start": 102.8,
+     "end": 103.02,
+     "text": "the"
+    },
+    {
+     "start": 103.02,
+     "end": 103.32,
+     "text": "east"
+    },
+    {
+     "start": 103.32,
+     "end": 103.78,
+     "text": "coast"
+    },
+    {
+     "start": 103.78,
+     "end": 104.1,
+     "text": "main"
+    },
+    {
+     "start": 104.1,
+     "end": 104.32,
+     "text": "line"
+    },
+    {
+     "start": 104.32,
+     "end": 104.56,
+     "text": "pass"
+    },
+    {
+     "start": 104.56,
+     "end": 105.0,
+     "text": "nearby."
+    }
+   ]
+  },
+  {
+   "start": 105.0,
+   "end": 106.32,
+   "text": "The town did have",
+   "words": [
+    {
+     "start": 105.0,
+     "end": 105.74,
+     "text": "The"
+    },
+    {
+     "start": 105.74,
+     "end": 105.94,
+     "text": "town"
+    },
+    {
+     "start": 105.94,
+     "end": 106.12,
+     "text": "did"
+    },
+    {
+     "start": 105.66,
+     "end": 106.32,
+     "text": "have"
+    }
+   ]
+  },
+  {
+   "start": 106.32,
+   "end": 111.52,
+   "text": "a station along the line long ago but it was closed in the 1950s however the town is near",
+   "words": [
+    {
+     "start": 106.32,
+     "end": 106.56,
+     "text": "a"
+    },
+    {
+     "start": 106.56,
+     "end": 106.8,
+     "text": "station"
+    },
+    {
+     "start": 106.8,
+     "end": 107.12,
+     "text": "along"
+    },
+    {
+     "start": 107.12,
+     "end": 107.26,
+     "text": "the"
+    },
+    {
+     "start": 107.26,
+     "end": 107.54,
+     "text": "line"
+    },
+    {
+     "start": 107.54,
+     "end": 108.24,
+     "text": "long"
+    },
+    {
+     "start": 108.24,
+     "end": 108.56,
+     "text": "ago"
+    },
+    {
+     "start": 108.56,
+     "end": 108.86,
+     "text": "but"
+    },
+    {
+     "start": 108.86,
+     "end": 108.94,
+     "text": "it"
+    },
+    {
+     "start": 108.94,
+     "end": 109.06,
+     "text": "was"
+    },
+    {
+     "start": 109.06,
+     "end": 109.28,
+     "text": "closed"
+    },
+    {
+     "start": 109.28,
+     "end": 109.44,
+     "text": "in"
+    },
+    {
+     "start": 109.44,
+     "end": 109.5,
+     "text": "the"
+    },
+    {
+     "start": 109.5,
+     "end": 110.28,
+     "text": "1950s"
+    },
+    {
+     "start": 110.28,
+     "end": 110.74,
+     "text": "however"
+    },
+    {
+     "start": 110.74,
+     "end": 110.86,
+     "text": "the"
+    },
+    {
+     "start": 110.86,
+     "end": 111.04,
+     "text": "town"
+    },
+    {
+     "start": 111.04,
+     "end": 111.28,
+     "text": "is"
+    },
+    {
+     "start": 111.28,
+     "end": 111.52,
+     "text": "near"
+    }
+   ]
+  },
+  {
+   "start": 112.18,
+   "end": 116.0,
+   "text": "one of the area's major good yards, the Tyne Yard.",
+   "words": [
+    {
+     "start": 112.18,
+     "end": 112.34,
+     "text": "one"
+    },
+    {
+     "start": 112.34,
+     "end": 112.7,
+     "text": "of"
+    },
+    {
+     "start": 112.7,
+     "end": 112.86,
+     "text": "the"
+    },
+    {
+     "start": 112.86,
+     "end": 113.58,
+     "text": "area's"
+    },
+    {
+     "start": 113.58,
+     "end": 114.1,
+     "text": "major"
+    },
+    {
+     "start": 114.1,
+     "end": 114.44,
+     "text": "good"
+    },
+    {
+     "start": 114.44,
+     "end": 115.2,
+     "text": "yards,"
+    },
+    {
+     "start": 115.2,
+     "end": 115.3,
+     "text": "the"
+    },
+    {
+     "start": 115.3,
+     "end": 115.62,
+     "text": "Tyne"
+    },
+    {
+     "start": 115.62,
+     "end": 116.0,
+     "text": "Yard."
+    }
+   ]
+  },
+  {
+   "start": 118.5,
+   "end": 122.02,
+   "text": "The main line through here, at least in the time of our story in the 1980s,",
+   "words": [
+    {
+     "start": 118.5,
+     "end": 118.62,
+     "text": "The"
+    },
+    {
+     "start": 118.62,
+     "end": 118.78,
+     "text": "main"
+    },
+    {
+     "start": 118.78,
+     "end": 119.02,
+     "text": "line"
+    },
+    {
+     "start": 119.02,
+     "end": 119.26,
+     "text": "through"
+    },
+    {
+     "start": 119.26,
+     "end": 119.82,
+     "text": "here,"
+    },
+    {
+     "start": 119.82,
+     "end": 119.96,
+     "text": "at"
+    },
+    {
+     "start": 119.96,
+     "end": 120.12,
+     "text": "least"
+    },
+    {
+     "start": 120.12,
+     "end": 120.28,
+     "text": "in"
+    },
+    {
+     "start": 120.28,
+     "end": 120.38,
+     "text": "the"
+    },
+    {
+     "start": 120.38,
+     "end": 120.56,
+     "text": "time"
+    },
+    {
+     "start": 120.56,
+     "end": 120.66,
+     "text": "of"
+    },
+    {
+     "start": 120.66,
+     "end": 120.8,
+     "text": "our"
+    },
+    {
+     "start": 120.8,
+     "end": 121.0,
+     "text": "story"
+    },
+    {
+     "start": 121.0,
+     "end": 121.18,
+     "text": "in"
+    },
+    {
+     "start": 121.18,
+     "end": 121.24,
+     "text": "the"
+    },
+    {
+     "start": 121.24,
+     "end": 122.02,
+     "text": "1980s,"
+    }
+   ]
+  },
+  {
+   "start": 122.18,
+   "end": 123.32,
+   "text": "is made up of four tracks.",
+   "words": [
+    {
+     "start": 122.18,
+     "end": 122.32,
+     "text": "is"
+    },
+    {
+     "start": 122.32,
+     "end": 122.46,
+     "text": "made"
+    },
+    {
+     "start": 122.46,
+     "end": 122.6,
+     "text": "up"
+    },
+    {
+     "start": 122.6,
+     "end": 122.72,
+     "text": "of"
+    },
+    {
+     "start": 122.72,
+     "end": 122.94,
+     "text": "four"
+    },
+    {
+     "start": 122.94,
+     "end": 123.32,
+     "text": "tracks."
+    }
+   ]
+  },
+  {
+   "start": 124.94,
+   "end": 128.68,
+   "text": "The down main, an up main and the up and down slow,",
+   "words": [
+    {
+     "start": 124.94,
+     "end": 125.08,
+     "text": "The"
+    },
+    {
+     "start": 125.08,
+     "end": 125.4,
+     "text": "down"
+    },
+    {
+     "start": 125.4,
+     "end": 126.16,
+     "text": "main,"
+    },
+    {
+     "start": 126.16,
+     "end": 126.22,
+     "text": "an"
+    },
+    {
+     "start": 126.22,
+     "end": 126.52,
+     "text": "up"
+    },
+    {
+     "start": 126.52,
+     "end": 126.78,
+     "text": "main"
+    },
+    {
+     "start": 126.78,
+     "end": 127.28,
+     "text": "and"
+    },
+    {
+     "start": 127.28,
+     "end": 127.56,
+     "text": "the"
+    },
+    {
+     "start": 127.56,
+     "end": 127.76,
+     "text": "up"
+    },
+    {
+     "start": 127.76,
+     "end": 127.88,
+     "text": "and"
+    },
+    {
+     "start": 127.88,
+     "end": 128.08,
+     "text": "down"
+    },
+    {
+     "start": 128.08,
+     "end": 128.68,
+     "text": "slow,"
+    }
+   ]
+  },
+  {
+   "start": 129.04,
+   "end": 130.98,
+   "text": "at least at Bertley,",
+   "words": [
+    {
+     "start": 129.04,
+     "end": 129.28,
+     "text": "at"
+    },
+    {
+     "start": 129.28,
+     "end": 129.6,
+     "text": "least"
+    },
+    {
+     "start": 129.6,
+     "end": 130.02,
+     "text": "at"
+    },
+    {
+     "start": 130.02,
+     "end": 130.98,
+     "text": "Bertley,"
+    }
+   ]
+  },
+  {
+   "start": 131.76,
+   "end": 134.52,
+   "text": "where intercity fast services stomp through at high speeds.",
+   "words": [
+    {
+     "start": 131.76,
+     "end": 131.94,
+     "text": "where"
+    },
+    {
+     "start": 131.94,
+     "end": 132.42,
+     "text": "intercity"
+    },
+    {
+     "start": 132.42,
+     "end": 132.74,
+     "text": "fast"
+    },
+    {
+     "start": 132.74,
+     "end": 133.1,
+     "text": "services"
+    },
+    {
+     "start": 133.1,
+     "end": 133.5,
+     "text": "stomp"
+    },
+    {
+     "start": 133.5,
+     "end": 133.7,
+     "text": "through"
+    },
+    {
+     "start": 133.7,
+     "end": 133.86,
+     "text": "at"
+    },
+    {
+     "start": 133.86,
+     "end": 134.04,
+     "text": "high"
+    },
+    {
+     "start": 134.04,
+     "end": 134.52,
+     "text": "speeds."
+    }
+   ]
+  },
+  {
+   "start": 136.0,
+   "end": 137.66,
+   "text": "Now, the down slow is a bit of an odd one as",
+   "words": [
+    {
+     "start": 136.0,
+     "end": 136.2,
+     "text": "Now,"
+    },
+    {
+     "start": 136.2,
+     "end": 136.28,
+     "text": "the"
+    },
+    {
+     "start": 136.28,
+     "end": 136.44,
+     "text": "down"
+    },
+    {
+     "start": 136.44,
+     "end": 136.64,
+     "text": "slow"
+    },
+    {
+     "start": 136.64,
+     "end": 136.8,
+     "text": "is"
+    },
+    {
+     "start": 136.8,
+     "end": 136.9,
+     "text": "a"
+    },
+    {
+     "start": 136.9,
+     "end": 136.92,
+     "text": "bit"
+    },
+    {
+     "start": 136.92,
+     "end": 137.02,
+     "text": "of"
+    },
+    {
+     "start": 137.02,
+     "end": 137.1,
+     "text": "an"
+    },
+    {
+     "start": 137.1,
+     "end": 137.18,
+     "text": "odd"
+    },
+    {
+     "start": 137.18,
+     "end": 137.34,
+     "text": "one"
+    },
+    {
+     "start": 136.92,
+     "end": 137.66,
+     "text": "as"
+    }
+   ]
+  },
+  {
+   "start": 137.66,
+   "end": 141.08,
+   "text": "it goes to the other side of the Tyne Yard along the west,",
+   "words": [
+    {
+     "start": 137.66,
+     "end": 137.76,
+     "text": "it"
+    },
+    {
+     "start": 137.76,
+     "end": 138.02,
+     "text": "goes"
+    },
+    {
+     "start": 138.02,
+     "end": 138.18,
+     "text": "to"
+    },
+    {
+     "start": 138.18,
+     "end": 138.28,
+     "text": "the"
+    },
+    {
+     "start": 138.28,
+     "end": 138.54,
+     "text": "other"
+    },
+    {
+     "start": 138.54,
+     "end": 138.96,
+     "text": "side"
+    },
+    {
+     "start": 138.96,
+     "end": 139.12,
+     "text": "of"
+    },
+    {
+     "start": 139.12,
+     "end": 139.24,
+     "text": "the"
+    },
+    {
+     "start": 139.24,
+     "end": 139.56,
+     "text": "Tyne"
+    },
+    {
+     "start": 139.56,
+     "end": 139.88,
+     "text": "Yard"
+    },
+    {
+     "start": 139.88,
+     "end": 140.2,
+     "text": "along"
+    },
+    {
+     "start": 140.2,
+     "end": 140.36,
+     "text": "the"
+    },
+    {
+     "start": 140.36,
+     "end": 141.08,
+     "text": "west,"
+    }
+   ]
+  },
+  {
+   "start": 141.54,
+   "end": 146.78,
+   "text": "with the other lines being on the east of the yard after which it rejoins the alignment on the main line",
+   "words": [
+    {
+     "start": 141.54,
+     "end": 141.62,
+     "text": "with"
+    },
+    {
+     "start": 141.62,
+     "end": 141.92,
+     "text": "the"
+    },
+    {
+     "start": 141.92,
+     "end": 142.16,
+     "text": "other"
+    },
+    {
+     "start": 142.16,
+     "end": 142.52,
+     "text": "lines"
+    },
+    {
+     "start": 142.52,
+     "end": 142.92,
+     "text": "being"
+    },
+    {
+     "start": 142.92,
+     "end": 143.24,
+     "text": "on"
+    },
+    {
+     "start": 143.24,
+     "end": 143.4,
+     "text": "the"
+    },
+    {
+     "start": 143.4,
+     "end": 143.7,
+     "text": "east"
+    },
+    {
+     "start": 143.7,
+     "end": 143.84,
+     "text": "of"
+    },
+    {
+     "start": 143.84,
+     "end": 143.92,
+     "text": "the"
+    },
+    {
+     "start": 143.92,
+     "end": 144.08,
+     "text": "yard"
+    },
+    {
+     "start": 144.08,
+     "end": 144.74,
+     "text": "after"
+    },
+    {
+     "start": 144.74,
+     "end": 144.94,
+     "text": "which"
+    },
+    {
+     "start": 144.94,
+     "end": 145.14,
+     "text": "it"
+    },
+    {
+     "start": 145.14,
+     "end": 145.64,
+     "text": "rejoins"
+    },
+    {
+     "start": 145.64,
+     "end": 145.78,
+     "text": "the"
+    },
+    {
+     "start": 145.78,
+     "end": 146.02,
+     "text": "alignment"
+    },
+    {
+     "start": 146.02,
+     "end": 146.24,
+     "text": "on"
+    },
+    {
+     "start": 146.24,
+     "end": 146.34,
+     "text": "the"
+    },
+    {
+     "start": 146.34,
+     "end": 146.56,
+     "text": "main"
+    },
+    {
+     "start": 146.08,
+     "end": 146.78,
+     "text": "line"
+    }
+   ]
+  },
+  {
+   "start": 146.78,
+   "end": 152.56,
+   "text": "the yard being where it is understandably means freight services join and exit the main line",
+   "words": [
+    {
+     "start": 146.78,
+     "end": 147.44,
+     "text": "the"
+    },
+    {
+     "start": 147.44,
+     "end": 147.76,
+     "text": "yard"
+    },
+    {
+     "start": 147.76,
+     "end": 148.44,
+     "text": "being"
+    },
+    {
+     "start": 148.44,
+     "end": 148.7,
+     "text": "where"
+    },
+    {
+     "start": 148.7,
+     "end": 148.86,
+     "text": "it"
+    },
+    {
+     "start": 148.86,
+     "end": 149.12,
+     "text": "is"
+    },
+    {
+     "start": 149.12,
+     "end": 150.2,
+     "text": "understandably"
+    },
+    {
+     "start": 150.2,
+     "end": 150.58,
+     "text": "means"
+    },
+    {
+     "start": 150.58,
+     "end": 150.82,
+     "text": "freight"
+    },
+    {
+     "start": 150.82,
+     "end": 151.22,
+     "text": "services"
+    },
+    {
+     "start": 151.22,
+     "end": 151.58,
+     "text": "join"
+    },
+    {
+     "start": 151.58,
+     "end": 151.7,
+     "text": "and"
+    },
+    {
+     "start": 151.7,
+     "end": 152.02,
+     "text": "exit"
+    },
+    {
+     "start": 152.02,
+     "end": 152.18,
+     "text": "the"
+    },
+    {
+     "start": 152.18,
+     "end": 152.38,
+     "text": "main"
+    },
+    {
+     "start": 151.9,
+     "end": 152.56,
+     "text": "line"
+    }
+   ]
+  },
+  {
+   "start": 152.56,
+   "end": 157.5,
+   "text": "here it kind of makes sense to have the slow here as it allows for freight services to enter the",
+   "words": [
+    {
+     "start": 152.56,
+     "end": 152.82,
+     "text": "here"
+    },
+    {
+     "start": 152.82,
+     "end": 153.6,
+     "text": "it"
+    },
+    {
+     "start": 153.6,
+     "end": 153.74,
+     "text": "kind"
+    },
+    {
+     "start": 153.74,
+     "end": 153.82,
+     "text": "of"
+    },
+    {
+     "start": 153.82,
+     "end": 154.02,
+     "text": "makes"
+    },
+    {
+     "start": 154.02,
+     "end": 154.24,
+     "text": "sense"
+    },
+    {
+     "start": 154.24,
+     "end": 154.46,
+     "text": "to"
+    },
+    {
+     "start": 154.46,
+     "end": 154.62,
+     "text": "have"
+    },
+    {
+     "start": 154.62,
+     "end": 154.76,
+     "text": "the"
+    },
+    {
+     "start": 154.76,
+     "end": 154.92,
+     "text": "slow"
+    },
+    {
+     "start": 154.92,
+     "end": 155.2,
+     "text": "here"
+    },
+    {
+     "start": 155.2,
+     "end": 155.64,
+     "text": "as"
+    },
+    {
+     "start": 155.64,
+     "end": 155.74,
+     "text": "it"
+    },
+    {
+     "start": 155.74,
+     "end": 156.02,
+     "text": "allows"
+    },
+    {
+     "start": 156.02,
+     "end": 156.18,
+     "text": "for"
+    },
+    {
+     "start": 156.18,
+     "end": 156.36,
+     "text": "freight"
+    },
+    {
+     "start": 156.36,
+     "end": 156.72,
+     "text": "services"
+    },
+    {
+     "start": 156.72,
+     "end": 157.04,
+     "text": "to"
+    },
+    {
+     "start": 157.04,
+     "end": 157.32,
+     "text": "enter"
+    },
+    {
+     "start": 156.94,
+     "end": 157.5,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "start": 157.5,
+   "end": 163.02,
+   "text": "route onto the slow line reducing the number of conflicting movements and hindrance to the fast services",
+   "words": [
+    {
+     "start": 157.5,
+     "end": 157.74,
+     "text": "route"
+    },
+    {
+     "start": 157.74,
+     "end": 158.08,
+     "text": "onto"
+    },
+    {
+     "start": 158.08,
+     "end": 158.24,
+     "text": "the"
+    },
+    {
+     "start": 158.24,
+     "end": 158.44,
+     "text": "slow"
+    },
+    {
+     "start": 158.44,
+     "end": 158.72,
+     "text": "line"
+    },
+    {
+     "start": 158.72,
+     "end": 159.28,
+     "text": "reducing"
+    },
+    {
+     "start": 159.28,
+     "end": 159.5,
+     "text": "the"
+    },
+    {
+     "start": 159.5,
+     "end": 159.62,
+     "text": "number"
+    },
+    {
+     "start": 159.62,
+     "end": 159.78,
+     "text": "of"
+    },
+    {
+     "start": 159.78,
+     "end": 160.24,
+     "text": "conflicting"
+    },
+    {
+     "start": 160.24,
+     "end": 160.92,
+     "text": "movements"
+    },
+    {
+     "start": 160.92,
+     "end": 161.58,
+     "text": "and"
+    },
+    {
+     "start": 161.58,
+     "end": 161.92,
+     "text": "hindrance"
+    },
+    {
+     "start": 161.92,
+     "end": 162.2,
+     "text": "to"
+    },
+    {
+     "start": 162.2,
+     "end": 162.3,
+     "text": "the"
+    },
+    {
+     "start": 162.3,
+     "end": 162.52,
+     "text": "fast"
+    },
+    {
+     "start": 162.08,
+     "end": 163.02,
+     "text": "services"
+    }
+   ]
+  },
+  {
+   "start": 163.02,
+   "end": 168.2,
+   "text": "the slow line here has a speed limit of 40 miles an hour and trains have to navigate a set",
+   "words": [
+    {
+     "start": 163.02,
+     "end": 163.62,
+     "text": "the"
+    },
+    {
+     "start": 163.62,
+     "end": 163.76,
+     "text": "slow"
+    },
+    {
+     "start": 163.76,
+     "end": 163.96,
+     "text": "line"
+    },
+    {
+     "start": 163.96,
+     "end": 164.16,
+     "text": "here"
+    },
+    {
+     "start": 164.16,
+     "end": 164.4,
+     "text": "has"
+    },
+    {
+     "start": 164.4,
+     "end": 164.52,
+     "text": "a"
+    },
+    {
+     "start": 164.52,
+     "end": 164.68,
+     "text": "speed"
+    },
+    {
+     "start": 164.68,
+     "end": 164.9,
+     "text": "limit"
+    },
+    {
+     "start": 164.9,
+     "end": 165.06,
+     "text": "of"
+    },
+    {
+     "start": 165.06,
+     "end": 165.34,
+     "text": "40"
+    },
+    {
+     "start": 165.34,
+     "end": 165.5,
+     "text": "miles"
+    },
+    {
+     "start": 165.5,
+     "end": 165.7,
+     "text": "an"
+    },
+    {
+     "start": 165.7,
+     "end": 165.92,
+     "text": "hour"
+    },
+    {
+     "start": 165.92,
+     "end": 166.7,
+     "text": "and"
+    },
+    {
+     "start": 166.7,
+     "end": 167.02,
+     "text": "trains"
+    },
+    {
+     "start": 167.02,
+     "end": 167.28,
+     "text": "have"
+    },
+    {
+     "start": 167.28,
+     "end": 167.4,
+     "text": "to"
+    },
+    {
+     "start": 167.4,
+     "end": 167.68,
+     "text": "navigate"
+    },
+    {
+     "start": 167.68,
+     "end": 168.02,
+     "text": "a"
+    },
+    {
+     "start": 168.02,
+     "end": 168.2,
+     "text": "set"
+    }
+   ]
+  },
+  {
+   "start": 168.22,
+   "end": 171.44,
+   "text": "points which is used to allow freight onto the slow.",
+   "words": [
+    {
+     "start": 168.22,
+     "end": 168.56,
+     "text": "points"
+    },
+    {
+     "start": 168.56,
+     "end": 169.26,
+     "text": "which"
+    },
+    {
+     "start": 169.26,
+     "end": 169.6,
+     "text": "is"
+    },
+    {
+     "start": 169.6,
+     "end": 169.82,
+     "text": "used"
+    },
+    {
+     "start": 169.82,
+     "end": 169.94,
+     "text": "to"
+    },
+    {
+     "start": 169.94,
+     "end": 170.08,
+     "text": "allow"
+    },
+    {
+     "start": 170.08,
+     "end": 170.42,
+     "text": "freight"
+    },
+    {
+     "start": 170.42,
+     "end": 170.76,
+     "text": "onto"
+    },
+    {
+     "start": 170.76,
+     "end": 170.96,
+     "text": "the"
+    },
+    {
+     "start": 170.96,
+     "end": 171.44,
+     "text": "slow."
+    }
+   ]
+  },
+  {
+   "start": 171.44,
+   "end": 179.568,
+   "text": "This as we see here on my diagram, is protected by signal Tango Yankee 189, and the area is under control of the Tine signal",
+   "words": [
+    {
+     "start": 171.44,
+     "end": 172.6,
+     "text": "This"
+    },
+    {
+     "start": 172.6,
+     "end": 172.86,
+     "text": "as"
+    },
+    {
+     "start": 172.86,
+     "end": 172.96,
+     "text": "we"
+    },
+    {
+     "start": 172.96,
+     "end": 173.16,
+     "text": "see"
+    },
+    {
+     "start": 173.16,
+     "end": 173.38,
+     "text": "here"
+    },
+    {
+     "start": 173.38,
+     "end": 173.5,
+     "text": "on"
+    },
+    {
+     "start": 173.488,
+     "end": 173.568,
+     "text": "my"
+    },
+    {
+     "start": 173.568,
+     "end": 174.128,
+     "text": "diagram,"
+    },
+    {
+     "start": 174.128,
+     "end": 174.208,
+     "text": "is"
+    },
+    {
+     "start": 174.208,
+     "end": 174.508,
+     "text": "protected"
+    },
+    {
+     "start": 174.508,
+     "end": 174.788,
+     "text": "by"
+    },
+    {
+     "start": 174.788,
+     "end": 175.188,
+     "text": "signal"
+    },
+    {
+     "start": 175.188,
+     "end": 175.688,
+     "text": "Tango"
+    },
+    {
+     "start": 175.688,
+     "end": 176.128,
+     "text": "Yankee"
+    },
+    {
+     "start": 176.128,
+     "end": 176.928,
+     "text": "189,"
+    },
+    {
+     "start": 177.628,
+     "end": 177.788,
+     "text": "and"
+    },
+    {
+     "start": 177.788,
+     "end": 177.908,
+     "text": "the"
+    },
+    {
+     "start": 177.908,
+     "end": 178.188,
+     "text": "area"
+    },
+    {
+     "start": 178.188,
+     "end": 178.308,
+     "text": "is"
+    },
+    {
+     "start": 178.308,
+     "end": 178.448,
+     "text": "under"
+    },
+    {
+     "start": 178.448,
+     "end": 178.788,
+     "text": "control"
+    },
+    {
+     "start": 178.788,
+     "end": 178.968,
+     "text": "of"
+    },
+    {
+     "start": 178.968,
+     "end": 179.068,
+     "text": "the"
+    },
+    {
+     "start": 179.068,
+     "end": 179.268,
+     "text": "Tine"
+    },
+    {
+     "start": 179.268,
+     "end": 179.568,
+     "text": "signal"
+    }
+   ]
+  },
+  {
+   "start": 179.568,
+   "end": 179.868,
+   "text": "box.",
+   "words": [
+    {
+     "start": 179.568,
+     "end": 179.868,
+     "text": "box."
+    }
+   ]
+  },
+  {
+   "start": 180.288,
+   "end": 183.988,
+   "text": "The lines in the area are four aspect colour light signals and",
+   "words": [
+    {
+     "start": 180.288,
+     "end": 180.448,
+     "text": "The"
+    },
+    {
+     "start": 180.448,
+     "end": 180.668,
+     "text": "lines"
+    },
+    {
+     "start": 180.668,
+     "end": 180.808,
+     "text": "in"
+    },
+    {
+     "start": 180.808,
+     "end": 180.928,
+     "text": "the"
+    },
+    {
+     "start": 180.928,
+     "end": 181.288,
+     "text": "area"
+    },
+    {
+     "start": 181.288,
+     "end": 181.708,
+     "text": "are"
+    },
+    {
+     "start": 181.708,
+     "end": 182.048,
+     "text": "four"
+    },
+    {
+     "start": 182.048,
+     "end": 182.628,
+     "text": "aspect"
+    },
+    {
+     "start": 182.628,
+     "end": 182.888,
+     "text": "colour"
+    },
+    {
+     "start": 182.888,
+     "end": 183.068,
+     "text": "light"
+    },
+    {
+     "start": 183.068,
+     "end": 183.408,
+     "text": "signals"
+    },
+    {
+     "start": 183.008,
+     "end": 183.988,
+     "text": "and"
+    }
+   ]
+  },
+  {
+   "start": 183.988,
+   "end": 186.368,
+   "text": "had the tried and tested automatic warning system",
+   "words": [
+    {
+     "start": 183.988,
+     "end": 184.128,
+     "text": "had"
+    },
+    {
+     "start": 184.128,
+     "end": 184.248,
+     "text": "the"
+    },
+    {
+     "start": 184.248,
+     "end": 184.408,
+     "text": "tried"
+    },
+    {
+     "start": 184.408,
+     "end": 184.628,
+     "text": "and"
+    },
+    {
+     "start": 184.628,
+     "end": 184.988,
+     "text": "tested"
+    },
+    {
+     "start": 184.988,
+     "end": 185.668,
+     "text": "automatic"
+    },
+    {
+     "start": 185.668,
+     "end": 185.968,
+     "text": "warning"
+    },
+    {
+     "start": 185.968,
+     "end": 186.368,
+     "text": "system"
+    }
+   ]
+  },
+  {
+   "start": 186.008,
+   "end": 189.968,
+   "text": "as 1980s only form of train protection system.",
+   "words": [
+    {
+     "start": 186.008,
+     "end": 187.428,
+     "text": "as"
+    },
+    {
+     "start": 187.428,
+     "end": 188.228,
+     "text": "1980s"
+    },
+    {
+     "start": 188.228,
+     "end": 188.588,
+     "text": "only"
+    },
+    {
+     "start": 188.588,
+     "end": 188.888,
+     "text": "form"
+    },
+    {
+     "start": 188.888,
+     "end": 189.008,
+     "text": "of"
+    },
+    {
+     "start": 189.008,
+     "end": 189.168,
+     "text": "train"
+    },
+    {
+     "start": 189.168,
+     "end": 189.508,
+     "text": "protection"
+    },
+    {
+     "start": 189.508,
+     "end": 189.968,
+     "text": "system."
+    }
+   ]
+  },
+  {
+   "start": 191.028,
+   "end": 195.868,
+   "text": "Intercity services work the East Coast main line in addition to local services.",
+   "words": [
+    {
+     "start": 191.028,
+     "end": 191.348,
+     "text": "Intercity"
+    },
+    {
+     "start": 191.348,
+     "end": 191.808,
+     "text": "services"
+    },
+    {
+     "start": 191.808,
+     "end": 192.828,
+     "text": "work"
+    },
+    {
+     "start": 192.828,
+     "end": 193.508,
+     "text": "the"
+    },
+    {
+     "start": 193.508,
+     "end": 193.748,
+     "text": "East"
+    },
+    {
+     "start": 193.748,
+     "end": 193.928,
+     "text": "Coast"
+    },
+    {
+     "start": 193.928,
+     "end": 194.208,
+     "text": "main"
+    },
+    {
+     "start": 194.208,
+     "end": 194.408,
+     "text": "line"
+    },
+    {
+     "start": 194.408,
+     "end": 194.688,
+     "text": "in"
+    },
+    {
+     "start": 194.688,
+     "end": 194.888,
+     "text": "addition"
+    },
+    {
+     "start": 194.888,
+     "end": 195.168,
+     "text": "to"
+    },
+    {
+     "start": 195.168,
+     "end": 195.388,
+     "text": "local"
+    },
+    {
+     "start": 195.388,
+     "end": 195.868,
+     "text": "services."
+    }
+   ]
+  },
+  {
+   "start": 196.328,
+   "end": 204.908,
+   "text": "The line is unelectrified in the early 1980s and the HST-125s are a mainstay running",
+   "words": [
+    {
+     "start": 196.328,
+     "end": 196.428,
+     "text": "The"
+    },
+    {
+     "start": 196.428,
+     "end": 196.648,
+     "text": "line"
+    },
+    {
+     "start": 196.648,
+     "end": 196.828,
+     "text": "is"
+    },
+    {
+     "start": 196.828,
+     "end": 197.568,
+     "text": "unelectrified"
+    },
+    {
+     "start": 197.568,
+     "end": 198.688,
+     "text": "in"
+    },
+    {
+     "start": 198.688,
+     "end": 198.788,
+     "text": "the"
+    },
+    {
+     "start": 198.788,
+     "end": 198.988,
+     "text": "early"
+    },
+    {
+     "start": 198.988,
+     "end": 199.648,
+     "text": "1980s"
+    },
+    {
+     "start": 199.648,
+     "end": 200.188,
+     "text": "and"
+    },
+    {
+     "start": 200.188,
+     "end": 200.388,
+     "text": "the"
+    },
+    {
+     "start": 200.388,
+     "end": 202.528,
+     "text": "HST-125s"
+    },
+    {
+     "start": 202.528,
+     "end": 202.908,
+     "text": "are"
+    },
+    {
+     "start": 202.908,
+     "end": 203.108,
+     "text": "a"
+    },
+    {
+     "start": 203.108,
+     "end": 204.008,
+     "text": "mainstay"
+    },
+    {
+     "start": 204.008,
+     "end": 204.908,
+     "text": "running"
+    }
+   ]
+  },
+  {
+   "start": 204.908,
+   "end": 207.468,
+   "text": "along the line in addition to other diesel services.",
+   "words": [
+    {
+     "start": 204.908,
+     "end": 205.188,
+     "text": "along"
+    },
+    {
+     "start": 205.188,
+     "end": 205.388,
+     "text": "the"
+    },
+    {
+     "start": 205.388,
+     "end": 205.628,
+     "text": "line"
+    },
+    {
+     "start": 205.628,
+     "end": 205.928,
+     "text": "in"
+    },
+    {
+     "start": 205.928,
+     "end": 206.148,
+     "text": "addition"
+    },
+    {
+     "start": 206.148,
+     "end": 206.328,
+     "text": "to"
+    },
+    {
+     "start": 206.328,
+     "end": 206.568,
+     "text": "other"
+    },
+    {
+     "start": 206.568,
+     "end": 206.868,
+     "text": "diesel"
+    },
+    {
+     "start": 206.868,
+     "end": 207.468,
+     "text": "services."
+    }
+   ]
+  },
+  {
+   "start": 208.308,
+   "end": 212.148,
+   "text": "So next comes a little boring bit for those of you who are not too train obsessed.",
+   "words": [
+    {
+     "start": 208.308,
+     "end": 208.428,
+     "text": "So"
+    },
+    {
+     "start": 208.428,
+     "end": 208.748,
+     "text": "next"
+    },
+    {
+     "start": 208.748,
+     "end": 209.168,
+     "text": "comes"
+    },
+    {
+     "start": 209.168,
+     "end": 209.348,
+     "text": "a"
+    },
+    {
+     "start": 209.348,
+     "end": 209.528,
+     "text": "little"
+    },
+    {
+     "start": 209.528,
+     "end": 209.868,
+     "text": "boring"
+    },
+    {
+     "start": 209.868,
+     "end": 210.088,
+     "text": "bit"
+    },
+    {
+     "start": 210.088,
+     "end": 210.288,
+     "text": "for"
+    },
+    {
+     "start": 210.288,
+     "end": 210.508,
+     "text": "those"
+    },
+    {
+     "start": 210.508,
+     "end": 210.668,
+     "text": "of"
+    },
+    {
+     "start": 210.668,
+     "end": 210.768,
+     "text": "you"
+    },
+    {
+     "start": 210.768,
+     "end": 210.968,
+     "text": "who"
+    },
+    {
+     "start": 210.968,
+     "end": 211.148,
+     "text": "are"
+    },
+    {
+     "start": 211.148,
+     "end": 211.328,
+     "text": "not"
+    },
+    {
+     "start": 211.328,
+     "end": 211.608,
+     "text": "too"
+    },
+    {
+     "start": 211.608,
+     "end": 211.868,
+     "text": "train"
+    },
+    {
+     "start": 211.868,
+     "end": 212.148,
+     "text": "obsessed."
+    }
+   ]
+  },
+  {
+   "start": 212.908,
+   "end": 217.888,
+   "text": "We need to talk briefly about point work and the point work used in the area around the downslope.",
+   "words": [
+    {
+     "start": 212.908,
+     "end": 213.048,
+     "text": "We"
+    },
+    {
+     "start": 213.048,
+     "end": 213.228,
+     "text": "need"
+    },
+    {
+     "start": 213.228,
+     "end": 213.248,
+     "text": "to"
+    },
+    {
+     "start": 213.248,
+     "end": 213.388,
+     "text": "talk"
+    },
+    {
+     "start": 213.388,
+     "end": 213.708,
+     "text": "briefly"
+    },
+    {
+     "start": 213.708,
+     "end": 214.008,
+     "text": "about"
+    },
+    {
+     "start": 214.008,
+     "end": 214.328,
+     "text": "point"
+    },
+    {
+     "start": 214.328,
+     "end": 214.508,
+     "text": "work"
+    },
+    {
+     "start": 214.508,
+     "end": 215.468,
+     "text": "and"
+    },
+    {
+     "start": 215.468,
+     "end": 215.608,
+     "text": "the"
+    },
+    {
+     "start": 215.608,
+     "end": 215.748,
+     "text": "point"
+    },
+    {
+     "start": 215.748,
+     "end": 215.928,
+     "text": "work"
+    },
+    {
+     "start": 215.928,
+     "end": 216.228,
+     "text": "used"
+    },
+    {
+     "start": 216.228,
+     "end": 216.408,
+     "text": "in"
+    },
+    {
+     "start": 216.408,
+     "end": 216.488,
+     "text": "the"
+    },
+    {
+     "start": 216.488,
+     "end": 216.788,
+     "text": "area"
+    },
+    {
+     "start": 216.788,
+     "end": 217.208,
+     "text": "around"
+    },
+    {
+     "start": 217.208,
+     "end": 217.328,
+     "text": "the"
+    },
+    {
+     "start": 217.328,
+     "end": 217.888,
+     "text": "downslope."
+    }
+   ]
+  },
+  {
+   "start": 218.788,
+   "end": 223.688,
+   "text": "As it will make more sense when we get into the investigation later on.",
+   "words": [
+    {
+     "start": 218.788,
+     "end": 218.988,
+     "text": "As"
+    },
+    {
+     "start": 218.988,
+     "end": 219.148,
+     "text": "it"
+    },
+    {
+     "start": 219.148,
+     "end": 219.448,
+     "text": "will"
+    },
+    {
+     "start": 219.448,
+     "end": 220.268,
+     "text": "make"
+    },
+    {
+     "start": 220.268,
+     "end": 220.848,
+     "text": "more"
+    },
+    {
+     "start": 220.848,
+     "end": 221.268,
+     "text": "sense"
+    },
+    {
+     "start": 221.268,
+     "end": 221.628,
+     "text": "when"
+    },
+    {
+     "start": 221.628,
+     "end": 221.748,
+     "text": "we"
+    },
+    {
+     "start": 221.748,
+     "end": 221.948,
+     "text": "get"
+    },
+    {
+     "start": 221.948,
+     "end": 222.168,
+     "text": "into"
+    },
+    {
+     "start": 222.168,
+     "end": 222.308,
+     "text": "the"
+    },
+    {
+     "start": 222.308,
+     "end": 222.708,
+     "text": "investigation"
+    },
+    {
+     "start": 222.708,
+     "end": 223.288,
+     "text": "later"
+    },
+    {
+     "start": 223.288,
+     "end": 223.688,
+     "text": "on."
+    }
+   ]
+  },
+  {
+   "start": 224.308,
+   "end": 231.148,
+   "text": "so the points that let trains onto the slow from the yard were called number 618a and they were",
+   "words": [
+    {
+     "start": 224.308,
+     "end": 224.388,
+     "text": "so"
+    },
+    {
+     "start": 224.388,
+     "end": 224.508,
+     "text": "the"
+    },
+    {
+     "start": 224.508,
+     "end": 224.808,
+     "text": "points"
+    },
+    {
+     "start": 224.808,
+     "end": 225.148,
+     "text": "that"
+    },
+    {
+     "start": 225.148,
+     "end": 225.548,
+     "text": "let"
+    },
+    {
+     "start": 225.548,
+     "end": 225.968,
+     "text": "trains"
+    },
+    {
+     "start": 225.968,
+     "end": 226.268,
+     "text": "onto"
+    },
+    {
+     "start": 226.268,
+     "end": 226.468,
+     "text": "the"
+    },
+    {
+     "start": 226.468,
+     "end": 226.688,
+     "text": "slow"
+    },
+    {
+     "start": 226.688,
+     "end": 226.968,
+     "text": "from"
+    },
+    {
+     "start": 226.968,
+     "end": 227.088,
+     "text": "the"
+    },
+    {
+     "start": 227.088,
+     "end": 227.368,
+     "text": "yard"
+    },
+    {
+     "start": 227.368,
+     "end": 227.688,
+     "text": "were"
+    },
+    {
+     "start": 227.688,
+     "end": 228.048,
+     "text": "called"
+    },
+    {
+     "start": 228.048,
+     "end": 228.488,
+     "text": "number"
+    },
+    {
+     "start": 228.488,
+     "end": 229.788,
+     "text": "618a"
+    },
+    {
+     "start": 229.788,
+     "end": 230.728,
+     "text": "and"
+    },
+    {
+     "start": 230.728,
+     "end": 230.968,
+     "text": "they"
+    },
+    {
+     "start": 230.968,
+     "end": 231.148,
+     "text": "were"
+    }
+   ]
+  },
+  {
+   "start": 230.708,
+   "end": 237.708,
+   "text": "bullhead rails this is an older type of rail compared to the newer flathead variety bullhead was",
+   "words": [
+    {
+     "start": 230.708,
+     "end": 231.788,
+     "text": "bullhead"
+    },
+    {
+     "start": 231.788,
+     "end": 232.208,
+     "text": "rails"
+    },
+    {
+     "start": 232.208,
+     "end": 233.348,
+     "text": "this"
+    },
+    {
+     "start": 233.348,
+     "end": 233.488,
+     "text": "is"
+    },
+    {
+     "start": 233.488,
+     "end": 233.568,
+     "text": "an"
+    },
+    {
+     "start": 233.568,
+     "end": 233.728,
+     "text": "older"
+    },
+    {
+     "start": 233.728,
+     "end": 233.908,
+     "text": "type"
+    },
+    {
+     "start": 233.908,
+     "end": 234.088,
+     "text": "of"
+    },
+    {
+     "start": 234.088,
+     "end": 234.268,
+     "text": "rail"
+    },
+    {
+     "start": 234.268,
+     "end": 234.868,
+     "text": "compared"
+    },
+    {
+     "start": 234.868,
+     "end": 235.048,
+     "text": "to"
+    },
+    {
+     "start": 235.048,
+     "end": 235.148,
+     "text": "the"
+    },
+    {
+     "start": 235.148,
+     "end": 235.348,
+     "text": "newer"
+    },
+    {
+     "start": 235.348,
+     "end": 235.828,
+     "text": "flathead"
+    },
+    {
+     "start": 235.828,
+     "end": 236.368,
+     "text": "variety"
+    },
+    {
+     "start": 236.368,
+     "end": 237.408,
+     "text": "bullhead"
+    },
+    {
+     "start": 236.988,
+     "end": 237.708,
+     "text": "was"
+    }
+   ]
+  },
+  {
+   "start": 237.708,
+   "end": 243.288,
+   "text": "identical on both the bottom and the top of the steel this in theory allowed the track to be turned",
+   "words": [
+    {
+     "start": 237.708,
+     "end": 238.108,
+     "text": "identical"
+    },
+    {
+     "start": 238.108,
+     "end": 238.448,
+     "text": "on"
+    },
+    {
+     "start": 238.448,
+     "end": 238.728,
+     "text": "both"
+    },
+    {
+     "start": 238.728,
+     "end": 238.888,
+     "text": "the"
+    },
+    {
+     "start": 238.888,
+     "end": 239.168,
+     "text": "bottom"
+    },
+    {
+     "start": 239.168,
+     "end": 239.668,
+     "text": "and"
+    },
+    {
+     "start": 239.668,
+     "end": 239.808,
+     "text": "the"
+    },
+    {
+     "start": 239.808,
+     "end": 239.948,
+     "text": "top"
+    },
+    {
+     "start": 239.948,
+     "end": 240.068,
+     "text": "of"
+    },
+    {
+     "start": 240.068,
+     "end": 240.228,
+     "text": "the"
+    },
+    {
+     "start": 240.228,
+     "end": 240.468,
+     "text": "steel"
+    },
+    {
+     "start": 240.468,
+     "end": 241.608,
+     "text": "this"
+    },
+    {
+     "start": 241.608,
+     "end": 241.788,
+     "text": "in"
+    },
+    {
+     "start": 241.788,
+     "end": 242.068,
+     "text": "theory"
+    },
+    {
+     "start": 242.068,
+     "end": 242.528,
+     "text": "allowed"
+    },
+    {
+     "start": 242.528,
+     "end": 242.688,
+     "text": "the"
+    },
+    {
+     "start": 242.688,
+     "end": 242.828,
+     "text": "track"
+    },
+    {
+     "start": 242.828,
+     "end": 242.948,
+     "text": "to"
+    },
+    {
+     "start": 242.948,
+     "end": 243.088,
+     "text": "be"
+    },
+    {
+     "start": 242.568,
+     "end": 243.288,
+     "text": "turned"
+    }
+   ]
+  },
+  {
+   "start": 243.288,
+   "end": 249.468,
+   "text": "over when one head had worn down now this rail was mounted to chairs screwed into timber",
+   "words": [
+    {
+     "start": 243.288,
+     "end": 243.568,
+     "text": "over"
+    },
+    {
+     "start": 243.568,
+     "end": 244.008,
+     "text": "when"
+    },
+    {
+     "start": 244.008,
+     "end": 244.368,
+     "text": "one"
+    },
+    {
+     "start": 244.368,
+     "end": 244.688,
+     "text": "head"
+    },
+    {
+     "start": 244.688,
+     "end": 244.988,
+     "text": "had"
+    },
+    {
+     "start": 244.988,
+     "end": 245.208,
+     "text": "worn"
+    },
+    {
+     "start": 245.208,
+     "end": 245.508,
+     "text": "down"
+    },
+    {
+     "start": 245.508,
+     "end": 246.588,
+     "text": "now"
+    },
+    {
+     "start": 246.588,
+     "end": 246.868,
+     "text": "this"
+    },
+    {
+     "start": 246.868,
+     "end": 247.068,
+     "text": "rail"
+    },
+    {
+     "start": 247.068,
+     "end": 247.268,
+     "text": "was"
+    },
+    {
+     "start": 247.268,
+     "end": 247.528,
+     "text": "mounted"
+    },
+    {
+     "start": 247.528,
+     "end": 247.888,
+     "text": "to"
+    },
+    {
+     "start": 247.888,
+     "end": 248.248,
+     "text": "chairs"
+    },
+    {
+     "start": 248.248,
+     "end": 248.908,
+     "text": "screwed"
+    },
+    {
+     "start": 248.908,
+     "end": 249.168,
+     "text": "into"
+    },
+    {
+     "start": 249.168,
+     "end": 249.468,
+     "text": "timber"
+    }
+   ]
+  },
+  {
+   "start": 249.488,
+   "end": 254.568,
+   "text": "sleepers set on stone ballast and to stop the rail from moving around a combination of wooden and",
+   "words": [
+    {
+     "start": 249.488,
+     "end": 249.948,
+     "text": "sleepers"
+    },
+    {
+     "start": 249.948,
+     "end": 250.268,
+     "text": "set"
+    },
+    {
+     "start": 250.268,
+     "end": 250.428,
+     "text": "on"
+    },
+    {
+     "start": 250.428,
+     "end": 250.668,
+     "text": "stone"
+    },
+    {
+     "start": 250.668,
+     "end": 251.088,
+     "text": "ballast"
+    },
+    {
+     "start": 251.088,
+     "end": 251.708,
+     "text": "and"
+    },
+    {
+     "start": 251.708,
+     "end": 251.868,
+     "text": "to"
+    },
+    {
+     "start": 251.868,
+     "end": 252.088,
+     "text": "stop"
+    },
+    {
+     "start": 252.088,
+     "end": 252.228,
+     "text": "the"
+    },
+    {
+     "start": 252.228,
+     "end": 252.388,
+     "text": "rail"
+    },
+    {
+     "start": 252.388,
+     "end": 252.568,
+     "text": "from"
+    },
+    {
+     "start": 252.568,
+     "end": 252.808,
+     "text": "moving"
+    },
+    {
+     "start": 252.808,
+     "end": 253.168,
+     "text": "around"
+    },
+    {
+     "start": 253.168,
+     "end": 253.488,
+     "text": "a"
+    },
+    {
+     "start": 253.488,
+     "end": 253.728,
+     "text": "combination"
+    },
+    {
+     "start": 253.728,
+     "end": 254.028,
+     "text": "of"
+    },
+    {
+     "start": 254.028,
+     "end": 254.248,
+     "text": "wooden"
+    },
+    {
+     "start": 253.828,
+     "end": 254.568,
+     "text": "and"
+    }
+   ]
+  },
+  {
+   "start": 254.568,
+   "end": 258.768,
+   "text": "metal keys were used the keys are hammered into place and act as kind of like a wedge",
+   "words": [
+    {
+     "start": 254.568,
+     "end": 254.828,
+     "text": "metal"
+    },
+    {
+     "start": 254.828,
+     "end": 255.068,
+     "text": "keys"
+    },
+    {
+     "start": 255.068,
+     "end": 255.248,
+     "text": "were"
+    },
+    {
+     "start": 255.248,
+     "end": 255.588,
+     "text": "used"
+    },
+    {
+     "start": 255.588,
+     "end": 256.008,
+     "text": "the"
+    },
+    {
+     "start": 256.008,
+     "end": 256.188,
+     "text": "keys"
+    },
+    {
+     "start": 256.188,
+     "end": 256.328,
+     "text": "are"
+    },
+    {
+     "start": 256.328,
+     "end": 256.568,
+     "text": "hammered"
+    },
+    {
+     "start": 256.568,
+     "end": 256.748,
+     "text": "into"
+    },
+    {
+     "start": 256.748,
+     "end": 257.108,
+     "text": "place"
+    },
+    {
+     "start": 257.108,
+     "end": 257.568,
+     "text": "and"
+    },
+    {
+     "start": 257.568,
+     "end": 257.748,
+     "text": "act"
+    },
+    {
+     "start": 257.748,
+     "end": 257.888,
+     "text": "as"
+    },
+    {
+     "start": 257.888,
+     "end": 258.088,
+     "text": "kind"
+    },
+    {
+     "start": 258.088,
+     "end": 258.208,
+     "text": "of"
+    },
+    {
+     "start": 258.208,
+     "end": 258.368,
+     "text": "like"
+    },
+    {
+     "start": 258.368,
+     "end": 258.488,
+     "text": "a"
+    },
+    {
+     "start": 258.488,
+     "end": 258.768,
+     "text": "wedge"
+    }
+   ]
+  },
+  {
+   "start": 260.368,
+   "end": 265.488,
+   "text": "but track on the other side of the point work on the down slow is continuous welded rail on soft wood",
+   "words": [
+    {
+     "start": 260.368,
+     "end": 260.528,
+     "text": "but"
+    },
+    {
+     "start": 260.528,
+     "end": 260.648,
+     "text": "track"
+    },
+    {
+     "start": 260.648,
+     "end": 260.848,
+     "text": "on"
+    },
+    {
+     "start": 260.848,
+     "end": 260.928,
+     "text": "the"
+    },
+    {
+     "start": 260.928,
+     "end": 261.068,
+     "text": "other"
+    },
+    {
+     "start": 261.068,
+     "end": 261.268,
+     "text": "side"
+    },
+    {
+     "start": 261.268,
+     "end": 261.388,
+     "text": "of"
+    },
+    {
+     "start": 261.388,
+     "end": 261.448,
+     "text": "the"
+    },
+    {
+     "start": 261.448,
+     "end": 261.628,
+     "text": "point"
+    },
+    {
+     "start": 261.628,
+     "end": 261.828,
+     "text": "work"
+    },
+    {
+     "start": 261.828,
+     "end": 262.108,
+     "text": "on"
+    },
+    {
+     "start": 262.108,
+     "end": 262.228,
+     "text": "the"
+    },
+    {
+     "start": 262.228,
+     "end": 262.428,
+     "text": "down"
+    },
+    {
+     "start": 262.428,
+     "end": 262.688,
+     "text": "slow"
+    },
+    {
+     "start": 262.688,
+     "end": 263.228,
+     "text": "is"
+    },
+    {
+     "start": 263.228,
+     "end": 263.608,
+     "text": "continuous"
+    },
+    {
+     "start": 263.608,
+     "end": 264.008,
+     "text": "welded"
+    },
+    {
+     "start": 264.008,
+     "end": 264.408,
+     "text": "rail"
+    },
+    {
+     "start": 264.408,
+     "end": 264.928,
+     "text": "on"
+    },
+    {
+     "start": 264.928,
+     "end": 265.268,
+     "text": "soft"
+    },
+    {
+     "start": 264.808,
+     "end": 265.488,
+     "text": "wood"
+    }
+   ]
+  },
+  {
+   "start": 265.488,
+   "end": 272.268,
+   "text": "sleepers with pandrel chairs played again on stone ballast so the point work has two vital fixed",
+   "words": [
+    {
+     "start": 265.488,
+     "end": 266.068,
+     "text": "sleepers"
+    },
+    {
+     "start": 266.068,
+     "end": 266.488,
+     "text": "with"
+    },
+    {
+     "start": 266.488,
+     "end": 266.868,
+     "text": "pandrel"
+    },
+    {
+     "start": 266.868,
+     "end": 267.288,
+     "text": "chairs"
+    },
+    {
+     "start": 267.288,
+     "end": 267.848,
+     "text": "played"
+    },
+    {
+     "start": 267.848,
+     "end": 268.208,
+     "text": "again"
+    },
+    {
+     "start": 268.208,
+     "end": 268.408,
+     "text": "on"
+    },
+    {
+     "start": 268.408,
+     "end": 268.688,
+     "text": "stone"
+    },
+    {
+     "start": 268.688,
+     "end": 269.068,
+     "text": "ballast"
+    },
+    {
+     "start": 269.068,
+     "end": 270.008,
+     "text": "so"
+    },
+    {
+     "start": 270.008,
+     "end": 270.108,
+     "text": "the"
+    },
+    {
+     "start": 270.108,
+     "end": 270.248,
+     "text": "point"
+    },
+    {
+     "start": 270.248,
+     "end": 270.428,
+     "text": "work"
+    },
+    {
+     "start": 270.428,
+     "end": 270.928,
+     "text": "has"
+    },
+    {
+     "start": 270.928,
+     "end": 271.288,
+     "text": "two"
+    },
+    {
+     "start": 271.288,
+     "end": 271.868,
+     "text": "vital"
+    },
+    {
+     "start": 271.468,
+     "end": 272.268,
+     "text": "fixed"
+    }
+   ]
+  },
+  {
+   "start": 272.268,
+   "end": 277.288,
+   "text": "components these are the wing rails and the crossing nose they create the gap which allows for",
+   "words": [
+    {
+     "start": 272.268,
+     "end": 272.728,
+     "text": "components"
+    },
+    {
+     "start": 272.728,
+     "end": 273.428,
+     "text": "these"
+    },
+    {
+     "start": 273.428,
+     "end": 273.588,
+     "text": "are"
+    },
+    {
+     "start": 273.588,
+     "end": 273.708,
+     "text": "the"
+    },
+    {
+     "start": 273.708,
+     "end": 273.828,
+     "text": "wing"
+    },
+    {
+     "start": 273.828,
+     "end": 274.028,
+     "text": "rails"
+    },
+    {
+     "start": 274.028,
+     "end": 274.528,
+     "text": "and"
+    },
+    {
+     "start": 274.528,
+     "end": 274.668,
+     "text": "the"
+    },
+    {
+     "start": 274.668,
+     "end": 274.948,
+     "text": "crossing"
+    },
+    {
+     "start": 274.948,
+     "end": 275.268,
+     "text": "nose"
+    },
+    {
+     "start": 275.268,
+     "end": 275.928,
+     "text": "they"
+    },
+    {
+     "start": 275.928,
+     "end": 276.208,
+     "text": "create"
+    },
+    {
+     "start": 276.208,
+     "end": 276.348,
+     "text": "the"
+    },
+    {
+     "start": 276.348,
+     "end": 276.548,
+     "text": "gap"
+    },
+    {
+     "start": 276.548,
+     "end": 276.788,
+     "text": "which"
+    },
+    {
+     "start": 276.788,
+     "end": 277.048,
+     "text": "allows"
+    },
+    {
+     "start": 277.048,
+     "end": 277.288,
+     "text": "for"
+    }
+   ]
+  },
+  {
+   "start": 277.308,
+   "end": 282.728,
+   "text": "the wheel to travel through the crossing they're held in place by a series of bolts if these fail when",
+   "words": [
+    {
+     "start": 277.308,
+     "end": 277.448,
+     "text": "the"
+    },
+    {
+     "start": 277.448,
+     "end": 277.648,
+     "text": "wheel"
+    },
+    {
+     "start": 277.648,
+     "end": 278.008,
+     "text": "to"
+    },
+    {
+     "start": 278.008,
+     "end": 278.308,
+     "text": "travel"
+    },
+    {
+     "start": 278.308,
+     "end": 278.608,
+     "text": "through"
+    },
+    {
+     "start": 278.608,
+     "end": 278.748,
+     "text": "the"
+    },
+    {
+     "start": 278.748,
+     "end": 279.088,
+     "text": "crossing"
+    },
+    {
+     "start": 279.088,
+     "end": 279.808,
+     "text": "they're"
+    },
+    {
+     "start": 279.808,
+     "end": 279.948,
+     "text": "held"
+    },
+    {
+     "start": 279.948,
+     "end": 280.088,
+     "text": "in"
+    },
+    {
+     "start": 280.088,
+     "end": 280.288,
+     "text": "place"
+    },
+    {
+     "start": 280.288,
+     "end": 280.528,
+     "text": "by"
+    },
+    {
+     "start": 280.528,
+     "end": 280.628,
+     "text": "a"
+    },
+    {
+     "start": 280.628,
+     "end": 280.808,
+     "text": "series"
+    },
+    {
+     "start": 280.808,
+     "end": 280.988,
+     "text": "of"
+    },
+    {
+     "start": 280.988,
+     "end": 281.288,
+     "text": "bolts"
+    },
+    {
+     "start": 281.288,
+     "end": 282.088,
+     "text": "if"
+    },
+    {
+     "start": 282.088,
+     "end": 282.248,
+     "text": "these"
+    },
+    {
+     "start": 282.248,
+     "end": 282.548,
+     "text": "fail"
+    },
+    {
+     "start": 282.068,
+     "end": 282.728,
+     "text": "when"
+    }
+   ]
+  },
+  {
+   "start": 282.728,
+   "end": 287.528,
+   "text": "the track loses its alignment and the wheel is not guided smoothly from the wing rail to the nose",
+   "words": [
+    {
+     "start": 282.728,
+     "end": 282.808,
+     "text": "the"
+    },
+    {
+     "start": 282.808,
+     "end": 282.968,
+     "text": "track"
+    },
+    {
+     "start": 282.968,
+     "end": 283.308,
+     "text": "loses"
+    },
+    {
+     "start": 283.308,
+     "end": 283.508,
+     "text": "its"
+    },
+    {
+     "start": 283.508,
+     "end": 283.828,
+     "text": "alignment"
+    },
+    {
+     "start": 283.828,
+     "end": 284.548,
+     "text": "and"
+    },
+    {
+     "start": 284.548,
+     "end": 284.788,
+     "text": "the"
+    },
+    {
+     "start": 284.788,
+     "end": 284.968,
+     "text": "wheel"
+    },
+    {
+     "start": 284.968,
+     "end": 285.088,
+     "text": "is"
+    },
+    {
+     "start": 285.088,
+     "end": 285.208,
+     "text": "not"
+    },
+    {
+     "start": 285.208,
+     "end": 285.548,
+     "text": "guided"
+    },
+    {
+     "start": 285.548,
+     "end": 285.988,
+     "text": "smoothly"
+    },
+    {
+     "start": 285.988,
+     "end": 286.388,
+     "text": "from"
+    },
+    {
+     "start": 286.388,
+     "end": 286.528,
+     "text": "the"
+    },
+    {
+     "start": 286.528,
+     "end": 286.688,
+     "text": "wing"
+    },
+    {
+     "start": 286.688,
+     "end": 286.908,
+     "text": "rail"
+    },
+    {
+     "start": 286.908,
+     "end": 287.088,
+     "text": "to"
+    },
+    {
+     "start": 287.088,
+     "end": 287.228,
+     "text": "the"
+    },
+    {
+     "start": 286.748,
+     "end": 287.528,
+     "text": "nose"
+    }
+   ]
+  },
+  {
+   "start": 287.528,
+   "end": 292.568,
+   "text": "and ultimately onto the rest of the v-rail now we've done a little bit of the geeky bit",
+   "words": [
+    {
+     "start": 287.528,
+     "end": 287.988,
+     "text": "and"
+    },
+    {
+     "start": 287.988,
+     "end": 288.388,
+     "text": "ultimately"
+    },
+    {
+     "start": 288.388,
+     "end": 288.688,
+     "text": "onto"
+    },
+    {
+     "start": 288.688,
+     "end": 288.848,
+     "text": "the"
+    },
+    {
+     "start": 288.848,
+     "end": 289.048,
+     "text": "rest"
+    },
+    {
+     "start": 289.048,
+     "end": 289.188,
+     "text": "of"
+    },
+    {
+     "start": 289.188,
+     "end": 289.288,
+     "text": "the"
+    },
+    {
+     "start": 289.288,
+     "end": 289.668,
+     "text": "v-rail"
+    },
+    {
+     "start": 289.668,
+     "end": 291.008,
+     "text": "now"
+    },
+    {
+     "start": 291.008,
+     "end": 291.228,
+     "text": "we've"
+    },
+    {
+     "start": 291.228,
+     "end": 291.388,
+     "text": "done"
+    },
+    {
+     "start": 291.388,
+     "end": 291.628,
+     "text": "a"
+    },
+    {
+     "start": 291.628,
+     "end": 291.788,
+     "text": "little"
+    },
+    {
+     "start": 291.788,
+     "end": 291.908,
+     "text": "bit"
+    },
+    {
+     "start": 291.908,
+     "end": 292.008,
+     "text": "of"
+    },
+    {
+     "start": 292.008,
+     "end": 292.068,
+     "text": "the"
+    },
+    {
+     "start": 292.068,
+     "end": 292.348,
+     "text": "geeky"
+    },
+    {
+     "start": 292.348,
+     "end": 292.568,
+     "text": "bit"
+    }
+   ]
+  },
+  {
+   "start": 292.128,
+   "end": 300.268,
+   "text": "let's get into the disaster the disaster so it is the 1st of august 1984 and an",
+   "words": [
+    {
+     "start": 292.128,
+     "end": 293.248,
+     "text": "let's"
+    },
+    {
+     "start": 293.248,
+     "end": 293.568,
+     "text": "get"
+    },
+    {
+     "start": 293.568,
+     "end": 294.128,
+     "text": "into"
+    },
+    {
+     "start": 294.128,
+     "end": 294.308,
+     "text": "the"
+    },
+    {
+     "start": 294.308,
+     "end": 294.768,
+     "text": "disaster"
+    },
+    {
+     "start": 294.768,
+     "end": 295.828,
+     "text": "the"
+    },
+    {
+     "start": 295.828,
+     "end": 296.188,
+     "text": "disaster"
+    },
+    {
+     "start": 296.188,
+     "end": 297.228,
+     "text": "so"
+    },
+    {
+     "start": 297.228,
+     "end": 297.348,
+     "text": "it"
+    },
+    {
+     "start": 297.348,
+     "end": 297.448,
+     "text": "is"
+    },
+    {
+     "start": 297.448,
+     "end": 297.588,
+     "text": "the"
+    },
+    {
+     "start": 297.588,
+     "end": 297.828,
+     "text": "1st"
+    },
+    {
+     "start": 297.828,
+     "end": 298.028,
+     "text": "of"
+    },
+    {
+     "start": 298.028,
+     "end": 298.368,
+     "text": "august"
+    },
+    {
+     "start": 298.368,
+     "end": 298.908,
+     "text": "1984"
+    },
+    {
+     "start": 298.908,
+     "end": 300.108,
+     "text": "and"
+    },
+    {
+     "start": 300.108,
+     "end": 300.268,
+     "text": "an"
+    }
+   ]
+  },
+  {
+   "start": 300.268,
+   "end": 301.128,
+   "text": "intercity service",
+   "words": [
+    {
+     "start": 300.268,
+     "end": 300.728,
+     "text": "intercity"
+    },
+    {
+     "start": 300.728,
+     "end": 301.128,
+     "text": "service"
+    }
+   ]
+  },
+  {
+   "start": 301.148,
+   "end": 309.208,
+   "text": "is getting ready to make up train one sierra one one it will be the 730 leads to edinburgh hst",
+   "words": [
+    {
+     "start": 301.148,
+     "end": 301.368,
+     "text": "is"
+    },
+    {
+     "start": 301.368,
+     "end": 301.608,
+     "text": "getting"
+    },
+    {
+     "start": 301.608,
+     "end": 301.868,
+     "text": "ready"
+    },
+    {
+     "start": 301.868,
+     "end": 302.068,
+     "text": "to"
+    },
+    {
+     "start": 302.068,
+     "end": 302.368,
+     "text": "make"
+    },
+    {
+     "start": 302.368,
+     "end": 302.808,
+     "text": "up"
+    },
+    {
+     "start": 302.808,
+     "end": 303.108,
+     "text": "train"
+    },
+    {
+     "start": 303.108,
+     "end": 303.448,
+     "text": "one"
+    },
+    {
+     "start": 303.448,
+     "end": 304.008,
+     "text": "sierra"
+    },
+    {
+     "start": 304.008,
+     "end": 304.428,
+     "text": "one"
+    },
+    {
+     "start": 304.428,
+     "end": 304.668,
+     "text": "one"
+    },
+    {
+     "start": 304.668,
+     "end": 305.608,
+     "text": "it"
+    },
+    {
+     "start": 305.608,
+     "end": 305.708,
+     "text": "will"
+    },
+    {
+     "start": 305.708,
+     "end": 305.948,
+     "text": "be"
+    },
+    {
+     "start": 305.948,
+     "end": 306.368,
+     "text": "the"
+    },
+    {
+     "start": 306.368,
+     "end": 307.168,
+     "text": "730"
+    },
+    {
+     "start": 307.168,
+     "end": 307.828,
+     "text": "leads"
+    },
+    {
+     "start": 307.828,
+     "end": 308.188,
+     "text": "to"
+    },
+    {
+     "start": 308.188,
+     "end": 308.628,
+     "text": "edinburgh"
+    },
+    {
+     "start": 308.628,
+     "end": 309.208,
+     "text": "hst"
+    }
+   ]
+  },
+  {
+   "start": 309.208,
+   "end": 309.588,
+   "text": "express",
+   "words": [
+    {
+     "start": 309.208,
+     "end": 309.588,
+     "text": "express"
+    }
+   ]
+  },
+  {
+   "start": 310.368,
+   "end": 316.468,
+   "text": "it's made up of two class 43 power cars and a rake of eight mark ii passenger carriages",
+   "words": [
+    {
+     "start": 310.368,
+     "end": 310.548,
+     "text": "it's"
+    },
+    {
+     "start": 310.548,
+     "end": 310.668,
+     "text": "made"
+    },
+    {
+     "start": 310.668,
+     "end": 310.788,
+     "text": "up"
+    },
+    {
+     "start": 310.788,
+     "end": 310.888,
+     "text": "of"
+    },
+    {
+     "start": 310.888,
+     "end": 311.168,
+     "text": "two"
+    },
+    {
+     "start": 311.168,
+     "end": 312.288,
+     "text": "class"
+    },
+    {
+     "start": 312.288,
+     "end": 313.068,
+     "text": "43"
+    },
+    {
+     "start": 313.068,
+     "end": 313.428,
+     "text": "power"
+    },
+    {
+     "start": 313.428,
+     "end": 313.788,
+     "text": "cars"
+    },
+    {
+     "start": 313.788,
+     "end": 314.168,
+     "text": "and"
+    },
+    {
+     "start": 314.168,
+     "end": 314.248,
+     "text": "a"
+    },
+    {
+     "start": 314.248,
+     "end": 314.428,
+     "text": "rake"
+    },
+    {
+     "start": 314.428,
+     "end": 314.628,
+     "text": "of"
+    },
+    {
+     "start": 314.628,
+     "end": 315.008,
+     "text": "eight"
+    },
+    {
+     "start": 315.008,
+     "end": 315.328,
+     "text": "mark"
+    },
+    {
+     "start": 315.328,
+     "end": 315.548,
+     "text": "ii"
+    },
+    {
+     "start": 315.548,
+     "end": 315.928,
+     "text": "passenger"
+    },
+    {
+     "start": 315.928,
+     "end": 316.468,
+     "text": "carriages"
+    }
+   ]
+  },
+  {
+   "start": 317.188,
+   "end": 322.288,
+   "text": "the formation has a top speed of 125 miles an hour and weighs in roughly at around 400 tons",
+   "words": [
+    {
+     "start": 317.188,
+     "end": 317.308,
+     "text": "the"
+    },
+    {
+     "start": 317.308,
+     "end": 317.648,
+     "text": "formation"
+    },
+    {
+     "start": 317.648,
+     "end": 317.948,
+     "text": "has"
+    },
+    {
+     "start": 317.948,
+     "end": 318.048,
+     "text": "a"
+    },
+    {
+     "start": 318.048,
+     "end": 318.168,
+     "text": "top"
+    },
+    {
+     "start": 318.168,
+     "end": 318.328,
+     "text": "speed"
+    },
+    {
+     "start": 318.328,
+     "end": 318.448,
+     "text": "of"
+    },
+    {
+     "start": 318.448,
+     "end": 318.888,
+     "text": "125"
+    },
+    {
+     "start": 318.888,
+     "end": 319.468,
+     "text": "miles"
+    },
+    {
+     "start": 319.468,
+     "end": 319.688,
+     "text": "an"
+    },
+    {
+     "start": 319.688,
+     "end": 319.788,
+     "text": "hour"
+    },
+    {
+     "start": 319.788,
+     "end": 320.168,
+     "text": "and"
+    },
+    {
+     "start": 320.168,
+     "end": 320.388,
+     "text": "weighs"
+    },
+    {
+     "start": 320.388,
+     "end": 320.528,
+     "text": "in"
+    },
+    {
+     "start": 320.528,
+     "end": 320.788,
+     "text": "roughly"
+    },
+    {
+     "start": 320.788,
+     "end": 321.108,
+     "text": "at"
+    },
+    {
+     "start": 321.108,
+     "end": 321.308,
+     "text": "around"
+    },
+    {
+     "start": 321.308,
+     "end": 321.828,
+     "text": "400"
+    },
+    {
+     "start": 321.828,
+     "end": 322.288,
+     "text": "tons"
+    }
+   ]
+  },
+  {
+   "start": 323.228,
+   "end": 326.068,
+   "text": "the morning was proving to be a bit of a bother for the time signal box",
+   "words": [
+    {
+     "start": 323.228,
+     "end": 323.348,
+     "text": "the"
+    },
+    {
+     "start": 323.348,
+     "end": 323.508,
+     "text": "morning"
+    },
+    {
+     "start": 323.508,
+     "end": 323.708,
+     "text": "was"
+    },
+    {
+     "start": 323.708,
+     "end": 323.908,
+     "text": "proving"
+    },
+    {
+     "start": 323.908,
+     "end": 324.048,
+     "text": "to"
+    },
+    {
+     "start": 324.048,
+     "end": 324.088,
+     "text": "be"
+    },
+    {
+     "start": 324.088,
+     "end": 324.248,
+     "text": "a"
+    },
+    {
+     "start": 324.248,
+     "end": 324.328,
+     "text": "bit"
+    },
+    {
+     "start": 324.328,
+     "end": 324.448,
+     "text": "of"
+    },
+    {
+     "start": 324.448,
+     "end": 324.548,
+     "text": "a"
+    },
+    {
+     "start": 324.548,
+     "end": 324.768,
+     "text": "bother"
+    },
+    {
+     "start": 324.768,
+     "end": 325.028,
+     "text": "for"
+    },
+    {
+     "start": 325.028,
+     "end": 325.188,
+     "text": "the"
+    },
+    {
+     "start": 325.188,
+     "end": 325.428,
+     "text": "time"
+    },
+    {
+     "start": 325.428,
+     "end": 325.768,
+     "text": "signal"
+    },
+    {
+     "start": 325.768,
+     "end": 326.068,
+     "text": "box"
+    }
+   ]
+  },
+  {
+   "start": 326.828,
+   "end": 334.368,
+   "text": "signal Tango Yankee 189 had failed and at the same time a locomotive had failed on the main lines",
+   "words": [
+    {
+     "start": 326.828,
+     "end": 327.128,
+     "text": "signal"
+    },
+    {
+     "start": 327.128,
+     "end": 328.768,
+     "text": "Tango"
+    },
+    {
+     "start": 328.768,
+     "end": 329.108,
+     "text": "Yankee"
+    },
+    {
+     "start": 329.108,
+     "end": 329.728,
+     "text": "189"
+    },
+    {
+     "start": 329.728,
+     "end": 329.948,
+     "text": "had"
+    },
+    {
+     "start": 329.948,
+     "end": 330.288,
+     "text": "failed"
+    },
+    {
+     "start": 330.288,
+     "end": 331.168,
+     "text": "and"
+    },
+    {
+     "start": 331.168,
+     "end": 331.268,
+     "text": "at"
+    },
+    {
+     "start": 331.268,
+     "end": 331.388,
+     "text": "the"
+    },
+    {
+     "start": 331.388,
+     "end": 331.548,
+     "text": "same"
+    },
+    {
+     "start": 331.548,
+     "end": 331.928,
+     "text": "time"
+    },
+    {
+     "start": 331.928,
+     "end": 332.188,
+     "text": "a"
+    },
+    {
+     "start": 332.188,
+     "end": 332.648,
+     "text": "locomotive"
+    },
+    {
+     "start": 332.648,
+     "end": 333.048,
+     "text": "had"
+    },
+    {
+     "start": 333.048,
+     "end": 333.388,
+     "text": "failed"
+    },
+    {
+     "start": 333.388,
+     "end": 333.628,
+     "text": "on"
+    },
+    {
+     "start": 333.628,
+     "end": 333.788,
+     "text": "the"
+    },
+    {
+     "start": 333.788,
+     "end": 334.008,
+     "text": "main"
+    },
+    {
+     "start": 333.528,
+     "end": 334.368,
+     "text": "lines"
+    }
+   ]
+  },
+  {
+   "start": 334.368,
+   "end": 340.948,
+   "text": "which required recovery this would require blockages of both the up and down main lines as",
+   "words": [
+    {
+     "start": 334.368,
+     "end": 334.788,
+     "text": "which"
+    },
+    {
+     "start": 334.788,
+     "end": 335.168,
+     "text": "required"
+    },
+    {
+     "start": 335.168,
+     "end": 335.568,
+     "text": "recovery"
+    },
+    {
+     "start": 335.568,
+     "end": 336.448,
+     "text": "this"
+    },
+    {
+     "start": 336.448,
+     "end": 336.668,
+     "text": "would"
+    },
+    {
+     "start": 336.668,
+     "end": 337.188,
+     "text": "require"
+    },
+    {
+     "start": 337.188,
+     "end": 338.228,
+     "text": "blockages"
+    },
+    {
+     "start": 338.228,
+     "end": 338.628,
+     "text": "of"
+    },
+    {
+     "start": 338.628,
+     "end": 338.868,
+     "text": "both"
+    },
+    {
+     "start": 338.868,
+     "end": 339.028,
+     "text": "the"
+    },
+    {
+     "start": 339.028,
+     "end": 339.348,
+     "text": "up"
+    },
+    {
+     "start": 339.348,
+     "end": 339.608,
+     "text": "and"
+    },
+    {
+     "start": 339.608,
+     "end": 339.968,
+     "text": "down"
+    },
+    {
+     "start": 339.968,
+     "end": 340.248,
+     "text": "main"
+    },
+    {
+     "start": 340.248,
+     "end": 340.548,
+     "text": "lines"
+    },
+    {
+     "start": 340.108,
+     "end": 340.948,
+     "text": "as"
+    }
+   ]
+  },
+  {
+   "start": 340.948,
+   "end": 349.156,
+   "text": "such trains had to be diverted along the slow lines the failure of Tango Yankee 168 had been fixed pretty early on in the day at 6.15",
+   "words": [
+    {
+     "start": 340.948,
+     "end": 341.168,
+     "text": "such"
+    },
+    {
+     "start": 341.168,
+     "end": 341.448,
+     "text": "trains"
+    },
+    {
+     "start": 341.448,
+     "end": 341.608,
+     "text": "had"
+    },
+    {
+     "start": 341.608,
+     "end": 341.708,
+     "text": "to"
+    },
+    {
+     "start": 341.708,
+     "end": 341.808,
+     "text": "be"
+    },
+    {
+     "start": 341.808,
+     "end": 342.208,
+     "text": "diverted"
+    },
+    {
+     "start": 342.208,
+     "end": 342.428,
+     "text": "along"
+    },
+    {
+     "start": 342.428,
+     "end": 342.568,
+     "text": "the"
+    },
+    {
+     "start": 342.568,
+     "end": 342.808,
+     "text": "slow"
+    },
+    {
+     "start": 342.808,
+     "end": 343.108,
+     "text": "lines"
+    },
+    {
+     "start": 343.108,
+     "end": 343.888,
+     "text": "the"
+    },
+    {
+     "start": 343.888,
+     "end": 344.168,
+     "text": "failure"
+    },
+    {
+     "start": 344.168,
+     "end": 344.368,
+     "text": "of"
+    },
+    {
+     "start": 344.368,
+     "end": 344.668,
+     "text": "Tango"
+    },
+    {
+     "start": 344.668,
+     "end": 345.208,
+     "text": "Yankee"
+    },
+    {
+     "start": 345.208,
+     "end": 346.008,
+     "text": "168"
+    },
+    {
+     "start": 346.008,
+     "end": 346.268,
+     "text": "had"
+    },
+    {
+     "start": 346.268,
+     "end": 346.468,
+     "text": "been"
+    },
+    {
+     "start": 346.148,
+     "end": 346.828,
+     "text": "fixed"
+    },
+    {
+     "start": 346.828,
+     "end": 347.088,
+     "text": "pretty"
+    },
+    {
+     "start": 347.088,
+     "end": 347.428,
+     "text": "early"
+    },
+    {
+     "start": 347.428,
+     "end": 347.628,
+     "text": "on"
+    },
+    {
+     "start": 347.636,
+     "end": 347.776,
+     "text": "in"
+    },
+    {
+     "start": 347.776,
+     "end": 347.856,
+     "text": "the"
+    },
+    {
+     "start": 347.856,
+     "end": 348.056,
+     "text": "day"
+    },
+    {
+     "start": 348.056,
+     "end": 348.596,
+     "text": "at"
+    },
+    {
+     "start": 348.596,
+     "end": 349.156,
+     "text": "6.15"
+    }
+   ]
+  },
+  {
+   "start": 349.976,
+   "end": 351.576,
+   "text": "where point detection was thought to be the issue.",
+   "words": [
+    {
+     "start": 349.976,
+     "end": 350.156,
+     "text": "where"
+    },
+    {
+     "start": 350.156,
+     "end": 350.356,
+     "text": "point"
+    },
+    {
+     "start": 350.356,
+     "end": 350.636,
+     "text": "detection"
+    },
+    {
+     "start": 350.636,
+     "end": 350.856,
+     "text": "was"
+    },
+    {
+     "start": 350.856,
+     "end": 350.976,
+     "text": "thought"
+    },
+    {
+     "start": 350.976,
+     "end": 351.076,
+     "text": "to"
+    },
+    {
+     "start": 351.076,
+     "end": 351.176,
+     "text": "be"
+    },
+    {
+     "start": 351.176,
+     "end": 351.276,
+     "text": "the"
+    },
+    {
+     "start": 351.276,
+     "end": 351.576,
+     "text": "issue."
+    }
+   ]
+  },
+  {
+   "start": 351.576,
+   "end": 355.036,
+   "text": "Regardless this was fixed but the broken down loco",
+   "words": [
+    {
+     "start": 351.576,
+     "end": 352.576,
+     "text": "Regardless"
+    },
+    {
+     "start": 352.576,
+     "end": 352.976,
+     "text": "this"
+    },
+    {
+     "start": 352.976,
+     "end": 353.216,
+     "text": "was"
+    },
+    {
+     "start": 353.216,
+     "end": 353.596,
+     "text": "fixed"
+    },
+    {
+     "start": 353.596,
+     "end": 354.196,
+     "text": "but"
+    },
+    {
+     "start": 354.196,
+     "end": 354.316,
+     "text": "the"
+    },
+    {
+     "start": 354.316,
+     "end": 354.576,
+     "text": "broken"
+    },
+    {
+     "start": 354.576,
+     "end": 354.736,
+     "text": "down"
+    },
+    {
+     "start": 354.256,
+     "end": 355.036,
+     "text": "loco"
+    }
+   ]
+  },
+  {
+   "start": 355.036,
+   "end": 356.436,
+   "text": "was causing issues.",
+   "words": [
+    {
+     "start": 355.036,
+     "end": 355.296,
+     "text": "was"
+    },
+    {
+     "start": 355.296,
+     "end": 355.636,
+     "text": "causing"
+    },
+    {
+     "start": 355.636,
+     "end": 356.436,
+     "text": "issues."
+    }
+   ]
+  },
+  {
+   "start": 356.436,
+   "end": 361.816,
+   "text": "Train 1 Sierra 11 was traveling on the down main line and was diverted onto",
+   "words": [
+    {
+     "start": 356.436,
+     "end": 356.896,
+     "text": "Train"
+    },
+    {
+     "start": 356.896,
+     "end": 357.296,
+     "text": "1"
+    },
+    {
+     "start": 357.296,
+     "end": 357.616,
+     "text": "Sierra"
+    },
+    {
+     "start": 357.616,
+     "end": 357.916,
+     "text": "11"
+    },
+    {
+     "start": 357.916,
+     "end": 358.256,
+     "text": "was"
+    },
+    {
+     "start": 358.256,
+     "end": 358.576,
+     "text": "traveling"
+    },
+    {
+     "start": 358.576,
+     "end": 359.176,
+     "text": "on"
+    },
+    {
+     "start": 359.176,
+     "end": 359.376,
+     "text": "the"
+    },
+    {
+     "start": 359.376,
+     "end": 359.796,
+     "text": "down"
+    },
+    {
+     "start": 359.796,
+     "end": 360.296,
+     "text": "main"
+    },
+    {
+     "start": 360.296,
+     "end": 360.556,
+     "text": "line"
+    },
+    {
+     "start": 360.556,
+     "end": 361.076,
+     "text": "and"
+    },
+    {
+     "start": 361.076,
+     "end": 361.196,
+     "text": "was"
+    },
+    {
+     "start": 361.196,
+     "end": 361.476,
+     "text": "diverted"
+    },
+    {
+     "start": 361.056,
+     "end": 361.816,
+     "text": "onto"
+    }
+   ]
+  },
+  {
+   "start": 361.816,
+   "end": 364.356,
+   "text": "the down slow across the Alston junction.",
+   "words": [
+    {
+     "start": 361.816,
+     "end": 361.956,
+     "text": "the"
+    },
+    {
+     "start": 361.956,
+     "end": 362.156,
+     "text": "down"
+    },
+    {
+     "start": 362.156,
+     "end": 362.416,
+     "text": "slow"
+    },
+    {
+     "start": 362.416,
+     "end": 363.156,
+     "text": "across"
+    },
+    {
+     "start": 363.156,
+     "end": 363.316,
+     "text": "the"
+    },
+    {
+     "start": 363.316,
+     "end": 363.576,
+     "text": "Alston"
+    },
+    {
+     "start": 363.576,
+     "end": 364.356,
+     "text": "junction."
+    }
+   ]
+  },
+  {
+   "start": 364.356,
+   "end": 367.016,
+   "text": "The driver brought the speed down to 40 miles an hour to",
+   "words": [
+    {
+     "start": 364.356,
+     "end": 364.816,
+     "text": "The"
+    },
+    {
+     "start": 364.816,
+     "end": 365.036,
+     "text": "driver"
+    },
+    {
+     "start": 365.036,
+     "end": 365.336,
+     "text": "brought"
+    },
+    {
+     "start": 365.336,
+     "end": 365.496,
+     "text": "the"
+    },
+    {
+     "start": 365.496,
+     "end": 365.696,
+     "text": "speed"
+    },
+    {
+     "start": 365.696,
+     "end": 365.996,
+     "text": "down"
+    },
+    {
+     "start": 365.996,
+     "end": 366.156,
+     "text": "to"
+    },
+    {
+     "start": 366.156,
+     "end": 366.396,
+     "text": "40"
+    },
+    {
+     "start": 366.396,
+     "end": 366.576,
+     "text": "miles"
+    },
+    {
+     "start": 366.576,
+     "end": 366.736,
+     "text": "an"
+    },
+    {
+     "start": 366.736,
+     "end": 366.816,
+     "text": "hour"
+    },
+    {
+     "start": 366.336,
+     "end": 367.016,
+     "text": "to"
+    }
+   ]
+  },
+  {
+   "start": 367.016,
+   "end": 370.776,
+   "text": "navigate the point work and after clearing the junction increased the speed back up to 50 miles",
+   "words": [
+    {
+     "start": 367.016,
+     "end": 367.256,
+     "text": "navigate"
+    },
+    {
+     "start": 367.256,
+     "end": 367.476,
+     "text": "the"
+    },
+    {
+     "start": 367.476,
+     "end": 367.616,
+     "text": "point"
+    },
+    {
+     "start": 367.616,
+     "end": 367.856,
+     "text": "work"
+    },
+    {
+     "start": 367.856,
+     "end": 368.416,
+     "text": "and"
+    },
+    {
+     "start": 368.416,
+     "end": 368.616,
+     "text": "after"
+    },
+    {
+     "start": 368.616,
+     "end": 368.836,
+     "text": "clearing"
+    },
+    {
+     "start": 368.836,
+     "end": 369.016,
+     "text": "the"
+    },
+    {
+     "start": 369.016,
+     "end": 369.216,
+     "text": "junction"
+    },
+    {
+     "start": 369.216,
+     "end": 369.596,
+     "text": "increased"
+    },
+    {
+     "start": 369.596,
+     "end": 369.736,
+     "text": "the"
+    },
+    {
+     "start": 369.736,
+     "end": 369.896,
+     "text": "speed"
+    },
+    {
+     "start": 369.896,
+     "end": 370.016,
+     "text": "back"
+    },
+    {
+     "start": 370.016,
+     "end": 370.176,
+     "text": "up"
+    },
+    {
+     "start": 370.176,
+     "end": 370.296,
+     "text": "to"
+    },
+    {
+     "start": 370.296,
+     "end": 370.536,
+     "text": "50"
+    },
+    {
+     "start": 370.536,
+     "end": 370.776,
+     "text": "miles"
+    }
+   ]
+  },
+  {
+   "start": 370.816,
+   "end": 378.236,
+   "text": "an hour shortly then reducing back down to the 40 mile an hour striction down along the back slow round",
+   "words": [
+    {
+     "start": 370.816,
+     "end": 370.996,
+     "text": "an"
+    },
+    {
+     "start": 370.996,
+     "end": 371.056,
+     "text": "hour"
+    },
+    {
+     "start": 371.056,
+     "end": 371.796,
+     "text": "shortly"
+    },
+    {
+     "start": 371.796,
+     "end": 372.056,
+     "text": "then"
+    },
+    {
+     "start": 372.056,
+     "end": 372.436,
+     "text": "reducing"
+    },
+    {
+     "start": 372.436,
+     "end": 372.756,
+     "text": "back"
+    },
+    {
+     "start": 372.756,
+     "end": 373.076,
+     "text": "down"
+    },
+    {
+     "start": 373.076,
+     "end": 373.256,
+     "text": "to"
+    },
+    {
+     "start": 373.256,
+     "end": 373.376,
+     "text": "the"
+    },
+    {
+     "start": 373.376,
+     "end": 373.636,
+     "text": "40"
+    },
+    {
+     "start": 373.636,
+     "end": 373.836,
+     "text": "mile"
+    },
+    {
+     "start": 373.836,
+     "end": 374.036,
+     "text": "an"
+    },
+    {
+     "start": 374.036,
+     "end": 374.056,
+     "text": "hour"
+    },
+    {
+     "start": 374.056,
+     "end": 374.396,
+     "text": "striction"
+    },
+    {
+     "start": 374.396,
+     "end": 375.496,
+     "text": "down"
+    },
+    {
+     "start": 375.496,
+     "end": 375.976,
+     "text": "along"
+    },
+    {
+     "start": 375.976,
+     "end": 376.736,
+     "text": "the"
+    },
+    {
+     "start": 376.736,
+     "end": 377.016,
+     "text": "back"
+    },
+    {
+     "start": 377.016,
+     "end": 377.776,
+     "text": "slow"
+    },
+    {
+     "start": 377.456,
+     "end": 378.236,
+     "text": "round"
+    }
+   ]
+  },
+  {
+   "start": 378.236,
+   "end": 379.316,
+   "text": "behind Tyne Yard.",
+   "words": [
+    {
+     "start": 378.236,
+     "end": 378.616,
+     "text": "behind"
+    },
+    {
+     "start": 378.616,
+     "end": 378.896,
+     "text": "Tyne"
+    },
+    {
+     "start": 378.896,
+     "end": 379.316,
+     "text": "Yard."
+    }
+   ]
+  },
+  {
+   "start": 379.316,
+   "end": 384.376,
+   "text": "The train approached the exit points for the Tyne Yard and the train was coasting",
+   "words": [
+    {
+     "start": 379.316,
+     "end": 380.516,
+     "text": "The"
+    },
+    {
+     "start": 380.516,
+     "end": 380.756,
+     "text": "train"
+    },
+    {
+     "start": 380.756,
+     "end": 381.376,
+     "text": "approached"
+    },
+    {
+     "start": 381.376,
+     "end": 381.616,
+     "text": "the"
+    },
+    {
+     "start": 381.616,
+     "end": 381.996,
+     "text": "exit"
+    },
+    {
+     "start": 381.996,
+     "end": 382.376,
+     "text": "points"
+    },
+    {
+     "start": 382.376,
+     "end": 382.516,
+     "text": "for"
+    },
+    {
+     "start": 382.516,
+     "end": 382.616,
+     "text": "the"
+    },
+    {
+     "start": 382.616,
+     "end": 382.856,
+     "text": "Tyne"
+    },
+    {
+     "start": 382.856,
+     "end": 383.136,
+     "text": "Yard"
+    },
+    {
+     "start": 383.136,
+     "end": 383.616,
+     "text": "and"
+    },
+    {
+     "start": 383.616,
+     "end": 383.676,
+     "text": "the"
+    },
+    {
+     "start": 383.676,
+     "end": 383.836,
+     "text": "train"
+    },
+    {
+     "start": 383.836,
+     "end": 383.996,
+     "text": "was"
+    },
+    {
+     "start": 383.516,
+     "end": 384.376,
+     "text": "coasting"
+    }
+   ]
+  },
+  {
+   "start": 384.376,
+   "end": 387.156,
+   "text": "along and made its way over the points.",
+   "words": [
+    {
+     "start": 384.376,
+     "end": 384.596,
+     "text": "along"
+    },
+    {
+     "start": 384.596,
+     "end": 385.196,
+     "text": "and"
+    },
+    {
+     "start": 385.196,
+     "end": 385.396,
+     "text": "made"
+    },
+    {
+     "start": 385.396,
+     "end": 385.536,
+     "text": "its"
+    },
+    {
+     "start": 385.536,
+     "end": 385.796,
+     "text": "way"
+    },
+    {
+     "start": 385.796,
+     "end": 386.096,
+     "text": "over"
+    },
+    {
+     "start": 386.096,
+     "end": 386.236,
+     "text": "the"
+    },
+    {
+     "start": 386.236,
+     "end": 387.156,
+     "text": "points."
+    }
+   ]
+  },
+  {
+   "start": 387.156,
+   "end": 389.976,
+   "text": "On passing over the driver felt a severe bump and",
+   "words": [
+    {
+     "start": 387.156,
+     "end": 387.276,
+     "text": "On"
+    },
+    {
+     "start": 387.276,
+     "end": 387.656,
+     "text": "passing"
+    },
+    {
+     "start": 387.656,
+     "end": 387.976,
+     "text": "over"
+    },
+    {
+     "start": 387.976,
+     "end": 388.336,
+     "text": "the"
+    },
+    {
+     "start": 388.336,
+     "end": 388.596,
+     "text": "driver"
+    },
+    {
+     "start": 388.596,
+     "end": 388.836,
+     "text": "felt"
+    },
+    {
+     "start": 388.836,
+     "end": 388.956,
+     "text": "a"
+    },
+    {
+     "start": 388.956,
+     "end": 389.156,
+     "text": "severe"
+    },
+    {
+     "start": 389.156,
+     "end": 389.496,
+     "text": "bump"
+    },
+    {
+     "start": 389.056,
+     "end": 389.976,
+     "text": "and"
+    }
+   ]
+  },
+  {
+   "start": 389.976,
+   "end": 395.036,
+   "text": "jumping movements similar to as the driver would later explain traveling over really bad rail",
+   "words": [
+    {
+     "start": 389.976,
+     "end": 390.316,
+     "text": "jumping"
+    },
+    {
+     "start": 390.316,
+     "end": 390.776,
+     "text": "movements"
+    },
+    {
+     "start": 390.776,
+     "end": 391.256,
+     "text": "similar"
+    },
+    {
+     "start": 391.256,
+     "end": 391.536,
+     "text": "to"
+    },
+    {
+     "start": 391.536,
+     "end": 391.736,
+     "text": "as"
+    },
+    {
+     "start": 391.736,
+     "end": 391.876,
+     "text": "the"
+    },
+    {
+     "start": 391.876,
+     "end": 392.196,
+     "text": "driver"
+    },
+    {
+     "start": 392.196,
+     "end": 392.336,
+     "text": "would"
+    },
+    {
+     "start": 392.336,
+     "end": 392.476,
+     "text": "later"
+    },
+    {
+     "start": 392.476,
+     "end": 392.876,
+     "text": "explain"
+    },
+    {
+     "start": 392.876,
+     "end": 393.456,
+     "text": "traveling"
+    },
+    {
+     "start": 393.456,
+     "end": 393.916,
+     "text": "over"
+    },
+    {
+     "start": 393.916,
+     "end": 394.336,
+     "text": "really"
+    },
+    {
+     "start": 394.336,
+     "end": 394.636,
+     "text": "bad"
+    },
+    {
+     "start": 394.256,
+     "end": 395.036,
+     "text": "rail"
+    }
+   ]
+  },
+  {
+   "start": 395.036,
+   "end": 395.436,
+   "text": "joints.",
+   "words": [
+    {
+     "start": 395.036,
+     "end": 395.436,
+     "text": "joints."
+    }
+   ]
+  },
+  {
+   "start": 395.436,
+   "end": 400.096,
+   "text": "The train had traveled around 100 more yards and the driver felt the train pulling",
+   "words": [
+    {
+     "start": 395.436,
+     "end": 395.996,
+     "text": "The"
+    },
+    {
+     "start": 395.996,
+     "end": 396.216,
+     "text": "train"
+    },
+    {
+     "start": 396.216,
+     "end": 396.436,
+     "text": "had"
+    },
+    {
+     "start": 396.436,
+     "end": 396.676,
+     "text": "traveled"
+    },
+    {
+     "start": 396.676,
+     "end": 397.136,
+     "text": "around"
+    },
+    {
+     "start": 397.136,
+     "end": 397.496,
+     "text": "100"
+    },
+    {
+     "start": 397.496,
+     "end": 397.776,
+     "text": "more"
+    },
+    {
+     "start": 397.776,
+     "end": 398.136,
+     "text": "yards"
+    },
+    {
+     "start": 398.136,
+     "end": 398.676,
+     "text": "and"
+    },
+    {
+     "start": 398.676,
+     "end": 398.756,
+     "text": "the"
+    },
+    {
+     "start": 398.756,
+     "end": 398.996,
+     "text": "driver"
+    },
+    {
+     "start": 398.996,
+     "end": 399.376,
+     "text": "felt"
+    },
+    {
+     "start": 399.376,
+     "end": 399.616,
+     "text": "the"
+    },
+    {
+     "start": 399.616,
+     "end": 399.816,
+     "text": "train"
+    },
+    {
+     "start": 399.816,
+     "end": 400.096,
+     "text": "pulling"
+    }
+   ]
+  },
+  {
+   "start": 400.156,
+   "end": 400.876,
+   "text": "and jerking.",
+   "words": [
+    {
+     "start": 400.156,
+     "end": 400.336,
+     "text": "and"
+    },
+    {
+     "start": 400.336,
+     "end": 400.876,
+     "text": "jerking."
+    }
+   ]
+  },
+  {
+   "start": 400.876,
+   "end": 403.976,
+   "text": "He applied the emergency brakes to bring his train to a stand.",
+   "words": [
+    {
+     "start": 400.876,
+     "end": 401.196,
+     "text": "He"
+    },
+    {
+     "start": 401.196,
+     "end": 401.436,
+     "text": "applied"
+    },
+    {
+     "start": 401.436,
+     "end": 401.596,
+     "text": "the"
+    },
+    {
+     "start": 401.596,
+     "end": 401.816,
+     "text": "emergency"
+    },
+    {
+     "start": 401.816,
+     "end": 402.236,
+     "text": "brakes"
+    },
+    {
+     "start": 402.236,
+     "end": 402.736,
+     "text": "to"
+    },
+    {
+     "start": 402.736,
+     "end": 402.916,
+     "text": "bring"
+    },
+    {
+     "start": 402.916,
+     "end": 403.096,
+     "text": "his"
+    },
+    {
+     "start": 403.096,
+     "end": 403.276,
+     "text": "train"
+    },
+    {
+     "start": 403.276,
+     "end": 403.476,
+     "text": "to"
+    },
+    {
+     "start": 403.476,
+     "end": 403.616,
+     "text": "a"
+    },
+    {
+     "start": 403.616,
+     "end": 403.976,
+     "text": "stand."
+    }
+   ]
+  },
+  {
+   "start": 403.976,
+   "end": 405.356,
+   "text": "Meanwhile the guard was on",
+   "words": [
+    {
+     "start": 403.976,
+     "end": 404.636,
+     "text": "Meanwhile"
+    },
+    {
+     "start": 404.636,
+     "end": 404.876,
+     "text": "the"
+    },
+    {
+     "start": 404.876,
+     "end": 405.036,
+     "text": "guard"
+    },
+    {
+     "start": 405.036,
+     "end": 405.236,
+     "text": "was"
+    },
+    {
+     "start": 404.816,
+     "end": 405.356,
+     "text": "on"
+    }
+   ]
+  },
+  {
+   "start": 405.356,
+   "end": 406.836,
+   "text": "the rear passenger carriage.",
+   "words": [
+    {
+     "start": 405.356,
+     "end": 405.476,
+     "text": "the"
+    },
+    {
+     "start": 405.476,
+     "end": 405.656,
+     "text": "rear"
+    },
+    {
+     "start": 405.656,
+     "end": 406.076,
+     "text": "passenger"
+    },
+    {
+     "start": 406.076,
+     "end": 406.836,
+     "text": "carriage."
+    }
+   ]
+  },
+  {
+   "start": 406.836,
+   "end": 409.716,
+   "text": "At the time of the rough ride he was thrown to the wall and then down onto",
+   "words": [
+    {
+     "start": 406.836,
+     "end": 406.956,
+     "text": "At"
+    },
+    {
+     "start": 406.956,
+     "end": 407.016,
+     "text": "the"
+    },
+    {
+     "start": 407.016,
+     "end": 407.196,
+     "text": "time"
+    },
+    {
+     "start": 407.196,
+     "end": 407.316,
+     "text": "of"
+    },
+    {
+     "start": 407.316,
+     "end": 407.356,
+     "text": "the"
+    },
+    {
+     "start": 407.356,
+     "end": 407.536,
+     "text": "rough"
+    },
+    {
+     "start": 407.536,
+     "end": 407.756,
+     "text": "ride"
+    },
+    {
+     "start": 407.756,
+     "end": 407.916,
+     "text": "he"
+    },
+    {
+     "start": 407.916,
+     "end": 408.056,
+     "text": "was"
+    },
+    {
+     "start": 408.056,
+     "end": 408.396,
+     "text": "thrown"
+    },
+    {
+     "start": 408.396,
+     "end": 408.616,
+     "text": "to"
+    },
+    {
+     "start": 408.616,
+     "end": 408.736,
+     "text": "the"
+    },
+    {
+     "start": 408.736,
+     "end": 408.956,
+     "text": "wall"
+    },
+    {
+     "start": 408.956,
+     "end": 409.196,
+     "text": "and"
+    },
+    {
+     "start": 409.196,
+     "end": 409.316,
+     "text": "then"
+    },
+    {
+     "start": 409.316,
+     "end": 409.496,
+     "text": "down"
+    },
+    {
+     "start": 409.036,
+     "end": 409.716,
+     "text": "onto"
+    }
+   ]
+  },
+  {
+   "start": 409.716,
+   "end": 410.936,
+   "text": "the floor of his carriage.",
+   "words": [
+    {
+     "start": 409.716,
+     "end": 409.816,
+     "text": "the"
+    },
+    {
+     "start": 409.816,
+     "end": 410.036,
+     "text": "floor"
+    },
+    {
+     "start": 410.036,
+     "end": 410.196,
+     "text": "of"
+    },
+    {
+     "start": 410.196,
+     "end": 410.276,
+     "text": "his"
+    },
+    {
+     "start": 410.276,
+     "end": 410.936,
+     "text": "carriage."
+    }
+   ]
+  },
+  {
+   "start": 410.936,
+   "end": 413.216,
+   "text": "The train quickly ground to a halt.",
+   "words": [
+    {
+     "start": 410.936,
+     "end": 411.656,
+     "text": "The"
+    },
+    {
+     "start": 411.656,
+     "end": 411.856,
+     "text": "train"
+    },
+    {
+     "start": 411.856,
+     "end": 412.236,
+     "text": "quickly"
+    },
+    {
+     "start": 412.236,
+     "end": 412.556,
+     "text": "ground"
+    },
+    {
+     "start": 412.556,
+     "end": 412.756,
+     "text": "to"
+    },
+    {
+     "start": 412.756,
+     "end": 412.856,
+     "text": "a"
+    },
+    {
+     "start": 412.856,
+     "end": 413.216,
+     "text": "halt."
+    }
+   ]
+  },
+  {
+   "start": 413.216,
+   "end": 414.976,
+   "text": "It wasn't because of the driver's emergency",
+   "words": [
+    {
+     "start": 413.216,
+     "end": 413.516,
+     "text": "It"
+    },
+    {
+     "start": 413.516,
+     "end": 413.656,
+     "text": "wasn't"
+    },
+    {
+     "start": 413.656,
+     "end": 413.876,
+     "text": "because"
+    },
+    {
+     "start": 413.876,
+     "end": 413.996,
+     "text": "of"
+    },
+    {
+     "start": 413.996,
+     "end": 414.096,
+     "text": "the"
+    },
+    {
+     "start": 414.096,
+     "end": 414.516,
+     "text": "driver's"
+    },
+    {
+     "start": 414.056,
+     "end": 414.976,
+     "text": "emergency"
+    }
+   ]
+  },
+  {
+   "start": 414.976,
+   "end": 415.816,
+   "text": "brake application.",
+   "words": [
+    {
+     "start": 414.976,
+     "end": 415.256,
+     "text": "brake"
+    },
+    {
+     "start": 415.256,
+     "end": 415.816,
+     "text": "application."
+    }
+   ]
+  },
+  {
+   "start": 415.816,
+   "end": 420.856,
+   "text": "The train had actually separated and this had triggered an emergency application",
+   "words": [
+    {
+     "start": 415.816,
+     "end": 416.556,
+     "text": "The"
+    },
+    {
+     "start": 416.556,
+     "end": 416.736,
+     "text": "train"
+    },
+    {
+     "start": 416.736,
+     "end": 416.916,
+     "text": "had"
+    },
+    {
+     "start": 416.916,
+     "end": 417.336,
+     "text": "actually"
+    },
+    {
+     "start": 417.336,
+     "end": 417.936,
+     "text": "separated"
+    },
+    {
+     "start": 417.936,
+     "end": 418.636,
+     "text": "and"
+    },
+    {
+     "start": 418.636,
+     "end": 419.016,
+     "text": "this"
+    },
+    {
+     "start": 419.016,
+     "end": 419.356,
+     "text": "had"
+    },
+    {
+     "start": 419.356,
+     "end": 419.696,
+     "text": "triggered"
+    },
+    {
+     "start": 419.696,
+     "end": 420.056,
+     "text": "an"
+    },
+    {
+     "start": 420.056,
+     "end": 420.356,
+     "text": "emergency"
+    },
+    {
+     "start": 419.896,
+     "end": 420.856,
+     "text": "application"
+    }
+   ]
+  },
+  {
+   "start": 420.856,
+   "end": 422.496,
+   "text": "for the rear of the train.",
+   "words": [
+    {
+     "start": 420.856,
+     "end": 421.116,
+     "text": "for"
+    },
+    {
+     "start": 421.116,
+     "end": 421.256,
+     "text": "the"
+    },
+    {
+     "start": 421.256,
+     "end": 421.556,
+     "text": "rear"
+    },
+    {
+     "start": 421.556,
+     "end": 421.696,
+     "text": "of"
+    },
+    {
+     "start": 421.696,
+     "end": 421.796,
+     "text": "the"
+    },
+    {
+     "start": 421.796,
+     "end": 422.496,
+     "text": "train."
+    }
+   ]
+  },
+  {
+   "start": 422.496,
+   "end": 426.416,
+   "text": "It ended up that two of the middle coaches had slid down an",
+   "words": [
+    {
+     "start": 422.496,
+     "end": 422.956,
+     "text": "It"
+    },
+    {
+     "start": 422.956,
+     "end": 423.156,
+     "text": "ended"
+    },
+    {
+     "start": 423.156,
+     "end": 423.396,
+     "text": "up"
+    },
+    {
+     "start": 423.396,
+     "end": 423.616,
+     "text": "that"
+    },
+    {
+     "start": 423.616,
+     "end": 424.036,
+     "text": "two"
+    },
+    {
+     "start": 424.036,
+     "end": 424.336,
+     "text": "of"
+    },
+    {
+     "start": 424.336,
+     "end": 424.476,
+     "text": "the"
+    },
+    {
+     "start": 424.476,
+     "end": 424.696,
+     "text": "middle"
+    },
+    {
+     "start": 424.696,
+     "end": 425.076,
+     "text": "coaches"
+    },
+    {
+     "start": 425.076,
+     "end": 425.556,
+     "text": "had"
+    },
+    {
+     "start": 425.556,
+     "end": 425.956,
+     "text": "slid"
+    },
+    {
+     "start": 425.956,
+     "end": 426.276,
+     "text": "down"
+    },
+    {
+     "start": 426.276,
+     "end": 426.416,
+     "text": "an"
+    }
+   ]
+  },
+  {
+   "start": 426.436,
+   "end": 428.876,
+   "text": "embankment landing on their sides.",
+   "words": [
+    {
+     "start": 426.436,
+     "end": 426.896,
+     "text": "embankment"
+    },
+    {
+     "start": 426.896,
+     "end": 427.756,
+     "text": "landing"
+    },
+    {
+     "start": 427.756,
+     "end": 428.036,
+     "text": "on"
+    },
+    {
+     "start": 428.036,
+     "end": 428.216,
+     "text": "their"
+    },
+    {
+     "start": 428.216,
+     "end": 428.876,
+     "text": "sides."
+    }
+   ]
+  },
+  {
+   "start": 428.876,
+   "end": 432.016,
+   "text": "The guard stepped off his carriage and could see the extent of",
+   "words": [
+    {
+     "start": 428.876,
+     "end": 429.556,
+     "text": "The"
+    },
+    {
+     "start": 429.556,
+     "end": 429.756,
+     "text": "guard"
+    },
+    {
+     "start": 429.756,
+     "end": 429.996,
+     "text": "stepped"
+    },
+    {
+     "start": 429.996,
+     "end": 430.216,
+     "text": "off"
+    },
+    {
+     "start": 430.216,
+     "end": 430.356,
+     "text": "his"
+    },
+    {
+     "start": 430.356,
+     "end": 430.656,
+     "text": "carriage"
+    },
+    {
+     "start": 430.656,
+     "end": 430.956,
+     "text": "and"
+    },
+    {
+     "start": 430.956,
+     "end": 431.116,
+     "text": "could"
+    },
+    {
+     "start": 431.116,
+     "end": 431.296,
+     "text": "see"
+    },
+    {
+     "start": 431.296,
+     "end": 431.456,
+     "text": "the"
+    },
+    {
+     "start": 431.456,
+     "end": 431.716,
+     "text": "extent"
+    },
+    {
+     "start": 431.316,
+     "end": 432.016,
+     "text": "of"
+    }
+   ]
+  },
+  {
+   "start": 432.016,
+   "end": 433.056,
+   "text": "the damage to the train.",
+   "words": [
+    {
+     "start": 432.016,
+     "end": 432.076,
+     "text": "the"
+    },
+    {
+     "start": 432.076,
+     "end": 432.296,
+     "text": "damage"
+    },
+    {
+     "start": 432.296,
+     "end": 432.496,
+     "text": "to"
+    },
+    {
+     "start": 432.496,
+     "end": 432.576,
+     "text": "the"
+    },
+    {
+     "start": 432.576,
+     "end": 433.056,
+     "text": "train."
+    }
+   ]
+  },
+  {
+   "start": 433.056,
+   "end": 436.576,
+   "text": "After the front portion of the train had stopped the driver too got out to discover",
+   "words": [
+    {
+     "start": 433.056,
+     "end": 433.716,
+     "text": "After"
+    },
+    {
+     "start": 433.716,
+     "end": 433.836,
+     "text": "the"
+    },
+    {
+     "start": 433.836,
+     "end": 433.996,
+     "text": "front"
+    },
+    {
+     "start": 433.996,
+     "end": 434.296,
+     "text": "portion"
+    },
+    {
+     "start": 434.296,
+     "end": 434.376,
+     "text": "of"
+    },
+    {
+     "start": 434.376,
+     "end": 434.476,
+     "text": "the"
+    },
+    {
+     "start": 434.476,
+     "end": 434.616,
+     "text": "train"
+    },
+    {
+     "start": 434.616,
+     "end": 434.776,
+     "text": "had"
+    },
+    {
+     "start": 434.776,
+     "end": 434.956,
+     "text": "stopped"
+    },
+    {
+     "start": 434.956,
+     "end": 435.116,
+     "text": "the"
+    },
+    {
+     "start": 435.116,
+     "end": 435.336,
+     "text": "driver"
+    },
+    {
+     "start": 435.336,
+     "end": 435.556,
+     "text": "too"
+    },
+    {
+     "start": 435.556,
+     "end": 435.716,
+     "text": "got"
+    },
+    {
+     "start": 435.716,
+     "end": 435.896,
+     "text": "out"
+    },
+    {
+     "start": 435.896,
+     "end": 436.156,
+     "text": "to"
+    },
+    {
+     "start": 435.716,
+     "end": 436.576,
+     "text": "discover"
+    }
+   ]
+  },
+  {
+   "start": 436.576,
+   "end": 439.556,
+   "text": "a pretty large section missing from the tracks.",
+   "words": [
+    {
+     "start": 436.576,
+     "end": 436.976,
+     "text": "a"
+    },
+    {
+     "start": 436.976,
+     "end": 437.236,
+     "text": "pretty"
+    },
+    {
+     "start": 437.236,
+     "end": 437.556,
+     "text": "large"
+    },
+    {
+     "start": 437.556,
+     "end": 437.996,
+     "text": "section"
+    },
+    {
+     "start": 437.996,
+     "end": 438.436,
+     "text": "missing"
+    },
+    {
+     "start": 438.436,
+     "end": 438.776,
+     "text": "from"
+    },
+    {
+     "start": 438.776,
+     "end": 438.956,
+     "text": "the"
+    },
+    {
+     "start": 438.956,
+     "end": 439.556,
+     "text": "tracks."
+    }
+   ]
+  },
+  {
+   "start": 439.556,
+   "end": 441.796,
+   "text": "The driver went to the rear of the train checked",
+   "words": [
+    {
+     "start": 439.556,
+     "end": 440.076,
+     "text": "The"
+    },
+    {
+     "start": 440.076,
+     "end": 440.276,
+     "text": "driver"
+    },
+    {
+     "start": 440.276,
+     "end": 440.596,
+     "text": "went"
+    },
+    {
+     "start": 440.596,
+     "end": 440.736,
+     "text": "to"
+    },
+    {
+     "start": 440.736,
+     "end": 440.836,
+     "text": "the"
+    },
+    {
+     "start": 440.836,
+     "end": 440.976,
+     "text": "rear"
+    },
+    {
+     "start": 440.976,
+     "end": 441.096,
+     "text": "of"
+    },
+    {
+     "start": 441.096,
+     "end": 441.156,
+     "text": "the"
+    },
+    {
+     "start": 441.156,
+     "end": 441.376,
+     "text": "train"
+    },
+    {
+     "start": 440.936,
+     "end": 441.796,
+     "text": "checked"
+    }
+   ]
+  },
+  {
+   "start": 441.796,
+   "end": 446.636,
+   "text": "that the guard was carrying out protection of the rear and closed down the engine power car in",
+   "words": [
+    {
+     "start": 441.796,
+     "end": 441.956,
+     "text": "that"
+    },
+    {
+     "start": 441.956,
+     "end": 442.036,
+     "text": "the"
+    },
+    {
+     "start": 442.036,
+     "end": 442.256,
+     "text": "guard"
+    },
+    {
+     "start": 442.256,
+     "end": 442.396,
+     "text": "was"
+    },
+    {
+     "start": 442.396,
+     "end": 442.656,
+     "text": "carrying"
+    },
+    {
+     "start": 442.656,
+     "end": 442.776,
+     "text": "out"
+    },
+    {
+     "start": 442.776,
+     "end": 443.156,
+     "text": "protection"
+    },
+    {
+     "start": 443.156,
+     "end": 443.496,
+     "text": "of"
+    },
+    {
+     "start": 443.496,
+     "end": 443.616,
+     "text": "the"
+    },
+    {
+     "start": 443.616,
+     "end": 443.816,
+     "text": "rear"
+    },
+    {
+     "start": 443.816,
+     "end": 444.236,
+     "text": "and"
+    },
+    {
+     "start": 444.236,
+     "end": 444.536,
+     "text": "closed"
+    },
+    {
+     "start": 444.536,
+     "end": 444.776,
+     "text": "down"
+    },
+    {
+     "start": 444.776,
+     "end": 444.916,
+     "text": "the"
+    },
+    {
+     "start": 444.916,
+     "end": 445.336,
+     "text": "engine"
+    },
+    {
+     "start": 445.336,
+     "end": 446.156,
+     "text": "power"
+    },
+    {
+     "start": 446.156,
+     "end": 446.416,
+     "text": "car"
+    },
+    {
+     "start": 445.956,
+     "end": 446.636,
+     "text": "in"
+    }
+   ]
+  },
+  {
+   "start": 446.636,
+   "end": 448.736,
+   "text": "the rear of the formation.",
+   "words": [
+    {
+     "start": 446.636,
+     "end": 446.716,
+     "text": "the"
+    },
+    {
+     "start": 446.716,
+     "end": 446.936,
+     "text": "rear"
+    },
+    {
+     "start": 446.936,
+     "end": 447.956,
+     "text": "of"
+    },
+    {
+     "start": 447.956,
+     "end": 448.076,
+     "text": "the"
+    },
+    {
+     "start": 448.076,
+     "end": 448.736,
+     "text": "formation."
+    }
+   ]
+  },
+  {
+   "start": 448.736,
+   "end": 452.176,
+   "text": "The guard immediately had tried to contact the signal via a signal post",
+   "words": [
+    {
+     "start": 448.736,
+     "end": 448.816,
+     "text": "The"
+    },
+    {
+     "start": 448.816,
+     "end": 448.956,
+     "text": "guard"
+    },
+    {
+     "start": 448.956,
+     "end": 449.336,
+     "text": "immediately"
+    },
+    {
+     "start": 449.336,
+     "end": 449.836,
+     "text": "had"
+    },
+    {
+     "start": 449.836,
+     "end": 450.236,
+     "text": "tried"
+    },
+    {
+     "start": 450.236,
+     "end": 450.596,
+     "text": "to"
+    },
+    {
+     "start": 450.596,
+     "end": 450.936,
+     "text": "contact"
+    },
+    {
+     "start": 450.936,
+     "end": 451.156,
+     "text": "the"
+    },
+    {
+     "start": 451.156,
+     "end": 451.336,
+     "text": "signal"
+    },
+    {
+     "start": 451.336,
+     "end": 451.556,
+     "text": "via"
+    },
+    {
+     "start": 451.556,
+     "end": 451.756,
+     "text": "a"
+    },
+    {
+     "start": 451.756,
+     "end": 451.916,
+     "text": "signal"
+    },
+    {
+     "start": 451.916,
+     "end": 452.176,
+     "text": "post"
+    }
+   ]
+  },
+  {
+   "start": 452.196,
+   "end": 455.756,
+   "text": "telephone and a line side telephone both of which were not working.",
+   "words": [
+    {
+     "start": 452.196,
+     "end": 452.556,
+     "text": "telephone"
+    },
+    {
+     "start": 452.556,
+     "end": 453.156,
+     "text": "and"
+    },
+    {
+     "start": 453.156,
+     "end": 453.336,
+     "text": "a"
+    },
+    {
+     "start": 453.336,
+     "end": 453.476,
+     "text": "line"
+    },
+    {
+     "start": 453.476,
+     "end": 453.636,
+     "text": "side"
+    },
+    {
+     "start": 453.636,
+     "end": 454.016,
+     "text": "telephone"
+    },
+    {
+     "start": 454.016,
+     "end": 454.536,
+     "text": "both"
+    },
+    {
+     "start": 454.536,
+     "end": 454.716,
+     "text": "of"
+    },
+    {
+     "start": 454.716,
+     "end": 454.856,
+     "text": "which"
+    },
+    {
+     "start": 454.856,
+     "end": 455.016,
+     "text": "were"
+    },
+    {
+     "start": 455.016,
+     "end": 455.116,
+     "text": "not"
+    },
+    {
+     "start": 455.116,
+     "end": 455.756,
+     "text": "working."
+    }
+   ]
+  },
+  {
+   "start": 455.756,
+   "end": 457.316,
+   "text": "Eventually after walking back some",
+   "words": [
+    {
+     "start": 455.756,
+     "end": 456.436,
+     "text": "Eventually"
+    },
+    {
+     "start": 456.436,
+     "end": 456.696,
+     "text": "after"
+    },
+    {
+     "start": 456.696,
+     "end": 456.916,
+     "text": "walking"
+    },
+    {
+     "start": 456.916,
+     "end": 457.156,
+     "text": "back"
+    },
+    {
+     "start": 456.656,
+     "end": 457.316,
+     "text": "some"
+    }
+   ]
+  },
+  {
+   "start": 457.316,
+   "end": 461.076,
+   "text": "distance he was able to communicate the signal via another line side telephone.",
+   "words": [
+    {
+     "start": 457.316,
+     "end": 457.716,
+     "text": "distance"
+    },
+    {
+     "start": 457.716,
+     "end": 458.196,
+     "text": "he"
+    },
+    {
+     "start": 458.196,
+     "end": 458.316,
+     "text": "was"
+    },
+    {
+     "start": 458.316,
+     "end": 458.416,
+     "text": "able"
+    },
+    {
+     "start": 458.416,
+     "end": 458.536,
+     "text": "to"
+    },
+    {
+     "start": 458.536,
+     "end": 458.896,
+     "text": "communicate"
+    },
+    {
+     "start": 458.896,
+     "end": 459.136,
+     "text": "the"
+    },
+    {
+     "start": 459.136,
+     "end": 459.416,
+     "text": "signal"
+    },
+    {
+     "start": 459.416,
+     "end": 459.796,
+     "text": "via"
+    },
+    {
+     "start": 459.796,
+     "end": 460.096,
+     "text": "another"
+    },
+    {
+     "start": 460.096,
+     "end": 460.316,
+     "text": "line"
+    },
+    {
+     "start": 460.316,
+     "end": 460.516,
+     "text": "side"
+    },
+    {
+     "start": 460.516,
+     "end": 461.076,
+     "text": "telephone."
+    }
+   ]
+  },
+  {
+   "start": 461.076,
+   "end": 462.656,
+   "text": "He reported an",
+   "words": [
+    {
+     "start": 461.076,
+     "end": 461.796,
+     "text": "He"
+    },
+    {
+     "start": 461.796,
+     "end": 462.176,
+     "text": "reported"
+    },
+    {
+     "start": 461.736,
+     "end": 462.656,
+     "text": "an"
+    }
+   ]
+  },
+  {
+   "start": 462.656,
+   "end": 466.796,
+   "text": "emergency call and all train movements were stopped via signal protection.",
+   "words": [
+    {
+     "start": 462.656,
+     "end": 463.056,
+     "text": "emergency"
+    },
+    {
+     "start": 463.056,
+     "end": 463.456,
+     "text": "call"
+    },
+    {
+     "start": 463.456,
+     "end": 464.156,
+     "text": "and"
+    },
+    {
+     "start": 464.156,
+     "end": 464.316,
+     "text": "all"
+    },
+    {
+     "start": 464.316,
+     "end": 464.556,
+     "text": "train"
+    },
+    {
+     "start": 464.556,
+     "end": 464.936,
+     "text": "movements"
+    },
+    {
+     "start": 464.936,
+     "end": 465.216,
+     "text": "were"
+    },
+    {
+     "start": 465.216,
+     "end": 465.516,
+     "text": "stopped"
+    },
+    {
+     "start": 465.516,
+     "end": 465.896,
+     "text": "via"
+    },
+    {
+     "start": 465.896,
+     "end": 466.316,
+     "text": "signal"
+    },
+    {
+     "start": 466.316,
+     "end": 466.796,
+     "text": "protection."
+    }
+   ]
+  },
+  {
+   "start": 466.796,
+   "end": 468.756,
+   "text": "He then set up emergency",
+   "words": [
+    {
+     "start": 466.796,
+     "end": 467.456,
+     "text": "He"
+    },
+    {
+     "start": 467.456,
+     "end": 467.676,
+     "text": "then"
+    },
+    {
+     "start": 467.676,
+     "end": 467.956,
+     "text": "set"
+    },
+    {
+     "start": 467.956,
+     "end": 468.196,
+     "text": "up"
+    },
+    {
+     "start": 467.776,
+     "end": 468.756,
+     "text": "emergency"
+    }
+   ]
+  },
+  {
+   "start": 468.756,
+   "end": 471.416,
+   "text": "protection, free teas and a dog sandwich.",
+   "words": [
+    {
+     "start": 468.756,
+     "end": 469.896,
+     "text": "protection,"
+    },
+    {
+     "start": 469.896,
+     "end": 470.076,
+     "text": "free"
+    },
+    {
+     "start": 470.076,
+     "end": 470.236,
+     "text": "teas"
+    },
+    {
+     "start": 470.236,
+     "end": 470.416,
+     "text": "and"
+    },
+    {
+     "start": 470.416,
+     "end": 470.516,
+     "text": "a"
+    },
+    {
+     "start": 470.516,
+     "end": 470.676,
+     "text": "dog"
+    },
+    {
+     "start": 470.676,
+     "end": 471.416,
+     "text": "sandwich."
+    }
+   ]
+  },
+  {
+   "start": 471.416,
+   "end": 472.756,
+   "text": "If you know, you know.",
+   "words": [
+    {
+     "start": 471.416,
+     "end": 471.516,
+     "text": "If"
+    },
+    {
+     "start": 471.516,
+     "end": 471.636,
+     "text": "you"
+    },
+    {
+     "start": 471.636,
+     "end": 472.316,
+     "text": "know,"
+    },
+    {
+     "start": 472.316,
+     "end": 472.436,
+     "text": "you"
+    },
+    {
+     "start": 472.436,
+     "end": 472.756,
+     "text": "know."
+    }
+   ]
+  },
+  {
+   "start": 472.756,
+   "end": 474.436,
+   "text": "When getting back to the train",
+   "words": [
+    {
+     "start": 472.756,
+     "end": 473.456,
+     "text": "When"
+    },
+    {
+     "start": 473.456,
+     "end": 473.676,
+     "text": "getting"
+    },
+    {
+     "start": 473.676,
+     "end": 473.876,
+     "text": "back"
+    },
+    {
+     "start": 473.876,
+     "end": 474.036,
+     "text": "to"
+    },
+    {
+     "start": 474.036,
+     "end": 474.156,
+     "text": "the"
+    },
+    {
+     "start": 473.696,
+     "end": 474.436,
+     "text": "train"
+    }
+   ]
+  },
+  {
+   "start": 474.436,
+   "end": 479.056,
+   "text": "he found railway staff and emergency services had already begun evacuating the passengers",
+   "words": [
+    {
+     "start": 474.436,
+     "end": 474.936,
+     "text": "he"
+    },
+    {
+     "start": 474.936,
+     "end": 475.236,
+     "text": "found"
+    },
+    {
+     "start": 475.236,
+     "end": 475.496,
+     "text": "railway"
+    },
+    {
+     "start": 475.496,
+     "end": 475.896,
+     "text": "staff"
+    },
+    {
+     "start": 475.896,
+     "end": 476.076,
+     "text": "and"
+    },
+    {
+     "start": 476.076,
+     "end": 476.356,
+     "text": "emergency"
+    },
+    {
+     "start": 476.356,
+     "end": 476.856,
+     "text": "services"
+    },
+    {
+     "start": 476.856,
+     "end": 477.076,
+     "text": "had"
+    },
+    {
+     "start": 477.076,
+     "end": 477.356,
+     "text": "already"
+    },
+    {
+     "start": 477.356,
+     "end": 477.736,
+     "text": "begun"
+    },
+    {
+     "start": 477.736,
+     "end": 478.416,
+     "text": "evacuating"
+    },
+    {
+     "start": 478.416,
+     "end": 478.656,
+     "text": "the"
+    },
+    {
+     "start": 478.656,
+     "end": 479.056,
+     "text": "passengers"
+    }
+   ]
+  },
+  {
+   "start": 479.616,
+   "end": 486.196,
+   "text": "including the injured to hospital but amazingly in the crash no one had died which means i can smash",
+   "words": [
+    {
+     "start": 479.616,
+     "end": 479.756,
+     "text": "including"
+    },
+    {
+     "start": 479.756,
+     "end": 480.016,
+     "text": "the"
+    },
+    {
+     "start": 480.016,
+     "end": 480.256,
+     "text": "injured"
+    },
+    {
+     "start": 480.256,
+     "end": 480.456,
+     "text": "to"
+    },
+    {
+     "start": 480.456,
+     "end": 480.756,
+     "text": "hospital"
+    },
+    {
+     "start": 480.756,
+     "end": 481.596,
+     "text": "but"
+    },
+    {
+     "start": 481.596,
+     "end": 481.916,
+     "text": "amazingly"
+    },
+    {
+     "start": 481.916,
+     "end": 482.236,
+     "text": "in"
+    },
+    {
+     "start": 482.236,
+     "end": 482.316,
+     "text": "the"
+    },
+    {
+     "start": 482.316,
+     "end": 482.676,
+     "text": "crash"
+    },
+    {
+     "start": 482.676,
+     "end": 483.476,
+     "text": "no"
+    },
+    {
+     "start": 483.476,
+     "end": 483.636,
+     "text": "one"
+    },
+    {
+     "start": 483.636,
+     "end": 483.816,
+     "text": "had"
+    },
+    {
+     "start": 483.816,
+     "end": 484.096,
+     "text": "died"
+    },
+    {
+     "start": 484.096,
+     "end": 485.216,
+     "text": "which"
+    },
+    {
+     "start": 485.216,
+     "end": 485.456,
+     "text": "means"
+    },
+    {
+     "start": 485.456,
+     "end": 485.676,
+     "text": "i"
+    },
+    {
+     "start": 485.676,
+     "end": 485.836,
+     "text": "can"
+    },
+    {
+     "start": 485.376,
+     "end": 486.196,
+     "text": "smash"
+    }
+   ]
+  },
+  {
+   "start": 486.196,
+   "end": 490.996,
+   "text": "the no one died button the train was in a sorry state and the line would be shut down until",
+   "words": [
+    {
+     "start": 486.196,
+     "end": 486.396,
+     "text": "the"
+    },
+    {
+     "start": 486.396,
+     "end": 486.576,
+     "text": "no"
+    },
+    {
+     "start": 486.576,
+     "end": 486.736,
+     "text": "one"
+    },
+    {
+     "start": 486.736,
+     "end": 487.016,
+     "text": "died"
+    },
+    {
+     "start": 487.016,
+     "end": 487.356,
+     "text": "button"
+    },
+    {
+     "start": 487.356,
+     "end": 488.036,
+     "text": "the"
+    },
+    {
+     "start": 488.036,
+     "end": 488.296,
+     "text": "train"
+    },
+    {
+     "start": 488.296,
+     "end": 488.516,
+     "text": "was"
+    },
+    {
+     "start": 488.516,
+     "end": 488.616,
+     "text": "in"
+    },
+    {
+     "start": 488.616,
+     "end": 488.776,
+     "text": "a"
+    },
+    {
+     "start": 488.776,
+     "end": 489.036,
+     "text": "sorry"
+    },
+    {
+     "start": 489.036,
+     "end": 489.316,
+     "text": "state"
+    },
+    {
+     "start": 489.316,
+     "end": 489.656,
+     "text": "and"
+    },
+    {
+     "start": 489.656,
+     "end": 489.776,
+     "text": "the"
+    },
+    {
+     "start": 489.776,
+     "end": 489.976,
+     "text": "line"
+    },
+    {
+     "start": 489.976,
+     "end": 490.136,
+     "text": "would"
+    },
+    {
+     "start": 490.136,
+     "end": 490.216,
+     "text": "be"
+    },
+    {
+     "start": 490.216,
+     "end": 490.456,
+     "text": "shut"
+    },
+    {
+     "start": 490.456,
+     "end": 490.736,
+     "text": "down"
+    },
+    {
+     "start": 490.736,
+     "end": 490.996,
+     "text": "until"
+    }
+   ]
+  },
+  {
+   "start": 490.856,
+   "end": 496.716,
+   "text": "the 3rd of august with trains being diverted by the leam side branch for a short while during the day",
+   "words": [
+    {
+     "start": 490.856,
+     "end": 491.236,
+     "text": "the"
+    },
+    {
+     "start": 491.236,
+     "end": 491.396,
+     "text": "3rd"
+    },
+    {
+     "start": 491.396,
+     "end": 491.536,
+     "text": "of"
+    },
+    {
+     "start": 491.536,
+     "end": 491.856,
+     "text": "august"
+    },
+    {
+     "start": 491.856,
+     "end": 492.176,
+     "text": "with"
+    },
+    {
+     "start": 492.176,
+     "end": 492.436,
+     "text": "trains"
+    },
+    {
+     "start": 492.436,
+     "end": 492.696,
+     "text": "being"
+    },
+    {
+     "start": 492.696,
+     "end": 493.136,
+     "text": "diverted"
+    },
+    {
+     "start": 493.136,
+     "end": 493.656,
+     "text": "by"
+    },
+    {
+     "start": 493.656,
+     "end": 493.836,
+     "text": "the"
+    },
+    {
+     "start": 493.836,
+     "end": 494.116,
+     "text": "leam"
+    },
+    {
+     "start": 494.116,
+     "end": 494.476,
+     "text": "side"
+    },
+    {
+     "start": 494.476,
+     "end": 494.956,
+     "text": "branch"
+    },
+    {
+     "start": 494.956,
+     "end": 495.196,
+     "text": "for"
+    },
+    {
+     "start": 495.196,
+     "end": 495.316,
+     "text": "a"
+    },
+    {
+     "start": 495.316,
+     "end": 495.516,
+     "text": "short"
+    },
+    {
+     "start": 495.516,
+     "end": 495.836,
+     "text": "while"
+    },
+    {
+     "start": 495.836,
+     "end": 496.436,
+     "text": "during"
+    },
+    {
+     "start": 496.436,
+     "end": 496.576,
+     "text": "the"
+    },
+    {
+     "start": 496.296,
+     "end": 496.716,
+     "text": "day"
+    }
+   ]
+  },
+  {
+   "start": 496.716,
+   "end": 501.176,
+   "text": "of the accident but with a train all smashed up like that it was rather an important thing to find",
+   "words": [
+    {
+     "start": 496.716,
+     "end": 496.856,
+     "text": "of"
+    },
+    {
+     "start": 496.856,
+     "end": 496.916,
+     "text": "the"
+    },
+    {
+     "start": 496.916,
+     "end": 497.176,
+     "text": "accident"
+    },
+    {
+     "start": 497.176,
+     "end": 497.536,
+     "text": "but"
+    },
+    {
+     "start": 497.536,
+     "end": 497.656,
+     "text": "with"
+    },
+    {
+     "start": 497.656,
+     "end": 497.776,
+     "text": "a"
+    },
+    {
+     "start": 497.776,
+     "end": 497.956,
+     "text": "train"
+    },
+    {
+     "start": 497.956,
+     "end": 498.096,
+     "text": "all"
+    },
+    {
+     "start": 498.096,
+     "end": 498.276,
+     "text": "smashed"
+    },
+    {
+     "start": 498.276,
+     "end": 498.476,
+     "text": "up"
+    },
+    {
+     "start": 498.476,
+     "end": 498.676,
+     "text": "like"
+    },
+    {
+     "start": 498.676,
+     "end": 498.996,
+     "text": "that"
+    },
+    {
+     "start": 498.996,
+     "end": 499.436,
+     "text": "it"
+    },
+    {
+     "start": 499.436,
+     "end": 499.656,
+     "text": "was"
+    },
+    {
+     "start": 499.656,
+     "end": 499.976,
+     "text": "rather"
+    },
+    {
+     "start": 499.976,
+     "end": 500.136,
+     "text": "an"
+    },
+    {
+     "start": 500.136,
+     "end": 500.376,
+     "text": "important"
+    },
+    {
+     "start": 500.376,
+     "end": 500.656,
+     "text": "thing"
+    },
+    {
+     "start": 500.656,
+     "end": 500.816,
+     "text": "to"
+    },
+    {
+     "start": 500.496,
+     "end": 501.176,
+     "text": "find"
+    }
+   ]
+  },
+  {
+   "start": 501.176,
+   "end": 506.416,
+   "text": "out what the cause was which would lead to a good old-fashioned inquiry the investigation",
+   "words": [
+    {
+     "start": 501.176,
+     "end": 501.296,
+     "text": "out"
+    },
+    {
+     "start": 501.296,
+     "end": 501.476,
+     "text": "what"
+    },
+    {
+     "start": 501.476,
+     "end": 501.616,
+     "text": "the"
+    },
+    {
+     "start": 501.616,
+     "end": 501.896,
+     "text": "cause"
+    },
+    {
+     "start": 501.896,
+     "end": 502.176,
+     "text": "was"
+    },
+    {
+     "start": 502.176,
+     "end": 502.956,
+     "text": "which"
+    },
+    {
+     "start": 502.956,
+     "end": 503.136,
+     "text": "would"
+    },
+    {
+     "start": 503.136,
+     "end": 503.336,
+     "text": "lead"
+    },
+    {
+     "start": 503.336,
+     "end": 503.576,
+     "text": "to"
+    },
+    {
+     "start": 503.576,
+     "end": 503.716,
+     "text": "a"
+    },
+    {
+     "start": 503.716,
+     "end": 503.896,
+     "text": "good"
+    },
+    {
+     "start": 503.896,
+     "end": 504.516,
+     "text": "old-fashioned"
+    },
+    {
+     "start": 504.516,
+     "end": 505.056,
+     "text": "inquiry"
+    },
+    {
+     "start": 505.056,
+     "end": 506.076,
+     "text": "the"
+    },
+    {
+     "start": 506.076,
+     "end": 506.416,
+     "text": "investigation"
+    }
+   ]
+  },
+  {
+   "start": 507.376,
+   "end": 509.436,
+   "text": "so the crash would invite an inquiry into the court",
+   "words": [
+    {
+     "start": 507.376,
+     "end": 507.476,
+     "text": "so"
+    },
+    {
+     "start": 507.476,
+     "end": 507.596,
+     "text": "the"
+    },
+    {
+     "start": 507.596,
+     "end": 507.816,
+     "text": "crash"
+    },
+    {
+     "start": 507.816,
+     "end": 508.036,
+     "text": "would"
+    },
+    {
+     "start": 508.036,
+     "end": 508.256,
+     "text": "invite"
+    },
+    {
+     "start": 508.256,
+     "end": 508.436,
+     "text": "an"
+    },
+    {
+     "start": 508.436,
+     "end": 508.656,
+     "text": "inquiry"
+    },
+    {
+     "start": 508.656,
+     "end": 509.056,
+     "text": "into"
+    },
+    {
+     "start": 509.056,
+     "end": 509.176,
+     "text": "the"
+    },
+    {
+     "start": 509.176,
+     "end": 509.436,
+     "text": "court"
+    }
+   ]
+  },
+  {
+   "start": 509.496,
+   "end": 512.116,
+   "text": "investigators would descend upon the site and",
+   "words": [
+    {
+     "start": 509.496,
+     "end": 510.196,
+     "text": "investigators"
+    },
+    {
+     "start": 510.196,
+     "end": 510.676,
+     "text": "would"
+    },
+    {
+     "start": 510.676,
+     "end": 510.956,
+     "text": "descend"
+    },
+    {
+     "start": 510.956,
+     "end": 511.196,
+     "text": "upon"
+    },
+    {
+     "start": 511.196,
+     "end": 511.376,
+     "text": "the"
+    },
+    {
+     "start": 511.376,
+     "end": 511.616,
+     "text": "site"
+    },
+    {
+     "start": 511.196,
+     "end": 512.116,
+     "text": "and"
+    }
+   ]
+  },
+  {
+   "start": 512.116,
+   "end": 513.376,
+   "text": "take evidence from all involved",
+   "words": [
+    {
+     "start": 512.116,
+     "end": 512.296,
+     "text": "take"
+    },
+    {
+     "start": 512.296,
+     "end": 512.556,
+     "text": "evidence"
+    },
+    {
+     "start": 512.556,
+     "end": 512.816,
+     "text": "from"
+    },
+    {
+     "start": 512.816,
+     "end": 513.036,
+     "text": "all"
+    },
+    {
+     "start": 513.036,
+     "end": 513.376,
+     "text": "involved"
+    }
+   ]
+  },
+  {
+   "start": 514.036,
+   "end": 522.283,
+   "text": "and examine the damage to the train and the track it was found that four carriages had derailed they were in the middle of the formation which hinted",
+   "words": [
+    {
+     "start": 514.036,
+     "end": 514.336,
+     "text": "and"
+    },
+    {
+     "start": 514.336,
+     "end": 514.856,
+     "text": "examine"
+    },
+    {
+     "start": 514.856,
+     "end": 515.076,
+     "text": "the"
+    },
+    {
+     "start": 515.076,
+     "end": 515.336,
+     "text": "damage"
+    },
+    {
+     "start": 515.336,
+     "end": 515.556,
+     "text": "to"
+    },
+    {
+     "start": 515.556,
+     "end": 515.676,
+     "text": "the"
+    },
+    {
+     "start": 515.676,
+     "end": 515.916,
+     "text": "train"
+    },
+    {
+     "start": 515.916,
+     "end": 516.356,
+     "text": "and"
+    },
+    {
+     "start": 516.356,
+     "end": 516.536,
+     "text": "the"
+    },
+    {
+     "start": 516.536,
+     "end": 516.776,
+     "text": "track"
+    },
+    {
+     "start": 517.236,
+     "end": 517.376,
+     "text": "it"
+    },
+    {
+     "start": 517.376,
+     "end": 517.456,
+     "text": "was"
+    },
+    {
+     "start": 517.456,
+     "end": 517.676,
+     "text": "found"
+    },
+    {
+     "start": 517.676,
+     "end": 517.816,
+     "text": "that"
+    },
+    {
+     "start": 517.816,
+     "end": 518.036,
+     "text": "four"
+    },
+    {
+     "start": 518.036,
+     "end": 518.356,
+     "text": "carriages"
+    },
+    {
+     "start": 518.356,
+     "end": 518.616,
+     "text": "had"
+    },
+    {
+     "start": 518.616,
+     "end": 519.016,
+     "text": "derailed"
+    },
+    {
+     "start": 519.596,
+     "end": 519.816,
+     "text": "they"
+    },
+    {
+     "start": 519.816,
+     "end": 520.016,
+     "text": "were"
+    },
+    {
+     "start": 520.016,
+     "end": 520.176,
+     "text": "in"
+    },
+    {
+     "start": 520.176,
+     "end": 520.276,
+     "text": "the"
+    },
+    {
+     "start": 520.276,
+     "end": 520.476,
+     "text": "middle"
+    },
+    {
+     "start": 520.476,
+     "end": 520.636,
+     "text": "of"
+    },
+    {
+     "start": 520.636,
+     "end": 520.736,
+     "text": "the"
+    },
+    {
+     "start": 520.723,
+     "end": 521.083,
+     "text": "formation"
+    },
+    {
+     "start": 521.703,
+     "end": 521.883,
+     "text": "which"
+    },
+    {
+     "start": 521.883,
+     "end": 522.283,
+     "text": "hinted"
+    }
+   ]
+  },
+  {
+   "start": 522.283,
+   "end": 527.163,
+   "text": "at a sudden change in track geometry whilst the train was passing over something what i mean",
+   "words": [
+    {
+     "start": 522.283,
+     "end": 522.423,
+     "text": "at"
+    },
+    {
+     "start": 522.423,
+     "end": 522.523,
+     "text": "a"
+    },
+    {
+     "start": 522.523,
+     "end": 522.743,
+     "text": "sudden"
+    },
+    {
+     "start": 522.743,
+     "end": 523.143,
+     "text": "change"
+    },
+    {
+     "start": 523.143,
+     "end": 523.363,
+     "text": "in"
+    },
+    {
+     "start": 523.363,
+     "end": 523.643,
+     "text": "track"
+    },
+    {
+     "start": 523.643,
+     "end": 524.183,
+     "text": "geometry"
+    },
+    {
+     "start": 524.183,
+     "end": 524.783,
+     "text": "whilst"
+    },
+    {
+     "start": 524.783,
+     "end": 524.883,
+     "text": "the"
+    },
+    {
+     "start": 524.883,
+     "end": 525.003,
+     "text": "train"
+    },
+    {
+     "start": 525.003,
+     "end": 525.143,
+     "text": "was"
+    },
+    {
+     "start": 525.143,
+     "end": 525.463,
+     "text": "passing"
+    },
+    {
+     "start": 525.463,
+     "end": 525.703,
+     "text": "over"
+    },
+    {
+     "start": 525.703,
+     "end": 526.063,
+     "text": "something"
+    },
+    {
+     "start": 526.063,
+     "end": 526.783,
+     "text": "what"
+    },
+    {
+     "start": 526.783,
+     "end": 526.903,
+     "text": "i"
+    },
+    {
+     "start": 526.663,
+     "end": 527.163,
+     "text": "mean"
+    }
+   ]
+  },
+  {
+   "start": 527.163,
+   "end": 531.463,
+   "text": "if there was a broken rail as the train approached the first portion of the train would have",
+   "words": [
+    {
+     "start": 527.163,
+     "end": 527.463,
+     "text": "if"
+    },
+    {
+     "start": 527.463,
+     "end": 527.563,
+     "text": "there"
+    },
+    {
+     "start": 527.563,
+     "end": 527.623,
+     "text": "was"
+    },
+    {
+     "start": 527.623,
+     "end": 527.723,
+     "text": "a"
+    },
+    {
+     "start": 527.723,
+     "end": 528.003,
+     "text": "broken"
+    },
+    {
+     "start": 528.003,
+     "end": 528.343,
+     "text": "rail"
+    },
+    {
+     "start": 528.343,
+     "end": 529.143,
+     "text": "as"
+    },
+    {
+     "start": 529.143,
+     "end": 529.243,
+     "text": "the"
+    },
+    {
+     "start": 529.243,
+     "end": 529.403,
+     "text": "train"
+    },
+    {
+     "start": 529.403,
+     "end": 529.763,
+     "text": "approached"
+    },
+    {
+     "start": 529.763,
+     "end": 530.003,
+     "text": "the"
+    },
+    {
+     "start": 530.003,
+     "end": 530.323,
+     "text": "first"
+    },
+    {
+     "start": 530.323,
+     "end": 530.643,
+     "text": "portion"
+    },
+    {
+     "start": 530.643,
+     "end": 530.783,
+     "text": "of"
+    },
+    {
+     "start": 530.783,
+     "end": 530.863,
+     "text": "the"
+    },
+    {
+     "start": 530.863,
+     "end": 531.023,
+     "text": "train"
+    },
+    {
+     "start": 531.023,
+     "end": 531.303,
+     "text": "would"
+    },
+    {
+     "start": 531.203,
+     "end": 531.463,
+     "text": "have"
+    }
+   ]
+  },
+  {
+   "start": 531.463,
+   "end": 536.783,
+   "text": "also been derailed this pointed towards a failure as the train passed over something",
+   "words": [
+    {
+     "start": 531.463,
+     "end": 531.803,
+     "text": "also"
+    },
+    {
+     "start": 531.803,
+     "end": 532.083,
+     "text": "been"
+    },
+    {
+     "start": 532.083,
+     "end": 532.483,
+     "text": "derailed"
+    },
+    {
+     "start": 532.483,
+     "end": 533.423,
+     "text": "this"
+    },
+    {
+     "start": 533.423,
+     "end": 533.843,
+     "text": "pointed"
+    },
+    {
+     "start": 533.843,
+     "end": 534.523,
+     "text": "towards"
+    },
+    {
+     "start": 534.523,
+     "end": 534.763,
+     "text": "a"
+    },
+    {
+     "start": 534.763,
+     "end": 535.103,
+     "text": "failure"
+    },
+    {
+     "start": 535.103,
+     "end": 535.423,
+     "text": "as"
+    },
+    {
+     "start": 535.423,
+     "end": 535.543,
+     "text": "the"
+    },
+    {
+     "start": 535.543,
+     "end": 535.763,
+     "text": "train"
+    },
+    {
+     "start": 535.763,
+     "end": 536.103,
+     "text": "passed"
+    },
+    {
+     "start": 536.103,
+     "end": 536.423,
+     "text": "over"
+    },
+    {
+     "start": 536.423,
+     "end": 536.783,
+     "text": "something"
+    }
+   ]
+  },
+  {
+   "start": 536.363,
+   "end": 545.083,
+   "text": "and track inspections quickly identified the point works of points number a 618",
+   "words": [
+    {
+     "start": 536.363,
+     "end": 537.743,
+     "text": "and"
+    },
+    {
+     "start": 537.743,
+     "end": 538.003,
+     "text": "track"
+    },
+    {
+     "start": 538.003,
+     "end": 538.463,
+     "text": "inspections"
+    },
+    {
+     "start": 538.463,
+     "end": 538.883,
+     "text": "quickly"
+    },
+    {
+     "start": 538.883,
+     "end": 539.423,
+     "text": "identified"
+    },
+    {
+     "start": 539.423,
+     "end": 541.203,
+     "text": "the"
+    },
+    {
+     "start": 541.203,
+     "end": 541.483,
+     "text": "point"
+    },
+    {
+     "start": 541.483,
+     "end": 541.903,
+     "text": "works"
+    },
+    {
+     "start": 541.903,
+     "end": 542.263,
+     "text": "of"
+    },
+    {
+     "start": 542.263,
+     "end": 542.603,
+     "text": "points"
+    },
+    {
+     "start": 542.603,
+     "end": 542.923,
+     "text": "number"
+    },
+    {
+     "start": 542.923,
+     "end": 543.843,
+     "text": "a"
+    },
+    {
+     "start": 543.843,
+     "end": 545.083,
+     "text": "618"
+    }
+   ]
+  },
+  {
+   "start": 546.243,
+   "end": 551.443,
+   "text": "it was discovered that all of the four bolts holding the vital nose and wing rails within the point",
+   "words": [
+    {
+     "start": 546.243,
+     "end": 546.263,
+     "text": "it"
+    },
+    {
+     "start": 546.263,
+     "end": 546.463,
+     "text": "was"
+    },
+    {
+     "start": 546.463,
+     "end": 546.803,
+     "text": "discovered"
+    },
+    {
+     "start": 546.803,
+     "end": 547.143,
+     "text": "that"
+    },
+    {
+     "start": 547.143,
+     "end": 547.623,
+     "text": "all"
+    },
+    {
+     "start": 547.623,
+     "end": 547.923,
+     "text": "of"
+    },
+    {
+     "start": 547.923,
+     "end": 548.083,
+     "text": "the"
+    },
+    {
+     "start": 548.083,
+     "end": 548.283,
+     "text": "four"
+    },
+    {
+     "start": 548.283,
+     "end": 548.563,
+     "text": "bolts"
+    },
+    {
+     "start": 548.563,
+     "end": 548.863,
+     "text": "holding"
+    },
+    {
+     "start": 548.863,
+     "end": 549.083,
+     "text": "the"
+    },
+    {
+     "start": 549.083,
+     "end": 549.363,
+     "text": "vital"
+    },
+    {
+     "start": 549.363,
+     "end": 549.643,
+     "text": "nose"
+    },
+    {
+     "start": 549.643,
+     "end": 549.823,
+     "text": "and"
+    },
+    {
+     "start": 549.823,
+     "end": 549.983,
+     "text": "wing"
+    },
+    {
+     "start": 549.983,
+     "end": 550.283,
+     "text": "rails"
+    },
+    {
+     "start": 550.283,
+     "end": 551.043,
+     "text": "within"
+    },
+    {
+     "start": 551.043,
+     "end": 551.223,
+     "text": "the"
+    },
+    {
+     "start": 550.923,
+     "end": 551.443,
+     "text": "point"
+    }
+   ]
+  },
+  {
+   "start": 551.443,
+   "end": 556.103,
+   "text": "worked together were found to have either fractured or dislodged due to their nuts being worked",
+   "words": [
+    {
+     "start": 551.443,
+     "end": 551.663,
+     "text": "worked"
+    },
+    {
+     "start": 551.663,
+     "end": 551.983,
+     "text": "together"
+    },
+    {
+     "start": 551.983,
+     "end": 552.343,
+     "text": "were"
+    },
+    {
+     "start": 552.343,
+     "end": 552.603,
+     "text": "found"
+    },
+    {
+     "start": 552.603,
+     "end": 552.763,
+     "text": "to"
+    },
+    {
+     "start": 552.763,
+     "end": 552.883,
+     "text": "have"
+    },
+    {
+     "start": 552.883,
+     "end": 553.083,
+     "text": "either"
+    },
+    {
+     "start": 553.083,
+     "end": 553.623,
+     "text": "fractured"
+    },
+    {
+     "start": 553.623,
+     "end": 553.983,
+     "text": "or"
+    },
+    {
+     "start": 553.983,
+     "end": 554.663,
+     "text": "dislodged"
+    },
+    {
+     "start": 554.663,
+     "end": 555.083,
+     "text": "due"
+    },
+    {
+     "start": 555.083,
+     "end": 555.203,
+     "text": "to"
+    },
+    {
+     "start": 555.203,
+     "end": 555.343,
+     "text": "their"
+    },
+    {
+     "start": 555.343,
+     "end": 555.543,
+     "text": "nuts"
+    },
+    {
+     "start": 555.543,
+     "end": 555.763,
+     "text": "being"
+    },
+    {
+     "start": 555.303,
+     "end": 556.103,
+     "text": "worked"
+    }
+   ]
+  },
+  {
+   "start": 556.103,
+   "end": 561.323,
+   "text": "completely off this allowed for an out of gauge situation where the wheels were allowed to jump",
+   "words": [
+    {
+     "start": 556.103,
+     "end": 556.543,
+     "text": "completely"
+    },
+    {
+     "start": 556.543,
+     "end": 556.903,
+     "text": "off"
+    },
+    {
+     "start": 556.903,
+     "end": 557.723,
+     "text": "this"
+    },
+    {
+     "start": 557.723,
+     "end": 558.043,
+     "text": "allowed"
+    },
+    {
+     "start": 558.043,
+     "end": 558.303,
+     "text": "for"
+    },
+    {
+     "start": 558.303,
+     "end": 558.443,
+     "text": "an"
+    },
+    {
+     "start": 558.443,
+     "end": 558.743,
+     "text": "out"
+    },
+    {
+     "start": 558.743,
+     "end": 558.903,
+     "text": "of"
+    },
+    {
+     "start": 558.903,
+     "end": 559.163,
+     "text": "gauge"
+    },
+    {
+     "start": 559.163,
+     "end": 559.723,
+     "text": "situation"
+    },
+    {
+     "start": 559.723,
+     "end": 560.283,
+     "text": "where"
+    },
+    {
+     "start": 560.283,
+     "end": 560.363,
+     "text": "the"
+    },
+    {
+     "start": 560.363,
+     "end": 560.563,
+     "text": "wheels"
+    },
+    {
+     "start": 560.563,
+     "end": 560.743,
+     "text": "were"
+    },
+    {
+     "start": 560.743,
+     "end": 560.943,
+     "text": "allowed"
+    },
+    {
+     "start": 560.943,
+     "end": 561.103,
+     "text": "to"
+    },
+    {
+     "start": 560.663,
+     "end": 561.323,
+     "text": "jump"
+    }
+   ]
+  },
+  {
+   "start": 561.323,
+   "end": 569.543,
+   "text": "the track very similar to what we've seen later on with the Hatfield train crash it",
+   "words": [
+    {
+     "start": 561.323,
+     "end": 561.503,
+     "text": "the"
+    },
+    {
+     "start": 561.503,
+     "end": 561.783,
+     "text": "track"
+    },
+    {
+     "start": 561.783,
+     "end": 562.643,
+     "text": "very"
+    },
+    {
+     "start": 562.643,
+     "end": 562.983,
+     "text": "similar"
+    },
+    {
+     "start": 562.983,
+     "end": 563.183,
+     "text": "to"
+    },
+    {
+     "start": 563.183,
+     "end": 563.323,
+     "text": "what"
+    },
+    {
+     "start": 563.323,
+     "end": 563.523,
+     "text": "we've"
+    },
+    {
+     "start": 563.523,
+     "end": 563.903,
+     "text": "seen"
+    },
+    {
+     "start": 563.903,
+     "end": 564.383,
+     "text": "later"
+    },
+    {
+     "start": 564.383,
+     "end": 564.963,
+     "text": "on"
+    },
+    {
+     "start": 564.963,
+     "end": 566.443,
+     "text": "with"
+    },
+    {
+     "start": 566.443,
+     "end": 566.803,
+     "text": "the"
+    },
+    {
+     "start": 566.803,
+     "end": 568.563,
+     "text": "Hatfield"
+    },
+    {
+     "start": 568.563,
+     "end": 568.803,
+     "text": "train"
+    },
+    {
+     "start": 568.803,
+     "end": 569.223,
+     "text": "crash"
+    },
+    {
+     "start": 569.223,
+     "end": 569.543,
+     "text": "it"
+    }
+   ]
+  },
+  {
+   "start": 569.543,
+   "end": 570.163,
+   "text": "was discovered",
+   "words": [
+    {
+     "start": 569.543,
+     "end": 569.723,
+     "text": "was"
+    },
+    {
+     "start": 569.283,
+     "end": 570.163,
+     "text": "discovered"
+    }
+   ]
+  },
+  {
+   "start": 570.163,
+   "end": 574.503,
+   "text": "that these bolts had suffered from severe rusting and neglect hinting that they had",
+   "words": [
+    {
+     "start": 570.163,
+     "end": 570.443,
+     "text": "that"
+    },
+    {
+     "start": 570.443,
+     "end": 570.623,
+     "text": "these"
+    },
+    {
+     "start": 570.623,
+     "end": 570.883,
+     "text": "bolts"
+    },
+    {
+     "start": 570.883,
+     "end": 571.103,
+     "text": "had"
+    },
+    {
+     "start": 571.103,
+     "end": 571.423,
+     "text": "suffered"
+    },
+    {
+     "start": 571.423,
+     "end": 571.683,
+     "text": "from"
+    },
+    {
+     "start": 571.683,
+     "end": 572.143,
+     "text": "severe"
+    },
+    {
+     "start": 572.143,
+     "end": 572.563,
+     "text": "rusting"
+    },
+    {
+     "start": 572.563,
+     "end": 572.783,
+     "text": "and"
+    },
+    {
+     "start": 572.783,
+     "end": 573.103,
+     "text": "neglect"
+    },
+    {
+     "start": 573.103,
+     "end": 573.963,
+     "text": "hinting"
+    },
+    {
+     "start": 573.963,
+     "end": 574.143,
+     "text": "that"
+    },
+    {
+     "start": 574.143,
+     "end": 574.303,
+     "text": "they"
+    },
+    {
+     "start": 574.303,
+     "end": 574.503,
+     "text": "had"
+    }
+   ]
+  },
+  {
+   "start": 574.543,
+   "end": 576.963,
+   "text": "been in a failing state for quite some while.",
+   "words": [
+    {
+     "start": 574.543,
+     "end": 574.703,
+     "text": "been"
+    },
+    {
+     "start": 574.703,
+     "end": 574.883,
+     "text": "in"
+    },
+    {
+     "start": 574.883,
+     "end": 574.983,
+     "text": "a"
+    },
+    {
+     "start": 574.983,
+     "end": 575.243,
+     "text": "failing"
+    },
+    {
+     "start": 575.243,
+     "end": 575.603,
+     "text": "state"
+    },
+    {
+     "start": 575.603,
+     "end": 575.823,
+     "text": "for"
+    },
+    {
+     "start": 575.823,
+     "end": 576.103,
+     "text": "quite"
+    },
+    {
+     "start": 576.103,
+     "end": 576.423,
+     "text": "some"
+    },
+    {
+     "start": 576.423,
+     "end": 576.963,
+     "text": "while."
+    }
+   ]
+  },
+  {
+   "start": 576.963,
+   "end": 580.103,
+   "text": "The track had been inspected the day before the crash",
+   "words": [
+    {
+     "start": 576.963,
+     "end": 577.543,
+     "text": "The"
+    },
+    {
+     "start": 577.543,
+     "end": 577.723,
+     "text": "track"
+    },
+    {
+     "start": 577.723,
+     "end": 578.043,
+     "text": "had"
+    },
+    {
+     "start": 578.043,
+     "end": 578.203,
+     "text": "been"
+    },
+    {
+     "start": 578.203,
+     "end": 578.663,
+     "text": "inspected"
+    },
+    {
+     "start": 578.663,
+     "end": 578.963,
+     "text": "the"
+    },
+    {
+     "start": 578.963,
+     "end": 579.163,
+     "text": "day"
+    },
+    {
+     "start": 579.163,
+     "end": 579.503,
+     "text": "before"
+    },
+    {
+     "start": 579.503,
+     "end": 579.723,
+     "text": "the"
+    },
+    {
+     "start": 579.723,
+     "end": 580.103,
+     "text": "crash"
+    }
+   ]
+  },
+  {
+   "start": 580.103,
+   "end": 585.243,
+   "text": "but it was found via the honesty of the track patrolman that he had rushed looking over the points",
+   "words": [
+    {
+     "start": 580.103,
+     "end": 580.783,
+     "text": "but"
+    },
+    {
+     "start": 580.783,
+     "end": 580.843,
+     "text": "it"
+    },
+    {
+     "start": 580.843,
+     "end": 580.943,
+     "text": "was"
+    },
+    {
+     "start": 580.943,
+     "end": 581.243,
+     "text": "found"
+    },
+    {
+     "start": 581.243,
+     "end": 581.503,
+     "text": "via"
+    },
+    {
+     "start": 581.503,
+     "end": 581.663,
+     "text": "the"
+    },
+    {
+     "start": 581.663,
+     "end": 581.983,
+     "text": "honesty"
+    },
+    {
+     "start": 581.983,
+     "end": 582.203,
+     "text": "of"
+    },
+    {
+     "start": 582.203,
+     "end": 582.303,
+     "text": "the"
+    },
+    {
+     "start": 582.303,
+     "end": 582.543,
+     "text": "track"
+    },
+    {
+     "start": 582.543,
+     "end": 583.063,
+     "text": "patrolman"
+    },
+    {
+     "start": 583.063,
+     "end": 583.643,
+     "text": "that"
+    },
+    {
+     "start": 583.643,
+     "end": 583.783,
+     "text": "he"
+    },
+    {
+     "start": 583.783,
+     "end": 583.983,
+     "text": "had"
+    },
+    {
+     "start": 583.983,
+     "end": 584.323,
+     "text": "rushed"
+    },
+    {
+     "start": 584.323,
+     "end": 584.583,
+     "text": "looking"
+    },
+    {
+     "start": 584.583,
+     "end": 584.843,
+     "text": "over"
+    },
+    {
+     "start": 584.843,
+     "end": 584.963,
+     "text": "the"
+    },
+    {
+     "start": 584.483,
+     "end": 585.243,
+     "text": "points"
+    }
+   ]
+  },
+  {
+   "start": 585.243,
+   "end": 588.763,
+   "text": "due to heavy rainfall and didn't properly inspect the bolts.",
+   "words": [
+    {
+     "start": 585.243,
+     "end": 585.503,
+     "text": "due"
+    },
+    {
+     "start": 585.503,
+     "end": 585.703,
+     "text": "to"
+    },
+    {
+     "start": 585.703,
+     "end": 585.923,
+     "text": "heavy"
+    },
+    {
+     "start": 585.923,
+     "end": 586.383,
+     "text": "rainfall"
+    },
+    {
+     "start": 586.383,
+     "end": 587.083,
+     "text": "and"
+    },
+    {
+     "start": 587.083,
+     "end": 587.363,
+     "text": "didn't"
+    },
+    {
+     "start": 587.363,
+     "end": 587.763,
+     "text": "properly"
+    },
+    {
+     "start": 587.763,
+     "end": 588.223,
+     "text": "inspect"
+    },
+    {
+     "start": 588.223,
+     "end": 588.463,
+     "text": "the"
+    },
+    {
+     "start": 588.463,
+     "end": 588.763,
+     "text": "bolts."
+    }
+   ]
+  },
+  {
+   "start": 588.763,
+   "end": 590.663,
+   "text": "If he had the fault would have been",
+   "words": [
+    {
+     "start": 588.763,
+     "end": 589.243,
+     "text": "If"
+    },
+    {
+     "start": 589.243,
+     "end": 589.363,
+     "text": "he"
+    },
+    {
+     "start": 589.363,
+     "end": 589.643,
+     "text": "had"
+    },
+    {
+     "start": 589.643,
+     "end": 589.903,
+     "text": "the"
+    },
+    {
+     "start": 589.903,
+     "end": 590.183,
+     "text": "fault"
+    },
+    {
+     "start": 590.183,
+     "end": 590.403,
+     "text": "would"
+    },
+    {
+     "start": 590.403,
+     "end": 590.503,
+     "text": "have"
+    },
+    {
+     "start": 590.003,
+     "end": 590.663,
+     "text": "been"
+    }
+   ]
+  },
+  {
+   "start": 590.663,
+   "end": 591.403,
+   "text": "highlighted.",
+   "words": [
+    {
+     "start": 590.663,
+     "end": 591.403,
+     "text": "highlighted."
+    }
+   ]
+  },
+  {
+   "start": 591.403,
+   "end": 594.403,
+   "text": "The official report would state this.",
+   "words": [
+    {
+     "start": 591.403,
+     "end": 591.983,
+     "text": "The"
+    },
+    {
+     "start": 591.983,
+     "end": 592.223,
+     "text": "official"
+    },
+    {
+     "start": 592.223,
+     "end": 592.663,
+     "text": "report"
+    },
+    {
+     "start": 592.663,
+     "end": 593.003,
+     "text": "would"
+    },
+    {
+     "start": 593.003,
+     "end": 593.363,
+     "text": "state"
+    },
+    {
+     "start": 593.363,
+     "end": 594.403,
+     "text": "this."
+    }
+   ]
+  },
+  {
+   "start": 594.403,
+   "end": 597.523,
+   "text": "Guy, a most honest witness, said it was",
+   "words": [
+    {
+     "start": 594.403,
+     "end": 595.003,
+     "text": "Guy,"
+    },
+    {
+     "start": 595.003,
+     "end": 595.083,
+     "text": "a"
+    },
+    {
+     "start": 595.083,
+     "end": 595.323,
+     "text": "most"
+    },
+    {
+     "start": 595.323,
+     "end": 595.623,
+     "text": "honest"
+    },
+    {
+     "start": 595.623,
+     "end": 596.583,
+     "text": "witness,"
+    },
+    {
+     "start": 596.583,
+     "end": 596.783,
+     "text": "said"
+    },
+    {
+     "start": 596.783,
+     "end": 597.203,
+     "text": "it"
+    },
+    {
+     "start": 597.203,
+     "end": 597.523,
+     "text": "was"
+    }
+   ]
+  },
+  {
+   "start": 597.583,
+   "end": 604.823,
+   "text": "raining when he reached number 618a points and he had just hurried through the area very quickly",
+   "words": [
+    {
+     "start": 597.583,
+     "end": 597.903,
+     "text": "raining"
+    },
+    {
+     "start": 597.903,
+     "end": 598.243,
+     "text": "when"
+    },
+    {
+     "start": 598.243,
+     "end": 598.383,
+     "text": "he"
+    },
+    {
+     "start": 598.383,
+     "end": 598.823,
+     "text": "reached"
+    },
+    {
+     "start": 598.823,
+     "end": 599.823,
+     "text": "number"
+    },
+    {
+     "start": 599.823,
+     "end": 601.363,
+     "text": "618a"
+    },
+    {
+     "start": 601.363,
+     "end": 601.743,
+     "text": "points"
+    },
+    {
+     "start": 601.743,
+     "end": 602.383,
+     "text": "and"
+    },
+    {
+     "start": 602.383,
+     "end": 602.543,
+     "text": "he"
+    },
+    {
+     "start": 602.543,
+     "end": 602.843,
+     "text": "had"
+    },
+    {
+     "start": 602.843,
+     "end": 603.143,
+     "text": "just"
+    },
+    {
+     "start": 603.143,
+     "end": 603.503,
+     "text": "hurried"
+    },
+    {
+     "start": 603.503,
+     "end": 603.723,
+     "text": "through"
+    },
+    {
+     "start": 603.723,
+     "end": 603.923,
+     "text": "the"
+    },
+    {
+     "start": 603.923,
+     "end": 604.223,
+     "text": "area"
+    },
+    {
+     "start": 604.223,
+     "end": 604.443,
+     "text": "very"
+    },
+    {
+     "start": 604.443,
+     "end": 604.823,
+     "text": "quickly"
+    }
+   ]
+  },
+  {
+   "start": 604.843,
+   "end": 610.063,
+   "text": "he freely admitted that he didn't even look to see if any of the bolts were displaced or loose",
+   "words": [
+    {
+     "start": 604.843,
+     "end": 605.763,
+     "text": "he"
+    },
+    {
+     "start": 605.763,
+     "end": 605.983,
+     "text": "freely"
+    },
+    {
+     "start": 605.983,
+     "end": 606.263,
+     "text": "admitted"
+    },
+    {
+     "start": 606.263,
+     "end": 606.583,
+     "text": "that"
+    },
+    {
+     "start": 606.583,
+     "end": 606.743,
+     "text": "he"
+    },
+    {
+     "start": 606.743,
+     "end": 607.123,
+     "text": "didn't"
+    },
+    {
+     "start": 607.123,
+     "end": 607.423,
+     "text": "even"
+    },
+    {
+     "start": 607.423,
+     "end": 607.723,
+     "text": "look"
+    },
+    {
+     "start": 607.723,
+     "end": 607.903,
+     "text": "to"
+    },
+    {
+     "start": 607.903,
+     "end": 608.103,
+     "text": "see"
+    },
+    {
+     "start": 608.103,
+     "end": 608.263,
+     "text": "if"
+    },
+    {
+     "start": 608.263,
+     "end": 608.503,
+     "text": "any"
+    },
+    {
+     "start": 608.503,
+     "end": 608.663,
+     "text": "of"
+    },
+    {
+     "start": 608.663,
+     "end": 608.703,
+     "text": "the"
+    },
+    {
+     "start": 608.703,
+     "end": 608.923,
+     "text": "bolts"
+    },
+    {
+     "start": 608.923,
+     "end": 609.083,
+     "text": "were"
+    },
+    {
+     "start": 609.083,
+     "end": 609.423,
+     "text": "displaced"
+    },
+    {
+     "start": 609.423,
+     "end": 609.703,
+     "text": "or"
+    },
+    {
+     "start": 609.703,
+     "end": 610.063,
+     "text": "loose"
+    }
+   ]
+  },
+  {
+   "start": 610.683,
+   "end": 617.303,
+   "text": "let alone test them for tightness and he accepted that had he carried out this inspection diligently",
+   "words": [
+    {
+     "start": 610.683,
+     "end": 610.923,
+     "text": "let"
+    },
+    {
+     "start": 610.923,
+     "end": 611.083,
+     "text": "alone"
+    },
+    {
+     "start": 611.083,
+     "end": 611.443,
+     "text": "test"
+    },
+    {
+     "start": 611.443,
+     "end": 611.623,
+     "text": "them"
+    },
+    {
+     "start": 611.623,
+     "end": 611.803,
+     "text": "for"
+    },
+    {
+     "start": 611.803,
+     "end": 612.263,
+     "text": "tightness"
+    },
+    {
+     "start": 612.263,
+     "end": 613.943,
+     "text": "and"
+    },
+    {
+     "start": 613.943,
+     "end": 614.283,
+     "text": "he"
+    },
+    {
+     "start": 614.283,
+     "end": 614.643,
+     "text": "accepted"
+    },
+    {
+     "start": 614.643,
+     "end": 615.083,
+     "text": "that"
+    },
+    {
+     "start": 615.083,
+     "end": 615.503,
+     "text": "had"
+    },
+    {
+     "start": 615.503,
+     "end": 615.663,
+     "text": "he"
+    },
+    {
+     "start": 615.663,
+     "end": 615.903,
+     "text": "carried"
+    },
+    {
+     "start": 615.903,
+     "end": 616.083,
+     "text": "out"
+    },
+    {
+     "start": 616.083,
+     "end": 616.283,
+     "text": "this"
+    },
+    {
+     "start": 616.283,
+     "end": 616.803,
+     "text": "inspection"
+    },
+    {
+     "start": 616.803,
+     "end": 617.303,
+     "text": "diligently"
+    }
+   ]
+  },
+  {
+   "start": 616.883,
+   "end": 621.383,
+   "text": "there was virtually no doubt that the accident would have been avoided",
+   "words": [
+    {
+     "start": 616.883,
+     "end": 618.663,
+     "text": "there"
+    },
+    {
+     "start": 618.663,
+     "end": 618.903,
+     "text": "was"
+    },
+    {
+     "start": 618.903,
+     "end": 619.243,
+     "text": "virtually"
+    },
+    {
+     "start": 619.243,
+     "end": 619.563,
+     "text": "no"
+    },
+    {
+     "start": 619.563,
+     "end": 619.823,
+     "text": "doubt"
+    },
+    {
+     "start": 619.823,
+     "end": 620.083,
+     "text": "that"
+    },
+    {
+     "start": 620.083,
+     "end": 620.183,
+     "text": "the"
+    },
+    {
+     "start": 620.183,
+     "end": 620.523,
+     "text": "accident"
+    },
+    {
+     "start": 620.523,
+     "end": 620.843,
+     "text": "would"
+    },
+    {
+     "start": 620.843,
+     "end": 620.983,
+     "text": "have"
+    },
+    {
+     "start": 620.983,
+     "end": 621.083,
+     "text": "been"
+    },
+    {
+     "start": 621.083,
+     "end": 621.383,
+     "text": "avoided"
+    }
+   ]
+  },
+  {
+   "start": 622.823,
+   "end": 627.483,
+   "text": "but it wasn't all on the patrolman as the points had degraded over the years of neglect",
+   "words": [
+    {
+     "start": 622.823,
+     "end": 622.903,
+     "text": "but"
+    },
+    {
+     "start": 622.903,
+     "end": 623.023,
+     "text": "it"
+    },
+    {
+     "start": 623.023,
+     "end": 623.243,
+     "text": "wasn't"
+    },
+    {
+     "start": 623.243,
+     "end": 623.483,
+     "text": "all"
+    },
+    {
+     "start": 623.483,
+     "end": 623.643,
+     "text": "on"
+    },
+    {
+     "start": 623.643,
+     "end": 623.743,
+     "text": "the"
+    },
+    {
+     "start": 623.743,
+     "end": 624.283,
+     "text": "patrolman"
+    },
+    {
+     "start": 624.283,
+     "end": 624.883,
+     "text": "as"
+    },
+    {
+     "start": 624.883,
+     "end": 624.983,
+     "text": "the"
+    },
+    {
+     "start": 624.983,
+     "end": 625.223,
+     "text": "points"
+    },
+    {
+     "start": 625.223,
+     "end": 625.423,
+     "text": "had"
+    },
+    {
+     "start": 625.423,
+     "end": 626.063,
+     "text": "degraded"
+    },
+    {
+     "start": 626.063,
+     "end": 626.463,
+     "text": "over"
+    },
+    {
+     "start": 626.463,
+     "end": 626.603,
+     "text": "the"
+    },
+    {
+     "start": 626.603,
+     "end": 626.963,
+     "text": "years"
+    },
+    {
+     "start": 626.963,
+     "end": 627.203,
+     "text": "of"
+    },
+    {
+     "start": 627.203,
+     "end": 627.483,
+     "text": "neglect"
+    }
+   ]
+  },
+  {
+   "start": 628.103,
+   "end": 632.943,
+   "text": "and multiple patrols missing the degradation of the point work much like a lot of british rail in",
+   "words": [
+    {
+     "start": 628.103,
+     "end": 628.283,
+     "text": "and"
+    },
+    {
+     "start": 628.283,
+     "end": 628.663,
+     "text": "multiple"
+    },
+    {
+     "start": 628.663,
+     "end": 629.223,
+     "text": "patrols"
+    },
+    {
+     "start": 629.223,
+     "end": 629.503,
+     "text": "missing"
+    },
+    {
+     "start": 629.503,
+     "end": 629.663,
+     "text": "the"
+    },
+    {
+     "start": 629.663,
+     "end": 630.003,
+     "text": "degradation"
+    },
+    {
+     "start": 630.003,
+     "end": 630.283,
+     "text": "of"
+    },
+    {
+     "start": 630.283,
+     "end": 630.363,
+     "text": "the"
+    },
+    {
+     "start": 630.363,
+     "end": 630.583,
+     "text": "point"
+    },
+    {
+     "start": 630.583,
+     "end": 630.763,
+     "text": "work"
+    },
+    {
+     "start": 630.763,
+     "end": 631.583,
+     "text": "much"
+    },
+    {
+     "start": 631.583,
+     "end": 631.863,
+     "text": "like"
+    },
+    {
+     "start": 631.863,
+     "end": 632.023,
+     "text": "a"
+    },
+    {
+     "start": 632.023,
+     "end": 632.143,
+     "text": "lot"
+    },
+    {
+     "start": 632.143,
+     "end": 632.303,
+     "text": "of"
+    },
+    {
+     "start": 632.303,
+     "end": 632.603,
+     "text": "british"
+    },
+    {
+     "start": 632.603,
+     "end": 632.763,
+     "text": "rail"
+    },
+    {
+     "start": 632.303,
+     "end": 632.943,
+     "text": "in"
+    }
+   ]
+  },
+  {
+   "start": 632.943,
+   "end": 639.123,
+   "text": "the 1980s cutbacks had caused a lot of manpower shortages which ultimately helped set out",
+   "words": [
+    {
+     "start": 632.943,
+     "end": 632.983,
+     "text": "the"
+    },
+    {
+     "start": 632.983,
+     "end": 633.683,
+     "text": "1980s"
+    },
+    {
+     "start": 633.683,
+     "end": 634.263,
+     "text": "cutbacks"
+    },
+    {
+     "start": 634.263,
+     "end": 634.503,
+     "text": "had"
+    },
+    {
+     "start": 634.503,
+     "end": 635.043,
+     "text": "caused"
+    },
+    {
+     "start": 635.043,
+     "end": 635.323,
+     "text": "a"
+    },
+    {
+     "start": 635.323,
+     "end": 635.643,
+     "text": "lot"
+    },
+    {
+     "start": 635.643,
+     "end": 635.843,
+     "text": "of"
+    },
+    {
+     "start": 635.843,
+     "end": 636.263,
+     "text": "manpower"
+    },
+    {
+     "start": 636.263,
+     "end": 636.663,
+     "text": "shortages"
+    },
+    {
+     "start": 636.663,
+     "end": 637.443,
+     "text": "which"
+    },
+    {
+     "start": 637.443,
+     "end": 637.883,
+     "text": "ultimately"
+    },
+    {
+     "start": 637.883,
+     "end": 638.583,
+     "text": "helped"
+    },
+    {
+     "start": 638.583,
+     "end": 638.843,
+     "text": "set"
+    },
+    {
+     "start": 638.843,
+     "end": 639.123,
+     "text": "out"
+    }
+   ]
+  },
+  {
+   "start": 638.703,
+   "end": 645.223,
+   "text": "privatization of the railways but thankfully at least in this disaster no one was killed",
+   "words": [
+    {
+     "start": 638.703,
+     "end": 640.023,
+     "text": "privatization"
+    },
+    {
+     "start": 640.023,
+     "end": 640.423,
+     "text": "of"
+    },
+    {
+     "start": 640.423,
+     "end": 640.503,
+     "text": "the"
+    },
+    {
+     "start": 640.503,
+     "end": 640.943,
+     "text": "railways"
+    },
+    {
+     "start": 640.943,
+     "end": 641.603,
+     "text": "but"
+    },
+    {
+     "start": 641.603,
+     "end": 641.983,
+     "text": "thankfully"
+    },
+    {
+     "start": 641.983,
+     "end": 642.943,
+     "text": "at"
+    },
+    {
+     "start": 642.943,
+     "end": 643.103,
+     "text": "least"
+    },
+    {
+     "start": 643.103,
+     "end": 643.243,
+     "text": "in"
+    },
+    {
+     "start": 643.243,
+     "end": 643.363,
+     "text": "this"
+    },
+    {
+     "start": 643.363,
+     "end": 643.783,
+     "text": "disaster"
+    },
+    {
+     "start": 643.783,
+     "end": 644.603,
+     "text": "no"
+    },
+    {
+     "start": 644.603,
+     "end": 644.703,
+     "text": "one"
+    },
+    {
+     "start": 644.703,
+     "end": 644.883,
+     "text": "was"
+    },
+    {
+     "start": 644.883,
+     "end": 645.223,
+     "text": "killed"
+    }
+   ]
+  },
+  {
+   "start": 644.843,
+   "end": 650.323,
+   "text": "from the cutbacks and neglect so that's my video on the burkeley train crash it's going to be a",
+   "words": [
+    {
+     "start": 644.843,
+     "end": 646.043,
+     "text": "from"
+    },
+    {
+     "start": 646.043,
+     "end": 646.183,
+     "text": "the"
+    },
+    {
+     "start": 646.183,
+     "end": 646.623,
+     "text": "cutbacks"
+    },
+    {
+     "start": 646.623,
+     "end": 646.823,
+     "text": "and"
+    },
+    {
+     "start": 646.823,
+     "end": 647.043,
+     "text": "neglect"
+    },
+    {
+     "start": 647.043,
+     "end": 648.123,
+     "text": "so"
+    },
+    {
+     "start": 648.123,
+     "end": 648.263,
+     "text": "that's"
+    },
+    {
+     "start": 648.263,
+     "end": 648.383,
+     "text": "my"
+    },
+    {
+     "start": 648.383,
+     "end": 648.603,
+     "text": "video"
+    },
+    {
+     "start": 648.603,
+     "end": 648.843,
+     "text": "on"
+    },
+    {
+     "start": 648.843,
+     "end": 648.943,
+     "text": "the"
+    },
+    {
+     "start": 648.943,
+     "end": 649.123,
+     "text": "burkeley"
+    },
+    {
+     "start": 649.123,
+     "end": 649.363,
+     "text": "train"
+    },
+    {
+     "start": 649.363,
+     "end": 649.723,
+     "text": "crash"
+    },
+    {
+     "start": 649.723,
+     "end": 650.043,
+     "text": "it's"
+    },
+    {
+     "start": 650.043,
+     "end": 650.063,
+     "text": "going"
+    },
+    {
+     "start": 650.063,
+     "end": 650.103,
+     "text": "to"
+    },
+    {
+     "start": 650.103,
+     "end": 650.203,
+     "text": "be"
+    },
+    {
+     "start": 650.203,
+     "end": 650.323,
+     "text": "a"
+    }
+   ]
+  },
+  {
+   "start": 650.303,
+   "end": 653.003,
+   "text": "two on my scale and this I've got for my root cause analysis card.",
+   "words": [
+    {
+     "start": 650.303,
+     "end": 650.423,
+     "text": "two"
+    },
+    {
+     "start": 650.423,
+     "end": 650.523,
+     "text": "on"
+    },
+    {
+     "start": 650.523,
+     "end": 650.623,
+     "text": "my"
+    },
+    {
+     "start": 650.623,
+     "end": 650.883,
+     "text": "scale"
+    },
+    {
+     "start": 650.883,
+     "end": 651.143,
+     "text": "and"
+    },
+    {
+     "start": 651.143,
+     "end": 651.263,
+     "text": "this"
+    },
+    {
+     "start": 651.263,
+     "end": 651.443,
+     "text": "I've"
+    },
+    {
+     "start": 651.443,
+     "end": 651.543,
+     "text": "got"
+    },
+    {
+     "start": 651.543,
+     "end": 651.663,
+     "text": "for"
+    },
+    {
+     "start": 651.663,
+     "end": 651.743,
+     "text": "my"
+    },
+    {
+     "start": 651.743,
+     "end": 652.003,
+     "text": "root"
+    },
+    {
+     "start": 652.003,
+     "end": 652.143,
+     "text": "cause"
+    },
+    {
+     "start": 652.143,
+     "end": 652.363,
+     "text": "analysis"
+    },
+    {
+     "start": 652.363,
+     "end": 653.003,
+     "text": "card."
+    }
+   ]
+  },
+  {
+   "start": 653.003,
+   "end": 653.583,
+   "text": "Do you agree?",
+   "words": [
+    {
+     "start": 653.003,
+     "end": 653.103,
+     "text": "Do"
+    },
+    {
+     "start": 653.103,
+     "end": 653.123,
+     "text": "you"
+    },
+    {
+     "start": 653.123,
+     "end": 653.583,
+     "text": "agree?"
+    }
+   ]
+  },
+  {
+   "start": 653.583,
+   "end": 654.223,
+   "text": "Let me know in",
+   "words": [
+    {
+     "start": 653.583,
+     "end": 653.703,
+     "text": "Let"
+    },
+    {
+     "start": 653.703,
+     "end": 653.803,
+     "text": "me"
+    },
+    {
+     "start": 653.803,
+     "end": 653.943,
+     "text": "know"
+    },
+    {
+     "start": 653.603,
+     "end": 654.223,
+     "text": "in"
+    }
+   ]
+  },
+  {
+   "start": 654.223,
+   "end": 655.023,
+   "text": "the comments below.",
+   "words": [
+    {
+     "start": 654.223,
+     "end": 654.243,
+     "text": "the"
+    },
+    {
+     "start": 654.243,
+     "end": 654.443,
+     "text": "comments"
+    },
+    {
+     "start": 654.443,
+     "end": 655.023,
+     "text": "below."
+    }
+   ]
+  },
+  {
+   "start": 655.023,
+   "end": 656.523,
+   "text": "This is a Plain Default production.",
+   "words": [
+    {
+     "start": 655.023,
+     "end": 655.403,
+     "text": "This"
+    },
+    {
+     "start": 655.403,
+     "end": 655.503,
+     "text": "is"
+    },
+    {
+     "start": 655.503,
+     "end": 655.563,
+     "text": "a"
+    },
+    {
+     "start": 655.563,
+     "end": 655.703,
+     "text": "Plain"
+    },
+    {
+     "start": 655.703,
+     "end": 655.823,
+     "text": "Default"
+    },
+    {
+     "start": 655.823,
+     "end": 656.523,
+     "text": "production."
+    }
+   ]
+  },
+  {
+   "start": 656.523,
+   "end": 657.343,
+   "text": "All videos on the channel, Creative",
+   "words": [
+    {
+     "start": 656.523,
+     "end": 656.583,
+     "text": "All"
+    },
+    {
+     "start": 656.583,
+     "end": 656.703,
+     "text": "videos"
+    },
+    {
+     "start": 656.703,
+     "end": 656.803,
+     "text": "on"
+    },
+    {
+     "start": 656.803,
+     "end": 656.883,
+     "text": "the"
+    },
+    {
+     "start": 656.883,
+     "end": 657.183,
+     "text": "channel,"
+    },
+    {
+     "start": 657.183,
+     "end": 657.343,
+     "text": "Creative"
+    }
+   ]
+  },
+  {
+   "start": 657.203,
+   "end": 659.083,
+   "text": "Commons Actuals shall not be licensed.",
+   "words": [
+    {
+     "start": 657.203,
+     "end": 657.623,
+     "text": "Commons"
+    },
+    {
+     "start": 657.623,
+     "end": 657.963,
+     "text": "Actuals"
+    },
+    {
+     "start": 657.963,
+     "end": 658.243,
+     "text": "shall"
+    },
+    {
+     "start": 658.243,
+     "end": 658.323,
+     "text": "not"
+    },
+    {
+     "start": 658.323,
+     "end": 658.423,
+     "text": "be"
+    },
+    {
+     "start": 658.423,
+     "end": 659.083,
+     "text": "licensed."
+    }
+   ]
+  },
+  {
+   "start": 659.083,
+   "end": 661.783,
+   "text": "Plain Default videos are produced by me, John, in a currently",
+   "words": [
+    {
+     "start": 659.083,
+     "end": 659.483,
+     "text": "Plain"
+    },
+    {
+     "start": 659.483,
+     "end": 659.683,
+     "text": "Default"
+    },
+    {
+     "start": 659.683,
+     "end": 659.963,
+     "text": "videos"
+    },
+    {
+     "start": 659.963,
+     "end": 660.223,
+     "text": "are"
+    },
+    {
+     "start": 660.223,
+     "end": 660.363,
+     "text": "produced"
+    },
+    {
+     "start": 660.363,
+     "end": 660.603,
+     "text": "by"
+    },
+    {
+     "start": 660.603,
+     "end": 661.023,
+     "text": "me,"
+    },
+    {
+     "start": 661.023,
+     "end": 661.283,
+     "text": "John,"
+    },
+    {
+     "start": 661.283,
+     "end": 661.383,
+     "text": "in"
+    },
+    {
+     "start": 661.383,
+     "end": 661.483,
+     "text": "a"
+    },
+    {
+     "start": 661.003,
+     "end": 661.783,
+     "text": "currently"
+    }
+   ]
+  },
+  {
+   "start": 661.783,
+   "end": 664.083,
+   "text": "quite warm corner of Southern London, UK.",
+   "words": [
+    {
+     "start": 661.783,
+     "end": 662.183,
+     "text": "quite"
+    },
+    {
+     "start": 662.183,
+     "end": 662.443,
+     "text": "warm"
+    },
+    {
+     "start": 662.443,
+     "end": 662.723,
+     "text": "corner"
+    },
+    {
+     "start": 662.723,
+     "end": 662.843,
+     "text": "of"
+    },
+    {
+     "start": 662.843,
+     "end": 663.003,
+     "text": "Southern"
+    },
+    {
+     "start": 663.003,
+     "end": 663.323,
+     "text": "London,"
+    },
+    {
+     "start": 663.323,
+     "end": 664.083,
+     "text": "UK."
+    }
+   ]
+  },
+  {
+   "start": 664.083,
+   "end": 665.143,
+   "text": "And all I have to say is thank you very much for",
+   "words": [
+    {
+     "start": 664.083,
+     "end": 664.203,
+     "text": "And"
+    },
+    {
+     "start": 664.203,
+     "end": 664.243,
+     "text": "all"
+    },
+    {
+     "start": 664.243,
+     "end": 664.303,
+     "text": "I"
+    },
+    {
+     "start": 664.303,
+     "end": 664.323,
+     "text": "have"
+    },
+    {
+     "start": 664.323,
+     "end": 664.423,
+     "text": "to"
+    },
+    {
+     "start": 664.423,
+     "end": 664.603,
+     "text": "say"
+    },
+    {
+     "start": 664.603,
+     "end": 664.703,
+     "text": "is"
+    },
+    {
+     "start": 664.703,
+     "end": 664.843,
+     "text": "thank"
+    },
+    {
+     "start": 664.843,
+     "end": 664.863,
+     "text": "you"
+    },
+    {
+     "start": 664.863,
+     "end": 664.963,
+     "text": "very"
+    },
+    {
+     "start": 664.963,
+     "end": 665.043,
+     "text": "much"
+    },
+    {
+     "start": 664.563,
+     "end": 665.143,
+     "text": "for"
+    }
+   ]
+  },
+  {
+   "start": 665.143,
+   "end": 666.823,
+   "text": "watching and Mr Music, play us out please.",
+   "words": [
+    {
+     "start": 665.143,
+     "end": 665.343,
+     "text": "watching"
+    },
+    {
+     "start": 665.343,
+     "end": 665.663,
+     "text": "and"
+    },
+    {
+     "start": 665.663,
+     "end": 665.843,
+     "text": "Mr"
+    },
+    {
+     "start": 665.843,
+     "end": 666.343,
+     "text": "Music,"
+    },
+    {
+     "start": 666.343,
+     "end": 666.363,
+     "text": "play"
+    },
+    {
+     "start": 666.363,
+     "end": 666.483,
+     "text": "us"
+    },
+    {
+     "start": 666.483,
+     "end": 666.603,
+     "text": "out"
+    },
+    {
+     "start": 666.603,
+     "end": 666.823,
+     "text": "please."
+    }
+   ]
+  },
+  {
+   "start": 680.303,
+   "end": 681.943,
+   "text": "Thank you.",
+   "words": [
+    {
+     "start": 680.303,
+     "end": 681.783,
+     "text": "Thank"
+    },
+    {
+     "start": 681.783,
+     "end": 681.943,
+     "text": "you."
+    }
+   ]
+  }
+ ],
+ "language": "English",
+ "backend": "groq",
+ "model": "whisper-large-v3-turbo",
+ "source_duration": 695.391202,
+ "chunk_count": 1,
+ "has_word_timings": true
+}
