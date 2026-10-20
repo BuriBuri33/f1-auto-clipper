@@ -22,9 +22,10 @@ on:
         type: boolean
         default: false
 
+# Shared with every state-writing workflow — see monitor.yml.
 concurrency:
-  group: analyze
-  cancel-in-progress: false
+  group: pipeline-state
+  queue: max
 
 permissions:
   contents: write

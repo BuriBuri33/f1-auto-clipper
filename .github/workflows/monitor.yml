@@ -22,9 +22,15 @@ on:
 
 # One monitor at a time. Two concurrent passes would both try to commit the
 # database and one would lose.
+# One group for EVERY workflow that commits data/state.db, so they run one at
+# a time and each checks out the previous one's committed state. Separate
+# per-workflow groups let analyze and monitor push concurrently on
+# 2026-10-20; state.db is binary, the rebase conflicted, and analyze's
+# results were lost. queue: max keeps up to 100 runs waiting rather than the
+# default single slot, where a newly queued run cancels the waiting one.
 concurrency:
-  group: monitor
-  cancel-in-progress: false
+  group: pipeline-state
+  queue: max
 
 permissions:
   contents: write    # to commit the updated state database
