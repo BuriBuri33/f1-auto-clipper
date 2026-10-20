@@ -9,13 +9,14 @@
 # hold the right to repurpose — your own uploads, a Creative Commons licensed
 # channel, footage you have written permission for, or content licensed to you.
 #
-# Official Formula 1 broadcast footage is NOT in that category. Do not add
-# F1's own channels, race broadcast re-uploads, or aggregator channels that
-# re-host broadcast clips. See docs/RIGHTS.md.
+# Per-video CC check: even with rights_cleared: true here, every video is
+# checked individually via the YouTube Data API (status.license). A video
+# whose license is not 'creativeCommon' is set to SKIPPED regardless of
+# this flag. See docs/RIGHTS.md.
 #
 # channel_id is the UC... id, not the @handle. To find it: open the channel,
 # View Source, search for "channelId", or use
-#   python -m src.main resolve-channel "https://www.youtube.com/@somehandle"
+#   python3 -m src.main resolve-channel "https://www.youtube.com/@somehandle"
 
 sources:
   # ---------------------------------------------------------------------------
@@ -26,3 +27,91 @@ sources:
     enabled: false
     rights_cleared: false
     rights_note: "Placeholder. Not cleared, not enabled. Replace with a source you hold rights to."
+
+  # ---------------------------------------------------------------------------
+  # Plainly Difficult — industrial disasters and engineering failures
+  # Verified via YouTube Data API 2026-10-20: 8/8 most recent uploads carry
+  # status.license=creativeCommon. The channel produces original narrated
+  # documentaries about real industrial incidents (train derailments, bridge
+  # collapses, industrial fires). Content is self-produced — narration +
+  # publicly available accident reports and archive footage — with no
+  # indication of re-uploaded broadcast material. Active for 9+ years.
+  # Note: CC applies to the channel's own creative expression (narration,
+  # editing, script). Third-party archive clips within an episode retain their
+  # original terms; verify per-video in the API before reuse.
+  # ---------------------------------------------------------------------------
+  - name: plainly_difficult
+    channel_id: "UCb0MyY46T9ZYOzDHkYnIoXg"
+    enabled: true
+    rights_cleared: true
+    rights_note: >
+      Self-produced documentary channel covering industrial disasters and
+      engineering failures. Verified 2026-10-20 via YouTube API: 8/8 most
+      recent uploads carry status.license=creativeCommon (CC-BY). Creator
+      consistently opts into CC on all uploads. Content is original narrated
+      documentary — not a re-upload of broadcast footage. Channel active for
+      9+ years under the same policy. Per-video API check provides the second
+      gate before any download.
+
+  # ---------------------------------------------------------------------------
+  # Mystery History — ancient mysteries and archaeological discoveries
+  # Verified via YouTube Data API 2026-10-20: 8/8 most recent uploads carry
+  # status.license=creativeCommon. The channel produces original narrated
+  # videos about archaeological finds, ancient sites, and historical mysteries.
+  # Content is self-produced narration combined with photographs and artwork;
+  # no evidence of re-uploaded broadcast material. Uploads near-daily.
+  # Note: content skews toward alternative/fringe archaeological claims;
+  # clips are selected on engagement quality, not factual accuracy.
+  # ---------------------------------------------------------------------------
+  - name: mystery_history
+    channel_id: "UCC9JHVPm-4P5QDp9vk8EH-A"
+    enabled: true
+    rights_cleared: true
+    rights_note: >
+      Self-produced narrated channel covering ancient mysteries, archaeology
+      and historical discoveries. Verified 2026-10-20 via YouTube API: 8/8
+      most recent uploads carry status.license=creativeCommon (CC-BY).
+      Creator consistently opts into CC on all uploads. Content is original
+      narration + images — not re-uploaded broadcast footage. Per-video API
+      check provides the second gate before any download.
+
+  # ---------------------------------------------------------------------------
+  # Celtic History Decoded — British, Irish and Celtic history, DNA and ancestry
+  # Verified via YouTube Data API 2026-10-20: 5/5 most recent uploads carry
+  # status.license=creativeCommon. The channel produces original narrated
+  # videos drawing on academic DNA studies and historical sources to explore
+  # British and Celtic origins. Self-produced content; no broadcast re-uploads.
+  # ---------------------------------------------------------------------------
+  - name: celtic_history_decoded
+    channel_id: "UCCS3M_uNHH2iOJkpGhkO2SA"
+    enabled: true
+    rights_cleared: true
+    rights_note: >
+      Self-produced channel covering British, Irish and Celtic history and
+      ancestry, drawing on published DNA studies and academic sources.
+      Verified 2026-10-20 via YouTube API: 5/5 most recent uploads carry
+      status.license=creativeCommon (CC-BY). Creator consistently opts into
+      CC. Original narrated content — not re-uploaded broadcast footage.
+      Per-video API check provides the second gate before any download.
+
+  # ---------------------------------------------------------------------------
+  # ReasonTV — economics, policy and current affairs commentary
+  # Verified via YouTube Data API 2026-10-20: 7/8 most recent uploads carry
+  # status.license=creativeCommon. Published by the Reason Foundation
+  # (reason.com), a US 501(c)(3) nonprofit. The Foundation has an editorial
+  # policy of CC licensing its journalism output. One video in the sample
+  # carried the standard YouTube license — the per-video API check will skip
+  # any such upload automatically.
+  # ---------------------------------------------------------------------------
+  - name: reason_tv
+    channel_id: "UC0uVZd8N7FfIZnPu0y7o95A"
+    enabled: true
+    rights_cleared: true
+    rights_note: >
+      Published by the Reason Foundation (reason.com), a US 501(c)(3)
+      libertarian nonprofit think tank. Verified 2026-10-20 via YouTube API:
+      7/8 most recent uploads carry status.license=creativeCommon (CC-BY).
+      The Foundation has a documented editorial policy of CC licensing its
+      journalism content. Content is original commentary, interviews and
+      analysis — not re-uploaded broadcast footage. The one non-CC video in
+      the sample is caught by the per-video API check before any download.

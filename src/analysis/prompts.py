@@ -85,11 +85,13 @@ shareability_score — would someone send this to a friend with no caption
 Do not select a clip SOLELY because it mentions a notable name or term —
 score on what actually happens in the audio, not on keyword presence."""
 
-F1_PRIORITY = """When several candidates are comparable, prefer, in this
-order: (1) team radio exchanges, (2) driver reactions, (3) overtakes,
-(4) crashes or incidents, (5) dramatic strategy moments, (6) controversial
-decisions, (7) funny moments, (8) emotional moments, (9) unexpected results,
-(10) strong interview moments."""
+CLIP_PRIORITY = """When several candidates are comparable, prefer, in this
+order: (1) shocking or surprising reveals, (2) dramatic moments or
+catastrophic events, (3) striking statistics or hard-to-believe facts,
+(4) emotional human stories, (5) clear "aha" explanations of complex topics,
+(6) controversial or counterintuitive claims, (7) funny or ironic moments,
+(8) unexpected connections or implications, (9) strong interview moments,
+(10) vivid scene-setting or atmosphere."""
 
 
 def _format_segments(segments: Sequence[Segment]) -> str:
@@ -115,7 +117,8 @@ def build_prompt(
     """
     parts = [
         "You are selecting the strongest short-form clip candidates from a "
-        "motorsport broadcast transcript, for vertical short-form video.",
+        "documentary or educational narration transcript, for vertical "
+        "short-form video.",
     ]
     if source_title:
         parts.append("Source video title: %s" % source_title)
@@ -123,7 +126,7 @@ def build_prompt(
         parts.append("Names/terms that may appear: %s" % vocabulary_hint)
 
     parts.append(SCORING_RUBRIC)
-    parts.append(F1_PRIORITY)
+    parts.append(CLIP_PRIORITY)
     parts.append(
         "Below are %d candidate spans, each already a self-contained block "
         "of consecutive transcript segments with its own start/end time. "

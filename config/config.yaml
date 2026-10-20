@@ -106,16 +106,10 @@ transcription:
   word_timestamps: true
 
   # A bare, comma-separated list of proper nouns the model keeps mishearing.
-  # Measured on multi-accent F1 radio, 2026-10-10:
-  #   no prompt                       WER 5.5%  ("Leclerc" came out "LeClick")
-  #   "Verstappen, Leclerc, Tsunoda." WER 3.6%  ("Leclerc" correct)
-  #   a labelled glossary             WER 5.5%  AND `Drivers:"` appeared as
-  #                                             literal text in the transcript
-  #
   # Whisper treats this as text that PRECEDED the audio, so it continues it
   # stylistically rather than consulting it as a dictionary. Keep it to bare
-  # names. No labels, no sentences, no instructions — those get transcribed.
-  # Leave empty to send none.
+  # names only — no labels, no sentences, no instructions (those get
+  # transcribed into the output verbatim). Leave empty to send none.
   vocabulary_prompt: ""
 
   # Rebuild segment boundaries from the word timings rather than trusting
@@ -209,7 +203,7 @@ publishing:
   instagram: true
   # Not implemented yet (Phase 8). `publish` always skips TikTok regardless
   # of this flag, same as `status` already reports it.
-  tiktok: true
+  tiktok: false
 
   # Every platform starts private. Flipping this to false is a deliberate
   # act taken after a test upload has been inspected by hand — and even

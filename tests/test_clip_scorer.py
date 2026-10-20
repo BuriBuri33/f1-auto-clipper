@@ -1,4 +1,4 @@
-"""The F1-weighted scoring formula and its no-LLM heuristic fallback."""
+"""The five-axis weighted scoring formula and its no-LLM heuristic fallback."""
 
 import pytest
 

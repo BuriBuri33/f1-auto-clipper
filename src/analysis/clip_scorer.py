@@ -1,4 +1,4 @@
-"""The F1-weighted scoring formula (spec section 11).
+"""The five-axis weighted scoring formula (spec section 11).
 
     final_score = hook*0.25 + emotional*0.20 + context*0.15
                 + payoff*0.20 + shareability*0.20
