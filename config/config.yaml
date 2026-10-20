@@ -56,7 +56,9 @@ download:
   # Extraction breaks per player client as YouTube pushes back, and which one
   # works changes over time. Verified 2026-10-10: of these, three failed and
   # android_vr worked. Tried in order; reorder here without a code change.
-  player_clients: ["default", "android_vr", "tv", "web_safari", "mweb", "ios"]
+  # android_vr first: verified 2026-10-20 to fetch successfully without
+  # cookies on GitHub runner IPs. default/tv are tried next with cookies.
+  player_clients: ["android_vr", "default", "tv", "web_safari", "mweb", "ios"]
 
   max_videos_per_run: 3
   max_retries: 3
