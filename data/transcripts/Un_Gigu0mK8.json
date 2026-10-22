@@ -1,0 +1,11616 @@
+{
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.9,
+   "text": "The HBO comedian and political commentator John Oliver once produced a terrific segment",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.18,
+     "text": "The"
+    },
+    {
+     "start": 0.18,
+     "end": 0.62,
+     "text": "HBO"
+    },
+    {
+     "start": 0.62,
+     "end": 1.18,
+     "text": "comedian"
+    },
+    {
+     "start": 1.18,
+     "end": 1.76,
+     "text": "and"
+    },
+    {
+     "start": 1.76,
+     "end": 2.2,
+     "text": "political"
+    },
+    {
+     "start": 2.2,
+     "end": 3.08,
+     "text": "commentator"
+    },
+    {
+     "start": 3.08,
+     "end": 3.4,
+     "text": "John"
+    },
+    {
+     "start": 3.4,
+     "end": 3.78,
+     "text": "Oliver"
+    },
+    {
+     "start": 3.78,
+     "end": 4.46,
+     "text": "once"
+    },
+    {
+     "start": 4.46,
+     "end": 4.76,
+     "text": "produced"
+    },
+    {
+     "start": 4.76,
+     "end": 4.98,
+     "text": "a"
+    },
+    {
+     "start": 4.98,
+     "end": 5.4,
+     "text": "terrific"
+    },
+    {
+     "start": 5.4,
+     "end": 5.9,
+     "text": "segment"
+    }
+   ]
+  },
+  {
+   "start": 5.62,
+   "end": 9.34,
+   "text": "on how TV pundits routinely cite garbage science.",
+   "words": [
+    {
+     "start": 5.62,
+     "end": 6.34,
+     "text": "on"
+    },
+    {
+     "start": 6.34,
+     "end": 6.44,
+     "text": "how"
+    },
+    {
+     "start": 6.44,
+     "end": 6.76,
+     "text": "TV"
+    },
+    {
+     "start": 6.76,
+     "end": 7.32,
+     "text": "pundits"
+    },
+    {
+     "start": 7.32,
+     "end": 7.86,
+     "text": "routinely"
+    },
+    {
+     "start": 7.86,
+     "end": 8.24,
+     "text": "cite"
+    },
+    {
+     "start": 8.24,
+     "end": 8.62,
+     "text": "garbage"
+    },
+    {
+     "start": 8.62,
+     "end": 9.34,
+     "text": "science."
+    }
+   ]
+  },
+  {
+   "start": 9.46,
+   "end": 15.7,
+   "text": "A new study showing that drinking a glass of red wine is just as good as spending an hour at the gym.",
+   "words": [
+    {
+     "start": 9.46,
+     "end": 9.64,
+     "text": "A"
+    },
+    {
+     "start": 9.64,
+     "end": 9.78,
+     "text": "new"
+    },
+    {
+     "start": 9.78,
+     "end": 10.22,
+     "text": "study"
+    },
+    {
+     "start": 10.22,
+     "end": 10.68,
+     "text": "showing"
+    },
+    {
+     "start": 10.68,
+     "end": 10.98,
+     "text": "that"
+    },
+    {
+     "start": 10.98,
+     "end": 11.36,
+     "text": "drinking"
+    },
+    {
+     "start": 11.36,
+     "end": 11.72,
+     "text": "a"
+    },
+    {
+     "start": 11.72,
+     "end": 11.98,
+     "text": "glass"
+    },
+    {
+     "start": 11.98,
+     "end": 12.38,
+     "text": "of"
+    },
+    {
+     "start": 12.38,
+     "end": 12.58,
+     "text": "red"
+    },
+    {
+     "start": 12.58,
+     "end": 12.92,
+     "text": "wine"
+    },
+    {
+     "start": 12.92,
+     "end": 13.26,
+     "text": "is"
+    },
+    {
+     "start": 13.26,
+     "end": 13.52,
+     "text": "just"
+    },
+    {
+     "start": 13.52,
+     "end": 13.78,
+     "text": "as"
+    },
+    {
+     "start": 13.78,
+     "end": 13.96,
+     "text": "good"
+    },
+    {
+     "start": 13.96,
+     "end": 14.16,
+     "text": "as"
+    },
+    {
+     "start": 14.16,
+     "end": 14.46,
+     "text": "spending"
+    },
+    {
+     "start": 14.46,
+     "end": 14.68,
+     "text": "an"
+    },
+    {
+     "start": 14.68,
+     "end": 15.02,
+     "text": "hour"
+    },
+    {
+     "start": 15.02,
+     "end": 15.24,
+     "text": "at"
+    },
+    {
+     "start": 15.24,
+     "end": 15.36,
+     "text": "the"
+    },
+    {
+     "start": 15.36,
+     "end": 15.7,
+     "text": "gym."
+    }
+   ]
+  },
+  {
+   "start": 15.88,
+   "end": 20.16,
+   "text": "You find the study that sounds best to you, and you go with that.",
+   "words": [
+    {
+     "start": 15.88,
+     "end": 16.04,
+     "text": "You"
+    },
+    {
+     "start": 16.04,
+     "end": 16.36,
+     "text": "find"
+    },
+    {
+     "start": 16.36,
+     "end": 16.54,
+     "text": "the"
+    },
+    {
+     "start": 16.54,
+     "end": 16.86,
+     "text": "study"
+    },
+    {
+     "start": 16.86,
+     "end": 17.56,
+     "text": "that"
+    },
+    {
+     "start": 17.56,
+     "end": 17.9,
+     "text": "sounds"
+    },
+    {
+     "start": 17.9,
+     "end": 18.24,
+     "text": "best"
+    },
+    {
+     "start": 18.24,
+     "end": 18.52,
+     "text": "to"
+    },
+    {
+     "start": 18.52,
+     "end": 18.92,
+     "text": "you,"
+    },
+    {
+     "start": 18.92,
+     "end": 19.3,
+     "text": "and"
+    },
+    {
+     "start": 19.3,
+     "end": 19.5,
+     "text": "you"
+    },
+    {
+     "start": 19.5,
+     "end": 19.72,
+     "text": "go"
+    },
+    {
+     "start": 19.72,
+     "end": 19.88,
+     "text": "with"
+    },
+    {
+     "start": 19.88,
+     "end": 20.16,
+     "text": "that."
+    }
+   ]
+  },
+  {
+   "start": 20.58,
+   "end": 20.82,
+   "text": "No!",
+   "words": [
+    {
+     "start": 20.58,
+     "end": 20.82,
+     "text": "No!"
+    }
+   ]
+  },
+  {
+   "start": 20.82,
+   "end": 23.7,
+   "text": "No, no, no, no, no, no, no!",
+   "words": [
+    {
+     "start": 20.82,
+     "end": 21.88,
+     "text": "No,"
+    },
+    {
+     "start": 21.88,
+     "end": 22.24,
+     "text": "no,"
+    },
+    {
+     "start": 22.24,
+     "end": 22.44,
+     "text": "no,"
+    },
+    {
+     "start": 22.44,
+     "end": 22.8,
+     "text": "no,"
+    },
+    {
+     "start": 22.8,
+     "end": 23.32,
+     "text": "no,"
+    },
+    {
+     "start": 23.32,
+     "end": 23.54,
+     "text": "no,"
+    },
+    {
+     "start": 23.54,
+     "end": 23.7,
+     "text": "no!"
+    }
+   ]
+  },
+  {
+   "start": 24.14,
+   "end": 28.98,
+   "text": "You don't just get to cherry-pick the parts that justify what you were going to do anyway.",
+   "words": [
+    {
+     "start": 24.14,
+     "end": 24.3,
+     "text": "You"
+    },
+    {
+     "start": 24.3,
+     "end": 24.66,
+     "text": "don't"
+    },
+    {
+     "start": 24.66,
+     "end": 24.9,
+     "text": "just"
+    },
+    {
+     "start": 24.9,
+     "end": 25.08,
+     "text": "get"
+    },
+    {
+     "start": 25.08,
+     "end": 25.3,
+     "text": "to"
+    },
+    {
+     "start": 25.3,
+     "end": 25.94,
+     "text": "cherry-pick"
+    },
+    {
+     "start": 25.94,
+     "end": 26.14,
+     "text": "the"
+    },
+    {
+     "start": 26.14,
+     "end": 26.42,
+     "text": "parts"
+    },
+    {
+     "start": 26.42,
+     "end": 26.62,
+     "text": "that"
+    },
+    {
+     "start": 26.62,
+     "end": 27.02,
+     "text": "justify"
+    },
+    {
+     "start": 27.02,
+     "end": 27.78,
+     "text": "what"
+    },
+    {
+     "start": 27.78,
+     "end": 27.94,
+     "text": "you"
+    },
+    {
+     "start": 27.94,
+     "end": 28.04,
+     "text": "were"
+    },
+    {
+     "start": 28.04,
+     "end": 28.2,
+     "text": "going"
+    },
+    {
+     "start": 28.2,
+     "end": 28.42,
+     "text": "to"
+    },
+    {
+     "start": 28.42,
+     "end": 28.58,
+     "text": "do"
+    },
+    {
+     "start": 28.58,
+     "end": 28.98,
+     "text": "anyway."
+    }
+   ]
+  },
+  {
+   "start": 29.16,
+   "end": 34.68,
+   "text": "But when reporting, Oliver cherry-picks the parts of studies that justify what he was going to say anyway.",
+   "words": [
+    {
+     "start": 29.16,
+     "end": 29.3,
+     "text": "But"
+    },
+    {
+     "start": 29.3,
+     "end": 29.46,
+     "text": "when"
+    },
+    {
+     "start": 29.46,
+     "end": 30.2,
+     "text": "reporting,"
+    },
+    {
+     "start": 30.2,
+     "end": 30.56,
+     "text": "Oliver"
+    },
+    {
+     "start": 30.56,
+     "end": 31.44,
+     "text": "cherry-picks"
+    },
+    {
+     "start": 31.44,
+     "end": 31.62,
+     "text": "the"
+    },
+    {
+     "start": 31.62,
+     "end": 31.9,
+     "text": "parts"
+    },
+    {
+     "start": 31.9,
+     "end": 32.1,
+     "text": "of"
+    },
+    {
+     "start": 32.1,
+     "end": 32.46,
+     "text": "studies"
+    },
+    {
+     "start": 32.46,
+     "end": 32.8,
+     "text": "that"
+    },
+    {
+     "start": 32.8,
+     "end": 33.2,
+     "text": "justify"
+    },
+    {
+     "start": 33.2,
+     "end": 33.56,
+     "text": "what"
+    },
+    {
+     "start": 33.56,
+     "end": 33.68,
+     "text": "he"
+    },
+    {
+     "start": 33.68,
+     "end": 33.82,
+     "text": "was"
+    },
+    {
+     "start": 33.82,
+     "end": 34.0,
+     "text": "going"
+    },
+    {
+     "start": 34.0,
+     "end": 34.14,
+     "text": "to"
+    },
+    {
+     "start": 34.14,
+     "end": 34.3,
+     "text": "say"
+    },
+    {
+     "start": 34.3,
+     "end": 34.68,
+     "text": "anyway."
+    }
+   ]
+  },
+  {
+   "start": 34.9,
+   "end": 42.7,
+   "text": "So if they are going to keep saying a study says, they should have to provide sourcing and context or not mention it at all.",
+   "words": [
+    {
+     "start": 34.9,
+     "end": 35.08,
+     "text": "So"
+    },
+    {
+     "start": 35.08,
+     "end": 35.36,
+     "text": "if"
+    },
+    {
+     "start": 35.36,
+     "end": 35.52,
+     "text": "they"
+    },
+    {
+     "start": 35.52,
+     "end": 35.66,
+     "text": "are"
+    },
+    {
+     "start": 35.66,
+     "end": 35.94,
+     "text": "going"
+    },
+    {
+     "start": 35.94,
+     "end": 36.14,
+     "text": "to"
+    },
+    {
+     "start": 36.14,
+     "end": 36.48,
+     "text": "keep"
+    },
+    {
+     "start": 36.48,
+     "end": 37.14,
+     "text": "saying"
+    },
+    {
+     "start": 37.14,
+     "end": 37.42,
+     "text": "a"
+    },
+    {
+     "start": 37.42,
+     "end": 37.82,
+     "text": "study"
+    },
+    {
+     "start": 37.82,
+     "end": 38.42,
+     "text": "says,"
+    },
+    {
+     "start": 38.42,
+     "end": 38.72,
+     "text": "they"
+    },
+    {
+     "start": 38.72,
+     "end": 38.92,
+     "text": "should"
+    },
+    {
+     "start": 38.92,
+     "end": 39.22,
+     "text": "have"
+    },
+    {
+     "start": 39.22,
+     "end": 39.46,
+     "text": "to"
+    },
+    {
+     "start": 39.46,
+     "end": 39.78,
+     "text": "provide"
+    },
+    {
+     "start": 39.78,
+     "end": 40.32,
+     "text": "sourcing"
+    },
+    {
+     "start": 40.32,
+     "end": 40.54,
+     "text": "and"
+    },
+    {
+     "start": 40.54,
+     "end": 40.92,
+     "text": "context"
+    },
+    {
+     "start": 40.92,
+     "end": 41.52,
+     "text": "or"
+    },
+    {
+     "start": 41.52,
+     "end": 41.74,
+     "text": "not"
+    },
+    {
+     "start": 41.74,
+     "end": 42.1,
+     "text": "mention"
+    },
+    {
+     "start": 42.1,
+     "end": 42.28,
+     "text": "it"
+    },
+    {
+     "start": 42.28,
+     "end": 42.44,
+     "text": "at"
+    },
+    {
+     "start": 42.44,
+     "end": 42.7,
+     "text": "all."
+    }
+   ]
+  },
+  {
+   "start": 42.88,
+   "end": 45.1,
+   "text": "He did exactly the thing he warned against.",
+   "words": [
+    {
+     "start": 42.88,
+     "end": 43.02,
+     "text": "He"
+    },
+    {
+     "start": 43.02,
+     "end": 43.16,
+     "text": "did"
+    },
+    {
+     "start": 43.16,
+     "end": 43.66,
+     "text": "exactly"
+    },
+    {
+     "start": 43.66,
+     "end": 43.94,
+     "text": "the"
+    },
+    {
+     "start": 43.94,
+     "end": 44.16,
+     "text": "thing"
+    },
+    {
+     "start": 44.16,
+     "end": 44.32,
+     "text": "he"
+    },
+    {
+     "start": 44.32,
+     "end": 44.6,
+     "text": "warned"
+    },
+    {
+     "start": 44.6,
+     "end": 45.1,
+     "text": "against."
+    }
+   ]
+  },
+  {
+   "start": 45.28,
+   "end": 45.98,
+   "text": "One study found.",
+   "words": [
+    {
+     "start": 45.28,
+     "end": 45.44,
+     "text": "One"
+    },
+    {
+     "start": 45.44,
+     "end": 45.66,
+     "text": "study"
+    },
+    {
+     "start": 45.66,
+     "end": 45.98,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 45.94,
+   "end": 46.68,
+   "text": "One study found.",
+   "words": [
+    {
+     "start": 45.94,
+     "end": 46.14,
+     "text": "One"
+    },
+    {
+     "start": 46.14,
+     "end": 46.38,
+     "text": "study"
+    },
+    {
+     "start": 46.38,
+     "end": 46.68,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 46.28,
+   "end": 46.94,
+   "text": "One",
+   "words": [
+    {
+     "start": 46.28,
+     "end": 46.94,
+     "text": "One"
+    }
+   ]
+  },
+  {
+   "start": 46.94,
+   "end": 47.54,
+   "text": "study found.",
+   "words": [
+    {
+     "start": 46.94,
+     "end": 47.2,
+     "text": "study"
+    },
+    {
+     "start": 47.2,
+     "end": 47.54,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 47.12,
+   "end": 47.76,
+   "text": "One",
+   "words": [
+    {
+     "start": 47.12,
+     "end": 47.76,
+     "text": "One"
+    }
+   ]
+  },
+  {
+   "start": 47.76,
+   "end": 48.28,
+   "text": "study found.",
+   "words": [
+    {
+     "start": 47.76,
+     "end": 48.06,
+     "text": "study"
+    },
+    {
+     "start": 48.06,
+     "end": 48.28,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 48.26,
+   "end": 48.98,
+   "text": "One study found.",
+   "words": [
+    {
+     "start": 48.26,
+     "end": 48.46,
+     "text": "One"
+    },
+    {
+     "start": 48.46,
+     "end": 48.68,
+     "text": "study"
+    },
+    {
+     "start": 48.68,
+     "end": 48.98,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 49.06,
+   "end": 51.44,
+   "text": "Do as he says, not as he does.",
+   "words": [
+    {
+     "start": 49.06,
+     "end": 49.28,
+     "text": "Do"
+    },
+    {
+     "start": 49.28,
+     "end": 49.48,
+     "text": "as"
+    },
+    {
+     "start": 49.48,
+     "end": 49.64,
+     "text": "he"
+    },
+    {
+     "start": 49.64,
+     "end": 50.38,
+     "text": "says,"
+    },
+    {
+     "start": 50.38,
+     "end": 50.7,
+     "text": "not"
+    },
+    {
+     "start": 50.7,
+     "end": 50.92,
+     "text": "as"
+    },
+    {
+     "start": 50.92,
+     "end": 51.04,
+     "text": "he"
+    },
+    {
+     "start": 51.04,
+     "end": 51.44,
+     "text": "does."
+    }
+   ]
+  },
+  {
+   "start": 54.86,
+   "end": 59.0,
+   "text": "Last Week Tonight is more diligent than many TV news programs.",
+   "words": [
+    {
+     "start": 54.86,
+     "end": 55.16,
+     "text": "Last"
+    },
+    {
+     "start": 55.16,
+     "end": 55.42,
+     "text": "Week"
+    },
+    {
+     "start": 55.42,
+     "end": 55.74,
+     "text": "Tonight"
+    },
+    {
+     "start": 55.74,
+     "end": 56.42,
+     "text": "is"
+    },
+    {
+     "start": 56.42,
+     "end": 56.6,
+     "text": "more"
+    },
+    {
+     "start": 56.6,
+     "end": 57.0,
+     "text": "diligent"
+    },
+    {
+     "start": 57.0,
+     "end": 57.26,
+     "text": "than"
+    },
+    {
+     "start": 57.26,
+     "end": 57.48,
+     "text": "many"
+    },
+    {
+     "start": 57.48,
+     "end": 57.78,
+     "text": "TV"
+    },
+    {
+     "start": 57.78,
+     "end": 58.14,
+     "text": "news"
+    },
+    {
+     "start": 58.14,
+     "end": 59.0,
+     "text": "programs."
+    }
+   ]
+  },
+  {
+   "start": 59.02,
+   "end": 63.42,
+   "text": "The show employs researchers who interview the authors of studies cited on the show.",
+   "words": [
+    {
+     "start": 59.02,
+     "end": 59.16,
+     "text": "The"
+    },
+    {
+     "start": 59.16,
+     "end": 59.28,
+     "text": "show"
+    },
+    {
+     "start": 59.28,
+     "end": 59.68,
+     "text": "employs"
+    },
+    {
+     "start": 59.68,
+     "end": 60.32,
+     "text": "researchers"
+    },
+    {
+     "start": 60.32,
+     "end": 60.8,
+     "text": "who"
+    },
+    {
+     "start": 60.8,
+     "end": 61.12,
+     "text": "interview"
+    },
+    {
+     "start": 61.12,
+     "end": 61.34,
+     "text": "the"
+    },
+    {
+     "start": 61.34,
+     "end": 61.64,
+     "text": "authors"
+    },
+    {
+     "start": 61.64,
+     "end": 61.92,
+     "text": "of"
+    },
+    {
+     "start": 61.92,
+     "end": 62.26,
+     "text": "studies"
+    },
+    {
+     "start": 62.26,
+     "end": 62.64,
+     "text": "cited"
+    },
+    {
+     "start": 62.64,
+     "end": 62.88,
+     "text": "on"
+    },
+    {
+     "start": 62.88,
+     "end": 62.98,
+     "text": "the"
+    },
+    {
+     "start": 62.98,
+     "end": 63.42,
+     "text": "show."
+    }
+   ]
+  },
+  {
+   "start": 63.58,
+   "end": 68.36,
+   "text": "Oliver is a comic, not an academic, so he can be excused for not posting footnotes.",
+   "words": [
+    {
+     "start": 63.58,
+     "end": 63.82,
+     "text": "Oliver"
+    },
+    {
+     "start": 63.82,
+     "end": 64.06,
+     "text": "is"
+    },
+    {
+     "start": 64.06,
+     "end": 64.2,
+     "text": "a"
+    },
+    {
+     "start": 64.2,
+     "end": 64.84,
+     "text": "comic,"
+    },
+    {
+     "start": 64.84,
+     "end": 64.94,
+     "text": "not"
+    },
+    {
+     "start": 64.94,
+     "end": 65.1,
+     "text": "an"
+    },
+    {
+     "start": 65.1,
+     "end": 65.82,
+     "text": "academic,"
+    },
+    {
+     "start": 65.82,
+     "end": 66.02,
+     "text": "so"
+    },
+    {
+     "start": 66.02,
+     "end": 66.16,
+     "text": "he"
+    },
+    {
+     "start": 66.16,
+     "end": 66.28,
+     "text": "can"
+    },
+    {
+     "start": 66.28,
+     "end": 66.4,
+     "text": "be"
+    },
+    {
+     "start": 66.4,
+     "end": 66.96,
+     "text": "excused"
+    },
+    {
+     "start": 66.96,
+     "end": 67.1,
+     "text": "for"
+    },
+    {
+     "start": 67.1,
+     "end": 67.24,
+     "text": "not"
+    },
+    {
+     "start": 67.24,
+     "end": 67.62,
+     "text": "posting"
+    },
+    {
+     "start": 67.62,
+     "end": 68.36,
+     "text": "footnotes."
+    }
+   ]
+  },
+  {
+   "start": 68.82,
+   "end": 71.1,
+   "text": "And he routinely cites his sources on screen.",
+   "words": [
+    {
+     "start": 68.82,
+     "end": 69.0,
+     "text": "And"
+    },
+    {
+     "start": 69.0,
+     "end": 69.12,
+     "text": "he"
+    },
+    {
+     "start": 69.12,
+     "end": 69.56,
+     "text": "routinely"
+    },
+    {
+     "start": 69.56,
+     "end": 69.96,
+     "text": "cites"
+    },
+    {
+     "start": 69.96,
+     "end": 70.18,
+     "text": "his"
+    },
+    {
+     "start": 70.18,
+     "end": 70.5,
+     "text": "sources"
+    },
+    {
+     "start": 70.5,
+     "end": 70.76,
+     "text": "on"
+    },
+    {
+     "start": 70.76,
+     "end": 71.1,
+     "text": "screen."
+    }
+   ]
+  },
+  {
+   "start": 71.32,
+   "end": 75.32,
+   "text": "When we emailed the show's producers pointing out problems with their research,",
+   "words": [
+    {
+     "start": 71.32,
+     "end": 71.68,
+     "text": "When"
+    },
+    {
+     "start": 71.68,
+     "end": 71.8,
+     "text": "we"
+    },
+    {
+     "start": 71.8,
+     "end": 72.1,
+     "text": "emailed"
+    },
+    {
+     "start": 72.1,
+     "end": 72.32,
+     "text": "the"
+    },
+    {
+     "start": 72.32,
+     "end": 72.58,
+     "text": "show's"
+    },
+    {
+     "start": 72.58,
+     "end": 73.04,
+     "text": "producers"
+    },
+    {
+     "start": 73.04,
+     "end": 73.48,
+     "text": "pointing"
+    },
+    {
+     "start": 73.48,
+     "end": 73.74,
+     "text": "out"
+    },
+    {
+     "start": 73.74,
+     "end": 74.16,
+     "text": "problems"
+    },
+    {
+     "start": 74.16,
+     "end": 74.42,
+     "text": "with"
+    },
+    {
+     "start": 74.42,
+     "end": 74.58,
+     "text": "their"
+    },
+    {
+     "start": 74.58,
+     "end": 75.32,
+     "text": "research,"
+    }
+   ]
+  },
+  {
+   "start": 75.28,
+   "end": 78.5,
+   "text": "to their credit they sent back a detailed response that we'll quote from.",
+   "words": [
+    {
+     "start": 75.28,
+     "end": 75.48,
+     "text": "to"
+    },
+    {
+     "start": 75.48,
+     "end": 75.66,
+     "text": "their"
+    },
+    {
+     "start": 75.66,
+     "end": 75.96,
+     "text": "credit"
+    },
+    {
+     "start": 75.96,
+     "end": 76.18,
+     "text": "they"
+    },
+    {
+     "start": 76.18,
+     "end": 76.38,
+     "text": "sent"
+    },
+    {
+     "start": 76.38,
+     "end": 76.6,
+     "text": "back"
+    },
+    {
+     "start": 76.6,
+     "end": 76.74,
+     "text": "a"
+    },
+    {
+     "start": 76.74,
+     "end": 77.06,
+     "text": "detailed"
+    },
+    {
+     "start": 77.06,
+     "end": 77.5,
+     "text": "response"
+    },
+    {
+     "start": 77.5,
+     "end": 77.86,
+     "text": "that"
+    },
+    {
+     "start": 77.86,
+     "end": 77.98,
+     "text": "we'll"
+    },
+    {
+     "start": 77.98,
+     "end": 78.22,
+     "text": "quote"
+    },
+    {
+     "start": 78.22,
+     "end": 78.5,
+     "text": "from."
+    }
+   ]
+  },
+  {
+   "start": 78.92,
+   "end": 84.5,
+   "text": "Nevertheless, the show has a long track record of citing findings from research without the appropriate context.",
+   "words": [
+    {
+     "start": 78.92,
+     "end": 79.16,
+     "text": "Nevertheless,"
+    },
+    {
+     "start": 79.16,
+     "end": 79.98,
+     "text": "the"
+    },
+    {
+     "start": 79.98,
+     "end": 80.1,
+     "text": "show"
+    },
+    {
+     "start": 80.1,
+     "end": 80.3,
+     "text": "has"
+    },
+    {
+     "start": 80.3,
+     "end": 80.44,
+     "text": "a"
+    },
+    {
+     "start": 80.44,
+     "end": 80.7,
+     "text": "long"
+    },
+    {
+     "start": 80.7,
+     "end": 80.98,
+     "text": "track"
+    },
+    {
+     "start": 80.98,
+     "end": 81.28,
+     "text": "record"
+    },
+    {
+     "start": 81.28,
+     "end": 81.52,
+     "text": "of"
+    },
+    {
+     "start": 81.52,
+     "end": 81.78,
+     "text": "citing"
+    },
+    {
+     "start": 81.78,
+     "end": 82.24,
+     "text": "findings"
+    },
+    {
+     "start": 82.24,
+     "end": 82.5,
+     "text": "from"
+    },
+    {
+     "start": 82.5,
+     "end": 82.84,
+     "text": "research"
+    },
+    {
+     "start": 82.84,
+     "end": 83.18,
+     "text": "without"
+    },
+    {
+     "start": 83.18,
+     "end": 83.42,
+     "text": "the"
+    },
+    {
+     "start": 83.42,
+     "end": 83.74,
+     "text": "appropriate"
+    },
+    {
+     "start": 83.74,
+     "end": 84.5,
+     "text": "context."
+    }
+   ]
+  },
+  {
+   "start": 84.9,
+   "end": 87.86,
+   "text": "Massage to support whatever point Oliver is trying to make.",
+   "words": [
+    {
+     "start": 84.9,
+     "end": 85.34,
+     "text": "Massage"
+    },
+    {
+     "start": 85.34,
+     "end": 85.5,
+     "text": "to"
+    },
+    {
+     "start": 85.5,
+     "end": 85.78,
+     "text": "support"
+    },
+    {
+     "start": 85.78,
+     "end": 86.1,
+     "text": "whatever"
+    },
+    {
+     "start": 86.1,
+     "end": 86.48,
+     "text": "point"
+    },
+    {
+     "start": 86.48,
+     "end": 86.78,
+     "text": "Oliver"
+    },
+    {
+     "start": 86.78,
+     "end": 87.02,
+     "text": "is"
+    },
+    {
+     "start": 87.02,
+     "end": 87.22,
+     "text": "trying"
+    },
+    {
+     "start": 87.22,
+     "end": 87.46,
+     "text": "to"
+    },
+    {
+     "start": 87.46,
+     "end": 87.86,
+     "text": "make."
+    }
+   ]
+  },
+  {
+   "start": 88.76,
+   "end": 91.68,
+   "text": "Right now, there is not a single county in the U.S.",
+   "words": [
+    {
+     "start": 88.76,
+     "end": 89.04,
+     "text": "Right"
+    },
+    {
+     "start": 89.04,
+     "end": 89.44,
+     "text": "now,"
+    },
+    {
+     "start": 89.44,
+     "end": 89.52,
+     "text": "there"
+    },
+    {
+     "start": 89.52,
+     "end": 89.68,
+     "text": "is"
+    },
+    {
+     "start": 89.68,
+     "end": 89.78,
+     "text": "not"
+    },
+    {
+     "start": 89.78,
+     "end": 89.94,
+     "text": "a"
+    },
+    {
+     "start": 89.94,
+     "end": 90.38,
+     "text": "single"
+    },
+    {
+     "start": 90.38,
+     "end": 90.78,
+     "text": "county"
+    },
+    {
+     "start": 90.78,
+     "end": 91.1,
+     "text": "in"
+    },
+    {
+     "start": 91.1,
+     "end": 91.22,
+     "text": "the"
+    },
+    {
+     "start": 91.22,
+     "end": 91.68,
+     "text": "U.S."
+    }
+   ]
+  },
+  {
+   "start": 91.68,
+   "end": 96.2,
+   "text": "where a worker earning minimum wage can afford a modest two-bedroom rental home.",
+   "words": [
+    {
+     "start": 91.68,
+     "end": 91.96,
+     "text": "where"
+    },
+    {
+     "start": 91.96,
+     "end": 92.1,
+     "text": "a"
+    },
+    {
+     "start": 92.1,
+     "end": 92.44,
+     "text": "worker"
+    },
+    {
+     "start": 92.44,
+     "end": 92.78,
+     "text": "earning"
+    },
+    {
+     "start": 92.78,
+     "end": 93.06,
+     "text": "minimum"
+    },
+    {
+     "start": 93.06,
+     "end": 93.48,
+     "text": "wage"
+    },
+    {
+     "start": 93.48,
+     "end": 93.86,
+     "text": "can"
+    },
+    {
+     "start": 93.86,
+     "end": 94.14,
+     "text": "afford"
+    },
+    {
+     "start": 94.14,
+     "end": 94.42,
+     "text": "a"
+    },
+    {
+     "start": 94.42,
+     "end": 94.74,
+     "text": "modest"
+    },
+    {
+     "start": 94.74,
+     "end": 95.44,
+     "text": "two-bedroom"
+    },
+    {
+     "start": 95.44,
+     "end": 95.78,
+     "text": "rental"
+    },
+    {
+     "start": 95.78,
+     "end": 96.2,
+     "text": "home."
+    }
+   ]
+  },
+  {
+   "start": 96.2,
+   "end": 99.28,
+   "text": "There is a lot of bullshit currently masquerading as science.",
+   "words": [
+    {
+     "start": 96.2,
+     "end": 96.44,
+     "text": "There"
+    },
+    {
+     "start": 96.44,
+     "end": 96.62,
+     "text": "is"
+    },
+    {
+     "start": 96.62,
+     "end": 96.72,
+     "text": "a"
+    },
+    {
+     "start": 96.72,
+     "end": 96.8,
+     "text": "lot"
+    },
+    {
+     "start": 96.8,
+     "end": 96.96,
+     "text": "of"
+    },
+    {
+     "start": 96.96,
+     "end": 97.36,
+     "text": "bullshit"
+    },
+    {
+     "start": 97.36,
+     "end": 97.86,
+     "text": "currently"
+    },
+    {
+     "start": 97.86,
+     "end": 98.52,
+     "text": "masquerading"
+    },
+    {
+     "start": 98.52,
+     "end": 98.9,
+     "text": "as"
+    },
+    {
+     "start": 98.9,
+     "end": 99.28,
+     "text": "science."
+    }
+   ]
+  },
+  {
+   "start": 99.6,
+   "end": 101.6,
+   "text": "Not all scientific studies are equal.",
+   "words": [
+    {
+     "start": 99.6,
+     "end": 99.78,
+     "text": "Not"
+    },
+    {
+     "start": 99.78,
+     "end": 99.98,
+     "text": "all"
+    },
+    {
+     "start": 99.98,
+     "end": 100.36,
+     "text": "scientific"
+    },
+    {
+     "start": 100.36,
+     "end": 100.84,
+     "text": "studies"
+    },
+    {
+     "start": 100.84,
+     "end": 101.14,
+     "text": "are"
+    },
+    {
+     "start": 101.14,
+     "end": 101.6,
+     "text": "equal."
+    }
+   ]
+  },
+  {
+   "start": 101.54,
+   "end": 104.84,
+   "text": "Some may appear in less than legitimate scientific journals.",
+   "words": [
+    {
+     "start": 101.54,
+     "end": 101.78,
+     "text": "Some"
+    },
+    {
+     "start": 101.78,
+     "end": 101.96,
+     "text": "may"
+    },
+    {
+     "start": 101.96,
+     "end": 102.3,
+     "text": "appear"
+    },
+    {
+     "start": 102.3,
+     "end": 102.5,
+     "text": "in"
+    },
+    {
+     "start": 102.5,
+     "end": 103.04,
+     "text": "less"
+    },
+    {
+     "start": 103.04,
+     "end": 103.18,
+     "text": "than"
+    },
+    {
+     "start": 103.18,
+     "end": 103.54,
+     "text": "legitimate"
+    },
+    {
+     "start": 103.54,
+     "end": 104.3,
+     "text": "scientific"
+    },
+    {
+     "start": 104.3,
+     "end": 104.84,
+     "text": "journals."
+    }
+   ]
+  },
+  {
+   "start": 105.16,
+   "end": 110.8,
+   "text": "And others may be subtly biased because of scientists feeling pressured to come up with eye-catching positive results.",
+   "words": [
+    {
+     "start": 105.16,
+     "end": 105.24,
+     "text": "And"
+    },
+    {
+     "start": 105.24,
+     "end": 105.48,
+     "text": "others"
+    },
+    {
+     "start": 105.48,
+     "end": 105.7,
+     "text": "may"
+    },
+    {
+     "start": 105.7,
+     "end": 105.86,
+     "text": "be"
+    },
+    {
+     "start": 105.86,
+     "end": 106.34,
+     "text": "subtly"
+    },
+    {
+     "start": 106.34,
+     "end": 106.7,
+     "text": "biased"
+    },
+    {
+     "start": 106.7,
+     "end": 107.04,
+     "text": "because"
+    },
+    {
+     "start": 107.04,
+     "end": 107.22,
+     "text": "of"
+    },
+    {
+     "start": 107.22,
+     "end": 107.58,
+     "text": "scientists"
+    },
+    {
+     "start": 107.58,
+     "end": 108.28,
+     "text": "feeling"
+    },
+    {
+     "start": 108.28,
+     "end": 108.68,
+     "text": "pressured"
+    },
+    {
+     "start": 108.68,
+     "end": 108.86,
+     "text": "to"
+    },
+    {
+     "start": 108.86,
+     "end": 109.0,
+     "text": "come"
+    },
+    {
+     "start": 109.0,
+     "end": 109.12,
+     "text": "up"
+    },
+    {
+     "start": 109.12,
+     "end": 109.22,
+     "text": "with"
+    },
+    {
+     "start": 109.22,
+     "end": 109.8,
+     "text": "eye-catching"
+    },
+    {
+     "start": 109.8,
+     "end": 110.22,
+     "text": "positive"
+    },
+    {
+     "start": 110.22,
+     "end": 110.8,
+     "text": "results."
+    }
+   ]
+  },
+  {
+   "start": 111.0,
+   "end": 114.84,
+   "text": "This study reads like it was designed to come up with an eye-catching result.",
+   "words": [
+    {
+     "start": 111.0,
+     "end": 111.26,
+     "text": "This"
+    },
+    {
+     "start": 111.26,
+     "end": 111.6,
+     "text": "study"
+    },
+    {
+     "start": 111.6,
+     "end": 112.1,
+     "text": "reads"
+    },
+    {
+     "start": 112.1,
+     "end": 112.46,
+     "text": "like"
+    },
+    {
+     "start": 112.46,
+     "end": 112.56,
+     "text": "it"
+    },
+    {
+     "start": 112.56,
+     "end": 112.72,
+     "text": "was"
+    },
+    {
+     "start": 112.72,
+     "end": 113.08,
+     "text": "designed"
+    },
+    {
+     "start": 113.08,
+     "end": 113.26,
+     "text": "to"
+    },
+    {
+     "start": 113.26,
+     "end": 113.46,
+     "text": "come"
+    },
+    {
+     "start": 113.46,
+     "end": 113.64,
+     "text": "up"
+    },
+    {
+     "start": 113.64,
+     "end": 113.8,
+     "text": "with"
+    },
+    {
+     "start": 113.8,
+     "end": 113.94,
+     "text": "an"
+    },
+    {
+     "start": 113.94,
+     "end": 114.44,
+     "text": "eye-catching"
+    },
+    {
+     "start": 114.44,
+     "end": 114.84,
+     "text": "result."
+    }
+   ]
+  },
+  {
+   "start": 114.98,
+   "end": 120.1,
+   "text": "Oliver is citing research published by the National Low-Income Housing Coalition,",
+   "words": [
+    {
+     "start": 114.98,
+     "end": 115.54,
+     "text": "Oliver"
+    },
+    {
+     "start": 115.54,
+     "end": 115.88,
+     "text": "is"
+    },
+    {
+     "start": 115.88,
+     "end": 116.14,
+     "text": "citing"
+    },
+    {
+     "start": 116.14,
+     "end": 116.74,
+     "text": "research"
+    },
+    {
+     "start": 116.74,
+     "end": 117.3,
+     "text": "published"
+    },
+    {
+     "start": 117.3,
+     "end": 117.58,
+     "text": "by"
+    },
+    {
+     "start": 117.58,
+     "end": 117.68,
+     "text": "the"
+    },
+    {
+     "start": 117.68,
+     "end": 118.0,
+     "text": "National"
+    },
+    {
+     "start": 118.0,
+     "end": 118.6,
+     "text": "Low-Income"
+    },
+    {
+     "start": 118.6,
+     "end": 118.88,
+     "text": "Housing"
+    },
+    {
+     "start": 118.88,
+     "end": 120.1,
+     "text": "Coalition,"
+    }
+   ]
+  },
+  {
+   "start": 119.94,
+   "end": 123.82,
+   "text": "an advocacy group that lobbies for government spending on housing and rent subsidies,",
+   "words": [
+    {
+     "start": 119.94,
+     "end": 120.12,
+     "text": "an"
+    },
+    {
+     "start": 120.12,
+     "end": 120.52,
+     "text": "advocacy"
+    },
+    {
+     "start": 120.52,
+     "end": 120.92,
+     "text": "group"
+    },
+    {
+     "start": 120.92,
+     "end": 121.2,
+     "text": "that"
+    },
+    {
+     "start": 121.2,
+     "end": 121.52,
+     "text": "lobbies"
+    },
+    {
+     "start": 121.52,
+     "end": 121.7,
+     "text": "for"
+    },
+    {
+     "start": 121.7,
+     "end": 122.04,
+     "text": "government"
+    },
+    {
+     "start": 122.04,
+     "end": 122.36,
+     "text": "spending"
+    },
+    {
+     "start": 122.36,
+     "end": 122.62,
+     "text": "on"
+    },
+    {
+     "start": 122.62,
+     "end": 122.96,
+     "text": "housing"
+    },
+    {
+     "start": 122.96,
+     "end": 123.18,
+     "text": "and"
+    },
+    {
+     "start": 123.18,
+     "end": 123.36,
+     "text": "rent"
+    },
+    {
+     "start": 123.36,
+     "end": 123.82,
+     "text": "subsidies,"
+    }
+   ]
+  },
+  {
+   "start": 124.3,
+   "end": 129.58,
+   "text": "including expanding the National Housing Trust Fund and increasing federal appropriations to HUD.",
+   "words": [
+    {
+     "start": 124.3,
+     "end": 124.6,
+     "text": "including"
+    },
+    {
+     "start": 124.6,
+     "end": 125.18,
+     "text": "expanding"
+    },
+    {
+     "start": 125.18,
+     "end": 125.42,
+     "text": "the"
+    },
+    {
+     "start": 125.42,
+     "end": 125.66,
+     "text": "National"
+    },
+    {
+     "start": 125.66,
+     "end": 126.04,
+     "text": "Housing"
+    },
+    {
+     "start": 126.04,
+     "end": 126.42,
+     "text": "Trust"
+    },
+    {
+     "start": 126.42,
+     "end": 126.74,
+     "text": "Fund"
+    },
+    {
+     "start": 126.74,
+     "end": 127.3,
+     "text": "and"
+    },
+    {
+     "start": 127.3,
+     "end": 127.7,
+     "text": "increasing"
+    },
+    {
+     "start": 127.7,
+     "end": 128.06,
+     "text": "federal"
+    },
+    {
+     "start": 128.06,
+     "end": 128.94,
+     "text": "appropriations"
+    },
+    {
+     "start": 128.94,
+     "end": 129.18,
+     "text": "to"
+    },
+    {
+     "start": 129.18,
+     "end": 129.58,
+     "text": "HUD."
+    }
+   ]
+  },
+  {
+   "start": 129.68,
+   "end": 133.48,
+   "text": "To arrive at the finding that there is not a single county in the U.S.",
+   "words": [
+    {
+     "start": 129.68,
+     "end": 129.84,
+     "text": "To"
+    },
+    {
+     "start": 129.84,
+     "end": 130.18,
+     "text": "arrive"
+    },
+    {
+     "start": 130.18,
+     "end": 130.38,
+     "text": "at"
+    },
+    {
+     "start": 130.38,
+     "end": 130.46,
+     "text": "the"
+    },
+    {
+     "start": 130.46,
+     "end": 130.82,
+     "text": "finding"
+    },
+    {
+     "start": 130.82,
+     "end": 131.34,
+     "text": "that"
+    },
+    {
+     "start": 131.34,
+     "end": 131.48,
+     "text": "there"
+    },
+    {
+     "start": 131.48,
+     "end": 131.62,
+     "text": "is"
+    },
+    {
+     "start": 131.62,
+     "end": 131.74,
+     "text": "not"
+    },
+    {
+     "start": 131.74,
+     "end": 131.9,
+     "text": "a"
+    },
+    {
+     "start": 131.9,
+     "end": 132.18,
+     "text": "single"
+    },
+    {
+     "start": 132.18,
+     "end": 132.6,
+     "text": "county"
+    },
+    {
+     "start": 132.6,
+     "end": 132.86,
+     "text": "in"
+    },
+    {
+     "start": 132.86,
+     "end": 132.96,
+     "text": "the"
+    },
+    {
+     "start": 132.96,
+     "end": 133.48,
+     "text": "U.S."
+    }
+   ]
+  },
+  {
+   "start": 133.72,
+   "end": 137.96,
+   "text": "where a worker earning minimum wage can afford a modest two-bedroom rental home,",
+   "words": [
+    {
+     "start": 133.72,
+     "end": 133.96,
+     "text": "where"
+    },
+    {
+     "start": 133.96,
+     "end": 134.2,
+     "text": "a"
+    },
+    {
+     "start": 134.2,
+     "end": 134.34,
+     "text": "worker"
+    },
+    {
+     "start": 134.34,
+     "end": 134.66,
+     "text": "earning"
+    },
+    {
+     "start": 134.66,
+     "end": 134.9,
+     "text": "minimum"
+    },
+    {
+     "start": 134.9,
+     "end": 135.52,
+     "text": "wage"
+    },
+    {
+     "start": 135.52,
+     "end": 135.74,
+     "text": "can"
+    },
+    {
+     "start": 135.74,
+     "end": 136.02,
+     "text": "afford"
+    },
+    {
+     "start": 136.02,
+     "end": 136.22,
+     "text": "a"
+    },
+    {
+     "start": 136.22,
+     "end": 136.52,
+     "text": "modest"
+    },
+    {
+     "start": 136.52,
+     "end": 137.16,
+     "text": "two-bedroom"
+    },
+    {
+     "start": 137.16,
+     "end": 137.44,
+     "text": "rental"
+    },
+    {
+     "start": 137.44,
+     "end": 137.96,
+     "text": "home,"
+    }
+   ]
+  },
+  {
+   "start": 137.94,
+   "end": 141.88,
+   "text": "the authors only looked at units available at the government's fair market rent,",
+   "words": [
+    {
+     "start": 137.94,
+     "end": 138.34,
+     "text": "the"
+    },
+    {
+     "start": 138.34,
+     "end": 138.6,
+     "text": "authors"
+    },
+    {
+     "start": 138.6,
+     "end": 138.88,
+     "text": "only"
+    },
+    {
+     "start": 138.88,
+     "end": 139.1,
+     "text": "looked"
+    },
+    {
+     "start": 139.1,
+     "end": 139.26,
+     "text": "at"
+    },
+    {
+     "start": 139.26,
+     "end": 139.56,
+     "text": "units"
+    },
+    {
+     "start": 139.56,
+     "end": 140.0,
+     "text": "available"
+    },
+    {
+     "start": 140.0,
+     "end": 140.3,
+     "text": "at"
+    },
+    {
+     "start": 140.3,
+     "end": 140.38,
+     "text": "the"
+    },
+    {
+     "start": 140.38,
+     "end": 140.88,
+     "text": "government's"
+    },
+    {
+     "start": 140.88,
+     "end": 141.06,
+     "text": "fair"
+    },
+    {
+     "start": 141.06,
+     "end": 141.34,
+     "text": "market"
+    },
+    {
+     "start": 141.34,
+     "end": 141.88,
+     "text": "rent,"
+    }
+   ]
+  },
+  {
+   "start": 141.86,
+   "end": 143.64,
+   "text": "which aren't the cheapest homes on the market.",
+   "words": [
+    {
+     "start": 141.86,
+     "end": 142.12,
+     "text": "which"
+    },
+    {
+     "start": 142.12,
+     "end": 142.3,
+     "text": "aren't"
+    },
+    {
+     "start": 142.3,
+     "end": 142.44,
+     "text": "the"
+    },
+    {
+     "start": 142.44,
+     "end": 142.7,
+     "text": "cheapest"
+    },
+    {
+     "start": 142.7,
+     "end": 143.08,
+     "text": "homes"
+    },
+    {
+     "start": 143.08,
+     "end": 143.28,
+     "text": "on"
+    },
+    {
+     "start": 143.28,
+     "end": 143.32,
+     "text": "the"
+    },
+    {
+     "start": 143.32,
+     "end": 143.64,
+     "text": "market."
+    }
+   ]
+  },
+  {
+   "start": 144.0,
+   "end": 147.56,
+   "text": "And why assume a minimum wage worker needs a two-bedroom home?",
+   "words": [
+    {
+     "start": 144.0,
+     "end": 144.08,
+     "text": "And"
+    },
+    {
+     "start": 144.08,
+     "end": 144.26,
+     "text": "why"
+    },
+    {
+     "start": 144.26,
+     "end": 144.66,
+     "text": "assume"
+    },
+    {
+     "start": 144.66,
+     "end": 144.88,
+     "text": "a"
+    },
+    {
+     "start": 144.88,
+     "end": 145.04,
+     "text": "minimum"
+    },
+    {
+     "start": 145.04,
+     "end": 145.42,
+     "text": "wage"
+    },
+    {
+     "start": 145.42,
+     "end": 145.74,
+     "text": "worker"
+    },
+    {
+     "start": 145.74,
+     "end": 146.04,
+     "text": "needs"
+    },
+    {
+     "start": 146.04,
+     "end": 146.18,
+     "text": "a"
+    },
+    {
+     "start": 146.18,
+     "end": 146.66,
+     "text": "two-bedroom"
+    },
+    {
+     "start": 146.66,
+     "end": 147.56,
+     "text": "home?"
+    }
+   ]
+  },
+  {
+   "start": 147.36,
+   "end": 149.44,
+   "text": "Wouldn't a studio or one-bedroom suffice?",
+   "words": [
+    {
+     "start": 147.36,
+     "end": 147.52,
+     "text": "Wouldn't"
+    },
+    {
+     "start": 147.52,
+     "end": 147.74,
+     "text": "a"
+    },
+    {
+     "start": 147.74,
+     "end": 148.04,
+     "text": "studio"
+    },
+    {
+     "start": 148.04,
+     "end": 148.3,
+     "text": "or"
+    },
+    {
+     "start": 148.3,
+     "end": 148.88,
+     "text": "one-bedroom"
+    },
+    {
+     "start": 148.88,
+     "end": 149.44,
+     "text": "suffice?"
+    }
+   ]
+  },
+  {
+   "start": 149.82,
+   "end": 156.28,
+   "text": "When we asked the show's producers about why they failed to disclose that their source was an industry group seeking government funds,",
+   "words": [
+    {
+     "start": 149.82,
+     "end": 149.98,
+     "text": "When"
+    },
+    {
+     "start": 149.98,
+     "end": 150.08,
+     "text": "we"
+    },
+    {
+     "start": 150.08,
+     "end": 150.42,
+     "text": "asked"
+    },
+    {
+     "start": 150.42,
+     "end": 150.56,
+     "text": "the"
+    },
+    {
+     "start": 150.56,
+     "end": 150.78,
+     "text": "show's"
+    },
+    {
+     "start": 150.78,
+     "end": 151.2,
+     "text": "producers"
+    },
+    {
+     "start": 151.2,
+     "end": 151.78,
+     "text": "about"
+    },
+    {
+     "start": 151.78,
+     "end": 152.0,
+     "text": "why"
+    },
+    {
+     "start": 152.0,
+     "end": 152.18,
+     "text": "they"
+    },
+    {
+     "start": 152.18,
+     "end": 152.48,
+     "text": "failed"
+    },
+    {
+     "start": 152.48,
+     "end": 152.64,
+     "text": "to"
+    },
+    {
+     "start": 152.64,
+     "end": 153.0,
+     "text": "disclose"
+    },
+    {
+     "start": 153.0,
+     "end": 153.32,
+     "text": "that"
+    },
+    {
+     "start": 153.32,
+     "end": 153.48,
+     "text": "their"
+    },
+    {
+     "start": 153.48,
+     "end": 153.76,
+     "text": "source"
+    },
+    {
+     "start": 153.76,
+     "end": 153.96,
+     "text": "was"
+    },
+    {
+     "start": 153.96,
+     "end": 154.14,
+     "text": "an"
+    },
+    {
+     "start": 154.14,
+     "end": 154.46,
+     "text": "industry"
+    },
+    {
+     "start": 154.46,
+     "end": 154.8,
+     "text": "group"
+    },
+    {
+     "start": 154.8,
+     "end": 155.12,
+     "text": "seeking"
+    },
+    {
+     "start": 155.12,
+     "end": 155.44,
+     "text": "government"
+    },
+    {
+     "start": 155.44,
+     "end": 156.28,
+     "text": "funds,"
+    }
+   ]
+  },
+  {
+   "start": 156.38,
+   "end": 158.78,
+   "text": "they pointed to the on-screen credit and responded,",
+   "words": [
+    {
+     "start": 156.38,
+     "end": 156.56,
+     "text": "they"
+    },
+    {
+     "start": 156.56,
+     "end": 156.8,
+     "text": "pointed"
+    },
+    {
+     "start": 156.8,
+     "end": 157.0,
+     "text": "to"
+    },
+    {
+     "start": 157.0,
+     "end": 157.16,
+     "text": "the"
+    },
+    {
+     "start": 157.16,
+     "end": 157.54,
+     "text": "on-screen"
+    },
+    {
+     "start": 157.54,
+     "end": 157.96,
+     "text": "credit"
+    },
+    {
+     "start": 157.96,
+     "end": 158.28,
+     "text": "and"
+    },
+    {
+     "start": 158.28,
+     "end": 158.78,
+     "text": "responded,"
+    }
+   ]
+  },
+  {
+   "start": 159.02,
+   "end": 163.16,
+   "text": "We trust our viewers' intelligence enough to think they might be able to read it,",
+   "words": [
+    {
+     "start": 159.02,
+     "end": 159.36,
+     "text": "We"
+    },
+    {
+     "start": 159.36,
+     "end": 159.64,
+     "text": "trust"
+    },
+    {
+     "start": 159.64,
+     "end": 159.84,
+     "text": "our"
+    },
+    {
+     "start": 159.84,
+     "end": 160.36,
+     "text": "viewers'"
+    },
+    {
+     "start": 160.36,
+     "end": 160.78,
+     "text": "intelligence"
+    },
+    {
+     "start": 160.78,
+     "end": 161.24,
+     "text": "enough"
+    },
+    {
+     "start": 161.24,
+     "end": 161.48,
+     "text": "to"
+    },
+    {
+     "start": 161.48,
+     "end": 161.66,
+     "text": "think"
+    },
+    {
+     "start": 161.66,
+     "end": 161.86,
+     "text": "they"
+    },
+    {
+     "start": 161.86,
+     "end": 162.04,
+     "text": "might"
+    },
+    {
+     "start": 162.04,
+     "end": 162.22,
+     "text": "be"
+    },
+    {
+     "start": 162.22,
+     "end": 162.38,
+     "text": "able"
+    },
+    {
+     "start": 162.38,
+     "end": 162.6,
+     "text": "to"
+    },
+    {
+     "start": 162.6,
+     "end": 162.82,
+     "text": "read"
+    },
+    {
+     "start": 162.82,
+     "end": 163.16,
+     "text": "it,"
+    }
+   ]
+  },
+  {
+   "start": 163.14,
+   "end": 169.1,
+   "text": "and conclude that the National Low-Income Housing Coalition is interested in building low-income housing nationwide,",
+   "words": [
+    {
+     "start": 163.14,
+     "end": 163.5,
+     "text": "and"
+    },
+    {
+     "start": 163.5,
+     "end": 163.86,
+     "text": "conclude"
+    },
+    {
+     "start": 163.86,
+     "end": 164.06,
+     "text": "that"
+    },
+    {
+     "start": 164.06,
+     "end": 164.16,
+     "text": "the"
+    },
+    {
+     "start": 164.16,
+     "end": 164.6,
+     "text": "National"
+    },
+    {
+     "start": 164.6,
+     "end": 165.1,
+     "text": "Low-Income"
+    },
+    {
+     "start": 165.1,
+     "end": 165.38,
+     "text": "Housing"
+    },
+    {
+     "start": 165.38,
+     "end": 165.94,
+     "text": "Coalition"
+    },
+    {
+     "start": 165.94,
+     "end": 166.72,
+     "text": "is"
+    },
+    {
+     "start": 166.72,
+     "end": 167.02,
+     "text": "interested"
+    },
+    {
+     "start": 167.02,
+     "end": 167.28,
+     "text": "in"
+    },
+    {
+     "start": 167.28,
+     "end": 167.52,
+     "text": "building"
+    },
+    {
+     "start": 167.52,
+     "end": 168.02,
+     "text": "low-income"
+    },
+    {
+     "start": 168.02,
+     "end": 168.52,
+     "text": "housing"
+    },
+    {
+     "start": 168.52,
+     "end": 169.1,
+     "text": "nationwide,"
+    }
+   ]
+  },
+  {
+   "start": 169.94,
+   "end": 171.72,
+   "text": "possibly even as part of a coalition.",
+   "words": [
+    {
+     "start": 169.94,
+     "end": 170.32,
+     "text": "possibly"
+    },
+    {
+     "start": 170.32,
+     "end": 170.74,
+     "text": "even"
+    },
+    {
+     "start": 170.74,
+     "end": 170.94,
+     "text": "as"
+    },
+    {
+     "start": 170.94,
+     "end": 171.12,
+     "text": "part"
+    },
+    {
+     "start": 171.12,
+     "end": 171.24,
+     "text": "of"
+    },
+    {
+     "start": 171.24,
+     "end": 171.34,
+     "text": "a"
+    },
+    {
+     "start": 171.34,
+     "end": 171.72,
+     "text": "coalition."
+    }
+   ]
+  },
+  {
+   "start": 172.28,
+   "end": 180.727,
+   "text": "Oliver's producers told us that when we rely on studies from advocacy groups, we look at the underlying data and speak to the researchers to better understand",
+   "words": [
+    {
+     "start": 172.28,
+     "end": 172.66,
+     "text": "Oliver's"
+    },
+    {
+     "start": 172.66,
+     "end": 173.1,
+     "text": "producers"
+    },
+    {
+     "start": 173.1,
+     "end": 173.5,
+     "text": "told"
+    },
+    {
+     "start": 173.5,
+     "end": 173.84,
+     "text": "us"
+    },
+    {
+     "start": 173.84,
+     "end": 174.36,
+     "text": "that"
+    },
+    {
+     "start": 174.36,
+     "end": 174.5,
+     "text": "when"
+    },
+    {
+     "start": 174.5,
+     "end": 174.62,
+     "text": "we"
+    },
+    {
+     "start": 174.62,
+     "end": 174.96,
+     "text": "rely"
+    },
+    {
+     "start": 174.96,
+     "end": 175.18,
+     "text": "on"
+    },
+    {
+     "start": 175.18,
+     "end": 175.52,
+     "text": "studies"
+    },
+    {
+     "start": 175.52,
+     "end": 175.7,
+     "text": "from"
+    },
+    {
+     "start": 175.7,
+     "end": 176.14,
+     "text": "advocacy"
+    },
+    {
+     "start": 176.14,
+     "end": 176.9,
+     "text": "groups,"
+    },
+    {
+     "start": 176.26,
+     "end": 177.12,
+     "text": "we"
+    },
+    {
+     "start": 177.12,
+     "end": 177.26,
+     "text": "look"
+    },
+    {
+     "start": 177.26,
+     "end": 177.4,
+     "text": "at"
+    },
+    {
+     "start": 177.4,
+     "end": 177.5,
+     "text": "the"
+    },
+    {
+     "start": 177.5,
+     "end": 177.9,
+     "text": "underlying"
+    },
+    {
+     "start": 177.807,
+     "end": 178.267,
+     "text": "data"
+    },
+    {
+     "start": 178.267,
+     "end": 178.727,
+     "text": "and"
+    },
+    {
+     "start": 178.727,
+     "end": 178.947,
+     "text": "speak"
+    },
+    {
+     "start": 178.947,
+     "end": 179.127,
+     "text": "to"
+    },
+    {
+     "start": 179.127,
+     "end": 179.267,
+     "text": "the"
+    },
+    {
+     "start": 179.267,
+     "end": 179.707,
+     "text": "researchers"
+    },
+    {
+     "start": 179.707,
+     "end": 180.047,
+     "text": "to"
+    },
+    {
+     "start": 180.047,
+     "end": 180.247,
+     "text": "better"
+    },
+    {
+     "start": 180.247,
+     "end": 180.727,
+     "text": "understand"
+    }
+   ]
+  },
+  {
+   "start": 180.727,
+   "end": 181.107,
+   "text": "it.",
+   "words": [
+    {
+     "start": 180.727,
+     "end": 181.107,
+     "text": "it."
+    }
+   ]
+  },
+  {
+   "start": 181.267,
+   "end": 183.127,
+   "text": "We discard many studies as a result.",
+   "words": [
+    {
+     "start": 181.267,
+     "end": 181.407,
+     "text": "We"
+    },
+    {
+     "start": 181.407,
+     "end": 181.787,
+     "text": "discard"
+    },
+    {
+     "start": 181.787,
+     "end": 182.047,
+     "text": "many"
+    },
+    {
+     "start": 182.047,
+     "end": 182.427,
+     "text": "studies"
+    },
+    {
+     "start": 182.427,
+     "end": 182.727,
+     "text": "as"
+    },
+    {
+     "start": 182.727,
+     "end": 182.827,
+     "text": "a"
+    },
+    {
+     "start": 182.827,
+     "end": 183.127,
+     "text": "result."
+    }
+   ]
+  },
+  {
+   "start": 183.127,
+   "end": 184.967,
+   "text": "This one belonged in the trash.",
+   "words": [
+    {
+     "start": 183.127,
+     "end": 183.687,
+     "text": "This"
+    },
+    {
+     "start": 183.687,
+     "end": 183.847,
+     "text": "one"
+    },
+    {
+     "start": 183.847,
+     "end": 184.267,
+     "text": "belonged"
+    },
+    {
+     "start": 184.267,
+     "end": 184.487,
+     "text": "in"
+    },
+    {
+     "start": 184.487,
+     "end": 184.527,
+     "text": "the"
+    },
+    {
+     "start": 184.527,
+     "end": 184.967,
+     "text": "trash."
+    }
+   ]
+  },
+  {
+   "start": 186.787,
+   "end": 194.887,
+   "text": "In a 2025 segment about the dangers of sports betting, Oliver cited an eye-catching statistic about how it's causing a spike in bankruptcies.",
+   "words": [
+    {
+     "start": 186.787,
+     "end": 186.927,
+     "text": "In"
+    },
+    {
+     "start": 186.927,
+     "end": 187.027,
+     "text": "a"
+    },
+    {
+     "start": 187.027,
+     "end": 187.427,
+     "text": "2025"
+    },
+    {
+     "start": 187.427,
+     "end": 188.087,
+     "text": "segment"
+    },
+    {
+     "start": 188.087,
+     "end": 188.447,
+     "text": "about"
+    },
+    {
+     "start": 188.447,
+     "end": 188.607,
+     "text": "the"
+    },
+    {
+     "start": 188.607,
+     "end": 188.987,
+     "text": "dangers"
+    },
+    {
+     "start": 188.987,
+     "end": 189.167,
+     "text": "of"
+    },
+    {
+     "start": 189.167,
+     "end": 189.507,
+     "text": "sports"
+    },
+    {
+     "start": 189.507,
+     "end": 189.847,
+     "text": "betting,"
+    },
+    {
+     "start": 189.847,
+     "end": 190.487,
+     "text": "Oliver"
+    },
+    {
+     "start": 190.487,
+     "end": 190.887,
+     "text": "cited"
+    },
+    {
+     "start": 190.887,
+     "end": 191.127,
+     "text": "an"
+    },
+    {
+     "start": 191.127,
+     "end": 191.627,
+     "text": "eye-catching"
+    },
+    {
+     "start": 191.627,
+     "end": 192.167,
+     "text": "statistic"
+    },
+    {
+     "start": 192.167,
+     "end": 192.727,
+     "text": "about"
+    },
+    {
+     "start": 192.727,
+     "end": 192.907,
+     "text": "how"
+    },
+    {
+     "start": 192.907,
+     "end": 193.187,
+     "text": "it's"
+    },
+    {
+     "start": 193.187,
+     "end": 193.507,
+     "text": "causing"
+    },
+    {
+     "start": 193.507,
+     "end": 193.687,
+     "text": "a"
+    },
+    {
+     "start": 193.687,
+     "end": 193.967,
+     "text": "spike"
+    },
+    {
+     "start": 193.967,
+     "end": 194.167,
+     "text": "in"
+    },
+    {
+     "start": 194.167,
+     "end": 194.887,
+     "text": "bankruptcies."
+    }
+   ]
+  },
+  {
+   "start": 195.267,
+   "end": 200.587,
+   "text": "Unsurprisingly, the rise of online sports betting has been found to correlate with the rise in gambling harms,",
+   "words": [
+    {
+     "start": 195.267,
+     "end": 196.007,
+     "text": "Unsurprisingly,"
+    },
+    {
+     "start": 196.007,
+     "end": 196.107,
+     "text": "the"
+    },
+    {
+     "start": 196.107,
+     "end": 196.447,
+     "text": "rise"
+    },
+    {
+     "start": 196.447,
+     "end": 196.687,
+     "text": "of"
+    },
+    {
+     "start": 196.687,
+     "end": 197.047,
+     "text": "online"
+    },
+    {
+     "start": 197.047,
+     "end": 197.367,
+     "text": "sports"
+    },
+    {
+     "start": 197.367,
+     "end": 197.647,
+     "text": "betting"
+    },
+    {
+     "start": 197.647,
+     "end": 197.987,
+     "text": "has"
+    },
+    {
+     "start": 197.987,
+     "end": 198.127,
+     "text": "been"
+    },
+    {
+     "start": 198.127,
+     "end": 198.387,
+     "text": "found"
+    },
+    {
+     "start": 198.387,
+     "end": 198.527,
+     "text": "to"
+    },
+    {
+     "start": 198.527,
+     "end": 198.767,
+     "text": "correlate"
+    },
+    {
+     "start": 198.767,
+     "end": 199.247,
+     "text": "with"
+    },
+    {
+     "start": 199.247,
+     "end": 199.347,
+     "text": "the"
+    },
+    {
+     "start": 199.347,
+     "end": 199.567,
+     "text": "rise"
+    },
+    {
+     "start": 199.567,
+     "end": 199.687,
+     "text": "in"
+    },
+    {
+     "start": 199.687,
+     "end": 200.007,
+     "text": "gambling"
+    },
+    {
+     "start": 200.007,
+     "end": 200.587,
+     "text": "harms,"
+    }
+   ]
+  },
+  {
+   "start": 200.547,
+   "end": 202.567,
+   "text": "with one study showing that in states that allowed it,",
+   "words": [
+    {
+     "start": 200.547,
+     "end": 200.707,
+     "text": "with"
+    },
+    {
+     "start": 200.707,
+     "end": 200.827,
+     "text": "one"
+    },
+    {
+     "start": 200.827,
+     "end": 201.067,
+     "text": "study"
+    },
+    {
+     "start": 201.067,
+     "end": 201.347,
+     "text": "showing"
+    },
+    {
+     "start": 201.347,
+     "end": 201.527,
+     "text": "that"
+    },
+    {
+     "start": 201.527,
+     "end": 201.587,
+     "text": "in"
+    },
+    {
+     "start": 201.587,
+     "end": 201.827,
+     "text": "states"
+    },
+    {
+     "start": 201.827,
+     "end": 202.007,
+     "text": "that"
+    },
+    {
+     "start": 202.007,
+     "end": 202.227,
+     "text": "allowed"
+    },
+    {
+     "start": 202.227,
+     "end": 202.567,
+     "text": "it,"
+    }
+   ]
+  },
+  {
+   "start": 202.747,
+   "end": 205.707,
+   "text": "there was a 28% increase in bankruptcies,",
+   "words": [
+    {
+     "start": 202.747,
+     "end": 202.867,
+     "text": "there"
+    },
+    {
+     "start": 202.867,
+     "end": 202.947,
+     "text": "was"
+    },
+    {
+     "start": 202.947,
+     "end": 203.047,
+     "text": "a"
+    },
+    {
+     "start": 203.047,
+     "end": 203.887,
+     "text": "28%"
+    },
+    {
+     "start": 203.887,
+     "end": 204.487,
+     "text": "increase"
+    },
+    {
+     "start": 204.487,
+     "end": 205.007,
+     "text": "in"
+    },
+    {
+     "start": 205.007,
+     "end": 205.707,
+     "text": "bankruptcies,"
+    }
+   ]
+  },
+  {
+   "start": 205.687,
+   "end": 209.607,
+   "text": "translating to about 100,000 extra bankruptcies a year.",
+   "words": [
+    {
+     "start": 205.687,
+     "end": 206.067,
+     "text": "translating"
+    },
+    {
+     "start": 206.067,
+     "end": 206.727,
+     "text": "to"
+    },
+    {
+     "start": 206.727,
+     "end": 206.887,
+     "text": "about"
+    },
+    {
+     "start": 206.887,
+     "end": 207.727,
+     "text": "100,000"
+    },
+    {
+     "start": 207.727,
+     "end": 208.167,
+     "text": "extra"
+    },
+    {
+     "start": 208.167,
+     "end": 208.807,
+     "text": "bankruptcies"
+    },
+    {
+     "start": 208.807,
+     "end": 209.247,
+     "text": "a"
+    },
+    {
+     "start": 209.247,
+     "end": 209.607,
+     "text": "year."
+    }
+   ]
+  },
+  {
+   "start": 209.507,
+   "end": 210.727,
+   "text": "Is science bullshit?",
+   "words": [
+    {
+     "start": 209.507,
+     "end": 209.747,
+     "text": "Is"
+    },
+    {
+     "start": 209.747,
+     "end": 210.247,
+     "text": "science"
+    },
+    {
+     "start": 210.247,
+     "end": 210.727,
+     "text": "bullshit?"
+    }
+   ]
+  },
+  {
+   "start": 211.247,
+   "end": 215.987,
+   "text": "No, but there is a lot of bullshit currently masquerading as science.",
+   "words": [
+    {
+     "start": 211.247,
+     "end": 211.507,
+     "text": "No,"
+    },
+    {
+     "start": 211.507,
+     "end": 212.447,
+     "text": "but"
+    },
+    {
+     "start": 212.447,
+     "end": 212.987,
+     "text": "there"
+    },
+    {
+     "start": 212.987,
+     "end": 213.167,
+     "text": "is"
+    },
+    {
+     "start": 213.167,
+     "end": 213.287,
+     "text": "a"
+    },
+    {
+     "start": 213.287,
+     "end": 213.387,
+     "text": "lot"
+    },
+    {
+     "start": 213.387,
+     "end": 213.507,
+     "text": "of"
+    },
+    {
+     "start": 213.507,
+     "end": 213.927,
+     "text": "bullshit"
+    },
+    {
+     "start": 213.927,
+     "end": 214.407,
+     "text": "currently"
+    },
+    {
+     "start": 214.407,
+     "end": 215.107,
+     "text": "masquerading"
+    },
+    {
+     "start": 215.107,
+     "end": 215.447,
+     "text": "as"
+    },
+    {
+     "start": 215.447,
+     "end": 215.987,
+     "text": "science."
+    }
+   ]
+  },
+  {
+   "start": 216.127,
+   "end": 221.127,
+   "text": "I contacted the authors who told me they don't know where the 100,000 figure came from,",
+   "words": [
+    {
+     "start": 216.127,
+     "end": 216.247,
+     "text": "I"
+    },
+    {
+     "start": 216.247,
+     "end": 216.667,
+     "text": "contacted"
+    },
+    {
+     "start": 216.667,
+     "end": 216.947,
+     "text": "the"
+    },
+    {
+     "start": 216.947,
+     "end": 217.247,
+     "text": "authors"
+    },
+    {
+     "start": 217.247,
+     "end": 217.947,
+     "text": "who"
+    },
+    {
+     "start": 217.947,
+     "end": 218.167,
+     "text": "told"
+    },
+    {
+     "start": 218.167,
+     "end": 218.267,
+     "text": "me"
+    },
+    {
+     "start": 218.267,
+     "end": 218.447,
+     "text": "they"
+    },
+    {
+     "start": 218.447,
+     "end": 218.587,
+     "text": "don't"
+    },
+    {
+     "start": 218.587,
+     "end": 218.807,
+     "text": "know"
+    },
+    {
+     "start": 218.807,
+     "end": 218.987,
+     "text": "where"
+    },
+    {
+     "start": 218.987,
+     "end": 219.127,
+     "text": "the"
+    },
+    {
+     "start": 219.127,
+     "end": 219.947,
+     "text": "100,000"
+    },
+    {
+     "start": 219.947,
+     "end": 220.327,
+     "text": "figure"
+    },
+    {
+     "start": 220.327,
+     "end": 220.647,
+     "text": "came"
+    },
+    {
+     "start": 220.647,
+     "end": 221.127,
+     "text": "from,"
+    }
+   ]
+  },
+  {
+   "start": 221.367,
+   "end": 223.027,
+   "text": "and it doesn't appear anywhere in the study.",
+   "words": [
+    {
+     "start": 221.367,
+     "end": 221.527,
+     "text": "and"
+    },
+    {
+     "start": 221.527,
+     "end": 221.627,
+     "text": "it"
+    },
+    {
+     "start": 221.627,
+     "end": 221.827,
+     "text": "doesn't"
+    },
+    {
+     "start": 221.827,
+     "end": 222.087,
+     "text": "appear"
+    },
+    {
+     "start": 222.087,
+     "end": 222.407,
+     "text": "anywhere"
+    },
+    {
+     "start": 222.407,
+     "end": 222.627,
+     "text": "in"
+    },
+    {
+     "start": 222.627,
+     "end": 222.727,
+     "text": "the"
+    },
+    {
+     "start": 222.727,
+     "end": 223.027,
+     "text": "study."
+    }
+   ]
+  },
+  {
+   "start": 223.407,
+   "end": 227.827,
+   "text": "Last week, tonight's producers told us that they pulled it from an article in Business Insider,",
+   "words": [
+    {
+     "start": 223.407,
+     "end": 223.627,
+     "text": "Last"
+    },
+    {
+     "start": 223.627,
+     "end": 223.827,
+     "text": "week,"
+    },
+    {
+     "start": 223.827,
+     "end": 224.207,
+     "text": "tonight's"
+    },
+    {
+     "start": 224.207,
+     "end": 224.587,
+     "text": "producers"
+    },
+    {
+     "start": 224.587,
+     "end": 225.307,
+     "text": "told"
+    },
+    {
+     "start": 225.307,
+     "end": 225.487,
+     "text": "us"
+    },
+    {
+     "start": 225.487,
+     "end": 225.627,
+     "text": "that"
+    },
+    {
+     "start": 225.627,
+     "end": 225.747,
+     "text": "they"
+    },
+    {
+     "start": 225.747,
+     "end": 225.947,
+     "text": "pulled"
+    },
+    {
+     "start": 225.947,
+     "end": 226.067,
+     "text": "it"
+    },
+    {
+     "start": 226.067,
+     "end": 226.207,
+     "text": "from"
+    },
+    {
+     "start": 226.207,
+     "end": 226.347,
+     "text": "an"
+    },
+    {
+     "start": 226.347,
+     "end": 226.547,
+     "text": "article"
+    },
+    {
+     "start": 226.547,
+     "end": 226.787,
+     "text": "in"
+    },
+    {
+     "start": 226.787,
+     "end": 227.027,
+     "text": "Business"
+    },
+    {
+     "start": 227.027,
+     "end": 227.827,
+     "text": "Insider,"
+    }
+   ]
+  },
+  {
+   "start": 228.087,
+   "end": 230.927,
+   "text": "but in the video, Oliver stated that it came from the study.",
+   "words": [
+    {
+     "start": 228.087,
+     "end": 228.187,
+     "text": "but"
+    },
+    {
+     "start": 228.187,
+     "end": 228.287,
+     "text": "in"
+    },
+    {
+     "start": 228.287,
+     "end": 228.387,
+     "text": "the"
+    },
+    {
+     "start": 228.387,
+     "end": 229.107,
+     "text": "video,"
+    },
+    {
+     "start": 229.107,
+     "end": 229.227,
+     "text": "Oliver"
+    },
+    {
+     "start": 229.227,
+     "end": 229.627,
+     "text": "stated"
+    },
+    {
+     "start": 229.627,
+     "end": 229.847,
+     "text": "that"
+    },
+    {
+     "start": 229.847,
+     "end": 229.947,
+     "text": "it"
+    },
+    {
+     "start": 229.947,
+     "end": 230.107,
+     "text": "came"
+    },
+    {
+     "start": 230.107,
+     "end": 230.307,
+     "text": "from"
+    },
+    {
+     "start": 230.307,
+     "end": 230.447,
+     "text": "the"
+    },
+    {
+     "start": 230.447,
+     "end": 230.927,
+     "text": "study."
+    }
+   ]
+  },
+  {
+   "start": 231.187,
+   "end": 233.167,
+   "text": "The figure is also clearly wrong.",
+   "words": [
+    {
+     "start": 231.187,
+     "end": 231.347,
+     "text": "The"
+    },
+    {
+     "start": 231.347,
+     "end": 231.587,
+     "text": "figure"
+    },
+    {
+     "start": 231.587,
+     "end": 231.847,
+     "text": "is"
+    },
+    {
+     "start": 231.847,
+     "end": 232.107,
+     "text": "also"
+    },
+    {
+     "start": 232.107,
+     "end": 232.607,
+     "text": "clearly"
+    },
+    {
+     "start": 232.607,
+     "end": 233.167,
+     "text": "wrong."
+    }
+   ]
+  },
+  {
+   "start": 233.447,
+   "end": 236.947,
+   "text": "At Oliver's, researchers done the same calculation as the authors,",
+   "words": [
+    {
+     "start": 233.447,
+     "end": 233.567,
+     "text": "At"
+    },
+    {
+     "start": 233.567,
+     "end": 234.107,
+     "text": "Oliver's,"
+    },
+    {
+     "start": 234.107,
+     "end": 234.627,
+     "text": "researchers"
+    },
+    {
+     "start": 234.627,
+     "end": 234.947,
+     "text": "done"
+    },
+    {
+     "start": 234.947,
+     "end": 235.087,
+     "text": "the"
+    },
+    {
+     "start": 235.087,
+     "end": 235.307,
+     "text": "same"
+    },
+    {
+     "start": 235.307,
+     "end": 235.767,
+     "text": "calculation"
+    },
+    {
+     "start": 235.767,
+     "end": 236.187,
+     "text": "as"
+    },
+    {
+     "start": 236.187,
+     "end": 236.347,
+     "text": "the"
+    },
+    {
+     "start": 236.347,
+     "end": 236.947,
+     "text": "authors,"
+    }
+   ]
+  },
+  {
+   "start": 237.147,
+   "end": 241.167,
+   "text": "which involved multiplying the per-person effect by the at-risk population.",
+   "words": [
+    {
+     "start": 237.147,
+     "end": 237.347,
+     "text": "which"
+    },
+    {
+     "start": 237.347,
+     "end": 237.747,
+     "text": "involved"
+    },
+    {
+     "start": 237.747,
+     "end": 238.327,
+     "text": "multiplying"
+    },
+    {
+     "start": 238.327,
+     "end": 238.667,
+     "text": "the"
+    },
+    {
+     "start": 238.667,
+     "end": 239.187,
+     "text": "per-person"
+    },
+    {
+     "start": 239.187,
+     "end": 239.567,
+     "text": "effect"
+    },
+    {
+     "start": 239.567,
+     "end": 239.967,
+     "text": "by"
+    },
+    {
+     "start": 239.967,
+     "end": 240.127,
+     "text": "the"
+    },
+    {
+     "start": 240.127,
+     "end": 240.447,
+     "text": "at-risk"
+    },
+    {
+     "start": 240.447,
+     "end": 241.167,
+     "text": "population."
+    }
+   ]
+  },
+  {
+   "start": 241.727,
+   "end": 246.167,
+   "text": "They'd have found that there were about 30,000 extra bankruptcies a year, not 100,000,",
+   "words": [
+    {
+     "start": 241.727,
+     "end": 241.967,
+     "text": "They'd"
+    },
+    {
+     "start": 241.967,
+     "end": 242.047,
+     "text": "have"
+    },
+    {
+     "start": 242.047,
+     "end": 242.187,
+     "text": "found"
+    },
+    {
+     "start": 242.187,
+     "end": 242.347,
+     "text": "that"
+    },
+    {
+     "start": 242.347,
+     "end": 242.487,
+     "text": "there"
+    },
+    {
+     "start": 242.487,
+     "end": 242.647,
+     "text": "were"
+    },
+    {
+     "start": 242.647,
+     "end": 242.927,
+     "text": "about"
+    },
+    {
+     "start": 242.927,
+     "end": 243.647,
+     "text": "30,000"
+    },
+    {
+     "start": 243.647,
+     "end": 244.027,
+     "text": "extra"
+    },
+    {
+     "start": 244.027,
+     "end": 244.587,
+     "text": "bankruptcies"
+    },
+    {
+     "start": 244.587,
+     "end": 244.827,
+     "text": "a"
+    },
+    {
+     "start": 244.827,
+     "end": 245.267,
+     "text": "year,"
+    },
+    {
+     "start": 245.267,
+     "end": 245.387,
+     "text": "not"
+    },
+    {
+     "start": 245.387,
+     "end": 246.167,
+     "text": "100,000,"
+    }
+   ]
+  },
+  {
+   "start": 246.687,
+   "end": 250.707,
+   "text": "and a 6 to 7.5% increase, not 28%.",
+   "words": [
+    {
+     "start": 246.687,
+     "end": 246.887,
+     "text": "and"
+    },
+    {
+     "start": 246.887,
+     "end": 247.027,
+     "text": "a"
+    },
+    {
+     "start": 247.027,
+     "end": 247.287,
+     "text": "6"
+    },
+    {
+     "start": 247.287,
+     "end": 247.367,
+     "text": "to"
+    },
+    {
+     "start": 247.367,
+     "end": 248.547,
+     "text": "7.5%"
+    },
+    {
+     "start": 248.547,
+     "end": 249.507,
+     "text": "increase,"
+    },
+    {
+     "start": 249.507,
+     "end": 249.667,
+     "text": "not"
+    },
+    {
+     "start": 249.667,
+     "end": 250.707,
+     "text": "28%."
+    }
+   ]
+  },
+  {
+   "start": 252.887,
+   "end": 254.987,
+   "text": "Basically, we need to stop being dicks",
+   "words": [
+    {
+     "start": 252.887,
+     "end": 253.427,
+     "text": "Basically,"
+    },
+    {
+     "start": 253.427,
+     "end": 253.767,
+     "text": "we"
+    },
+    {
+     "start": 253.767,
+     "end": 253.907,
+     "text": "need"
+    },
+    {
+     "start": 253.907,
+     "end": 254.027,
+     "text": "to"
+    },
+    {
+     "start": 254.027,
+     "end": 254.227,
+     "text": "stop"
+    },
+    {
+     "start": 254.227,
+     "end": 254.507,
+     "text": "being"
+    },
+    {
+     "start": 254.507,
+     "end": 254.987,
+     "text": "dicks"
+    }
+   ]
+  },
+  {
+   "start": 255.327,
+   "end": 258.147,
+   "text": "and assume that the unhoused are a collection of drug addict criminals",
+   "words": [
+    {
+     "start": 255.327,
+     "end": 255.427,
+     "text": "and"
+    },
+    {
+     "start": 255.427,
+     "end": 255.607,
+     "text": "assume"
+    },
+    {
+     "start": 255.607,
+     "end": 255.767,
+     "text": "that"
+    },
+    {
+     "start": 255.767,
+     "end": 255.967,
+     "text": "the"
+    },
+    {
+     "start": 255.967,
+     "end": 256.487,
+     "text": "unhoused"
+    },
+    {
+     "start": 256.487,
+     "end": 256.647,
+     "text": "are"
+    },
+    {
+     "start": 256.647,
+     "end": 256.767,
+     "text": "a"
+    },
+    {
+     "start": 256.767,
+     "end": 256.947,
+     "text": "collection"
+    },
+    {
+     "start": 256.947,
+     "end": 257.147,
+     "text": "of"
+    },
+    {
+     "start": 257.147,
+     "end": 257.427,
+     "text": "drug"
+    },
+    {
+     "start": 257.427,
+     "end": 257.747,
+     "text": "addict"
+    },
+    {
+     "start": 257.747,
+     "end": 258.147,
+     "text": "criminals"
+    }
+   ]
+  },
+  {
+   "start": 258.527,
+   "end": 260.047,
+   "text": "who've chosen this life for themselves",
+   "words": [
+    {
+     "start": 258.527,
+     "end": 258.747,
+     "text": "who've"
+    },
+    {
+     "start": 258.747,
+     "end": 259.107,
+     "text": "chosen"
+    },
+    {
+     "start": 259.107,
+     "end": 259.407,
+     "text": "this"
+    },
+    {
+     "start": 259.407,
+     "end": 259.647,
+     "text": "life"
+    },
+    {
+     "start": 259.647,
+     "end": 259.787,
+     "text": "for"
+    },
+    {
+     "start": 259.787,
+     "end": 260.047,
+     "text": "themselves"
+    }
+   ]
+  },
+  {
+   "start": 260.147,
+   "end": 264.787,
+   "text": "instead of people suffering the inevitable consequences of gutted social programs.",
+   "words": [
+    {
+     "start": 260.147,
+     "end": 260.467,
+     "text": "instead"
+    },
+    {
+     "start": 260.467,
+     "end": 260.767,
+     "text": "of"
+    },
+    {
+     "start": 260.767,
+     "end": 261.247,
+     "text": "people"
+    },
+    {
+     "start": 261.247,
+     "end": 261.587,
+     "text": "suffering"
+    },
+    {
+     "start": 261.587,
+     "end": 261.767,
+     "text": "the"
+    },
+    {
+     "start": 261.767,
+     "end": 262.167,
+     "text": "inevitable"
+    },
+    {
+     "start": 262.167,
+     "end": 262.827,
+     "text": "consequences"
+    },
+    {
+     "start": 262.827,
+     "end": 263.367,
+     "text": "of"
+    },
+    {
+     "start": 263.367,
+     "end": 263.807,
+     "text": "gutted"
+    },
+    {
+     "start": 263.807,
+     "end": 264.107,
+     "text": "social"
+    },
+    {
+     "start": 264.107,
+     "end": 264.787,
+     "text": "programs."
+    }
+   ]
+  },
+  {
+   "start": 264.767,
+   "end": 269.387,
+   "text": "In 2021, Oliver did a segment making a case for a policy called Housing First,",
+   "words": [
+    {
+     "start": 264.767,
+     "end": 264.907,
+     "text": "In"
+    },
+    {
+     "start": 264.907,
+     "end": 265.827,
+     "text": "2021,"
+    },
+    {
+     "start": 265.827,
+     "end": 265.947,
+     "text": "Oliver"
+    },
+    {
+     "start": 265.947,
+     "end": 266.207,
+     "text": "did"
+    },
+    {
+     "start": 266.207,
+     "end": 266.387,
+     "text": "a"
+    },
+    {
+     "start": 266.387,
+     "end": 266.647,
+     "text": "segment"
+    },
+    {
+     "start": 266.647,
+     "end": 267.007,
+     "text": "making"
+    },
+    {
+     "start": 267.007,
+     "end": 267.207,
+     "text": "a"
+    },
+    {
+     "start": 267.207,
+     "end": 267.407,
+     "text": "case"
+    },
+    {
+     "start": 267.407,
+     "end": 267.627,
+     "text": "for"
+    },
+    {
+     "start": 267.627,
+     "end": 267.747,
+     "text": "a"
+    },
+    {
+     "start": 267.747,
+     "end": 268.067,
+     "text": "policy"
+    },
+    {
+     "start": 268.067,
+     "end": 268.387,
+     "text": "called"
+    },
+    {
+     "start": 268.387,
+     "end": 268.747,
+     "text": "Housing"
+    },
+    {
+     "start": 268.747,
+     "end": 269.387,
+     "text": "First,"
+    }
+   ]
+  },
+  {
+   "start": 269.487,
+   "end": 272.787,
+   "text": "which includes placing more homeless people in permanent supportive housing.",
+   "words": [
+    {
+     "start": 269.487,
+     "end": 269.667,
+     "text": "which"
+    },
+    {
+     "start": 269.667,
+     "end": 270.027,
+     "text": "includes"
+    },
+    {
+     "start": 270.027,
+     "end": 270.367,
+     "text": "placing"
+    },
+    {
+     "start": 270.367,
+     "end": 270.627,
+     "text": "more"
+    },
+    {
+     "start": 270.627,
+     "end": 270.967,
+     "text": "homeless"
+    },
+    {
+     "start": 270.967,
+     "end": 271.367,
+     "text": "people"
+    },
+    {
+     "start": 271.367,
+     "end": 271.567,
+     "text": "in"
+    },
+    {
+     "start": 271.567,
+     "end": 272.007,
+     "text": "permanent"
+    },
+    {
+     "start": 272.007,
+     "end": 272.407,
+     "text": "supportive"
+    },
+    {
+     "start": 272.407,
+     "end": 272.787,
+     "text": "housing."
+    }
+   ]
+  },
+  {
+   "start": 273.287,
+   "end": 276.787,
+   "text": "The problem is that building and maintaining these units is expensive.",
+   "words": [
+    {
+     "start": 273.287,
+     "end": 273.447,
+     "text": "The"
+    },
+    {
+     "start": 273.447,
+     "end": 273.867,
+     "text": "problem"
+    },
+    {
+     "start": 273.867,
+     "end": 274.447,
+     "text": "is"
+    },
+    {
+     "start": 274.447,
+     "end": 274.567,
+     "text": "that"
+    },
+    {
+     "start": 274.567,
+     "end": 274.887,
+     "text": "building"
+    },
+    {
+     "start": 274.887,
+     "end": 275.107,
+     "text": "and"
+    },
+    {
+     "start": 275.107,
+     "end": 275.447,
+     "text": "maintaining"
+    },
+    {
+     "start": 275.447,
+     "end": 275.827,
+     "text": "these"
+    },
+    {
+     "start": 275.827,
+     "end": 276.027,
+     "text": "units"
+    },
+    {
+     "start": 276.027,
+     "end": 276.247,
+     "text": "is"
+    },
+    {
+     "start": 276.247,
+     "end": 276.787,
+     "text": "expensive."
+    }
+   ]
+  },
+  {
+   "start": 276.267,
+   "end": 281.127,
+   "text": "So as a solution, permanent supportive housing doesn't easily scale.",
+   "words": [
+    {
+     "start": 276.267,
+     "end": 277.287,
+     "text": "So"
+    },
+    {
+     "start": 277.287,
+     "end": 277.487,
+     "text": "as"
+    },
+    {
+     "start": 277.487,
+     "end": 277.567,
+     "text": "a"
+    },
+    {
+     "start": 277.567,
+     "end": 278.087,
+     "text": "solution,"
+    },
+    {
+     "start": 278.087,
+     "end": 278.867,
+     "text": "permanent"
+    },
+    {
+     "start": 278.867,
+     "end": 279.307,
+     "text": "supportive"
+    },
+    {
+     "start": 279.307,
+     "end": 279.707,
+     "text": "housing"
+    },
+    {
+     "start": 279.707,
+     "end": 280.127,
+     "text": "doesn't"
+    },
+    {
+     "start": 280.127,
+     "end": 280.467,
+     "text": "easily"
+    },
+    {
+     "start": 280.467,
+     "end": 281.127,
+     "text": "scale."
+    }
+   ]
+  },
+  {
+   "start": 281.487,
+   "end": 288.367,
+   "text": "Oliver set out to dismiss that objection by citing research that demonstrates that the alternative is even more costly.",
+   "words": [
+    {
+     "start": 281.487,
+     "end": 281.667,
+     "text": "Oliver"
+    },
+    {
+     "start": 281.667,
+     "end": 281.987,
+     "text": "set"
+    },
+    {
+     "start": 281.987,
+     "end": 282.167,
+     "text": "out"
+    },
+    {
+     "start": 282.167,
+     "end": 282.387,
+     "text": "to"
+    },
+    {
+     "start": 282.387,
+     "end": 282.727,
+     "text": "dismiss"
+    },
+    {
+     "start": 282.727,
+     "end": 283.007,
+     "text": "that"
+    },
+    {
+     "start": 283.007,
+     "end": 283.447,
+     "text": "objection"
+    },
+    {
+     "start": 283.447,
+     "end": 284.087,
+     "text": "by"
+    },
+    {
+     "start": 284.087,
+     "end": 284.407,
+     "text": "citing"
+    },
+    {
+     "start": 284.407,
+     "end": 284.847,
+     "text": "research"
+    },
+    {
+     "start": 284.847,
+     "end": 285.167,
+     "text": "that"
+    },
+    {
+     "start": 285.167,
+     "end": 285.627,
+     "text": "demonstrates"
+    },
+    {
+     "start": 285.627,
+     "end": 286.107,
+     "text": "that"
+    },
+    {
+     "start": 286.107,
+     "end": 286.227,
+     "text": "the"
+    },
+    {
+     "start": 286.227,
+     "end": 286.667,
+     "text": "alternative"
+    },
+    {
+     "start": 286.667,
+     "end": 287.287,
+     "text": "is"
+    },
+    {
+     "start": 287.287,
+     "end": 287.447,
+     "text": "even"
+    },
+    {
+     "start": 287.447,
+     "end": 287.687,
+     "text": "more"
+    },
+    {
+     "start": 287.687,
+     "end": 288.367,
+     "text": "costly."
+    }
+   ]
+  },
+  {
+   "start": 288.607,
+   "end": 294.427,
+   "text": "One study in Florida that tracked a decade's worth of spending on just 107 chronically homeless people found",
+   "words": [
+    {
+     "start": 288.607,
+     "end": 288.767,
+     "text": "One"
+    },
+    {
+     "start": 288.767,
+     "end": 289.027,
+     "text": "study"
+    },
+    {
+     "start": 289.027,
+     "end": 289.167,
+     "text": "in"
+    },
+    {
+     "start": 289.167,
+     "end": 289.407,
+     "text": "Florida"
+    },
+    {
+     "start": 289.407,
+     "end": 289.647,
+     "text": "that"
+    },
+    {
+     "start": 289.647,
+     "end": 289.827,
+     "text": "tracked"
+    },
+    {
+     "start": 289.827,
+     "end": 290.027,
+     "text": "a"
+    },
+    {
+     "start": 290.027,
+     "end": 290.487,
+     "text": "decade's"
+    },
+    {
+     "start": 290.487,
+     "end": 290.607,
+     "text": "worth"
+    },
+    {
+     "start": 290.607,
+     "end": 290.747,
+     "text": "of"
+    },
+    {
+     "start": 290.747,
+     "end": 291.047,
+     "text": "spending"
+    },
+    {
+     "start": 291.047,
+     "end": 291.567,
+     "text": "on"
+    },
+    {
+     "start": 291.567,
+     "end": 291.787,
+     "text": "just"
+    },
+    {
+     "start": 291.787,
+     "end": 292.827,
+     "text": "107"
+    },
+    {
+     "start": 292.827,
+     "end": 293.527,
+     "text": "chronically"
+    },
+    {
+     "start": 293.527,
+     "end": 293.827,
+     "text": "homeless"
+    },
+    {
+     "start": 293.827,
+     "end": 294.167,
+     "text": "people"
+    },
+    {
+     "start": 293.727,
+     "end": 294.427,
+     "text": "found"
+    }
+   ]
+  },
+  {
+   "start": 294.427,
+   "end": 298.847,
+   "text": "that just between money spent on incarceration and emergency medical treatment,",
+   "words": [
+    {
+     "start": 294.427,
+     "end": 294.567,
+     "text": "that"
+    },
+    {
+     "start": 294.567,
+     "end": 294.887,
+     "text": "just"
+    },
+    {
+     "start": 294.887,
+     "end": 295.287,
+     "text": "between"
+    },
+    {
+     "start": 295.287,
+     "end": 295.887,
+     "text": "money"
+    },
+    {
+     "start": 295.887,
+     "end": 296.087,
+     "text": "spent"
+    },
+    {
+     "start": 296.087,
+     "end": 296.307,
+     "text": "on"
+    },
+    {
+     "start": 296.307,
+     "end": 296.767,
+     "text": "incarceration"
+    },
+    {
+     "start": 296.767,
+     "end": 297.467,
+     "text": "and"
+    },
+    {
+     "start": 297.467,
+     "end": 297.907,
+     "text": "emergency"
+    },
+    {
+     "start": 297.907,
+     "end": 298.267,
+     "text": "medical"
+    },
+    {
+     "start": 298.267,
+     "end": 298.847,
+     "text": "treatment,"
+    }
+   ]
+  },
+  {
+   "start": 299.067,
+   "end": 304.907,
+   "text": "their communities and local governments have spent an average of just over $31,000 per person per year,",
+   "words": [
+    {
+     "start": 299.067,
+     "end": 299.247,
+     "text": "their"
+    },
+    {
+     "start": 299.247,
+     "end": 299.627,
+     "text": "communities"
+    },
+    {
+     "start": 299.627,
+     "end": 299.907,
+     "text": "and"
+    },
+    {
+     "start": 299.907,
+     "end": 300.127,
+     "text": "local"
+    },
+    {
+     "start": 300.127,
+     "end": 300.467,
+     "text": "governments"
+    },
+    {
+     "start": 300.467,
+     "end": 300.667,
+     "text": "have"
+    },
+    {
+     "start": 300.667,
+     "end": 300.787,
+     "text": "spent"
+    },
+    {
+     "start": 300.787,
+     "end": 300.927,
+     "text": "an"
+    },
+    {
+     "start": 300.927,
+     "end": 301.207,
+     "text": "average"
+    },
+    {
+     "start": 301.207,
+     "end": 301.387,
+     "text": "of"
+    },
+    {
+     "start": 301.387,
+     "end": 301.527,
+     "text": "just"
+    },
+    {
+     "start": 301.527,
+     "end": 303.107,
+     "text": "over $31,000"
+    },
+    {
+     "start": 303.107,
+     "end": 303.747,
+     "text": "per"
+    },
+    {
+     "start": 303.747,
+     "end": 304.187,
+     "text": "person"
+    },
+    {
+     "start": 304.187,
+     "end": 304.407,
+     "text": "per"
+    },
+    {
+     "start": 304.407,
+     "end": 304.907,
+     "text": "year,"
+    }
+   ]
+  },
+  {
+   "start": 305.147,
+   "end": 310.907,
+   "text": "when the estimated cost of providing with permanent supportive housing would have only been around $10,000 per year.",
+   "words": [
+    {
+     "start": 305.147,
+     "end": 305.247,
+     "text": "when"
+    },
+    {
+     "start": 305.247,
+     "end": 305.367,
+     "text": "the"
+    },
+    {
+     "start": 305.367,
+     "end": 305.787,
+     "text": "estimated"
+    },
+    {
+     "start": 305.787,
+     "end": 306.087,
+     "text": "cost"
+    },
+    {
+     "start": 306.087,
+     "end": 306.207,
+     "text": "of"
+    },
+    {
+     "start": 306.207,
+     "end": 306.507,
+     "text": "providing"
+    },
+    {
+     "start": 306.507,
+     "end": 306.727,
+     "text": "with"
+    },
+    {
+     "start": 306.727,
+     "end": 307.187,
+     "text": "permanent"
+    },
+    {
+     "start": 307.187,
+     "end": 307.527,
+     "text": "supportive"
+    },
+    {
+     "start": 307.527,
+     "end": 307.907,
+     "text": "housing"
+    },
+    {
+     "start": 307.907,
+     "end": 308.467,
+     "text": "would"
+    },
+    {
+     "start": 308.467,
+     "end": 308.547,
+     "text": "have"
+    },
+    {
+     "start": 308.547,
+     "end": 308.727,
+     "text": "only"
+    },
+    {
+     "start": 308.727,
+     "end": 308.887,
+     "text": "been"
+    },
+    {
+     "start": 308.887,
+     "end": 310.147,
+     "text": "around $10,000"
+    },
+    {
+     "start": 310.147,
+     "end": 310.547,
+     "text": "per"
+    },
+    {
+     "start": 310.547,
+     "end": 310.907,
+     "text": "year."
+    }
+   ]
+  },
+  {
+   "start": 310.827,
+   "end": 318.447,
+   "text": "If they are going to keep saying a study says, they should have to provide sourcing and context or not mention it at all.",
+   "words": [
+    {
+     "start": 310.827,
+     "end": 311.087,
+     "text": "If"
+    },
+    {
+     "start": 311.087,
+     "end": 311.247,
+     "text": "they"
+    },
+    {
+     "start": 311.247,
+     "end": 311.387,
+     "text": "are"
+    },
+    {
+     "start": 311.387,
+     "end": 311.667,
+     "text": "going"
+    },
+    {
+     "start": 311.667,
+     "end": 311.887,
+     "text": "to"
+    },
+    {
+     "start": 311.887,
+     "end": 312.227,
+     "text": "keep"
+    },
+    {
+     "start": 312.227,
+     "end": 312.847,
+     "text": "saying"
+    },
+    {
+     "start": 312.847,
+     "end": 313.127,
+     "text": "a"
+    },
+    {
+     "start": 313.127,
+     "end": 313.547,
+     "text": "study"
+    },
+    {
+     "start": 313.547,
+     "end": 314.147,
+     "text": "says,"
+    },
+    {
+     "start": 314.147,
+     "end": 314.467,
+     "text": "they"
+    },
+    {
+     "start": 314.467,
+     "end": 314.647,
+     "text": "should"
+    },
+    {
+     "start": 314.647,
+     "end": 314.967,
+     "text": "have"
+    },
+    {
+     "start": 314.967,
+     "end": 315.167,
+     "text": "to"
+    },
+    {
+     "start": 315.167,
+     "end": 315.507,
+     "text": "provide"
+    },
+    {
+     "start": 315.507,
+     "end": 316.087,
+     "text": "sourcing"
+    },
+    {
+     "start": 316.087,
+     "end": 316.247,
+     "text": "and"
+    },
+    {
+     "start": 316.247,
+     "end": 316.707,
+     "text": "context"
+    },
+    {
+     "start": 316.707,
+     "end": 317.267,
+     "text": "or"
+    },
+    {
+     "start": 317.267,
+     "end": 317.487,
+     "text": "not"
+    },
+    {
+     "start": 317.487,
+     "end": 317.827,
+     "text": "mention"
+    },
+    {
+     "start": 317.827,
+     "end": 318.007,
+     "text": "it"
+    },
+    {
+     "start": 318.007,
+     "end": 318.167,
+     "text": "at"
+    },
+    {
+     "start": 318.167,
+     "end": 318.447,
+     "text": "all."
+    }
+   ]
+  },
+  {
+   "start": 318.547,
+   "end": 324.787,
+   "text": "The Florida study's finding was an outlier, cherry picked because it generated the headline Oliver was looking for.",
+   "words": [
+    {
+     "start": 318.547,
+     "end": 318.707,
+     "text": "The"
+    },
+    {
+     "start": 318.707,
+     "end": 319.047,
+     "text": "Florida"
+    },
+    {
+     "start": 319.047,
+     "end": 319.647,
+     "text": "study's"
+    },
+    {
+     "start": 319.647,
+     "end": 319.947,
+     "text": "finding"
+    },
+    {
+     "start": 319.947,
+     "end": 320.207,
+     "text": "was"
+    },
+    {
+     "start": 320.207,
+     "end": 320.347,
+     "text": "an"
+    },
+    {
+     "start": 320.347,
+     "end": 320.867,
+     "text": "outlier,"
+    },
+    {
+     "start": 320.867,
+     "end": 321.547,
+     "text": "cherry"
+    },
+    {
+     "start": 321.547,
+     "end": 321.807,
+     "text": "picked"
+    },
+    {
+     "start": 321.807,
+     "end": 322.167,
+     "text": "because"
+    },
+    {
+     "start": 322.167,
+     "end": 322.347,
+     "text": "it"
+    },
+    {
+     "start": 322.347,
+     "end": 322.787,
+     "text": "generated"
+    },
+    {
+     "start": 322.787,
+     "end": 323.047,
+     "text": "the"
+    },
+    {
+     "start": 323.047,
+     "end": 323.467,
+     "text": "headline"
+    },
+    {
+     "start": 323.467,
+     "end": 323.807,
+     "text": "Oliver"
+    },
+    {
+     "start": 323.807,
+     "end": 324.107,
+     "text": "was"
+    },
+    {
+     "start": 324.107,
+     "end": 324.347,
+     "text": "looking"
+    },
+    {
+     "start": 324.347,
+     "end": 324.787,
+     "text": "for."
+    }
+   ]
+  },
+  {
+   "start": 325.067,
+   "end": 331.707,
+   "text": "In 2018, the National Academy of Sciences convened a committee to evaluate permanent supportive housing.",
+   "words": [
+    {
+     "start": 325.067,
+     "end": 325.207,
+     "text": "In"
+    },
+    {
+     "start": 325.207,
+     "end": 325.927,
+     "text": "2018,"
+    },
+    {
+     "start": 325.927,
+     "end": 326.727,
+     "text": "the"
+    },
+    {
+     "start": 326.727,
+     "end": 327.027,
+     "text": "National"
+    },
+    {
+     "start": 327.027,
+     "end": 327.467,
+     "text": "Academy"
+    },
+    {
+     "start": 327.467,
+     "end": 327.747,
+     "text": "of"
+    },
+    {
+     "start": 327.747,
+     "end": 328.207,
+     "text": "Sciences"
+    },
+    {
+     "start": 328.207,
+     "end": 328.927,
+     "text": "convened"
+    },
+    {
+     "start": 328.927,
+     "end": 329.047,
+     "text": "a"
+    },
+    {
+     "start": 329.047,
+     "end": 329.267,
+     "text": "committee"
+    },
+    {
+     "start": 329.267,
+     "end": 329.947,
+     "text": "to"
+    },
+    {
+     "start": 329.947,
+     "end": 330.327,
+     "text": "evaluate"
+    },
+    {
+     "start": 330.327,
+     "end": 330.847,
+     "text": "permanent"
+    },
+    {
+     "start": 330.847,
+     "end": 331.287,
+     "text": "supportive"
+    },
+    {
+     "start": 331.287,
+     "end": 331.707,
+     "text": "housing."
+    }
+   ]
+  },
+  {
+   "start": 332.267,
+   "end": 340.787,
+   "text": "Its conclusion was that there is no substantial evidence that it contributes to improved health outcomes and insufficient evidence that it's cost effective.",
+   "words": [
+    {
+     "start": 332.267,
+     "end": 332.407,
+     "text": "Its"
+    },
+    {
+     "start": 332.407,
+     "end": 332.907,
+     "text": "conclusion"
+    },
+    {
+     "start": 332.907,
+     "end": 333.447,
+     "text": "was"
+    },
+    {
+     "start": 333.447,
+     "end": 333.607,
+     "text": "that"
+    },
+    {
+     "start": 333.607,
+     "end": 333.747,
+     "text": "there"
+    },
+    {
+     "start": 333.747,
+     "end": 333.907,
+     "text": "is"
+    },
+    {
+     "start": 333.907,
+     "end": 334.047,
+     "text": "no"
+    },
+    {
+     "start": 334.047,
+     "end": 334.507,
+     "text": "substantial"
+    },
+    {
+     "start": 334.507,
+     "end": 335.087,
+     "text": "evidence"
+    },
+    {
+     "start": 335.087,
+     "end": 335.647,
+     "text": "that"
+    },
+    {
+     "start": 335.647,
+     "end": 335.747,
+     "text": "it"
+    },
+    {
+     "start": 335.747,
+     "end": 336.187,
+     "text": "contributes"
+    },
+    {
+     "start": 336.187,
+     "end": 336.467,
+     "text": "to"
+    },
+    {
+     "start": 336.467,
+     "end": 336.887,
+     "text": "improved"
+    },
+    {
+     "start": 336.887,
+     "end": 337.147,
+     "text": "health"
+    },
+    {
+     "start": 337.147,
+     "end": 337.667,
+     "text": "outcomes"
+    },
+    {
+     "start": 337.667,
+     "end": 338.187,
+     "text": "and"
+    },
+    {
+     "start": 338.187,
+     "end": 338.507,
+     "text": "insufficient"
+    },
+    {
+     "start": 338.507,
+     "end": 339.127,
+     "text": "evidence"
+    },
+    {
+     "start": 339.127,
+     "end": 339.687,
+     "text": "that"
+    },
+    {
+     "start": 339.687,
+     "end": 339.907,
+     "text": "it's"
+    },
+    {
+     "start": 339.907,
+     "end": 340.127,
+     "text": "cost"
+    },
+    {
+     "start": 340.127,
+     "end": 340.787,
+     "text": "effective."
+    }
+   ]
+  },
+  {
+   "start": 340.807,
+   "end": 343.367,
+   "text": "There are studies on both sides of this issue, but",
+   "words": [
+    {
+     "start": 340.807,
+     "end": 341.127,
+     "text": "There"
+    },
+    {
+     "start": 341.127,
+     "end": 341.247,
+     "text": "are"
+    },
+    {
+     "start": 341.247,
+     "end": 341.587,
+     "text": "studies"
+    },
+    {
+     "start": 341.587,
+     "end": 341.827,
+     "text": "on"
+    },
+    {
+     "start": 341.827,
+     "end": 341.987,
+     "text": "both"
+    },
+    {
+     "start": 341.987,
+     "end": 342.307,
+     "text": "sides"
+    },
+    {
+     "start": 342.307,
+     "end": 342.467,
+     "text": "of"
+    },
+    {
+     "start": 342.467,
+     "end": 342.607,
+     "text": "this"
+    },
+    {
+     "start": 342.607,
+     "end": 343.307,
+     "text": "issue,"
+    },
+    {
+     "start": 342.547,
+     "end": 343.367,
+     "text": "but"
+    }
+   ]
+  },
+  {
+   "start": 343.367,
+   "end": 346.727,
+   "text": "Oliver cited one study and implied that it was conclusive.",
+   "words": [
+    {
+     "start": 343.367,
+     "end": 343.647,
+     "text": "Oliver"
+    },
+    {
+     "start": 343.647,
+     "end": 344.027,
+     "text": "cited"
+    },
+    {
+     "start": 344.027,
+     "end": 344.347,
+     "text": "one"
+    },
+    {
+     "start": 344.347,
+     "end": 344.787,
+     "text": "study"
+    },
+    {
+     "start": 344.787,
+     "end": 345.167,
+     "text": "and"
+    },
+    {
+     "start": 345.167,
+     "end": 345.487,
+     "text": "implied"
+    },
+    {
+     "start": 345.487,
+     "end": 345.707,
+     "text": "that"
+    },
+    {
+     "start": 345.707,
+     "end": 345.787,
+     "text": "it"
+    },
+    {
+     "start": 345.787,
+     "end": 345.927,
+     "text": "was"
+    },
+    {
+     "start": 345.927,
+     "end": 346.727,
+     "text": "conclusive."
+    }
+   ]
+  },
+  {
+   "start": 346.147,
+   "end": 347.107,
+   "text": "Oliver",
+   "words": [
+    {
+     "start": 346.147,
+     "end": 347.107,
+     "text": "Oliver"
+    }
+   ]
+  },
+  {
+   "start": 347.107,
+   "end": 351.147,
+   "text": "also neglected to mention that the paper was written by a consulting firm led",
+   "words": [
+    {
+     "start": 347.107,
+     "end": 347.427,
+     "text": "also"
+    },
+    {
+     "start": 347.427,
+     "end": 347.927,
+     "text": "neglected"
+    },
+    {
+     "start": 347.927,
+     "end": 348.147,
+     "text": "to"
+    },
+    {
+     "start": 348.147,
+     "end": 348.447,
+     "text": "mention"
+    },
+    {
+     "start": 348.447,
+     "end": 348.727,
+     "text": "that"
+    },
+    {
+     "start": 348.727,
+     "end": 348.827,
+     "text": "the"
+    },
+    {
+     "start": 348.827,
+     "end": 349.067,
+     "text": "paper"
+    },
+    {
+     "start": 349.067,
+     "end": 349.307,
+     "text": "was"
+    },
+    {
+     "start": 349.307,
+     "end": 349.507,
+     "text": "written"
+    },
+    {
+     "start": 349.507,
+     "end": 349.727,
+     "text": "by"
+    },
+    {
+     "start": 349.727,
+     "end": 349.847,
+     "text": "a"
+    },
+    {
+     "start": 349.847,
+     "end": 350.227,
+     "text": "consulting"
+    },
+    {
+     "start": 350.227,
+     "end": 350.667,
+     "text": "firm"
+    },
+    {
+     "start": 350.307,
+     "end": 351.147,
+     "text": "led"
+    }
+   ]
+  },
+  {
+   "start": 351.147,
+   "end": 357.613,
+   "text": "by an advocate for supportive housing, though if you looked closely, you can see the name of the organization posted on the screen.",
+   "words": [
+    {
+     "start": 351.147,
+     "end": 351.327,
+     "text": "by"
+    },
+    {
+     "start": 351.327,
+     "end": 351.467,
+     "text": "an"
+    },
+    {
+     "start": 351.467,
+     "end": 351.847,
+     "text": "advocate"
+    },
+    {
+     "start": 351.847,
+     "end": 352.087,
+     "text": "for"
+    },
+    {
+     "start": 352.087,
+     "end": 352.467,
+     "text": "supportive"
+    },
+    {
+     "start": 352.467,
+     "end": 353.347,
+     "text": "housing,"
+    },
+    {
+     "start": 353.347,
+     "end": 353.427,
+     "text": "though"
+    },
+    {
+     "start": 353.427,
+     "end": 353.567,
+     "text": "if"
+    },
+    {
+     "start": 353.567,
+     "end": 353.687,
+     "text": "you"
+    },
+    {
+     "start": 353.687,
+     "end": 353.867,
+     "text": "looked"
+    },
+    {
+     "start": 353.867,
+     "end": 354.627,
+     "text": "closely,"
+    },
+    {
+     "start": 354.067,
+     "end": 354.867,
+     "text": "you"
+    },
+    {
+     "start": 354.867,
+     "end": 354.987,
+     "text": "can"
+    },
+    {
+     "start": 354.987,
+     "end": 355.167,
+     "text": "see"
+    },
+    {
+     "start": 355.167,
+     "end": 355.307,
+     "text": "the"
+    },
+    {
+     "start": 355.307,
+     "end": 355.467,
+     "text": "name"
+    },
+    {
+     "start": 355.433,
+     "end": 355.593,
+     "text": "of"
+    },
+    {
+     "start": 355.593,
+     "end": 355.693,
+     "text": "the"
+    },
+    {
+     "start": 355.693,
+     "end": 356.073,
+     "text": "organization"
+    },
+    {
+     "start": 355.813,
+     "end": 356.753,
+     "text": "posted"
+    },
+    {
+     "start": 356.753,
+     "end": 356.933,
+     "text": "on"
+    },
+    {
+     "start": 356.933,
+     "end": 357.053,
+     "text": "the"
+    },
+    {
+     "start": 357.053,
+     "end": 357.613,
+     "text": "screen."
+    }
+   ]
+  },
+  {
+   "start": 357.613,
+   "end": 363.713,
+   "text": "Every gallon of domestic gasoline now legally has to have at least a little bit",
+   "words": [
+    {
+     "start": 357.613,
+     "end": 359.293,
+     "text": "Every"
+    },
+    {
+     "start": 359.293,
+     "end": 359.653,
+     "text": "gallon"
+    },
+    {
+     "start": 359.653,
+     "end": 360.153,
+     "text": "of"
+    },
+    {
+     "start": 360.153,
+     "end": 360.453,
+     "text": "domestic"
+    },
+    {
+     "start": 360.453,
+     "end": 360.813,
+     "text": "gasoline"
+    },
+    {
+     "start": 360.813,
+     "end": 361.333,
+     "text": "now"
+    },
+    {
+     "start": 361.333,
+     "end": 361.693,
+     "text": "legally"
+    },
+    {
+     "start": 361.693,
+     "end": 362.153,
+     "text": "has"
+    },
+    {
+     "start": 362.153,
+     "end": 362.313,
+     "text": "to"
+    },
+    {
+     "start": 362.313,
+     "end": 362.633,
+     "text": "have"
+    },
+    {
+     "start": 362.633,
+     "end": 363.073,
+     "text": "at"
+    },
+    {
+     "start": 363.073,
+     "end": 363.173,
+     "text": "least"
+    },
+    {
+     "start": 363.173,
+     "end": 363.353,
+     "text": "a"
+    },
+    {
+     "start": 363.353,
+     "end": 363.573,
+     "text": "little"
+    },
+    {
+     "start": 363.073,
+     "end": 363.713,
+     "text": "bit"
+    }
+   ]
+  },
+  {
+   "start": 363.713,
+   "end": 364.553,
+   "text": "of ethanol in it.",
+   "words": [
+    {
+     "start": 363.713,
+     "end": 363.853,
+     "text": "of"
+    },
+    {
+     "start": 363.853,
+     "end": 364.153,
+     "text": "ethanol"
+    },
+    {
+     "start": 364.153,
+     "end": 364.453,
+     "text": "in"
+    },
+    {
+     "start": 364.453,
+     "end": 364.553,
+     "text": "it."
+    }
+   ]
+  },
+  {
+   "start": 364.553,
+   "end": 367.173,
+   "text": "The federal government should not be subsidizing ethanol.",
+   "words": [
+    {
+     "start": 364.553,
+     "end": 364.693,
+     "text": "The"
+    },
+    {
+     "start": 364.693,
+     "end": 364.913,
+     "text": "federal"
+    },
+    {
+     "start": 364.913,
+     "end": 365.353,
+     "text": "government"
+    },
+    {
+     "start": 365.353,
+     "end": 365.713,
+     "text": "should"
+    },
+    {
+     "start": 365.713,
+     "end": 365.933,
+     "text": "not"
+    },
+    {
+     "start": 365.933,
+     "end": 366.133,
+     "text": "be"
+    },
+    {
+     "start": 366.133,
+     "end": 366.753,
+     "text": "subsidizing"
+    },
+    {
+     "start": 366.753,
+     "end": 367.173,
+     "text": "ethanol."
+    }
+   ]
+  },
+  {
+   "start": 367.173,
+   "end": 368.413,
+   "text": "But to support that",
+   "words": [
+    {
+     "start": 367.173,
+     "end": 367.653,
+     "text": "But"
+    },
+    {
+     "start": 367.653,
+     "end": 367.753,
+     "text": "to"
+    },
+    {
+     "start": 367.753,
+     "end": 368.113,
+     "text": "support"
+    },
+    {
+     "start": 368.113,
+     "end": 368.413,
+     "text": "that"
+    }
+   ]
+  },
+  {
+   "start": 367.993,
+   "end": 373.933,
+   "text": "claim, Oliver pointed to a study claiming that ethanol is more harmful to the environment than gasoline",
+   "words": [
+    {
+     "start": 367.993,
+     "end": 369.373,
+     "text": "claim,"
+    },
+    {
+     "start": 369.373,
+     "end": 369.553,
+     "text": "Oliver"
+    },
+    {
+     "start": 369.553,
+     "end": 369.953,
+     "text": "pointed"
+    },
+    {
+     "start": 369.953,
+     "end": 370.173,
+     "text": "to"
+    },
+    {
+     "start": 370.173,
+     "end": 370.313,
+     "text": "a"
+    },
+    {
+     "start": 370.313,
+     "end": 370.593,
+     "text": "study"
+    },
+    {
+     "start": 370.593,
+     "end": 370.953,
+     "text": "claiming"
+    },
+    {
+     "start": 370.953,
+     "end": 371.173,
+     "text": "that"
+    },
+    {
+     "start": 371.173,
+     "end": 371.593,
+     "text": "ethanol"
+    },
+    {
+     "start": 371.593,
+     "end": 371.893,
+     "text": "is"
+    },
+    {
+     "start": 371.893,
+     "end": 372.073,
+     "text": "more"
+    },
+    {
+     "start": 372.073,
+     "end": 372.373,
+     "text": "harmful"
+    },
+    {
+     "start": 372.373,
+     "end": 372.633,
+     "text": "to"
+    },
+    {
+     "start": 372.633,
+     "end": 372.753,
+     "text": "the"
+    },
+    {
+     "start": 372.753,
+     "end": 373.133,
+     "text": "environment"
+    },
+    {
+     "start": 373.133,
+     "end": 373.393,
+     "text": "than"
+    },
+    {
+     "start": 372.953,
+     "end": 373.933,
+     "text": "gasoline"
+    }
+   ]
+  },
+  {
+   "start": 373.933,
+   "end": 377.233,
+   "text": "and implied that only self-interested lobbyists say otherwise.",
+   "words": [
+    {
+     "start": 373.933,
+     "end": 374.633,
+     "text": "and"
+    },
+    {
+     "start": 374.633,
+     "end": 374.993,
+     "text": "implied"
+    },
+    {
+     "start": 374.993,
+     "end": 375.193,
+     "text": "that"
+    },
+    {
+     "start": 375.193,
+     "end": 375.393,
+     "text": "only"
+    },
+    {
+     "start": 375.393,
+     "end": 376.153,
+     "text": "self-interested"
+    },
+    {
+     "start": 376.153,
+     "end": 376.673,
+     "text": "lobbyists"
+    },
+    {
+     "start": 376.673,
+     "end": 376.833,
+     "text": "say"
+    },
+    {
+     "start": 376.833,
+     "end": 377.233,
+     "text": "otherwise."
+    }
+   ]
+  },
+  {
+   "start": 377.233,
+   "end": 378.653,
+   "text": "Well, ethanol lobbying",
+   "words": [
+    {
+     "start": 377.233,
+     "end": 377.833,
+     "text": "Well,"
+    },
+    {
+     "start": 377.833,
+     "end": 378.153,
+     "text": "ethanol"
+    },
+    {
+     "start": 378.153,
+     "end": 378.653,
+     "text": "lobbying"
+    }
+   ]
+  },
+  {
+   "start": 378.693,
+   "end": 381.513,
+   "text": "groups have long argued that it slashes greenhouse emissions.",
+   "words": [
+    {
+     "start": 378.693,
+     "end": 378.873,
+     "text": "groups"
+    },
+    {
+     "start": 378.873,
+     "end": 379.133,
+     "text": "have"
+    },
+    {
+     "start": 379.133,
+     "end": 379.313,
+     "text": "long"
+    },
+    {
+     "start": 379.313,
+     "end": 379.653,
+     "text": "argued"
+    },
+    {
+     "start": 379.653,
+     "end": 379.833,
+     "text": "that"
+    },
+    {
+     "start": 379.833,
+     "end": 379.953,
+     "text": "it"
+    },
+    {
+     "start": 379.953,
+     "end": 380.453,
+     "text": "slashes"
+    },
+    {
+     "start": 380.453,
+     "end": 380.853,
+     "text": "greenhouse"
+    },
+    {
+     "start": 380.853,
+     "end": 381.513,
+     "text": "emissions."
+    }
+   ]
+  },
+  {
+   "start": 381.513,
+   "end": 383.293,
+   "text": "One recent study found that corn ethanol",
+   "words": [
+    {
+     "start": 381.513,
+     "end": 381.613,
+     "text": "One"
+    },
+    {
+     "start": 381.613,
+     "end": 382.073,
+     "text": "recent"
+    },
+    {
+     "start": 382.073,
+     "end": 382.353,
+     "text": "study"
+    },
+    {
+     "start": 382.353,
+     "end": 382.593,
+     "text": "found"
+    },
+    {
+     "start": 382.593,
+     "end": 382.713,
+     "text": "that"
+    },
+    {
+     "start": 382.713,
+     "end": 382.973,
+     "text": "corn"
+    },
+    {
+     "start": 382.493,
+     "end": 383.293,
+     "text": "ethanol"
+    }
+   ]
+  },
+  {
+   "start": 383.293,
+   "end": 389.113,
+   "text": "produced under the renewable fuel standard has a carbon footprint at least 24% higher than",
+   "words": [
+    {
+     "start": 383.293,
+     "end": 383.653,
+     "text": "produced"
+    },
+    {
+     "start": 383.653,
+     "end": 384.073,
+     "text": "under"
+    },
+    {
+     "start": 384.073,
+     "end": 384.493,
+     "text": "the"
+    },
+    {
+     "start": 384.493,
+     "end": 384.773,
+     "text": "renewable"
+    },
+    {
+     "start": 384.773,
+     "end": 385.153,
+     "text": "fuel"
+    },
+    {
+     "start": 385.153,
+     "end": 385.533,
+     "text": "standard"
+    },
+    {
+     "start": 385.533,
+     "end": 385.873,
+     "text": "has"
+    },
+    {
+     "start": 385.873,
+     "end": 385.973,
+     "text": "a"
+    },
+    {
+     "start": 385.973,
+     "end": 386.193,
+     "text": "carbon"
+    },
+    {
+     "start": 386.193,
+     "end": 386.573,
+     "text": "footprint"
+    },
+    {
+     "start": 386.573,
+     "end": 386.813,
+     "text": "at"
+    },
+    {
+     "start": 386.813,
+     "end": 386.973,
+     "text": "least"
+    },
+    {
+     "start": 386.973,
+     "end": 387.973,
+     "text": "24%"
+    },
+    {
+     "start": 387.973,
+     "end": 388.473,
+     "text": "higher"
+    },
+    {
+     "start": 388.473,
+     "end": 389.113,
+     "text": "than"
+    }
+   ]
+  },
+  {
+   "start": 388.893,
+   "end": 389.973,
+   "text": "regular gasoline.",
+   "words": [
+    {
+     "start": 388.893,
+     "end": 389.553,
+     "text": "regular"
+    },
+    {
+     "start": 389.553,
+     "end": 389.973,
+     "text": "gasoline."
+    }
+   ]
+  },
+  {
+   "start": 389.973,
+   "end": 395.553,
+   "text": "If they are going to keep saying a study says, they should have to provide sourcing and",
+   "words": [
+    {
+     "start": 389.973,
+     "end": 390.353,
+     "text": "If"
+    },
+    {
+     "start": 390.353,
+     "end": 390.493,
+     "text": "they"
+    },
+    {
+     "start": 390.493,
+     "end": 390.633,
+     "text": "are"
+    },
+    {
+     "start": 390.633,
+     "end": 390.913,
+     "text": "going"
+    },
+    {
+     "start": 390.913,
+     "end": 391.153,
+     "text": "to"
+    },
+    {
+     "start": 391.153,
+     "end": 391.493,
+     "text": "keep"
+    },
+    {
+     "start": 391.493,
+     "end": 392.133,
+     "text": "saying"
+    },
+    {
+     "start": 392.133,
+     "end": 392.393,
+     "text": "a"
+    },
+    {
+     "start": 392.393,
+     "end": 392.813,
+     "text": "study"
+    },
+    {
+     "start": 392.813,
+     "end": 393.293,
+     "text": "says,"
+    },
+    {
+     "start": 393.293,
+     "end": 393.733,
+     "text": "they"
+    },
+    {
+     "start": 393.733,
+     "end": 393.913,
+     "text": "should"
+    },
+    {
+     "start": 393.913,
+     "end": 394.213,
+     "text": "have"
+    },
+    {
+     "start": 394.213,
+     "end": 394.413,
+     "text": "to"
+    },
+    {
+     "start": 394.413,
+     "end": 394.713,
+     "text": "provide"
+    },
+    {
+     "start": 394.713,
+     "end": 395.293,
+     "text": "sourcing"
+    },
+    {
+     "start": 394.833,
+     "end": 395.553,
+     "text": "and"
+    }
+   ]
+  },
+  {
+   "start": 395.553,
+   "end": 397.693,
+   "text": "context or not mention it at all.",
+   "words": [
+    {
+     "start": 395.553,
+     "end": 396.053,
+     "text": "context"
+    },
+    {
+     "start": 396.053,
+     "end": 396.533,
+     "text": "or"
+    },
+    {
+     "start": 396.533,
+     "end": 396.753,
+     "text": "not"
+    },
+    {
+     "start": 396.753,
+     "end": 397.113,
+     "text": "mention"
+    },
+    {
+     "start": 397.113,
+     "end": 397.253,
+     "text": "it"
+    },
+    {
+     "start": 397.253,
+     "end": 397.413,
+     "text": "at"
+    },
+    {
+     "start": 397.413,
+     "end": 397.693,
+     "text": "all."
+    }
+   ]
+  },
+  {
+   "start": 397.693,
+   "end": 401.473,
+   "text": "What he doesn't mention is that the 2022 study he's citing was",
+   "words": [
+    {
+     "start": 397.693,
+     "end": 397.973,
+     "text": "What"
+    },
+    {
+     "start": 397.973,
+     "end": 398.053,
+     "text": "he"
+    },
+    {
+     "start": 398.053,
+     "end": 398.353,
+     "text": "doesn't"
+    },
+    {
+     "start": 398.353,
+     "end": 398.693,
+     "text": "mention"
+    },
+    {
+     "start": 398.693,
+     "end": 398.953,
+     "text": "is"
+    },
+    {
+     "start": 398.953,
+     "end": 399.093,
+     "text": "that"
+    },
+    {
+     "start": 399.093,
+     "end": 399.253,
+     "text": "the"
+    },
+    {
+     "start": 399.253,
+     "end": 399.693,
+     "text": "2022"
+    },
+    {
+     "start": 399.693,
+     "end": 400.373,
+     "text": "study"
+    },
+    {
+     "start": 400.373,
+     "end": 400.773,
+     "text": "he's"
+    },
+    {
+     "start": 400.773,
+     "end": 400.993,
+     "text": "citing"
+    },
+    {
+     "start": 400.533,
+     "end": 401.473,
+     "text": "was"
+    }
+   ]
+  },
+  {
+   "start": 401.473,
+   "end": 402.573,
+   "text": "highly contested.",
+   "words": [
+    {
+     "start": 401.473,
+     "end": 401.693,
+     "text": "highly"
+    },
+    {
+     "start": 401.693,
+     "end": 402.573,
+     "text": "contested."
+    }
+   ]
+  },
+  {
+   "start": 402.573,
+   "end": 406.733,
+   "text": "It was challenged not just by ethanol lobbying groups, but by the U.S.",
+   "words": [
+    {
+     "start": 402.573,
+     "end": 402.953,
+     "text": "It"
+    },
+    {
+     "start": 402.953,
+     "end": 403.133,
+     "text": "was"
+    },
+    {
+     "start": 403.133,
+     "end": 403.533,
+     "text": "challenged"
+    },
+    {
+     "start": 403.533,
+     "end": 403.833,
+     "text": "not"
+    },
+    {
+     "start": 403.833,
+     "end": 404.093,
+     "text": "just"
+    },
+    {
+     "start": 404.093,
+     "end": 404.353,
+     "text": "by"
+    },
+    {
+     "start": 404.353,
+     "end": 404.773,
+     "text": "ethanol"
+    },
+    {
+     "start": 404.773,
+     "end": 405.133,
+     "text": "lobbying"
+    },
+    {
+     "start": 405.133,
+     "end": 405.553,
+     "text": "groups,"
+    },
+    {
+     "start": 405.553,
+     "end": 406.033,
+     "text": "but"
+    },
+    {
+     "start": 406.033,
+     "end": 406.173,
+     "text": "by"
+    },
+    {
+     "start": 406.173,
+     "end": 406.313,
+     "text": "the"
+    },
+    {
+     "start": 406.313,
+     "end": 406.733,
+     "text": "U.S."
+    }
+   ]
+  },
+  {
+   "start": 406.613,
+   "end": 409.333,
+   "text": "Department of Agriculture under the Biden administration.",
+   "words": [
+    {
+     "start": 406.613,
+     "end": 406.913,
+     "text": "Department"
+    },
+    {
+     "start": 406.913,
+     "end": 407.173,
+     "text": "of"
+    },
+    {
+     "start": 407.173,
+     "end": 407.553,
+     "text": "Agriculture"
+    },
+    {
+     "start": 407.553,
+     "end": 408.333,
+     "text": "under"
+    },
+    {
+     "start": 408.333,
+     "end": 408.473,
+     "text": "the"
+    },
+    {
+     "start": 408.473,
+     "end": 408.773,
+     "text": "Biden"
+    },
+    {
+     "start": 408.773,
+     "end": 409.333,
+     "text": "administration."
+    }
+   ]
+  },
+  {
+   "start": 409.333,
+   "end": 411.793,
+   "text": "The study's claim that ethanol has",
+   "words": [
+    {
+     "start": 409.333,
+     "end": 410.193,
+     "text": "The"
+    },
+    {
+     "start": 410.193,
+     "end": 410.653,
+     "text": "study's"
+    },
+    {
+     "start": 410.653,
+     "end": 410.933,
+     "text": "claim"
+    },
+    {
+     "start": 410.933,
+     "end": 411.153,
+     "text": "that"
+    },
+    {
+     "start": 411.153,
+     "end": 411.413,
+     "text": "ethanol"
+    },
+    {
+     "start": 411.033,
+     "end": 411.793,
+     "text": "has"
+    }
+   ]
+  },
+  {
+   "start": 411.793,
+   "end": 416.953,
+   "text": "a higher carbon footprint than gasoline also contradicts a 2010 projection by the Environmental",
+   "words": [
+    {
+     "start": 411.793,
+     "end": 411.933,
+     "text": "a"
+    },
+    {
+     "start": 411.933,
+     "end": 412.193,
+     "text": "higher"
+    },
+    {
+     "start": 412.193,
+     "end": 412.573,
+     "text": "carbon"
+    },
+    {
+     "start": 412.573,
+     "end": 412.993,
+     "text": "footprint"
+    },
+    {
+     "start": 412.993,
+     "end": 413.213,
+     "text": "than"
+    },
+    {
+     "start": 413.213,
+     "end": 413.713,
+     "text": "gasoline"
+    },
+    {
+     "start": 413.713,
+     "end": 414.393,
+     "text": "also"
+    },
+    {
+     "start": 414.393,
+     "end": 415.133,
+     "text": "contradicts"
+    },
+    {
+     "start": 415.133,
+     "end": 415.233,
+     "text": "a"
+    },
+    {
+     "start": 415.233,
+     "end": 415.613,
+     "text": "2010"
+    },
+    {
+     "start": 415.613,
+     "end": 416.073,
+     "text": "projection"
+    },
+    {
+     "start": 416.073,
+     "end": 416.493,
+     "text": "by"
+    },
+    {
+     "start": 416.493,
+     "end": 416.653,
+     "text": "the"
+    },
+    {
+     "start": 416.653,
+     "end": 416.953,
+     "text": "Environmental"
+    }
+   ]
+  },
+  {
+   "start": 416.593,
+   "end": 421.833,
+   "text": "Protection Agency, which predicted that ethanol would end up being about 20 percent cleaner than",
+   "words": [
+    {
+     "start": 416.593,
+     "end": 417.533,
+     "text": "Protection"
+    },
+    {
+     "start": 417.533,
+     "end": 418.313,
+     "text": "Agency,"
+    },
+    {
+     "start": 418.313,
+     "end": 418.653,
+     "text": "which"
+    },
+    {
+     "start": 418.653,
+     "end": 419.013,
+     "text": "predicted"
+    },
+    {
+     "start": 419.013,
+     "end": 419.233,
+     "text": "that"
+    },
+    {
+     "start": 419.233,
+     "end": 419.593,
+     "text": "ethanol"
+    },
+    {
+     "start": 419.593,
+     "end": 419.893,
+     "text": "would"
+    },
+    {
+     "start": 419.893,
+     "end": 420.073,
+     "text": "end"
+    },
+    {
+     "start": 420.073,
+     "end": 420.213,
+     "text": "up"
+    },
+    {
+     "start": 420.213,
+     "end": 420.373,
+     "text": "being"
+    },
+    {
+     "start": 420.373,
+     "end": 420.633,
+     "text": "about"
+    },
+    {
+     "start": 420.633,
+     "end": 420.993,
+     "text": "20"
+    },
+    {
+     "start": 420.993,
+     "end": 421.253,
+     "text": "percent"
+    },
+    {
+     "start": 421.253,
+     "end": 421.593,
+     "text": "cleaner"
+    },
+    {
+     "start": 421.593,
+     "end": 421.833,
+     "text": "than"
+    }
+   ]
+  },
+  {
+   "start": 421.373,
+   "end": 422.553,
+   "text": "gasoline.",
+   "words": [
+    {
+     "start": 421.373,
+     "end": 422.553,
+     "text": "gasoline."
+    }
+   ]
+  },
+  {
+   "start": 422.553,
+   "end": 427.673,
+   "text": "Argonne National Laboratory, running the government standard model, credits ethanol with",
+   "words": [
+    {
+     "start": 422.553,
+     "end": 423.213,
+     "text": "Argonne"
+    },
+    {
+     "start": 423.213,
+     "end": 423.613,
+     "text": "National"
+    },
+    {
+     "start": 423.613,
+     "end": 424.193,
+     "text": "Laboratory,"
+    },
+    {
+     "start": 424.193,
+     "end": 425.013,
+     "text": "running"
+    },
+    {
+     "start": 425.013,
+     "end": 425.193,
+     "text": "the"
+    },
+    {
+     "start": 425.193,
+     "end": 425.533,
+     "text": "government"
+    },
+    {
+     "start": 425.533,
+     "end": 425.953,
+     "text": "standard"
+    },
+    {
+     "start": 425.953,
+     "end": 426.653,
+     "text": "model,"
+    },
+    {
+     "start": 426.653,
+     "end": 426.893,
+     "text": "credits"
+    },
+    {
+     "start": 426.893,
+     "end": 427.273,
+     "text": "ethanol"
+    },
+    {
+     "start": 426.893,
+     "end": 427.673,
+     "text": "with"
+    }
+   ]
+  },
+  {
+   "start": 427.673,
+   "end": 432.153,
+   "text": "cutting greenhouse emissions by more than 500 million tons in 15 years.",
+   "words": [
+    {
+     "start": 427.673,
+     "end": 427.913,
+     "text": "cutting"
+    },
+    {
+     "start": 427.913,
+     "end": 428.353,
+     "text": "greenhouse"
+    },
+    {
+     "start": 428.353,
+     "end": 428.853,
+     "text": "emissions"
+    },
+    {
+     "start": 428.853,
+     "end": 429.353,
+     "text": "by"
+    },
+    {
+     "start": 429.353,
+     "end": 429.513,
+     "text": "more"
+    },
+    {
+     "start": 429.513,
+     "end": 429.713,
+     "text": "than"
+    },
+    {
+     "start": 429.713,
+     "end": 430.113,
+     "text": "500"
+    },
+    {
+     "start": 430.113,
+     "end": 430.533,
+     "text": "million"
+    },
+    {
+     "start": 430.533,
+     "end": 430.993,
+     "text": "tons"
+    },
+    {
+     "start": 430.993,
+     "end": 431.353,
+     "text": "in"
+    },
+    {
+     "start": 431.353,
+     "end": 431.713,
+     "text": "15"
+    },
+    {
+     "start": 431.713,
+     "end": 432.153,
+     "text": "years."
+    }
+   ]
+  },
+  {
+   "start": 432.153,
+   "end": 433.373,
+   "text": "When we pointed out",
+   "words": [
+    {
+     "start": 432.153,
+     "end": 432.733,
+     "text": "When"
+    },
+    {
+     "start": 432.733,
+     "end": 432.873,
+     "text": "we"
+    },
+    {
+     "start": 432.873,
+     "end": 433.133,
+     "text": "pointed"
+    },
+    {
+     "start": 433.133,
+     "end": 433.373,
+     "text": "out"
+    }
+   ]
+  },
+  {
+   "start": 433.373,
+   "end": 439.153,
+   "text": "to Oliver's producers that the ethanol study was presented without proper context, they came up with examples",
+   "words": [
+    {
+     "start": 433.373,
+     "end": 433.513,
+     "text": "to"
+    },
+    {
+     "start": 433.513,
+     "end": 433.913,
+     "text": "Oliver's"
+    },
+    {
+     "start": 433.913,
+     "end": 434.393,
+     "text": "producers"
+    },
+    {
+     "start": 434.393,
+     "end": 435.053,
+     "text": "that"
+    },
+    {
+     "start": 435.053,
+     "end": 435.193,
+     "text": "the"
+    },
+    {
+     "start": 435.193,
+     "end": 435.433,
+     "text": "ethanol"
+    },
+    {
+     "start": 435.433,
+     "end": 435.793,
+     "text": "study"
+    },
+    {
+     "start": 435.793,
+     "end": 436.033,
+     "text": "was"
+    },
+    {
+     "start": 436.033,
+     "end": 436.433,
+     "text": "presented"
+    },
+    {
+     "start": 436.433,
+     "end": 436.753,
+     "text": "without"
+    },
+    {
+     "start": 436.753,
+     "end": 437.133,
+     "text": "proper"
+    },
+    {
+     "start": 437.133,
+     "end": 437.793,
+     "text": "context,"
+    },
+    {
+     "start": 437.793,
+     "end": 438.213,
+     "text": "they"
+    },
+    {
+     "start": 438.213,
+     "end": 438.373,
+     "text": "came"
+    },
+    {
+     "start": 438.373,
+     "end": 438.533,
+     "text": "up"
+    },
+    {
+     "start": 438.533,
+     "end": 438.653,
+     "text": "with"
+    },
+    {
+     "start": 438.213,
+     "end": 439.153,
+     "text": "examples"
+    }
+   ]
+  },
+  {
+   "start": 439.153,
+   "end": 441.993,
+   "text": "of reason using the same study without proper context.",
+   "words": [
+    {
+     "start": 439.153,
+     "end": 439.393,
+     "text": "of"
+    },
+    {
+     "start": 439.393,
+     "end": 439.733,
+     "text": "reason"
+    },
+    {
+     "start": 439.733,
+     "end": 440.013,
+     "text": "using"
+    },
+    {
+     "start": 440.013,
+     "end": 440.213,
+     "text": "the"
+    },
+    {
+     "start": 440.213,
+     "end": 440.453,
+     "text": "same"
+    },
+    {
+     "start": 440.453,
+     "end": 440.773,
+     "text": "study"
+    },
+    {
+     "start": 440.773,
+     "end": 441.053,
+     "text": "without"
+    },
+    {
+     "start": 441.053,
+     "end": 441.393,
+     "text": "proper"
+    },
+    {
+     "start": 441.393,
+     "end": 441.993,
+     "text": "context."
+    }
+   ]
+  },
+  {
+   "start": 441.993,
+   "end": 444.293,
+   "text": "And I agree, we should all do better",
+   "words": [
+    {
+     "start": 441.993,
+     "end": 442.593,
+     "text": "And"
+    },
+    {
+     "start": 442.593,
+     "end": 442.693,
+     "text": "I"
+    },
+    {
+     "start": 442.693,
+     "end": 443.073,
+     "text": "agree,"
+    },
+    {
+     "start": 443.073,
+     "end": 443.533,
+     "text": "we"
+    },
+    {
+     "start": 443.533,
+     "end": 443.693,
+     "text": "should"
+    },
+    {
+     "start": 443.693,
+     "end": 443.853,
+     "text": "all"
+    },
+    {
+     "start": 443.853,
+     "end": 444.013,
+     "text": "do"
+    },
+    {
+     "start": 443.553,
+     "end": 444.293,
+     "text": "better"
+    }
+   ]
+  },
+  {
+   "start": 444.293,
+   "end": 449.313,
+   "text": "on how we present research on complex issues, especially when it supports a policy position",
+   "words": [
+    {
+     "start": 444.293,
+     "end": 444.513,
+     "text": "on"
+    },
+    {
+     "start": 444.513,
+     "end": 444.713,
+     "text": "how"
+    },
+    {
+     "start": 444.713,
+     "end": 444.873,
+     "text": "we"
+    },
+    {
+     "start": 444.873,
+     "end": 445.233,
+     "text": "present"
+    },
+    {
+     "start": 445.233,
+     "end": 445.633,
+     "text": "research"
+    },
+    {
+     "start": 445.633,
+     "end": 445.893,
+     "text": "on"
+    },
+    {
+     "start": 445.893,
+     "end": 446.273,
+     "text": "complex"
+    },
+    {
+     "start": 446.273,
+     "end": 447.133,
+     "text": "issues,"
+    },
+    {
+     "start": 447.133,
+     "end": 447.493,
+     "text": "especially"
+    },
+    {
+     "start": 447.493,
+     "end": 447.813,
+     "text": "when"
+    },
+    {
+     "start": 447.813,
+     "end": 447.973,
+     "text": "it"
+    },
+    {
+     "start": 447.973,
+     "end": 448.333,
+     "text": "supports"
+    },
+    {
+     "start": 448.333,
+     "end": 448.513,
+     "text": "a"
+    },
+    {
+     "start": 448.513,
+     "end": 448.773,
+     "text": "policy"
+    },
+    {
+     "start": 448.373,
+     "end": 449.313,
+     "text": "position"
+    }
+   ]
+  },
+  {
+   "start": 449.313,
+   "end": 450.153,
+   "text": "we favor.",
+   "words": [
+    {
+     "start": 449.313,
+     "end": 449.513,
+     "text": "we"
+    },
+    {
+     "start": 449.513,
+     "end": 450.153,
+     "text": "favor."
+    }
+   ]
+  },
+  {
+   "start": 450.153,
+   "end": 453.833,
+   "text": "As I said in my opening, do as I say, not as I do.",
+   "words": [
+    {
+     "start": 450.153,
+     "end": 450.533,
+     "text": "As"
+    },
+    {
+     "start": 450.533,
+     "end": 450.633,
+     "text": "I"
+    },
+    {
+     "start": 450.633,
+     "end": 450.793,
+     "text": "said"
+    },
+    {
+     "start": 450.793,
+     "end": 450.933,
+     "text": "in"
+    },
+    {
+     "start": 450.933,
+     "end": 451.053,
+     "text": "my"
+    },
+    {
+     "start": 451.053,
+     "end": 451.833,
+     "text": "opening,"
+    },
+    {
+     "start": 451.833,
+     "end": 452.053,
+     "text": "do"
+    },
+    {
+     "start": 452.053,
+     "end": 452.233,
+     "text": "as"
+    },
+    {
+     "start": 452.233,
+     "end": 452.353,
+     "text": "I"
+    },
+    {
+     "start": 452.353,
+     "end": 453.073,
+     "text": "say,"
+    },
+    {
+     "start": 453.073,
+     "end": 453.193,
+     "text": "not"
+    },
+    {
+     "start": 453.193,
+     "end": 453.393,
+     "text": "as"
+    },
+    {
+     "start": 453.393,
+     "end": 453.533,
+     "text": "I"
+    },
+    {
+     "start": 453.533,
+     "end": 453.833,
+     "text": "do."
+    }
+   ]
+  },
+  {
+   "start": 457.433,
+   "end": 462.453,
+   "text": "There has been a massive rise in both the number and the use of police department SWAT teams.",
+   "words": [
+    {
+     "start": 457.433,
+     "end": 457.573,
+     "text": "There"
+    },
+    {
+     "start": 457.573,
+     "end": 457.713,
+     "text": "has"
+    },
+    {
+     "start": 457.713,
+     "end": 457.813,
+     "text": "been"
+    },
+    {
+     "start": 457.813,
+     "end": 457.973,
+     "text": "a"
+    },
+    {
+     "start": 457.973,
+     "end": 458.353,
+     "text": "massive"
+    },
+    {
+     "start": 458.353,
+     "end": 458.793,
+     "text": "rise"
+    },
+    {
+     "start": 458.793,
+     "end": 459.073,
+     "text": "in"
+    },
+    {
+     "start": 459.073,
+     "end": 459.213,
+     "text": "both"
+    },
+    {
+     "start": 459.213,
+     "end": 459.373,
+     "text": "the"
+    },
+    {
+     "start": 459.373,
+     "end": 459.653,
+     "text": "number"
+    },
+    {
+     "start": 459.653,
+     "end": 459.913,
+     "text": "and"
+    },
+    {
+     "start": 459.913,
+     "end": 460.033,
+     "text": "the"
+    },
+    {
+     "start": 460.033,
+     "end": 460.453,
+     "text": "use"
+    },
+    {
+     "start": 460.453,
+     "end": 461.033,
+     "text": "of"
+    },
+    {
+     "start": 461.033,
+     "end": 461.253,
+     "text": "police"
+    },
+    {
+     "start": 461.253,
+     "end": 461.753,
+     "text": "department"
+    },
+    {
+     "start": 461.753,
+     "end": 462.093,
+     "text": "SWAT"
+    },
+    {
+     "start": 462.093,
+     "end": 462.453,
+     "text": "teams."
+    }
+   ]
+  },
+  {
+   "start": 463.453,
+   "end": 468.673,
+   "text": "The number of SWAT raids have gone up by 1,400% since the 1980s.",
+   "words": [
+    {
+     "start": 463.453,
+     "end": 463.473,
+     "text": "The"
+    },
+    {
+     "start": 463.473,
+     "end": 463.713,
+     "text": "number"
+    },
+    {
+     "start": 463.713,
+     "end": 463.953,
+     "text": "of"
+    },
+    {
+     "start": 463.953,
+     "end": 464.233,
+     "text": "SWAT"
+    },
+    {
+     "start": 464.233,
+     "end": 464.513,
+     "text": "raids"
+    },
+    {
+     "start": 464.513,
+     "end": 464.893,
+     "text": "have"
+    },
+    {
+     "start": 464.893,
+     "end": 465.033,
+     "text": "gone"
+    },
+    {
+     "start": 465.033,
+     "end": 465.233,
+     "text": "up"
+    },
+    {
+     "start": 465.233,
+     "end": 465.533,
+     "text": "by"
+    },
+    {
+     "start": 465.533,
+     "end": 466.893,
+     "text": "1,400%"
+    },
+    {
+     "start": 466.893,
+     "end": 467.473,
+     "text": "since"
+    },
+    {
+     "start": 467.473,
+     "end": 467.673,
+     "text": "the"
+    },
+    {
+     "start": 467.673,
+     "end": 468.673,
+     "text": "1980s."
+    }
+   ]
+  },
+  {
+   "start": 468.553,
+   "end": 472.033,
+   "text": "An estimated 50,000 now take place every year.",
+   "words": [
+    {
+     "start": 468.553,
+     "end": 468.733,
+     "text": "An"
+    },
+    {
+     "start": 468.733,
+     "end": 469.233,
+     "text": "estimated"
+    },
+    {
+     "start": 469.233,
+     "end": 470.313,
+     "text": "50,000"
+    },
+    {
+     "start": 470.313,
+     "end": 470.653,
+     "text": "now"
+    },
+    {
+     "start": 470.653,
+     "end": 470.893,
+     "text": "take"
+    },
+    {
+     "start": 470.893,
+     "end": 471.213,
+     "text": "place"
+    },
+    {
+     "start": 471.213,
+     "end": 471.633,
+     "text": "every"
+    },
+    {
+     "start": 471.633,
+     "end": 472.033,
+     "text": "year."
+    }
+   ]
+  },
+  {
+   "start": 472.093,
+   "end": 475.273,
+   "text": "If they are going to keep saying a study says,",
+   "words": [
+    {
+     "start": 472.093,
+     "end": 472.233,
+     "text": "If"
+    },
+    {
+     "start": 472.233,
+     "end": 472.373,
+     "text": "they"
+    },
+    {
+     "start": 472.373,
+     "end": 472.513,
+     "text": "are"
+    },
+    {
+     "start": 472.513,
+     "end": 472.813,
+     "text": "going"
+    },
+    {
+     "start": 472.813,
+     "end": 473.013,
+     "text": "to"
+    },
+    {
+     "start": 473.013,
+     "end": 473.353,
+     "text": "keep"
+    },
+    {
+     "start": 473.353,
+     "end": 473.973,
+     "text": "saying"
+    },
+    {
+     "start": 473.973,
+     "end": 474.253,
+     "text": "a"
+    },
+    {
+     "start": 474.253,
+     "end": 474.673,
+     "text": "study"
+    },
+    {
+     "start": 474.673,
+     "end": 475.273,
+     "text": "says,"
+    }
+   ]
+  },
+  {
+   "start": 475.433,
+   "end": 479.613,
+   "text": "they should have to provide sourcing and context or not mention it at all.",
+   "words": [
+    {
+     "start": 475.433,
+     "end": 475.613,
+     "text": "they"
+    },
+    {
+     "start": 475.613,
+     "end": 475.773,
+     "text": "should"
+    },
+    {
+     "start": 475.773,
+     "end": 476.073,
+     "text": "have"
+    },
+    {
+     "start": 476.073,
+     "end": 476.313,
+     "text": "to"
+    },
+    {
+     "start": 476.313,
+     "end": 476.693,
+     "text": "provide"
+    },
+    {
+     "start": 476.693,
+     "end": 477.173,
+     "text": "sourcing"
+    },
+    {
+     "start": 477.173,
+     "end": 477.393,
+     "text": "and"
+    },
+    {
+     "start": 477.393,
+     "end": 477.793,
+     "text": "context"
+    },
+    {
+     "start": 477.793,
+     "end": 478.393,
+     "text": "or"
+    },
+    {
+     "start": 478.393,
+     "end": 478.633,
+     "text": "not"
+    },
+    {
+     "start": 478.633,
+     "end": 478.953,
+     "text": "mention"
+    },
+    {
+     "start": 478.953,
+     "end": 479.133,
+     "text": "it"
+    },
+    {
+     "start": 479.133,
+     "end": 479.293,
+     "text": "at"
+    },
+    {
+     "start": 479.293,
+     "end": 479.613,
+     "text": "all."
+    }
+   ]
+  },
+  {
+   "start": 479.773,
+   "end": 482.953,
+   "text": "Where did the claim that there was a 1,400% increase come from?",
+   "words": [
+    {
+     "start": 479.773,
+     "end": 479.953,
+     "text": "Where"
+    },
+    {
+     "start": 479.953,
+     "end": 480.113,
+     "text": "did"
+    },
+    {
+     "start": 480.113,
+     "end": 480.213,
+     "text": "the"
+    },
+    {
+     "start": 480.213,
+     "end": 480.453,
+     "text": "claim"
+    },
+    {
+     "start": 480.453,
+     "end": 480.633,
+     "text": "that"
+    },
+    {
+     "start": 480.633,
+     "end": 480.753,
+     "text": "there"
+    },
+    {
+     "start": 480.753,
+     "end": 480.913,
+     "text": "was"
+    },
+    {
+     "start": 480.913,
+     "end": 481.033,
+     "text": "a"
+    },
+    {
+     "start": 481.033,
+     "end": 482.053,
+     "text": "1,400%"
+    },
+    {
+     "start": 482.053,
+     "end": 482.373,
+     "text": "increase"
+    },
+    {
+     "start": 482.373,
+     "end": 482.693,
+     "text": "come"
+    },
+    {
+     "start": 482.693,
+     "end": 482.953,
+     "text": "from?"
+    }
+   ]
+  },
+  {
+   "start": 483.333,
+   "end": 486.273,
+   "text": "It's based on a voluntary survey conducted by mail,",
+   "words": [
+    {
+     "start": 483.333,
+     "end": 483.593,
+     "text": "It's"
+    },
+    {
+     "start": 483.593,
+     "end": 483.753,
+     "text": "based"
+    },
+    {
+     "start": 483.753,
+     "end": 483.953,
+     "text": "on"
+    },
+    {
+     "start": 483.953,
+     "end": 484.053,
+     "text": "a"
+    },
+    {
+     "start": 484.053,
+     "end": 484.453,
+     "text": "voluntary"
+    },
+    {
+     "start": 484.453,
+     "end": 485.033,
+     "text": "survey"
+    },
+    {
+     "start": 485.033,
+     "end": 485.453,
+     "text": "conducted"
+    },
+    {
+     "start": 485.453,
+     "end": 485.813,
+     "text": "by"
+    },
+    {
+     "start": 485.813,
+     "end": 486.273,
+     "text": "mail,"
+    }
+   ]
+  },
+  {
+   "start": 486.313,
+   "end": 488.473,
+   "text": "which isn't a reliable method of gathering data.",
+   "words": [
+    {
+     "start": 486.313,
+     "end": 486.533,
+     "text": "which"
+    },
+    {
+     "start": 486.533,
+     "end": 486.773,
+     "text": "isn't"
+    },
+    {
+     "start": 486.773,
+     "end": 486.893,
+     "text": "a"
+    },
+    {
+     "start": 486.893,
+     "end": 487.233,
+     "text": "reliable"
+    },
+    {
+     "start": 487.233,
+     "end": 487.593,
+     "text": "method"
+    },
+    {
+     "start": 487.593,
+     "end": 487.753,
+     "text": "of"
+    },
+    {
+     "start": 487.753,
+     "end": 488.033,
+     "text": "gathering"
+    },
+    {
+     "start": 488.033,
+     "end": 488.473,
+     "text": "data."
+    }
+   ]
+  },
+  {
+   "start": 488.773,
+   "end": 491.773,
+   "text": "There's no official count of SWAT raids, and nobody tracks",
+   "words": [
+    {
+     "start": 488.773,
+     "end": 489.053,
+     "text": "There's"
+    },
+    {
+     "start": 489.053,
+     "end": 489.173,
+     "text": "no"
+    },
+    {
+     "start": 489.173,
+     "end": 489.553,
+     "text": "official"
+    },
+    {
+     "start": 489.553,
+     "end": 489.893,
+     "text": "count"
+    },
+    {
+     "start": 489.893,
+     "end": 490.053,
+     "text": "of"
+    },
+    {
+     "start": 490.053,
+     "end": 490.273,
+     "text": "SWAT"
+    },
+    {
+     "start": 490.273,
+     "end": 490.833,
+     "text": "raids,"
+    },
+    {
+     "start": 490.833,
+     "end": 491.133,
+     "text": "and"
+    },
+    {
+     "start": 491.133,
+     "end": 491.333,
+     "text": "nobody"
+    },
+    {
+     "start": 491.333,
+     "end": 491.773,
+     "text": "tracks"
+    }
+   ]
+  },
+  {
+   "start": 491.773,
+   "end": 492.513,
+   "text": "them.",
+   "words": [
+    {
+     "start": 491.773,
+     "end": 492.513,
+     "text": "them."
+    }
+   ]
+  },
+  {
+   "start": 492.293,
+   "end": 493.013,
+   "text": "then or now.",
+   "words": [
+    {
+     "start": 492.293,
+     "end": 492.413,
+     "text": "then"
+    },
+    {
+     "start": 492.413,
+     "end": 492.573,
+     "text": "or"
+    },
+    {
+     "start": 492.573,
+     "end": 493.013,
+     "text": "now."
+    }
+   ]
+  },
+  {
+   "start": 493.013,
+   "end": 497.173,
+   "text": "So the whole figure rests on department self-reporting of how often they deployed,",
+   "words": [
+    {
+     "start": 493.013,
+     "end": 493.473,
+     "text": "So"
+    },
+    {
+     "start": 493.473,
+     "end": 493.613,
+     "text": "the"
+    },
+    {
+     "start": 493.613,
+     "end": 493.773,
+     "text": "whole"
+    },
+    {
+     "start": 493.773,
+     "end": 494.113,
+     "text": "figure"
+    },
+    {
+     "start": 494.113,
+     "end": 494.473,
+     "text": "rests"
+    },
+    {
+     "start": 494.473,
+     "end": 494.653,
+     "text": "on"
+    },
+    {
+     "start": 494.653,
+     "end": 495.073,
+     "text": "department"
+    },
+    {
+     "start": 495.073,
+     "end": 495.953,
+     "text": "self-reporting"
+    },
+    {
+     "start": 495.953,
+     "end": 496.133,
+     "text": "of"
+    },
+    {
+     "start": 496.133,
+     "end": 496.233,
+     "text": "how"
+    },
+    {
+     "start": 496.233,
+     "end": 496.533,
+     "text": "often"
+    },
+    {
+     "start": 496.533,
+     "end": 496.733,
+     "text": "they"
+    },
+    {
+     "start": 496.353,
+     "end": 497.173,
+     "text": "deployed,"
+    }
+   ]
+  },
+  {
+   "start": 497.173,
+   "end": 499.773,
+   "text": "with no shared definition of what that means.",
+   "words": [
+    {
+     "start": 497.173,
+     "end": 497.873,
+     "text": "with"
+    },
+    {
+     "start": 497.873,
+     "end": 497.993,
+     "text": "no"
+    },
+    {
+     "start": 497.993,
+     "end": 498.293,
+     "text": "shared"
+    },
+    {
+     "start": 498.293,
+     "end": 498.753,
+     "text": "definition"
+    },
+    {
+     "start": 498.753,
+     "end": 499.013,
+     "text": "of"
+    },
+    {
+     "start": 499.013,
+     "end": 499.133,
+     "text": "what"
+    },
+    {
+     "start": 499.133,
+     "end": 499.273,
+     "text": "that"
+    },
+    {
+     "start": 499.273,
+     "end": 499.773,
+     "text": "means."
+    }
+   ]
+  },
+  {
+   "start": 499.773,
+   "end": 503.013,
+   "text": "The 1980s figures that form the baseline for",
+   "words": [
+    {
+     "start": 499.773,
+     "end": 500.253,
+     "text": "The"
+    },
+    {
+     "start": 500.253,
+     "end": 500.993,
+     "text": "1980s"
+    },
+    {
+     "start": 500.993,
+     "end": 501.373,
+     "text": "figures"
+    },
+    {
+     "start": 501.373,
+     "end": 501.893,
+     "text": "that"
+    },
+    {
+     "start": 501.893,
+     "end": 502.113,
+     "text": "form"
+    },
+    {
+     "start": 502.113,
+     "end": 502.233,
+     "text": "the"
+    },
+    {
+     "start": 502.233,
+     "end": 502.653,
+     "text": "baseline"
+    },
+    {
+     "start": 502.213,
+     "end": 503.013,
+     "text": "for"
+    }
+   ]
+  },
+  {
+   "start": 503.013,
+   "end": 508.713,
+   "text": "the 1400% increase in SWAT raids are from a survey conducted in the mid-90s, making them",
+   "words": [
+    {
+     "start": 503.013,
+     "end": 503.153,
+     "text": "the"
+    },
+    {
+     "start": 503.153,
+     "end": 504.073,
+     "text": "1400%"
+    },
+    {
+     "start": 504.073,
+     "end": 504.533,
+     "text": "increase"
+    },
+    {
+     "start": 504.533,
+     "end": 504.793,
+     "text": "in"
+    },
+    {
+     "start": 504.793,
+     "end": 505.033,
+     "text": "SWAT"
+    },
+    {
+     "start": 505.033,
+     "end": 505.373,
+     "text": "raids"
+    },
+    {
+     "start": 505.373,
+     "end": 505.873,
+     "text": "are"
+    },
+    {
+     "start": 505.873,
+     "end": 506.033,
+     "text": "from"
+    },
+    {
+     "start": 506.033,
+     "end": 506.173,
+     "text": "a"
+    },
+    {
+     "start": 506.173,
+     "end": 506.453,
+     "text": "survey"
+    },
+    {
+     "start": 506.453,
+     "end": 506.893,
+     "text": "conducted"
+    },
+    {
+     "start": 506.893,
+     "end": 507.153,
+     "text": "in"
+    },
+    {
+     "start": 507.153,
+     "end": 507.233,
+     "text": "the"
+    },
+    {
+     "start": 507.233,
+     "end": 508.193,
+     "text": "mid-90s,"
+    },
+    {
+     "start": 508.193,
+     "end": 508.513,
+     "text": "making"
+    },
+    {
+     "start": 508.513,
+     "end": 508.713,
+     "text": "them"
+    }
+   ]
+  },
+  {
+   "start": 508.373,
+   "end": 510.333,
+   "text": "especially unreliable.",
+   "words": [
+    {
+     "start": 508.373,
+     "end": 509.173,
+     "text": "especially"
+    },
+    {
+     "start": 509.173,
+     "end": 510.333,
+     "text": "unreliable."
+    }
+   ]
+  },
+  {
+   "start": 510.333,
+   "end": 514.373,
+   "text": "Nobody was counting SWAT raids at the time, and there's no way to check.",
+   "words": [
+    {
+     "start": 510.333,
+     "end": 510.693,
+     "text": "Nobody"
+    },
+    {
+     "start": 510.693,
+     "end": 510.933,
+     "text": "was"
+    },
+    {
+     "start": 510.933,
+     "end": 511.293,
+     "text": "counting"
+    },
+    {
+     "start": 511.293,
+     "end": 511.693,
+     "text": "SWAT"
+    },
+    {
+     "start": 511.693,
+     "end": 511.953,
+     "text": "raids"
+    },
+    {
+     "start": 511.953,
+     "end": 512.133,
+     "text": "at"
+    },
+    {
+     "start": 512.133,
+     "end": 512.253,
+     "text": "the"
+    },
+    {
+     "start": 512.253,
+     "end": 512.833,
+     "text": "time,"
+    },
+    {
+     "start": 512.833,
+     "end": 513.233,
+     "text": "and"
+    },
+    {
+     "start": 513.233,
+     "end": 513.453,
+     "text": "there's"
+    },
+    {
+     "start": 513.453,
+     "end": 513.613,
+     "text": "no"
+    },
+    {
+     "start": 513.613,
+     "end": 513.753,
+     "text": "way"
+    },
+    {
+     "start": 513.753,
+     "end": 513.913,
+     "text": "to"
+    },
+    {
+     "start": 513.913,
+     "end": 514.373,
+     "text": "check."
+    }
+   ]
+  },
+  {
+   "start": 514.753,
+   "end": 520.473,
+   "text": "After playing the video of a newscaster reading the 1400% claim, Oliver cited another study.",
+   "words": [
+    {
+     "start": 514.753,
+     "end": 514.973,
+     "text": "After"
+    },
+    {
+     "start": 514.973,
+     "end": 515.313,
+     "text": "playing"
+    },
+    {
+     "start": 515.313,
+     "end": 515.493,
+     "text": "the"
+    },
+    {
+     "start": 515.493,
+     "end": 515.753,
+     "text": "video"
+    },
+    {
+     "start": 515.753,
+     "end": 516.013,
+     "text": "of"
+    },
+    {
+     "start": 516.013,
+     "end": 516.153,
+     "text": "a"
+    },
+    {
+     "start": 516.153,
+     "end": 516.733,
+     "text": "newscaster"
+    },
+    {
+     "start": 516.733,
+     "end": 517.133,
+     "text": "reading"
+    },
+    {
+     "start": 517.133,
+     "end": 517.313,
+     "text": "the"
+    },
+    {
+     "start": 517.313,
+     "end": 518.233,
+     "text": "1400%"
+    },
+    {
+     "start": 518.233,
+     "end": 518.993,
+     "text": "claim,"
+    },
+    {
+     "start": 518.993,
+     "end": 519.353,
+     "text": "Oliver"
+    },
+    {
+     "start": 519.353,
+     "end": 519.693,
+     "text": "cited"
+    },
+    {
+     "start": 519.693,
+     "end": 520.053,
+     "text": "another"
+    },
+    {
+     "start": 520.053,
+     "end": 520.473,
+     "text": "study."
+    }
+   ]
+  },
+  {
+   "start": 520.553,
+   "end": 528.753,
+   "text": "Just keep that clip in mind when I tell you that 79% of SWAT deployments are now for executing search warrants, and most of those",
+   "words": [
+    {
+     "start": 520.553,
+     "end": 520.973,
+     "text": "Just"
+    },
+    {
+     "start": 520.973,
+     "end": 521.293,
+     "text": "keep"
+    },
+    {
+     "start": 521.293,
+     "end": 521.513,
+     "text": "that"
+    },
+    {
+     "start": 521.513,
+     "end": 521.753,
+     "text": "clip"
+    },
+    {
+     "start": 521.753,
+     "end": 521.953,
+     "text": "in"
+    },
+    {
+     "start": 521.953,
+     "end": 522.173,
+     "text": "mind"
+    },
+    {
+     "start": 522.173,
+     "end": 522.373,
+     "text": "when"
+    },
+    {
+     "start": 522.373,
+     "end": 522.473,
+     "text": "I"
+    },
+    {
+     "start": 522.473,
+     "end": 522.693,
+     "text": "tell"
+    },
+    {
+     "start": 522.693,
+     "end": 522.833,
+     "text": "you"
+    },
+    {
+     "start": 522.833,
+     "end": 522.973,
+     "text": "that"
+    },
+    {
+     "start": 522.973,
+     "end": 524.093,
+     "text": "79%"
+    },
+    {
+     "start": 524.093,
+     "end": 524.493,
+     "text": "of"
+    },
+    {
+     "start": 524.493,
+     "end": 524.773,
+     "text": "SWAT"
+    },
+    {
+     "start": 524.773,
+     "end": 525.413,
+     "text": "deployments"
+    },
+    {
+     "start": 525.413,
+     "end": 525.673,
+     "text": "are"
+    },
+    {
+     "start": 525.673,
+     "end": 525.793,
+     "text": "now"
+    },
+    {
+     "start": 525.793,
+     "end": 525.973,
+     "text": "for"
+    },
+    {
+     "start": 525.973,
+     "end": 526.373,
+     "text": "executing"
+    },
+    {
+     "start": 526.373,
+     "end": 527.033,
+     "text": "search"
+    },
+    {
+     "start": 527.033,
+     "end": 527.713,
+     "text": "warrants,"
+    },
+    {
+     "start": 527.713,
+     "end": 528.133,
+     "text": "and"
+    },
+    {
+     "start": 528.133,
+     "end": 528.353,
+     "text": "most"
+    },
+    {
+     "start": 528.353,
+     "end": 528.513,
+     "text": "of"
+    },
+    {
+     "start": 528.513,
+     "end": 528.753,
+     "text": "those"
+    }
+   ]
+  },
+  {
+   "start": 528.753,
+   "end": 530.773,
+   "text": "were for drug investigations.",
+   "words": [
+    {
+     "start": 528.753,
+     "end": 529.173,
+     "text": "were"
+    },
+    {
+     "start": 529.173,
+     "end": 529.313,
+     "text": "for"
+    },
+    {
+     "start": 529.313,
+     "end": 529.653,
+     "text": "drug"
+    },
+    {
+     "start": 529.653,
+     "end": 530.773,
+     "text": "investigations."
+    }
+   ]
+  },
+  {
+   "start": 530.933,
+   "end": 539.2,
+   "text": "Just because a study is industry funded or its sample size was small or it was done on mice doesn't mean it's automatically flawed,",
+   "words": [
+    {
+     "start": 530.933,
+     "end": 531.193,
+     "text": "Just"
+    },
+    {
+     "start": 531.193,
+     "end": 531.513,
+     "text": "because"
+    },
+    {
+     "start": 531.513,
+     "end": 531.653,
+     "text": "a"
+    },
+    {
+     "start": 531.653,
+     "end": 532.013,
+     "text": "study"
+    },
+    {
+     "start": 532.013,
+     "end": 532.553,
+     "text": "is"
+    },
+    {
+     "start": 532.553,
+     "end": 532.993,
+     "text": "industry"
+    },
+    {
+     "start": 532.993,
+     "end": 533.313,
+     "text": "funded"
+    },
+    {
+     "start": 533.313,
+     "end": 533.653,
+     "text": "or"
+    },
+    {
+     "start": 533.653,
+     "end": 533.833,
+     "text": "its"
+    },
+    {
+     "start": 533.833,
+     "end": 534.133,
+     "text": "sample"
+    },
+    {
+     "start": 534.133,
+     "end": 534.413,
+     "text": "size"
+    },
+    {
+     "start": 534.413,
+     "end": 534.593,
+     "text": "was"
+    },
+    {
+     "start": 534.593,
+     "end": 534.913,
+     "text": "small"
+    },
+    {
+     "start": 534.86,
+     "end": 535.16,
+     "text": "or"
+    },
+    {
+     "start": 535.16,
+     "end": 535.28,
+     "text": "it"
+    },
+    {
+     "start": 535.28,
+     "end": 535.4,
+     "text": "was"
+    },
+    {
+     "start": 535.4,
+     "end": 535.66,
+     "text": "done"
+    },
+    {
+     "start": 535.22,
+     "end": 535.96,
+     "text": "on"
+    },
+    {
+     "start": 535.96,
+     "end": 536.34,
+     "text": "mice"
+    },
+    {
+     "start": 536.34,
+     "end": 536.94,
+     "text": "doesn't"
+    },
+    {
+     "start": 536.94,
+     "end": 537.18,
+     "text": "mean"
+    },
+    {
+     "start": 537.18,
+     "end": 537.54,
+     "text": "it's"
+    },
+    {
+     "start": 537.54,
+     "end": 538.26,
+     "text": "automatically"
+    },
+    {
+     "start": 538.26,
+     "end": 539.2,
+     "text": "flawed,"
+    }
+   ]
+  },
+  {
+   "start": 539.2,
+   "end": 542.14,
+   "text": "but it is something the media reporting on it should",
+   "words": [
+    {
+     "start": 539.2,
+     "end": 539.42,
+     "text": "but"
+    },
+    {
+     "start": 539.42,
+     "end": 539.98,
+     "text": "it"
+    },
+    {
+     "start": 539.98,
+     "end": 540.12,
+     "text": "is"
+    },
+    {
+     "start": 540.12,
+     "end": 540.4,
+     "text": "something"
+    },
+    {
+     "start": 540.4,
+     "end": 540.6,
+     "text": "the"
+    },
+    {
+     "start": 540.6,
+     "end": 540.88,
+     "text": "media"
+    },
+    {
+     "start": 540.88,
+     "end": 541.4,
+     "text": "reporting"
+    },
+    {
+     "start": 541.4,
+     "end": 541.62,
+     "text": "on"
+    },
+    {
+     "start": 541.62,
+     "end": 541.72,
+     "text": "it"
+    },
+    {
+     "start": 541.26,
+     "end": 542.14,
+     "text": "should"
+    }
+   ]
+  },
+  {
+   "start": 542.14,
+   "end": 543.54,
+   "text": "probably tell you about.",
+   "words": [
+    {
+     "start": 542.14,
+     "end": 542.52,
+     "text": "probably"
+    },
+    {
+     "start": 542.52,
+     "end": 542.9,
+     "text": "tell"
+    },
+    {
+     "start": 542.9,
+     "end": 543.06,
+     "text": "you"
+    },
+    {
+     "start": 543.06,
+     "end": 543.54,
+     "text": "about."
+    }
+   ]
+  },
+  {
+   "start": 543.54,
+   "end": 547.4,
+   "text": "That 79% figure is based on a small non-random sample.",
+   "words": [
+    {
+     "start": 543.54,
+     "end": 543.86,
+     "text": "That"
+    },
+    {
+     "start": 543.86,
+     "end": 544.7,
+     "text": "79%"
+    },
+    {
+     "start": 544.7,
+     "end": 545.1,
+     "text": "figure"
+    },
+    {
+     "start": 545.1,
+     "end": 545.36,
+     "text": "is"
+    },
+    {
+     "start": 545.36,
+     "end": 545.56,
+     "text": "based"
+    },
+    {
+     "start": 545.56,
+     "end": 545.76,
+     "text": "on"
+    },
+    {
+     "start": 545.76,
+     "end": 545.88,
+     "text": "a"
+    },
+    {
+     "start": 545.88,
+     "end": 546.2,
+     "text": "small"
+    },
+    {
+     "start": 546.2,
+     "end": 546.86,
+     "text": "non-random"
+    },
+    {
+     "start": 546.86,
+     "end": 547.4,
+     "text": "sample."
+    }
+   ]
+  },
+  {
+   "start": 547.4,
+   "end": 548.16,
+   "text": "It comes from",
+   "words": [
+    {
+     "start": 547.4,
+     "end": 547.76,
+     "text": "It"
+    },
+    {
+     "start": 547.76,
+     "end": 547.94,
+     "text": "comes"
+    },
+    {
+     "start": 547.66,
+     "end": 548.16,
+     "text": "from"
+    }
+   ]
+  },
+  {
+   "start": 548.16,
+   "end": 553.72,
+   "text": "a records request by the ACLU, but the organization was only able to get data from 20 of",
+   "words": [
+    {
+     "start": 548.16,
+     "end": 548.28,
+     "text": "a"
+    },
+    {
+     "start": 548.28,
+     "end": 548.6,
+     "text": "records"
+    },
+    {
+     "start": 548.6,
+     "end": 549.02,
+     "text": "request"
+    },
+    {
+     "start": 549.02,
+     "end": 549.26,
+     "text": "by"
+    },
+    {
+     "start": 549.26,
+     "end": 549.4,
+     "text": "the"
+    },
+    {
+     "start": 549.4,
+     "end": 550.36,
+     "text": "ACLU,"
+    },
+    {
+     "start": 550.36,
+     "end": 550.86,
+     "text": "but"
+    },
+    {
+     "start": 550.86,
+     "end": 551.02,
+     "text": "the"
+    },
+    {
+     "start": 551.02,
+     "end": 551.42,
+     "text": "organization"
+    },
+    {
+     "start": 551.42,
+     "end": 551.88,
+     "text": "was"
+    },
+    {
+     "start": 551.88,
+     "end": 552.08,
+     "text": "only"
+    },
+    {
+     "start": 552.08,
+     "end": 552.26,
+     "text": "able"
+    },
+    {
+     "start": 552.26,
+     "end": 552.46,
+     "text": "to"
+    },
+    {
+     "start": 552.46,
+     "end": 552.62,
+     "text": "get"
+    },
+    {
+     "start": 552.62,
+     "end": 552.92,
+     "text": "data"
+    },
+    {
+     "start": 552.92,
+     "end": 553.12,
+     "text": "from"
+    },
+    {
+     "start": 553.12,
+     "end": 553.48,
+     "text": "20"
+    },
+    {
+     "start": 553.06,
+     "end": 553.72,
+     "text": "of"
+    }
+   ]
+  },
+  {
+   "start": 553.72,
+   "end": 556.38,
+   "text": "America's roughly 18,000 police agencies.",
+   "words": [
+    {
+     "start": 553.72,
+     "end": 554.32,
+     "text": "America's"
+    },
+    {
+     "start": 554.32,
+     "end": 554.62,
+     "text": "roughly"
+    },
+    {
+     "start": 554.62,
+     "end": 555.44,
+     "text": "18,000"
+    },
+    {
+     "start": 555.44,
+     "end": 555.78,
+     "text": "police"
+    },
+    {
+     "start": 555.78,
+     "end": 556.38,
+     "text": "agencies."
+    }
+   ]
+  },
+  {
+   "start": 556.38,
+   "end": 559.72,
+   "text": "When we pointed out to Oliver's producers that the data",
+   "words": [
+    {
+     "start": 556.38,
+     "end": 557.0,
+     "text": "When"
+    },
+    {
+     "start": 557.0,
+     "end": 557.14,
+     "text": "we"
+    },
+    {
+     "start": 557.14,
+     "end": 557.44,
+     "text": "pointed"
+    },
+    {
+     "start": 557.44,
+     "end": 557.68,
+     "text": "out"
+    },
+    {
+     "start": 557.68,
+     "end": 557.8,
+     "text": "to"
+    },
+    {
+     "start": 557.8,
+     "end": 558.22,
+     "text": "Oliver's"
+    },
+    {
+     "start": 558.22,
+     "end": 558.66,
+     "text": "producers"
+    },
+    {
+     "start": 558.66,
+     "end": 559.34,
+     "text": "that"
+    },
+    {
+     "start": 559.34,
+     "end": 559.48,
+     "text": "the"
+    },
+    {
+     "start": 559.48,
+     "end": 559.72,
+     "text": "data"
+    }
+   ]
+  },
+  {
+   "start": 559.72,
+   "end": 561.84,
+   "text": "on SWAT teams was stripped of its context,",
+   "words": [
+    {
+     "start": 559.72,
+     "end": 559.9,
+     "text": "on"
+    },
+    {
+     "start": 559.9,
+     "end": 560.16,
+     "text": "SWAT"
+    },
+    {
+     "start": 560.16,
+     "end": 560.46,
+     "text": "teams"
+    },
+    {
+     "start": 560.46,
+     "end": 560.66,
+     "text": "was"
+    },
+    {
+     "start": 560.66,
+     "end": 560.86,
+     "text": "stripped"
+    },
+    {
+     "start": 560.86,
+     "end": 561.06,
+     "text": "of"
+    },
+    {
+     "start": 561.06,
+     "end": 561.2,
+     "text": "its"
+    },
+    {
+     "start": 561.2,
+     "end": 561.84,
+     "text": "context,"
+    }
+   ]
+  },
+  {
+   "start": 562.0,
+   "end": 564.32,
+   "text": "they replied that since this segment aired,",
+   "words": [
+    {
+     "start": 562.0,
+     "end": 562.36,
+     "text": "they"
+    },
+    {
+     "start": 562.36,
+     "end": 562.68,
+     "text": "replied"
+    },
+    {
+     "start": 562.68,
+     "end": 562.96,
+     "text": "that"
+    },
+    {
+     "start": 562.96,
+     "end": 563.18,
+     "text": "since"
+    },
+    {
+     "start": 563.18,
+     "end": 563.42,
+     "text": "this"
+    },
+    {
+     "start": 563.42,
+     "end": 563.74,
+     "text": "segment"
+    },
+    {
+     "start": 563.74,
+     "end": 564.32,
+     "text": "aired,"
+    }
+   ]
+  },
+  {
+   "start": 564.52,
+   "end": 567.26,
+   "text": "we've become more diligent about critically interrogating",
+   "words": [
+    {
+     "start": 564.52,
+     "end": 564.68,
+     "text": "we've"
+    },
+    {
+     "start": 564.68,
+     "end": 564.94,
+     "text": "become"
+    },
+    {
+     "start": 564.94,
+     "end": 565.2,
+     "text": "more"
+    },
+    {
+     "start": 565.2,
+     "end": 565.6,
+     "text": "diligent"
+    },
+    {
+     "start": 565.6,
+     "end": 565.96,
+     "text": "about"
+    },
+    {
+     "start": 565.96,
+     "end": 566.42,
+     "text": "critically"
+    },
+    {
+     "start": 566.42,
+     "end": 567.26,
+     "text": "interrogating"
+    }
+   ]
+  },
+  {
+   "start": 567.24,
+   "end": 569.46,
+   "text": "the sourcing on studies in our shows.",
+   "words": [
+    {
+     "start": 567.24,
+     "end": 567.54,
+     "text": "the"
+    },
+    {
+     "start": 567.54,
+     "end": 568.08,
+     "text": "sourcing"
+    },
+    {
+     "start": 568.08,
+     "end": 568.46,
+     "text": "on"
+    },
+    {
+     "start": 568.46,
+     "end": 568.82,
+     "text": "studies"
+    },
+    {
+     "start": 568.82,
+     "end": 569.02,
+     "text": "in"
+    },
+    {
+     "start": 569.02,
+     "end": 569.12,
+     "text": "our"
+    },
+    {
+     "start": 569.12,
+     "end": 569.46,
+     "text": "shows."
+    }
+   ]
+  },
+  {
+   "start": 569.72,
+   "end": 572.7,
+   "text": "They also argued that more recent studies, if anything,",
+   "words": [
+    {
+     "start": 569.72,
+     "end": 570.16,
+     "text": "They"
+    },
+    {
+     "start": 570.16,
+     "end": 570.44,
+     "text": "also"
+    },
+    {
+     "start": 570.44,
+     "end": 570.84,
+     "text": "argued"
+    },
+    {
+     "start": 570.84,
+     "end": 571.08,
+     "text": "that"
+    },
+    {
+     "start": 571.08,
+     "end": 571.22,
+     "text": "more"
+    },
+    {
+     "start": 571.22,
+     "end": 571.54,
+     "text": "recent"
+    },
+    {
+     "start": 571.54,
+     "end": 572.22,
+     "text": "studies,"
+    },
+    {
+     "start": 572.22,
+     "end": 572.28,
+     "text": "if"
+    },
+    {
+     "start": 572.28,
+     "end": 572.7,
+     "text": "anything,"
+    }
+   ]
+  },
+  {
+   "start": 573.22,
+   "end": 574.88,
+   "text": "suggest that the studies they cited",
+   "words": [
+    {
+     "start": 573.22,
+     "end": 573.52,
+     "text": "suggest"
+    },
+    {
+     "start": 573.52,
+     "end": 573.78,
+     "text": "that"
+    },
+    {
+     "start": 573.78,
+     "end": 573.92,
+     "text": "the"
+    },
+    {
+     "start": 573.92,
+     "end": 574.26,
+     "text": "studies"
+    },
+    {
+     "start": 574.26,
+     "end": 574.5,
+     "text": "they"
+    },
+    {
+     "start": 574.5,
+     "end": 574.88,
+     "text": "cited"
+    }
+   ]
+  },
+  {
+   "start": 574.58,
+   "end": 577.32,
+   "text": "understated the true scope of things.",
+   "words": [
+    {
+     "start": 574.58,
+     "end": 575.82,
+     "text": "understated"
+    },
+    {
+     "start": 575.82,
+     "end": 576.0,
+     "text": "the"
+    },
+    {
+     "start": 576.0,
+     "end": 576.26,
+     "text": "true"
+    },
+    {
+     "start": 576.26,
+     "end": 576.54,
+     "text": "scope"
+    },
+    {
+     "start": 576.54,
+     "end": 576.76,
+     "text": "of"
+    },
+    {
+     "start": 576.76,
+     "end": 577.32,
+     "text": "things."
+    }
+   ]
+  },
+  {
+   "start": 577.28,
+   "end": 579.74,
+   "text": "And they pointed to instances of reason citing",
+   "words": [
+    {
+     "start": 577.28,
+     "end": 577.72,
+     "text": "And"
+    },
+    {
+     "start": 577.72,
+     "end": 577.82,
+     "text": "they"
+    },
+    {
+     "start": 577.82,
+     "end": 578.12,
+     "text": "pointed"
+    },
+    {
+     "start": 578.12,
+     "end": 578.3,
+     "text": "to"
+    },
+    {
+     "start": 578.3,
+     "end": 578.66,
+     "text": "instances"
+    },
+    {
+     "start": 578.66,
+     "end": 579.04,
+     "text": "of"
+    },
+    {
+     "start": 579.04,
+     "end": 579.36,
+     "text": "reason"
+    },
+    {
+     "start": 578.9,
+     "end": 579.74,
+     "text": "citing"
+    }
+   ]
+  },
+  {
+   "start": 579.74,
+   "end": 580.5,
+   "text": "the same data.",
+   "words": [
+    {
+     "start": 579.74,
+     "end": 579.96,
+     "text": "the"
+    },
+    {
+     "start": 579.96,
+     "end": 580.18,
+     "text": "same"
+    },
+    {
+     "start": 580.18,
+     "end": 580.5,
+     "text": "data."
+    }
+   ]
+  },
+  {
+   "start": 580.82,
+   "end": 583.56,
+   "text": "I agree with Oliver's position on SWAT raids, but",
+   "words": [
+    {
+     "start": 580.82,
+     "end": 581.02,
+     "text": "I"
+    },
+    {
+     "start": 581.02,
+     "end": 581.3,
+     "text": "agree"
+    },
+    {
+     "start": 581.3,
+     "end": 581.48,
+     "text": "with"
+    },
+    {
+     "start": 581.48,
+     "end": 581.9,
+     "text": "Oliver's"
+    },
+    {
+     "start": 581.9,
+     "end": 582.26,
+     "text": "position"
+    },
+    {
+     "start": 582.26,
+     "end": 582.46,
+     "text": "on"
+    },
+    {
+     "start": 582.46,
+     "end": 582.76,
+     "text": "SWAT"
+    },
+    {
+     "start": 582.76,
+     "end": 583.26,
+     "text": "raids,"
+    },
+    {
+     "start": 582.66,
+     "end": 583.56,
+     "text": "but"
+    }
+   ]
+  },
+  {
+   "start": 583.56,
+   "end": 585.56,
+   "text": "he really should be agitating for better data.",
+   "words": [
+    {
+     "start": 583.56,
+     "end": 583.68,
+     "text": "he"
+    },
+    {
+     "start": 583.68,
+     "end": 583.9,
+     "text": "really"
+    },
+    {
+     "start": 583.9,
+     "end": 584.12,
+     "text": "should"
+    },
+    {
+     "start": 584.12,
+     "end": 584.28,
+     "text": "be"
+    },
+    {
+     "start": 584.28,
+     "end": 584.68,
+     "text": "agitating"
+    },
+    {
+     "start": 584.68,
+     "end": 584.96,
+     "text": "for"
+    },
+    {
+     "start": 584.96,
+     "end": 585.18,
+     "text": "better"
+    },
+    {
+     "start": 585.18,
+     "end": 585.56,
+     "text": "data."
+    }
+   ]
+  },
+  {
+   "start": 586.0,
+   "end": 587.82,
+   "text": "We're permitting state violence without",
+   "words": [
+    {
+     "start": 586.0,
+     "end": 586.22,
+     "text": "We're"
+    },
+    {
+     "start": 586.22,
+     "end": 586.54,
+     "text": "permitting"
+    },
+    {
+     "start": 586.54,
+     "end": 586.9,
+     "text": "state"
+    },
+    {
+     "start": 586.9,
+     "end": 587.34,
+     "text": "violence"
+    },
+    {
+     "start": 586.96,
+     "end": 587.82,
+     "text": "without"
+    }
+   ]
+  },
+  {
+   "start": 587.82,
+   "end": 589.46,
+   "text": "anyone keeping the detailed records",
+   "words": [
+    {
+     "start": 587.82,
+     "end": 588.16,
+     "text": "anyone"
+    },
+    {
+     "start": 588.16,
+     "end": 588.48,
+     "text": "keeping"
+    },
+    {
+     "start": 588.48,
+     "end": 588.72,
+     "text": "the"
+    },
+    {
+     "start": 588.72,
+     "end": 589.08,
+     "text": "detailed"
+    },
+    {
+     "start": 589.08,
+     "end": 589.46,
+     "text": "records"
+    }
+   ]
+  },
+  {
+   "start": 589.56,
+   "end": 591.96,
+   "text": "that could help us understand the costs and benefits.",
+   "words": [
+    {
+     "start": 589.56,
+     "end": 590.04,
+     "text": "that"
+    },
+    {
+     "start": 590.04,
+     "end": 590.16,
+     "text": "could"
+    },
+    {
+     "start": 590.16,
+     "end": 590.34,
+     "text": "help"
+    },
+    {
+     "start": 590.34,
+     "end": 590.5,
+     "text": "us"
+    },
+    {
+     "start": 590.5,
+     "end": 590.92,
+     "text": "understand"
+    },
+    {
+     "start": 590.92,
+     "end": 591.12,
+     "text": "the"
+    },
+    {
+     "start": 591.12,
+     "end": 591.42,
+     "text": "costs"
+    },
+    {
+     "start": 591.42,
+     "end": 591.56,
+     "text": "and"
+    },
+    {
+     "start": 591.56,
+     "end": 591.96,
+     "text": "benefits."
+    }
+   ]
+  },
+  {
+   "start": 592.48,
+   "end": 597.36,
+   "text": "But that's not an excuse for citing two studies based on weak data and presenting them as fact.",
+   "words": [
+    {
+     "start": 592.48,
+     "end": 592.68,
+     "text": "But"
+    },
+    {
+     "start": 592.68,
+     "end": 592.92,
+     "text": "that's"
+    },
+    {
+     "start": 592.92,
+     "end": 593.1,
+     "text": "not"
+    },
+    {
+     "start": 593.1,
+     "end": 593.24,
+     "text": "an"
+    },
+    {
+     "start": 593.24,
+     "end": 593.52,
+     "text": "excuse"
+    },
+    {
+     "start": 593.52,
+     "end": 593.88,
+     "text": "for"
+    },
+    {
+     "start": 593.88,
+     "end": 594.1,
+     "text": "citing"
+    },
+    {
+     "start": 594.1,
+     "end": 594.34,
+     "text": "two"
+    },
+    {
+     "start": 594.34,
+     "end": 594.68,
+     "text": "studies"
+    },
+    {
+     "start": 594.68,
+     "end": 595.02,
+     "text": "based"
+    },
+    {
+     "start": 595.02,
+     "end": 595.22,
+     "text": "on"
+    },
+    {
+     "start": 595.22,
+     "end": 595.42,
+     "text": "weak"
+    },
+    {
+     "start": 595.42,
+     "end": 595.74,
+     "text": "data"
+    },
+    {
+     "start": 595.74,
+     "end": 596.24,
+     "text": "and"
+    },
+    {
+     "start": 596.24,
+     "end": 596.6,
+     "text": "presenting"
+    },
+    {
+     "start": 596.6,
+     "end": 596.82,
+     "text": "them"
+    },
+    {
+     "start": 596.82,
+     "end": 597.02,
+     "text": "as"
+    },
+    {
+     "start": 597.02,
+     "end": 597.36,
+     "text": "fact."
+    }
+   ]
+  },
+  {
+   "start": 598.82,
+   "end": 604.84,
+   "text": "Recent analyses have found that poverty rates for tipped workers are over twice as high as for non-tipped workers.",
+   "words": [
+    {
+     "start": 598.82,
+     "end": 599.04,
+     "text": "Recent"
+    },
+    {
+     "start": 599.04,
+     "end": 599.44,
+     "text": "analyses"
+    },
+    {
+     "start": 599.44,
+     "end": 599.72,
+     "text": "have"
+    },
+    {
+     "start": 599.72,
+     "end": 599.92,
+     "text": "found"
+    },
+    {
+     "start": 599.92,
+     "end": 600.08,
+     "text": "that"
+    },
+    {
+     "start": 600.08,
+     "end": 600.38,
+     "text": "poverty"
+    },
+    {
+     "start": 600.38,
+     "end": 600.7,
+     "text": "rates"
+    },
+    {
+     "start": 600.7,
+     "end": 600.86,
+     "text": "for"
+    },
+    {
+     "start": 600.86,
+     "end": 601.1,
+     "text": "tipped"
+    },
+    {
+     "start": 601.1,
+     "end": 601.5,
+     "text": "workers"
+    },
+    {
+     "start": 601.5,
+     "end": 601.74,
+     "text": "are"
+    },
+    {
+     "start": 601.74,
+     "end": 601.96,
+     "text": "over"
+    },
+    {
+     "start": 601.96,
+     "end": 602.36,
+     "text": "twice"
+    },
+    {
+     "start": 602.36,
+     "end": 602.64,
+     "text": "as"
+    },
+    {
+     "start": 602.64,
+     "end": 602.98,
+     "text": "high"
+    },
+    {
+     "start": 602.98,
+     "end": 603.52,
+     "text": "as"
+    },
+    {
+     "start": 603.52,
+     "end": 603.66,
+     "text": "for"
+    },
+    {
+     "start": 603.66,
+     "end": 604.2,
+     "text": "non-tipped"
+    },
+    {
+     "start": 604.2,
+     "end": 604.84,
+     "text": "workers."
+    }
+   ]
+  },
+  {
+   "start": 604.18,
+   "end": 604.9,
+   "text": "Is",
+   "words": [
+    {
+     "start": 604.18,
+     "end": 604.9,
+     "text": "Is"
+    }
+   ]
+  },
+  {
+   "start": 604.9,
+   "end": 605.9,
+   "text": "science bullshit?",
+   "words": [
+    {
+     "start": 604.9,
+     "end": 605.4,
+     "text": "science"
+    },
+    {
+     "start": 605.4,
+     "end": 605.9,
+     "text": "bullshit?"
+    }
+   ]
+  },
+  {
+   "start": 605.9,
+   "end": 611.12,
+   "text": "No, but there is a lot of bullshit currently masquerading as science.",
+   "words": [
+    {
+     "start": 605.9,
+     "end": 607.0,
+     "text": "No,"
+    },
+    {
+     "start": 607.0,
+     "end": 607.6,
+     "text": "but"
+    },
+    {
+     "start": 607.6,
+     "end": 608.14,
+     "text": "there"
+    },
+    {
+     "start": 608.14,
+     "end": 608.32,
+     "text": "is"
+    },
+    {
+     "start": 608.32,
+     "end": 608.44,
+     "text": "a"
+    },
+    {
+     "start": 608.44,
+     "end": 608.52,
+     "text": "lot"
+    },
+    {
+     "start": 608.52,
+     "end": 608.68,
+     "text": "of"
+    },
+    {
+     "start": 608.68,
+     "end": 609.08,
+     "text": "bullshit"
+    },
+    {
+     "start": 609.08,
+     "end": 609.56,
+     "text": "currently"
+    },
+    {
+     "start": 609.56,
+     "end": 610.24,
+     "text": "masquerading"
+    },
+    {
+     "start": 610.24,
+     "end": 610.62,
+     "text": "as"
+    },
+    {
+     "start": 610.62,
+     "end": 611.12,
+     "text": "science."
+    }
+   ]
+  },
+  {
+   "start": 611.22,
+   "end": 616.94,
+   "text": "The analysis he's citing is effectively meaningless because it included all non-tipped workers in the U.S.,",
+   "words": [
+    {
+     "start": 611.22,
+     "end": 611.38,
+     "text": "The"
+    },
+    {
+     "start": 611.38,
+     "end": 611.78,
+     "text": "analysis"
+    },
+    {
+     "start": 611.78,
+     "end": 612.12,
+     "text": "he's"
+    },
+    {
+     "start": 612.12,
+     "end": 612.38,
+     "text": "citing"
+    },
+    {
+     "start": 612.38,
+     "end": 612.6,
+     "text": "is"
+    },
+    {
+     "start": 612.6,
+     "end": 613.02,
+     "text": "effectively"
+    },
+    {
+     "start": 613.02,
+     "end": 613.5,
+     "text": "meaningless"
+    },
+    {
+     "start": 613.5,
+     "end": 613.98,
+     "text": "because"
+    },
+    {
+     "start": 613.98,
+     "end": 614.2,
+     "text": "it"
+    },
+    {
+     "start": 614.2,
+     "end": 614.56,
+     "text": "included"
+    },
+    {
+     "start": 614.56,
+     "end": 615.0,
+     "text": "all"
+    },
+    {
+     "start": 615.0,
+     "end": 615.54,
+     "text": "non-tipped"
+    },
+    {
+     "start": 615.54,
+     "end": 615.9,
+     "text": "workers"
+    },
+    {
+     "start": 615.9,
+     "end": 616.2,
+     "text": "in"
+    },
+    {
+     "start": 616.2,
+     "end": 616.3,
+     "text": "the"
+    },
+    {
+     "start": 616.3,
+     "end": 616.94,
+     "text": "U.S.,"
+    }
+   ]
+  },
+  {
+   "start": 617.34,
+   "end": 619.16,
+   "text": "including CEOs and neurosurgeons.",
+   "words": [
+    {
+     "start": 617.34,
+     "end": 617.72,
+     "text": "including"
+    },
+    {
+     "start": 617.72,
+     "end": 618.2,
+     "text": "CEOs"
+    },
+    {
+     "start": 618.2,
+     "end": 618.5,
+     "text": "and"
+    },
+    {
+     "start": 618.5,
+     "end": 619.16,
+     "text": "neurosurgeons."
+    }
+   ]
+  },
+  {
+   "start": 619.92,
+   "end": 625.22,
+   "text": "John Oliver, who makes a reported $30 million a year, also pulled up the non-tipped average.",
+   "words": [
+    {
+     "start": 619.92,
+     "end": 620.16,
+     "text": "John"
+    },
+    {
+     "start": 620.16,
+     "end": 620.8,
+     "text": "Oliver,"
+    },
+    {
+     "start": 620.8,
+     "end": 620.92,
+     "text": "who"
+    },
+    {
+     "start": 620.92,
+     "end": 621.1,
+     "text": "makes"
+    },
+    {
+     "start": 621.1,
+     "end": 621.24,
+     "text": "a"
+    },
+    {
+     "start": 621.24,
+     "end": 621.86,
+     "text": "reported $30"
+    },
+    {
+     "start": 621.86,
+     "end": 622.14,
+     "text": "million"
+    },
+    {
+     "start": 622.14,
+     "end": 622.7,
+     "text": "a"
+    },
+    {
+     "start": 622.7,
+     "end": 623.32,
+     "text": "year,"
+    },
+    {
+     "start": 623.32,
+     "end": 623.6,
+     "text": "also"
+    },
+    {
+     "start": 623.6,
+     "end": 623.94,
+     "text": "pulled"
+    },
+    {
+     "start": 623.94,
+     "end": 624.1,
+     "text": "up"
+    },
+    {
+     "start": 624.1,
+     "end": 624.22,
+     "text": "the"
+    },
+    {
+     "start": 624.22,
+     "end": 624.66,
+     "text": "non-tipped"
+    },
+    {
+     "start": 624.66,
+     "end": 625.22,
+     "text": "average."
+    }
+   ]
+  },
+  {
+   "start": 625.58,
+   "end": 631.38,
+   "text": "The correct methodology for evaluating whether tipping is good or bad, which is a topic of Oliver's segment,",
+   "words": [
+    {
+     "start": 625.58,
+     "end": 625.74,
+     "text": "The"
+    },
+    {
+     "start": 625.74,
+     "end": 626.04,
+     "text": "correct"
+    },
+    {
+     "start": 626.04,
+     "end": 626.6,
+     "text": "methodology"
+    },
+    {
+     "start": 626.6,
+     "end": 627.04,
+     "text": "for"
+    },
+    {
+     "start": 627.04,
+     "end": 627.56,
+     "text": "evaluating"
+    },
+    {
+     "start": 627.56,
+     "end": 627.92,
+     "text": "whether"
+    },
+    {
+     "start": 627.92,
+     "end": 628.2,
+     "text": "tipping"
+    },
+    {
+     "start": 628.2,
+     "end": 628.46,
+     "text": "is"
+    },
+    {
+     "start": 628.46,
+     "end": 628.6,
+     "text": "good"
+    },
+    {
+     "start": 628.6,
+     "end": 628.74,
+     "text": "or"
+    },
+    {
+     "start": 628.74,
+     "end": 629.3,
+     "text": "bad,"
+    },
+    {
+     "start": 629.3,
+     "end": 629.6,
+     "text": "which"
+    },
+    {
+     "start": 629.6,
+     "end": 629.76,
+     "text": "is"
+    },
+    {
+     "start": 629.76,
+     "end": 629.88,
+     "text": "a"
+    },
+    {
+     "start": 629.88,
+     "end": 630.14,
+     "text": "topic"
+    },
+    {
+     "start": 630.14,
+     "end": 630.36,
+     "text": "of"
+    },
+    {
+     "start": 630.36,
+     "end": 630.78,
+     "text": "Oliver's"
+    },
+    {
+     "start": 630.78,
+     "end": 631.38,
+     "text": "segment,"
+    }
+   ]
+  },
+  {
+   "start": 631.4,
+   "end": 634.44,
+   "text": "would be to match tipped and untipped workers by the jobs they hold.",
+   "words": [
+    {
+     "start": 631.4,
+     "end": 631.56,
+     "text": "would"
+    },
+    {
+     "start": 631.56,
+     "end": 631.64,
+     "text": "be"
+    },
+    {
+     "start": 631.64,
+     "end": 631.78,
+     "text": "to"
+    },
+    {
+     "start": 631.78,
+     "end": 632.04,
+     "text": "match"
+    },
+    {
+     "start": 632.04,
+     "end": 632.36,
+     "text": "tipped"
+    },
+    {
+     "start": 632.36,
+     "end": 632.54,
+     "text": "and"
+    },
+    {
+     "start": 632.54,
+     "end": 632.94,
+     "text": "untipped"
+    },
+    {
+     "start": 632.94,
+     "end": 633.32,
+     "text": "workers"
+    },
+    {
+     "start": 633.32,
+     "end": 633.52,
+     "text": "by"
+    },
+    {
+     "start": 633.52,
+     "end": 633.66,
+     "text": "the"
+    },
+    {
+     "start": 633.66,
+     "end": 633.94,
+     "text": "jobs"
+    },
+    {
+     "start": 633.94,
+     "end": 634.14,
+     "text": "they"
+    },
+    {
+     "start": 634.14,
+     "end": 634.44,
+     "text": "hold."
+    }
+   ]
+  },
+  {
+   "start": 634.94,
+   "end": 640.54,
+   "text": "Waiters have about the same poverty rate as fast food workers, and hotel maids about the same as other cleaners.",
+   "words": [
+    {
+     "start": 634.94,
+     "end": 635.26,
+     "text": "Waiters"
+    },
+    {
+     "start": 635.26,
+     "end": 635.4,
+     "text": "have"
+    },
+    {
+     "start": 635.4,
+     "end": 635.62,
+     "text": "about"
+    },
+    {
+     "start": 635.62,
+     "end": 635.82,
+     "text": "the"
+    },
+    {
+     "start": 635.82,
+     "end": 636.06,
+     "text": "same"
+    },
+    {
+     "start": 636.06,
+     "end": 636.42,
+     "text": "poverty"
+    },
+    {
+     "start": 636.42,
+     "end": 636.8,
+     "text": "rate"
+    },
+    {
+     "start": 636.8,
+     "end": 637.04,
+     "text": "as"
+    },
+    {
+     "start": 637.04,
+     "end": 637.32,
+     "text": "fast"
+    },
+    {
+     "start": 637.32,
+     "end": 637.52,
+     "text": "food"
+    },
+    {
+     "start": 637.52,
+     "end": 638.18,
+     "text": "workers,"
+    },
+    {
+     "start": 638.18,
+     "end": 638.4,
+     "text": "and"
+    },
+    {
+     "start": 638.4,
+     "end": 638.74,
+     "text": "hotel"
+    },
+    {
+     "start": 638.74,
+     "end": 638.98,
+     "text": "maids"
+    },
+    {
+     "start": 638.98,
+     "end": 639.2,
+     "text": "about"
+    },
+    {
+     "start": 639.2,
+     "end": 639.42,
+     "text": "the"
+    },
+    {
+     "start": 639.42,
+     "end": 639.64,
+     "text": "same"
+    },
+    {
+     "start": 639.64,
+     "end": 639.84,
+     "text": "as"
+    },
+    {
+     "start": 639.84,
+     "end": 640.04,
+     "text": "other"
+    },
+    {
+     "start": 640.04,
+     "end": 640.54,
+     "text": "cleaners."
+    }
+   ]
+  },
+  {
+   "start": 641.02,
+   "end": 644.5,
+   "text": "If you control for the job, age, and hours, the gap closes.",
+   "words": [
+    {
+     "start": 641.02,
+     "end": 641.18,
+     "text": "If"
+    },
+    {
+     "start": 641.18,
+     "end": 641.26,
+     "text": "you"
+    },
+    {
+     "start": 641.26,
+     "end": 641.6,
+     "text": "control"
+    },
+    {
+     "start": 641.6,
+     "end": 641.86,
+     "text": "for"
+    },
+    {
+     "start": 641.86,
+     "end": 641.98,
+     "text": "the"
+    },
+    {
+     "start": 641.98,
+     "end": 642.6,
+     "text": "job,"
+    },
+    {
+     "start": 642.6,
+     "end": 642.8,
+     "text": "age,"
+    },
+    {
+     "start": 642.8,
+     "end": 642.94,
+     "text": "and"
+    },
+    {
+     "start": 642.94,
+     "end": 643.72,
+     "text": "hours,"
+    },
+    {
+     "start": 643.72,
+     "end": 643.84,
+     "text": "the"
+    },
+    {
+     "start": 643.84,
+     "end": 644.06,
+     "text": "gap"
+    },
+    {
+     "start": 644.06,
+     "end": 644.5,
+     "text": "closes."
+    }
+   ]
+  },
+  {
+   "start": 645.12,
+   "end": 653.48,
+   "text": "This is another study designed to generate a talking point, which isn't surprising since Oliver is citing a briefing paper from the Economic Policy Institute, a",
+   "words": [
+    {
+     "start": 645.12,
+     "end": 645.24,
+     "text": "This"
+    },
+    {
+     "start": 645.24,
+     "end": 645.4,
+     "text": "is"
+    },
+    {
+     "start": 645.4,
+     "end": 645.7,
+     "text": "another"
+    },
+    {
+     "start": 645.7,
+     "end": 646.08,
+     "text": "study"
+    },
+    {
+     "start": 646.08,
+     "end": 646.44,
+     "text": "designed"
+    },
+    {
+     "start": 646.44,
+     "end": 646.68,
+     "text": "to"
+    },
+    {
+     "start": 646.68,
+     "end": 646.98,
+     "text": "generate"
+    },
+    {
+     "start": 646.98,
+     "end": 647.18,
+     "text": "a"
+    },
+    {
+     "start": 647.18,
+     "end": 647.46,
+     "text": "talking"
+    },
+    {
+     "start": 647.46,
+     "end": 648.08,
+     "text": "point,"
+    },
+    {
+     "start": 648.08,
+     "end": 648.4,
+     "text": "which"
+    },
+    {
+     "start": 648.4,
+     "end": 648.62,
+     "text": "isn't"
+    },
+    {
+     "start": 648.62,
+     "end": 649.1,
+     "text": "surprising"
+    },
+    {
+     "start": 649.1,
+     "end": 649.42,
+     "text": "since"
+    },
+    {
+     "start": 649.42,
+     "end": 649.74,
+     "text": "Oliver"
+    },
+    {
+     "start": 649.74,
+     "end": 650.02,
+     "text": "is"
+    },
+    {
+     "start": 650.02,
+     "end": 650.24,
+     "text": "citing"
+    },
+    {
+     "start": 650.24,
+     "end": 650.42,
+     "text": "a"
+    },
+    {
+     "start": 650.42,
+     "end": 650.64,
+     "text": "briefing"
+    },
+    {
+     "start": 650.64,
+     "end": 651.1,
+     "text": "paper"
+    },
+    {
+     "start": 651.1,
+     "end": 651.36,
+     "text": "from"
+    },
+    {
+     "start": 651.36,
+     "end": 651.5,
+     "text": "the"
+    },
+    {
+     "start": 651.5,
+     "end": 651.84,
+     "text": "Economic"
+    },
+    {
+     "start": 651.84,
+     "end": 652.28,
+     "text": "Policy"
+    },
+    {
+     "start": 652.28,
+     "end": 652.84,
+     "text": "Institute,"
+    },
+    {
+     "start": 652.84,
+     "end": 653.48,
+     "text": "a"
+    }
+   ]
+  },
+  {
+   "start": 653.48,
+   "end": 655.44,
+   "text": "progressive left-of-center think tank.",
+   "words": [
+    {
+     "start": 653.48,
+     "end": 653.98,
+     "text": "progressive"
+    },
+    {
+     "start": 653.98,
+     "end": 654.7,
+     "text": "left-of-center"
+    },
+    {
+     "start": 654.7,
+     "end": 654.96,
+     "text": "think"
+    },
+    {
+     "start": 654.96,
+     "end": 655.44,
+     "text": "tank."
+    }
+   ]
+  },
+  {
+   "start": 655.6,
+   "end": 663.68,
+   "text": "The name of the organization is shown on screen, but once again, viewers would have to pause the video to look up the organization in order to figure out what",
+   "words": [
+    {
+     "start": 655.6,
+     "end": 655.78,
+     "text": "The"
+    },
+    {
+     "start": 655.78,
+     "end": 655.96,
+     "text": "name"
+    },
+    {
+     "start": 655.96,
+     "end": 656.12,
+     "text": "of"
+    },
+    {
+     "start": 656.12,
+     "end": 656.22,
+     "text": "the"
+    },
+    {
+     "start": 656.22,
+     "end": 656.58,
+     "text": "organization"
+    },
+    {
+     "start": 656.58,
+     "end": 657.1,
+     "text": "is"
+    },
+    {
+     "start": 657.1,
+     "end": 657.32,
+     "text": "shown"
+    },
+    {
+     "start": 657.32,
+     "end": 657.54,
+     "text": "on"
+    },
+    {
+     "start": 657.54,
+     "end": 658.24,
+     "text": "screen,"
+    },
+    {
+     "start": 658.24,
+     "end": 658.36,
+     "text": "but"
+    },
+    {
+     "start": 658.36,
+     "end": 658.58,
+     "text": "once"
+    },
+    {
+     "start": 658.58,
+     "end": 659.26,
+     "text": "again,"
+    },
+    {
+     "start": 659.26,
+     "end": 659.52,
+     "text": "viewers"
+    },
+    {
+     "start": 659.52,
+     "end": 659.78,
+     "text": "would"
+    },
+    {
+     "start": 659.78,
+     "end": 659.92,
+     "text": "have"
+    },
+    {
+     "start": 659.92,
+     "end": 660.1,
+     "text": "to"
+    },
+    {
+     "start": 660.1,
+     "end": 660.4,
+     "text": "pause"
+    },
+    {
+     "start": 660.4,
+     "end": 660.62,
+     "text": "the"
+    },
+    {
+     "start": 660.62,
+     "end": 660.86,
+     "text": "video"
+    },
+    {
+     "start": 660.86,
+     "end": 661.12,
+     "text": "to"
+    },
+    {
+     "start": 661.12,
+     "end": 661.3,
+     "text": "look"
+    },
+    {
+     "start": 661.3,
+     "end": 661.4,
+     "text": "up"
+    },
+    {
+     "start": 661.4,
+     "end": 661.54,
+     "text": "the"
+    },
+    {
+     "start": 661.54,
+     "end": 662.02,
+     "text": "organization"
+    },
+    {
+     "start": 662.02,
+     "end": 662.7,
+     "text": "in"
+    },
+    {
+     "start": 662.7,
+     "end": 662.88,
+     "text": "order"
+    },
+    {
+     "start": 662.88,
+     "end": 663.1,
+     "text": "to"
+    },
+    {
+     "start": 663.1,
+     "end": 663.28,
+     "text": "figure"
+    },
+    {
+     "start": 663.28,
+     "end": 663.54,
+     "text": "out"
+    },
+    {
+     "start": 663.54,
+     "end": 663.68,
+     "text": "what"
+    }
+   ]
+  },
+  {
+   "start": 663.68,
+   "end": 664.56,
+   "text": "it stands for.",
+   "words": [
+    {
+     "start": 663.68,
+     "end": 663.78,
+     "text": "it"
+    },
+    {
+     "start": 663.78,
+     "end": 664.1,
+     "text": "stands"
+    },
+    {
+     "start": 664.1,
+     "end": 664.56,
+     "text": "for."
+    }
+   ]
+  },
+  {
+   "start": 664.86,
+   "end": 665.54,
+   "text": "One study found.",
+   "words": [
+    {
+     "start": 664.86,
+     "end": 665.02,
+     "text": "One"
+    },
+    {
+     "start": 665.02,
+     "end": 665.24,
+     "text": "study"
+    },
+    {
+     "start": 665.24,
+     "end": 665.54,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 665.54,
+   "end": 666.32,
+   "text": "One study found.",
+   "words": [
+    {
+     "start": 665.54,
+     "end": 665.72,
+     "text": "One"
+    },
+    {
+     "start": 665.72,
+     "end": 665.96,
+     "text": "study"
+    },
+    {
+     "start": 665.96,
+     "end": 666.32,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 665.86,
+   "end": 666.52,
+   "text": "One",
+   "words": [
+    {
+     "start": 665.86,
+     "end": 666.52,
+     "text": "One"
+    }
+   ]
+  },
+  {
+   "start": 666.52,
+   "end": 667.14,
+   "text": "study found.",
+   "words": [
+    {
+     "start": 666.52,
+     "end": 666.8,
+     "text": "study"
+    },
+    {
+     "start": 666.8,
+     "end": 667.14,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 667.22,
+   "end": 667.72,
+   "text": "One study",
+   "words": [
+    {
+     "start": 667.22,
+     "end": 667.42,
+     "text": "One"
+    },
+    {
+     "start": 667.42,
+     "end": 667.72,
+     "text": "study"
+    }
+   ]
+  },
+  {
+   "start": 667.72,
+   "end": 668.4,
+   "text": "found.",
+   "words": [
+    {
+     "start": 667.72,
+     "end": 668.4,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 667.9,
+   "end": 668.74,
+   "text": "One study found.",
+   "words": [
+    {
+     "start": 667.9,
+     "end": 668.1,
+     "text": "One"
+    },
+    {
+     "start": 668.1,
+     "end": 668.34,
+     "text": "study"
+    },
+    {
+     "start": 668.34,
+     "end": 668.74,
+     "text": "found."
+    }
+   ]
+  },
+  {
+   "start": 668.84,
+   "end": 674.9,
+   "text": "John Oliver is one of America's most influential pundits, reaching millions with his policy ideas.",
+   "words": [
+    {
+     "start": 668.84,
+     "end": 669.04,
+     "text": "John"
+    },
+    {
+     "start": 669.04,
+     "end": 669.46,
+     "text": "Oliver"
+    },
+    {
+     "start": 669.46,
+     "end": 669.88,
+     "text": "is"
+    },
+    {
+     "start": 669.88,
+     "end": 670.06,
+     "text": "one"
+    },
+    {
+     "start": 670.06,
+     "end": 670.18,
+     "text": "of"
+    },
+    {
+     "start": 670.18,
+     "end": 670.74,
+     "text": "America's"
+    },
+    {
+     "start": 670.74,
+     "end": 670.96,
+     "text": "most"
+    },
+    {
+     "start": 670.96,
+     "end": 671.58,
+     "text": "influential"
+    },
+    {
+     "start": 671.58,
+     "end": 672.52,
+     "text": "pundits,"
+    },
+    {
+     "start": 672.52,
+     "end": 672.96,
+     "text": "reaching"
+    },
+    {
+     "start": 672.96,
+     "end": 673.38,
+     "text": "millions"
+    },
+    {
+     "start": 673.38,
+     "end": 673.68,
+     "text": "with"
+    },
+    {
+     "start": 673.68,
+     "end": 673.84,
+     "text": "his"
+    },
+    {
+     "start": 673.84,
+     "end": 674.26,
+     "text": "policy"
+    },
+    {
+     "start": 674.26,
+     "end": 674.9,
+     "text": "ideas."
+    }
+   ]
+  },
+  {
+   "start": 675.22,
+   "end": 679.46,
+   "text": "They should have to provide sourcing and context or not mention it at all.",
+   "words": [
+    {
+     "start": 675.22,
+     "end": 675.42,
+     "text": "They"
+    },
+    {
+     "start": 675.42,
+     "end": 675.58,
+     "text": "should"
+    },
+    {
+     "start": 675.58,
+     "end": 675.9,
+     "text": "have"
+    },
+    {
+     "start": 675.9,
+     "end": 676.14,
+     "text": "to"
+    },
+    {
+     "start": 676.14,
+     "end": 676.52,
+     "text": "provide"
+    },
+    {
+     "start": 676.52,
+     "end": 677.02,
+     "text": "sourcing"
+    },
+    {
+     "start": 677.02,
+     "end": 677.22,
+     "text": "and"
+    },
+    {
+     "start": 677.22,
+     "end": 677.62,
+     "text": "context"
+    },
+    {
+     "start": 677.62,
+     "end": 678.2,
+     "text": "or"
+    },
+    {
+     "start": 678.2,
+     "end": 678.44,
+     "text": "not"
+    },
+    {
+     "start": 678.44,
+     "end": 678.78,
+     "text": "mention"
+    },
+    {
+     "start": 678.78,
+     "end": 678.94,
+     "text": "it"
+    },
+    {
+     "start": 678.94,
+     "end": 679.12,
+     "text": "at"
+    },
+    {
+     "start": 679.12,
+     "end": 679.46,
+     "text": "all."
+    }
+   ]
+  },
+  {
+   "start": 679.48,
+   "end": 681.88,
+   "text": "If anyone should be following that rule, it's Oliver.",
+   "words": [
+    {
+     "start": 679.48,
+     "end": 679.68,
+     "text": "If"
+    },
+    {
+     "start": 679.68,
+     "end": 679.92,
+     "text": "anyone"
+    },
+    {
+     "start": 679.92,
+     "end": 680.2,
+     "text": "should"
+    },
+    {
+     "start": 680.2,
+     "end": 680.32,
+     "text": "be"
+    },
+    {
+     "start": 680.32,
+     "end": 680.68,
+     "text": "following"
+    },
+    {
+     "start": 680.68,
+     "end": 681.02,
+     "text": "that"
+    },
+    {
+     "start": 681.02,
+     "end": 681.46,
+     "text": "rule,"
+    },
+    {
+     "start": 681.46,
+     "end": 681.56,
+     "text": "it's"
+    },
+    {
+     "start": 681.56,
+     "end": 681.88,
+     "text": "Oliver."
+    }
+   ]
+  },
+  {
+   "start": 682.08,
+   "end": 689.38,
+   "text": "It's possible to construct arguments by citing good research responsibly while providing the proper context and sourcing.",
+   "words": [
+    {
+     "start": 682.08,
+     "end": 682.62,
+     "text": "It's"
+    },
+    {
+     "start": 682.62,
+     "end": 683.02,
+     "text": "possible"
+    },
+    {
+     "start": 683.02,
+     "end": 683.3,
+     "text": "to"
+    },
+    {
+     "start": 683.3,
+     "end": 683.72,
+     "text": "construct"
+    },
+    {
+     "start": 683.72,
+     "end": 684.28,
+     "text": "arguments"
+    },
+    {
+     "start": 684.28,
+     "end": 684.76,
+     "text": "by"
+    },
+    {
+     "start": 684.76,
+     "end": 685.0,
+     "text": "citing"
+    },
+    {
+     "start": 685.0,
+     "end": 685.24,
+     "text": "good"
+    },
+    {
+     "start": 685.24,
+     "end": 685.7,
+     "text": "research"
+    },
+    {
+     "start": 685.7,
+     "end": 686.52,
+     "text": "responsibly"
+    },
+    {
+     "start": 686.52,
+     "end": 687.18,
+     "text": "while"
+    },
+    {
+     "start": 687.18,
+     "end": 687.54,
+     "text": "providing"
+    },
+    {
+     "start": 687.54,
+     "end": 687.74,
+     "text": "the"
+    },
+    {
+     "start": 687.74,
+     "end": 688.0,
+     "text": "proper"
+    },
+    {
+     "start": 688.0,
+     "end": 688.62,
+     "text": "context"
+    },
+    {
+     "start": 688.62,
+     "end": 688.92,
+     "text": "and"
+    },
+    {
+     "start": 688.92,
+     "end": 689.38,
+     "text": "sourcing."
+    }
+   ]
+  },
+  {
+   "start": 689.74,
+   "end": 694.86,
+   "text": "It's also possible to follow research where it leads instead of retrofitting it to preconceived ideas.",
+   "words": [
+    {
+     "start": 689.74,
+     "end": 689.92,
+     "text": "It's"
+    },
+    {
+     "start": 689.92,
+     "end": 690.14,
+     "text": "also"
+    },
+    {
+     "start": 690.14,
+     "end": 690.56,
+     "text": "possible"
+    },
+    {
+     "start": 690.56,
+     "end": 690.8,
+     "text": "to"
+    },
+    {
+     "start": 690.8,
+     "end": 691.02,
+     "text": "follow"
+    },
+    {
+     "start": 691.02,
+     "end": 691.4,
+     "text": "research"
+    },
+    {
+     "start": 691.4,
+     "end": 691.62,
+     "text": "where"
+    },
+    {
+     "start": 691.62,
+     "end": 691.76,
+     "text": "it"
+    },
+    {
+     "start": 691.76,
+     "end": 692.12,
+     "text": "leads"
+    },
+    {
+     "start": 692.12,
+     "end": 692.52,
+     "text": "instead"
+    },
+    {
+     "start": 692.52,
+     "end": 692.76,
+     "text": "of"
+    },
+    {
+     "start": 692.76,
+     "end": 693.32,
+     "text": "retrofitting"
+    },
+    {
+     "start": 693.32,
+     "end": 693.5,
+     "text": "it"
+    },
+    {
+     "start": 693.5,
+     "end": 693.66,
+     "text": "to"
+    },
+    {
+     "start": 693.66,
+     "end": 694.2,
+     "text": "preconceived"
+    },
+    {
+     "start": 694.2,
+     "end": 694.86,
+     "text": "ideas."
+    }
+   ]
+  },
+  {
+   "start": 695.18,
+   "end": 699.36,
+   "text": "You just have to be willing to present data that captures reality in all its messiness,",
+   "words": [
+    {
+     "start": 695.18,
+     "end": 695.28,
+     "text": "You"
+    },
+    {
+     "start": 695.28,
+     "end": 695.46,
+     "text": "just"
+    },
+    {
+     "start": 695.46,
+     "end": 695.7,
+     "text": "have"
+    },
+    {
+     "start": 695.7,
+     "end": 695.78,
+     "text": "to"
+    },
+    {
+     "start": 695.78,
+     "end": 695.88,
+     "text": "be"
+    },
+    {
+     "start": 695.88,
+     "end": 696.08,
+     "text": "willing"
+    },
+    {
+     "start": 696.08,
+     "end": 696.28,
+     "text": "to"
+    },
+    {
+     "start": 696.28,
+     "end": 696.54,
+     "text": "present"
+    },
+    {
+     "start": 696.54,
+     "end": 696.92,
+     "text": "data"
+    },
+    {
+     "start": 696.92,
+     "end": 697.12,
+     "text": "that"
+    },
+    {
+     "start": 697.12,
+     "end": 697.52,
+     "text": "captures"
+    },
+    {
+     "start": 697.52,
+     "end": 698.12,
+     "text": "reality"
+    },
+    {
+     "start": 698.12,
+     "end": 698.42,
+     "text": "in"
+    },
+    {
+     "start": 698.42,
+     "end": 698.64,
+     "text": "all"
+    },
+    {
+     "start": 698.64,
+     "end": 698.82,
+     "text": "its"
+    },
+    {
+     "start": 698.82,
+     "end": 699.36,
+     "text": "messiness,"
+    }
+   ]
+  },
+  {
+   "start": 699.9,
+   "end": 702.46,
+   "text": "even if that means it won't generate an easy laugh line.",
+   "words": [
+    {
+     "start": 699.9,
+     "end": 700.1,
+     "text": "even"
+    },
+    {
+     "start": 700.1,
+     "end": 700.22,
+     "text": "if"
+    },
+    {
+     "start": 700.22,
+     "end": 700.38,
+     "text": "that"
+    },
+    {
+     "start": 700.38,
+     "end": 700.58,
+     "text": "means"
+    },
+    {
+     "start": 700.58,
+     "end": 700.78,
+     "text": "it"
+    },
+    {
+     "start": 700.78,
+     "end": 700.92,
+     "text": "won't"
+    },
+    {
+     "start": 700.92,
+     "end": 701.3,
+     "text": "generate"
+    },
+    {
+     "start": 701.3,
+     "end": 701.5,
+     "text": "an"
+    },
+    {
+     "start": 701.5,
+     "end": 701.74,
+     "text": "easy"
+    },
+    {
+     "start": 701.74,
+     "end": 702.08,
+     "text": "laugh"
+    },
+    {
+     "start": 702.08,
+     "end": 702.46,
+     "text": "line."
+    }
+   ]
+  },
+  {
+   "start": 702.58,
+   "end": 706.46,
+   "text": "Well, hold on, if that happens, where am I going to get all my interesting bullshit from?",
+   "words": [
+    {
+     "start": 702.58,
+     "end": 702.78,
+     "text": "Well,"
+    },
+    {
+     "start": 702.78,
+     "end": 702.92,
+     "text": "hold"
+    },
+    {
+     "start": 702.92,
+     "end": 703.04,
+     "text": "on,"
+    },
+    {
+     "start": 703.04,
+     "end": 703.14,
+     "text": "if"
+    },
+    {
+     "start": 703.14,
+     "end": 703.26,
+     "text": "that"
+    },
+    {
+     "start": 703.26,
+     "end": 703.76,
+     "text": "happens,"
+    },
+    {
+     "start": 703.76,
+     "end": 704.16,
+     "text": "where"
+    },
+    {
+     "start": 704.16,
+     "end": 704.28,
+     "text": "am"
+    },
+    {
+     "start": 704.28,
+     "end": 704.34,
+     "text": "I"
+    },
+    {
+     "start": 704.34,
+     "end": 704.56,
+     "text": "going"
+    },
+    {
+     "start": 704.56,
+     "end": 704.7,
+     "text": "to"
+    },
+    {
+     "start": 704.7,
+     "end": 704.82,
+     "text": "get"
+    },
+    {
+     "start": 704.82,
+     "end": 705.0,
+     "text": "all"
+    },
+    {
+     "start": 705.0,
+     "end": 705.16,
+     "text": "my"
+    },
+    {
+     "start": 705.16,
+     "end": 705.62,
+     "text": "interesting"
+    },
+    {
+     "start": 705.62,
+     "end": 706.06,
+     "text": "bullshit"
+    },
+    {
+     "start": 706.06,
+     "end": 706.46,
+     "text": "from?"
+    }
+   ]
+  },
+  {
+   "start": 707.16,
+   "end": 708.66,
+   "text": "I don't have an answer for that.",
+   "words": [
+    {
+     "start": 707.16,
+     "end": 707.3,
+     "text": "I"
+    },
+    {
+     "start": 707.3,
+     "end": 707.5,
+     "text": "don't"
+    },
+    {
+     "start": 707.5,
+     "end": 707.74,
+     "text": "have"
+    },
+    {
+     "start": 707.74,
+     "end": 707.84,
+     "text": "an"
+    },
+    {
+     "start": 707.84,
+     "end": 708.1,
+     "text": "answer"
+    },
+    {
+     "start": 708.1,
+     "end": 708.32,
+     "text": "for"
+    },
+    {
+     "start": 708.32,
+     "end": 708.66,
+     "text": "that."
+    }
+   ]
+  }
+ ],
+ "language": "English",
+ "backend": "groq",
+ "model": "whisper-large-v3-turbo",
+ "source_duration": 713.386667,
+ "chunk_count": 1,
+ "has_word_timings": true
+}
