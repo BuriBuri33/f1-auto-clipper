@@ -1,0 +1,9183 @@
+{
+ "segments": [
+  {
+   "start": 0.28,
+   "end": 5.9,
+   "text": "personally i find fairgrounds a mixed bag i enjoy all the different types of food the candy floss for",
+   "words": [
+    {
+     "start": 0.28,
+     "end": 0.58,
+     "text": "personally"
+    },
+    {
+     "start": 0.58,
+     "end": 0.8,
+     "text": "i"
+    },
+    {
+     "start": 0.8,
+     "end": 1.1,
+     "text": "find"
+    },
+    {
+     "start": 1.1,
+     "end": 1.98,
+     "text": "fairgrounds"
+    },
+    {
+     "start": 1.98,
+     "end": 2.1,
+     "text": "a"
+    },
+    {
+     "start": 2.1,
+     "end": 2.34,
+     "text": "mixed"
+    },
+    {
+     "start": 2.34,
+     "end": 2.72,
+     "text": "bag"
+    },
+    {
+     "start": 2.72,
+     "end": 3.24,
+     "text": "i"
+    },
+    {
+     "start": 3.24,
+     "end": 3.48,
+     "text": "enjoy"
+    },
+    {
+     "start": 3.48,
+     "end": 3.66,
+     "text": "all"
+    },
+    {
+     "start": 3.66,
+     "end": 3.74,
+     "text": "the"
+    },
+    {
+     "start": 3.74,
+     "end": 3.9,
+     "text": "different"
+    },
+    {
+     "start": 3.9,
+     "end": 4.12,
+     "text": "types"
+    },
+    {
+     "start": 4.12,
+     "end": 4.32,
+     "text": "of"
+    },
+    {
+     "start": 4.32,
+     "end": 4.56,
+     "text": "food"
+    },
+    {
+     "start": 4.56,
+     "end": 5.1,
+     "text": "the"
+    },
+    {
+     "start": 5.1,
+     "end": 5.38,
+     "text": "candy"
+    },
+    {
+     "start": 5.38,
+     "end": 5.66,
+     "text": "floss"
+    },
+    {
+     "start": 5.22,
+     "end": 5.9,
+     "text": "for"
+    }
+   ]
+  },
+  {
+   "start": 5.9,
+   "end": 12.52,
+   "text": "donuts and chips it's great and the kids love the bouncy castles and the duck bobbing and some of",
+   "words": [
+    {
+     "start": 5.9,
+     "end": 6.12,
+     "text": "donuts"
+    },
+    {
+     "start": 6.12,
+     "end": 6.56,
+     "text": "and"
+    },
+    {
+     "start": 6.56,
+     "end": 6.9,
+     "text": "chips"
+    },
+    {
+     "start": 6.9,
+     "end": 7.4,
+     "text": "it's"
+    },
+    {
+     "start": 7.4,
+     "end": 7.72,
+     "text": "great"
+    },
+    {
+     "start": 7.72,
+     "end": 8.82,
+     "text": "and"
+    },
+    {
+     "start": 8.82,
+     "end": 8.96,
+     "text": "the"
+    },
+    {
+     "start": 8.96,
+     "end": 9.22,
+     "text": "kids"
+    },
+    {
+     "start": 9.22,
+     "end": 9.5,
+     "text": "love"
+    },
+    {
+     "start": 9.5,
+     "end": 9.62,
+     "text": "the"
+    },
+    {
+     "start": 9.62,
+     "end": 9.92,
+     "text": "bouncy"
+    },
+    {
+     "start": 9.92,
+     "end": 10.44,
+     "text": "castles"
+    },
+    {
+     "start": 10.44,
+     "end": 11.08,
+     "text": "and"
+    },
+    {
+     "start": 11.08,
+     "end": 11.2,
+     "text": "the"
+    },
+    {
+     "start": 11.2,
+     "end": 11.4,
+     "text": "duck"
+    },
+    {
+     "start": 11.4,
+     "end": 11.78,
+     "text": "bobbing"
+    },
+    {
+     "start": 11.78,
+     "end": 12.14,
+     "text": "and"
+    },
+    {
+     "start": 12.14,
+     "end": 12.4,
+     "text": "some"
+    },
+    {
+     "start": 12.0,
+     "end": 12.52,
+     "text": "of"
+    }
+   ]
+  },
+  {
+   "start": 12.52,
+   "end": 17.68,
+   "text": "the more tamer rides but depending on the type of fair especially more adventurous ones beyond the usual",
+   "words": [
+    {
+     "start": 12.52,
+     "end": 12.6,
+     "text": "the"
+    },
+    {
+     "start": 12.6,
+     "end": 12.74,
+     "text": "more"
+    },
+    {
+     "start": 12.74,
+     "end": 13.12,
+     "text": "tamer"
+    },
+    {
+     "start": 13.12,
+     "end": 13.52,
+     "text": "rides"
+    },
+    {
+     "start": 13.52,
+     "end": 14.24,
+     "text": "but"
+    },
+    {
+     "start": 14.24,
+     "end": 14.54,
+     "text": "depending"
+    },
+    {
+     "start": 14.54,
+     "end": 14.76,
+     "text": "on"
+    },
+    {
+     "start": 14.76,
+     "end": 14.88,
+     "text": "the"
+    },
+    {
+     "start": 14.88,
+     "end": 15.08,
+     "text": "type"
+    },
+    {
+     "start": 15.08,
+     "end": 15.26,
+     "text": "of"
+    },
+    {
+     "start": 15.26,
+     "end": 15.48,
+     "text": "fair"
+    },
+    {
+     "start": 15.48,
+     "end": 16.1,
+     "text": "especially"
+    },
+    {
+     "start": 16.1,
+     "end": 16.32,
+     "text": "more"
+    },
+    {
+     "start": 16.32,
+     "end": 16.74,
+     "text": "adventurous"
+    },
+    {
+     "start": 16.74,
+     "end": 17.02,
+     "text": "ones"
+    },
+    {
+     "start": 17.02,
+     "end": 17.28,
+     "text": "beyond"
+    },
+    {
+     "start": 17.28,
+     "end": 17.46,
+     "text": "the"
+    },
+    {
+     "start": 17.16,
+     "end": 17.68,
+     "text": "usual"
+    }
+   ]
+  },
+  {
+   "start": 17.68,
+   "end": 23.78,
+   "text": "country fair where you get to meet a hedgehog sign up for an rspca donation or buy some locally",
+   "words": [
+    {
+     "start": 17.68,
+     "end": 18.18,
+     "text": "country"
+    },
+    {
+     "start": 18.18,
+     "end": 18.52,
+     "text": "fair"
+    },
+    {
+     "start": 18.52,
+     "end": 19.6,
+     "text": "where"
+    },
+    {
+     "start": 19.6,
+     "end": 19.88,
+     "text": "you"
+    },
+    {
+     "start": 19.88,
+     "end": 20.04,
+     "text": "get"
+    },
+    {
+     "start": 20.04,
+     "end": 20.22,
+     "text": "to"
+    },
+    {
+     "start": 20.22,
+     "end": 20.38,
+     "text": "meet"
+    },
+    {
+     "start": 20.38,
+     "end": 20.48,
+     "text": "a"
+    },
+    {
+     "start": 20.48,
+     "end": 20.9,
+     "text": "hedgehog"
+    },
+    {
+     "start": 20.9,
+     "end": 21.22,
+     "text": "sign"
+    },
+    {
+     "start": 21.22,
+     "end": 21.36,
+     "text": "up"
+    },
+    {
+     "start": 21.36,
+     "end": 21.52,
+     "text": "for"
+    },
+    {
+     "start": 21.52,
+     "end": 21.66,
+     "text": "an"
+    },
+    {
+     "start": 21.66,
+     "end": 22.3,
+     "text": "rspca"
+    },
+    {
+     "start": 22.3,
+     "end": 22.66,
+     "text": "donation"
+    },
+    {
+     "start": 22.66,
+     "end": 23.04,
+     "text": "or"
+    },
+    {
+     "start": 23.04,
+     "end": 23.26,
+     "text": "buy"
+    },
+    {
+     "start": 23.26,
+     "end": 23.44,
+     "text": "some"
+    },
+    {
+     "start": 23.44,
+     "end": 23.78,
+     "text": "locally"
+    }
+   ]
+  },
+  {
+   "start": 23.8,
+   "end": 31.5,
+   "text": "produce honey they offer a thrill akin to those you find at a permanent theme park.",
+   "words": [
+    {
+     "start": 23.8,
+     "end": 24.12,
+     "text": "produce"
+    },
+    {
+     "start": 24.12,
+     "end": 24.42,
+     "text": "honey"
+    },
+    {
+     "start": 24.42,
+     "end": 25.68,
+     "text": "they"
+    },
+    {
+     "start": 25.68,
+     "end": 26.0,
+     "text": "offer"
+    },
+    {
+     "start": 26.0,
+     "end": 26.66,
+     "text": "a"
+    },
+    {
+     "start": 26.66,
+     "end": 27.02,
+     "text": "thrill"
+    },
+    {
+     "start": 27.02,
+     "end": 27.54,
+     "text": "akin"
+    },
+    {
+     "start": 27.54,
+     "end": 28.02,
+     "text": "to"
+    },
+    {
+     "start": 28.02,
+     "end": 28.4,
+     "text": "those"
+    },
+    {
+     "start": 28.4,
+     "end": 28.78,
+     "text": "you"
+    },
+    {
+     "start": 28.78,
+     "end": 29.28,
+     "text": "find"
+    },
+    {
+     "start": 29.28,
+     "end": 29.92,
+     "text": "at"
+    },
+    {
+     "start": 29.92,
+     "end": 30.0,
+     "text": "a"
+    },
+    {
+     "start": 30.0,
+     "end": 30.46,
+     "text": "permanent"
+    },
+    {
+     "start": 30.46,
+     "end": 30.98,
+     "text": "theme"
+    },
+    {
+     "start": 30.98,
+     "end": 31.5,
+     "text": "park."
+    }
+   ]
+  },
+  {
+   "start": 31.5,
+   "end": 32.52,
+   "text": "This part I'm always",
+   "words": [
+    {
+     "start": 31.5,
+     "end": 31.9,
+     "text": "This"
+    },
+    {
+     "start": 31.9,
+     "end": 32.14,
+     "text": "part"
+    },
+    {
+     "start": 32.14,
+     "end": 32.36,
+     "text": "I'm"
+    },
+    {
+     "start": 31.88,
+     "end": 32.52,
+     "text": "always"
+    }
+   ]
+  },
+  {
+   "start": 32.52,
+   "end": 34.44,
+   "text": "a bit apprehensive about.",
+   "words": [
+    {
+     "start": 32.52,
+     "end": 32.76,
+     "text": "a"
+    },
+    {
+     "start": 32.76,
+     "end": 32.92,
+     "text": "bit"
+    },
+    {
+     "start": 32.92,
+     "end": 33.64,
+     "text": "apprehensive"
+    },
+    {
+     "start": 33.64,
+     "end": 34.44,
+     "text": "about."
+    }
+   ]
+  },
+  {
+   "start": 34.44,
+   "end": 36.82,
+   "text": "These rides are constructed and dismantled hundreds of times",
+   "words": [
+    {
+     "start": 34.44,
+     "end": 34.52,
+     "text": "These"
+    },
+    {
+     "start": 34.52,
+     "end": 34.86,
+     "text": "rides"
+    },
+    {
+     "start": 34.86,
+     "end": 35.04,
+     "text": "are"
+    },
+    {
+     "start": 35.04,
+     "end": 35.5,
+     "text": "constructed"
+    },
+    {
+     "start": 35.5,
+     "end": 35.66,
+     "text": "and"
+    },
+    {
+     "start": 35.66,
+     "end": 36.06,
+     "text": "dismantled"
+    },
+    {
+     "start": 36.06,
+     "end": 36.36,
+     "text": "hundreds"
+    },
+    {
+     "start": 36.36,
+     "end": 36.54,
+     "text": "of"
+    },
+    {
+     "start": 36.54,
+     "end": 36.82,
+     "text": "times"
+    }
+   ]
+  },
+  {
+   "start": 36.4,
+   "end": 43.8,
+   "text": "over their lifetime and something about being mobile makes me think there's plenty of opportunity for",
+   "words": [
+    {
+     "start": 36.4,
+     "end": 37.56,
+     "text": "over"
+    },
+    {
+     "start": 37.56,
+     "end": 37.74,
+     "text": "their"
+    },
+    {
+     "start": 37.74,
+     "end": 38.24,
+     "text": "lifetime"
+    },
+    {
+     "start": 38.24,
+     "end": 39.36,
+     "text": "and"
+    },
+    {
+     "start": 39.36,
+     "end": 39.7,
+     "text": "something"
+    },
+    {
+     "start": 39.7,
+     "end": 39.96,
+     "text": "about"
+    },
+    {
+     "start": 39.96,
+     "end": 40.18,
+     "text": "being"
+    },
+    {
+     "start": 40.18,
+     "end": 40.6,
+     "text": "mobile"
+    },
+    {
+     "start": 40.6,
+     "end": 41.18,
+     "text": "makes"
+    },
+    {
+     "start": 41.18,
+     "end": 41.34,
+     "text": "me"
+    },
+    {
+     "start": 41.34,
+     "end": 41.64,
+     "text": "think"
+    },
+    {
+     "start": 41.64,
+     "end": 42.24,
+     "text": "there's"
+    },
+    {
+     "start": 42.24,
+     "end": 42.66,
+     "text": "plenty"
+    },
+    {
+     "start": 42.66,
+     "end": 42.9,
+     "text": "of"
+    },
+    {
+     "start": 42.9,
+     "end": 43.28,
+     "text": "opportunity"
+    },
+    {
+     "start": 42.94,
+     "end": 43.8,
+     "text": "for"
+    }
+   ]
+  },
+  {
+   "start": 43.8,
+   "end": 49.64,
+   "text": "an accident to occur and stories like today make my fears all more justified.",
+   "words": [
+    {
+     "start": 43.8,
+     "end": 43.94,
+     "text": "an"
+    },
+    {
+     "start": 43.94,
+     "end": 44.2,
+     "text": "accident"
+    },
+    {
+     "start": 44.2,
+     "end": 44.5,
+     "text": "to"
+    },
+    {
+     "start": 44.5,
+     "end": 44.86,
+     "text": "occur"
+    },
+    {
+     "start": 44.86,
+     "end": 45.98,
+     "text": "and"
+    },
+    {
+     "start": 45.98,
+     "end": 46.32,
+     "text": "stories"
+    },
+    {
+     "start": 46.32,
+     "end": 46.52,
+     "text": "like"
+    },
+    {
+     "start": 46.52,
+     "end": 46.84,
+     "text": "today"
+    },
+    {
+     "start": 46.84,
+     "end": 47.38,
+     "text": "make"
+    },
+    {
+     "start": 47.38,
+     "end": 47.6,
+     "text": "my"
+    },
+    {
+     "start": 47.6,
+     "end": 48.14,
+     "text": "fears"
+    },
+    {
+     "start": 48.14,
+     "end": 48.56,
+     "text": "all"
+    },
+    {
+     "start": 48.56,
+     "end": 48.8,
+     "text": "more"
+    },
+    {
+     "start": 48.8,
+     "end": 49.64,
+     "text": "justified."
+    }
+   ]
+  },
+  {
+   "start": 51.86,
+   "end": 58.36,
+   "text": "ride today we're looking at the ohio state fair and its 2017 tragedy where a ride failed",
+   "words": [
+    {
+     "start": 51.86,
+     "end": 51.88,
+     "text": "ride"
+    },
+    {
+     "start": 51.88,
+     "end": 52.0,
+     "text": "today"
+    },
+    {
+     "start": 52.0,
+     "end": 52.22,
+     "text": "we're"
+    },
+    {
+     "start": 52.22,
+     "end": 52.38,
+     "text": "looking"
+    },
+    {
+     "start": 52.38,
+     "end": 52.66,
+     "text": "at"
+    },
+    {
+     "start": 52.66,
+     "end": 53.12,
+     "text": "the"
+    },
+    {
+     "start": 53.12,
+     "end": 53.64,
+     "text": "ohio"
+    },
+    {
+     "start": 53.64,
+     "end": 54.02,
+     "text": "state"
+    },
+    {
+     "start": 54.02,
+     "end": 54.42,
+     "text": "fair"
+    },
+    {
+     "start": 54.42,
+     "end": 55.28,
+     "text": "and"
+    },
+    {
+     "start": 55.28,
+     "end": 55.52,
+     "text": "its"
+    },
+    {
+     "start": 55.52,
+     "end": 56.12,
+     "text": "2017"
+    },
+    {
+     "start": 56.12,
+     "end": 56.92,
+     "text": "tragedy"
+    },
+    {
+     "start": 56.92,
+     "end": 57.48,
+     "text": "where"
+    },
+    {
+     "start": 57.48,
+     "end": 57.6,
+     "text": "a"
+    },
+    {
+     "start": 57.6,
+     "end": 57.94,
+     "text": "ride"
+    },
+    {
+     "start": 57.94,
+     "end": 58.36,
+     "text": "failed"
+    }
+   ]
+  },
+  {
+   "start": 57.96,
+   "end": 65.28,
+   "text": "the worst possible way by flinging its passengers into the air my name is john",
+   "words": [
+    {
+     "start": 57.96,
+     "end": 59.06,
+     "text": "the"
+    },
+    {
+     "start": 59.06,
+     "end": 59.5,
+     "text": "worst"
+    },
+    {
+     "start": 59.5,
+     "end": 59.96,
+     "text": "possible"
+    },
+    {
+     "start": 59.96,
+     "end": 60.44,
+     "text": "way"
+    },
+    {
+     "start": 60.44,
+     "end": 60.98,
+     "text": "by"
+    },
+    {
+     "start": 60.98,
+     "end": 61.36,
+     "text": "flinging"
+    },
+    {
+     "start": 61.36,
+     "end": 62.18,
+     "text": "its"
+    },
+    {
+     "start": 62.18,
+     "end": 62.62,
+     "text": "passengers"
+    },
+    {
+     "start": 62.62,
+     "end": 63.22,
+     "text": "into"
+    },
+    {
+     "start": 63.22,
+     "end": 63.4,
+     "text": "the"
+    },
+    {
+     "start": 63.4,
+     "end": 63.72,
+     "text": "air"
+    },
+    {
+     "start": 63.72,
+     "end": 64.76,
+     "text": "my"
+    },
+    {
+     "start": 64.76,
+     "end": 64.92,
+     "text": "name"
+    },
+    {
+     "start": 64.92,
+     "end": 65.06,
+     "text": "is"
+    },
+    {
+     "start": 65.06,
+     "end": 65.28,
+     "text": "john"
+    }
+   ]
+  },
+  {
+   "start": 64.9,
+   "end": 69.78,
+   "text": "and welcome to plainly difficult today we're looking at the fireball disaster",
+   "words": [
+    {
+     "start": 64.9,
+     "end": 65.96,
+     "text": "and"
+    },
+    {
+     "start": 65.96,
+     "end": 66.6,
+     "text": "welcome"
+    },
+    {
+     "start": 66.6,
+     "end": 66.86,
+     "text": "to"
+    },
+    {
+     "start": 66.86,
+     "end": 67.24,
+     "text": "plainly"
+    },
+    {
+     "start": 67.24,
+     "end": 67.5,
+     "text": "difficult"
+    },
+    {
+     "start": 67.5,
+     "end": 68.26,
+     "text": "today"
+    },
+    {
+     "start": 68.26,
+     "end": 68.46,
+     "text": "we're"
+    },
+    {
+     "start": 68.46,
+     "end": 68.64,
+     "text": "looking"
+    },
+    {
+     "start": 68.64,
+     "end": 68.82,
+     "text": "at"
+    },
+    {
+     "start": 68.82,
+     "end": 69.1,
+     "text": "the"
+    },
+    {
+     "start": 69.1,
+     "end": 69.5,
+     "text": "fireball"
+    },
+    {
+     "start": 69.5,
+     "end": 69.78,
+     "text": "disaster"
+    }
+   ]
+  },
+  {
+   "start": 79.64,
+   "end": 85.5,
+   "text": "the ohio state fair so recently i found out that fairgrounds in some parts of the usa",
+   "words": [
+    {
+     "start": 79.64,
+     "end": 79.74,
+     "text": "the"
+    },
+    {
+     "start": 79.74,
+     "end": 80.16,
+     "text": "ohio"
+    },
+    {
+     "start": 80.16,
+     "end": 80.56,
+     "text": "state"
+    },
+    {
+     "start": 80.56,
+     "end": 80.92,
+     "text": "fair"
+    },
+    {
+     "start": 80.92,
+     "end": 81.86,
+     "text": "so"
+    },
+    {
+     "start": 81.86,
+     "end": 82.22,
+     "text": "recently"
+    },
+    {
+     "start": 82.22,
+     "end": 82.46,
+     "text": "i"
+    },
+    {
+     "start": 82.46,
+     "end": 82.78,
+     "text": "found"
+    },
+    {
+     "start": 82.78,
+     "end": 83.26,
+     "text": "out"
+    },
+    {
+     "start": 83.26,
+     "end": 83.7,
+     "text": "that"
+    },
+    {
+     "start": 83.7,
+     "end": 84.48,
+     "text": "fairgrounds"
+    },
+    {
+     "start": 84.48,
+     "end": 84.62,
+     "text": "in"
+    },
+    {
+     "start": 84.62,
+     "end": 84.82,
+     "text": "some"
+    },
+    {
+     "start": 84.82,
+     "end": 85.1,
+     "text": "parts"
+    },
+    {
+     "start": 85.1,
+     "end": 85.24,
+     "text": "of"
+    },
+    {
+     "start": 85.24,
+     "end": 85.34,
+     "text": "the"
+    },
+    {
+     "start": 85.34,
+     "end": 85.5,
+     "text": "usa"
+    }
+   ]
+  },
+  {
+   "start": 85.08,
+   "end": 92.14,
+   "text": "actually have set specially built areas that host seasonal fairs this is a bit different to here in the",
+   "words": [
+    {
+     "start": 85.08,
+     "end": 86.54,
+     "text": "actually"
+    },
+    {
+     "start": 86.54,
+     "end": 86.84,
+     "text": "have"
+    },
+    {
+     "start": 86.84,
+     "end": 87.16,
+     "text": "set"
+    },
+    {
+     "start": 87.16,
+     "end": 87.62,
+     "text": "specially"
+    },
+    {
+     "start": 87.62,
+     "end": 88.02,
+     "text": "built"
+    },
+    {
+     "start": 88.02,
+     "end": 88.6,
+     "text": "areas"
+    },
+    {
+     "start": 88.6,
+     "end": 89.02,
+     "text": "that"
+    },
+    {
+     "start": 89.02,
+     "end": 89.3,
+     "text": "host"
+    },
+    {
+     "start": 89.3,
+     "end": 89.72,
+     "text": "seasonal"
+    },
+    {
+     "start": 89.72,
+     "end": 90.2,
+     "text": "fairs"
+    },
+    {
+     "start": 90.2,
+     "end": 90.92,
+     "text": "this"
+    },
+    {
+     "start": 90.92,
+     "end": 91.0,
+     "text": "is"
+    },
+    {
+     "start": 91.0,
+     "end": 91.1,
+     "text": "a"
+    },
+    {
+     "start": 91.1,
+     "end": 91.12,
+     "text": "bit"
+    },
+    {
+     "start": 91.12,
+     "end": 91.4,
+     "text": "different"
+    },
+    {
+     "start": 91.4,
+     "end": 91.64,
+     "text": "to"
+    },
+    {
+     "start": 91.64,
+     "end": 91.84,
+     "text": "here"
+    },
+    {
+     "start": 91.84,
+     "end": 91.94,
+     "text": "in"
+    },
+    {
+     "start": 91.44,
+     "end": 92.14,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "start": 92.14,
+   "end": 98.88,
+   "text": "uk where traveling carnivals and fairs rock up and set up inside local parks or even out on",
+   "words": [
+    {
+     "start": 92.14,
+     "end": 92.26,
+     "text": "uk"
+    },
+    {
+     "start": 92.26,
+     "end": 93.56,
+     "text": "where"
+    },
+    {
+     "start": 93.56,
+     "end": 93.94,
+     "text": "traveling"
+    },
+    {
+     "start": 93.94,
+     "end": 94.5,
+     "text": "carnivals"
+    },
+    {
+     "start": 94.5,
+     "end": 94.88,
+     "text": "and"
+    },
+    {
+     "start": 94.88,
+     "end": 95.2,
+     "text": "fairs"
+    },
+    {
+     "start": 95.2,
+     "end": 95.44,
+     "text": "rock"
+    },
+    {
+     "start": 95.44,
+     "end": 95.74,
+     "text": "up"
+    },
+    {
+     "start": 95.74,
+     "end": 95.96,
+     "text": "and"
+    },
+    {
+     "start": 95.96,
+     "end": 96.2,
+     "text": "set"
+    },
+    {
+     "start": 96.2,
+     "end": 96.4,
+     "text": "up"
+    },
+    {
+     "start": 96.4,
+     "end": 96.74,
+     "text": "inside"
+    },
+    {
+     "start": 96.74,
+     "end": 97.04,
+     "text": "local"
+    },
+    {
+     "start": 97.04,
+     "end": 97.48,
+     "text": "parks"
+    },
+    {
+     "start": 97.48,
+     "end": 98.08,
+     "text": "or"
+    },
+    {
+     "start": 98.08,
+     "end": 98.26,
+     "text": "even"
+    },
+    {
+     "start": 98.26,
+     "end": 98.64,
+     "text": "out"
+    },
+    {
+     "start": 98.64,
+     "end": 98.88,
+     "text": "on"
+    }
+   ]
+  },
+  {
+   "start": 98.92,
+   "end": 106.1,
+   "text": "the street the more you know i suppose anyways this is the ohio state fairground it is a set property",
+   "words": [
+    {
+     "start": 98.92,
+     "end": 99.06,
+     "text": "the"
+    },
+    {
+     "start": 99.06,
+     "end": 99.34,
+     "text": "street"
+    },
+    {
+     "start": 99.34,
+     "end": 100.52,
+     "text": "the"
+    },
+    {
+     "start": 100.52,
+     "end": 100.74,
+     "text": "more"
+    },
+    {
+     "start": 100.74,
+     "end": 101.02,
+     "text": "you"
+    },
+    {
+     "start": 101.02,
+     "end": 101.14,
+     "text": "know"
+    },
+    {
+     "start": 101.14,
+     "end": 101.32,
+     "text": "i"
+    },
+    {
+     "start": 101.32,
+     "end": 101.62,
+     "text": "suppose"
+    },
+    {
+     "start": 101.62,
+     "end": 102.22,
+     "text": "anyways"
+    },
+    {
+     "start": 102.22,
+     "end": 102.62,
+     "text": "this"
+    },
+    {
+     "start": 102.62,
+     "end": 102.9,
+     "text": "is"
+    },
+    {
+     "start": 102.9,
+     "end": 103.02,
+     "text": "the"
+    },
+    {
+     "start": 103.02,
+     "end": 103.44,
+     "text": "ohio"
+    },
+    {
+     "start": 103.44,
+     "end": 103.8,
+     "text": "state"
+    },
+    {
+     "start": 103.8,
+     "end": 104.34,
+     "text": "fairground"
+    },
+    {
+     "start": 104.34,
+     "end": 104.74,
+     "text": "it"
+    },
+    {
+     "start": 104.74,
+     "end": 105.0,
+     "text": "is"
+    },
+    {
+     "start": 105.0,
+     "end": 105.32,
+     "text": "a"
+    },
+    {
+     "start": 105.32,
+     "end": 105.68,
+     "text": "set"
+    },
+    {
+     "start": 105.18,
+     "end": 106.1,
+     "text": "property"
+    }
+   ]
+  },
+  {
+   "start": 106.1,
+   "end": 111.74,
+   "text": "used to host the state fair and it makes complete sense really as the site also is home to an",
+   "words": [
+    {
+     "start": 106.1,
+     "end": 106.76,
+     "text": "used"
+    },
+    {
+     "start": 106.76,
+     "end": 106.96,
+     "text": "to"
+    },
+    {
+     "start": 106.96,
+     "end": 107.24,
+     "text": "host"
+    },
+    {
+     "start": 107.24,
+     "end": 107.46,
+     "text": "the"
+    },
+    {
+     "start": 107.46,
+     "end": 107.6,
+     "text": "state"
+    },
+    {
+     "start": 107.6,
+     "end": 107.9,
+     "text": "fair"
+    },
+    {
+     "start": 107.9,
+     "end": 108.44,
+     "text": "and"
+    },
+    {
+     "start": 108.44,
+     "end": 108.52,
+     "text": "it"
+    },
+    {
+     "start": 108.52,
+     "end": 108.74,
+     "text": "makes"
+    },
+    {
+     "start": 108.74,
+     "end": 109.04,
+     "text": "complete"
+    },
+    {
+     "start": 109.04,
+     "end": 109.38,
+     "text": "sense"
+    },
+    {
+     "start": 109.38,
+     "end": 109.74,
+     "text": "really"
+    },
+    {
+     "start": 109.74,
+     "end": 110.26,
+     "text": "as"
+    },
+    {
+     "start": 110.26,
+     "end": 110.34,
+     "text": "the"
+    },
+    {
+     "start": 110.34,
+     "end": 110.56,
+     "text": "site"
+    },
+    {
+     "start": 110.56,
+     "end": 110.94,
+     "text": "also"
+    },
+    {
+     "start": 110.94,
+     "end": 111.22,
+     "text": "is"
+    },
+    {
+     "start": 111.22,
+     "end": 111.4,
+     "text": "home"
+    },
+    {
+     "start": 111.4,
+     "end": 111.54,
+     "text": "to"
+    },
+    {
+     "start": 111.08,
+     "end": 111.74,
+     "text": "an"
+    }
+   ]
+  },
+  {
+   "start": 111.74,
+   "end": 116.92,
+   "text": "expo center as well as all the hard standing areas used for the fairground attractions the site has",
+   "words": [
+    {
+     "start": 111.74,
+     "end": 112.08,
+     "text": "expo"
+    },
+    {
+     "start": 112.08,
+     "end": 112.36,
+     "text": "center"
+    },
+    {
+     "start": 112.36,
+     "end": 113.04,
+     "text": "as"
+    },
+    {
+     "start": 113.04,
+     "end": 113.14,
+     "text": "well"
+    },
+    {
+     "start": 113.14,
+     "end": 113.26,
+     "text": "as"
+    },
+    {
+     "start": 113.26,
+     "end": 113.3,
+     "text": "all"
+    },
+    {
+     "start": 113.3,
+     "end": 113.42,
+     "text": "the"
+    },
+    {
+     "start": 113.42,
+     "end": 113.72,
+     "text": "hard"
+    },
+    {
+     "start": 113.72,
+     "end": 114.04,
+     "text": "standing"
+    },
+    {
+     "start": 114.04,
+     "end": 114.52,
+     "text": "areas"
+    },
+    {
+     "start": 114.52,
+     "end": 114.86,
+     "text": "used"
+    },
+    {
+     "start": 114.86,
+     "end": 115.02,
+     "text": "for"
+    },
+    {
+     "start": 115.02,
+     "end": 115.14,
+     "text": "the"
+    },
+    {
+     "start": 115.14,
+     "end": 115.54,
+     "text": "fairground"
+    },
+    {
+     "start": 115.54,
+     "end": 115.96,
+     "text": "attractions"
+    },
+    {
+     "start": 115.96,
+     "end": 116.48,
+     "text": "the"
+    },
+    {
+     "start": 116.48,
+     "end": 116.72,
+     "text": "site"
+    },
+    {
+     "start": 116.48,
+     "end": 116.92,
+     "text": "has"
+    }
+   ]
+  },
+  {
+   "start": 116.92,
+   "end": 122.6,
+   "text": "been home to the fair since the late 1880s make it one of the longest running and largest of its",
+   "words": [
+    {
+     "start": 116.92,
+     "end": 117.0,
+     "text": "been"
+    },
+    {
+     "start": 117.0,
+     "end": 117.26,
+     "text": "home"
+    },
+    {
+     "start": 117.26,
+     "end": 117.42,
+     "text": "to"
+    },
+    {
+     "start": 117.42,
+     "end": 117.54,
+     "text": "the"
+    },
+    {
+     "start": 117.54,
+     "end": 117.72,
+     "text": "fair"
+    },
+    {
+     "start": 117.72,
+     "end": 118.06,
+     "text": "since"
+    },
+    {
+     "start": 118.06,
+     "end": 118.22,
+     "text": "the"
+    },
+    {
+     "start": 118.22,
+     "end": 118.52,
+     "text": "late"
+    },
+    {
+     "start": 118.52,
+     "end": 119.72,
+     "text": "1880s"
+    },
+    {
+     "start": 119.72,
+     "end": 120.38,
+     "text": "make"
+    },
+    {
+     "start": 120.38,
+     "end": 120.52,
+     "text": "it"
+    },
+    {
+     "start": 120.52,
+     "end": 120.66,
+     "text": "one"
+    },
+    {
+     "start": 120.66,
+     "end": 120.8,
+     "text": "of"
+    },
+    {
+     "start": 120.8,
+     "end": 120.84,
+     "text": "the"
+    },
+    {
+     "start": 120.84,
+     "end": 121.1,
+     "text": "longest"
+    },
+    {
+     "start": 121.1,
+     "end": 121.42,
+     "text": "running"
+    },
+    {
+     "start": 121.42,
+     "end": 121.82,
+     "text": "and"
+    },
+    {
+     "start": 121.82,
+     "end": 122.14,
+     "text": "largest"
+    },
+    {
+     "start": 122.14,
+     "end": 122.44,
+     "text": "of"
+    },
+    {
+     "start": 121.96,
+     "end": 122.6,
+     "text": "its"
+    }
+   ]
+  },
+  {
+   "start": 122.6,
+   "end": 127.9,
+   "text": "type in the usa the fair runs for a couple of weeks over the end of july and the start of august",
+   "words": [
+    {
+     "start": 122.6,
+     "end": 122.82,
+     "text": "type"
+    },
+    {
+     "start": 122.82,
+     "end": 123.0,
+     "text": "in"
+    },
+    {
+     "start": 123.0,
+     "end": 123.1,
+     "text": "the"
+    },
+    {
+     "start": 123.1,
+     "end": 123.3,
+     "text": "usa"
+    },
+    {
+     "start": 123.3,
+     "end": 124.42,
+     "text": "the"
+    },
+    {
+     "start": 124.42,
+     "end": 124.6,
+     "text": "fair"
+    },
+    {
+     "start": 124.6,
+     "end": 125.0,
+     "text": "runs"
+    },
+    {
+     "start": 125.0,
+     "end": 125.3,
+     "text": "for"
+    },
+    {
+     "start": 125.3,
+     "end": 125.46,
+     "text": "a"
+    },
+    {
+     "start": 125.46,
+     "end": 125.64,
+     "text": "couple"
+    },
+    {
+     "start": 125.64,
+     "end": 125.76,
+     "text": "of"
+    },
+    {
+     "start": 125.76,
+     "end": 125.96,
+     "text": "weeks"
+    },
+    {
+     "start": 125.96,
+     "end": 126.2,
+     "text": "over"
+    },
+    {
+     "start": 126.2,
+     "end": 126.32,
+     "text": "the"
+    },
+    {
+     "start": 126.32,
+     "end": 126.44,
+     "text": "end"
+    },
+    {
+     "start": 126.44,
+     "end": 126.58,
+     "text": "of"
+    },
+    {
+     "start": 126.58,
+     "end": 126.78,
+     "text": "july"
+    },
+    {
+     "start": 126.78,
+     "end": 127.06,
+     "text": "and"
+    },
+    {
+     "start": 127.06,
+     "end": 127.16,
+     "text": "the"
+    },
+    {
+     "start": 127.16,
+     "end": 127.32,
+     "text": "start"
+    },
+    {
+     "start": 127.32,
+     "end": 127.5,
+     "text": "of"
+    },
+    {
+     "start": 127.5,
+     "end": 127.9,
+     "text": "august"
+    }
+   ]
+  },
+  {
+   "start": 128.92,
+   "end": 134.78,
+   "text": "During the fair, mobile amusement rides are set up for the economically important event.",
+   "words": [
+    {
+     "start": 128.92,
+     "end": 129.2,
+     "text": "During"
+    },
+    {
+     "start": 129.2,
+     "end": 129.5,
+     "text": "the"
+    },
+    {
+     "start": 129.5,
+     "end": 130.06,
+     "text": "fair,"
+    },
+    {
+     "start": 130.06,
+     "end": 130.5,
+     "text": "mobile"
+    },
+    {
+     "start": 130.5,
+     "end": 130.94,
+     "text": "amusement"
+    },
+    {
+     "start": 130.94,
+     "end": 131.32,
+     "text": "rides"
+    },
+    {
+     "start": 131.32,
+     "end": 131.6,
+     "text": "are"
+    },
+    {
+     "start": 131.6,
+     "end": 131.84,
+     "text": "set"
+    },
+    {
+     "start": 131.84,
+     "end": 132.1,
+     "text": "up"
+    },
+    {
+     "start": 132.1,
+     "end": 132.5,
+     "text": "for"
+    },
+    {
+     "start": 132.5,
+     "end": 133.12,
+     "text": "the"
+    },
+    {
+     "start": 133.12,
+     "end": 133.62,
+     "text": "economically"
+    },
+    {
+     "start": 133.62,
+     "end": 134.26,
+     "text": "important"
+    },
+    {
+     "start": 134.26,
+     "end": 134.78,
+     "text": "event."
+    }
+   ]
+  },
+  {
+   "start": 135.4,
+   "end": 139.18,
+   "text": "Over 200 food vendors populate the site in addition to the rides.",
+   "words": [
+    {
+     "start": 135.4,
+     "end": 135.58,
+     "text": "Over"
+    },
+    {
+     "start": 135.58,
+     "end": 135.96,
+     "text": "200"
+    },
+    {
+     "start": 135.96,
+     "end": 136.48,
+     "text": "food"
+    },
+    {
+     "start": 136.48,
+     "end": 136.8,
+     "text": "vendors"
+    },
+    {
+     "start": 136.8,
+     "end": 137.26,
+     "text": "populate"
+    },
+    {
+     "start": 137.26,
+     "end": 137.5,
+     "text": "the"
+    },
+    {
+     "start": 137.5,
+     "end": 137.64,
+     "text": "site"
+    },
+    {
+     "start": 137.64,
+     "end": 138.1,
+     "text": "in"
+    },
+    {
+     "start": 138.1,
+     "end": 138.32,
+     "text": "addition"
+    },
+    {
+     "start": 138.32,
+     "end": 138.66,
+     "text": "to"
+    },
+    {
+     "start": 138.66,
+     "end": 138.74,
+     "text": "the"
+    },
+    {
+     "start": 138.74,
+     "end": 139.18,
+     "text": "rides."
+    }
+   ]
+  },
+  {
+   "start": 139.7,
+   "end": 144.48,
+   "text": "And in addition to all of this, there are live acts and cow appreciation.",
+   "words": [
+    {
+     "start": 139.7,
+     "end": 140.0,
+     "text": "And"
+    },
+    {
+     "start": 140.0,
+     "end": 140.46,
+     "text": "in"
+    },
+    {
+     "start": 140.46,
+     "end": 140.74,
+     "text": "addition"
+    },
+    {
+     "start": 140.74,
+     "end": 140.96,
+     "text": "to"
+    },
+    {
+     "start": 140.96,
+     "end": 141.1,
+     "text": "all"
+    },
+    {
+     "start": 141.1,
+     "end": 141.2,
+     "text": "of"
+    },
+    {
+     "start": 141.2,
+     "end": 141.6,
+     "text": "this,"
+    },
+    {
+     "start": 141.6,
+     "end": 141.74,
+     "text": "there"
+    },
+    {
+     "start": 141.74,
+     "end": 141.98,
+     "text": "are"
+    },
+    {
+     "start": 141.98,
+     "end": 142.24,
+     "text": "live"
+    },
+    {
+     "start": 142.24,
+     "end": 142.64,
+     "text": "acts"
+    },
+    {
+     "start": 142.64,
+     "end": 143.28,
+     "text": "and"
+    },
+    {
+     "start": 143.28,
+     "end": 143.84,
+     "text": "cow"
+    },
+    {
+     "start": 143.84,
+     "end": 144.48,
+     "text": "appreciation."
+    }
+   ]
+  },
+  {
+   "start": 145.42,
+   "end": 150.0,
+   "text": "By the late 2010s, there was an annual attendance of just shy of one million people.",
+   "words": [
+    {
+     "start": 145.42,
+     "end": 145.56,
+     "text": "By"
+    },
+    {
+     "start": 145.56,
+     "end": 145.7,
+     "text": "the"
+    },
+    {
+     "start": 145.7,
+     "end": 145.82,
+     "text": "late"
+    },
+    {
+     "start": 145.82,
+     "end": 146.5,
+     "text": "2010s,"
+    },
+    {
+     "start": 146.5,
+     "end": 146.62,
+     "text": "there"
+    },
+    {
+     "start": 146.62,
+     "end": 146.8,
+     "text": "was"
+    },
+    {
+     "start": 146.8,
+     "end": 146.88,
+     "text": "an"
+    },
+    {
+     "start": 146.88,
+     "end": 147.2,
+     "text": "annual"
+    },
+    {
+     "start": 147.2,
+     "end": 147.58,
+     "text": "attendance"
+    },
+    {
+     "start": 147.58,
+     "end": 148.02,
+     "text": "of"
+    },
+    {
+     "start": 148.02,
+     "end": 148.36,
+     "text": "just"
+    },
+    {
+     "start": 148.36,
+     "end": 148.66,
+     "text": "shy"
+    },
+    {
+     "start": 148.66,
+     "end": 148.88,
+     "text": "of"
+    },
+    {
+     "start": 148.88,
+     "end": 149.08,
+     "text": "one"
+    },
+    {
+     "start": 149.08,
+     "end": 149.36,
+     "text": "million"
+    },
+    {
+     "start": 149.36,
+     "end": 150.0,
+     "text": "people."
+    }
+   ]
+  },
+  {
+   "start": 150.72,
+   "end": 153.96,
+   "text": "Now, that's our short background out of the way about the site.",
+   "words": [
+    {
+     "start": 150.72,
+     "end": 151.0,
+     "text": "Now,"
+    },
+    {
+     "start": 151.0,
+     "end": 151.18,
+     "text": "that's"
+    },
+    {
+     "start": 151.18,
+     "end": 151.3,
+     "text": "our"
+    },
+    {
+     "start": 151.3,
+     "end": 151.48,
+     "text": "short"
+    },
+    {
+     "start": 151.48,
+     "end": 151.92,
+     "text": "background"
+    },
+    {
+     "start": 151.92,
+     "end": 152.9,
+     "text": "out"
+    },
+    {
+     "start": 152.9,
+     "end": 153.04,
+     "text": "of"
+    },
+    {
+     "start": 153.04,
+     "end": 153.14,
+     "text": "the"
+    },
+    {
+     "start": 153.14,
+     "end": 153.3,
+     "text": "way"
+    },
+    {
+     "start": 153.3,
+     "end": 153.52,
+     "text": "about"
+    },
+    {
+     "start": 153.52,
+     "end": 153.68,
+     "text": "the"
+    },
+    {
+     "start": 153.68,
+     "end": 153.96,
+     "text": "site."
+    }
+   ]
+  },
+  {
+   "start": 154.04,
+   "end": 160.074,
+   "text": "we need to look at one of the rides that specifically was there at the time of our disaster.",
+   "words": [
+    {
+     "start": 154.04,
+     "end": 154.44,
+     "text": "we"
+    },
+    {
+     "start": 154.44,
+     "end": 154.58,
+     "text": "need"
+    },
+    {
+     "start": 154.58,
+     "end": 154.7,
+     "text": "to"
+    },
+    {
+     "start": 154.7,
+     "end": 154.84,
+     "text": "look"
+    },
+    {
+     "start": 154.84,
+     "end": 155.02,
+     "text": "at"
+    },
+    {
+     "start": 155.02,
+     "end": 155.2,
+     "text": "one"
+    },
+    {
+     "start": 155.2,
+     "end": 155.32,
+     "text": "of"
+    },
+    {
+     "start": 155.32,
+     "end": 155.46,
+     "text": "the"
+    },
+    {
+     "start": 155.454,
+     "end": 155.794,
+     "text": "rides"
+    },
+    {
+     "start": 155.794,
+     "end": 156.134,
+     "text": "that"
+    },
+    {
+     "start": 156.134,
+     "end": 156.694,
+     "text": "specifically"
+    },
+    {
+     "start": 156.694,
+     "end": 157.894,
+     "text": "was"
+    },
+    {
+     "start": 157.894,
+     "end": 158.254,
+     "text": "there"
+    },
+    {
+     "start": 158.254,
+     "end": 158.914,
+     "text": "at"
+    },
+    {
+     "start": 158.914,
+     "end": 159.034,
+     "text": "the"
+    },
+    {
+     "start": 159.034,
+     "end": 159.194,
+     "text": "time"
+    },
+    {
+     "start": 159.194,
+     "end": 159.374,
+     "text": "of"
+    },
+    {
+     "start": 159.374,
+     "end": 159.474,
+     "text": "our"
+    },
+    {
+     "start": 159.474,
+     "end": 160.074,
+     "text": "disaster."
+    }
+   ]
+  },
+  {
+   "start": 161.194,
+   "end": 162.454,
+   "text": "This is the Fireball.",
+   "words": [
+    {
+     "start": 161.194,
+     "end": 161.454,
+     "text": "This"
+    },
+    {
+     "start": 161.454,
+     "end": 161.794,
+     "text": "is"
+    },
+    {
+     "start": 161.794,
+     "end": 162.034,
+     "text": "the"
+    },
+    {
+     "start": 162.034,
+     "end": 162.454,
+     "text": "Fireball."
+    }
+   ]
+  },
+  {
+   "start": 162.454,
+   "end": 168.714,
+   "text": "It's a type of ride sold by manufacturer KMG under the name Afterburner.",
+   "words": [
+    {
+     "start": 162.454,
+     "end": 163.254,
+     "text": "It's"
+    },
+    {
+     "start": 163.254,
+     "end": 163.374,
+     "text": "a"
+    },
+    {
+     "start": 163.374,
+     "end": 163.634,
+     "text": "type"
+    },
+    {
+     "start": 163.634,
+     "end": 163.834,
+     "text": "of"
+    },
+    {
+     "start": 163.834,
+     "end": 164.154,
+     "text": "ride"
+    },
+    {
+     "start": 164.154,
+     "end": 164.494,
+     "text": "sold"
+    },
+    {
+     "start": 164.494,
+     "end": 164.694,
+     "text": "by"
+    },
+    {
+     "start": 164.694,
+     "end": 165.334,
+     "text": "manufacturer"
+    },
+    {
+     "start": 165.334,
+     "end": 166.394,
+     "text": "KMG"
+    },
+    {
+     "start": 166.394,
+     "end": 167.134,
+     "text": "under"
+    },
+    {
+     "start": 167.134,
+     "end": 167.354,
+     "text": "the"
+    },
+    {
+     "start": 167.354,
+     "end": 167.694,
+     "text": "name"
+    },
+    {
+     "start": 167.694,
+     "end": 168.714,
+     "text": "Afterburner."
+    }
+   ]
+  },
+  {
+   "start": 169.374,
+   "end": 171.354,
+   "text": "It's not unique to this manufacturer.",
+   "words": [
+    {
+     "start": 169.374,
+     "end": 169.554,
+     "text": "It's"
+    },
+    {
+     "start": 169.554,
+     "end": 169.674,
+     "text": "not"
+    },
+    {
+     "start": 169.674,
+     "end": 170.094,
+     "text": "unique"
+    },
+    {
+     "start": 170.094,
+     "end": 170.614,
+     "text": "to"
+    },
+    {
+     "start": 170.614,
+     "end": 170.794,
+     "text": "this"
+    },
+    {
+     "start": 170.794,
+     "end": 171.354,
+     "text": "manufacturer."
+    }
+   ]
+  },
+  {
+   "start": 171.354,
+   "end": 174.754,
+   "text": "Instead it's a variant of a fairly common amusement ride.",
+   "words": [
+    {
+     "start": 171.354,
+     "end": 172.034,
+     "text": "Instead"
+    },
+    {
+     "start": 172.034,
+     "end": 172.254,
+     "text": "it's"
+    },
+    {
+     "start": 172.254,
+     "end": 172.334,
+     "text": "a"
+    },
+    {
+     "start": 172.334,
+     "end": 172.734,
+     "text": "variant"
+    },
+    {
+     "start": 172.734,
+     "end": 173.234,
+     "text": "of"
+    },
+    {
+     "start": 173.234,
+     "end": 173.374,
+     "text": "a"
+    },
+    {
+     "start": 173.374,
+     "end": 173.654,
+     "text": "fairly"
+    },
+    {
+     "start": 173.654,
+     "end": 174.014,
+     "text": "common"
+    },
+    {
+     "start": 174.014,
+     "end": 174.334,
+     "text": "amusement"
+    },
+    {
+     "start": 174.334,
+     "end": 174.754,
+     "text": "ride."
+    }
+   ]
+  },
+  {
+   "start": 175.114,
+   "end": 182.474,
+   "text": "It is a frisbee pendulum ride that offers a swinging action via a large arm oscillation up to 120 degrees of angle,",
+   "words": [
+    {
+     "start": 175.114,
+     "end": 175.214,
+     "text": "It"
+    },
+    {
+     "start": 175.214,
+     "end": 175.354,
+     "text": "is"
+    },
+    {
+     "start": 175.354,
+     "end": 175.494,
+     "text": "a"
+    },
+    {
+     "start": 175.494,
+     "end": 175.894,
+     "text": "frisbee"
+    },
+    {
+     "start": 175.894,
+     "end": 176.374,
+     "text": "pendulum"
+    },
+    {
+     "start": 176.374,
+     "end": 176.834,
+     "text": "ride"
+    },
+    {
+     "start": 176.834,
+     "end": 177.294,
+     "text": "that"
+    },
+    {
+     "start": 177.294,
+     "end": 177.534,
+     "text": "offers"
+    },
+    {
+     "start": 177.534,
+     "end": 177.714,
+     "text": "a"
+    },
+    {
+     "start": 177.714,
+     "end": 177.974,
+     "text": "swinging"
+    },
+    {
+     "start": 177.974,
+     "end": 178.354,
+     "text": "action"
+    },
+    {
+     "start": 178.354,
+     "end": 178.754,
+     "text": "via"
+    },
+    {
+     "start": 178.754,
+     "end": 178.914,
+     "text": "a"
+    },
+    {
+     "start": 178.914,
+     "end": 179.294,
+     "text": "large"
+    },
+    {
+     "start": 179.294,
+     "end": 179.734,
+     "text": "arm"
+    },
+    {
+     "start": 179.734,
+     "end": 180.434,
+     "text": "oscillation"
+    },
+    {
+     "start": 180.434,
+     "end": 180.594,
+     "text": "up"
+    },
+    {
+     "start": 180.594,
+     "end": 180.714,
+     "text": "to"
+    },
+    {
+     "start": 180.714,
+     "end": 181.274,
+     "text": "120"
+    },
+    {
+     "start": 181.274,
+     "end": 181.714,
+     "text": "degrees"
+    },
+    {
+     "start": 181.714,
+     "end": 182.034,
+     "text": "of"
+    },
+    {
+     "start": 182.034,
+     "end": 182.474,
+     "text": "angle,"
+    }
+   ]
+  },
+  {
+   "start": 182.834,
+   "end": 186.954,
+   "text": "reaching a maximum height of roughly 22 meters or 72 feet off the ground.",
+   "words": [
+    {
+     "start": 182.834,
+     "end": 183.174,
+     "text": "reaching"
+    },
+    {
+     "start": 183.174,
+     "end": 183.394,
+     "text": "a"
+    },
+    {
+     "start": 183.394,
+     "end": 183.614,
+     "text": "maximum"
+    },
+    {
+     "start": 183.614,
+     "end": 183.834,
+     "text": "height"
+    },
+    {
+     "start": 183.834,
+     "end": 184.014,
+     "text": "of"
+    },
+    {
+     "start": 184.014,
+     "end": 184.234,
+     "text": "roughly"
+    },
+    {
+     "start": 184.234,
+     "end": 184.614,
+     "text": "22"
+    },
+    {
+     "start": 184.614,
+     "end": 184.914,
+     "text": "meters"
+    },
+    {
+     "start": 184.914,
+     "end": 185.374,
+     "text": "or"
+    },
+    {
+     "start": 185.374,
+     "end": 185.754,
+     "text": "72"
+    },
+    {
+     "start": 185.754,
+     "end": 186.134,
+     "text": "feet"
+    },
+    {
+     "start": 186.134,
+     "end": 186.474,
+     "text": "off"
+    },
+    {
+     "start": 186.474,
+     "end": 186.594,
+     "text": "the"
+    },
+    {
+     "start": 186.594,
+     "end": 186.954,
+     "text": "ground."
+    }
+   ]
+  },
+  {
+   "start": 187.634,
+   "end": 194.734,
+   "text": "In addition to this, ride occupants are span around at a rough speed of 12 rotations per minute.",
+   "words": [
+    {
+     "start": 187.634,
+     "end": 187.914,
+     "text": "In"
+    },
+    {
+     "start": 187.914,
+     "end": 187.954,
+     "text": "addition"
+    },
+    {
+     "start": 187.954,
+     "end": 188.174,
+     "text": "to"
+    },
+    {
+     "start": 188.174,
+     "end": 189.634,
+     "text": "this,"
+    },
+    {
+     "start": 189.634,
+     "end": 189.774,
+     "text": "ride"
+    },
+    {
+     "start": 189.774,
+     "end": 190.214,
+     "text": "occupants"
+    },
+    {
+     "start": 190.214,
+     "end": 190.374,
+     "text": "are"
+    },
+    {
+     "start": 190.374,
+     "end": 190.574,
+     "text": "span"
+    },
+    {
+     "start": 190.574,
+     "end": 190.954,
+     "text": "around"
+    },
+    {
+     "start": 190.954,
+     "end": 191.394,
+     "text": "at"
+    },
+    {
+     "start": 191.394,
+     "end": 191.514,
+     "text": "a"
+    },
+    {
+     "start": 191.514,
+     "end": 191.934,
+     "text": "rough"
+    },
+    {
+     "start": 191.934,
+     "end": 192.534,
+     "text": "speed"
+    },
+    {
+     "start": 192.534,
+     "end": 192.834,
+     "text": "of"
+    },
+    {
+     "start": 192.834,
+     "end": 193.434,
+     "text": "12"
+    },
+    {
+     "start": 193.434,
+     "end": 194.214,
+     "text": "rotations"
+    },
+    {
+     "start": 194.214,
+     "end": 194.454,
+     "text": "per"
+    },
+    {
+     "start": 194.454,
+     "end": 194.734,
+     "text": "minute."
+    }
+   ]
+  },
+  {
+   "start": 195.474,
+   "end": 199.394,
+   "text": "There are six gondolas on our version, aka where the riders sit.",
+   "words": [
+    {
+     "start": 195.474,
+     "end": 195.674,
+     "text": "There"
+    },
+    {
+     "start": 195.674,
+     "end": 195.814,
+     "text": "are"
+    },
+    {
+     "start": 195.814,
+     "end": 196.134,
+     "text": "six"
+    },
+    {
+     "start": 196.134,
+     "end": 196.494,
+     "text": "gondolas"
+    },
+    {
+     "start": 196.494,
+     "end": 196.734,
+     "text": "on"
+    },
+    {
+     "start": 196.734,
+     "end": 196.874,
+     "text": "our"
+    },
+    {
+     "start": 196.874,
+     "end": 197.754,
+     "text": "version,"
+    },
+    {
+     "start": 197.754,
+     "end": 197.914,
+     "text": "aka"
+    },
+    {
+     "start": 197.914,
+     "end": 198.374,
+     "text": "where"
+    },
+    {
+     "start": 198.374,
+     "end": 198.574,
+     "text": "the"
+    },
+    {
+     "start": 198.574,
+     "end": 198.894,
+     "text": "riders"
+    },
+    {
+     "start": 198.894,
+     "end": 199.394,
+     "text": "sit."
+    }
+   ]
+  },
+  {
+   "start": 199.554,
+   "end": 204.714,
+   "text": "Each one has spaces for four passengers, meaning it has a capacity of 24 people per ride cycle.",
+   "words": [
+    {
+     "start": 199.554,
+     "end": 199.734,
+     "text": "Each"
+    },
+    {
+     "start": 199.734,
+     "end": 199.894,
+     "text": "one"
+    },
+    {
+     "start": 199.894,
+     "end": 200.114,
+     "text": "has"
+    },
+    {
+     "start": 200.114,
+     "end": 200.374,
+     "text": "spaces"
+    },
+    {
+     "start": 200.374,
+     "end": 200.574,
+     "text": "for"
+    },
+    {
+     "start": 200.574,
+     "end": 200.734,
+     "text": "four"
+    },
+    {
+     "start": 200.734,
+     "end": 201.174,
+     "text": "passengers,"
+    },
+    {
+     "start": 201.174,
+     "end": 201.854,
+     "text": "meaning"
+    },
+    {
+     "start": 201.854,
+     "end": 201.994,
+     "text": "it"
+    },
+    {
+     "start": 201.994,
+     "end": 202.094,
+     "text": "has"
+    },
+    {
+     "start": 202.094,
+     "end": 202.194,
+     "text": "a"
+    },
+    {
+     "start": 202.194,
+     "end": 202.494,
+     "text": "capacity"
+    },
+    {
+     "start": 202.494,
+     "end": 202.734,
+     "text": "of"
+    },
+    {
+     "start": 202.734,
+     "end": 203.214,
+     "text": "24"
+    },
+    {
+     "start": 203.214,
+     "end": 203.574,
+     "text": "people"
+    },
+    {
+     "start": 203.574,
+     "end": 203.774,
+     "text": "per"
+    },
+    {
+     "start": 203.774,
+     "end": 204.114,
+     "text": "ride"
+    },
+    {
+     "start": 204.114,
+     "end": 204.714,
+     "text": "cycle."
+    }
+   ]
+  },
+  {
+   "start": 204.874,
+   "end": 209.214,
+   "text": "Each gondola is attached to the central part of the surrounding wheel by a support arm.",
+   "words": [
+    {
+     "start": 204.874,
+     "end": 205.114,
+     "text": "Each"
+    },
+    {
+     "start": 205.114,
+     "end": 205.434,
+     "text": "gondola"
+    },
+    {
+     "start": 205.434,
+     "end": 205.694,
+     "text": "is"
+    },
+    {
+     "start": 205.694,
+     "end": 206.074,
+     "text": "attached"
+    },
+    {
+     "start": 206.074,
+     "end": 206.334,
+     "text": "to"
+    },
+    {
+     "start": 206.334,
+     "end": 206.474,
+     "text": "the"
+    },
+    {
+     "start": 206.474,
+     "end": 206.814,
+     "text": "central"
+    },
+    {
+     "start": 206.814,
+     "end": 207.214,
+     "text": "part"
+    },
+    {
+     "start": 207.214,
+     "end": 207.494,
+     "text": "of"
+    },
+    {
+     "start": 207.494,
+     "end": 207.614,
+     "text": "the"
+    },
+    {
+     "start": 207.614,
+     "end": 207.954,
+     "text": "surrounding"
+    },
+    {
+     "start": 207.954,
+     "end": 208.214,
+     "text": "wheel"
+    },
+    {
+     "start": 208.214,
+     "end": 208.474,
+     "text": "by"
+    },
+    {
+     "start": 208.474,
+     "end": 208.594,
+     "text": "a"
+    },
+    {
+     "start": 208.594,
+     "end": 208.814,
+     "text": "support"
+    },
+    {
+     "start": 208.814,
+     "end": 209.214,
+     "text": "arm."
+    }
+   ]
+  },
+  {
+   "start": 208.894,
+   "end": 209.654,
+   "text": "The",
+   "words": [
+    {
+     "start": 208.894,
+     "end": 209.654,
+     "text": "The"
+    }
+   ]
+  },
+  {
+   "start": 209.654,
+   "end": 213.754,
+   "text": "ride's logic cannot be edited by the operators, meaning the ride length, number",
+   "words": [
+    {
+     "start": 209.654,
+     "end": 209.894,
+     "text": "ride's"
+    },
+    {
+     "start": 209.894,
+     "end": 210.174,
+     "text": "logic"
+    },
+    {
+     "start": 210.174,
+     "end": 210.594,
+     "text": "cannot"
+    },
+    {
+     "start": 210.594,
+     "end": 210.834,
+     "text": "be"
+    },
+    {
+     "start": 210.834,
+     "end": 211.234,
+     "text": "edited"
+    },
+    {
+     "start": 211.234,
+     "end": 211.494,
+     "text": "by"
+    },
+    {
+     "start": 211.494,
+     "end": 211.614,
+     "text": "the"
+    },
+    {
+     "start": 211.614,
+     "end": 212.334,
+     "text": "operators,"
+    },
+    {
+     "start": 212.334,
+     "end": 212.634,
+     "text": "meaning"
+    },
+    {
+     "start": 212.634,
+     "end": 212.834,
+     "text": "the"
+    },
+    {
+     "start": 212.834,
+     "end": 213.014,
+     "text": "ride"
+    },
+    {
+     "start": 213.014,
+     "end": 213.554,
+     "text": "length,"
+    },
+    {
+     "start": 212.954,
+     "end": 213.754,
+     "text": "number"
+    }
+   ]
+  },
+  {
+   "start": 213.754,
+   "end": 217.274,
+   "text": "of swings and rotation of the ride are fixed by the manufacturer.",
+   "words": [
+    {
+     "start": 213.754,
+     "end": 213.874,
+     "text": "of"
+    },
+    {
+     "start": 213.874,
+     "end": 214.174,
+     "text": "swings"
+    },
+    {
+     "start": 214.174,
+     "end": 214.374,
+     "text": "and"
+    },
+    {
+     "start": 214.374,
+     "end": 214.754,
+     "text": "rotation"
+    },
+    {
+     "start": 214.754,
+     "end": 214.954,
+     "text": "of"
+    },
+    {
+     "start": 214.954,
+     "end": 215.034,
+     "text": "the"
+    },
+    {
+     "start": 215.034,
+     "end": 215.314,
+     "text": "ride"
+    },
+    {
+     "start": 215.314,
+     "end": 215.614,
+     "text": "are"
+    },
+    {
+     "start": 215.614,
+     "end": 216.014,
+     "text": "fixed"
+    },
+    {
+     "start": 216.014,
+     "end": 216.274,
+     "text": "by"
+    },
+    {
+     "start": 216.274,
+     "end": 216.434,
+     "text": "the"
+    },
+    {
+     "start": 216.434,
+     "end": 217.274,
+     "text": "manufacturer."
+    }
+   ]
+  },
+  {
+   "start": 217.194,
+   "end": 217.974,
+   "text": "For",
+   "words": [
+    {
+     "start": 217.194,
+     "end": 217.974,
+     "text": "For"
+    }
+   ]
+  },
+  {
+   "start": 217.974,
+   "end": 222.814,
+   "text": "added safety, the ride also has an interlock that prevents a ride cycle from beginning unless all",
+   "words": [
+    {
+     "start": 217.974,
+     "end": 218.174,
+     "text": "added"
+    },
+    {
+     "start": 218.174,
+     "end": 218.734,
+     "text": "safety,"
+    },
+    {
+     "start": 218.734,
+     "end": 219.034,
+     "text": "the"
+    },
+    {
+     "start": 219.034,
+     "end": 219.174,
+     "text": "ride"
+    },
+    {
+     "start": 219.174,
+     "end": 219.394,
+     "text": "also"
+    },
+    {
+     "start": 219.394,
+     "end": 219.594,
+     "text": "has"
+    },
+    {
+     "start": 219.594,
+     "end": 219.714,
+     "text": "an"
+    },
+    {
+     "start": 219.714,
+     "end": 220.014,
+     "text": "interlock"
+    },
+    {
+     "start": 220.014,
+     "end": 220.214,
+     "text": "that"
+    },
+    {
+     "start": 220.214,
+     "end": 220.734,
+     "text": "prevents"
+    },
+    {
+     "start": 220.734,
+     "end": 221.094,
+     "text": "a"
+    },
+    {
+     "start": 221.094,
+     "end": 221.354,
+     "text": "ride"
+    },
+    {
+     "start": 221.354,
+     "end": 221.634,
+     "text": "cycle"
+    },
+    {
+     "start": 221.634,
+     "end": 221.854,
+     "text": "from"
+    },
+    {
+     "start": 221.854,
+     "end": 222.214,
+     "text": "beginning"
+    },
+    {
+     "start": 222.214,
+     "end": 222.614,
+     "text": "unless"
+    },
+    {
+     "start": 222.074,
+     "end": 222.814,
+     "text": "all"
+    }
+   ]
+  },
+  {
+   "start": 222.814,
+   "end": 223.894,
+   "text": "the restraints are closed.",
+   "words": [
+    {
+     "start": 222.814,
+     "end": 222.934,
+     "text": "the"
+    },
+    {
+     "start": 222.934,
+     "end": 223.294,
+     "text": "restraints"
+    },
+    {
+     "start": 223.294,
+     "end": 223.474,
+     "text": "are"
+    },
+    {
+     "start": 223.474,
+     "end": 223.894,
+     "text": "closed."
+    }
+   ]
+  },
+  {
+   "start": 223.894,
+   "end": 228.394,
+   "text": "Startup requires the depression of a foot pedal and push of a button on",
+   "words": [
+    {
+     "start": 223.894,
+     "end": 225.014,
+     "text": "Startup"
+    },
+    {
+     "start": 225.014,
+     "end": 225.434,
+     "text": "requires"
+    },
+    {
+     "start": 225.434,
+     "end": 225.654,
+     "text": "the"
+    },
+    {
+     "start": 225.654,
+     "end": 225.994,
+     "text": "depression"
+    },
+    {
+     "start": 225.994,
+     "end": 226.214,
+     "text": "of"
+    },
+    {
+     "start": 226.214,
+     "end": 226.314,
+     "text": "a"
+    },
+    {
+     "start": 226.314,
+     "end": 226.494,
+     "text": "foot"
+    },
+    {
+     "start": 226.494,
+     "end": 226.734,
+     "text": "pedal"
+    },
+    {
+     "start": 226.734,
+     "end": 227.374,
+     "text": "and"
+    },
+    {
+     "start": 227.374,
+     "end": 227.594,
+     "text": "push"
+    },
+    {
+     "start": 227.594,
+     "end": 227.794,
+     "text": "of"
+    },
+    {
+     "start": 227.794,
+     "end": 227.834,
+     "text": "a"
+    },
+    {
+     "start": 227.834,
+     "end": 228.094,
+     "text": "button"
+    },
+    {
+     "start": 227.674,
+     "end": 228.394,
+     "text": "on"
+    }
+   ]
+  },
+  {
+   "start": 228.394,
+   "end": 232.354,
+   "text": "the control panel, thus eliminating the risk of accidental activation.",
+   "words": [
+    {
+     "start": 228.394,
+     "end": 228.514,
+     "text": "the"
+    },
+    {
+     "start": 228.514,
+     "end": 228.814,
+     "text": "control"
+    },
+    {
+     "start": 228.814,
+     "end": 229.234,
+     "text": "panel,"
+    },
+    {
+     "start": 229.234,
+     "end": 229.694,
+     "text": "thus"
+    },
+    {
+     "start": 229.694,
+     "end": 230.174,
+     "text": "eliminating"
+    },
+    {
+     "start": 230.174,
+     "end": 230.354,
+     "text": "the"
+    },
+    {
+     "start": 230.354,
+     "end": 230.594,
+     "text": "risk"
+    },
+    {
+     "start": 230.594,
+     "end": 230.914,
+     "text": "of"
+    },
+    {
+     "start": 230.914,
+     "end": 231.554,
+     "text": "accidental"
+    },
+    {
+     "start": 231.554,
+     "end": 232.354,
+     "text": "activation."
+    }
+   ]
+  },
+  {
+   "start": 233.334,
+   "end": 238.814,
+   "text": "it debuted in 1998 and become one of the dutch companies kmg's most popular products",
+   "words": [
+    {
+     "start": 233.334,
+     "end": 233.394,
+     "text": "it"
+    },
+    {
+     "start": 233.394,
+     "end": 233.774,
+     "text": "debuted"
+    },
+    {
+     "start": 233.774,
+     "end": 233.994,
+     "text": "in"
+    },
+    {
+     "start": 233.994,
+     "end": 234.534,
+     "text": "1998"
+    },
+    {
+     "start": 234.534,
+     "end": 235.294,
+     "text": "and"
+    },
+    {
+     "start": 235.294,
+     "end": 235.554,
+     "text": "become"
+    },
+    {
+     "start": 235.554,
+     "end": 236.074,
+     "text": "one"
+    },
+    {
+     "start": 236.074,
+     "end": 236.234,
+     "text": "of"
+    },
+    {
+     "start": 236.234,
+     "end": 236.414,
+     "text": "the"
+    },
+    {
+     "start": 236.414,
+     "end": 236.674,
+     "text": "dutch"
+    },
+    {
+     "start": 236.674,
+     "end": 237.074,
+     "text": "companies"
+    },
+    {
+     "start": 237.074,
+     "end": 237.754,
+     "text": "kmg's"
+    },
+    {
+     "start": 237.754,
+     "end": 237.974,
+     "text": "most"
+    },
+    {
+     "start": 237.974,
+     "end": 238.294,
+     "text": "popular"
+    },
+    {
+     "start": 238.294,
+     "end": 238.814,
+     "text": "products"
+    }
+   ]
+  },
+  {
+   "start": 239.354,
+   "end": 246.514,
+   "text": "both for being a fixed attraction and for traveling fairgrounds the ride is transportable via two truck",
+   "words": [
+    {
+     "start": 239.354,
+     "end": 239.674,
+     "text": "both"
+    },
+    {
+     "start": 239.674,
+     "end": 239.974,
+     "text": "for"
+    },
+    {
+     "start": 239.974,
+     "end": 240.234,
+     "text": "being"
+    },
+    {
+     "start": 240.234,
+     "end": 240.554,
+     "text": "a"
+    },
+    {
+     "start": 240.554,
+     "end": 240.814,
+     "text": "fixed"
+    },
+    {
+     "start": 240.814,
+     "end": 241.194,
+     "text": "attraction"
+    },
+    {
+     "start": 241.194,
+     "end": 241.814,
+     "text": "and"
+    },
+    {
+     "start": 241.814,
+     "end": 242.014,
+     "text": "for"
+    },
+    {
+     "start": 242.014,
+     "end": 242.254,
+     "text": "traveling"
+    },
+    {
+     "start": 242.254,
+     "end": 243.054,
+     "text": "fairgrounds"
+    },
+    {
+     "start": 243.054,
+     "end": 243.734,
+     "text": "the"
+    },
+    {
+     "start": 243.734,
+     "end": 244.034,
+     "text": "ride"
+    },
+    {
+     "start": 244.034,
+     "end": 244.594,
+     "text": "is"
+    },
+    {
+     "start": 244.594,
+     "end": 245.314,
+     "text": "transportable"
+    },
+    {
+     "start": 245.314,
+     "end": 245.694,
+     "text": "via"
+    },
+    {
+     "start": 245.694,
+     "end": 246.054,
+     "text": "two"
+    },
+    {
+     "start": 245.614,
+     "end": 246.514,
+     "text": "truck"
+    }
+   ]
+  },
+  {
+   "start": 246.514,
+   "end": 252.194,
+   "text": "trailers setup takes around three to four hours with a qualified crew of three of course with",
+   "words": [
+    {
+     "start": 246.514,
+     "end": 246.954,
+     "text": "trailers"
+    },
+    {
+     "start": 246.954,
+     "end": 247.774,
+     "text": "setup"
+    },
+    {
+     "start": 247.774,
+     "end": 248.074,
+     "text": "takes"
+    },
+    {
+     "start": 248.074,
+     "end": 248.314,
+     "text": "around"
+    },
+    {
+     "start": 248.314,
+     "end": 248.514,
+     "text": "three"
+    },
+    {
+     "start": 248.514,
+     "end": 248.694,
+     "text": "to"
+    },
+    {
+     "start": 248.694,
+     "end": 248.794,
+     "text": "four"
+    },
+    {
+     "start": 248.794,
+     "end": 249.114,
+     "text": "hours"
+    },
+    {
+     "start": 249.114,
+     "end": 249.694,
+     "text": "with"
+    },
+    {
+     "start": 249.694,
+     "end": 249.834,
+     "text": "a"
+    },
+    {
+     "start": 249.834,
+     "end": 250.114,
+     "text": "qualified"
+    },
+    {
+     "start": 250.114,
+     "end": 250.394,
+     "text": "crew"
+    },
+    {
+     "start": 250.394,
+     "end": 250.634,
+     "text": "of"
+    },
+    {
+     "start": 250.634,
+     "end": 250.794,
+     "text": "three"
+    },
+    {
+     "start": 250.794,
+     "end": 251.614,
+     "text": "of"
+    },
+    {
+     "start": 251.614,
+     "end": 251.814,
+     "text": "course"
+    },
+    {
+     "start": 251.494,
+     "end": 252.194,
+     "text": "with"
+    }
+   ]
+  },
+  {
+   "start": 252.194,
+   "end": 256.834,
+   "text": "the help of heavy lifting equipment all the structural sections of the ride's high stress",
+   "words": [
+    {
+     "start": 252.194,
+     "end": 252.254,
+     "text": "the"
+    },
+    {
+     "start": 252.254,
+     "end": 252.414,
+     "text": "help"
+    },
+    {
+     "start": 252.414,
+     "end": 252.634,
+     "text": "of"
+    },
+    {
+     "start": 252.634,
+     "end": 252.874,
+     "text": "heavy"
+    },
+    {
+     "start": 252.874,
+     "end": 253.134,
+     "text": "lifting"
+    },
+    {
+     "start": 253.134,
+     "end": 253.574,
+     "text": "equipment"
+    },
+    {
+     "start": 253.574,
+     "end": 254.594,
+     "text": "all"
+    },
+    {
+     "start": 254.594,
+     "end": 254.734,
+     "text": "the"
+    },
+    {
+     "start": 254.734,
+     "end": 255.154,
+     "text": "structural"
+    },
+    {
+     "start": 255.154,
+     "end": 255.494,
+     "text": "sections"
+    },
+    {
+     "start": 255.494,
+     "end": 255.774,
+     "text": "of"
+    },
+    {
+     "start": 255.774,
+     "end": 255.874,
+     "text": "the"
+    },
+    {
+     "start": 255.874,
+     "end": 256.274,
+     "text": "ride's"
+    },
+    {
+     "start": 256.274,
+     "end": 256.554,
+     "text": "high"
+    },
+    {
+     "start": 256.554,
+     "end": 256.834,
+     "text": "stress"
+    }
+   ]
+  },
+  {
+   "start": 256.934,
+   "end": 262.554,
+   "text": "areas are made of steel hollow box sections protected by paint from the elements so that's the",
+   "words": [
+    {
+     "start": 256.934,
+     "end": 257.274,
+     "text": "areas"
+    },
+    {
+     "start": 257.274,
+     "end": 257.494,
+     "text": "are"
+    },
+    {
+     "start": 257.494,
+     "end": 257.554,
+     "text": "made"
+    },
+    {
+     "start": 257.554,
+     "end": 257.694,
+     "text": "of"
+    },
+    {
+     "start": 257.694,
+     "end": 258.014,
+     "text": "steel"
+    },
+    {
+     "start": 258.014,
+     "end": 258.634,
+     "text": "hollow"
+    },
+    {
+     "start": 258.634,
+     "end": 259.014,
+     "text": "box"
+    },
+    {
+     "start": 259.014,
+     "end": 259.454,
+     "text": "sections"
+    },
+    {
+     "start": 259.454,
+     "end": 260.014,
+     "text": "protected"
+    },
+    {
+     "start": 260.014,
+     "end": 260.254,
+     "text": "by"
+    },
+    {
+     "start": 260.254,
+     "end": 260.514,
+     "text": "paint"
+    },
+    {
+     "start": 260.514,
+     "end": 260.674,
+     "text": "from"
+    },
+    {
+     "start": 260.674,
+     "end": 260.794,
+     "text": "the"
+    },
+    {
+     "start": 260.794,
+     "end": 261.094,
+     "text": "elements"
+    },
+    {
+     "start": 261.094,
+     "end": 262.094,
+     "text": "so"
+    },
+    {
+     "start": 262.094,
+     "end": 262.354,
+     "text": "that's"
+    },
+    {
+     "start": 261.994,
+     "end": 262.554,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "start": 262.554,
+   "end": 267.214,
+   "text": "background of the ride let's look into the events that would cause the unit built in 1999",
+   "words": [
+    {
+     "start": 262.554,
+     "end": 262.914,
+     "text": "background"
+    },
+    {
+     "start": 262.914,
+     "end": 263.154,
+     "text": "of"
+    },
+    {
+     "start": 263.154,
+     "end": 263.254,
+     "text": "the"
+    },
+    {
+     "start": 263.254,
+     "end": 263.574,
+     "text": "ride"
+    },
+    {
+     "start": 263.574,
+     "end": 264.434,
+     "text": "let's"
+    },
+    {
+     "start": 264.434,
+     "end": 264.574,
+     "text": "look"
+    },
+    {
+     "start": 264.574,
+     "end": 264.774,
+     "text": "into"
+    },
+    {
+     "start": 264.774,
+     "end": 264.954,
+     "text": "the"
+    },
+    {
+     "start": 264.954,
+     "end": 265.254,
+     "text": "events"
+    },
+    {
+     "start": 265.254,
+     "end": 265.594,
+     "text": "that"
+    },
+    {
+     "start": 265.594,
+     "end": 265.734,
+     "text": "would"
+    },
+    {
+     "start": 265.734,
+     "end": 265.954,
+     "text": "cause"
+    },
+    {
+     "start": 265.954,
+     "end": 266.094,
+     "text": "the"
+    },
+    {
+     "start": 266.094,
+     "end": 266.334,
+     "text": "unit"
+    },
+    {
+     "start": 266.334,
+     "end": 266.574,
+     "text": "built"
+    },
+    {
+     "start": 266.574,
+     "end": 266.734,
+     "text": "in"
+    },
+    {
+     "start": 266.734,
+     "end": 267.214,
+     "text": "1999"
+    }
+   ]
+  },
+  {
+   "start": 266.934,
+   "end": 275.154,
+   "text": "to so catastrophically fail the disaster it is the 2017 ohio",
+   "words": [
+    {
+     "start": 266.934,
+     "end": 268.414,
+     "text": "to"
+    },
+    {
+     "start": 268.414,
+     "end": 268.774,
+     "text": "so"
+    },
+    {
+     "start": 268.774,
+     "end": 269.694,
+     "text": "catastrophically"
+    },
+    {
+     "start": 269.694,
+     "end": 270.214,
+     "text": "fail"
+    },
+    {
+     "start": 270.214,
+     "end": 271.234,
+     "text": "the"
+    },
+    {
+     "start": 271.234,
+     "end": 271.674,
+     "text": "disaster"
+    },
+    {
+     "start": 271.674,
+     "end": 272.974,
+     "text": "it"
+    },
+    {
+     "start": 272.974,
+     "end": 273.274,
+     "text": "is"
+    },
+    {
+     "start": 273.274,
+     "end": 273.454,
+     "text": "the"
+    },
+    {
+     "start": 273.454,
+     "end": 274.094,
+     "text": "2017"
+    },
+    {
+     "start": 274.094,
+     "end": 275.154,
+     "text": "ohio"
+    }
+   ]
+  },
+  {
+   "start": 275.154,
+   "end": 277.334,
+   "text": "summer fair season and it was looking",
+   "words": [
+    {
+     "start": 275.154,
+     "end": 275.654,
+     "text": "summer"
+    },
+    {
+     "start": 275.654,
+     "end": 275.994,
+     "text": "fair"
+    },
+    {
+     "start": 275.994,
+     "end": 276.374,
+     "text": "season"
+    },
+    {
+     "start": 276.374,
+     "end": 276.914,
+     "text": "and"
+    },
+    {
+     "start": 276.914,
+     "end": 276.994,
+     "text": "it"
+    },
+    {
+     "start": 276.994,
+     "end": 277.094,
+     "text": "was"
+    },
+    {
+     "start": 277.094,
+     "end": 277.334,
+     "text": "looking"
+    }
+   ]
+  },
+  {
+   "start": 276.934,
+   "end": 282.014,
+   "text": "like it's going to be like any other year organizers were hoping to attract close to the",
+   "words": [
+    {
+     "start": 276.934,
+     "end": 278.054,
+     "text": "like"
+    },
+    {
+     "start": 278.054,
+     "end": 278.154,
+     "text": "it's"
+    },
+    {
+     "start": 278.154,
+     "end": 278.214,
+     "text": "going"
+    },
+    {
+     "start": 278.214,
+     "end": 278.254,
+     "text": "to"
+    },
+    {
+     "start": 278.254,
+     "end": 278.354,
+     "text": "be"
+    },
+    {
+     "start": 278.354,
+     "end": 278.574,
+     "text": "like"
+    },
+    {
+     "start": 278.574,
+     "end": 278.774,
+     "text": "any"
+    },
+    {
+     "start": 278.774,
+     "end": 278.914,
+     "text": "other"
+    },
+    {
+     "start": 278.914,
+     "end": 279.254,
+     "text": "year"
+    },
+    {
+     "start": 279.254,
+     "end": 279.994,
+     "text": "organizers"
+    },
+    {
+     "start": 279.994,
+     "end": 280.314,
+     "text": "were"
+    },
+    {
+     "start": 280.314,
+     "end": 280.554,
+     "text": "hoping"
+    },
+    {
+     "start": 280.554,
+     "end": 280.754,
+     "text": "to"
+    },
+    {
+     "start": 280.754,
+     "end": 281.054,
+     "text": "attract"
+    },
+    {
+     "start": 281.054,
+     "end": 281.694,
+     "text": "close"
+    },
+    {
+     "start": 281.694,
+     "end": 281.914,
+     "text": "to"
+    },
+    {
+     "start": 281.914,
+     "end": 282.014,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "start": 282.014,
+   "end": 284.214,
+   "text": "million visitors that they had in the years before.",
+   "words": [
+    {
+     "start": 282.014,
+     "end": 282.314,
+     "text": "million"
+    },
+    {
+     "start": 282.314,
+     "end": 282.754,
+     "text": "visitors"
+    },
+    {
+     "start": 282.754,
+     "end": 282.954,
+     "text": "that"
+    },
+    {
+     "start": 282.954,
+     "end": 283.054,
+     "text": "they"
+    },
+    {
+     "start": 283.054,
+     "end": 283.234,
+     "text": "had"
+    },
+    {
+     "start": 283.234,
+     "end": 283.394,
+     "text": "in"
+    },
+    {
+     "start": 283.394,
+     "end": 283.474,
+     "text": "the"
+    },
+    {
+     "start": 283.474,
+     "end": 283.654,
+     "text": "years"
+    },
+    {
+     "start": 283.654,
+     "end": 284.214,
+     "text": "before."
+    }
+   ]
+  },
+  {
+   "start": 284.214,
+   "end": 287.074,
+   "text": "The year's fair was to run between the 26th of",
+   "words": [
+    {
+     "start": 284.214,
+     "end": 284.854,
+     "text": "The"
+    },
+    {
+     "start": 284.854,
+     "end": 285.154,
+     "text": "year's"
+    },
+    {
+     "start": 285.154,
+     "end": 285.294,
+     "text": "fair"
+    },
+    {
+     "start": 285.294,
+     "end": 285.494,
+     "text": "was"
+    },
+    {
+     "start": 285.494,
+     "end": 285.614,
+     "text": "to"
+    },
+    {
+     "start": 285.614,
+     "end": 285.734,
+     "text": "run"
+    },
+    {
+     "start": 285.734,
+     "end": 286.014,
+     "text": "between"
+    },
+    {
+     "start": 286.014,
+     "end": 286.294,
+     "text": "the"
+    },
+    {
+     "start": 286.294,
+     "end": 286.954,
+     "text": "26th"
+    },
+    {
+     "start": 286.954,
+     "end": 287.074,
+     "text": "of"
+    }
+   ]
+  },
+  {
+   "start": 286.974,
+   "end": 289.734,
+   "text": "July to the 6th of August 2017.",
+   "words": [
+    {
+     "start": 286.974,
+     "end": 287.294,
+     "text": "July"
+    },
+    {
+     "start": 287.294,
+     "end": 288.034,
+     "text": "to"
+    },
+    {
+     "start": 288.034,
+     "end": 288.174,
+     "text": "the"
+    },
+    {
+     "start": 288.174,
+     "end": 288.614,
+     "text": "6th"
+    },
+    {
+     "start": 288.614,
+     "end": 288.754,
+     "text": "of"
+    },
+    {
+     "start": 288.754,
+     "end": 289.094,
+     "text": "August"
+    },
+    {
+     "start": 289.094,
+     "end": 289.734,
+     "text": "2017."
+    }
+   ]
+  },
+  {
+   "start": 289.734,
+   "end": 293.974,
+   "text": "One of the many rides brought onto the Ohio State Fairground was the",
+   "words": [
+    {
+     "start": 289.734,
+     "end": 290.794,
+     "text": "One"
+    },
+    {
+     "start": 290.794,
+     "end": 290.914,
+     "text": "of"
+    },
+    {
+     "start": 290.914,
+     "end": 291.014,
+     "text": "the"
+    },
+    {
+     "start": 291.014,
+     "end": 291.174,
+     "text": "many"
+    },
+    {
+     "start": 291.174,
+     "end": 291.514,
+     "text": "rides"
+    },
+    {
+     "start": 291.514,
+     "end": 291.854,
+     "text": "brought"
+    },
+    {
+     "start": 291.854,
+     "end": 292.054,
+     "text": "onto"
+    },
+    {
+     "start": 292.054,
+     "end": 292.194,
+     "text": "the"
+    },
+    {
+     "start": 292.194,
+     "end": 292.494,
+     "text": "Ohio"
+    },
+    {
+     "start": 292.494,
+     "end": 292.934,
+     "text": "State"
+    },
+    {
+     "start": 292.934,
+     "end": 293.454,
+     "text": "Fairground"
+    },
+    {
+     "start": 293.454,
+     "end": 293.814,
+     "text": "was"
+    },
+    {
+     "start": 293.674,
+     "end": 293.974,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "start": 293.974,
+   "end": 295.434,
+   "text": "aforementioned Fireball Ride.",
+   "words": [
+    {
+     "start": 293.974,
+     "end": 294.534,
+     "text": "aforementioned"
+    },
+    {
+     "start": 294.534,
+     "end": 295.054,
+     "text": "Fireball"
+    },
+    {
+     "start": 295.054,
+     "end": 295.434,
+     "text": "Ride."
+    }
+   ]
+  },
+  {
+   "start": 295.434,
+   "end": 299.554,
+   "text": "The rides before the opening to the public were inspected multiple times",
+   "words": [
+    {
+     "start": 295.434,
+     "end": 296.374,
+     "text": "The"
+    },
+    {
+     "start": 296.374,
+     "end": 296.634,
+     "text": "rides"
+    },
+    {
+     "start": 296.634,
+     "end": 296.854,
+     "text": "before"
+    },
+    {
+     "start": 296.854,
+     "end": 296.994,
+     "text": "the"
+    },
+    {
+     "start": 296.994,
+     "end": 297.254,
+     "text": "opening"
+    },
+    {
+     "start": 297.254,
+     "end": 297.534,
+     "text": "to"
+    },
+    {
+     "start": 297.534,
+     "end": 297.614,
+     "text": "the"
+    },
+    {
+     "start": 297.614,
+     "end": 297.914,
+     "text": "public"
+    },
+    {
+     "start": 297.914,
+     "end": 298.394,
+     "text": "were"
+    },
+    {
+     "start": 298.394,
+     "end": 298.814,
+     "text": "inspected"
+    },
+    {
+     "start": 298.814,
+     "end": 299.154,
+     "text": "multiple"
+    },
+    {
+     "start": 298.714,
+     "end": 299.554,
+     "text": "times"
+    }
+   ]
+  },
+  {
+   "start": 299.554,
+   "end": 305.214,
+   "text": "by the Department of Agriculture Amusement Ride Safety Division and nothing was noticed.",
+   "words": [
+    {
+     "start": 299.554,
+     "end": 299.794,
+     "text": "by"
+    },
+    {
+     "start": 299.794,
+     "end": 299.934,
+     "text": "the"
+    },
+    {
+     "start": 299.934,
+     "end": 300.254,
+     "text": "Department"
+    },
+    {
+     "start": 300.254,
+     "end": 300.474,
+     "text": "of"
+    },
+    {
+     "start": 300.474,
+     "end": 300.954,
+     "text": "Agriculture"
+    },
+    {
+     "start": 300.954,
+     "end": 301.934,
+     "text": "Amusement"
+    },
+    {
+     "start": 301.934,
+     "end": 302.414,
+     "text": "Ride"
+    },
+    {
+     "start": 302.414,
+     "end": 302.794,
+     "text": "Safety"
+    },
+    {
+     "start": 302.794,
+     "end": 303.114,
+     "text": "Division"
+    },
+    {
+     "start": 303.114,
+     "end": 303.854,
+     "text": "and"
+    },
+    {
+     "start": 303.854,
+     "end": 304.194,
+     "text": "nothing"
+    },
+    {
+     "start": 304.194,
+     "end": 304.494,
+     "text": "was"
+    },
+    {
+     "start": 304.494,
+     "end": 305.214,
+     "text": "noticed."
+    }
+   ]
+  },
+  {
+   "start": 305.734,
+   "end": 313.654,
+   "text": "Thus the rides on site were allowed to welcome guests when the fair's gates opened on the first day at 10am, July 26th.",
+   "words": [
+    {
+     "start": 305.734,
+     "end": 305.894,
+     "text": "Thus"
+    },
+    {
+     "start": 305.894,
+     "end": 306.094,
+     "text": "the"
+    },
+    {
+     "start": 306.094,
+     "end": 306.394,
+     "text": "rides"
+    },
+    {
+     "start": 306.394,
+     "end": 306.634,
+     "text": "on"
+    },
+    {
+     "start": 306.634,
+     "end": 306.974,
+     "text": "site"
+    },
+    {
+     "start": 306.974,
+     "end": 307.194,
+     "text": "were"
+    },
+    {
+     "start": 307.194,
+     "end": 307.474,
+     "text": "allowed"
+    },
+    {
+     "start": 307.474,
+     "end": 307.634,
+     "text": "to"
+    },
+    {
+     "start": 307.634,
+     "end": 307.874,
+     "text": "welcome"
+    },
+    {
+     "start": 307.874,
+     "end": 308.254,
+     "text": "guests"
+    },
+    {
+     "start": 308.254,
+     "end": 308.574,
+     "text": "when"
+    },
+    {
+     "start": 308.574,
+     "end": 308.754,
+     "text": "the"
+    },
+    {
+     "start": 308.754,
+     "end": 309.154,
+     "text": "fair's"
+    },
+    {
+     "start": 309.154,
+     "end": 309.354,
+     "text": "gates"
+    },
+    {
+     "start": 309.354,
+     "end": 309.694,
+     "text": "opened"
+    },
+    {
+     "start": 309.694,
+     "end": 309.894,
+     "text": "on"
+    },
+    {
+     "start": 309.894,
+     "end": 309.974,
+     "text": "the"
+    },
+    {
+     "start": 309.974,
+     "end": 310.214,
+     "text": "first"
+    },
+    {
+     "start": 310.254,
+     "end": 310.434,
+     "text": "day"
+    },
+    {
+     "start": 310.434,
+     "end": 311.094,
+     "text": "at"
+    },
+    {
+     "start": 311.094,
+     "end": 312.574,
+     "text": "10am,"
+    },
+    {
+     "start": 312.574,
+     "end": 312.654,
+     "text": "July"
+    },
+    {
+     "start": 312.654,
+     "end": 313.654,
+     "text": "26th."
+    }
+   ]
+  },
+  {
+   "start": 313.654,
+   "end": 321.668,
+   "text": "Throughout the day, riders would be thrilled on the fireball with no real concerns from the public or its operators as the day wore on into the early",
+   "words": [
+    {
+     "start": 313.654,
+     "end": 314.494,
+     "text": "Throughout"
+    },
+    {
+     "start": 314.494,
+     "end": 314.654,
+     "text": "the"
+    },
+    {
+     "start": 314.654,
+     "end": 315.354,
+     "text": "day,"
+    },
+    {
+     "start": 315.354,
+     "end": 315.674,
+     "text": "riders"
+    },
+    {
+     "start": 315.674,
+     "end": 315.894,
+     "text": "would"
+    },
+    {
+     "start": 315.888,
+     "end": 315.988,
+     "text": "be"
+    },
+    {
+     "start": 315.988,
+     "end": 316.268,
+     "text": "thrilled"
+    },
+    {
+     "start": 316.268,
+     "end": 316.488,
+     "text": "on"
+    },
+    {
+     "start": 316.028,
+     "end": 316.648,
+     "text": "the"
+    },
+    {
+     "start": 316.648,
+     "end": 316.988,
+     "text": "fireball"
+    },
+    {
+     "start": 316.988,
+     "end": 317.268,
+     "text": "with"
+    },
+    {
+     "start": 317.268,
+     "end": 317.448,
+     "text": "no"
+    },
+    {
+     "start": 317.448,
+     "end": 317.608,
+     "text": "real"
+    },
+    {
+     "start": 317.608,
+     "end": 318.088,
+     "text": "concerns"
+    },
+    {
+     "start": 318.088,
+     "end": 318.248,
+     "text": "from"
+    },
+    {
+     "start": 318.248,
+     "end": 318.348,
+     "text": "the"
+    },
+    {
+     "start": 318.348,
+     "end": 318.648,
+     "text": "public"
+    },
+    {
+     "start": 318.648,
+     "end": 318.928,
+     "text": "or"
+    },
+    {
+     "start": 318.928,
+     "end": 319.088,
+     "text": "its"
+    },
+    {
+     "start": 319.088,
+     "end": 319.548,
+     "text": "operators"
+    },
+    {
+     "start": 319.548,
+     "end": 320.468,
+     "text": "as"
+    },
+    {
+     "start": 320.468,
+     "end": 320.568,
+     "text": "the"
+    },
+    {
+     "start": 320.568,
+     "end": 320.708,
+     "text": "day"
+    },
+    {
+     "start": 320.708,
+     "end": 320.888,
+     "text": "wore"
+    },
+    {
+     "start": 320.888,
+     "end": 321.088,
+     "text": "on"
+    },
+    {
+     "start": 321.088,
+     "end": 321.368,
+     "text": "into"
+    },
+    {
+     "start": 321.368,
+     "end": 321.488,
+     "text": "the"
+    },
+    {
+     "start": 321.488,
+     "end": 321.668,
+     "text": "early"
+    }
+   ]
+  },
+  {
+   "start": 321.228,
+   "end": 322.048,
+   "text": "evening",
+   "words": [
+    {
+     "start": 321.228,
+     "end": 322.048,
+     "text": "evening"
+    }
+   ]
+  },
+  {
+   "start": 322.048,
+   "end": 329.068,
+   "text": "again there are no issues but disaster was about to strike at around 7 20 pm the ride was loaded",
+   "words": [
+    {
+     "start": 322.048,
+     "end": 322.688,
+     "text": "again"
+    },
+    {
+     "start": 322.688,
+     "end": 322.888,
+     "text": "there"
+    },
+    {
+     "start": 322.888,
+     "end": 322.988,
+     "text": "are"
+    },
+    {
+     "start": 322.988,
+     "end": 323.128,
+     "text": "no"
+    },
+    {
+     "start": 323.128,
+     "end": 323.708,
+     "text": "issues"
+    },
+    {
+     "start": 323.708,
+     "end": 324.628,
+     "text": "but"
+    },
+    {
+     "start": 324.628,
+     "end": 325.088,
+     "text": "disaster"
+    },
+    {
+     "start": 325.088,
+     "end": 325.368,
+     "text": "was"
+    },
+    {
+     "start": 325.368,
+     "end": 325.608,
+     "text": "about"
+    },
+    {
+     "start": 325.608,
+     "end": 325.808,
+     "text": "to"
+    },
+    {
+     "start": 325.808,
+     "end": 326.208,
+     "text": "strike"
+    },
+    {
+     "start": 326.208,
+     "end": 326.768,
+     "text": "at"
+    },
+    {
+     "start": 326.768,
+     "end": 326.988,
+     "text": "around"
+    },
+    {
+     "start": 326.988,
+     "end": 327.348,
+     "text": "7"
+    },
+    {
+     "start": 327.348,
+     "end": 327.628,
+     "text": "20"
+    },
+    {
+     "start": 327.628,
+     "end": 327.968,
+     "text": "pm"
+    },
+    {
+     "start": 327.968,
+     "end": 328.508,
+     "text": "the"
+    },
+    {
+     "start": 328.508,
+     "end": 328.708,
+     "text": "ride"
+    },
+    {
+     "start": 328.708,
+     "end": 328.868,
+     "text": "was"
+    },
+    {
+     "start": 328.388,
+     "end": 329.068,
+     "text": "loaded"
+    }
+   ]
+  },
+  {
+   "start": 329.068,
+   "end": 333.948,
+   "text": "up for another cycle the operator started the ride and it began going backwards and forwards",
+   "words": [
+    {
+     "start": 329.068,
+     "end": 329.268,
+     "text": "up"
+    },
+    {
+     "start": 329.268,
+     "end": 329.408,
+     "text": "for"
+    },
+    {
+     "start": 329.408,
+     "end": 329.608,
+     "text": "another"
+    },
+    {
+     "start": 329.608,
+     "end": 329.988,
+     "text": "cycle"
+    },
+    {
+     "start": 329.988,
+     "end": 330.468,
+     "text": "the"
+    },
+    {
+     "start": 330.468,
+     "end": 330.868,
+     "text": "operator"
+    },
+    {
+     "start": 330.868,
+     "end": 331.288,
+     "text": "started"
+    },
+    {
+     "start": 331.288,
+     "end": 331.488,
+     "text": "the"
+    },
+    {
+     "start": 331.488,
+     "end": 331.728,
+     "text": "ride"
+    },
+    {
+     "start": 331.728,
+     "end": 332.228,
+     "text": "and"
+    },
+    {
+     "start": 332.228,
+     "end": 332.328,
+     "text": "it"
+    },
+    {
+     "start": 332.328,
+     "end": 332.648,
+     "text": "began"
+    },
+    {
+     "start": 332.648,
+     "end": 333.088,
+     "text": "going"
+    },
+    {
+     "start": 333.088,
+     "end": 333.468,
+     "text": "backwards"
+    },
+    {
+     "start": 333.468,
+     "end": 333.628,
+     "text": "and"
+    },
+    {
+     "start": 333.628,
+     "end": 333.948,
+     "text": "forwards"
+    }
+   ]
+  },
+  {
+   "start": 334.028,
+   "end": 335.468,
+   "text": "and started spinning.",
+   "words": [
+    {
+     "start": 334.028,
+     "end": 334.328,
+     "text": "and"
+    },
+    {
+     "start": 334.328,
+     "end": 334.708,
+     "text": "started"
+    },
+    {
+     "start": 334.708,
+     "end": 335.468,
+     "text": "spinning."
+    }
+   ]
+  },
+  {
+   "start": 335.468,
+   "end": 340.368,
+   "text": "As the ride span one of the gondolas separated from its support arm and flew through",
+   "words": [
+    {
+     "start": 335.468,
+     "end": 336.108,
+     "text": "As"
+    },
+    {
+     "start": 336.108,
+     "end": 336.228,
+     "text": "the"
+    },
+    {
+     "start": 336.228,
+     "end": 336.428,
+     "text": "ride"
+    },
+    {
+     "start": 336.428,
+     "end": 336.708,
+     "text": "span"
+    },
+    {
+     "start": 336.708,
+     "end": 337.028,
+     "text": "one"
+    },
+    {
+     "start": 337.028,
+     "end": 337.148,
+     "text": "of"
+    },
+    {
+     "start": 337.148,
+     "end": 337.248,
+     "text": "the"
+    },
+    {
+     "start": 337.248,
+     "end": 337.588,
+     "text": "gondolas"
+    },
+    {
+     "start": 337.588,
+     "end": 338.088,
+     "text": "separated"
+    },
+    {
+     "start": 338.088,
+     "end": 338.548,
+     "text": "from"
+    },
+    {
+     "start": 338.548,
+     "end": 338.748,
+     "text": "its"
+    },
+    {
+     "start": 338.748,
+     "end": 339.128,
+     "text": "support"
+    },
+    {
+     "start": 339.128,
+     "end": 339.468,
+     "text": "arm"
+    },
+    {
+     "start": 339.468,
+     "end": 339.808,
+     "text": "and"
+    },
+    {
+     "start": 339.808,
+     "end": 340.108,
+     "text": "flew"
+    },
+    {
+     "start": 339.728,
+     "end": 340.368,
+     "text": "through"
+    }
+   ]
+  },
+  {
+   "start": 340.368,
+   "end": 345.048,
+   "text": "the air shortly after crashing into the ground just a few feet of the ride base.",
+   "words": [
+    {
+     "start": 340.368,
+     "end": 340.488,
+     "text": "the"
+    },
+    {
+     "start": 340.488,
+     "end": 340.708,
+     "text": "air"
+    },
+    {
+     "start": 340.708,
+     "end": 341.528,
+     "text": "shortly"
+    },
+    {
+     "start": 341.528,
+     "end": 341.868,
+     "text": "after"
+    },
+    {
+     "start": 341.868,
+     "end": 342.268,
+     "text": "crashing"
+    },
+    {
+     "start": 342.268,
+     "end": 342.528,
+     "text": "into"
+    },
+    {
+     "start": 342.528,
+     "end": 342.648,
+     "text": "the"
+    },
+    {
+     "start": 342.648,
+     "end": 342.868,
+     "text": "ground"
+    },
+    {
+     "start": 342.868,
+     "end": 343.108,
+     "text": "just"
+    },
+    {
+     "start": 343.108,
+     "end": 343.268,
+     "text": "a"
+    },
+    {
+     "start": 343.268,
+     "end": 343.468,
+     "text": "few"
+    },
+    {
+     "start": 343.468,
+     "end": 343.888,
+     "text": "feet"
+    },
+    {
+     "start": 343.888,
+     "end": 344.168,
+     "text": "of"
+    },
+    {
+     "start": 344.168,
+     "end": 344.308,
+     "text": "the"
+    },
+    {
+     "start": 344.308,
+     "end": 344.528,
+     "text": "ride"
+    },
+    {
+     "start": 344.528,
+     "end": 345.048,
+     "text": "base."
+    }
+   ]
+  },
+  {
+   "start": 345.048,
+   "end": 345.888,
+   "text": "The",
+   "words": [
+    {
+     "start": 345.048,
+     "end": 345.888,
+     "text": "The"
+    }
+   ]
+  },
+  {
+   "start": 345.808,
+   "end": 350.308,
+   "text": "emergency response was very quick due to the on-site police and ambulance presence in which these",
+   "words": [
+    {
+     "start": 345.808,
+     "end": 346.148,
+     "text": "emergency"
+    },
+    {
+     "start": 346.148,
+     "end": 346.568,
+     "text": "response"
+    },
+    {
+     "start": 346.568,
+     "end": 346.868,
+     "text": "was"
+    },
+    {
+     "start": 346.868,
+     "end": 347.128,
+     "text": "very"
+    },
+    {
+     "start": 347.128,
+     "end": 347.428,
+     "text": "quick"
+    },
+    {
+     "start": 347.428,
+     "end": 347.648,
+     "text": "due"
+    },
+    {
+     "start": 347.648,
+     "end": 347.808,
+     "text": "to"
+    },
+    {
+     "start": 347.808,
+     "end": 347.908,
+     "text": "the"
+    },
+    {
+     "start": 347.908,
+     "end": 348.188,
+     "text": "on-site"
+    },
+    {
+     "start": 348.188,
+     "end": 348.528,
+     "text": "police"
+    },
+    {
+     "start": 348.528,
+     "end": 348.608,
+     "text": "and"
+    },
+    {
+     "start": 348.608,
+     "end": 348.948,
+     "text": "ambulance"
+    },
+    {
+     "start": 348.948,
+     "end": 349.348,
+     "text": "presence"
+    },
+    {
+     "start": 349.348,
+     "end": 349.928,
+     "text": "in"
+    },
+    {
+     "start": 349.928,
+     "end": 350.088,
+     "text": "which"
+    },
+    {
+     "start": 349.828,
+     "end": 350.308,
+     "text": "these"
+    }
+   ]
+  },
+  {
+   "start": 350.308,
+   "end": 351.768,
+   "text": "types of events normally have.",
+   "words": [
+    {
+     "start": 350.308,
+     "end": 350.508,
+     "text": "types"
+    },
+    {
+     "start": 350.508,
+     "end": 350.648,
+     "text": "of"
+    },
+    {
+     "start": 350.648,
+     "end": 350.888,
+     "text": "events"
+    },
+    {
+     "start": 350.888,
+     "end": 351.208,
+     "text": "normally"
+    },
+    {
+     "start": 351.208,
+     "end": 351.768,
+     "text": "have."
+    }
+   ]
+  },
+  {
+   "start": 351.768,
+   "end": 355.028,
+   "text": "The first responders arrived to find a gondola crashed into the",
+   "words": [
+    {
+     "start": 351.768,
+     "end": 352.288,
+     "text": "The"
+    },
+    {
+     "start": 352.288,
+     "end": 352.488,
+     "text": "first"
+    },
+    {
+     "start": 352.488,
+     "end": 352.928,
+     "text": "responders"
+    },
+    {
+     "start": 352.928,
+     "end": 353.288,
+     "text": "arrived"
+    },
+    {
+     "start": 353.288,
+     "end": 353.468,
+     "text": "to"
+    },
+    {
+     "start": 353.468,
+     "end": 353.728,
+     "text": "find"
+    },
+    {
+     "start": 353.728,
+     "end": 353.888,
+     "text": "a"
+    },
+    {
+     "start": 353.888,
+     "end": 354.188,
+     "text": "gondola"
+    },
+    {
+     "start": 354.188,
+     "end": 354.628,
+     "text": "crashed"
+    },
+    {
+     "start": 354.628,
+     "end": 354.848,
+     "text": "into"
+    },
+    {
+     "start": 354.388,
+     "end": 355.028,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "start": 355.028,
+   "end": 358.188,
+   "text": "ground with all four passengers unresponsive.",
+   "words": [
+    {
+     "start": 355.028,
+     "end": 355.228,
+     "text": "ground"
+    },
+    {
+     "start": 355.228,
+     "end": 355.788,
+     "text": "with"
+    },
+    {
+     "start": 355.788,
+     "end": 356.048,
+     "text": "all"
+    },
+    {
+     "start": 356.048,
+     "end": 356.368,
+     "text": "four"
+    },
+    {
+     "start": 356.368,
+     "end": 357.008,
+     "text": "passengers"
+    },
+    {
+     "start": 357.008,
+     "end": 358.188,
+     "text": "unresponsive."
+    }
+   ]
+  },
+  {
+   "start": 358.188,
+   "end": 361.068,
+   "text": "Two of them had been thrown from their seats and",
+   "words": [
+    {
+     "start": 358.188,
+     "end": 358.708,
+     "text": "Two"
+    },
+    {
+     "start": 358.708,
+     "end": 358.888,
+     "text": "of"
+    },
+    {
+     "start": 358.888,
+     "end": 359.048,
+     "text": "them"
+    },
+    {
+     "start": 359.048,
+     "end": 359.308,
+     "text": "had"
+    },
+    {
+     "start": 359.308,
+     "end": 359.448,
+     "text": "been"
+    },
+    {
+     "start": 359.448,
+     "end": 359.768,
+     "text": "thrown"
+    },
+    {
+     "start": 359.768,
+     "end": 360.008,
+     "text": "from"
+    },
+    {
+     "start": 360.008,
+     "end": 360.168,
+     "text": "their"
+    },
+    {
+     "start": 360.168,
+     "end": 360.488,
+     "text": "seats"
+    },
+    {
+     "start": 360.488,
+     "end": 361.068,
+     "text": "and"
+    }
+   ]
+  },
+  {
+   "start": 361.108,
+   "end": 363.668,
+   "text": "were lying separated from the gondola.",
+   "words": [
+    {
+     "start": 361.108,
+     "end": 361.368,
+     "text": "were"
+    },
+    {
+     "start": 361.368,
+     "end": 361.508,
+     "text": "lying"
+    },
+    {
+     "start": 361.508,
+     "end": 361.988,
+     "text": "separated"
+    },
+    {
+     "start": 361.988,
+     "end": 362.308,
+     "text": "from"
+    },
+    {
+     "start": 362.308,
+     "end": 362.468,
+     "text": "the"
+    },
+    {
+     "start": 362.468,
+     "end": 363.668,
+     "text": "gondola."
+    }
+   ]
+  },
+  {
+   "start": 363.668,
+   "end": 366.988,
+   "text": "One of the thrown from their seat was discovered to be dead",
+   "words": [
+    {
+     "start": 363.668,
+     "end": 364.648,
+     "text": "One"
+    },
+    {
+     "start": 364.648,
+     "end": 364.788,
+     "text": "of"
+    },
+    {
+     "start": 364.788,
+     "end": 364.908,
+     "text": "the"
+    },
+    {
+     "start": 364.908,
+     "end": 365.128,
+     "text": "thrown"
+    },
+    {
+     "start": 365.128,
+     "end": 365.328,
+     "text": "from"
+    },
+    {
+     "start": 365.328,
+     "end": 365.488,
+     "text": "their"
+    },
+    {
+     "start": 365.488,
+     "end": 365.748,
+     "text": "seat"
+    },
+    {
+     "start": 365.748,
+     "end": 365.928,
+     "text": "was"
+    },
+    {
+     "start": 365.928,
+     "end": 366.268,
+     "text": "discovered"
+    },
+    {
+     "start": 366.268,
+     "end": 366.548,
+     "text": "to"
+    },
+    {
+     "start": 366.548,
+     "end": 366.688,
+     "text": "be"
+    },
+    {
+     "start": 366.688,
+     "end": 366.988,
+     "text": "dead"
+    }
+   ]
+  },
+  {
+   "start": 366.548,
+   "end": 368.348,
+   "text": "immediately.",
+   "words": [
+    {
+     "start": 366.548,
+     "end": 368.348,
+     "text": "immediately."
+    }
+   ]
+  },
+  {
+   "start": 368.348,
+   "end": 372.028,
+   "text": "The other victims were sent to hospital for treatment of life-alterating",
+   "words": [
+    {
+     "start": 368.348,
+     "end": 368.808,
+     "text": "The"
+    },
+    {
+     "start": 368.808,
+     "end": 368.928,
+     "text": "other"
+    },
+    {
+     "start": 368.928,
+     "end": 369.248,
+     "text": "victims"
+    },
+    {
+     "start": 369.248,
+     "end": 369.448,
+     "text": "were"
+    },
+    {
+     "start": 369.448,
+     "end": 369.588,
+     "text": "sent"
+    },
+    {
+     "start": 369.588,
+     "end": 369.728,
+     "text": "to"
+    },
+    {
+     "start": 369.728,
+     "end": 370.048,
+     "text": "hospital"
+    },
+    {
+     "start": 370.048,
+     "end": 370.348,
+     "text": "for"
+    },
+    {
+     "start": 370.348,
+     "end": 370.788,
+     "text": "treatment"
+    },
+    {
+     "start": 370.788,
+     "end": 371.128,
+     "text": "of"
+    },
+    {
+     "start": 371.128,
+     "end": 372.028,
+     "text": "life-alterating"
+    }
+   ]
+  },
+  {
+   "start": 371.608,
+   "end": 375.308,
+   "text": "emotional and physical injuries but they would survive.",
+   "words": [
+    {
+     "start": 371.608,
+     "end": 372.668,
+     "text": "emotional"
+    },
+    {
+     "start": 372.668,
+     "end": 372.908,
+     "text": "and"
+    },
+    {
+     "start": 372.908,
+     "end": 373.108,
+     "text": "physical"
+    },
+    {
+     "start": 373.108,
+     "end": 373.568,
+     "text": "injuries"
+    },
+    {
+     "start": 373.568,
+     "end": 374.408,
+     "text": "but"
+    },
+    {
+     "start": 374.408,
+     "end": 374.728,
+     "text": "they"
+    },
+    {
+     "start": 374.728,
+     "end": 374.948,
+     "text": "would"
+    },
+    {
+     "start": 374.948,
+     "end": 375.308,
+     "text": "survive."
+    }
+   ]
+  },
+  {
+   "start": 375.308,
+   "end": 378.328,
+   "text": "The ride and crash site would be fenced off",
+   "words": [
+    {
+     "start": 375.308,
+     "end": 376.468,
+     "text": "The"
+    },
+    {
+     "start": 376.468,
+     "end": 376.708,
+     "text": "ride"
+    },
+    {
+     "start": 376.708,
+     "end": 376.848,
+     "text": "and"
+    },
+    {
+     "start": 376.848,
+     "end": 377.148,
+     "text": "crash"
+    },
+    {
+     "start": 377.148,
+     "end": 377.428,
+     "text": "site"
+    },
+    {
+     "start": 377.428,
+     "end": 377.608,
+     "text": "would"
+    },
+    {
+     "start": 377.608,
+     "end": 377.728,
+     "text": "be"
+    },
+    {
+     "start": 377.728,
+     "end": 378.008,
+     "text": "fenced"
+    },
+    {
+     "start": 377.548,
+     "end": 378.328,
+     "text": "off"
+    }
+   ]
+  },
+  {
+   "start": 378.328,
+   "end": 382.688,
+   "text": "for an investigation and following the investigation the fair would shut down its",
+   "words": [
+    {
+     "start": 378.328,
+     "end": 378.508,
+     "text": "for"
+    },
+    {
+     "start": 378.508,
+     "end": 378.608,
+     "text": "an"
+    },
+    {
+     "start": 378.608,
+     "end": 379.188,
+     "text": "investigation"
+    },
+    {
+     "start": 379.188,
+     "end": 379.968,
+     "text": "and"
+    },
+    {
+     "start": 379.968,
+     "end": 380.288,
+     "text": "following"
+    },
+    {
+     "start": 380.288,
+     "end": 380.488,
+     "text": "the"
+    },
+    {
+     "start": 380.488,
+     "end": 380.968,
+     "text": "investigation"
+    },
+    {
+     "start": 380.968,
+     "end": 381.648,
+     "text": "the"
+    },
+    {
+     "start": 381.648,
+     "end": 381.788,
+     "text": "fair"
+    },
+    {
+     "start": 381.788,
+     "end": 382.028,
+     "text": "would"
+    },
+    {
+     "start": 382.028,
+     "end": 382.268,
+     "text": "shut"
+    },
+    {
+     "start": 382.268,
+     "end": 382.488,
+     "text": "down"
+    },
+    {
+     "start": 382.488,
+     "end": 382.688,
+     "text": "its"
+    }
+   ]
+  },
+  {
+   "start": 382.608,
+   "end": 388.748,
+   "text": "rise until the 30th of July eventually reopening them albeit to much shorter crowds than originally",
+   "words": [
+    {
+     "start": 382.608,
+     "end": 382.988,
+     "text": "rise"
+    },
+    {
+     "start": 382.988,
+     "end": 383.268,
+     "text": "until"
+    },
+    {
+     "start": 383.268,
+     "end": 383.408,
+     "text": "the"
+    },
+    {
+     "start": 383.408,
+     "end": 383.948,
+     "text": "30th"
+    },
+    {
+     "start": 383.948,
+     "end": 384.228,
+     "text": "of"
+    },
+    {
+     "start": 384.228,
+     "end": 384.368,
+     "text": "July"
+    },
+    {
+     "start": 384.368,
+     "end": 385.668,
+     "text": "eventually"
+    },
+    {
+     "start": 385.668,
+     "end": 386.068,
+     "text": "reopening"
+    },
+    {
+     "start": 386.068,
+     "end": 386.408,
+     "text": "them"
+    },
+    {
+     "start": 386.408,
+     "end": 386.868,
+     "text": "albeit"
+    },
+    {
+     "start": 386.868,
+     "end": 387.188,
+     "text": "to"
+    },
+    {
+     "start": 387.188,
+     "end": 387.468,
+     "text": "much"
+    },
+    {
+     "start": 387.468,
+     "end": 387.868,
+     "text": "shorter"
+    },
+    {
+     "start": 387.868,
+     "end": 388.288,
+     "text": "crowds"
+    },
+    {
+     "start": 388.288,
+     "end": 388.468,
+     "text": "than"
+    },
+    {
+     "start": 388.468,
+     "end": 388.748,
+     "text": "originally"
+    }
+   ]
+  },
+  {
+   "start": 388.808,
+   "end": 395.468,
+   "text": "hoped for but what everyone wanted to find out of course was what what caused the apparent safe ride to",
+   "words": [
+    {
+     "start": 388.808,
+     "end": 389.068,
+     "text": "hoped"
+    },
+    {
+     "start": 389.068,
+     "end": 389.348,
+     "text": "for"
+    },
+    {
+     "start": 389.348,
+     "end": 390.148,
+     "text": "but"
+    },
+    {
+     "start": 390.148,
+     "end": 390.348,
+     "text": "what"
+    },
+    {
+     "start": 390.348,
+     "end": 390.568,
+     "text": "everyone"
+    },
+    {
+     "start": 390.568,
+     "end": 390.808,
+     "text": "wanted"
+    },
+    {
+     "start": 390.808,
+     "end": 390.968,
+     "text": "to"
+    },
+    {
+     "start": 390.968,
+     "end": 391.188,
+     "text": "find"
+    },
+    {
+     "start": 391.188,
+     "end": 391.488,
+     "text": "out"
+    },
+    {
+     "start": 391.488,
+     "end": 392.308,
+     "text": "of"
+    },
+    {
+     "start": 392.308,
+     "end": 392.568,
+     "text": "course"
+    },
+    {
+     "start": 392.568,
+     "end": 392.868,
+     "text": "was"
+    },
+    {
+     "start": 392.868,
+     "end": 393.188,
+     "text": "what"
+    },
+    {
+     "start": 393.188,
+     "end": 393.408,
+     "text": "what"
+    },
+    {
+     "start": 393.408,
+     "end": 393.788,
+     "text": "caused"
+    },
+    {
+     "start": 393.788,
+     "end": 393.968,
+     "text": "the"
+    },
+    {
+     "start": 393.968,
+     "end": 394.288,
+     "text": "apparent"
+    },
+    {
+     "start": 394.288,
+     "end": 394.688,
+     "text": "safe"
+    },
+    {
+     "start": 394.688,
+     "end": 394.948,
+     "text": "ride"
+    },
+    {
+     "start": 394.568,
+     "end": 395.468,
+     "text": "to"
+    }
+   ]
+  },
+  {
+   "start": 395.468,
+   "end": 400.628,
+   "text": "fail so catastrophically well that's where an investigation would come in from an agency i don't think",
+   "words": [
+    {
+     "start": 395.468,
+     "end": 395.688,
+     "text": "fail"
+    },
+    {
+     "start": 395.688,
+     "end": 395.888,
+     "text": "so"
+    },
+    {
+     "start": 395.888,
+     "end": 396.528,
+     "text": "catastrophically"
+    },
+    {
+     "start": 396.528,
+     "end": 397.288,
+     "text": "well"
+    },
+    {
+     "start": 397.288,
+     "end": 397.688,
+     "text": "that's"
+    },
+    {
+     "start": 397.688,
+     "end": 397.808,
+     "text": "where"
+    },
+    {
+     "start": 397.808,
+     "end": 397.948,
+     "text": "an"
+    },
+    {
+     "start": 397.948,
+     "end": 398.328,
+     "text": "investigation"
+    },
+    {
+     "start": 398.328,
+     "end": 398.768,
+     "text": "would"
+    },
+    {
+     "start": 398.768,
+     "end": 398.908,
+     "text": "come"
+    },
+    {
+     "start": 398.908,
+     "end": 399.068,
+     "text": "in"
+    },
+    {
+     "start": 399.068,
+     "end": 399.628,
+     "text": "from"
+    },
+    {
+     "start": 399.628,
+     "end": 399.728,
+     "text": "an"
+    },
+    {
+     "start": 399.728,
+     "end": 399.948,
+     "text": "agency"
+    },
+    {
+     "start": 399.948,
+     "end": 400.268,
+     "text": "i"
+    },
+    {
+     "start": 400.268,
+     "end": 400.428,
+     "text": "don't"
+    },
+    {
+     "start": 399.968,
+     "end": 400.628,
+     "text": "think"
+    }
+   ]
+  },
+  {
+   "start": 400.628,
+   "end": 408.948,
+   "text": "we've covered on this channel before the cpsc the investigation so the crash site and ride",
+   "words": [
+    {
+     "start": 400.628,
+     "end": 400.828,
+     "text": "we've"
+    },
+    {
+     "start": 400.828,
+     "end": 401.008,
+     "text": "covered"
+    },
+    {
+     "start": 401.008,
+     "end": 401.128,
+     "text": "on"
+    },
+    {
+     "start": 401.128,
+     "end": 401.288,
+     "text": "this"
+    },
+    {
+     "start": 401.288,
+     "end": 401.528,
+     "text": "channel"
+    },
+    {
+     "start": 401.528,
+     "end": 401.828,
+     "text": "before"
+    },
+    {
+     "start": 401.828,
+     "end": 402.488,
+     "text": "the"
+    },
+    {
+     "start": 402.488,
+     "end": 403.588,
+     "text": "cpsc"
+    },
+    {
+     "start": 403.588,
+     "end": 405.808,
+     "text": "the"
+    },
+    {
+     "start": 405.808,
+     "end": 406.088,
+     "text": "investigation"
+    },
+    {
+     "start": 406.088,
+     "end": 407.528,
+     "text": "so"
+    },
+    {
+     "start": 407.528,
+     "end": 407.628,
+     "text": "the"
+    },
+    {
+     "start": 407.628,
+     "end": 407.808,
+     "text": "crash"
+    },
+    {
+     "start": 407.808,
+     "end": 408.108,
+     "text": "site"
+    },
+    {
+     "start": 408.108,
+     "end": 408.608,
+     "text": "and"
+    },
+    {
+     "start": 408.608,
+     "end": 408.948,
+     "text": "ride"
+    }
+   ]
+  },
+  {
+   "start": 408.948,
+   "end": 409.648,
+   "text": "was always",
+   "words": [
+    {
+     "start": 408.948,
+     "end": 409.248,
+     "text": "was"
+    },
+    {
+     "start": 408.768,
+     "end": 409.648,
+     "text": "always"
+    }
+   ]
+  },
+  {
+   "start": 409.648,
+   "end": 414.228,
+   "text": "going to be the first point of any investigation and the cpsc investigations team",
+   "words": [
+    {
+     "start": 409.648,
+     "end": 409.808,
+     "text": "going"
+    },
+    {
+     "start": 409.808,
+     "end": 409.988,
+     "text": "to"
+    },
+    {
+     "start": 409.988,
+     "end": 410.008,
+     "text": "be"
+    },
+    {
+     "start": 410.008,
+     "end": 410.128,
+     "text": "the"
+    },
+    {
+     "start": 410.128,
+     "end": 410.328,
+     "text": "first"
+    },
+    {
+     "start": 410.328,
+     "end": 410.588,
+     "text": "point"
+    },
+    {
+     "start": 410.588,
+     "end": 410.728,
+     "text": "of"
+    },
+    {
+     "start": 410.728,
+     "end": 410.868,
+     "text": "any"
+    },
+    {
+     "start": 410.868,
+     "end": 411.408,
+     "text": "investigation"
+    },
+    {
+     "start": 411.408,
+     "end": 412.188,
+     "text": "and"
+    },
+    {
+     "start": 412.188,
+     "end": 412.348,
+     "text": "the"
+    },
+    {
+     "start": 412.348,
+     "end": 413.188,
+     "text": "cpsc"
+    },
+    {
+     "start": 413.188,
+     "end": 413.588,
+     "text": "investigations"
+    },
+    {
+     "start": 413.588,
+     "end": 414.228,
+     "text": "team"
+    }
+   ]
+  },
+  {
+   "start": 414.648,
+   "end": 418.268,
+   "text": "would begin looking at witness statements and video footage of the failure",
+   "words": [
+    {
+     "start": 414.648,
+     "end": 414.788,
+     "text": "would"
+    },
+    {
+     "start": 414.788,
+     "end": 415.048,
+     "text": "begin"
+    },
+    {
+     "start": 415.048,
+     "end": 415.428,
+     "text": "looking"
+    },
+    {
+     "start": 415.428,
+     "end": 415.928,
+     "text": "at"
+    },
+    {
+     "start": 415.928,
+     "end": 416.208,
+     "text": "witness"
+    },
+    {
+     "start": 416.208,
+     "end": 416.628,
+     "text": "statements"
+    },
+    {
+     "start": 416.628,
+     "end": 417.008,
+     "text": "and"
+    },
+    {
+     "start": 417.008,
+     "end": 417.268,
+     "text": "video"
+    },
+    {
+     "start": 417.268,
+     "end": 417.608,
+     "text": "footage"
+    },
+    {
+     "start": 417.608,
+     "end": 417.848,
+     "text": "of"
+    },
+    {
+     "start": 417.848,
+     "end": 417.968,
+     "text": "the"
+    },
+    {
+     "start": 417.968,
+     "end": 418.268,
+     "text": "failure"
+    }
+   ]
+  },
+  {
+   "start": 418.288,
+   "end": 422.028,
+   "text": "in addition to poring over the actual failed ride itself.",
+   "words": [
+    {
+     "start": 418.288,
+     "end": 418.788,
+     "text": "in"
+    },
+    {
+     "start": 418.788,
+     "end": 419.028,
+     "text": "addition"
+    },
+    {
+     "start": 419.028,
+     "end": 419.288,
+     "text": "to"
+    },
+    {
+     "start": 419.288,
+     "end": 419.608,
+     "text": "poring"
+    },
+    {
+     "start": 419.608,
+     "end": 419.908,
+     "text": "over"
+    },
+    {
+     "start": 419.908,
+     "end": 420.468,
+     "text": "the"
+    },
+    {
+     "start": 420.468,
+     "end": 420.808,
+     "text": "actual"
+    },
+    {
+     "start": 420.808,
+     "end": 421.128,
+     "text": "failed"
+    },
+    {
+     "start": 421.128,
+     "end": 421.368,
+     "text": "ride"
+    },
+    {
+     "start": 421.368,
+     "end": 422.028,
+     "text": "itself."
+    }
+   ]
+  },
+  {
+   "start": 422.648,
+   "end": 426.848,
+   "text": "KMG in the wake of the crash would issue a notice to all similar ride owners to",
+   "words": [
+    {
+     "start": 422.648,
+     "end": 423.068,
+     "text": "KMG"
+    },
+    {
+     "start": 423.068,
+     "end": 423.248,
+     "text": "in"
+    },
+    {
+     "start": 423.248,
+     "end": 423.308,
+     "text": "the"
+    },
+    {
+     "start": 423.308,
+     "end": 423.408,
+     "text": "wake"
+    },
+    {
+     "start": 423.408,
+     "end": 423.568,
+     "text": "of"
+    },
+    {
+     "start": 423.568,
+     "end": 423.668,
+     "text": "the"
+    },
+    {
+     "start": 423.668,
+     "end": 423.908,
+     "text": "crash"
+    },
+    {
+     "start": 423.908,
+     "end": 424.128,
+     "text": "would"
+    },
+    {
+     "start": 424.128,
+     "end": 424.408,
+     "text": "issue"
+    },
+    {
+     "start": 424.408,
+     "end": 424.548,
+     "text": "a"
+    },
+    {
+     "start": 424.548,
+     "end": 424.848,
+     "text": "notice"
+    },
+    {
+     "start": 424.848,
+     "end": 425.488,
+     "text": "to"
+    },
+    {
+     "start": 425.488,
+     "end": 425.708,
+     "text": "all"
+    },
+    {
+     "start": 425.708,
+     "end": 426.028,
+     "text": "similar"
+    },
+    {
+     "start": 426.028,
+     "end": 426.288,
+     "text": "ride"
+    },
+    {
+     "start": 426.288,
+     "end": 426.548,
+     "text": "owners"
+    },
+    {
+     "start": 426.128,
+     "end": 426.848,
+     "text": "to"
+    }
+   ]
+  },
+  {
+   "start": 426.848,
+   "end": 429.968,
+   "text": "cease operations until their own investigation was complete.",
+   "words": [
+    {
+     "start": 426.848,
+     "end": 427.108,
+     "text": "cease"
+    },
+    {
+     "start": 427.108,
+     "end": 427.628,
+     "text": "operations"
+    },
+    {
+     "start": 427.628,
+     "end": 428.168,
+     "text": "until"
+    },
+    {
+     "start": 428.168,
+     "end": 428.368,
+     "text": "their"
+    },
+    {
+     "start": 428.368,
+     "end": 428.588,
+     "text": "own"
+    },
+    {
+     "start": 428.588,
+     "end": 428.968,
+     "text": "investigation"
+    },
+    {
+     "start": 428.968,
+     "end": 429.428,
+     "text": "was"
+    },
+    {
+     "start": 429.428,
+     "end": 429.968,
+     "text": "complete."
+    }
+   ]
+  },
+  {
+   "start": 430.668,
+   "end": 433.588,
+   "text": "Both organisations would look into any mechanical issues",
+   "words": [
+    {
+     "start": 430.668,
+     "end": 430.888,
+     "text": "Both"
+    },
+    {
+     "start": 430.888,
+     "end": 431.228,
+     "text": "organisations"
+    },
+    {
+     "start": 431.228,
+     "end": 431.808,
+     "text": "would"
+    },
+    {
+     "start": 431.808,
+     "end": 432.028,
+     "text": "look"
+    },
+    {
+     "start": 432.028,
+     "end": 432.388,
+     "text": "into"
+    },
+    {
+     "start": 432.388,
+     "end": 432.728,
+     "text": "any"
+    },
+    {
+     "start": 432.728,
+     "end": 433.128,
+     "text": "mechanical"
+    },
+    {
+     "start": 433.128,
+     "end": 433.588,
+     "text": "issues"
+    }
+   ]
+  },
+  {
+   "start": 434.008,
+   "end": 438.548,
+   "text": "and while not showing any issues there was one big bit of evidence that couldn't be ignored.",
+   "words": [
+    {
+     "start": 434.008,
+     "end": 434.168,
+     "text": "and"
+    },
+    {
+     "start": 434.168,
+     "end": 434.268,
+     "text": "while"
+    },
+    {
+     "start": 434.268,
+     "end": 434.468,
+     "text": "not"
+    },
+    {
+     "start": 434.468,
+     "end": 434.808,
+     "text": "showing"
+    },
+    {
+     "start": 434.808,
+     "end": 434.988,
+     "text": "any"
+    },
+    {
+     "start": 434.988,
+     "end": 435.288,
+     "text": "issues"
+    },
+    {
+     "start": 435.288,
+     "end": 435.688,
+     "text": "there"
+    },
+    {
+     "start": 435.688,
+     "end": 436.008,
+     "text": "was"
+    },
+    {
+     "start": 436.008,
+     "end": 436.328,
+     "text": "one"
+    },
+    {
+     "start": 436.328,
+     "end": 436.628,
+     "text": "big"
+    },
+    {
+     "start": 436.628,
+     "end": 436.848,
+     "text": "bit"
+    },
+    {
+     "start": 436.848,
+     "end": 437.028,
+     "text": "of"
+    },
+    {
+     "start": 437.028,
+     "end": 437.248,
+     "text": "evidence"
+    },
+    {
+     "start": 437.248,
+     "end": 437.568,
+     "text": "that"
+    },
+    {
+     "start": 437.568,
+     "end": 437.848,
+     "text": "couldn't"
+    },
+    {
+     "start": 437.848,
+     "end": 437.988,
+     "text": "be"
+    },
+    {
+     "start": 437.988,
+     "end": 438.548,
+     "text": "ignored."
+    }
+   ]
+  },
+  {
+   "start": 439.088,
+   "end": 441.588,
+   "text": "You see on the inside of the arm that connected to the gondola",
+   "words": [
+    {
+     "start": 439.088,
+     "end": 439.208,
+     "text": "You"
+    },
+    {
+     "start": 439.208,
+     "end": 439.348,
+     "text": "see"
+    },
+    {
+     "start": 439.348,
+     "end": 439.488,
+     "text": "on"
+    },
+    {
+     "start": 439.488,
+     "end": 439.568,
+     "text": "the"
+    },
+    {
+     "start": 439.568,
+     "end": 439.848,
+     "text": "inside"
+    },
+    {
+     "start": 439.848,
+     "end": 439.988,
+     "text": "of"
+    },
+    {
+     "start": 439.988,
+     "end": 440.148,
+     "text": "the"
+    },
+    {
+     "start": 440.148,
+     "end": 440.388,
+     "text": "arm"
+    },
+    {
+     "start": 440.388,
+     "end": 440.568,
+     "text": "that"
+    },
+    {
+     "start": 440.568,
+     "end": 440.928,
+     "text": "connected"
+    },
+    {
+     "start": 440.928,
+     "end": 441.208,
+     "text": "to"
+    },
+    {
+     "start": 441.208,
+     "end": 441.288,
+     "text": "the"
+    },
+    {
+     "start": 441.288,
+     "end": 441.588,
+     "text": "gondola"
+    }
+   ]
+  },
+  {
+   "start": 442.568,
+   "end": 444.488,
+   "text": "investigators found significant rust.",
+   "words": [
+    {
+     "start": 442.568,
+     "end": 442.608,
+     "text": "investigators"
+    },
+    {
+     "start": 442.608,
+     "end": 443.268,
+     "text": "found"
+    },
+    {
+     "start": 443.268,
+     "end": 443.808,
+     "text": "significant"
+    },
+    {
+     "start": 443.808,
+     "end": 444.488,
+     "text": "rust."
+    }
+   ]
+  },
+  {
+   "start": 445.548,
+   "end": 448.368,
+   "text": "This was on all four walls of the gondola arm.",
+   "words": [
+    {
+     "start": 445.548,
+     "end": 445.688,
+     "text": "This"
+    },
+    {
+     "start": 445.688,
+     "end": 445.868,
+     "text": "was"
+    },
+    {
+     "start": 445.868,
+     "end": 446.048,
+     "text": "on"
+    },
+    {
+     "start": 446.048,
+     "end": 446.308,
+     "text": "all"
+    },
+    {
+     "start": 446.308,
+     "end": 446.608,
+     "text": "four"
+    },
+    {
+     "start": 446.608,
+     "end": 447.008,
+     "text": "walls"
+    },
+    {
+     "start": 447.008,
+     "end": 447.248,
+     "text": "of"
+    },
+    {
+     "start": 447.248,
+     "end": 447.348,
+     "text": "the"
+    },
+    {
+     "start": 447.348,
+     "end": 447.708,
+     "text": "gondola"
+    },
+    {
+     "start": 447.708,
+     "end": 448.368,
+     "text": "arm."
+    }
+   ]
+  },
+  {
+   "start": 448.748,
+   "end": 452.268,
+   "text": "The ride was removed for further investigation off-site at a controlled facility.",
+   "words": [
+    {
+     "start": 448.748,
+     "end": 448.888,
+     "text": "The"
+    },
+    {
+     "start": 448.888,
+     "end": 449.108,
+     "text": "ride"
+    },
+    {
+     "start": 449.108,
+     "end": 449.328,
+     "text": "was"
+    },
+    {
+     "start": 449.328,
+     "end": 449.608,
+     "text": "removed"
+    },
+    {
+     "start": 449.608,
+     "end": 449.808,
+     "text": "for"
+    },
+    {
+     "start": 449.808,
+     "end": 450.048,
+     "text": "further"
+    },
+    {
+     "start": 450.048,
+     "end": 450.488,
+     "text": "investigation"
+    },
+    {
+     "start": 450.488,
+     "end": 451.088,
+     "text": "off-site"
+    },
+    {
+     "start": 451.088,
+     "end": 451.408,
+     "text": "at"
+    },
+    {
+     "start": 451.408,
+     "end": 451.488,
+     "text": "a"
+    },
+    {
+     "start": 451.488,
+     "end": 451.788,
+     "text": "controlled"
+    },
+    {
+     "start": 451.788,
+     "end": 452.268,
+     "text": "facility."
+    }
+   ]
+  },
+  {
+   "start": 453.328,
+   "end": 457.848,
+   "text": "It was found that the walls of the steel arm had thinned out over the nearly 20 years of operation",
+   "words": [
+    {
+     "start": 453.328,
+     "end": 453.448,
+     "text": "It"
+    },
+    {
+     "start": 453.448,
+     "end": 453.548,
+     "text": "was"
+    },
+    {
+     "start": 453.548,
+     "end": 453.768,
+     "text": "found"
+    },
+    {
+     "start": 453.768,
+     "end": 453.908,
+     "text": "that"
+    },
+    {
+     "start": 453.908,
+     "end": 454.008,
+     "text": "the"
+    },
+    {
+     "start": 454.008,
+     "end": 454.228,
+     "text": "walls"
+    },
+    {
+     "start": 454.228,
+     "end": 454.368,
+     "text": "of"
+    },
+    {
+     "start": 454.368,
+     "end": 454.488,
+     "text": "the"
+    },
+    {
+     "start": 454.488,
+     "end": 454.688,
+     "text": "steel"
+    },
+    {
+     "start": 454.688,
+     "end": 455.088,
+     "text": "arm"
+    },
+    {
+     "start": 455.088,
+     "end": 455.388,
+     "text": "had"
+    },
+    {
+     "start": 455.388,
+     "end": 455.748,
+     "text": "thinned"
+    },
+    {
+     "start": 455.748,
+     "end": 456.088,
+     "text": "out"
+    },
+    {
+     "start": 456.088,
+     "end": 456.468,
+     "text": "over"
+    },
+    {
+     "start": 456.468,
+     "end": 456.588,
+     "text": "the"
+    },
+    {
+     "start": 456.588,
+     "end": 456.768,
+     "text": "nearly"
+    },
+    {
+     "start": 456.768,
+     "end": 457.088,
+     "text": "20"
+    },
+    {
+     "start": 457.088,
+     "end": 457.348,
+     "text": "years"
+    },
+    {
+     "start": 457.348,
+     "end": 457.488,
+     "text": "of"
+    },
+    {
+     "start": 457.488,
+     "end": 457.848,
+     "text": "operation"
+    }
+   ]
+  },
+  {
+   "start": 457.888,
+   "end": 461.508,
+   "text": "due to the rust essentially eating away the steel.",
+   "words": [
+    {
+     "start": 457.888,
+     "end": 459.188,
+     "text": "due"
+    },
+    {
+     "start": 459.188,
+     "end": 459.368,
+     "text": "to"
+    },
+    {
+     "start": 459.368,
+     "end": 459.488,
+     "text": "the"
+    },
+    {
+     "start": 459.488,
+     "end": 459.668,
+     "text": "rust"
+    },
+    {
+     "start": 459.668,
+     "end": 460.128,
+     "text": "essentially"
+    },
+    {
+     "start": 460.128,
+     "end": 460.628,
+     "text": "eating"
+    },
+    {
+     "start": 460.628,
+     "end": 460.928,
+     "text": "away"
+    },
+    {
+     "start": 460.928,
+     "end": 461.148,
+     "text": "the"
+    },
+    {
+     "start": 461.148,
+     "end": 461.508,
+     "text": "steel."
+    }
+   ]
+  },
+  {
+   "start": 462.288,
+   "end": 468.048,
+   "text": "Eventually, on the incident evening, the thickness of the steel had reduced to below what the stresses of the ride exerted.",
+   "words": [
+    {
+     "start": 462.288,
+     "end": 462.948,
+     "text": "Eventually,"
+    },
+    {
+     "start": 462.948,
+     "end": 463.028,
+     "text": "on"
+    },
+    {
+     "start": 463.028,
+     "end": 463.168,
+     "text": "the"
+    },
+    {
+     "start": 463.168,
+     "end": 463.488,
+     "text": "incident"
+    },
+    {
+     "start": 463.488,
+     "end": 464.108,
+     "text": "evening,"
+    },
+    {
+     "start": 464.108,
+     "end": 464.368,
+     "text": "the"
+    },
+    {
+     "start": 464.368,
+     "end": 464.608,
+     "text": "thickness"
+    },
+    {
+     "start": 464.608,
+     "end": 464.808,
+     "text": "of"
+    },
+    {
+     "start": 464.808,
+     "end": 464.908,
+     "text": "the"
+    },
+    {
+     "start": 464.908,
+     "end": 465.088,
+     "text": "steel"
+    },
+    {
+     "start": 465.088,
+     "end": 465.288,
+     "text": "had"
+    },
+    {
+     "start": 465.288,
+     "end": 465.608,
+     "text": "reduced"
+    },
+    {
+     "start": 465.608,
+     "end": 465.828,
+     "text": "to"
+    },
+    {
+     "start": 465.828,
+     "end": 466.068,
+     "text": "below"
+    },
+    {
+     "start": 466.068,
+     "end": 466.348,
+     "text": "what"
+    },
+    {
+     "start": 466.348,
+     "end": 466.508,
+     "text": "the"
+    },
+    {
+     "start": 466.508,
+     "end": 466.808,
+     "text": "stresses"
+    },
+    {
+     "start": 466.808,
+     "end": 466.988,
+     "text": "of"
+    },
+    {
+     "start": 466.988,
+     "end": 467.108,
+     "text": "the"
+    },
+    {
+     "start": 467.108,
+     "end": 467.288,
+     "text": "ride"
+    },
+    {
+     "start": 467.288,
+     "end": 468.048,
+     "text": "exerted."
+    }
+   ]
+  },
+  {
+   "start": 468.408,
+   "end": 469.968,
+   "text": "This resulted in the failure.",
+   "words": [
+    {
+     "start": 468.408,
+     "end": 468.708,
+     "text": "This"
+    },
+    {
+     "start": 468.708,
+     "end": 469.228,
+     "text": "resulted"
+    },
+    {
+     "start": 469.228,
+     "end": 469.488,
+     "text": "in"
+    },
+    {
+     "start": 469.488,
+     "end": 469.648,
+     "text": "the"
+    },
+    {
+     "start": 469.648,
+     "end": 469.968,
+     "text": "failure."
+    }
+   ]
+  },
+  {
+   "start": 470.908,
+   "end": 476.322,
+   "text": "the rust was caused by the life cycle of such a ride being erected and then stored for long periods of time.",
+   "words": [
+    {
+     "start": 470.908,
+     "end": 471.008,
+     "text": "the"
+    },
+    {
+     "start": 471.008,
+     "end": 471.208,
+     "text": "rust"
+    },
+    {
+     "start": 471.208,
+     "end": 471.388,
+     "text": "was"
+    },
+    {
+     "start": 471.388,
+     "end": 471.648,
+     "text": "caused"
+    },
+    {
+     "start": 471.648,
+     "end": 471.928,
+     "text": "by"
+    },
+    {
+     "start": 471.928,
+     "end": 472.088,
+     "text": "the"
+    },
+    {
+     "start": 472.102,
+     "end": 472.382,
+     "text": "life"
+    },
+    {
+     "start": 472.382,
+     "end": 472.702,
+     "text": "cycle"
+    },
+    {
+     "start": 472.702,
+     "end": 472.842,
+     "text": "of"
+    },
+    {
+     "start": 472.842,
+     "end": 473.042,
+     "text": "such"
+    },
+    {
+     "start": 473.042,
+     "end": 473.182,
+     "text": "a"
+    },
+    {
+     "start": 472.742,
+     "end": 473.442,
+     "text": "ride"
+    },
+    {
+     "start": 473.442,
+     "end": 473.962,
+     "text": "being"
+    },
+    {
+     "start": 473.962,
+     "end": 474.582,
+     "text": "erected"
+    },
+    {
+     "start": 474.582,
+     "end": 474.882,
+     "text": "and"
+    },
+    {
+     "start": 474.882,
+     "end": 475.022,
+     "text": "then"
+    },
+    {
+     "start": 475.022,
+     "end": 475.342,
+     "text": "stored"
+    },
+    {
+     "start": 475.342,
+     "end": 475.502,
+     "text": "for"
+    },
+    {
+     "start": 475.502,
+     "end": 475.662,
+     "text": "long"
+    },
+    {
+     "start": 475.662,
+     "end": 475.882,
+     "text": "periods"
+    },
+    {
+     "start": 475.882,
+     "end": 476.042,
+     "text": "of"
+    },
+    {
+     "start": 476.042,
+     "end": 476.322,
+     "text": "time."
+    }
+   ]
+  },
+  {
+   "start": 476.322,
+   "end": 477.622,
+   "text": "It was found that moisture",
+   "words": [
+    {
+     "start": 476.322,
+     "end": 476.802,
+     "text": "It"
+    },
+    {
+     "start": 476.802,
+     "end": 476.902,
+     "text": "was"
+    },
+    {
+     "start": 476.902,
+     "end": 477.142,
+     "text": "found"
+    },
+    {
+     "start": 477.142,
+     "end": 477.302,
+     "text": "that"
+    },
+    {
+     "start": 477.302,
+     "end": 477.622,
+     "text": "moisture"
+    }
+   ]
+  },
+  {
+   "start": 477.162,
+   "end": 482.942,
+   "text": "could build up inside the box section of the support arm which propagated the rust on the exposed",
+   "words": [
+    {
+     "start": 477.162,
+     "end": 478.302,
+     "text": "could"
+    },
+    {
+     "start": 478.302,
+     "end": 478.522,
+     "text": "build"
+    },
+    {
+     "start": 478.522,
+     "end": 478.662,
+     "text": "up"
+    },
+    {
+     "start": 478.662,
+     "end": 478.882,
+     "text": "inside"
+    },
+    {
+     "start": 478.882,
+     "end": 479.082,
+     "text": "the"
+    },
+    {
+     "start": 479.082,
+     "end": 479.322,
+     "text": "box"
+    },
+    {
+     "start": 479.322,
+     "end": 479.582,
+     "text": "section"
+    },
+    {
+     "start": 479.582,
+     "end": 479.742,
+     "text": "of"
+    },
+    {
+     "start": 479.742,
+     "end": 479.862,
+     "text": "the"
+    },
+    {
+     "start": 479.862,
+     "end": 480.182,
+     "text": "support"
+    },
+    {
+     "start": 480.182,
+     "end": 480.442,
+     "text": "arm"
+    },
+    {
+     "start": 480.442,
+     "end": 480.962,
+     "text": "which"
+    },
+    {
+     "start": 480.962,
+     "end": 481.502,
+     "text": "propagated"
+    },
+    {
+     "start": 481.502,
+     "end": 481.662,
+     "text": "the"
+    },
+    {
+     "start": 481.662,
+     "end": 481.942,
+     "text": "rust"
+    },
+    {
+     "start": 481.942,
+     "end": 482.362,
+     "text": "on"
+    },
+    {
+     "start": 482.362,
+     "end": 482.482,
+     "text": "the"
+    },
+    {
+     "start": 482.022,
+     "end": 482.942,
+     "text": "exposed"
+    }
+   ]
+  },
+  {
+   "start": 482.942,
+   "end": 488.282,
+   "text": "metal as noted in the official safety bulletin regarding the ride post-accident.",
+   "words": [
+    {
+     "start": 482.942,
+     "end": 483.262,
+     "text": "metal"
+    },
+    {
+     "start": 483.262,
+     "end": 484.102,
+     "text": "as"
+    },
+    {
+     "start": 484.102,
+     "end": 484.382,
+     "text": "noted"
+    },
+    {
+     "start": 484.382,
+     "end": 484.942,
+     "text": "in"
+    },
+    {
+     "start": 484.942,
+     "end": 485.042,
+     "text": "the"
+    },
+    {
+     "start": 485.042,
+     "end": 485.262,
+     "text": "official"
+    },
+    {
+     "start": 485.262,
+     "end": 485.702,
+     "text": "safety"
+    },
+    {
+     "start": 485.702,
+     "end": 486.242,
+     "text": "bulletin"
+    },
+    {
+     "start": 486.242,
+     "end": 486.742,
+     "text": "regarding"
+    },
+    {
+     "start": 486.742,
+     "end": 487.022,
+     "text": "the"
+    },
+    {
+     "start": 487.022,
+     "end": 487.282,
+     "text": "ride"
+    },
+    {
+     "start": 487.282,
+     "end": 488.282,
+     "text": "post-accident."
+    }
+   ]
+  },
+  {
+   "start": 489.302,
+   "end": 493.662,
+   "text": "Excessive corrosion inside the gondola support beam can lead to a hazardous wall thickness",
+   "words": [
+    {
+     "start": 489.302,
+     "end": 489.742,
+     "text": "Excessive"
+    },
+    {
+     "start": 489.742,
+     "end": 490.022,
+     "text": "corrosion"
+    },
+    {
+     "start": 490.022,
+     "end": 490.462,
+     "text": "inside"
+    },
+    {
+     "start": 490.462,
+     "end": 490.662,
+     "text": "the"
+    },
+    {
+     "start": 490.662,
+     "end": 490.962,
+     "text": "gondola"
+    },
+    {
+     "start": 490.962,
+     "end": 491.322,
+     "text": "support"
+    },
+    {
+     "start": 491.322,
+     "end": 491.682,
+     "text": "beam"
+    },
+    {
+     "start": 491.682,
+     "end": 492.142,
+     "text": "can"
+    },
+    {
+     "start": 492.142,
+     "end": 492.382,
+     "text": "lead"
+    },
+    {
+     "start": 492.382,
+     "end": 492.642,
+     "text": "to"
+    },
+    {
+     "start": 492.642,
+     "end": 492.742,
+     "text": "a"
+    },
+    {
+     "start": 492.742,
+     "end": 493.062,
+     "text": "hazardous"
+    },
+    {
+     "start": 493.062,
+     "end": 493.442,
+     "text": "wall"
+    },
+    {
+     "start": 493.442,
+     "end": 493.662,
+     "text": "thickness"
+    }
+   ]
+  },
+  {
+   "start": 493.742,
+   "end": 499.062,
+   "text": "reduction of the beam and its adjacent joint causing the beam to fail under normal operation.",
+   "words": [
+    {
+     "start": 493.742,
+     "end": 494.082,
+     "text": "reduction"
+    },
+    {
+     "start": 494.082,
+     "end": 494.362,
+     "text": "of"
+    },
+    {
+     "start": 494.362,
+     "end": 494.462,
+     "text": "the"
+    },
+    {
+     "start": 494.462,
+     "end": 494.662,
+     "text": "beam"
+    },
+    {
+     "start": 494.662,
+     "end": 495.322,
+     "text": "and"
+    },
+    {
+     "start": 495.322,
+     "end": 495.422,
+     "text": "its"
+    },
+    {
+     "start": 495.422,
+     "end": 495.702,
+     "text": "adjacent"
+    },
+    {
+     "start": 495.702,
+     "end": 496.162,
+     "text": "joint"
+    },
+    {
+     "start": 496.162,
+     "end": 497.022,
+     "text": "causing"
+    },
+    {
+     "start": 497.022,
+     "end": 497.222,
+     "text": "the"
+    },
+    {
+     "start": 497.222,
+     "end": 497.422,
+     "text": "beam"
+    },
+    {
+     "start": 497.422,
+     "end": 497.582,
+     "text": "to"
+    },
+    {
+     "start": 497.582,
+     "end": 497.822,
+     "text": "fail"
+    },
+    {
+     "start": 497.822,
+     "end": 498.082,
+     "text": "under"
+    },
+    {
+     "start": 498.082,
+     "end": 498.342,
+     "text": "normal"
+    },
+    {
+     "start": 498.342,
+     "end": 499.062,
+     "text": "operation."
+    }
+   ]
+  },
+  {
+   "start": 500.442,
+   "end": 506.622,
+   "text": "A settlement would be agreed upon with the victim's families and the injured in 2018 but no criminal charges",
+   "words": [
+    {
+     "start": 500.442,
+     "end": 500.562,
+     "text": "A"
+    },
+    {
+     "start": 500.562,
+     "end": 500.842,
+     "text": "settlement"
+    },
+    {
+     "start": 500.842,
+     "end": 501.202,
+     "text": "would"
+    },
+    {
+     "start": 501.202,
+     "end": 501.322,
+     "text": "be"
+    },
+    {
+     "start": 501.322,
+     "end": 501.622,
+     "text": "agreed"
+    },
+    {
+     "start": 501.622,
+     "end": 501.902,
+     "text": "upon"
+    },
+    {
+     "start": 501.902,
+     "end": 502.162,
+     "text": "with"
+    },
+    {
+     "start": 502.162,
+     "end": 502.262,
+     "text": "the"
+    },
+    {
+     "start": 502.262,
+     "end": 502.662,
+     "text": "victim's"
+    },
+    {
+     "start": 502.662,
+     "end": 503.002,
+     "text": "families"
+    },
+    {
+     "start": 503.002,
+     "end": 503.742,
+     "text": "and"
+    },
+    {
+     "start": 503.742,
+     "end": 503.842,
+     "text": "the"
+    },
+    {
+     "start": 503.842,
+     "end": 504.102,
+     "text": "injured"
+    },
+    {
+     "start": 504.102,
+     "end": 504.282,
+     "text": "in"
+    },
+    {
+     "start": 504.282,
+     "end": 504.742,
+     "text": "2018"
+    },
+    {
+     "start": 504.742,
+     "end": 505.642,
+     "text": "but"
+    },
+    {
+     "start": 505.642,
+     "end": 505.822,
+     "text": "no"
+    },
+    {
+     "start": 505.822,
+     "end": 506.162,
+     "text": "criminal"
+    },
+    {
+     "start": 505.722,
+     "end": 506.622,
+     "text": "charges"
+    }
+   ]
+  },
+  {
+   "start": 506.622,
+   "end": 512.142,
+   "text": "were sought as the Franklin County Prosecutor found insufficient evidence of criminal intent",
+   "words": [
+    {
+     "start": 506.622,
+     "end": 506.862,
+     "text": "were"
+    },
+    {
+     "start": 506.862,
+     "end": 507.222,
+     "text": "sought"
+    },
+    {
+     "start": 507.222,
+     "end": 507.762,
+     "text": "as"
+    },
+    {
+     "start": 507.762,
+     "end": 507.862,
+     "text": "the"
+    },
+    {
+     "start": 507.862,
+     "end": 508.202,
+     "text": "Franklin"
+    },
+    {
+     "start": 508.202,
+     "end": 508.722,
+     "text": "County"
+    },
+    {
+     "start": 508.722,
+     "end": 509.402,
+     "text": "Prosecutor"
+    },
+    {
+     "start": 509.402,
+     "end": 510.022,
+     "text": "found"
+    },
+    {
+     "start": 510.022,
+     "end": 510.522,
+     "text": "insufficient"
+    },
+    {
+     "start": 510.522,
+     "end": 510.982,
+     "text": "evidence"
+    },
+    {
+     "start": 510.982,
+     "end": 511.362,
+     "text": "of"
+    },
+    {
+     "start": 511.362,
+     "end": 511.642,
+     "text": "criminal"
+    },
+    {
+     "start": 511.202,
+     "end": 512.142,
+     "text": "intent"
+    }
+   ]
+  },
+  {
+   "start": 512.142,
+   "end": 517.782,
+   "text": "or gross misnegligence as because external inspections couldn't see the internal corrosion.",
+   "words": [
+    {
+     "start": 512.142,
+     "end": 512.442,
+     "text": "or"
+    },
+    {
+     "start": 512.442,
+     "end": 512.782,
+     "text": "gross"
+    },
+    {
+     "start": 512.782,
+     "end": 513.622,
+     "text": "misnegligence"
+    },
+    {
+     "start": 513.622,
+     "end": 514.402,
+     "text": "as"
+    },
+    {
+     "start": 514.402,
+     "end": 514.702,
+     "text": "because"
+    },
+    {
+     "start": 514.702,
+     "end": 515.202,
+     "text": "external"
+    },
+    {
+     "start": 515.202,
+     "end": 515.762,
+     "text": "inspections"
+    },
+    {
+     "start": 515.762,
+     "end": 516.322,
+     "text": "couldn't"
+    },
+    {
+     "start": 516.322,
+     "end": 516.582,
+     "text": "see"
+    },
+    {
+     "start": 516.582,
+     "end": 516.742,
+     "text": "the"
+    },
+    {
+     "start": 516.742,
+     "end": 517.122,
+     "text": "internal"
+    },
+    {
+     "start": 517.122,
+     "end": 517.782,
+     "text": "corrosion."
+    }
+   ]
+  },
+  {
+   "start": 519.082,
+   "end": 523.202,
+   "text": "Over most of the ride's life it was owned pretty much by one owner having bought it from the",
+   "words": [
+    {
+     "start": 519.082,
+     "end": 519.322,
+     "text": "Over"
+    },
+    {
+     "start": 519.322,
+     "end": 519.502,
+     "text": "most"
+    },
+    {
+     "start": 519.502,
+     "end": 519.642,
+     "text": "of"
+    },
+    {
+     "start": 519.642,
+     "end": 519.742,
+     "text": "the"
+    },
+    {
+     "start": 519.742,
+     "end": 520.022,
+     "text": "ride's"
+    },
+    {
+     "start": 520.022,
+     "end": 520.222,
+     "text": "life"
+    },
+    {
+     "start": 520.222,
+     "end": 520.342,
+     "text": "it"
+    },
+    {
+     "start": 520.342,
+     "end": 520.462,
+     "text": "was"
+    },
+    {
+     "start": 520.462,
+     "end": 520.682,
+     "text": "owned"
+    },
+    {
+     "start": 520.682,
+     "end": 520.982,
+     "text": "pretty"
+    },
+    {
+     "start": 520.982,
+     "end": 521.142,
+     "text": "much"
+    },
+    {
+     "start": 521.142,
+     "end": 521.422,
+     "text": "by"
+    },
+    {
+     "start": 521.422,
+     "end": 521.682,
+     "text": "one"
+    },
+    {
+     "start": 521.682,
+     "end": 522.062,
+     "text": "owner"
+    },
+    {
+     "start": 522.062,
+     "end": 522.522,
+     "text": "having"
+    },
+    {
+     "start": 522.522,
+     "end": 522.762,
+     "text": "bought"
+    },
+    {
+     "start": 522.762,
+     "end": 522.942,
+     "text": "it"
+    },
+    {
+     "start": 522.942,
+     "end": 523.102,
+     "text": "from"
+    },
+    {
+     "start": 523.102,
+     "end": 523.202,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "start": 523.242,
+   "end": 527.922,
+   "text": "original customer who ordered the ride when it was just one year old the internal section that rusted",
+   "words": [
+    {
+     "start": 523.242,
+     "end": 523.462,
+     "text": "original"
+    },
+    {
+     "start": 523.462,
+     "end": 523.862,
+     "text": "customer"
+    },
+    {
+     "start": 523.862,
+     "end": 524.122,
+     "text": "who"
+    },
+    {
+     "start": 524.122,
+     "end": 524.402,
+     "text": "ordered"
+    },
+    {
+     "start": 524.402,
+     "end": 524.562,
+     "text": "the"
+    },
+    {
+     "start": 524.562,
+     "end": 524.822,
+     "text": "ride"
+    },
+    {
+     "start": 524.822,
+     "end": 525.382,
+     "text": "when"
+    },
+    {
+     "start": 525.382,
+     "end": 525.482,
+     "text": "it"
+    },
+    {
+     "start": 525.482,
+     "end": 525.582,
+     "text": "was"
+    },
+    {
+     "start": 525.582,
+     "end": 525.742,
+     "text": "just"
+    },
+    {
+     "start": 525.742,
+     "end": 525.942,
+     "text": "one"
+    },
+    {
+     "start": 525.942,
+     "end": 526.122,
+     "text": "year"
+    },
+    {
+     "start": 526.122,
+     "end": 526.422,
+     "text": "old"
+    },
+    {
+     "start": 526.422,
+     "end": 526.842,
+     "text": "the"
+    },
+    {
+     "start": 526.842,
+     "end": 527.142,
+     "text": "internal"
+    },
+    {
+     "start": 527.142,
+     "end": 527.542,
+     "text": "section"
+    },
+    {
+     "start": 527.542,
+     "end": 527.722,
+     "text": "that"
+    },
+    {
+     "start": 527.242,
+     "end": 527.922,
+     "text": "rusted"
+    }
+   ]
+  },
+  {
+   "start": 527.922,
+   "end": 533.502,
+   "text": "out in that time hadn't been inspected it went unnoticed and as it wasn't part of a section that",
+   "words": [
+    {
+     "start": 527.922,
+     "end": 528.262,
+     "text": "out"
+    },
+    {
+     "start": 528.262,
+     "end": 528.822,
+     "text": "in"
+    },
+    {
+     "start": 528.822,
+     "end": 528.942,
+     "text": "that"
+    },
+    {
+     "start": 528.942,
+     "end": 529.222,
+     "text": "time"
+    },
+    {
+     "start": 529.222,
+     "end": 529.442,
+     "text": "hadn't"
+    },
+    {
+     "start": 529.442,
+     "end": 529.562,
+     "text": "been"
+    },
+    {
+     "start": 529.562,
+     "end": 530.002,
+     "text": "inspected"
+    },
+    {
+     "start": 530.002,
+     "end": 530.642,
+     "text": "it"
+    },
+    {
+     "start": 530.642,
+     "end": 530.822,
+     "text": "went"
+    },
+    {
+     "start": 530.822,
+     "end": 531.522,
+     "text": "unnoticed"
+    },
+    {
+     "start": 531.522,
+     "end": 531.842,
+     "text": "and"
+    },
+    {
+     "start": 531.842,
+     "end": 532.022,
+     "text": "as"
+    },
+    {
+     "start": 532.022,
+     "end": 532.122,
+     "text": "it"
+    },
+    {
+     "start": 532.122,
+     "end": 532.402,
+     "text": "wasn't"
+    },
+    {
+     "start": 532.402,
+     "end": 532.842,
+     "text": "part"
+    },
+    {
+     "start": 532.842,
+     "end": 532.942,
+     "text": "of"
+    },
+    {
+     "start": 532.942,
+     "end": 533.042,
+     "text": "a"
+    },
+    {
+     "start": 533.042,
+     "end": 533.282,
+     "text": "section"
+    },
+    {
+     "start": 532.842,
+     "end": 533.502,
+     "text": "that"
+    }
+   ]
+  },
+  {
+   "start": 533.502,
+   "end": 539.482,
+   "text": "had been welded which often invite more checks as welds can fail and especially the ride had",
+   "words": [
+    {
+     "start": 533.502,
+     "end": 533.622,
+     "text": "had"
+    },
+    {
+     "start": 533.622,
+     "end": 533.742,
+     "text": "been"
+    },
+    {
+     "start": 533.742,
+     "end": 534.042,
+     "text": "welded"
+    },
+    {
+     "start": 534.042,
+     "end": 534.862,
+     "text": "which"
+    },
+    {
+     "start": 534.862,
+     "end": 535.202,
+     "text": "often"
+    },
+    {
+     "start": 535.202,
+     "end": 535.522,
+     "text": "invite"
+    },
+    {
+     "start": 535.522,
+     "end": 535.702,
+     "text": "more"
+    },
+    {
+     "start": 535.702,
+     "end": 536.082,
+     "text": "checks"
+    },
+    {
+     "start": 536.082,
+     "end": 536.682,
+     "text": "as"
+    },
+    {
+     "start": 536.682,
+     "end": 537.042,
+     "text": "welds"
+    },
+    {
+     "start": 537.042,
+     "end": 537.182,
+     "text": "can"
+    },
+    {
+     "start": 537.182,
+     "end": 537.502,
+     "text": "fail"
+    },
+    {
+     "start": 537.502,
+     "end": 538.142,
+     "text": "and"
+    },
+    {
+     "start": 538.142,
+     "end": 538.562,
+     "text": "especially"
+    },
+    {
+     "start": 538.562,
+     "end": 538.802,
+     "text": "the"
+    },
+    {
+     "start": 538.802,
+     "end": 539.062,
+     "text": "ride"
+    },
+    {
+     "start": 538.642,
+     "end": 539.482,
+     "text": "had"
+    }
+   ]
+  },
+  {
+   "start": 539.482,
+   "end": 544.942,
+   "text": "actually had service bulletins over the years for its weld but unfortunately the unwelded sections were",
+   "words": [
+    {
+     "start": 539.482,
+     "end": 539.722,
+     "text": "actually"
+    },
+    {
+     "start": 539.722,
+     "end": 540.142,
+     "text": "had"
+    },
+    {
+     "start": 540.142,
+     "end": 540.822,
+     "text": "service"
+    },
+    {
+     "start": 540.822,
+     "end": 541.282,
+     "text": "bulletins"
+    },
+    {
+     "start": 541.282,
+     "end": 541.542,
+     "text": "over"
+    },
+    {
+     "start": 541.542,
+     "end": 541.642,
+     "text": "the"
+    },
+    {
+     "start": 541.642,
+     "end": 541.922,
+     "text": "years"
+    },
+    {
+     "start": 541.922,
+     "end": 542.082,
+     "text": "for"
+    },
+    {
+     "start": 542.082,
+     "end": 542.202,
+     "text": "its"
+    },
+    {
+     "start": 542.202,
+     "end": 542.402,
+     "text": "weld"
+    },
+    {
+     "start": 542.402,
+     "end": 542.602,
+     "text": "but"
+    },
+    {
+     "start": 542.602,
+     "end": 542.982,
+     "text": "unfortunately"
+    },
+    {
+     "start": 542.982,
+     "end": 543.362,
+     "text": "the"
+    },
+    {
+     "start": 543.362,
+     "end": 543.922,
+     "text": "unwelded"
+    },
+    {
+     "start": 543.922,
+     "end": 544.322,
+     "text": "sections"
+    },
+    {
+     "start": 543.962,
+     "end": 544.942,
+     "text": "were"
+    }
+   ]
+  },
+  {
+   "start": 544.942,
+   "end": 551.542,
+   "text": "never on the bulletins and were thus left as they were so that's my video on the ohio state",
+   "words": [
+    {
+     "start": 544.942,
+     "end": 545.102,
+     "text": "never"
+    },
+    {
+     "start": 545.102,
+     "end": 545.362,
+     "text": "on"
+    },
+    {
+     "start": 545.362,
+     "end": 545.562,
+     "text": "the"
+    },
+    {
+     "start": 545.562,
+     "end": 546.202,
+     "text": "bulletins"
+    },
+    {
+     "start": 546.202,
+     "end": 546.582,
+     "text": "and"
+    },
+    {
+     "start": 546.582,
+     "end": 546.742,
+     "text": "were"
+    },
+    {
+     "start": 546.742,
+     "end": 547.082,
+     "text": "thus"
+    },
+    {
+     "start": 547.082,
+     "end": 547.642,
+     "text": "left"
+    },
+    {
+     "start": 547.642,
+     "end": 547.962,
+     "text": "as"
+    },
+    {
+     "start": 547.962,
+     "end": 548.102,
+     "text": "they"
+    },
+    {
+     "start": 548.102,
+     "end": 548.402,
+     "text": "were"
+    },
+    {
+     "start": 548.402,
+     "end": 549.622,
+     "text": "so"
+    },
+    {
+     "start": 549.622,
+     "end": 549.722,
+     "text": "that's"
+    },
+    {
+     "start": 549.722,
+     "end": 549.842,
+     "text": "my"
+    },
+    {
+     "start": 549.842,
+     "end": 550.022,
+     "text": "video"
+    },
+    {
+     "start": 550.022,
+     "end": 550.362,
+     "text": "on"
+    },
+    {
+     "start": 550.362,
+     "end": 550.482,
+     "text": "the"
+    },
+    {
+     "start": 550.482,
+     "end": 551.062,
+     "text": "ohio"
+    },
+    {
+     "start": 551.062,
+     "end": 551.542,
+     "text": "state"
+    }
+   ]
+  },
+  {
+   "start": 551.642,
+   "end": 553.442,
+   "text": "fair disaster of 2017.",
+   "words": [
+    {
+     "start": 551.642,
+     "end": 551.942,
+     "text": "fair"
+    },
+    {
+     "start": 551.942,
+     "end": 552.362,
+     "text": "disaster"
+    },
+    {
+     "start": 552.362,
+     "end": 552.542,
+     "text": "of"
+    },
+    {
+     "start": 552.542,
+     "end": 553.442,
+     "text": "2017."
+    }
+   ]
+  },
+  {
+   "start": 553.942,
+   "end": 555.482,
+   "text": "It's going to be a 3 on my scale",
+   "words": [
+    {
+     "start": 553.942,
+     "end": 554.142,
+     "text": "It's"
+    },
+    {
+     "start": 554.142,
+     "end": 554.322,
+     "text": "going"
+    },
+    {
+     "start": 554.322,
+     "end": 554.482,
+     "text": "to"
+    },
+    {
+     "start": 554.482,
+     "end": 554.622,
+     "text": "be"
+    },
+    {
+     "start": 554.622,
+     "end": 554.762,
+     "text": "a"
+    },
+    {
+     "start": 554.762,
+     "end": 554.922,
+     "text": "3"
+    },
+    {
+     "start": 554.922,
+     "end": 555.082,
+     "text": "on"
+    },
+    {
+     "start": 555.082,
+     "end": 555.222,
+     "text": "my"
+    },
+    {
+     "start": 555.222,
+     "end": 555.482,
+     "text": "scale"
+    }
+   ]
+  },
+  {
+   "start": 555.962,
+   "end": 557.942,
+   "text": "and this is what I've got for my root cause analysis card.",
+   "words": [
+    {
+     "start": 555.962,
+     "end": 556.102,
+     "text": "and"
+    },
+    {
+     "start": 556.102,
+     "end": 556.202,
+     "text": "this"
+    },
+    {
+     "start": 556.202,
+     "end": 556.322,
+     "text": "is"
+    },
+    {
+     "start": 556.322,
+     "end": 556.342,
+     "text": "what"
+    },
+    {
+     "start": 556.342,
+     "end": 556.442,
+     "text": "I've"
+    },
+    {
+     "start": 556.442,
+     "end": 556.562,
+     "text": "got"
+    },
+    {
+     "start": 556.562,
+     "end": 556.682,
+     "text": "for"
+    },
+    {
+     "start": 556.682,
+     "end": 556.802,
+     "text": "my"
+    },
+    {
+     "start": 556.802,
+     "end": 556.982,
+     "text": "root"
+    },
+    {
+     "start": 556.982,
+     "end": 557.142,
+     "text": "cause"
+    },
+    {
+     "start": 557.142,
+     "end": 557.402,
+     "text": "analysis"
+    },
+    {
+     "start": 557.402,
+     "end": 557.942,
+     "text": "card."
+    }
+   ]
+  },
+  {
+   "start": 558.342,
+   "end": 558.982,
+   "text": "Do you agree?",
+   "words": [
+    {
+     "start": 558.342,
+     "end": 558.502,
+     "text": "Do"
+    },
+    {
+     "start": 558.502,
+     "end": 558.562,
+     "text": "you"
+    },
+    {
+     "start": 558.562,
+     "end": 558.982,
+     "text": "agree?"
+    }
+   ]
+  },
+  {
+   "start": 558.982,
+   "end": 559.802,
+   "text": "Let me know in",
+   "words": [
+    {
+     "start": 558.982,
+     "end": 559.442,
+     "text": "Let"
+    },
+    {
+     "start": 559.442,
+     "end": 559.562,
+     "text": "me"
+    },
+    {
+     "start": 559.562,
+     "end": 559.642,
+     "text": "know"
+    },
+    {
+     "start": 559.342,
+     "end": 559.802,
+     "text": "in"
+    }
+   ]
+  },
+  {
+   "start": 559.802,
+   "end": 560.282,
+   "text": "the comments below.",
+   "words": [
+    {
+     "start": 559.802,
+     "end": 559.822,
+     "text": "the"
+    },
+    {
+     "start": 559.822,
+     "end": 560.022,
+     "text": "comments"
+    },
+    {
+     "start": 560.022,
+     "end": 560.282,
+     "text": "below."
+    }
+   ]
+  },
+  {
+   "start": 560.282,
+   "end": 561.542,
+   "text": "This is a Plain Deer Foot",
+   "words": [
+    {
+     "start": 560.282,
+     "end": 561.022,
+     "text": "This"
+    },
+    {
+     "start": 561.022,
+     "end": 561.122,
+     "text": "is"
+    },
+    {
+     "start": 561.122,
+     "end": 561.182,
+     "text": "a"
+    },
+    {
+     "start": 561.182,
+     "end": 561.302,
+     "text": "Plain"
+    },
+    {
+     "start": 561.302,
+     "end": 561.442,
+     "text": "Deer"
+    },
+    {
+     "start": 561.442,
+     "end": 561.542,
+     "text": "Foot"
+    }
+   ]
+  },
+  {
+   "start": 561.062,
+   "end": 562.222,
+   "text": "production.",
+   "words": [
+    {
+     "start": 561.062,
+     "end": 562.222,
+     "text": "production."
+    }
+   ]
+  },
+  {
+   "start": 562.222,
+   "end": 563.542,
+   "text": "All videos on the channel are creative commons,",
+   "words": [
+    {
+     "start": 562.222,
+     "end": 562.282,
+     "text": "All"
+    },
+    {
+     "start": 562.282,
+     "end": 562.442,
+     "text": "videos"
+    },
+    {
+     "start": 562.442,
+     "end": 562.562,
+     "text": "on"
+    },
+    {
+     "start": 562.562,
+     "end": 562.582,
+     "text": "the"
+    },
+    {
+     "start": 562.582,
+     "end": 562.802,
+     "text": "channel"
+    },
+    {
+     "start": 562.802,
+     "end": 562.882,
+     "text": "are"
+    },
+    {
+     "start": 562.882,
+     "end": 563.122,
+     "text": "creative"
+    },
+    {
+     "start": 563.122,
+     "end": 563.542,
+     "text": "commons,"
+    }
+   ]
+  },
+  {
+   "start": 563.482,
+   "end": 564.802,
+   "text": "attribution, shell-like licensed.",
+   "words": [
+    {
+     "start": 563.482,
+     "end": 563.922,
+     "text": "attribution,"
+    },
+    {
+     "start": 563.922,
+     "end": 564.222,
+     "text": "shell-like"
+    },
+    {
+     "start": 564.222,
+     "end": 564.802,
+     "text": "licensed."
+    }
+   ]
+  },
+  {
+   "start": 564.802,
+   "end": 565.802,
+   "text": "Plain Deer Foot videos",
+   "words": [
+    {
+     "start": 564.802,
+     "end": 565.282,
+     "text": "Plain"
+    },
+    {
+     "start": 565.282,
+     "end": 565.422,
+     "text": "Deer"
+    },
+    {
+     "start": 565.422,
+     "end": 565.522,
+     "text": "Foot"
+    },
+    {
+     "start": 565.122,
+     "end": 565.802,
+     "text": "videos"
+    }
+   ]
+  },
+  {
+   "start": 565.802,
+   "end": 567.302,
+   "text": "are produced by me, John, in a currently",
+   "words": [
+    {
+     "start": 565.802,
+     "end": 565.922,
+     "text": "are"
+    },
+    {
+     "start": 565.922,
+     "end": 566.062,
+     "text": "produced"
+    },
+    {
+     "start": 566.062,
+     "end": 566.242,
+     "text": "by"
+    },
+    {
+     "start": 566.242,
+     "end": 566.462,
+     "text": "me,"
+    },
+    {
+     "start": 566.462,
+     "end": 566.822,
+     "text": "John,"
+    },
+    {
+     "start": 566.822,
+     "end": 566.902,
+     "text": "in"
+    },
+    {
+     "start": 566.902,
+     "end": 567.002,
+     "text": "a"
+    },
+    {
+     "start": 567.002,
+     "end": 567.302,
+     "text": "currently"
+    }
+   ]
+  },
+  {
+   "start": 566.862,
+   "end": 569.622,
+   "text": "fairly cold corner of Southern London, the UK.",
+   "words": [
+    {
+     "start": 566.862,
+     "end": 568.062,
+     "text": "fairly"
+    },
+    {
+     "start": 568.062,
+     "end": 568.362,
+     "text": "cold"
+    },
+    {
+     "start": 568.362,
+     "end": 568.662,
+     "text": "corner"
+    },
+    {
+     "start": 568.662,
+     "end": 568.802,
+     "text": "of"
+    },
+    {
+     "start": 568.802,
+     "end": 569.002,
+     "text": "Southern"
+    },
+    {
+     "start": 569.002,
+     "end": 569.242,
+     "text": "London,"
+    },
+    {
+     "start": 569.242,
+     "end": 569.342,
+     "text": "the"
+    },
+    {
+     "start": 569.342,
+     "end": 569.622,
+     "text": "UK."
+    }
+   ]
+  },
+  {
+   "start": 570.162,
+   "end": 571.402,
+   "text": "And all that's left to say is thank you very much for watching",
+   "words": [
+    {
+     "start": 570.162,
+     "end": 570.302,
+     "text": "And"
+    },
+    {
+     "start": 570.302,
+     "end": 570.362,
+     "text": "all"
+    },
+    {
+     "start": 570.362,
+     "end": 570.502,
+     "text": "that's"
+    },
+    {
+     "start": 570.502,
+     "end": 570.522,
+     "text": "left"
+    },
+    {
+     "start": 570.522,
+     "end": 570.582,
+     "text": "to"
+    },
+    {
+     "start": 570.582,
+     "end": 570.662,
+     "text": "say"
+    },
+    {
+     "start": 570.662,
+     "end": 570.762,
+     "text": "is"
+    },
+    {
+     "start": 570.762,
+     "end": 570.882,
+     "text": "thank"
+    },
+    {
+     "start": 570.882,
+     "end": 570.942,
+     "text": "you"
+    },
+    {
+     "start": 570.942,
+     "end": 571.002,
+     "text": "very"
+    },
+    {
+     "start": 571.002,
+     "end": 571.102,
+     "text": "much"
+    },
+    {
+     "start": 571.102,
+     "end": 571.222,
+     "text": "for"
+    },
+    {
+     "start": 571.222,
+     "end": 571.402,
+     "text": "watching"
+    }
+   ]
+  },
+  {
+   "start": 571.722,
+   "end": 573.202,
+   "text": "and Mr Music, play us out please.",
+   "words": [
+    {
+     "start": 571.722,
+     "end": 571.842,
+     "text": "and"
+    },
+    {
+     "start": 571.842,
+     "end": 572.022,
+     "text": "Mr"
+    },
+    {
+     "start": 572.022,
+     "end": 572.622,
+     "text": "Music,"
+    },
+    {
+     "start": 572.622,
+     "end": 572.762,
+     "text": "play"
+    },
+    {
+     "start": 572.762,
+     "end": 572.822,
+     "text": "us"
+    },
+    {
+     "start": 572.822,
+     "end": 572.962,
+     "text": "out"
+    },
+    {
+     "start": 572.962,
+     "end": 573.202,
+     "text": "please."
+    }
+   ]
+  },
+  {
+   "start": 581.642,
+   "end": 583.322,
+   "text": "Thank you.",
+   "words": [
+    {
+     "start": 581.642,
+     "end": 583.262,
+     "text": "Thank"
+    },
+    {
+     "start": 583.262,
+     "end": 583.322,
+     "text": "you."
+    }
+   ]
+  },
+  {
+   "start": 611.642,
+   "end": 613.002,
+   "text": "Thank you.",
+   "words": [
+    {
+     "start": 611.642,
+     "end": 612.982,
+     "text": "Thank"
+    },
+    {
+     "start": 612.982,
+     "end": 613.002,
+     "text": "you."
+    }
+   ]
+  }
+ ],
+ "language": "English",
+ "backend": "groq",
+ "model": "whisper-large-v3-turbo",
+ "source_duration": 628.935692,
+ "chunk_count": 1,
+ "has_word_timings": true
+}
