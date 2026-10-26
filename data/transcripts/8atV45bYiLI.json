@@ -1,0 +1,2504 @@
+{
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.24,
+   "text": "Come with me to commit the heinous crime of paddleboarding without a permit.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.2,
+     "text": "Come"
+    },
+    {
+     "start": 0.2,
+     "end": 0.36,
+     "text": "with"
+    },
+    {
+     "start": 0.36,
+     "end": 0.46,
+     "text": "me"
+    },
+    {
+     "start": 0.46,
+     "end": 0.6,
+     "text": "to"
+    },
+    {
+     "start": 0.6,
+     "end": 0.8,
+     "text": "commit"
+    },
+    {
+     "start": 0.8,
+     "end": 0.98,
+     "text": "the"
+    },
+    {
+     "start": 0.98,
+     "end": 1.28,
+     "text": "heinous"
+    },
+    {
+     "start": 1.28,
+     "end": 1.66,
+     "text": "crime"
+    },
+    {
+     "start": 1.66,
+     "end": 2.08,
+     "text": "of"
+    },
+    {
+     "start": 2.08,
+     "end": 2.58,
+     "text": "paddleboarding"
+    },
+    {
+     "start": 2.58,
+     "end": 2.82,
+     "text": "without"
+    },
+    {
+     "start": 2.82,
+     "end": 2.98,
+     "text": "a"
+    },
+    {
+     "start": 2.98,
+     "end": 3.24,
+     "text": "permit."
+    }
+   ]
+  },
+  {
+   "start": 3.72,
+   "end": 6.08,
+   "text": "Welcome to Oregon, where waterways face a threat.",
+   "words": [
+    {
+     "start": 3.72,
+     "end": 3.96,
+     "text": "Welcome"
+    },
+    {
+     "start": 3.96,
+     "end": 4.14,
+     "text": "to"
+    },
+    {
+     "start": 4.14,
+     "end": 4.46,
+     "text": "Oregon,"
+    },
+    {
+     "start": 4.46,
+     "end": 4.92,
+     "text": "where"
+    },
+    {
+     "start": 4.92,
+     "end": 5.42,
+     "text": "waterways"
+    },
+    {
+     "start": 5.42,
+     "end": 5.72,
+     "text": "face"
+    },
+    {
+     "start": 5.72,
+     "end": 5.86,
+     "text": "a"
+    },
+    {
+     "start": 5.86,
+     "end": 6.08,
+     "text": "threat."
+    }
+   ]
+  },
+  {
+   "start": 6.54,
+   "end": 8.96,
+   "text": "According to the state, invasive mussels are closer than ever.",
+   "words": [
+    {
+     "start": 6.54,
+     "end": 6.8,
+     "text": "According"
+    },
+    {
+     "start": 6.8,
+     "end": 7.02,
+     "text": "to"
+    },
+    {
+     "start": 7.02,
+     "end": 7.14,
+     "text": "the"
+    },
+    {
+     "start": 7.14,
+     "end": 7.5,
+     "text": "state,"
+    },
+    {
+     "start": 7.5,
+     "end": 7.8,
+     "text": "invasive"
+    },
+    {
+     "start": 7.8,
+     "end": 8.1,
+     "text": "mussels"
+    },
+    {
+     "start": 8.1,
+     "end": 8.3,
+     "text": "are"
+    },
+    {
+     "start": 8.3,
+     "end": 8.52,
+     "text": "closer"
+    },
+    {
+     "start": 8.52,
+     "end": 8.76,
+     "text": "than"
+    },
+    {
+     "start": 8.76,
+     "end": 8.96,
+     "text": "ever."
+    }
+   ]
+  },
+  {
+   "start": 9.26,
+   "end": 12.94,
+   "text": "They damage boats, harm ecosystems, and are impossible to control.",
+   "words": [
+    {
+     "start": 9.26,
+     "end": 9.42,
+     "text": "They"
+    },
+    {
+     "start": 9.42,
+     "end": 9.68,
+     "text": "damage"
+    },
+    {
+     "start": 9.68,
+     "end": 10.28,
+     "text": "boats,"
+    },
+    {
+     "start": 10.28,
+     "end": 10.48,
+     "text": "harm"
+    },
+    {
+     "start": 10.48,
+     "end": 10.96,
+     "text": "ecosystems,"
+    },
+    {
+     "start": 10.96,
+     "end": 11.46,
+     "text": "and"
+    },
+    {
+     "start": 11.46,
+     "end": 11.66,
+     "text": "are"
+    },
+    {
+     "start": 11.66,
+     "end": 12.12,
+     "text": "impossible"
+    },
+    {
+     "start": 12.12,
+     "end": 12.6,
+     "text": "to"
+    },
+    {
+     "start": 12.6,
+     "end": 12.94,
+     "text": "control."
+    }
+   ]
+  },
+  {
+   "start": 13.38,
+   "end": 15.72,
+   "text": "So the state charges for a waterway access permit.",
+   "words": [
+    {
+     "start": 13.38,
+     "end": 13.56,
+     "text": "So"
+    },
+    {
+     "start": 13.56,
+     "end": 13.7,
+     "text": "the"
+    },
+    {
+     "start": 13.7,
+     "end": 13.86,
+     "text": "state"
+    },
+    {
+     "start": 13.86,
+     "end": 14.18,
+     "text": "charges"
+    },
+    {
+     "start": 14.18,
+     "end": 14.42,
+     "text": "for"
+    },
+    {
+     "start": 14.42,
+     "end": 14.54,
+     "text": "a"
+    },
+    {
+     "start": 14.54,
+     "end": 14.94,
+     "text": "waterway"
+    },
+    {
+     "start": 14.94,
+     "end": 15.32,
+     "text": "access"
+    },
+    {
+     "start": 15.32,
+     "end": 15.72,
+     "text": "permit."
+    }
+   ]
+  },
+  {
+   "start": 16.08,
+   "end": 18.7,
+   "text": "Since 2010, it's been required for boats 10 feet and longer.",
+   "words": [
+    {
+     "start": 16.08,
+     "end": 16.26,
+     "text": "Since"
+    },
+    {
+     "start": 16.26,
+     "end": 16.92,
+     "text": "2010,"
+    },
+    {
+     "start": 16.92,
+     "end": 16.96,
+     "text": "it's"
+    },
+    {
+     "start": 16.96,
+     "end": 17.06,
+     "text": "been"
+    },
+    {
+     "start": 17.06,
+     "end": 17.44,
+     "text": "required"
+    },
+    {
+     "start": 17.44,
+     "end": 17.6,
+     "text": "for"
+    },
+    {
+     "start": 17.6,
+     "end": 17.82,
+     "text": "boats"
+    },
+    {
+     "start": 17.82,
+     "end": 18.14,
+     "text": "10"
+    },
+    {
+     "start": 18.14,
+     "end": 18.26,
+     "text": "feet"
+    },
+    {
+     "start": 18.26,
+     "end": 18.42,
+     "text": "and"
+    },
+    {
+     "start": 18.42,
+     "end": 18.7,
+     "text": "longer."
+    }
+   ]
+  },
+  {
+   "start": 19.04,
+   "end": 21.5,
+   "text": "The revenue funds five boat inspection stations,",
+   "words": [
+    {
+     "start": 19.04,
+     "end": 19.18,
+     "text": "The"
+    },
+    {
+     "start": 19.18,
+     "end": 19.48,
+     "text": "revenue"
+    },
+    {
+     "start": 19.48,
+     "end": 19.8,
+     "text": "funds"
+    },
+    {
+     "start": 19.8,
+     "end": 20.18,
+     "text": "five"
+    },
+    {
+     "start": 20.18,
+     "end": 20.4,
+     "text": "boat"
+    },
+    {
+     "start": 20.4,
+     "end": 20.76,
+     "text": "inspection"
+    },
+    {
+     "start": 20.76,
+     "end": 21.5,
+     "text": "stations,"
+    }
+   ]
+  },
+  {
+   "start": 21.48,
+   "end": 24.18,
+   "text": "and starting in 2020, also funds marine board grants.",
+   "words": [
+    {
+     "start": 21.48,
+     "end": 21.64,
+     "text": "and"
+    },
+    {
+     "start": 21.64,
+     "end": 21.86,
+     "text": "starting"
+    },
+    {
+     "start": 21.86,
+     "end": 22.04,
+     "text": "in"
+    },
+    {
+     "start": 22.04,
+     "end": 22.44,
+     "text": "2020,"
+    },
+    {
+     "start": 22.44,
+     "end": 22.96,
+     "text": "also"
+    },
+    {
+     "start": 22.96,
+     "end": 23.28,
+     "text": "funds"
+    },
+    {
+     "start": 23.28,
+     "end": 23.5,
+     "text": "marine"
+    },
+    {
+     "start": 23.5,
+     "end": 23.76,
+     "text": "board"
+    },
+    {
+     "start": 23.76,
+     "end": 24.18,
+     "text": "grants."
+    }
+   ]
+  },
+  {
+   "start": 24.56,
+   "end": 26.36,
+   "text": "But the state wanted more money.",
+   "words": [
+    {
+     "start": 24.56,
+     "end": 24.86,
+     "text": "But"
+    },
+    {
+     "start": 24.86,
+     "end": 25.3,
+     "text": "the"
+    },
+    {
+     "start": 25.3,
+     "end": 25.56,
+     "text": "state"
+    },
+    {
+     "start": 25.56,
+     "end": 25.86,
+     "text": "wanted"
+    },
+    {
+     "start": 25.86,
+     "end": 26.08,
+     "text": "more"
+    },
+    {
+     "start": 26.08,
+     "end": 26.36,
+     "text": "money."
+    }
+   ]
+  },
+  {
+   "start": 25.94,
+   "end": 26.9,
+   "text": "So",
+   "words": [
+    {
+     "start": 25.94,
+     "end": 26.9,
+     "text": "So"
+    }
+   ]
+  },
+  {
+   "start": 26.9,
+   "end": 29.98,
+   "text": "last year, with the threat of aquatic invasive species at our doorstep,",
+   "words": [
+    {
+     "start": 26.9,
+     "end": 27.18,
+     "text": "last"
+    },
+    {
+     "start": 27.18,
+     "end": 27.52,
+     "text": "year,"
+    },
+    {
+     "start": 27.52,
+     "end": 27.64,
+     "text": "with"
+    },
+    {
+     "start": 27.64,
+     "end": 27.76,
+     "text": "the"
+    },
+    {
+     "start": 27.76,
+     "end": 27.92,
+     "text": "threat"
+    },
+    {
+     "start": 27.92,
+     "end": 28.06,
+     "text": "of"
+    },
+    {
+     "start": 28.06,
+     "end": 28.3,
+     "text": "aquatic"
+    },
+    {
+     "start": 28.3,
+     "end": 28.62,
+     "text": "invasive"
+    },
+    {
+     "start": 28.62,
+     "end": 29.08,
+     "text": "species"
+    },
+    {
+     "start": 29.08,
+     "end": 29.32,
+     "text": "at"
+    },
+    {
+     "start": 29.32,
+     "end": 29.4,
+     "text": "our"
+    },
+    {
+     "start": 29.4,
+     "end": 29.98,
+     "text": "doorstep,"
+    }
+   ]
+  },
+  {
+   "start": 30.18,
+   "end": 31.2,
+   "text": "Oregon passed a bill.",
+   "words": [
+    {
+     "start": 30.18,
+     "end": 30.5,
+     "text": "Oregon"
+    },
+    {
+     "start": 30.5,
+     "end": 30.84,
+     "text": "passed"
+    },
+    {
+     "start": 30.84,
+     "end": 31.02,
+     "text": "a"
+    },
+    {
+     "start": 31.02,
+     "end": 31.2,
+     "text": "bill."
+    }
+   ]
+  },
+  {
+   "start": 31.2,
+   "end": 38.1,
+   "text": "The state increased fees on pre-existing permits and expanded requirements to include small boats, paddleboards, kayaks, and rafts.",
+   "words": [
+    {
+     "start": 31.2,
+     "end": 31.7,
+     "text": "The"
+    },
+    {
+     "start": 31.7,
+     "end": 31.92,
+     "text": "state"
+    },
+    {
+     "start": 31.92,
+     "end": 32.32,
+     "text": "increased"
+    },
+    {
+     "start": 32.32,
+     "end": 32.62,
+     "text": "fees"
+    },
+    {
+     "start": 32.62,
+     "end": 32.9,
+     "text": "on"
+    },
+    {
+     "start": 32.9,
+     "end": 33.36,
+     "text": "pre-existing"
+    },
+    {
+     "start": 33.36,
+     "end": 33.76,
+     "text": "permits"
+    },
+    {
+     "start": 33.76,
+     "end": 34.24,
+     "text": "and"
+    },
+    {
+     "start": 34.24,
+     "end": 34.56,
+     "text": "expanded"
+    },
+    {
+     "start": 34.56,
+     "end": 35.04,
+     "text": "requirements"
+    },
+    {
+     "start": 35.04,
+     "end": 35.34,
+     "text": "to"
+    },
+    {
+     "start": 35.34,
+     "end": 35.56,
+     "text": "include"
+    },
+    {
+     "start": 35.56,
+     "end": 35.8,
+     "text": "small"
+    },
+    {
+     "start": 35.8,
+     "end": 36.3,
+     "text": "boats,"
+    },
+    {
+     "start": 36.3,
+     "end": 37.02,
+     "text": "paddleboards,"
+    },
+    {
+     "start": 37.02,
+     "end": 37.42,
+     "text": "kayaks,"
+    },
+    {
+     "start": 37.42,
+     "end": 37.5,
+     "text": "and"
+    },
+    {
+     "start": 37.5,
+     "end": 38.1,
+     "text": "rafts."
+    }
+   ]
+  },
+  {
+   "start": 38.16,
+   "end": 42.28,
+   "text": "And yes, even inflatable ones, because the Coast Guard defines those as a vessel.",
+   "words": [
+    {
+     "start": 38.16,
+     "end": 38.38,
+     "text": "And"
+    },
+    {
+     "start": 38.38,
+     "end": 38.66,
+     "text": "yes,"
+    },
+    {
+     "start": 38.66,
+     "end": 39.14,
+     "text": "even"
+    },
+    {
+     "start": 39.14,
+     "end": 39.52,
+     "text": "inflatable"
+    },
+    {
+     "start": 39.52,
+     "end": 40.04,
+     "text": "ones,"
+    },
+    {
+     "start": 40.04,
+     "end": 40.16,
+     "text": "because"
+    },
+    {
+     "start": 40.16,
+     "end": 40.38,
+     "text": "the"
+    },
+    {
+     "start": 40.38,
+     "end": 40.58,
+     "text": "Coast"
+    },
+    {
+     "start": 40.58,
+     "end": 40.76,
+     "text": "Guard"
+    },
+    {
+     "start": 40.76,
+     "end": 41.3,
+     "text": "defines"
+    },
+    {
+     "start": 41.3,
+     "end": 41.58,
+     "text": "those"
+    },
+    {
+     "start": 41.58,
+     "end": 41.86,
+     "text": "as"
+    },
+    {
+     "start": 41.86,
+     "end": 42.0,
+     "text": "a"
+    },
+    {
+     "start": 42.0,
+     "end": 42.28,
+     "text": "vessel."
+    }
+   ]
+  },
+  {
+   "start": 42.62,
+   "end": 49.64,
+   "text": "I asked the Oregon Marine Board if they had any sources that show invasive mussels are transmitted via paddleboards, and they said the policy has nothing to do with science.",
+   "words": [
+    {
+     "start": 42.62,
+     "end": 42.98,
+     "text": "I"
+    },
+    {
+     "start": 42.98,
+     "end": 43.2,
+     "text": "asked"
+    },
+    {
+     "start": 43.2,
+     "end": 43.32,
+     "text": "the"
+    },
+    {
+     "start": 43.32,
+     "end": 43.56,
+     "text": "Oregon"
+    },
+    {
+     "start": 43.56,
+     "end": 43.72,
+     "text": "Marine"
+    },
+    {
+     "start": 43.72,
+     "end": 43.92,
+     "text": "Board"
+    },
+    {
+     "start": 43.92,
+     "end": 44.08,
+     "text": "if"
+    },
+    {
+     "start": 44.08,
+     "end": 44.18,
+     "text": "they"
+    },
+    {
+     "start": 44.18,
+     "end": 44.26,
+     "text": "had"
+    },
+    {
+     "start": 44.26,
+     "end": 44.56,
+     "text": "any"
+    },
+    {
+     "start": 44.56,
+     "end": 44.88,
+     "text": "sources"
+    },
+    {
+     "start": 44.88,
+     "end": 45.08,
+     "text": "that"
+    },
+    {
+     "start": 45.08,
+     "end": 45.22,
+     "text": "show"
+    },
+    {
+     "start": 45.22,
+     "end": 45.54,
+     "text": "invasive"
+    },
+    {
+     "start": 45.54,
+     "end": 45.82,
+     "text": "mussels"
+    },
+    {
+     "start": 45.82,
+     "end": 46.02,
+     "text": "are"
+    },
+    {
+     "start": 46.02,
+     "end": 46.32,
+     "text": "transmitted"
+    },
+    {
+     "start": 46.32,
+     "end": 46.6,
+     "text": "via"
+    },
+    {
+     "start": 46.6,
+     "end": 47.26,
+     "text": "paddleboards,"
+    },
+    {
+     "start": 47.26,
+     "end": 47.34,
+     "text": "and"
+    },
+    {
+     "start": 47.34,
+     "end": 47.46,
+     "text": "they"
+    },
+    {
+     "start": 47.46,
+     "end": 47.6,
+     "text": "said"
+    },
+    {
+     "start": 47.6,
+     "end": 47.7,
+     "text": "the"
+    },
+    {
+     "start": 47.7,
+     "end": 48.04,
+     "text": "policy"
+    },
+    {
+     "start": 48.04,
+     "end": 48.32,
+     "text": "has"
+    },
+    {
+     "start": 48.32,
+     "end": 48.82,
+     "text": "nothing"
+    },
+    {
+     "start": 48.82,
+     "end": 49.06,
+     "text": "to"
+    },
+    {
+     "start": 49.06,
+     "end": 49.12,
+     "text": "do"
+    },
+    {
+     "start": 49.12,
+     "end": 49.28,
+     "text": "with"
+    },
+    {
+     "start": 49.28,
+     "end": 49.64,
+     "text": "science."
+    }
+   ]
+  },
+  {
+   "start": 49.92,
+   "end": 50.12,
+   "text": "Literally.",
+   "words": [
+    {
+     "start": 49.92,
+     "end": 50.12,
+     "text": "Literally."
+    }
+   ]
+  },
+  {
+   "start": 50.12,
+   "end": 53.36,
+   "text": "They just really want to be in compliance with the Coast Guard.",
+   "words": [
+    {
+     "start": 50.12,
+     "end": 50.84,
+     "text": "They"
+    },
+    {
+     "start": 50.84,
+     "end": 51.08,
+     "text": "just"
+    },
+    {
+     "start": 51.08,
+     "end": 51.6,
+     "text": "really"
+    },
+    {
+     "start": 51.6,
+     "end": 51.84,
+     "text": "want"
+    },
+    {
+     "start": 51.84,
+     "end": 51.92,
+     "text": "to"
+    },
+    {
+     "start": 51.92,
+     "end": 52.06,
+     "text": "be"
+    },
+    {
+     "start": 52.06,
+     "end": 52.18,
+     "text": "in"
+    },
+    {
+     "start": 52.18,
+     "end": 52.56,
+     "text": "compliance"
+    },
+    {
+     "start": 52.56,
+     "end": 52.76,
+     "text": "with"
+    },
+    {
+     "start": 52.76,
+     "end": 52.88,
+     "text": "the"
+    },
+    {
+     "start": 52.88,
+     "end": 53.06,
+     "text": "Coast"
+    },
+    {
+     "start": 53.06,
+     "end": 53.36,
+     "text": "Guard."
+    }
+   ]
+  },
+  {
+   "start": 53.82,
+   "end": 56.82,
+   "text": "So anyway, permits are per craft, and you can share them with others.",
+   "words": [
+    {
+     "start": 53.82,
+     "end": 54.0,
+     "text": "So"
+    },
+    {
+     "start": 54.0,
+     "end": 54.6,
+     "text": "anyway,"
+    },
+    {
+     "start": 54.6,
+     "end": 54.98,
+     "text": "permits"
+    },
+    {
+     "start": 54.98,
+     "end": 55.2,
+     "text": "are"
+    },
+    {
+     "start": 55.2,
+     "end": 55.42,
+     "text": "per"
+    },
+    {
+     "start": 55.42,
+     "end": 55.88,
+     "text": "craft,"
+    },
+    {
+     "start": 55.88,
+     "end": 55.92,
+     "text": "and"
+    },
+    {
+     "start": 55.92,
+     "end": 56.02,
+     "text": "you"
+    },
+    {
+     "start": 56.02,
+     "end": 56.14,
+     "text": "can"
+    },
+    {
+     "start": 56.14,
+     "end": 56.28,
+     "text": "share"
+    },
+    {
+     "start": 56.28,
+     "end": 56.42,
+     "text": "them"
+    },
+    {
+     "start": 56.42,
+     "end": 56.58,
+     "text": "with"
+    },
+    {
+     "start": 56.58,
+     "end": 56.82,
+     "text": "others."
+    }
+   ]
+  },
+  {
+   "start": 56.4,
+   "end": 57.28,
+   "text": "But",
+   "words": [
+    {
+     "start": 56.4,
+     "end": 57.28,
+     "text": "But"
+    }
+   ]
+  },
+  {
+   "start": 57.28,
+   "end": 59.04,
+   "text": "there are some interesting exceptions.",
+   "words": [
+    {
+     "start": 57.28,
+     "end": 57.78,
+     "text": "there"
+    },
+    {
+     "start": 57.78,
+     "end": 57.94,
+     "text": "are"
+    },
+    {
+     "start": 57.94,
+     "end": 58.14,
+     "text": "some"
+    },
+    {
+     "start": 58.14,
+     "end": 58.52,
+     "text": "interesting"
+    },
+    {
+     "start": 58.52,
+     "end": 59.04,
+     "text": "exceptions."
+    }
+   ]
+  },
+  {
+   "start": 59.7,
+   "end": 62.42,
+   "text": "You don't need a permit for surfboard sailboards or kiteboards.",
+   "words": [
+    {
+     "start": 59.7,
+     "end": 59.78,
+     "text": "You"
+    },
+    {
+     "start": 59.78,
+     "end": 60.04,
+     "text": "don't"
+    },
+    {
+     "start": 60.04,
+     "end": 60.18,
+     "text": "need"
+    },
+    {
+     "start": 60.18,
+     "end": 60.26,
+     "text": "a"
+    },
+    {
+     "start": 60.26,
+     "end": 60.48,
+     "text": "permit"
+    },
+    {
+     "start": 60.48,
+     "end": 60.7,
+     "text": "for"
+    },
+    {
+     "start": 60.7,
+     "end": 61.14,
+     "text": "surfboard"
+    },
+    {
+     "start": 61.14,
+     "end": 61.6,
+     "text": "sailboards"
+    },
+    {
+     "start": 61.6,
+     "end": 61.76,
+     "text": "or"
+    },
+    {
+     "start": 61.76,
+     "end": 62.42,
+     "text": "kiteboards."
+    }
+   ]
+  },
+  {
+   "start": 62.5,
+   "end": 68.484,
+   "text": "Rivertube's got an exemption after massive public backlash because the state initially said any multi-air chamber is a boat.",
+   "words": [
+    {
+     "start": 62.5,
+     "end": 63.0,
+     "text": "Rivertube's"
+    },
+    {
+     "start": 63.0,
+     "end": 63.12,
+     "text": "got"
+    },
+    {
+     "start": 63.12,
+     "end": 63.26,
+     "text": "an"
+    },
+    {
+     "start": 63.26,
+     "end": 63.52,
+     "text": "exemption"
+    },
+    {
+     "start": 63.52,
+     "end": 63.96,
+     "text": "after"
+    },
+    {
+     "start": 63.96,
+     "end": 64.44,
+     "text": "massive"
+    },
+    {
+     "start": 64.44,
+     "end": 64.78,
+     "text": "public"
+    },
+    {
+     "start": 64.78,
+     "end": 65.14,
+     "text": "backlash"
+    },
+    {
+     "start": 65.14,
+     "end": 65.46,
+     "text": "because"
+    },
+    {
+     "start": 65.46,
+     "end": 65.68,
+     "text": "the"
+    },
+    {
+     "start": 65.684,
+     "end": 65.844,
+     "text": "state"
+    },
+    {
+     "start": 65.844,
+     "end": 66.344,
+     "text": "initially"
+    },
+    {
+     "start": 66.344,
+     "end": 66.904,
+     "text": "said"
+    },
+    {
+     "start": 66.904,
+     "end": 67.124,
+     "text": "any"
+    },
+    {
+     "start": 67.124,
+     "end": 67.564,
+     "text": "multi-air"
+    },
+    {
+     "start": 67.564,
+     "end": 67.844,
+     "text": "chamber"
+    },
+    {
+     "start": 67.844,
+     "end": 68.064,
+     "text": "is"
+    },
+    {
+     "start": 68.064,
+     "end": 68.164,
+     "text": "a"
+    },
+    {
+     "start": 68.164,
+     "end": 68.484,
+     "text": "boat."
+    }
+   ]
+  },
+  {
+   "start": 68.484,
+   "end": 73.404,
+   "text": "You also don't need one if you're a tribal member, seaplane, government boat on official business, scouts group, or your",
+   "words": [
+    {
+     "start": 68.484,
+     "end": 68.764,
+     "text": "You"
+    },
+    {
+     "start": 68.764,
+     "end": 69.004,
+     "text": "also"
+    },
+    {
+     "start": 69.004,
+     "end": 69.184,
+     "text": "don't"
+    },
+    {
+     "start": 69.184,
+     "end": 69.304,
+     "text": "need"
+    },
+    {
+     "start": 68.864,
+     "end": 69.464,
+     "text": "one"
+    },
+    {
+     "start": 69.464,
+     "end": 69.584,
+     "text": "if"
+    },
+    {
+     "start": 69.584,
+     "end": 69.664,
+     "text": "you're"
+    },
+    {
+     "start": 69.664,
+     "end": 69.764,
+     "text": "a"
+    },
+    {
+     "start": 69.764,
+     "end": 70.004,
+     "text": "tribal"
+    },
+    {
+     "start": 70.004,
+     "end": 70.484,
+     "text": "member,"
+    },
+    {
+     "start": 70.484,
+     "end": 71.024,
+     "text": "seaplane,"
+    },
+    {
+     "start": 71.024,
+     "end": 71.244,
+     "text": "government"
+    },
+    {
+     "start": 71.244,
+     "end": 71.404,
+     "text": "boat"
+    },
+    {
+     "start": 71.404,
+     "end": 71.544,
+     "text": "on"
+    },
+    {
+     "start": 71.544,
+     "end": 71.764,
+     "text": "official"
+    },
+    {
+     "start": 71.764,
+     "end": 72.424,
+     "text": "business,"
+    },
+    {
+     "start": 72.424,
+     "end": 72.664,
+     "text": "scouts"
+    },
+    {
+     "start": 72.664,
+     "end": 72.984,
+     "text": "group,"
+    },
+    {
+     "start": 72.984,
+     "end": 73.244,
+     "text": "or"
+    },
+    {
+     "start": 73.244,
+     "end": 73.404,
+     "text": "your"
+    }
+   ]
+  },
+  {
+   "start": 73.144,
+   "end": 75.664,
+   "text": "whitewater rafting on a boat under 10 feet.",
+   "words": [
+    {
+     "start": 73.144,
+     "end": 73.824,
+     "text": "whitewater"
+    },
+    {
+     "start": 73.824,
+     "end": 74.204,
+     "text": "rafting"
+    },
+    {
+     "start": 74.204,
+     "end": 74.444,
+     "text": "on"
+    },
+    {
+     "start": 74.444,
+     "end": 74.564,
+     "text": "a"
+    },
+    {
+     "start": 74.564,
+     "end": 74.704,
+     "text": "boat"
+    },
+    {
+     "start": 74.704,
+     "end": 74.984,
+     "text": "under"
+    },
+    {
+     "start": 74.984,
+     "end": 75.284,
+     "text": "10"
+    },
+    {
+     "start": 75.284,
+     "end": 75.664,
+     "text": "feet."
+    }
+   ]
+  },
+  {
+   "start": 75.664,
+   "end": 77.864,
+   "text": "The state told me they want folks enjoying our natural",
+   "words": [
+    {
+     "start": 75.664,
+     "end": 75.984,
+     "text": "The"
+    },
+    {
+     "start": 75.984,
+     "end": 76.164,
+     "text": "state"
+    },
+    {
+     "start": 76.164,
+     "end": 76.364,
+     "text": "told"
+    },
+    {
+     "start": 76.364,
+     "end": 76.444,
+     "text": "me"
+    },
+    {
+     "start": 76.444,
+     "end": 76.584,
+     "text": "they"
+    },
+    {
+     "start": 76.584,
+     "end": 76.724,
+     "text": "want"
+    },
+    {
+     "start": 76.724,
+     "end": 77.024,
+     "text": "folks"
+    },
+    {
+     "start": 77.024,
+     "end": 77.404,
+     "text": "enjoying"
+    },
+    {
+     "start": 77.404,
+     "end": 77.604,
+     "text": "our"
+    },
+    {
+     "start": 77.604,
+     "end": 77.864,
+     "text": "natural"
+    }
+   ]
+  },
+  {
+   "start": 77.424,
+   "end": 78.504,
+   "text": "resources.",
+   "words": [
+    {
+     "start": 77.424,
+     "end": 78.504,
+     "text": "resources."
+    }
+   ]
+  },
+  {
+   "start": 78.504,
+   "end": 81.724,
+   "text": "So you don't need a permit on free fishing days either.",
+   "words": [
+    {
+     "start": 78.504,
+     "end": 79.124,
+     "text": "So"
+    },
+    {
+     "start": 79.124,
+     "end": 79.584,
+     "text": "you"
+    },
+    {
+     "start": 79.584,
+     "end": 79.744,
+     "text": "don't"
+    },
+    {
+     "start": 79.744,
+     "end": 79.864,
+     "text": "need"
+    },
+    {
+     "start": 79.864,
+     "end": 79.984,
+     "text": "a"
+    },
+    {
+     "start": 79.984,
+     "end": 80.224,
+     "text": "permit"
+    },
+    {
+     "start": 80.224,
+     "end": 80.404,
+     "text": "on"
+    },
+    {
+     "start": 80.404,
+     "end": 80.624,
+     "text": "free"
+    },
+    {
+     "start": 80.624,
+     "end": 80.924,
+     "text": "fishing"
+    },
+    {
+     "start": 80.924,
+     "end": 81.244,
+     "text": "days"
+    },
+    {
+     "start": 81.244,
+     "end": 81.724,
+     "text": "either."
+    }
+   ]
+  },
+  {
+   "start": 81.724,
+   "end": 83.144,
+   "text": "And permits are only required for",
+   "words": [
+    {
+     "start": 81.724,
+     "end": 82.024,
+     "text": "And"
+    },
+    {
+     "start": 82.024,
+     "end": 82.204,
+     "text": "permits"
+    },
+    {
+     "start": 82.204,
+     "end": 82.404,
+     "text": "are"
+    },
+    {
+     "start": 82.404,
+     "end": 82.564,
+     "text": "only"
+    },
+    {
+     "start": 82.564,
+     "end": 82.884,
+     "text": "required"
+    },
+    {
+     "start": 82.444,
+     "end": 83.144,
+     "text": "for"
+    }
+   ]
+  },
+  {
+   "start": 83.144,
+   "end": 84.544,
+   "text": "anyone over the age of 13.",
+   "words": [
+    {
+     "start": 83.144,
+     "end": 83.324,
+     "text": "anyone"
+    },
+    {
+     "start": 83.324,
+     "end": 83.604,
+     "text": "over"
+    },
+    {
+     "start": 83.604,
+     "end": 83.724,
+     "text": "the"
+    },
+    {
+     "start": 83.724,
+     "end": 83.864,
+     "text": "age"
+    },
+    {
+     "start": 83.864,
+     "end": 84.004,
+     "text": "of"
+    },
+    {
+     "start": 84.004,
+     "end": 84.544,
+     "text": "13."
+    }
+   ]
+  },
+  {
+   "start": 84.544,
+   "end": 87.204,
+   "text": "So since it's Oregon, just identify as a preteen.",
+   "words": [
+    {
+     "start": 84.544,
+     "end": 84.684,
+     "text": "So"
+    },
+    {
+     "start": 84.684,
+     "end": 85.004,
+     "text": "since"
+    },
+    {
+     "start": 85.004,
+     "end": 85.164,
+     "text": "it's"
+    },
+    {
+     "start": 85.164,
+     "end": 85.624,
+     "text": "Oregon,"
+    },
+    {
+     "start": 85.624,
+     "end": 86.044,
+     "text": "just"
+    },
+    {
+     "start": 86.044,
+     "end": 86.464,
+     "text": "identify"
+    },
+    {
+     "start": 86.464,
+     "end": 86.704,
+     "text": "as"
+    },
+    {
+     "start": 86.704,
+     "end": 86.804,
+     "text": "a"
+    },
+    {
+     "start": 86.804,
+     "end": 87.204,
+     "text": "preteen."
+    }
+   ]
+  },
+  {
+   "start": 87.204,
+   "end": 88.784,
+   "text": "I have a young soul.",
+   "words": [
+    {
+     "start": 87.204,
+     "end": 87.944,
+     "text": "I"
+    },
+    {
+     "start": 87.944,
+     "end": 88.224,
+     "text": "have"
+    },
+    {
+     "start": 88.224,
+     "end": 88.324,
+     "text": "a"
+    },
+    {
+     "start": 88.324,
+     "end": 88.464,
+     "text": "young"
+    },
+    {
+     "start": 88.464,
+     "end": 88.784,
+     "text": "soul."
+    }
+   ]
+  },
+  {
+   "start": 89.164,
+   "end": 93.524,
+   "text": "Now, if you fail to show a permit, that's a Class D violation, and the state can fine you $115.",
+   "words": [
+    {
+     "start": 89.164,
+     "end": 89.504,
+     "text": "Now,"
+    },
+    {
+     "start": 89.504,
+     "end": 89.584,
+     "text": "if"
+    },
+    {
+     "start": 89.584,
+     "end": 89.664,
+     "text": "you"
+    },
+    {
+     "start": 89.664,
+     "end": 89.844,
+     "text": "fail"
+    },
+    {
+     "start": 89.844,
+     "end": 89.984,
+     "text": "to"
+    },
+    {
+     "start": 89.984,
+     "end": 90.104,
+     "text": "show"
+    },
+    {
+     "start": 90.104,
+     "end": 90.224,
+     "text": "a"
+    },
+    {
+     "start": 90.224,
+     "end": 90.624,
+     "text": "permit,"
+    },
+    {
+     "start": 90.624,
+     "end": 90.704,
+     "text": "that's"
+    },
+    {
+     "start": 90.704,
+     "end": 90.844,
+     "text": "a"
+    },
+    {
+     "start": 90.844,
+     "end": 91.004,
+     "text": "Class"
+    },
+    {
+     "start": 91.004,
+     "end": 91.224,
+     "text": "D"
+    },
+    {
+     "start": 91.224,
+     "end": 91.684,
+     "text": "violation,"
+    },
+    {
+     "start": 91.684,
+     "end": 92.024,
+     "text": "and"
+    },
+    {
+     "start": 92.024,
+     "end": 92.164,
+     "text": "the"
+    },
+    {
+     "start": 92.164,
+     "end": 92.324,
+     "text": "state"
+    },
+    {
+     "start": 92.324,
+     "end": 92.524,
+     "text": "can"
+    },
+    {
+     "start": 92.524,
+     "end": 92.644,
+     "text": "fine"
+    },
+    {
+     "start": 92.644,
+     "end": 93.524,
+     "text": "you $115."
+    }
+   ]
+  },
+  {
+   "start": 94.384,
+   "end": 98.804,
+   "text": "Tickets are handed out by your local police or county sheriff, so you can't really ignore them.",
+   "words": [
+    {
+     "start": 94.384,
+     "end": 94.584,
+     "text": "Tickets"
+    },
+    {
+     "start": 94.584,
+     "end": 94.784,
+     "text": "are"
+    },
+    {
+     "start": 94.784,
+     "end": 94.964,
+     "text": "handed"
+    },
+    {
+     "start": 94.964,
+     "end": 95.184,
+     "text": "out"
+    },
+    {
+     "start": 95.184,
+     "end": 95.344,
+     "text": "by"
+    },
+    {
+     "start": 95.344,
+     "end": 95.444,
+     "text": "your"
+    },
+    {
+     "start": 95.444,
+     "end": 95.644,
+     "text": "local"
+    },
+    {
+     "start": 95.644,
+     "end": 96.004,
+     "text": "police"
+    },
+    {
+     "start": 96.004,
+     "end": 96.284,
+     "text": "or"
+    },
+    {
+     "start": 96.284,
+     "end": 96.624,
+     "text": "county"
+    },
+    {
+     "start": 96.624,
+     "end": 97.204,
+     "text": "sheriff,"
+    },
+    {
+     "start": 97.204,
+     "end": 97.344,
+     "text": "so"
+    },
+    {
+     "start": 97.344,
+     "end": 97.744,
+     "text": "you"
+    },
+    {
+     "start": 97.744,
+     "end": 97.964,
+     "text": "can't"
+    },
+    {
+     "start": 97.964,
+     "end": 98.144,
+     "text": "really"
+    },
+    {
+     "start": 98.144,
+     "end": 98.464,
+     "text": "ignore"
+    },
+    {
+     "start": 98.464,
+     "end": 98.804,
+     "text": "them."
+    }
+   ]
+  },
+  {
+   "start": 98.324,
+   "end": 99.204,
+   "text": "But",
+   "words": [
+    {
+     "start": 98.324,
+     "end": 99.204,
+     "text": "But"
+    }
+   ]
+  },
+  {
+   "start": 99.204,
+   "end": 103.124,
+   "text": "some citizens believe this is an infringement on liberty, so Let Us Paddle was created.",
+   "words": [
+    {
+     "start": 99.204,
+     "end": 99.364,
+     "text": "some"
+    },
+    {
+     "start": 99.364,
+     "end": 99.744,
+     "text": "citizens"
+    },
+    {
+     "start": 99.744,
+     "end": 100.104,
+     "text": "believe"
+    },
+    {
+     "start": 100.104,
+     "end": 100.344,
+     "text": "this"
+    },
+    {
+     "start": 100.344,
+     "end": 100.504,
+     "text": "is"
+    },
+    {
+     "start": 100.504,
+     "end": 100.604,
+     "text": "an"
+    },
+    {
+     "start": 100.604,
+     "end": 101.064,
+     "text": "infringement"
+    },
+    {
+     "start": 101.064,
+     "end": 101.224,
+     "text": "on"
+    },
+    {
+     "start": 101.224,
+     "end": 101.464,
+     "text": "liberty,"
+    },
+    {
+     "start": 101.464,
+     "end": 102.024,
+     "text": "so"
+    },
+    {
+     "start": 102.024,
+     "end": 102.144,
+     "text": "Let"
+    },
+    {
+     "start": 102.144,
+     "end": 102.264,
+     "text": "Us"
+    },
+    {
+     "start": 102.264,
+     "end": 102.504,
+     "text": "Paddle"
+    },
+    {
+     "start": 102.504,
+     "end": 102.764,
+     "text": "was"
+    },
+    {
+     "start": 102.764,
+     "end": 103.124,
+     "text": "created."
+    }
+   ]
+  },
+  {
+   "start": 103.464,
+   "end": 106.944,
+   "text": "They say the law imposes unconstitutional burdens on free public resources,",
+   "words": [
+    {
+     "start": 103.464,
+     "end": 103.764,
+     "text": "They"
+    },
+    {
+     "start": 103.764,
+     "end": 103.904,
+     "text": "say"
+    },
+    {
+     "start": 103.904,
+     "end": 104.044,
+     "text": "the"
+    },
+    {
+     "start": 104.044,
+     "end": 104.204,
+     "text": "law"
+    },
+    {
+     "start": 104.204,
+     "end": 104.584,
+     "text": "imposes"
+    },
+    {
+     "start": 104.584,
+     "end": 105.364,
+     "text": "unconstitutional"
+    },
+    {
+     "start": 105.364,
+     "end": 105.744,
+     "text": "burdens"
+    },
+    {
+     "start": 105.744,
+     "end": 105.984,
+     "text": "on"
+    },
+    {
+     "start": 105.984,
+     "end": 106.144,
+     "text": "free"
+    },
+    {
+     "start": 106.144,
+     "end": 106.384,
+     "text": "public"
+    },
+    {
+     "start": 106.384,
+     "end": 106.944,
+     "text": "resources,"
+    }
+   ]
+  },
+  {
+   "start": 107.484,
+   "end": 111.524,
+   "text": "discourages outdoor activity, and is just another way for the state to generate revenue.",
+   "words": [
+    {
+     "start": 107.484,
+     "end": 107.904,
+     "text": "discourages"
+    },
+    {
+     "start": 107.904,
+     "end": 108.244,
+     "text": "outdoor"
+    },
+    {
+     "start": 108.244,
+     "end": 108.664,
+     "text": "activity,"
+    },
+    {
+     "start": 108.664,
+     "end": 109.424,
+     "text": "and"
+    },
+    {
+     "start": 109.424,
+     "end": 109.744,
+     "text": "is"
+    },
+    {
+     "start": 109.744,
+     "end": 109.864,
+     "text": "just"
+    },
+    {
+     "start": 109.864,
+     "end": 110.104,
+     "text": "another"
+    },
+    {
+     "start": 110.104,
+     "end": 110.304,
+     "text": "way"
+    },
+    {
+     "start": 110.304,
+     "end": 110.444,
+     "text": "for"
+    },
+    {
+     "start": 110.444,
+     "end": 110.564,
+     "text": "the"
+    },
+    {
+     "start": 110.564,
+     "end": 110.704,
+     "text": "state"
+    },
+    {
+     "start": 110.704,
+     "end": 110.864,
+     "text": "to"
+    },
+    {
+     "start": 110.864,
+     "end": 111.124,
+     "text": "generate"
+    },
+    {
+     "start": 111.124,
+     "end": 111.524,
+     "text": "revenue."
+    }
+   ]
+  },
+  {
+   "start": 111.984,
+   "end": 115.164,
+   "text": "Let Us Paddle gathered signatures to get a repeal of the law on the November ballot,",
+   "words": [
+    {
+     "start": 111.984,
+     "end": 112.104,
+     "text": "Let"
+    },
+    {
+     "start": 112.104,
+     "end": 112.224,
+     "text": "Us"
+    },
+    {
+     "start": 112.224,
+     "end": 112.464,
+     "text": "Paddle"
+    },
+    {
+     "start": 112.464,
+     "end": 112.744,
+     "text": "gathered"
+    },
+    {
+     "start": 112.744,
+     "end": 113.144,
+     "text": "signatures"
+    },
+    {
+     "start": 113.144,
+     "end": 113.344,
+     "text": "to"
+    },
+    {
+     "start": 113.344,
+     "end": 113.444,
+     "text": "get"
+    },
+    {
+     "start": 113.444,
+     "end": 113.604,
+     "text": "a"
+    },
+    {
+     "start": 113.604,
+     "end": 113.804,
+     "text": "repeal"
+    },
+    {
+     "start": 113.804,
+     "end": 113.944,
+     "text": "of"
+    },
+    {
+     "start": 113.944,
+     "end": 114.024,
+     "text": "the"
+    },
+    {
+     "start": 114.024,
+     "end": 114.184,
+     "text": "law"
+    },
+    {
+     "start": 114.184,
+     "end": 114.344,
+     "text": "on"
+    },
+    {
+     "start": 114.344,
+     "end": 114.424,
+     "text": "the"
+    },
+    {
+     "start": 114.424,
+     "end": 114.624,
+     "text": "November"
+    },
+    {
+     "start": 114.624,
+     "end": 115.164,
+     "text": "ballot,"
+    }
+   ]
+  },
+  {
+   "start": 115.064,
+   "end": 119.304,
+   "text": "but only collected about 40,000 of the 117,000 signatures needed.",
+   "words": [
+    {
+     "start": 115.064,
+     "end": 115.244,
+     "text": "but"
+    },
+    {
+     "start": 115.244,
+     "end": 115.524,
+     "text": "only"
+    },
+    {
+     "start": 115.524,
+     "end": 115.904,
+     "text": "collected"
+    },
+    {
+     "start": 115.904,
+     "end": 116.124,
+     "text": "about"
+    },
+    {
+     "start": 116.124,
+     "end": 116.764,
+     "text": "40,000"
+    },
+    {
+     "start": 116.764,
+     "end": 117.124,
+     "text": "of"
+    },
+    {
+     "start": 117.124,
+     "end": 117.224,
+     "text": "the"
+    },
+    {
+     "start": 117.224,
+     "end": 118.404,
+     "text": "117,000"
+    },
+    {
+     "start": 118.404,
+     "end": 118.864,
+     "text": "signatures"
+    },
+    {
+     "start": 118.864,
+     "end": 119.304,
+     "text": "needed."
+    }
+   ]
+  },
+  {
+   "start": 119.544,
+   "end": 123.284,
+   "text": "So they plan to shift their efforts and focus on common-sense reforms to the permit system.",
+   "words": [
+    {
+     "start": 119.544,
+     "end": 119.684,
+     "text": "So"
+    },
+    {
+     "start": 119.684,
+     "end": 119.784,
+     "text": "they"
+    },
+    {
+     "start": 119.784,
+     "end": 119.944,
+     "text": "plan"
+    },
+    {
+     "start": 119.944,
+     "end": 120.084,
+     "text": "to"
+    },
+    {
+     "start": 120.084,
+     "end": 120.284,
+     "text": "shift"
+    },
+    {
+     "start": 120.284,
+     "end": 120.444,
+     "text": "their"
+    },
+    {
+     "start": 120.444,
+     "end": 120.664,
+     "text": "efforts"
+    },
+    {
+     "start": 120.664,
+     "end": 120.904,
+     "text": "and"
+    },
+    {
+     "start": 120.904,
+     "end": 121.164,
+     "text": "focus"
+    },
+    {
+     "start": 121.164,
+     "end": 121.364,
+     "text": "on"
+    },
+    {
+     "start": 121.364,
+     "end": 121.864,
+     "text": "common-sense"
+    },
+    {
+     "start": 121.864,
+     "end": 122.244,
+     "text": "reforms"
+    },
+    {
+     "start": 122.244,
+     "end": 122.484,
+     "text": "to"
+    },
+    {
+     "start": 122.484,
+     "end": 122.604,
+     "text": "the"
+    },
+    {
+     "start": 122.604,
+     "end": 122.844,
+     "text": "permit"
+    },
+    {
+     "start": 122.844,
+     "end": 123.284,
+     "text": "system."
+    }
+   ]
+  },
+  {
+   "start": 123.704,
+   "end": 126.564,
+   "text": "So for now, the waterway access permit for paddleboard sticks.",
+   "words": [
+    {
+     "start": 123.704,
+     "end": 123.864,
+     "text": "So"
+    },
+    {
+     "start": 123.864,
+     "end": 124.004,
+     "text": "for"
+    },
+    {
+     "start": 124.004,
+     "end": 124.424,
+     "text": "now,"
+    },
+    {
+     "start": 124.424,
+     "end": 124.544,
+     "text": "the"
+    },
+    {
+     "start": 124.544,
+     "end": 124.884,
+     "text": "waterway"
+    },
+    {
+     "start": 124.884,
+     "end": 125.224,
+     "text": "access"
+    },
+    {
+     "start": 125.224,
+     "end": 125.584,
+     "text": "permit"
+    },
+    {
+     "start": 125.584,
+     "end": 125.764,
+     "text": "for"
+    },
+    {
+     "start": 125.764,
+     "end": 126.244,
+     "text": "paddleboard"
+    },
+    {
+     "start": 126.244,
+     "end": 126.564,
+     "text": "sticks."
+    }
+   ]
+  },
+  {
+   "start": 127.184,
+   "end": 130.124,
+   "text": "But will it be harder to get rid of than zebra mussels?",
+   "words": [
+    {
+     "start": 127.184,
+     "end": 127.444,
+     "text": "But"
+    },
+    {
+     "start": 127.444,
+     "end": 127.784,
+     "text": "will"
+    },
+    {
+     "start": 127.784,
+     "end": 127.884,
+     "text": "it"
+    },
+    {
+     "start": 127.884,
+     "end": 128.004,
+     "text": "be"
+    },
+    {
+     "start": 128.004,
+     "end": 128.244,
+     "text": "harder"
+    },
+    {
+     "start": 128.244,
+     "end": 128.404,
+     "text": "to"
+    },
+    {
+     "start": 128.404,
+     "end": 128.544,
+     "text": "get"
+    },
+    {
+     "start": 128.544,
+     "end": 128.684,
+     "text": "rid"
+    },
+    {
+     "start": 128.684,
+     "end": 128.904,
+     "text": "of"
+    },
+    {
+     "start": 128.904,
+     "end": 129.324,
+     "text": "than"
+    },
+    {
+     "start": 129.324,
+     "end": 129.684,
+     "text": "zebra"
+    },
+    {
+     "start": 129.684,
+     "end": 130.124,
+     "text": "mussels?"
+    }
+   ]
+  }
+ ],
+ "language": "English",
+ "backend": "groq",
+ "model": "whisper-large-v3-turbo",
+ "source_duration": 130.728345,
+ "chunk_count": 1,
+ "has_word_timings": true
+}
